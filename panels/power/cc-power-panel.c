@@ -23,7 +23,7 @@
 
 #include <libupower-glib/upower.h>
 #include <glib/gi18n.h>
-#include <gnome-settings-daemon/gsd-enums.h>
+#include <scarecrow-settings-daemon/gsd-enums.h>
 
 #ifdef HAVE_NETWORK_MANAGER
 #include <NetworkManager.h>

@@ -24,7 +24,7 @@
 #include <string.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkx.h>
-#include <gnome-settings-daemon/gsd-enums.h>
+#include <scarecrow-settings-daemon/gsd-enums.h>
 #include <math.h>
 
 #include "cc-mouse-test.h"
