@@ -259,11 +259,12 @@ add_account (CcGoaPanel  *self,
   gtk_window_resize (GTK_WINDOW (self->edit_account_dialog), 1, 1);
 
   /* This spins gtk_dialog_run() */
-  object = goa_provider_add_account (provider,
+  // TODO: This errors
+  object = NULL; /*goa_provider_add_account (provider,
                                      self->client,
                                      self->edit_account_dialog,
                                      self->new_account_vbox,
-                                     &error);
+                                     &error); */
 
   if (object == NULL)
     gtk_widget_hide (GTK_WIDGET (self->edit_account_dialog));
@@ -603,12 +604,12 @@ show_page_account (CcGoaPanel  *panel,
 
   if (provider != NULL)
     {
-      goa_provider_show_account (provider,
+     /* goa_provider_show_account (provider,
                                  panel->client,
                                  object,
                                  panel->accounts_vbox,
                                  NULL,
-                                 NULL);
+                                 NULL); */
       /*
        * The above call doesn't set any widgets to visible, so we have to do that.
        * https://gitlab.gnome.org/GNOME/gnome-online-accounts/issues/56
