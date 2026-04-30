@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 Richard Hughes <richard@hughsie.com> -->
+<component type="desktop">
+  <id>scarecrow-control-center.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>Scarecrow Settings</name>
+  <summary>Utility to configure the Scarecrow desktop</summary>
+  <description>
+    <p>
+      Settings is the primary interface for configuring your system.
+    </p>
+  </description>
+  <url type="bugtracker">https://github.com/scarecrow-de/scarecrow-control-center/issues</url>
+  <project_group>Scarecrow</project_group>
+  <launchable type="desktop-id">scarecrow-control-center.desktop</launchable>
+  <developer_name>The Scarecrow Project</developer_name>
+  <compulsory_for_desktop>Scarecrow</compulsory_for_desktop>
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>SearchProvider</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+  <translation type="gettext">scarecrow-control-center-2.0</translation>
+</component>

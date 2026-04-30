@@ -1495,7 +1495,7 @@ msgid "Launch help browser"
 msgstr "मदत ब्राऊजर सुरू करा"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "सेटिंग्ज"
 
@@ -7109,7 +7109,7 @@ msgctxt "category"
 msgid "System"
 msgstr "प्रणाली"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "पसंती;सेटिंग्स्;"
 
@@ -7649,8 +7649,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Version of this application"
 #~ msgstr "या ॲप्लिकेशनची आवृत्ती"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME वॉल्युम कंट्रोल ॲप्लेट"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow वॉल्युम कंट्रोल ॲप्लेट"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "डेस्कटॉप वॉल्युम कंट्रोल दाखवा"
@@ -8699,8 +8699,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Apply New Theme"
 #~ msgstr "नवीन थीम लागू करा"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME थीम %s योग्यरित्या प्रतिष्ठापित"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow थीम %s योग्यरित्या प्रतिष्ठापित"
 
 #~ msgid "Failed to create temporary directory"
 #~ msgstr "तात्पुरती निर्देशिका निर्माण करण्यास असफल"
@@ -8741,15 +8741,15 @@ msgstr "पसंती;सेटिंग्स्;"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "सत्र व्यवस्थापक 'gnome-settings-daemon' सुरू करण्यास अशक्य.\n"
-#~ "GNOME संयोजना व्यवस्थापक कार्यरत नसल्यास, काहिक पसंतीचा प्रभाव लागू होऊ शकत नाही. "
-#~ "हे DBus सह अडचण असू शकते, किंवा विना-GNOME (उ.दा. KDE) संयोजना व्यवस्थापक "
-#~ "आधिपासूनच स्क्रीय असू शकतो व GNOME संयोजना व्यवस्थापकाशी मतभेद आढळू शकते."
+#~ "Scarecrow संयोजना व्यवस्थापक कार्यरत नसल्यास, काहिक पसंतीचा प्रभाव लागू होऊ शकत नाही. "
+#~ "हे DBus सह अडचण असू शकते, किंवा विना-Scarecrow (उ.दा. KDE) संयोजना व्यवस्थापक "
+#~ "आधिपासूनच स्क्रीय असू शकतो व Scarecrow संयोजना व्यवस्थापकाशी मतभेद आढळू शकते."
 
 #~ msgid "Unable to load stock icon '%s'\n"
 #~ msgstr "स्टॉक चिन्ह %s भारित करण्यास असमर्थ\n"
@@ -9012,11 +9012,11 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Firefox"
 #~ msgstr "फायरफॉक्स"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "पडदा वाचक विना GNOME वर्धक"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "पडदा वाचक विना Scarecrow वर्धक"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "GNOME टर्मिनल"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Scarecrow टर्मिनल"
 
 #~ msgid "Galeon"
 #~ msgstr "गॅलिऑन"
@@ -9190,8 +9190,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "प्रवेशकीय संयोजना प्रदर्शन सह पान सुरू करा"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- GNOME कळफलक पसंती"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Scarecrow कळफलक पसंती"
 
 #~ msgid "Beep when _accessibility features are turned on or off"
 #~ msgstr "प्रवेशकीय गुणविशेष कार्यन्वीत किंवा अकार्यान्वीत करतेवेळी बीप द्या (_a)"
@@ -9289,8 +9289,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "दर्शविण्याकरीताचे निर्धारीत पानाचे नाव प्रविष्ट करा"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- GNOME माऊस पसंती"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Scarecrow माऊस पसंती"
 
 #~ msgid "Choose type of click _beforehand"
 #~ msgstr "पहिलेच क्लिक प्रकार निवडा (_b)"
@@ -9464,8 +9464,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ "activated."
 #~ msgstr "खरे असल्यास, \"सर्वसाधारण कार्य\" सक्रीय असल्यास control-center बंद होते."
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Scarecrow"
 
 #~ msgid "_Postpone Break"
 #~ msgstr "Break पुढे ढकला (_P)"

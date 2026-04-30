@@ -1,12 +1,12 @@
-# Kazakh translation for gnome-control-center.
-# Copyright (C) 2017 gnome-control-center's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Kazakh translation for scarecrow-control-center.
+# Copyright (C) 2017 scarecrow-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010-2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-08-11 22:29+0000\n"
 "PO-Revision-Date: 2020-08-16 13:33+0500\n"
@@ -73,7 +73,7 @@ msgstr "Файлдық жүйе"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:280
 #: shell/cc-window.c:934 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Баптаулар"
 
@@ -1856,8 +1856,8 @@ msgid "OS Type"
 msgstr "ОЖ түрі"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "GNOME нұсқасы"
+msgid "Scarecrow Version"
+msgstr "Scarecrow нұсқасы"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8030,22 +8030,22 @@ msgstr "Төменгі батырма"
 msgid "Tip Pressure Feel"
 msgstr "Қалам басуының сезімталдылығы"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "GNOME баптаулары"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Scarecrow баптаулары"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "GNOME жұмыс үстелін баптау утилитасы"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Scarecrow жұмыс үстелін баптау утилитасы"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr ""
 "Баптаулар қолданбасы жүйеңізді баптаудың негізгі сайманы болып табылады."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "GNOME жобасы"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "Scarecrow жобасы"
 
 #: shell/cc-application.c:60
 msgid "Display version number"
@@ -8106,7 +8106,7 @@ msgid "Help"
 msgstr "Көмек"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;Баптаулар;Қалаулар;"
 
@@ -8980,21 +8980,21 @@ msgstr "Жүйелік дыбыстар"
 #~ msgid "page 3"
 #~ msgstr "бет 3"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME басқару орталығы"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow басқару орталығы"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
 #~ "Басқару орталығы - жұмыс үстеліңіздің түрлі баптауларын жасауға арналған "
-#~ "GNOME жүйесінің басты интерфейсі."
+#~ "Scarecrow жүйесінің басты интерфейсі."
 
 #~ msgid "Quit"
 #~ msgstr "Шығу"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Жаңа парольді ра_стау"

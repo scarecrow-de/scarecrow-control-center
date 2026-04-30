@@ -1,5 +1,5 @@
 # translation of mn.po to Mongolian
-# translation of gnome-control-center.HEAD.po to Mongolian
+# translation of scarecrow-control-center.HEAD.po to Mongolian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
 # Sanlig Badral <badral@chinggis.com>, 2003.
@@ -476,7 +476,7 @@ msgid "_Screenreader"
 msgstr "_Дэлгэц уншигч"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr "Нэвтрэлтэд ГНОМЕ-н туслах технологуудын дэмжилт боломжтой."
 
 #: ../capplets/accessibility/at-properties/main.c:60
@@ -835,15 +835,15 @@ msgstr[1] "цэгүүд"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Тохируулгын менежер »gnome-settings-daemon« эхлүүлэх боломжгүй байна.\n"
-"GNOME-менежергүйгээр хэд хэдэн тохируулга гүйцэлдэхгүй байх боломжтой. Энэ "
-"нь Bonobo -той эсвэл  GNOME бус (ж.нь. KDE-) тохируулгын менежер хэдийнэ "
-"идэвхижих ба GNOME тохируулгын менежертэй зөрчилдөнө."
+"Scarecrow-менежергүйгээр хэд хэдэн тохируулга гүйцэлдэхгүй байх боломжтой. Энэ "
+"нь Bonobo -той эсвэл  Scarecrow бус (ж.нь. KDE-) тохируулгын менежер хэдийнэ "
+"идэвхижих ба Scarecrow тохируулгын менежертэй зөрчилдөнө."
 
 #: ../capplets/common/capplet-stock-icons.c:92
 #, c-format
@@ -1133,7 +1133,7 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "ГНОМЕ Терминал"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
@@ -2271,7 +2271,7 @@ msgstr ""
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:378
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "%s ГНОМЕ Загвар амжилттай суулаа"
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:388
@@ -2649,13 +2649,13 @@ msgid "Desktop Preferences"
 msgstr "Ажлын талбарын тохируулгууд"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "GNOME-Хянах төв"
+msgid "Scarecrow Control Center"
+msgstr "Scarecrow-Хянах төв"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "GNOME-тохируулгын хэрэгсэл"
+msgid "The Scarecrow configuration tool"
+msgstr "Scarecrow-тохируулгын хэрэгсэл"
 
 #: ../gnome-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
@@ -2836,7 +2836,7 @@ msgstr "_Энэ сануулгыг дахин бүү харуул"
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:263
 #, c-format
 msgid ""
-"<b>The X system keyboard settings differ from your current GNOME keyboard "
+"<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.</b>\n"
 "\n"
 "Expected was %s, but the the following settings were found: %s.\n"
@@ -2855,8 +2855,8 @@ msgid "Use X settings"
 msgstr "Х тохиргоог хэрэглэх"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:288
-msgid "Keep GNOME settings"
-msgstr "GNOME тохиргоог хэрэглэх"
+msgid "Keep Scarecrow settings"
+msgstr "Scarecrow тохиргоог хэрэглэх"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:118
 #, c-format
@@ -3300,11 +3300,11 @@ msgstr "Гар тольдолт, өргөн"
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:18
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 "Удахгүй gconf дахь гарын тохиргоо дарагдана (систем тохиргооноос) Энэ "
-"түлхүүр нь GNOME 2.12-оос хойш буруушаагдах болсон, стандарт системийн "
+"түлхүүр нь Scarecrow 2.12-оос хойш буруушаагдах болсон, стандарт системийн "
 "тохиргоог хадгалах загвар, байрлал ба сонголтуудыг үлдээнэ үү."
 
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:19
@@ -3508,8 +3508,8 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "Type1-бичгүүдийг бяцхан зураг загварээр харуулах эсэх?"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
-msgstr "GNOME Фонт харагч"
+msgid "Scarecrow Font Viewer"
+msgstr "Scarecrow Фонт харагч"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

@@ -1,6 +1,6 @@
-# Simplified Chinese translation for gnome-control-center.
-# Copyright (C) 2001-2019 gnome-control-center's COPYRIGHT HOLDER
-# This file is distributed under the same license as gnome-control-center package.
+# Simplified Chinese translation for scarecrow-control-center.
+# Copyright (C) 2001-2019 scarecrow-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as scarecrow-control-center package.
 # Some translations are taken from tranditional Chinese translation.
 # by Abel Cheung <maddog@linuxhall.org>, 2001.
 # He Qiangqiang <carton@linux.net.cn>, 2002.
@@ -30,8 +30,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-08-30 14:35+0000\n"
 "PO-Revision-Date: 2020-08-30 10:45-0400\n"
@@ -98,7 +98,7 @@ msgstr "文件系统"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "设置"
 
@@ -1844,8 +1844,8 @@ msgid "OS Type"
 msgstr "操作系统类型"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "GNOME 版本"
+msgid "Scarecrow Version"
+msgstr "Scarecrow 版本"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -7907,21 +7907,21 @@ msgstr "底部按钮"
 msgid "Tip Pressure Feel"
 msgstr "指尖压力感应"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "GNOME 设置"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Scarecrow 设置"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "用来配置 GNOME 桌面的工具"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "用来配置 Scarecrow 桌面的工具"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "“设置”是配置您的系统的主要界面。"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "GNOME 项目"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "Scarecrow 项目"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -7973,7 +7973,7 @@ msgid ""
 "may experience incorrect system behavior, data loss, and other unexpected "
 "issues. "
 msgstr ""
-"该版本的 GNOME 设置仅适用于开发工作。您可能会遇到不正常的系统行为、数据丢失及"
+"该版本的 Scarecrow 设置仅适用于开发工作。您可能会遇到不正常的系统行为、数据丢失及"
 "其他未预期的问题。"
 
 #: shell/cc-window.ui:330
@@ -7981,7 +7981,7 @@ msgid "Help"
 msgstr "帮助"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;首选项;设置;"
 
@@ -8027,12 +8027,12 @@ msgstr "要打开最近面板的身份。未识别的值将被忽略，然后选
 
 #: shell/org.gnome.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
-msgstr "运行开发版本的 GNOME 设置时显示警告"
+msgstr "运行开发版本的 Scarecrow 设置时显示警告"
 
 #: shell/org.gnome.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
-msgstr "是否在运行开发版本的 GNOME 设置时显示警告。"
+msgstr "是否在运行开发版本的 Scarecrow 设置时显示警告。"
 
 #. translators:
 #. * The number of sound outputs on a particular device
@@ -8797,13 +8797,13 @@ msgstr "系统声音"
 #~ msgid "Could not get screen information"
 #~ msgstr "无法获取屏幕信息"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME 控制中心"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow 控制中心"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
-#~ msgstr "控制中心是 GNOME 用于配置桌面各方面设置的主要界面。"
+#~ msgstr "控制中心是 Scarecrow 用于配置桌面各方面设置的主要界面。"
 
 #~ msgid "Switch to previous source"
 #~ msgstr "切换至上个输入源"
@@ -8828,8 +8828,8 @@ msgstr "系统声音"
 #~ msgid "Quit"
 #~ msgstr "退出"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "My Home Network"
 #~ msgstr "家庭网络"

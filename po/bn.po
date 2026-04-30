@@ -27,22 +27,22 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.3.0\n"
 "X-Language: bn_BD\n"
 
-#: ../gnome-control-center.schemas.in.h:1
+#: ../scarecrow-control-center.schemas.in.h:1
 msgid "Current network location"
 msgstr "বর্তমান নেটওয়ার্কের অবস্থান"
 
 # Translated by sadia
-#: ../gnome-control-center.schemas.in.h:2
+#: ../scarecrow-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
 msgstr "আরও পটভূমির ইউআরএল"
 
 # Translated by sadia
-#: ../gnome-control-center.schemas.in.h:3
+#: ../scarecrow-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr "আরও থিমের ইউআরএল"
 
 # Translated by sadia
-#: ../gnome-control-center.schemas.in.h:4
+#: ../scarecrow-control-center.schemas.in.h:4
 msgid ""
 "Set this to your current location name. This is used to determine the "
 "appropriate network proxy configuration."
@@ -51,7 +51,7 @@ msgstr ""
 "কনফিগারেশন নিরূপন করতে এটি ব্যবহৃত হয়।"
 
 # Translated by sadia
-#: ../gnome-control-center.schemas.in.h:5
+#: ../scarecrow-control-center.schemas.in.h:5
 msgid ""
 "URL for where to get more desktop backgrounds. If set to an empty string the "
 "link will not appear."
@@ -60,7 +60,7 @@ msgstr ""
 "করা থাকে তবে লিংকটি দৃশ্যমান হবে না।"
 
 # Translated by sadia
-#: ../gnome-control-center.schemas.in.h:6
+#: ../scarecrow-control-center.schemas.in.h:6
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
@@ -68,21 +68,21 @@ msgstr ""
 "আরও ডেক্সটপ থিম যেখানে পাওয়া যাবে তার ইউআরএল। যদি ফাঁকা স্ট্রিং হিসেবে নির্ধারণ "
 "করা থাকে তবে লিংকটি দৃশ্যমান হবে না।"
 
-#: ../libgnome-control-center/cc-lockbutton.c:347
+#: ../libscarecrow-control-center/cc-lockbutton.c:347
 #: ../panels/screen/screen.ui.h:14
 msgid "Lock"
 msgstr "আবদ্ধ"
 
-#: ../libgnome-control-center/cc-lockbutton.c:356
+#: ../libscarecrow-control-center/cc-lockbutton.c:356
 #: ../panels/network/network.ui.h:20
 msgid "Unlock"
 msgstr "অনাবদ্ধ"
 
-#: ../libgnome-control-center/cc-lockbutton.c:365
+#: ../libscarecrow-control-center/cc-lockbutton.c:365
 msgid "Locked"
 msgstr "আবদ্ধ"
 
-#: ../libgnome-control-center/cc-lockbutton.c:374
+#: ../libscarecrow-control-center/cc-lockbutton.c:374
 msgid ""
 "Dialog is unlocked.\n"
 "Click to prevent further changes"
@@ -90,7 +90,7 @@ msgstr ""
 "সংলাপ অনাবদ্ধ।\n"
 "আরও পরিবর্তন প্রতিরোধ করতে ক্লিক"
 
-#: ../libgnome-control-center/cc-lockbutton.c:383
+#: ../libscarecrow-control-center/cc-lockbutton.c:383
 msgid ""
 "Dialog is locked.\n"
 "Click to make changes"
@@ -98,7 +98,7 @@ msgstr ""
 "সংলাপ আবদ্ধ।\n"
 "পরিবর্তন করতে ক্লিক"
 
-#: ../libgnome-control-center/cc-lockbutton.c:392
+#: ../libscarecrow-control-center/cc-lockbutton.c:392
 msgid ""
 "System policy prevents changes.\n"
 "Contact your system administrator"
@@ -106,76 +106,76 @@ msgstr ""
 "সিস্টেমের নীতিমালা পরিবর্তন প্রতিরোধ করে।\n"
 "আপনার সিস্টেম প্রশাসকের সাথে যোগাযোগ করুন"
 
-#: ../libgnome-control-center/gconf-property-editor.c:134
+#: ../libscarecrow-control-center/gconf-property-editor.c:134
 msgid "Key"
 msgstr "কী"
 
-#: ../libgnome-control-center/gconf-property-editor.c:135
+#: ../libscarecrow-control-center/gconf-property-editor.c:135
 msgid "GConf key to which this property editor is attached"
 msgstr "যে GConf কী এর সাথে এই বৈশিষ্ট্যনির্ধারণী সম্পাদক যুক্ত আছে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:141
+#: ../libscarecrow-control-center/gconf-property-editor.c:141
 msgid "Callback"
 msgstr "কলব্যাক"
 
-#: ../libgnome-control-center/gconf-property-editor.c:142
+#: ../libscarecrow-control-center/gconf-property-editor.c:142
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "কী এর সাথে যুক্ত মান পরিবর্তিত হলে এই কলব্যাক উৎপন্ন হবে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:147
+#: ../libscarecrow-control-center/gconf-property-editor.c:147
 msgid "Change set"
 msgstr "নির্ধারণ পরিবর্তন"
 
-#: ../libgnome-control-center/gconf-property-editor.c:148
+#: ../libscarecrow-control-center/gconf-property-editor.c:148
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr "GConf নির্ধারণ পরিবর্তনে ধারণকৃত ডাটা gconf ক্লায়েন্টে প্রয়োগ করতে ফরওয়ার্ড"
 
-#: ../libgnome-control-center/gconf-property-editor.c:153
+#: ../libscarecrow-control-center/gconf-property-editor.c:153
 msgid "Conversion to widget callback"
 msgstr "উইজেট কলব্যাকে রূপান্তর"
 
-#: ../libgnome-control-center/gconf-property-editor.c:154
+#: ../libscarecrow-control-center/gconf-property-editor.c:154
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "তথ্যকে GConf থেকে উইজেটে রূপান্তরের সময় যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:159
+#: ../libscarecrow-control-center/gconf-property-editor.c:159
 msgid "Conversion from widget callback"
 msgstr "উইজেট কলব্যাক থেকে রূপান্তর"
 
-#: ../libgnome-control-center/gconf-property-editor.c:160
+#: ../libscarecrow-control-center/gconf-property-editor.c:160
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "তথ্যকে উইজেট থেকে GConf এ রূপান্তরের সময় যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:165
+#: ../libscarecrow-control-center/gconf-property-editor.c:165
 msgid "UI Control"
 msgstr "UI নিয়ন্ত্রণ"
 
-#: ../libgnome-control-center/gconf-property-editor.c:166
+#: ../libscarecrow-control-center/gconf-property-editor.c:166
 msgid "Object that controls the property (normally a widget)"
 msgstr "বৈশিষ্ট্য নির্ধারণী অবজেক্ট (সাধারণত এটি একটি উইজেট)"
 
-#: ../libgnome-control-center/gconf-property-editor.c:181
+#: ../libscarecrow-control-center/gconf-property-editor.c:181
 msgid "Property editor object data"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের অবজেক্টবিষয়ক তথ্য"
 
-#: ../libgnome-control-center/gconf-property-editor.c:182
+#: ../libscarecrow-control-center/gconf-property-editor.c:182
 msgid "Custom data required by the specific property editor"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের প্রয়োজনীয় স্বনির্বাচিত তথ্য"
 
-#: ../libgnome-control-center/gconf-property-editor.c:188
+#: ../libscarecrow-control-center/gconf-property-editor.c:188
 msgid "Property editor data freeing callback"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের তথ্য কলব্যাকের ওপর থেকে নিয়ন্ত্রণ প্রত্যাহার করছে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:189
+#: ../libscarecrow-control-center/gconf-property-editor.c:189
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr ""
 "বৈশিষ্ট্য নির্ধারণী সম্পাদকের অবজেক্টবিষয়ক তথ্যের ওপর থেকে নিয়ন্ত্রণ প্রত্যাহারের সময় "
 "যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../libgnome-control-center/gconf-property-editor.c:1474
+#: ../libscarecrow-control-center/gconf-property-editor.c:1474
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -188,7 +188,7 @@ msgstr ""
 "দয়া করে নিশ্চিত হোন যে ফাইলটি আসলেই আছে কিনা এবং তারপর আবার চেষ্টা করুন, অথবা "
 "পটভূমির জন্য অন্য কোন ছবি বেছে নিন।"
 
-#: ../libgnome-control-center/gconf-property-editor.c:1482
+#: ../libscarecrow-control-center/gconf-property-editor.c:1482
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -201,11 +201,11 @@ msgstr ""
 "\n"
 "অনুগ্রহপূর্বক অন্য একটি ছবি বেছে নিন।"
 
-#: ../libgnome-control-center/gconf-property-editor.c:1604
+#: ../libscarecrow-control-center/gconf-property-editor.c:1604
 msgid "Please select an image."
 msgstr "অনুগ্রহপূর্বক একটি ছবি বেছে নিন।"
 
-#: ../libgnome-control-center/gconf-property-editor.c:1609
+#: ../libscarecrow-control-center/gconf-property-editor.c:1609
 msgid "_Select"
 msgstr "নির্বাচন (_S)"
 
@@ -593,14 +593,14 @@ msgid ""
 msgstr ""
 "অসমর্থিত গ্রাফিক্স হার্ডওয়্যারের জন্য পরবর্তী লগইন উদ্দেশ্যকৃত ফলব্যাক মোড ব্যবহার করবে"
 
-#. translators: The hardware is not able to run GNOME 3's
-#. * shell, so we use the GNOME "Fallback" session
+#. translators: The hardware is not able to run Scarecrow 3's
+#. * shell, so we use the Scarecrow "Fallback" session
 #: ../panels/info/cc-info-panel.c:813
 msgctxt "Experience"
 msgid "Fallback"
 msgstr "ফলব্যাক"
 
-#. translators: The hardware is able to run GNOME 3's
+#. translators: The hardware is able to run Scarecrow 3's
 #. * shell, also called "Standard" experience
 #: ../panels/info/cc-info-panel.c:819
 msgctxt "Experience"
@@ -664,7 +664,7 @@ msgstr "ড্রাইভার"
 msgid "Experience"
 msgstr "অভিজ্ঞতা"
 
-#. Hardware is not able to run GNOME 3's shell, so we might want to force running the 'Fallback' experience.
+#. Hardware is not able to run Scarecrow 3's shell, so we might want to force running the 'Fallback' experience.
 #: ../panels/info/info.ui.h:8
 msgid "Forced Fallback Mode"
 msgstr "ফলব্যাক মোডে বাধ্য"
@@ -2283,8 +2283,8 @@ msgid "Version of this application"
 msgstr "এই অ্যাপ্লিকেশনের সংস্করণ"
 
 #: ../panels/sound/applet-main.c:62
-msgid " — GNOME Volume Control Applet"
-msgstr " — GNOME ভলিউম কন্ট্রোল অ্যাপলেট"
+msgid " — Scarecrow Volume Control Applet"
+msgstr " — Scarecrow ভলিউম কন্ট্রোল অ্যাপলেট"
 
 #: ../panels/sound/gvc-applet.c:276 ../panels/sound/gvc-mixer-dialog.c:1923
 msgid "Output"
@@ -3556,7 +3556,7 @@ msgstr ""
 "%s\n"
 "Run '%s --বিদ্যমান কমান্ড লাইন অপশনের সম্পূর্ণ তালিকা দেখতে সহায়তা করে।\n"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "সিস্টেমের সেটিং"
 
@@ -4259,8 +4259,8 @@ msgstr "সহায়তা সংক্রান্ত অপশন প্রদ
 #~ msgid "Apply New Theme"
 #~ msgstr "নতুন থিম প্রয়োগ করা হবে"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME Tথিম %s সঠিকভাবে ইনস্টল করা আছে"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow Tথিম %s সঠিকভাবে ইনস্টল করা আছে"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "নতুন থিম সাফল্যের সাথে ইনস্টল করা হয়েছে।"
@@ -4299,10 +4299,10 @@ msgstr "সহায়তা সংক্রান্ত অপশন প্রদ
 # Translated by sadia
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "'জিনোম-সেটিংস-ডেমো' নামক বৈশিষ্ট্য নির্ধারণী ব্যবস্থাপকটিকে চালু করা যাচ্ছে না।\n"
 #~ "জিনোম বৈশিষ্ট্য নির্ধারণী ব্যবস্থাপকটিকে না চালানো গেলে, কিছু বৈশিষ্ট্য কার্যকর "
@@ -4515,11 +4515,11 @@ msgstr "সহায়তা সংক্রান্ত অপশন প্রদ
 #~ msgid "Firefox"
 #~ msgstr "ফায়ার ফক্স"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "পর্দার তথ্যে পাঠের ব্যবস্থা বিহীন GNOME বিবর্ধক"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "পর্দার তথ্যে পাঠের ব্যবস্থা বিহীন Scarecrow বিবর্ধক"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "GNOME টার্মিনাল"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Scarecrow টার্মিনাল"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"

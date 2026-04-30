@@ -1,12 +1,12 @@
-# Përkthimi i gnome-control-center në shqip.
+# Përkthimi i scarecrow-control-center në shqip.
 # Copyright (C) 2003-2006, 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Elian Myftiu <elian@alblinux.net>, 2003-2006.
 # Laurent Dhima <laurenti@alblinux.net>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-15 05:35+0000\n"
 "PO-Revision-Date: 2008-09-20 11:58+0200\n"
@@ -1134,8 +1134,8 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:288
 #, c-format
-msgid "GNOME Theme %s correctly installed"
-msgstr "Tema «%s» për GNOME u instalua korrektësisht"
+msgid "Scarecrow Theme %s correctly installed"
+msgstr "Tema «%s» për Scarecrow u instalua korrektësisht"
 
 #: ../capplets/appearance/theme-installer.c:355
 #, c-format
@@ -1217,17 +1217,17 @@ msgstr "I pamundur instalimi i motorit të temës"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "E pamundur nisja e menazhuesit të rregullimeve 'gnome-settings-daemon'.\n"
-"Nëse menazhuesi i rregullimeve të GNOME nuk është duke punuar, disa nga "
+"Nëse menazhuesi i rregullimeve të Scarecrow nuk është duke punuar, disa nga "
 "zgjedhjet mund të mos kenë efekt. Kjo situatë tregon një problem të mundshëm "
-"Bonobo, ose që një menazhues rregullimesh tjetër jo i GNOME (p.sh. i KDE) "
+"Bonobo, ose që një menazhues rregullimesh tjetër jo i Scarecrow (p.sh. i KDE) "
 "është në ekzekutim duke krijuar konflikte me menazhuesin e rregullimeve të "
-"GNOME."
+"Scarecrow."
 
 #: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
@@ -1690,16 +1690,16 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
-msgstr "Zmadhuesi i GNOME pa lexues ekrani"
+msgid "Scarecrow Magnifier without Screen Reader"
+msgstr "Zmadhuesi i Scarecrow pa lexues ekrani"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
-msgstr "Tastierë në ekran e GNOME"
+msgid "Scarecrow OnScreen Keyboard"
+msgstr "Tastierë në ekran e Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
-msgstr "Terminali i GNOME"
+msgid "Scarecrow Terminal"
+msgstr "Terminali i Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -2101,8 +2101,8 @@ msgid "Start the page with the accessibility settings showing"
 msgstr "Nis duke shfaqur faqen e pronësive të rregullimeve të açesibilitetit"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:274
-msgid "- GNOME Keyboard Preferences"
-msgstr "- Preferimet e tastierës së GNOME"
+msgid "- Scarecrow Keyboard Preferences"
+msgstr "- Preferimet e tastierës së Scarecrow"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
 msgid "<b>Bounce Keys</b>"
@@ -2449,8 +2449,8 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Specifiko emrin e faqes për tu shfaqur (general|accessibility)"
 
 #: ../capplets/mouse/gnome-mouse-properties.c:452
-msgid "- GNOME Mouse Preferences"
-msgstr "- Preferimet e mouse për GNOME"
+msgid "- Scarecrow Mouse Preferences"
+msgstr "- Preferimet e mouse për Scarecrow"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
 msgid "<b>Double-Click Timeout</b>"
@@ -2739,8 +2739,8 @@ msgid "Silence"
 msgstr "Heshtje"
 
 #: ../capplets/sound/sound-properties-capplet.c:1202
-msgid "- GNOME Sound Preferences"
-msgstr "- Preferimet audo të GNOME"
+msgid "- Scarecrow Sound Preferences"
+msgstr "- Preferimet audo të Scarecrow"
 
 #: ../capplets/sound/sound-properties.glade.h:1
 msgid "<b>Alerts and Sound Effects</b>"
@@ -3338,8 +3338,8 @@ msgstr ""
 "«aktiviteti të përbashkët»."
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "Instrument konfigurimi për GNOME"
+msgid "The Scarecrow configuration tool"
+msgstr "Instrument konfigurimi për Scarecrow"
 
 #: ../typing-break/drw-break-window.c:189
 msgid "_Postpone Break"

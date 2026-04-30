@@ -1,12 +1,12 @@
-# Xhosa translation of gnome-control-center
+# Xhosa translation of scarecrow-control-center
 # Copyright (C) 2005 Canonical Ltd.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Translation by Canonical Ltd <translations@canonical.com> with thanks to
 # Translation World CC in South Africa, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-09-17 22:10+0200\n"
 "PO-Revision-Date: 2005-03-23 09:53+0200\n"
@@ -431,9 +431,9 @@ msgid "Assistive Technology Support"
 msgstr "INkxaso yobuChwepheshe eNcedayo"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr ""
-"Yenza ukuba kusebenze inkxaso ukulungiselela ubuchwephesha boncedo be-GNOME "
+"Yenza ukuba kusebenze inkxaso ukulungiselela ubuchwephesha boncedo be-Scarecrow "
 "kungeno"
 
 #: ../capplets/accessibility/at-properties/main.c:60
@@ -796,16 +796,16 @@ msgstr[1] "ii-pixels"
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Akukwazeki ukuqalisa imimiselo yomlawuli i-'gnome-settings-daemon'.\n"
-"Ngaphandle kokuqhubeka komlawuli wemimiselo i-GNOME, uluhlu lokukhetha "
+"Ngaphandle kokuqhubeka komlawuli wemimiselo i-Scarecrow, uluhlu lokukhetha "
 "oluthile lunokungasebenzi. Oku kunokubonisa ingxaki ye-Bonobo, okanye "
-"umlawuli wemimiselo ongengo-GNOME (umz. KDE) inoba sele esebenza yaye abe "
-"uyakhabana nomlawuli wemimiselo ye-GNOME."
+"umlawuli wemimiselo ongengo-Scarecrow (umz. KDE) inoba sele esebenza yaye abe "
+"uyakhabana nomlawuli wemimiselo ye-Scarecrow."
 
 #: ../capplets/common/capplet-stock-icons.c:94
 #, c-format
@@ -1100,8 +1100,8 @@ msgid "Debian Terminal Emulator"
 msgstr "IsiLinganisi sexesha elimiselweyo seDebian"
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:59
-msgid "GNOME Terminal"
-msgstr "I-Terminal ye-GNOME"
+msgid "Scarecrow Terminal"
+msgstr "I-Terminal ye-Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:60
 msgid "Standard XTerminal"
@@ -2542,13 +2542,13 @@ msgid "Desktop Preferences"
 msgstr "ULuhlu lokukhetha lwe-Desktop"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "ULungelelaniso ngasembindini lwe-GNOME"
+msgid "Scarecrow Control Center"
+msgstr "ULungelelaniso ngasembindini lwe-Scarecrow"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "Isixhobo sokumiselwa kwe-GNOME"
+msgid "The Scarecrow configuration tool"
+msgstr "Isixhobo sokumiselwa kwe-Scarecrow"
 
 #: ../gnome-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
@@ -2712,19 +2712,19 @@ msgstr "_Ungaphinde uwubonise lo myalezo kwakhona"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:238
 msgid ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 msgstr ""
 "Imimiselo yesixokelelwano u-X se-keyboard siyohluka kwimimiselo ye-keyboard "
-"ye-GNOME ekhoyo. Ngowuphi ummiselo ongathanda ukuwusebenzisa?"
+"ye-Scarecrow ekhoyo. Ngowuphi ummiselo ongathanda ukuwusebenzisa?"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:251
 msgid "Use X settings"
 msgstr "Sebenzisa imimiselo u-X"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
-msgid "Use GNOME settings"
-msgstr "Sebenzisa imimiselo ye-GNOME"
+msgid "Use Scarecrow settings"
+msgstr "Sebenzisa imimiselo ye-Scarecrow"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
@@ -3183,7 +3183,7 @@ msgstr ""
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
@@ -3241,8 +3241,8 @@ msgstr ""
 "mpazamo ilandelayo: %s"
 
 #: ../typing-break/drwright.c:635
-msgid "About GNOME Typing Monitor"
-msgstr "Malunga neMonitha yokuChwetheza ye-GNOME"
+msgid "About Scarecrow Typing Monitor"
+msgstr "Malunga neMonitha yokuChwetheza ye-Scarecrow"
 
 #: ../typing-break/drwright.c:659
 msgid "A computer break reminder."
@@ -3407,8 +3407,8 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "Noba kwenziwe ukutyhila okukhawulezayo kweefonti i-Type1"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
-msgstr "Isibonakalisi seFonti se-GNOME"
+msgid "Scarecrow Font Viewer"
+msgstr "Isibonakalisi seFonti se-Scarecrow"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

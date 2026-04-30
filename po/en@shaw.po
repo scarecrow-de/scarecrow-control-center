@@ -1,9 +1,9 @@
-# Shavian translation for gnome-control-center.
+# Shavian translation for scarecrow-control-center.
 # Copyright (C) 2009 The Gnome Foundation.
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&component=general\n"
 "POT-Creation-Date: 2010-05-12 22:49+0000\n"
@@ -16,19 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
 
-#: ../gnome-control-center.schemas.in.h:1
+#: ../scarecrow-control-center.schemas.in.h:1
 msgid "Current network location"
 msgstr "𐑒𐑳𐑮𐑩𐑯𐑑 𐑯𐑧𐑑𐑢𐑻𐑒 𐑤𐑴𐑒𐑱𐑖𐑩𐑯"
 
-#: ../gnome-control-center.schemas.in.h:2
+#: ../scarecrow-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
 msgstr "𐑥𐑹 𐑚𐑨𐑒𐑜𐑮𐑬𐑯𐑛𐑟 URL"
 
-#: ../gnome-control-center.schemas.in.h:3
+#: ../scarecrow-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr "𐑥𐑹 𐑔𐑰𐑥𐑟 URL"
 
-#: ../gnome-control-center.schemas.in.h:4
+#: ../scarecrow-control-center.schemas.in.h:4
 msgid ""
 "Set this to your current location name. This is used to determine the "
 "appropriate network proxy configuration."
@@ -36,7 +36,7 @@ msgstr ""
 "𐑕𐑧𐑑 𐑞𐑦𐑕 𐑑 𐑿𐑼 𐑒𐑳𐑮𐑩𐑯𐑑 𐑤𐑴𐑒𐑱𐑖𐑩𐑯 𐑯𐑱𐑥. 𐑞𐑦𐑕 𐑦𐑟 𐑿𐑟𐑛 𐑑 𐑛𐑦𐑑𐑻𐑥𐑦𐑯 𐑞 𐑩𐑐𐑮𐑴𐑐𐑮𐑦𐑩𐑑 𐑯𐑧𐑑𐑢𐑻𐑒 "
 "𐑐𐑮𐑪𐑒𐑕𐑦 𐑒𐑩𐑯𐑓𐑦𐑜𐑘𐑼𐑱𐑖𐑩𐑯."
 
-#: ../gnome-control-center.schemas.in.h:5
+#: ../scarecrow-control-center.schemas.in.h:5
 msgid ""
 "URL for where to get more desktop backgrounds. If set to an empty string the "
 "link will not appear."
@@ -44,7 +44,7 @@ msgstr ""
 "URL 𐑓𐑹 𐑢𐑺 𐑑 𐑜𐑧𐑑 𐑥𐑹 𐑛𐑧𐑕𐑒𐑑𐑪𐑐 𐑚𐑨𐑒𐑜𐑮𐑬𐑯𐑛𐑟. 𐑦𐑓 𐑕𐑧𐑑 𐑑 𐑩𐑯 𐑧𐑥𐑐𐑑𐑦 𐑕𐑑𐑮𐑦𐑙 𐑞 𐑤𐑦𐑙𐑒 𐑢𐑦𐑤 𐑯𐑪𐑑 "
 "𐑩𐑐𐑽."
 
-#: ../gnome-control-center.schemas.in.h:6
+#: ../scarecrow-control-center.schemas.in.h:6
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
@@ -1419,7 +1419,7 @@ msgstr "𐑩𐑐𐑤𐑲 𐑯𐑿 𐑔𐑰𐑥"
 
 #: ../capplets/appearance/theme-installer.c:471
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "·𐑜𐑯𐑴𐑥 𐑔𐑰𐑥 %s 𐑒𐑼𐑧𐑒𐑑𐑤𐑦 𐑦𐑯𐑕𐑑𐑷𐑤𐑛"
 
 #: ../capplets/appearance/theme-installer.c:533
@@ -1481,9 +1481,9 @@ msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑦𐑯𐑕𐑑𐑷𐑤 𐑔𐑰𐑥 𐑧𐑯
 #, fuzzy
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "𐑳𐑯𐑱𐑚𐑩𐑤 𐑑 𐑕𐑑𐑸𐑑 𐑞 𐑕𐑧𐑑𐑦𐑙𐑟 𐑥𐑨𐑯𐑩𐑡𐑼 '·𐑯𐑴𐑥-𐑕𐑧𐑑𐑦𐑙𐑟-𐑛𐑰𐑥𐑩𐑯'.\n"
@@ -1782,7 +1782,7 @@ msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "𐑕𐑐𐑧𐑕𐑦𐑓𐑲 𐑞 𐑯𐑱𐑥 𐑝 𐑞 𐑐𐑱𐑡 𐑑 𐑖𐑴 (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
-msgid "- GNOME Default Applications"
+msgid "- Scarecrow Default Applications"
 msgstr "- ·𐑜𐑯𐑴𐑥 𐑛𐑦𐑓𐑷𐑤𐑑 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯𐑟"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
@@ -1942,15 +1942,15 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr "·𐑜𐑯𐑴𐑥 𐑥𐑨𐑜𐑯𐑩𐑓𐑲𐑻 𐑢𐑦𐑞𐑬𐑑 𐑕𐑒𐑮𐑰𐑯 𐑮𐑰𐑛𐑼"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr "·𐑜𐑯𐑴𐑥 𐑭𐑯𐑕𐑒𐑮𐑰𐑯 𐑒𐑰𐑚𐑪𐑮𐑛"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "·𐑜𐑯𐑴𐑥 𐑑𐑻𐑥𐑦𐑯𐑩𐑤"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
@@ -2509,7 +2509,7 @@ msgid "Start the page with the accessibility settings showing"
 msgstr "𐑕𐑑𐑸𐑑 𐑞 𐑐𐑱𐑡 𐑢𐑦𐑞 𐑞 𐑨𐑒𐑕𐑧𐑕𐑩𐑚𐑦𐑤𐑦𐑑𐑰 𐑕𐑧𐑑𐑦𐑙𐑟 𐑖𐑴𐑦𐑙"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:226
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr "- ·𐑜𐑯𐑴𐑥 𐑒𐑰𐑚𐑪𐑮𐑛 𐑐𐑮𐑧𐑓𐑼𐑩𐑯𐑕𐑩𐑟"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
@@ -2913,7 +2913,7 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "𐑕𐑐𐑧𐑕𐑦𐑓𐑲 𐑞 𐑯𐑱𐑥 𐑝 𐑞 𐑐𐑱𐑡 𐑑 𐑖𐑴 (general|accessibility)"
 
 #: ../capplets/mouse/gnome-mouse-properties.c:595
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr "- ·𐑜𐑯𐑴𐑥 𐑥𐑬𐑕 𐑐𐑮𐑧𐑓𐑼𐑩𐑯𐑕𐑩𐑟"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:2
@@ -3388,7 +3388,7 @@ msgid ""
 msgstr "𐑦𐑓 𐑑𐑮𐑵, 𐑞 𐑒𐑩𐑯𐑑𐑮𐑴𐑤-𐑕𐑧𐑯𐑑𐑼 𐑢𐑦𐑤 𐑒𐑤𐑴𐑕 𐑢𐑧𐑯 𐑩 \"𐑒𐑪𐑥𐑩𐑯 𐑑𐑭𐑕𐑒\" 𐑦𐑟 𐑨𐑒𐑑𐑦𐑝𐑱𐑑𐑩𐑛."
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr "𐑞 ·𐑜𐑯𐑴𐑥 𐑒𐑩𐑯𐑓𐑦𐑜𐑘𐑼𐑱𐑖𐑩𐑯 𐑑𐑵𐑤"
 
 #: ../typing-break/drw-break-window.c:194

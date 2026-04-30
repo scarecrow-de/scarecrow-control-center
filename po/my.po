@@ -1,4 +1,4 @@
-# Burmese Translations of gnome-control-center
+# Burmese Translations of scarecrow-control-center
 # Copyright (C) 2011 Myanmar L10n Team
 # This file is distributed under the same license as the above package.
 # ye`monkyaw <yemonkyaw007@gmail.com>, 2011.
@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-24 08:32+0100\n"
 "PO-Revision-Date: 2011-10-14 00:28+0630\n"
@@ -22,31 +22,31 @@ msgstr ""
 "X-Poedit-Country: MYANMAR\n"
 "X-Generator: Narro 0.9.4 on http://translate.libreworks.info\n"
 
-#: ../gnome-control-center.schemas.in.h:1
+#: ../scarecrow-control-center.schemas.in.h:1
 msgid "Current network location"
 msgstr "လက်ရှိကွန်ရက်တည်နေရာ"
 
-#: ../gnome-control-center.schemas.in.h:2
+#: ../scarecrow-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:3
+#: ../scarecrow-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:4
+#: ../scarecrow-control-center.schemas.in.h:4
 msgid ""
 "Set this to your current location name. This is used to determine the "
 "appropriate network proxy configuration."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:5
+#: ../scarecrow-control-center.schemas.in.h:5
 msgid ""
 "URL for where to get more desktop backgrounds. If set to an empty string the "
 "link will not appear."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:6
+#: ../scarecrow-control-center.schemas.in.h:6
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
@@ -1251,8 +1251,8 @@ msgstr "အမြင်အဆင်အသစ်ကို အသုံးချ"
 
 #: ../capplets/appearance/theme-installer.c:471
 #, c-format
-msgid "GNOME Theme %s correctly installed"
-msgstr "GNOME အမြင်အဆင် %s  ကို မှန်ကန်စွာသွင်းပြီးပြီ"
+msgid "Scarecrow Theme %s correctly installed"
+msgstr "Scarecrow အမြင်အဆင် %s  ကို မှန်ကန်စွာသွင်းပြီးပြီ"
 
 #: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
@@ -1310,9 +1310,9 @@ msgstr ""
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 
@@ -1582,7 +1582,7 @@ msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
-msgid "- GNOME Default Applications"
+msgid "- Scarecrow Default Applications"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
@@ -1737,15 +1737,15 @@ msgid "Firefox"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
@@ -2259,8 +2259,8 @@ msgid "Start the page with the accessibility settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:226
-msgid "- GNOME Keyboard Preferences"
-msgstr "GNOME ကီးဘုတ်လိုလားချက်များ"
+msgid "- Scarecrow Keyboard Preferences"
+msgstr "Scarecrow ကီးဘုတ်လိုလားချက်များ"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
@@ -2660,7 +2660,7 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.c:597
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:2
@@ -3120,8 +3120,8 @@ msgid ""
 msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr " GNOME ခန့်ခွဲမှုကရိယာ"
+msgid "The Scarecrow configuration tool"
+msgstr " Scarecrow ခန့်ခွဲမှုကရိယာ"
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"

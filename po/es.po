@@ -1,6 +1,6 @@
-# translation of gnome-control-center.master.po to Español
+# translation of scarecrow-control-center.master.po to Español
 # Copyright © 1999-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001.
 # Carlos Perelló Marín <carlos@gnome-db.org>, 2001.
@@ -17,8 +17,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-14 21:58+0000\n"
 "PO-Revision-Date: 2021-02-15 10:49+0100\n"
@@ -85,7 +85,7 @@ msgstr "Sistema de achivos"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Configuración"
 
@@ -1867,8 +1867,8 @@ msgid "OS Type"
 msgstr "Tipo de SO"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "Versión de GNOME"
+msgid "Scarecrow Version"
+msgstr "Versión de Scarecrow"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8057,21 +8057,21 @@ msgstr "Botón inferior"
 msgid "Tip Pressure Feel"
 msgstr "Sensibilidad de presión del lápiz"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "Configuración de GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Configuración de Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "Utilidad para configurar el escritorio GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Utilidad para configurar el escritorio Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Configuración es la interfaz principal para configurar su sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "El Proyecto GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "El Proyecto Scarecrow"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -8132,7 +8132,7 @@ msgid "Help"
 msgstr "Ayuda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferencias;Configuración;"
 
@@ -8998,14 +8998,14 @@ msgstr "Sonidos del sistema"
 #~ msgid "Show input source keyboard layout"
 #~ msgstr "Mostrar la distribución del teclado de la fuente de entrada"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "Centro de control de GNOME"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Centro de control de Scarecrow"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "El centro de control es la interfaz principal de GNOME para la "
+#~ "El centro de control es la interfaz principal de Scarecrow para la "
 #~ "configuración de diversos aspectos de su escritorio."
 
 #~ msgid "Language"
@@ -9049,8 +9049,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "Quit"
 #~ msgstr "Salir"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verificar la contraseña nueva"
@@ -11009,8 +11009,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "Enable debugging code"
 #~ msgstr "Activar el código de depuración"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " : Miniaplicación Control de volumen de GNOME"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " : Miniaplicación Control de volumen de Scarecrow"
 
 #~ msgid "Volume Control"
 #~ msgstr "Control de volumen"
@@ -12003,11 +12003,11 @@ msgstr "Sonidos del sistema"
 #~ msgid "ETerm"
 #~ msgstr "ETerm"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "Magnificador de GNOME sin lector de pantalla"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "Magnificador de Scarecrow sin lector de pantalla"
 
-#~ msgid "GNOME OnScreen Keyboard"
-#~ msgstr "Teclado en pantalla de GNOME"
+#~ msgid "Scarecrow OnScreen Keyboard"
+#~ msgstr "Teclado en pantalla de Scarecrow"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"
@@ -12684,8 +12684,8 @@ msgstr "Sonidos del sistema"
 #~ "Si es verdadero, el centro de control se cerrará cuando se active una "
 #~ "«Tarea común»."
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "La herramienta de configuración de GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "La herramienta de configuración de Scarecrow"
 
 #~ msgid "If set to true, then OpenType fonts will be thumbnailed."
 #~ msgstr ""
@@ -13204,7 +13204,7 @@ msgstr "Sonidos del sistema"
 #~ msgstr "Instalador de temas"
 
 #~ msgid "Gnome Theme Package"
-#~ msgstr "Paquete de tema GNOME"
+#~ msgstr "Paquete de tema Scarecrow"
 
 #~ msgid "Cannot install theme"
 #~ msgstr "No se puede instalar el tema"
@@ -13243,8 +13243,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "Apply New Theme"
 #~ msgstr "Aplicar el nuevo tema"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "El tema de GNOME %s se instaló correctamente"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "El tema de Scarecrow %s se instaló correctamente"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "Los nuevos temas se han instalado con éxito."
@@ -13283,17 +13283,17 @@ msgstr "Sonidos del sistema"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "No se puede iniciar el gestor de configuración «gnome-settings-daemon».\n"
-#~ "Si el gestor de configuración de GNOME no se está ejecutando, es posible "
+#~ "Si el gestor de configuración de Scarecrow no se está ejecutando, es posible "
 #~ "que algunas de las preferencias no surtan efecto. Esto puede ser el "
 #~ "síntoma de un problema con DBus o que un gestor de configuración que no "
-#~ "es de GNOME (por ejemplo KDE) ya esté activo y en conflicto con el gestor "
-#~ "de configuración de GNOME."
+#~ "es de Scarecrow (por ejemplo KDE) ya esté activo y en conflicto con el gestor "
+#~ "de configuración de Scarecrow."
 
 #~ msgid "There was an error displaying help: %s"
 #~ msgstr "Hubo un error al mostrar la ayuda: %s"
@@ -13462,15 +13462,15 @@ msgstr "Sonidos del sistema"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "Iniciar la página mostrando la configuración de accesibilidad"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- Preferencias del teclado de GNOME"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Preferencias del teclado de Scarecrow"
 
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr ""
 #~ "Especifique el nombre de la página para mostrar (general|accessibility)"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- Preferencias del ratón de GNOME"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Preferencias del ratón de Scarecrow"
 
 #~ msgid "Cannot start the preferences application for your window manager"
 #~ msgstr ""
@@ -13788,8 +13788,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "Silence"
 #~ msgstr "Silencio"
 
-#~ msgid "- GNOME Sound Preferences"
-#~ msgstr "- Preferencias de sonido de GNOME"
+#~ msgid "- Scarecrow Sound Preferences"
+#~ msgstr "- Preferencias de sonido de Scarecrow"
 
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>Alertas y efectos de sonido</b>"
@@ -13848,9 +13848,9 @@ msgstr "Sonidos del sistema"
 #~ msgid "Retrieve and store legacy settings"
 #~ msgstr "Obtener y almacenar configuración heredada"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
 #~ msgstr ""
-#~ "Active el soporte para las tecnologías de asistencia de GNOME durante el "
+#~ "Active el soporte para las tecnologías de asistencia de Scarecrow durante el "
 #~ "inicio"
 
 #~ msgid "New accelerator..."

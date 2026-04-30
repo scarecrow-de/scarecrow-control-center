@@ -1,6 +1,6 @@
-# Esperanto translation for gnome-control-center.
+# Esperanto translation for scarecrow-control-center.
 # Copyright (C) 2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Joop EGGEN <joop_eggen@yahoo.de>, 2006.
 # Ed GLEZ < >, 2006.
 # Brian CROOM < >, 2008.
@@ -15,8 +15,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-02-14 13:41+0000\n"
 "PO-Revision-Date: 2020-02-14 21:50+0100\n"
@@ -85,7 +85,7 @@ msgstr "Dosiersistemo"
 #: panels/applications/cc-applications-panel.c:763
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:281
 #: shell/cc-window.c:964 shell/cc-window.ui:125
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Agordoj"
 
@@ -2051,8 +2051,8 @@ msgid "OS Type"
 msgstr "Speco de operaciumo"
 
 #: panels/info-overview/cc-info-overview-panel.ui:144
-msgid "GNOME Version"
-msgstr "Versio de GNOME"
+msgid "Scarecrow Version"
+msgstr "Versio de Scarecrow"
 
 #: panels/info-overview/cc-info-overview-panel.ui:154
 msgid "Windowing System"
@@ -8103,21 +8103,21 @@ msgstr "Plej suba butono"
 msgid "Tip Pressure Feel"
 msgstr "Konduto de pinta premo"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "GNOME Agordoj"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Scarecrow Agordoj"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "Ilo por agordi la labortablon de GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Ilo por agordi la labortablon de Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Agordoj estas la ĉefa fasado por agordi vian sistemon."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "La GNOME Projekto"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "La Scarecrow Projekto"
 
 #: shell/cc-application.c:58
 msgid "Display version number"
@@ -8178,7 +8178,7 @@ msgid "Help"
 msgstr "Helpo"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferoj;Agordoj;"
 
@@ -8768,14 +8768,14 @@ msgstr "Sistemsonoj"
 #~ msgid "Stop"
 #~ msgstr "Halti"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME Stircentro"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow Stircentro"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "La stircentro estas la ĉefa interfaco de GNOME por agordado de diversaj "
+#~ "La stircentro estas la ĉefa interfaco de Scarecrow por agordado de diversaj "
 #~ "ecoj de via labortablo."
 
 #~ msgid "Language"
@@ -8804,8 +8804,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Quit"
 #~ msgstr "Ĉesi"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~| msgid "Background"
 #~ msgid "Back­ground"
@@ -10188,8 +10188,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Enable debugging code"
 #~ msgstr "Enŝalti sencimigan kodon"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — Laŭtecregilo-aplikaĵeto de GNOME"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Laŭtecregilo-aplikaĵeto de Scarecrow"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "Montri labortablan laŭtecregilon"
@@ -11123,7 +11123,7 @@ msgstr "Sistemsonoj"
 #~ msgstr "Etosa instalilo"
 
 #~ msgid "Gnome Theme Package"
-#~ msgstr "GNOME-a etospakaĵo"
+#~ msgstr "Scarecrow-a etospakaĵo"
 
 #~ msgid "Slide Show"
 #~ msgstr "Bildserio"
@@ -11186,8 +11186,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Apply New Theme"
 #~ msgstr "Apliki la novan etoson"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME-a etoso %s korekte instalita"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow-a etoso %s korekte instalita"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "La novaj etosoj estas sukcese instalita."
@@ -11222,15 +11222,15 @@ msgstr "Sistemsonoj"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "Neeblas starti la agordmastrumilon 'gnome-settings-daemon'.\n"
-#~ "Sen la rulanta GNOME-agordmastrumilo, kelkaj agordoj eble ne efektiviĝos. "
-#~ "Ĉi tio eble signifas problemon de DBus aŭ ne-GNOME-agordmastrumilo (ekz. "
-#~ "KDE) eble estas rulanta kaj konfliktanta kun GNOME-agordmastrumilo."
+#~ "Sen la rulanta Scarecrow-agordmastrumilo, kelkaj agordoj eble ne efektiviĝos. "
+#~ "Ĉi tio eble signifas problemon de DBus aŭ ne-Scarecrow-agordmastrumilo (ekz. "
+#~ "KDE) eble estas rulanta kaj konfliktanta kun Scarecrow-agordmastrumilo."
 
 #~ msgid "Unable to load stock icon '%s'\n"
 #~ msgstr "Ne eblas ŝargi standardan piktogramon '%s'\n"
@@ -11390,8 +11390,8 @@ msgstr "Sistemsonoj"
 #~ msgid "ETerm"
 #~ msgstr "ETerm"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "Pligrandigilo de GNOME sen ekranlegilo"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "Pligrandigilo de Scarecrow sen ekranlegilo"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnoperniko"
@@ -11540,8 +11540,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "Komenci la paĝon per montrado de la alirebleca agordaro"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- Klavaragordoj de GNOME"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Klavaragordoj de Scarecrow"
 
 #~ msgid "Beep when _accessibility features are turned on or off"
 #~ msgstr "Pepi kiam _alireblectrajto estas ŝaltita"
@@ -11646,8 +11646,8 @@ msgstr "Sistemsonoj"
 #~ msgid "gesture|Disabled"
 #~ msgstr "Elŝaltite"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- Musagordoj de GNOME"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Musagordoj de Scarecrow"
 
 #~ msgid "D_rag click:"
 #~ msgstr "T_ren-klako:"
@@ -11754,8 +11754,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Task names and associated .desktop files"
 #~ msgstr "Tasknomoj kaj asociataj .desktop-dosieroj"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "La agordilo de GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "La agordilo de Scarecrow"
 
 #~ msgid "_Postpone Break"
 #~ msgstr "_Prokrasti paŭzon"

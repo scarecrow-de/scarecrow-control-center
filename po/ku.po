@@ -1,4 +1,4 @@
-# translation of gnome-control-center.HEAD.po to Kurdish
+# translation of scarecrow-control-center.HEAD.po to Kurdish
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
@@ -6,7 +6,7 @@
 # Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
+"Project-Id-Version: scarecrow-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-10-18 15:38+0200\n"
 "PO-Revision-Date: 2011-10-18 16:05+0200\n"
@@ -466,15 +466,15 @@ msgid ""
 "hardware."
 msgstr ""
 
-#. translators: The hardware is not able to run GNOME 3's
-#. * shell, so we use the GNOME "Fallback" session
+#. translators: The hardware is not able to run Scarecrow 3's
+#. * shell, so we use the Scarecrow "Fallback" session
 #: ../panels/info/cc-info-panel.c:871
 #, fuzzy
 msgctxt "Experience"
 msgid "Fallback"
 msgstr "Careke din bang bike"
 
-#. translators: The hardware is able to run GNOME 3's
+#. translators: The hardware is able to run Scarecrow 3's
 #. * shell, also called "Standard" experience
 #: ../panels/info/cc-info-panel.c:877
 #, fuzzy
@@ -650,7 +650,7 @@ msgstr "Ajoger"
 msgid "Experience"
 msgstr ""
 
-#. Hardware is not able to run GNOME 3's shell, so we might want to force running the 'Fallback' experience.
+#. Hardware is not able to run Scarecrow 3's shell, so we might want to force running the 'Fallback' experience.
 #: ../panels/info/info.ui.h:10
 msgid "Forced _Fallback Mode"
 msgstr ""
@@ -1092,7 +1092,7 @@ msgid "_Log In"
 msgstr ""
 
 #. translators: This is the title of the "Add Account" dialogue.
-#. * The title is not visible when using GNOME Shell
+#. * The title is not visible when using Scarecrow Shell
 #: ../panels/online-accounts/cc-online-accounts-panel.c:461
 msgid "Add Account"
 msgstr ""
@@ -2801,7 +2801,7 @@ msgid "Version of this application"
 msgstr "Curetîpa sepanê ya pêşdanasînî hilbijêre"
 
 #: ../panels/sound/applet-main.c:62
-msgid " — GNOME Volume Control Applet"
+msgid " — Scarecrow Volume Control Applet"
 msgstr ""
 
 #: ../panels/sound/gvc-applet.c:270 ../panels/sound/gvc-mixer-dialog.c:1767
@@ -4460,7 +4460,7 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "Mîhengên pergalê"
 
@@ -4697,8 +4697,8 @@ msgstr "_Hemû mîheng"
 #~ msgid "_Enable assistive technologies"
 #~ msgstr "Teknolojiyên alîkar _çalak bike"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr "Teknolojiyên alîkar yên GNOMEyê di têketinê de çalak bike"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
+#~ msgstr "Teknolojiyên alîkar yên Scarecrowyê di têketinê de çalak bike"
 
 #, fuzzy
 #~ msgid ""
@@ -4887,14 +4887,14 @@ msgstr "_Hemû mîheng"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "Gerînendeyê mîhengan yê 'gnome-settings-daemon' nehate destpêkirin.\n"
 #~ "Heke ev bername neyê destpêkirin hin mîheng jî nayên tomarkirin. Ev rewş "
-#~ "dide xuyanî; Bonobo yan jî pergala mîhengên yên derveyî GNOME (mînak KDE) "
+#~ "dide xuyanî; Bonobo yan jî pergala mîhengên yên derveyî Scarecrow (mînak KDE) "
 #~ "çalak e û ew û gerînendeyê mîhengan li hev nake."
 
 #, fuzzy
@@ -5005,8 +5005,8 @@ msgstr "_Hemû mîheng"
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "Termînala GNOME"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Termînala Scarecrow"
 
 #~ msgid "Galeon"
 #~ msgstr "Galeon"
@@ -5347,7 +5347,7 @@ msgstr "_Hemû mîheng"
 #~ msgstr "Mîhengên bêhnvedana nivîsînê nîşan bide û rûpel bide destpêkirin"
 
 #, fuzzy
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr "Tercîhên Klavyeyê"
 
 #~ msgid "<b>_Lock screen to enforce typing break</b>"
@@ -5533,7 +5533,7 @@ msgstr "_Hemû mîheng"
 #~ msgstr "Bêdengî"
 
 #, fuzzy
-#~ msgid "- GNOME Sound Preferences"
+#~ msgid "- Scarecrow Sound Preferences"
 #~ msgstr "Tercîhên Deng"
 
 #~ msgid "<b>Audio Conferencing</b>"
@@ -5616,8 +5616,8 @@ msgstr "_Hemû mîheng"
 #~ "Dirb nayê sazkirin.\n"
 #~ "Bernameya Tar di pergala te de ne sazkirî ye."
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "Mijara GNOME %s rast hate daxistin"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Mijara Scarecrow %s rast hate daxistin"
 
 #~ msgid "The theme is an engine. You need to compile the theme."
 #~ msgstr "Dirb her wekî amûrekê ye. Divê tu berhevkirina dirbê bikî."
@@ -6032,18 +6032,18 @@ msgstr "_Hemû mîheng"
 
 #, fuzzy
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
 #~ "\n"
 #~ "Which set would you like to use?"
 #~ msgstr ""
-#~ "Mîhengên klavyeya pergala X ji mîhengên te yên heyî yên klavyeya GNOME "
+#~ "Mîhengên klavyeya pergala X ji mîhengên te yên heyî yên klavyeya Scarecrow "
 #~ "cuda ne. Tu dixwazî kîjan mîhengan bi kar bînî?"
 
-#~ msgid "Keep GNOME settings"
-#~ msgstr "Mîhengên GNOME'yê biparêze"
+#~ msgid "Keep Scarecrow settings"
+#~ msgstr "Mîhengên Scarecrow'yê biparêze"
 
 #~ msgid ""
 #~ "Couldn't execute command: %s\n"
@@ -6295,8 +6295,8 @@ msgstr "_Hemû mîheng"
 #~ msgid "Common Tasks"
 #~ msgstr "Pewirên Asayî"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Amûra veavakirinan ya GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Amûra veavakirinan ya Scarecrow"
 
 #, fuzzy
 #~ msgid "_Postpone Break"
@@ -6418,8 +6418,8 @@ msgstr "_Hemû mîheng"
 #~ msgid "Whether to thumbnail Type1 fonts"
 #~ msgstr "Der barê mînakdayin û mînaknedayina curetîpên Type1 de"
 
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "Nîşandêrê curetîpê GNOME"
+#~ msgid "Scarecrow Font Viewer"
+#~ msgstr "Nîşandêrê curetîpê Scarecrow"
 
 #, fuzzy
 #~ msgid "Text to thumbnail (default: Aa)"
@@ -6677,8 +6677,8 @@ msgstr "_Hemû mîheng"
 #~ msgid "Could not initialize Bonobo"
 #~ msgstr "Bonobo nehate destpêkirin"
 
-#~ msgid "Use GNOME settings"
-#~ msgstr "Mîhengên GNOME bikar bîne"
+#~ msgid "Use Scarecrow settings"
+#~ msgstr "Mîhengên Scarecrow bikar bîne"
 
 #~ msgid ""
 #~ "Couldn't load the Glade file.\n"
@@ -6765,12 +6765,12 @@ msgstr "_Hemû mîheng"
 
 #~ msgid ""
 #~ "Very soon, keyboard settings in gconf will be overridden (from the system "
-#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "configuration) This key has been deprecated since Scarecrow 2.12, please "
 #~ "unset the model, layouts and options keys to get the default system "
 #~ "configuration."
 #~ msgstr ""
 #~ "Di demeke kin de dê li şûna vebijêrkên klavyeyê yên di gconf de "
-#~ "vebijêrkên nû bên (ji avakirina pergalê) Vê mifteyê piştî GNOME 2.12 "
+#~ "vebijêrkên nû bên (ji avakirina pergalê) Vê mifteyê piştî Scarecrow 2.12 "
 #~ "derbasdariya xwe winda kir, ji kerama xwe re ji bo nirxên bi pêşdanasîn "
 #~ "mîhengên modelê, pergalan û vebijêrkên bişkojkan rake."
 

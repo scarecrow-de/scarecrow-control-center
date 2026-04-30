@@ -1,6 +1,6 @@
-# Biełaruski pierakład gnome-control-center
+# Biełaruski pierakład scarecrow-control-center
 # Copyright (C) 2007 Aleś Navicki
-# Distributed under the terms of gnome-control-center's license.
+# Distributed under the terms of scarecrow-control-center's license.
 # Aleś Navicki <zolak@lacinka.org>, 2007
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007
 msgid ""
@@ -1304,7 +1304,7 @@ msgstr "Instalatar matyvaŭ"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
-msgstr "Pakunak matyvu GNOME"
+msgstr "Pakunak matyvu Scarecrow"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Desktop Background"
@@ -1393,8 +1393,8 @@ msgstr "Užyj novy matyŭ"
 
 #: ../capplets/appearance/theme-installer.c:446
 #, c-format
-msgid "GNOME Theme %s correctly installed"
-msgstr "Matyŭ GNOME %s pravilna zainstalavany"
+msgid "Scarecrow Theme %s correctly installed"
+msgstr "Matyŭ Scarecrow %s pravilna zainstalavany"
 
 #: ../capplets/appearance/theme-installer.c:505
 msgid "Failed to create temporary directory"
@@ -1454,15 +1454,15 @@ msgstr "Niemahčyma zainstalavać matyŭ"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Niemahčyma ŭklučyć kiraŭnika naładaŭ – \"gnome-settings-daemon\".\n"
-"Biaz spraŭnaha kiraŭnika naładaŭ GNOME peŭnyja nałady mohuć nia dziejničać. "
+"Biaz spraŭnaha kiraŭnika naładaŭ Scarecrow peŭnyja nałady mohuć nia dziejničać. "
 "Heta moža śviedčyć ab prablemie z Bonobo albo ź inšym kiraŭnikom naładaŭ "
-"(napr. KDE), jaki kanfliktuje z kiraŭnikom GNOME."
+"(napr. KDE), jaki kanfliktuje z kiraŭnikom Scarecrow."
 
 #: ../capplets/common/capplet-stock-icons.c:66
 #, c-format
@@ -1753,8 +1753,8 @@ msgstr ""
 "a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:901
-msgid "- GNOME Default Applications"
-msgstr "- Zmoŭčanyja aplikacyi GNOME"
+msgid "- Scarecrow Default Applications"
+msgstr "- Zmoŭčanyja aplikacyi Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
 msgid "<b>Image Viewer</b>"
@@ -1904,16 +1904,16 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
-msgstr "Lupa GNOME biez ekrannaha čytača"
+msgid "Scarecrow Magnifier without Screen Reader"
+msgstr "Lupa Scarecrow biez ekrannaha čytača"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
-msgstr "Ekrannaja _klavijatura GNOME"
+msgid "Scarecrow OnScreen Keyboard"
+msgstr "Ekrannaja _klavijatura Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
-msgstr "Terminał GNOME"
+msgid "Scarecrow Terminal"
+msgstr "Terminał Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -2356,8 +2356,8 @@ msgid "Start the page with the accessibility settings showing"
 msgstr "Pačynaj staronku, pakazvajučy nałady dastupnaści"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:230
-msgid "- GNOME Keyboard Preferences"
-msgstr "– Nałady klavijatury GNOME"
+msgid "- Scarecrow Keyboard Preferences"
+msgstr "– Nałady klavijatury Scarecrow"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
 msgid "<b>Bounce Keys</b>"
@@ -2717,8 +2717,8 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Akreśli nazvu staronki, jakuju treba pakazać (general|accessibility)"
 
 #: ../capplets/mouse/gnome-mouse-properties.c:446
-msgid "- GNOME Mouse Preferences"
-msgstr "– Nałady myšy dla GNOME"
+msgid "- Scarecrow Mouse Preferences"
+msgstr "– Nałady myšy dla Scarecrow"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
 msgid "<b>Double-Click Timeout</b>"
@@ -3345,8 +3345,8 @@ msgstr ""
 "zadačy\"."
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "Pryłada kanfihuracyi GNOME"
+msgid "The Scarecrow configuration tool"
+msgstr "Pryłada kanfihuracyi Scarecrow"
 
 #: ../typing-break/drw-break-window.c:193
 msgid "_Postpone Break"
@@ -3578,8 +3578,8 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 msgid "Show help options"
 msgstr "Pakažy opcyi dapamohi"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr "Uklučaj padtrymku technalohij dastupnaści GNOME pry aŭtaryzacyi"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
+#~ msgstr "Uklučaj padtrymku technalohij dastupnaści Scarecrow pry aŭtaryzacyi"
 
 #~ msgid "<b>_Wallpaper</b>"
 #~ msgstr "<b>_Špalera</b>"
@@ -3647,8 +3647,8 @@ msgstr "Pakažy opcyi dapamohi"
 #~ msgid "Silence"
 #~ msgstr "Cišynia"
 
-#~ msgid "- GNOME Sound Preferences"
-#~ msgstr "– Nałady huku GNOME"
+#~ msgid "- Scarecrow Sound Preferences"
+#~ msgstr "– Nałady huku Scarecrow"
 
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>Tryvožnyja syhnały j hukavyja efekty</b>"

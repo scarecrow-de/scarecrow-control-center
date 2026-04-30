@@ -1,12 +1,12 @@
-# Malagasy translation of gnome-control-center.
-# Copyright (C) 2006-2009 THE GNOME-CONTROL-CENTER'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Malagasy translation of scarecrow-control-center.
+# Copyright (C) 2006-2009 THE scarecrow-control-center'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Fanomezana Rajaonarisoa <rajfanhar@yahoo.fr>, 2006.
 # Thierry Randrianiriana <randrianiriana@gmail.com>, 2006-2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-05-10 06:42+0200\n"
 "PO-Revision-Date: 2009-01-16 16:42+0300\n"
@@ -411,9 +411,9 @@ msgid "Assistive Technology Support"
 msgstr "Fanampiana mikasika ny haitao fanamorana"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr ""
-"Alefaso ny fandraisana an-tànana ireo haitao fanamorana an'ny GNOME rehefa "
+"Alefaso ny fandraisana an-tànana ireo haitao fanamorana an'ny Scarecrow rehefa "
 "miditra"
 
 #: ../capplets/accessibility/at-properties/main.c:60
@@ -782,16 +782,16 @@ msgstr[1] "pixel"
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Tsy nahalefa ny mpandrindra kirakira 'gnome-settings-daemon'.\n"
 "Mety tsy hihatra ny safidy manokana sasany raha tsy mandeha io mpandrindra "
-"ny kirakiran'ny GNOME io. Mety midika izany fa misy olana amin'ny Bonobo, na "
-"mety efa misy mpandrindra kirakira tsy an'ny GNOME (ohatra: KDE) mandeha ka "
-"mifanipaka amin'ny an'ny GNOME."
+"ny kirakiran'ny Scarecrow io. Mety midika izany fa misy olana amin'ny Bonobo, na "
+"mety efa misy mpandrindra kirakira tsy an'ny Scarecrow (ohatra: KDE) mandeha ka "
+"mifanipaka amin'ny an'ny Scarecrow."
 
 #: ../capplets/common/capplet-stock-icons.c:92
 #, c-format
@@ -1079,8 +1079,8 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
-msgid "GNOME Terminal"
-msgstr "Terminal an'ny GNOME"
+msgid "Scarecrow Terminal"
+msgstr "Terminal an'ny Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
 msgid "Galeon"
@@ -2605,13 +2605,13 @@ msgid "Desktop Preferences"
 msgstr "Safidy manokan'ny sehatr'asa"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "Ivotoerana fifehezan'ny GNOME"
+msgid "Scarecrow Control Center"
+msgstr "Ivotoerana fifehezan'ny Scarecrow"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "Ny fitaovana fikirakiran'ny GNOME"
+msgid "The Scarecrow configuration tool"
+msgstr "Ny fitaovana fikirakiran'ny Scarecrow"
 
 #: ../gnome-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
@@ -2801,14 +2801,14 @@ msgstr "_Aza aseho intsony ity fampilazana ity"
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
 #, c-format
 msgid ""
-"<b>The X system keyboard settings differ from your current GNOME keyboard "
+"<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.</b>\n"
 "\n"
 "Expected was %s, but the the following settings were found: %s.\n"
 "\n"
 "Which set would you like to use?"
 msgstr ""
-"<b>Tsy mitovy amin'ny fandrindran'ny fafan-tenin'ny GNOME ny fandrindran'ny "
+"<b>Tsy mitovy amin'ny fandrindran'ny fafan-tenin'ny Scarecrow ny fandrindran'ny "
 "fafan-tenin'ny rafitra X.</b>\n"
 "\n"
 "%s no nampoizina, nefa ity fandrindrana manaraka ity no hita:%s.\n"
@@ -2820,8 +2820,8 @@ msgid "Use X settings"
 msgstr "Ampiasao ny fandrindran'ny X"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:277
-msgid "Keep GNOME settings"
-msgstr "Ny fandrindran'ny GNOME no ampiasao"
+msgid "Keep Scarecrow settings"
+msgstr "Ny fandrindran'ny Scarecrow no ampiasao"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:118
 #, c-format
@@ -3307,11 +3307,11 @@ msgstr "Topy mason'ny fafan-teny, saka"
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:18
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 "Afaka fotoana fohy dia ho fehezina avy amin'ny kirakiran'ny rafitra ireo "
-"fandrindrana ny fafan-teny ao amin'ny gconf. Efa hatramin'ny GNOME 2.12 no "
+"fandrindrana ny fafan-teny ao amin'ny gconf. Efa hatramin'ny Scarecrow 2.12 no "
 "tsy nampiasaina izany famaha izany, ka foano ireo famahan'ny modely, "
 "fandaminana ary safidy mba ahazoana ny kirakiran-drafitra tsotra."
 
@@ -3371,8 +3371,8 @@ msgstr ""
 
 #: ../typing-break/drwright.c:629
 #, fuzzy
-msgid "About GNOME Typing Monitor"
-msgstr "Mombamomba ny Mpandrindra Fanoratana an'ny GNOME"
+msgid "About Scarecrow Typing Monitor"
+msgstr "Mombamomba ny Mpandrindra Fanoratana an'ny Scarecrow"
 
 #: ../typing-break/drwright.c:653
 msgid "A computer break reminder."
@@ -3543,8 +3543,8 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "(Tsy) maneho ny endri-tsoratra Type1 anaty sary madinika"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
-msgstr "Mpijery endri-tsoratra an'ny GNOME"
+msgid "Scarecrow Font Viewer"
+msgstr "Mpijery endri-tsoratra an'ny Scarecrow"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

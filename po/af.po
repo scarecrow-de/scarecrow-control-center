@@ -1,14 +1,14 @@
-# Afrikaans translation of gnome-control-center.
+# Afrikaans translation of scarecrow-control-center.
 # Copyright (C) 2004 Zuza Software Foundation
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Zuza Software Foundation <info@translate.org.za>, 2004
 # F Wolff <friedel@translate.org.za>, 2009, 2011, 2013, 2014, 2016.
 # Pieter Schoeman <pieter@sonbesie.co.za>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center 2.6-branch\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center 2.6-branch\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2019-01-10 14:17+0000\n"
 "PO-Revision-Date: 2018-02-06 17:56+0200\n"
@@ -1682,7 +1682,7 @@ msgid "Launch help browser"
 msgstr "Laat loop hulpblaaier"
 
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:222
-#: shell/cc-window.c:760 shell/gnome-control-center.desktop.in.in:3
+#: shell/cc-window.c:760 shell/scarecrow-control-center.desktop.in.in:3
 #: shell/window.ui:125
 msgid "Settings"
 msgstr "Instellings"
@@ -7398,20 +7398,20 @@ msgstr "Punt druk gevoel"
 msgid "page 3"
 msgstr "bladsy 3"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Control Center"
-msgstr "GNOME-beheersentrum"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Control Center"
+msgstr "Scarecrow-beheersentrum"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utilities to configure the GNOME desktop"
-msgstr "Nutsgoed om die GNOME-werkarea op te stel"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utilities to configure the Scarecrow desktop"
+msgstr "Nutsgoed om die Scarecrow-werkarea op te stel"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid ""
-"The control center is GNOME’s main interface for configuration of various "
+"The control center is Scarecrow’s main interface for configuration of various "
 "aspects of your desktop."
 msgstr ""
-"Die beheersentrum is GNOME se plek vir die opstelling van verskeie aspekte "
+"Die beheersentrum is Scarecrow se plek vir die opstelling van verskeie aspekte "
 "van die werkskerm."
 
 #: shell/cc-application.c:47
@@ -7455,12 +7455,12 @@ msgid "Quit"
 msgstr "Sluit af"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: shell/gnome-control-center.desktop.in.in:5
-msgid "gnome-control-center"
+#: shell/scarecrow-control-center.desktop.in.in:5
+msgid "scarecrow-control-center"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "voorkeure;instelling;opstelling;"
 
@@ -8880,8 +8880,8 @@ msgstr "Stelselklanke"
 #~ msgid "Version of this application"
 #~ msgstr "Weergawe van hierdie toepassing"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME miniprogram vir volumebeheer"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow miniprogram vir volumebeheer"
 
 #~ msgid "Sound Output Volume"
 #~ msgstr "Klank se afvoervolume"
@@ -9777,7 +9777,7 @@ msgstr "Stelselklanke"
 #~ msgstr "Tema-installeerder"
 
 #~ msgid "Gnome Theme Package"
-#~ msgstr "GNOME-temapakket"
+#~ msgstr "Scarecrow-temapakket"
 
 #~ msgid "Slide Show"
 #~ msgstr "Skyfievertoning"
@@ -9828,8 +9828,8 @@ msgstr "Stelselklanke"
 #~ msgid "Apply New Theme"
 #~ msgstr "Pas nuwe tema toe"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME-tema \"%s\" korrek geïnstalleer"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow-tema \"%s\" korrek geïnstalleer"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "Nuwe temas is suksesvol geïnstalleer."
@@ -9864,16 +9864,16 @@ msgstr "Stelselklanke"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "Kan nie die instellingsbestuurder van 'gnome-settings-daemon' laai nie.\n"
-#~ "Sonder die GNOME-instellingsbestuurder wat loop, sal sommige voorkeure "
+#~ "Sonder die Scarecrow-instellingsbestuurder wat loop, sal sommige voorkeure "
 #~ "nie in werking tree nie. Dit kan dui op 'n probleem met Bonobo, of 'n nie-"
-#~ "GNOME (bv. KDE) instellingsbestuurder mag reeds aktief wees en in konflik "
-#~ "wees met die GNOME-instellingsbestuurder."
+#~ "Scarecrow (bv. KDE) instellingsbestuurder mag reeds aktief wees en in konflik "
+#~ "wees met die Scarecrow-instellingsbestuurder."
 
 #, fuzzy
 #~ msgid "Unable to load stock icon '%s'\n"
@@ -10063,11 +10063,11 @@ msgstr "Stelselklanke"
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "GNOME-vergrootglas sonder skermleser"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "Scarecrow-vergrootglas sonder skermleser"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "GNOME-terminaal"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Scarecrow-terminaal"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"
@@ -10088,7 +10088,7 @@ msgstr "Stelselklanke"
 #~ msgstr "Iceweasel"
 
 #~ msgid "KDE Magnifier without Screen Reader"
-#~ msgstr "GNOME-vergrootglas sonder skermleser"
+#~ msgstr "Scarecrow-vergrootglas sonder skermleser"
 
 #~ msgid "Konqueror"
 #~ msgstr "Konqueror"
@@ -10215,8 +10215,8 @@ msgstr "Stelselklanke"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "Laai die bladsy met die toeganklikheidsinstellings wat wys"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- GNOME se sleutelbordvoorkeure"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Scarecrow se sleutelbordvoorkeure"
 
 #~ msgid "<b>Bounce Keys</b>"
 #~ msgstr "<b>Bonssleutels</b>"
@@ -10322,8 +10322,8 @@ msgstr "Stelselklanke"
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "Gee die naam van die bladsy om te wys (general|accessibility)"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- GNOME se muiisvoorkeure"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Scarecrow se muiisvoorkeure"
 
 #, fuzzy
 #~ msgid "<b>Dwell Click</b>"
@@ -10528,8 +10528,8 @@ msgstr "Stelselklanke"
 #~ msgid "Close the control-center when a task is activated"
 #~ msgstr "Sluit die beheersentrum wanneer 'n taak geaktiveer is"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Die GNOME-konfigurasieprogram"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Die Scarecrow-konfigurasieprogram"
 
 #~ msgid "_Postpone Break"
 #~ msgstr "_Vertraag onderbreking"
@@ -10683,9 +10683,9 @@ msgstr "Stelselklanke"
 #~ msgid "Assistive Technology Support"
 #~ msgstr "Helpende Tegnologie Ondersteuning"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
 #~ msgstr ""
-#~ "Aktiveer ondersteuning vir GNOME helpende tegnologieë tydens aanmelding"
+#~ "Aktiveer ondersteuning vir Scarecrow helpende tegnologieë tydens aanmelding"
 
 #~ msgid ""
 #~ "No Assistive Technology is available on your system.  The 'gok' package "

@@ -1,5 +1,5 @@
-# translation of gnome-control-center.HEAD.he.po to Hebrew
-# translation of gnome-control-center.gnome-2-0.he.po to Hebrew
+# translation of scarecrow-control-center.HEAD.he.po to Hebrew
+# translation of scarecrow-control-center.gnome-2-0.he.po to Hebrew
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
 # Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003.
@@ -9,8 +9,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD.he\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center.HEAD.he\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-09-25 14:17+0000\n"
 "PO-Revision-Date: 2020-09-29 03:13+0300\n"
@@ -79,7 +79,7 @@ msgstr "מערכת הפעלה"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "הגדרות"
 
@@ -1854,8 +1854,8 @@ msgid "OS Type"
 msgstr "סוג מערכת הפעלה"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "גרסת GNOME"
+msgid "Scarecrow Version"
+msgstr "גרסת Scarecrow"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -7994,21 +7994,21 @@ msgstr "הלחצן הנמוך יותר"
 msgid "Tip Pressure Feel"
 msgstr "תחושת לחץ החוד"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "הגדרות GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "הגדרות Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "כלים להגדרת שולחן העבודה GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "כלים להגדרת שולחן העבודה Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "הגדרות הוא הממשק העיקרי להגדיר את המערכת שלך."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "מיזם GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "מיזם Scarecrow"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -8068,7 +8068,7 @@ msgid "Help"
 msgstr "עזרה"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "העדפות;הגדרות;"
 
@@ -9187,14 +9187,14 @@ msgstr "צלילי מערכת"
 #~ msgid "Scroll Right"
 #~ msgstr "גלילה לימין"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME מרכז הבקרה"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow מרכז הבקרה"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "מרכז הבקרה הוא ממשק מרכזי של GNOME להגדרה של היבטים שונים של שולחן העבודה "
+#~ "מרכז הבקרה הוא ממשק מרכזי של Scarecrow להגדרה של היבטים שונים של שולחן העבודה "
 #~ "שלך."
 
 #~ msgid "Show the overview"
@@ -10492,8 +10492,8 @@ msgstr "צלילי מערכת"
 #~ msgid "Enable debugging code"
 #~ msgstr "Enable debugging code"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME Volume Control Applet"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow Volume Control Applet"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "הצגת בקרת עצמה בשולחן העבודה"
@@ -11438,11 +11438,11 @@ msgstr "צלילי מערכת"
 #~ msgid "ETerm"
 #~ msgstr "ETerm"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "זכוכית המגדלת של GNOME ללא קורא מסך"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "זכוכית המגדלת של Scarecrow ללא קורא מסך"
 
-#~ msgid "GNOME OnScreen Keyboard"
-#~ msgstr "מקלדת _על המסך של GNOME"
+#~ msgid "Scarecrow OnScreen Keyboard"
+#~ msgstr "מקלדת _על המסך של Scarecrow"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"
@@ -11970,7 +11970,7 @@ msgstr "צלילי מערכת"
 #~ "‏Yaron Shahrabani https://launchpad.net/~sh-yaron\n"
 #~ "‏ליאל פרידמן <lielft@ubuntu.com>\n"
 #~ "\n"
-#~ "פרויקט תרגום GNOME לעברית:\n"
+#~ "פרויקט תרגום Scarecrow לעברית:\n"
 #~ "‏http://gnome-il.berlios.de"
 
 #~ msgid "Don't check whether the notification area exists"
@@ -12069,8 +12069,8 @@ msgstr "צלילי מערכת"
 #~ "if true, the control-center will close when a \"Common Task\" is "
 #~ "activated."
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "כלי התצורה של GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "כלי התצורה של Scarecrow"
 
 #~ msgid "If set to true, then OpenType fonts will be thumbnailed."
 #~ msgstr "If set to true, then OpenType fonts will be thumbnailed."
@@ -12632,7 +12632,7 @@ msgstr "צלילי מערכת"
 #~ msgstr "מתקין ערכות נושא"
 
 #~ msgid "Gnome Theme Package"
-#~ msgstr "חבילת ערכת נושא של GNOME"
+#~ msgstr "חבילת ערכת נושא של Scarecrow"
 
 #~ msgid "Cannot install theme"
 #~ msgstr "לא ניתן להתקין את ערכת הנושא"
@@ -12671,8 +12671,8 @@ msgstr "צלילי מערכת"
 #~ msgid "Apply New Theme"
 #~ msgstr "החל ערכת נושא חדשה"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "ערכת הנושא של GNOME %s הותקנה בהצלחה"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "ערכת הנושא של Scarecrow %s הותקנה בהצלחה"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "ערכות נושא חדשות הותקנו בהצלחה."
@@ -12710,15 +12710,15 @@ msgstr "צלילי מערכת"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "לא ניתן להפעיל את מנהל ההגדרות 'gnome-settings-daemon'.\n"
-#~ "בלי aמנהל ההגדרות של GNOME פועל, חלק מההעדפות לא יכולות לפעול. זה יכול "
-#~ "להצביע על בעיה עם DBus, או מנהל הגדרות שאינו GNOME (לדוגמה KDE) שיכול "
-#~ "להיות פעיל ולהתנגש עם מנהל הגדרות של GNOME."
+#~ "בלי aמנהל ההגדרות של Scarecrow פועל, חלק מההעדפות לא יכולות לפעול. זה יכול "
+#~ "להצביע על בעיה עם DBus, או מנהל הגדרות שאינו Scarecrow (לדוגמה KDE) שיכול "
+#~ "להיות פעיל ולהתנגש עם מנהל הגדרות של Scarecrow."
 
 #~ msgid "There was an error displaying help: %s"
 #~ msgstr "ארעה שגיאה בהצגת העזרה: %s"
@@ -12872,14 +12872,14 @@ msgstr "צלילי מערכת"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "התחל את העמוד עם הצגת הגדרות נגישות"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- העדפות מקלדת של GNOME"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- העדפות מקלדת של Scarecrow"
 
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "Specify the name of the page to show (general|accessibility)"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- העדפות עכבר של GNOME"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- העדפות עכבר של Scarecrow"
 
 #~ msgid "Cannot start the preferences application for your window manager"
 #~ msgstr ">לא ניתן להפעיל את יישום ההעדפות של מנהל החלונות שלך"

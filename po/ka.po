@@ -1,4 +1,4 @@
-# translation of gnome-control-center.po to Georgian
+# translation of scarecrow-control-center.po to Georgian
 # Georgian translation for Gnome Control Centre.
 #
 # Alexander Didebulidze <didebuli@in.tum.de>, 2005, 2006.
@@ -9,7 +9,7 @@
 # Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-26 22:56+0200\n"
 "PO-Revision-Date: 2008-09-26 23:35+0200\n"
@@ -1096,7 +1096,7 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:288
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "გნომის გაფორმების თემა %s მართებულად დაყენდა."
 
 #: ../capplets/appearance/theme-installer.c:355
@@ -1181,9 +1181,9 @@ msgstr "შეუძლებელია ძირითადი ინტე�
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "ვერ ვუშვებ პარამეტრების მმართველს 'gnome-settings-daemon'.\n"
@@ -1622,15 +1622,15 @@ msgid "Firefox"
 msgstr "ფაირფოქსი"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr "გნომის ლუპა ეკრანის მკითხველის გარეშე"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr "გნომის ეკრან კლავიატურა"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "გნომის ტერმინალი"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
@@ -2024,7 +2024,7 @@ msgid "Start the page with the accessibility settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:274
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr "- გნომის კლავიატურის პარამეტრები"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
@@ -2390,7 +2390,7 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.c:452
 #, fuzzy
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr "- გნომის ხმის პარამეტრები"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
@@ -2687,7 +2687,7 @@ msgid "Silence"
 msgstr "სიჩუმე"
 
 #: ../capplets/sound/sound-properties-capplet.c:1202
-msgid "- GNOME Sound Preferences"
+msgid "- Scarecrow Sound Preferences"
 msgstr "- გნომის ხმის პარამეტრები"
 
 #: ../capplets/sound/sound-properties.glade.h:1
@@ -3279,7 +3279,7 @@ msgid ""
 msgstr "მართვის ცენტრის დახურვა, ამოცანის აქტივირებისას"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr "გნომის კონფიგურაციის ხელსაწყო"
 
 #: ../typing-break/drw-break-window.c:189
@@ -3367,7 +3367,7 @@ msgstr "დახმარების პარამეტრების ჩ�
 #~ msgid "    "
 #~ msgstr "    "
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
 #~ msgstr ""
 #~ "სისტემაში შემოსვლისთანავე, გნომის დამხმარე ტექნოლოგიების მხარდაჭერის "
 #~ "ჩართვა"
@@ -3781,14 +3781,14 @@ msgstr "დახმარების პარამეტრების ჩ�
 #~ msgstr "აღ_არ მაჩვენო მოცემული გაფრთხილების შეტყობინება"
 
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
 #~ "\n"
 #~ "Which set would you like to use?"
 #~ msgstr ""
-#~ "<b>X სისტემის კლავიატური განლაგება განსხვავდება თქვენს GNOME კლავიატურის "
+#~ "<b>X სისტემის კლავიატური განლაგება განსხვავდება თქვენს Scarecrow კლავიატურის "
 #~ "განლაგებასთან.</b>\n"
 #~ "\n"
 #~ "მოსალოდნელი იყო %s, მაგრამ ნაპოვნია: %s.\n"
@@ -3798,7 +3798,7 @@ msgstr "დახმარების პარამეტრების ჩ�
 #~ msgid "Use X settings"
 #~ msgstr "X-ის პარამეტრების გამოყენება"
 
-#~ msgid "Keep GNOME settings"
+#~ msgid "Keep Scarecrow settings"
 #~ msgstr "გნომის პარამეტრების დატოვება"
 
 #~ msgid ""
@@ -4105,7 +4105,7 @@ msgstr "დახმარების პარამეტრების ჩ�
 #~ msgid "usage: %s fontfile\n"
 #~ msgstr "გამოყენება: %s _შრიფტის ფაილი\n"
 
-#~ msgid "GNOME Font Viewer"
+#~ msgid "Scarecrow Font Viewer"
 #~ msgstr "გნომის შრიფტის მნახველი"
 
 #~ msgid "Text to thumbnail (default: Aa)"

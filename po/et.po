@@ -1,9 +1,9 @@
-# GNOME juhtimiskeskuse eesti keele tõlge.
-# Estonian translation of GNOME Control Center.
+# Scarecrow juhtimiskeskuse eesti keele tõlge.
+# Estonian translation of Scarecrow Control Center.
 #
 # Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
 # Copyright (C) 2007–2011 The Gnome Project.
-# This file is distributed under the same license as the gnome-control-center
+# This file is distributed under the same license as the scarecrow-control-center
 # package.
 #
 # Lauris Kaplinski <lauris ariman ee>, 1999.
@@ -14,7 +14,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNOME Control Center MASTER\n"
+"Project-Id-Version: Scarecrow Control Center MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-05-13 06:26+0000\n"

@@ -1,6 +1,6 @@
-# Slovenian translations for gnome-control-center.
-# Copyright (C) 2009 gnome-control-center COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Slovenian translations for scarecrow-control-center.
+# Copyright (C) 2009 scarecrow-control-center COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2004.
 # Matjaž Horvat <m@owca.info>, 2005–2006.
@@ -9,13 +9,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-15 16:58+0000\n"
 "PO-Revision-Date: 2021-02-17 17:53+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language-Team: Slovenian Scarecrow Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +79,7 @@ msgstr "Datotečni sistem"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Nastavitve"
 
@@ -1868,8 +1868,8 @@ msgid "OS Type"
 msgstr "Vrsta OS"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "Različica GNOME"
+msgid "Scarecrow Version"
+msgstr "Različica Scarecrow"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8059,21 +8059,21 @@ msgstr "Spodnji gumb"
 msgid "Tip Pressure Feel"
 msgstr "Občutek pritiska konice"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "Nastavitve GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Nastavitve Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "Orodje za nastavljanje namizja GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Orodje za nastavljanje namizja Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Program je osnovni vmesnik za prilagajanje nastavitev sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "Projekt GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "Projekt Scarecrow"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -8134,7 +8134,7 @@ msgid "Help"
 msgstr "Pomoč"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Možnosti;Nastavitve;"
 
@@ -8983,15 +8983,15 @@ msgstr "Sistemski zvoki"
 #~ msgid "Stop"
 #~ msgstr "Zaustavi"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "Nadzorno središče GNOME"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Nadzorno središče Scarecrow"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
 #~ "Nadzorno središče je osnovni vmesnik za spreminjanje različnih nastavitev "
-#~ "namizja GNOME."
+#~ "namizja Scarecrow."
 
 #~ msgid "Language"
 #~ msgstr "Jezik"
@@ -9019,8 +9019,8 @@ msgstr "Sistemski zvoki"
 #~ msgid "Quit"
 #~ msgstr "Končaj"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "My Home Network"
 #~ msgstr "Domače omrežje"
@@ -10848,8 +10848,8 @@ msgstr "Sistemski zvoki"
 #~ msgid "Enable debugging code"
 #~ msgstr "Omogoči razhroščevanje kode"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME aplet nadzora glasnosti"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow aplet nadzora glasnosti"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "Pokaži namizni nadzornik zvoka"

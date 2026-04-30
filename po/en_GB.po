@@ -9,8 +9,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-08-18 21:12+0000\n"
 "PO-Revision-Date: 2020-08-24 19:08+0100\n"
@@ -78,7 +78,7 @@ msgstr "File System"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Settings"
 
@@ -1865,8 +1865,8 @@ msgid "OS Type"
 msgstr "OS Type"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "GNOME Version"
+msgid "Scarecrow Version"
+msgstr "Scarecrow Version"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8028,21 +8028,21 @@ msgstr "Lowest Button"
 msgid "Tip Pressure Feel"
 msgstr "Tip Pressure Feel"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "GNOME Settings"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Scarecrow Settings"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "Utility to configure the GNOME desktop"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Utility to configure the Scarecrow desktop"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Settings is the primary interface for configuring your system."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "The GNOME Project"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "The Scarecrow Project"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -8103,7 +8103,7 @@ msgid "Help"
 msgstr "Help"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;"
 
@@ -8993,21 +8993,21 @@ msgstr "System Sounds"
 #~ msgid "page 3"
 #~ msgstr "page 3"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME Control Center"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow Control Center"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "The control centre is GNOME’s main interface for configuration of various "
+#~ "The control centre is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 
 #~ msgid "Quit"
 #~ msgstr "Quit"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verify New Password"
@@ -10626,8 +10626,8 @@ msgstr "System Sounds"
 #~ msgid "Enable debugging code"
 #~ msgstr "Enable debugging code"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME Volume Control Applet"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow Volume Control Applet"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "Show desktop volume control"
@@ -11411,11 +11411,11 @@ msgstr "System Sounds"
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "GNOME Magnifier without Screen Reader"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "Scarecrow Magnifier without Screen Reader"
 
-#~ msgid "GNOME OnScreen Keyboard"
-#~ msgstr "GNOME OnScreen Keyboard"
+#~ msgid "Scarecrow OnScreen Keyboard"
+#~ msgstr "Scarecrow OnScreen Keyboard"
 
 #~ msgid "Galeon"
 #~ msgstr "Galeon"
@@ -11811,8 +11811,8 @@ msgstr "System Sounds"
 #~ msgid "I need assistance with:"
 #~ msgstr "I need assistance with:"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "The GNOME configuration tool"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "The Scarecrow configuration tool"
 
 #~ msgid "_Postpone Break"
 #~ msgstr "_Postpone Break"
@@ -12590,8 +12590,8 @@ msgstr "System Sounds"
 #~ msgid "Apply New Theme"
 #~ msgstr "Apply New Theme"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME Theme %s correctly installed"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow Theme %s correctly installed"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "New themes have been successfully installed."
@@ -12629,16 +12629,16 @@ msgstr "System Sounds"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 
 #~ msgid "There was an error displaying help: %s"
 #~ msgstr "There was an error displaying help: %s"
@@ -12752,14 +12752,14 @@ msgstr "System Sounds"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "Start the page with the accessibility settings showing"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Scarecrow Keyboard Preferences"
 
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "Specify the name of the page to show (general|accessibility)"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- GNOME Mouse Preferences"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Scarecrow Mouse Preferences"
 
 #~ msgid "Cannot start the preferences application for your window manager"
 #~ msgstr "Cannot start the preferences application for your window manager"
@@ -13196,8 +13196,8 @@ msgstr "System Sounds"
 #~ msgid "Silence"
 #~ msgstr "Silence"
 
-#~ msgid "- GNOME Sound Preferences"
-#~ msgstr "- GNOME Sound Preferences"
+#~ msgid "- Scarecrow Sound Preferences"
+#~ msgstr "- Scarecrow Sound Preferences"
 
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>Alerts and Sound Effects</b>"
@@ -13303,8 +13303,8 @@ msgstr "System Sounds"
 #~ msgid "Logout"
 #~ msgstr "Logout"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
+#~ msgstr "Enable support for Scarecrow assistive technologies at login"
 
 #~ msgid ""
 #~ "Centered\n"
@@ -13810,14 +13810,14 @@ msgstr "System Sounds"
 #~ msgstr "Do _not show this warning again"
 
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
 #~ "\n"
 #~ "Which set would you like to use?"
 #~ msgstr ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
@@ -13999,8 +13999,8 @@ msgstr "System Sounds"
 #~ msgid "Preferred Assistive Technology"
 #~ msgstr "Preferred Assistive Technology"
 
-#~ msgid "Run the the preferred GNOME Mobility Assitive Technology"
-#~ msgstr "Run the the preferred GNOME Mobility Assitive Technology"
+#~ msgid "Run the the preferred Scarecrow Mobility Assitive Technology"
+#~ msgstr "Run the the preferred Scarecrow Mobility Assitive Technology"
 
 #~ msgid "Select fonts for the desktop"
 #~ msgstr "Select fonts for the desktop"

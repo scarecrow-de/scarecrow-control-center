@@ -1,5 +1,5 @@
 # translation of nn.po to Norwegian Nynorsk
-# Norwegian (nynorsk) translation of gnome-control-center.
+# Norwegian (nynorsk) translation of scarecrow-control-center.
 # Copyright (C) 1999-2008 Free Software Foundation, Inc.
 # Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
 # Eskild Hustvedt <eskildh@gnome.org> 2008
@@ -964,14 +964,14 @@ msgid ""
 msgstr ""
 "Neste innlogging vil bruka reserveløysing for grafikkort som ikkje er støtta."
 
-#. translators: The hardware is not able to run GNOME 3's
-#. * shell, so we use the GNOME "Fallback" session
+#. translators: The hardware is not able to run Scarecrow 3's
+#. * shell, so we use the Scarecrow "Fallback" session
 #: ../panels/info/cc-info-panel.c:870
 msgctxt "Experience"
 msgid "Fallback"
 msgstr "Reserveløysing"
 
-#. translators: The hardware is able to run GNOME 3's
+#. translators: The hardware is able to run Scarecrow 3's
 #. * shell, also called "Standard" experience
 #: ../panels/info/cc-info-panel.c:876
 msgctxt "Experience"
@@ -1211,7 +1211,7 @@ msgstr "Drivar"
 msgid "Experience"
 msgstr "Brukaroppleving"
 
-#. Hardware is not able to run GNOME 3's shell, so we might want to force running the 'Fallback' experience.
+#. Hardware is not able to run Scarecrow 3's shell, so we might want to force running the 'Fallback' experience.
 #: ../panels/info/info.ui.h:30
 msgid "Forced _Fallback Mode"
 msgstr "Tvungen _reserveløysing"
@@ -2155,7 +2155,7 @@ msgid "_Log In"
 msgstr "_Logg inn"
 
 #. translators: This is the title of the "Add Account" dialogue.
-#. * The title is not visible when using GNOME Shell
+#. * The title is not visible when using Scarecrow Shell
 #: ../panels/online-accounts/cc-online-accounts-panel.c:461
 #: ../panels/online-accounts/online-accounts.ui.h:1
 msgid "Add Account"
@@ -3167,8 +3167,8 @@ msgid "Version of this application"
 msgstr "Versjon av dette programmet"
 
 #: ../panels/sound/applet-main.c:62 ../panels/sound-nua/applet-main.c:62
-msgid " — GNOME Volume Control Applet"
-msgstr " – GNOME panelprogram for volumkontroll"
+msgid " — Scarecrow Volume Control Applet"
+msgstr " – Scarecrow panelprogram for volumkontroll"
 
 #: ../panels/sound/data/gnome-sound-applet.desktop.in.h:1
 #| msgid "UI Control"
@@ -3541,7 +3541,7 @@ msgstr ""
 
 #
 #: ../panels/universal-access/uap.ui.h:1
-#| msgid "GNOME OnScreen Keyboard"
+#| msgid "Scarecrow OnScreen Keyboard"
 msgid "On screen keyboard"
 msgstr "Tastatur på skjermen"
 
@@ -4937,11 +4937,11 @@ msgstr ""
 msgid "Control Center"
 msgstr "Kontrollsenter"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "Systeminnstillingar"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr ""
 

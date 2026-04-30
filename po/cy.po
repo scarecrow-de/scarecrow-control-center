@@ -1,4 +1,4 @@
-# gnome-control-center yn Gymraeg.
+# scarecrow-control-center yn Gymraeg.
 # www.kyfieithu.co.uk <kyfieithu@kyfieithu.co.uk>, 2003.
 # Dafydd Harries <daf@muse.19inch.net>, 2003.
 # Dafydd Tomos <i10n@da.fydd.org>, 2004.
@@ -20,7 +20,7 @@
 # [rj] Wedi gyrru'r cyfan drwy Cysill, 29ain Mai 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-08 13:45+0000\n"
 "PO-Revision-Date: 2006-03-08 12:53-0000\n"
@@ -422,9 +422,9 @@ msgid "Assistive Technology Support"
 msgstr "Cynhaliaeth Technoleg Gynorthwyol"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr ""
-"Galluogi cynhaliaeth ar gyfer technolegau cynorthwyol GNOME wrth fewngofnodi"
+"Galluogi cynhaliaeth ar gyfer technolegau cynorthwyol Scarecrow wrth fewngofnodi"
 
 #: ../capplets/accessibility/at-properties/main.c:60
 msgid ""
@@ -784,16 +784,16 @@ msgstr[1] "bicsel"
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Methu cychwyn y rheolwr gosodiadau 'gnome-settings-daemon'.\n"
-"Heb i'r rheolydd gosodiadau GNOME fod yn weithgar, mae'n bosib na fydd rhai "
+"Heb i'r rheolydd gosodiadau Scarecrow fod yn weithgar, mae'n bosib na fydd rhai "
 "hoffterau'n dod i rym. Gall hyn olygu fod problem gyda Bonobo, neu fe all "
 "rheolydd gosodiadau arall (e.e. KDE) fod yn weithgar ac yn creu "
-"anghysondebau gyda rheolydd gosodiadau GNOME."
+"anghysondebau gyda rheolydd gosodiadau Scarecrow."
 
 #: ../capplets/common/capplet-stock-icons.c:92
 #, c-format
@@ -1081,8 +1081,8 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
-msgid "GNOME Terminal"
-msgstr "Terfynell GNOME"
+msgid "Scarecrow Terminal"
+msgstr "Terfynell Scarecrow"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
 msgid "Galeon"
@@ -2558,13 +2558,13 @@ msgid "Desktop Preferences"
 msgstr "Hoffterau Penbwrdd"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "Canolfan Reoli GNOME"
+msgid "Scarecrow Control Center"
+msgstr "Canolfan Reoli Scarecrow"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "Yr erfyn cyfluniad GNOME"
+msgid "The Scarecrow configuration tool"
+msgstr "Yr erfyn cyfluniad Scarecrow"
 
 #: ../gnome-settings-daemon/actions/acme-fb-level.c:149
 msgid "No '/dev/pmu' device found"
@@ -2763,19 +2763,19 @@ msgstr "_Peidio â dangos y rhybudd yma eto"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:234
 msgid ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 msgstr ""
 "Mae gosodiadau bysellfwrdd y system X yn wahanol i'ch gosodiadau bysellfwrdd "
-"GNOME cyfredol. Pa set hoffech ddefnyddio?"
+"Scarecrow cyfredol. Pa set hoffech ddefnyddio?"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:247
 msgid "Use X settings"
 msgstr "Defnyddio Gosodiadau X"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:249
-msgid "Use GNOME settings"
-msgstr "Defnyddio Gosodiadau GNOME"
+msgid "Use Scarecrow settings"
+msgstr "Defnyddio Gosodiadau Scarecrow"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
@@ -3229,12 +3229,12 @@ msgstr "Atal y neges rybudd \"sysconfig X wedi newid\""
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 "Yn fuan iawn, bydd gosodiadau bysellfwrdd o fewn gconf yn cael eu "
 "trosysgrifo (gan gyfluniad y system). Mae'r allwedd hon wedi ei "
-"anghymeradwyo ers GNOME 2.12. Dadosodwch yr allweddi model, cynllun ac "
+"anghymeradwyo ers Scarecrow 2.12. Dadosodwch yr allweddi model, cynllun ac "
 "opsiynau er mwyn cael cyfluniad rhagosodedig y system."
 
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
@@ -3290,8 +3290,8 @@ msgstr ""
 "Methwyd codi'r deialog hoffterau gorffwys teipio gyda'r gwall canlynol: %s "
 
 #: ../typing-break/drwright.c:629
-msgid "About GNOME Typing Monitor"
-msgstr "Ynghylch Monitor Teipio GNOME"
+msgid "About Scarecrow Typing Monitor"
+msgstr "Ynghylch Monitor Teipio Scarecrow"
 
 #: ../typing-break/drwright.c:653
 msgid "A computer break reminder."
@@ -3451,8 +3451,8 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "A ddylid creu lluniau cryno o ffontiau Type1"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
-msgstr "Gwelydd Ffontiau GNOME"
+msgid "Scarecrow Font Viewer"
+msgstr "Gwelydd Ffontiau Scarecrow"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

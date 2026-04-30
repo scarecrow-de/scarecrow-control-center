@@ -1,4 +1,4 @@
-# translation of gnome-control-center.master.or.po to Oriya
+# translation of scarecrow-control-center.master.or.po to Oriya
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -6,7 +6,7 @@
 # Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.or\n"
+"Project-Id-Version: scarecrow-control-center.master.or\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-20 06:31+0000\n"
@@ -1541,7 +1541,7 @@ msgid "Launch help browser"
 msgstr "ସାହାୟ୍ଯ ବ୍ରାଉଜର ପ୍ରାରମ୍ଭ କରନ୍ତୁ"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "ସେଟିଙ୍ଗଗୁଡିକ"
 
@@ -7350,7 +7350,7 @@ msgctxt "category"
 msgid "System"
 msgstr "ତନ୍ତ୍ର"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 
@@ -8322,8 +8322,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Version of this application"
 #~ msgstr "ଏହି ପ୍ରୟୋଗର ସଂସ୍କରଣ"
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr " — GNOME ଭଲ୍ୟୁମ ନିୟନ୍ତ୍ରଣ ଆପଲେଟ"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr " — Scarecrow ଭଲ୍ୟୁମ ନିୟନ୍ତ୍ରଣ ଆପଲେଟ"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "ଡେସ୍କଟପ ଭଲ୍ୟୁମ ନିୟନ୍ତ୍ରଣ ଦର୍ଶାନ୍ତୁ"
@@ -9268,8 +9268,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Apply New Theme"
 #~ msgstr "ନୂଆ ଥିମ ପ୍ରଯୋଗ କର"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME ଥିମ %s ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହେଲା"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow ଥିମ %s ସଠିକ ଭାବରେ ପ୍ରତିଷ୍ଠାପିତ ହେଲା"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "ନୂତନ ପ୍ରସଙ୍ଗ ସଫଳତାର ସହିତ ସ୍ଥାପିତ ହୋଇଛି।"
@@ -9304,15 +9304,15 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "'gnome-settings-daemon' ସଂରଚନା ପରିଚାଳକଙ୍କୁ ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।\n"
-#~ "GNOME ସଂରଚନା ପରିଚାଳକ ଚାଲୁ ନଥିବା ବିନା, କେତେକ ପସନ୍ଦ ପ୍ରଭାବଶାଳୀ ହୋଇ ପାରିବ ନାହିଁ। DBus "
-#~ "ଏହା ହୁଏତ ଏକ ସମସ୍ଯା ସୃଷ୍ଟି କରିପାରେ, ଅଥବା ଗୋଟିଏ ଅଣ-GNOME (ଯେପରି KDE) ସଂରଚନା ପରିଚାଳକ "
-#~ "ପୂର୍ବରୁ ସକ୍ରିୟ ଥାଇପାରେ ଏବଂ GNOME ସେଟିଙ୍ଗ ପ୍ରବନ୍ଧକ ସହିତ ଦ୍ବନ୍ଦ୍ବ କରୁଥାଇପାରେ।"
+#~ "Scarecrow ସଂରଚନା ପରିଚାଳକ ଚାଲୁ ନଥିବା ବିନା, କେତେକ ପସନ୍ଦ ପ୍ରଭାବଶାଳୀ ହୋଇ ପାରିବ ନାହିଁ। DBus "
+#~ "ଏହା ହୁଏତ ଏକ ସମସ୍ଯା ସୃଷ୍ଟି କରିପାରେ, ଅଥବା ଗୋଟିଏ ଅଣ-Scarecrow (ଯେପରି KDE) ସଂରଚନା ପରିଚାଳକ "
+#~ "ପୂର୍ବରୁ ସକ୍ରିୟ ଥାଇପାରେ ଏବଂ Scarecrow ସେଟିଙ୍ଗ ପ୍ରବନ୍ଧକ ସହିତ ଦ୍ବନ୍ଦ୍ବ କରୁଥାଇପାରେ।"
 
 #~ msgid "Unable to load stock icon '%s'\n"
 #~ msgstr "ପୁଞ୍ଜି ଚିତ୍ରସଙ୍କେତ %s କୁ ଧାରଣ କରିବାରେ ଅସମର୍ଥ\n"
@@ -9564,11 +9564,11 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Firefox"
 #~ msgstr "ଫାଯାରଫକ୍ସ"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "ବିନା ପରଦା ପାଠକରେ GNOME ବର୍ଦ୍ଧକ"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "ବିନା ପରଦା ପାଠକରେ Scarecrow ବର୍ଦ୍ଧକ"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "GNOME ଟର୍ମିନାଲ"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Scarecrow ଟର୍ମିନାଲ"
 
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"
@@ -9750,8 +9750,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "ଦର୍ଶାଯାଇଥିବା ଅଭିଗମ୍ୟ ବିନ୍ୟାସ ପରି ପୃଷ୍ଠାକୁ ଆରମ୍ଭ କରନ୍ତୁ"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- GNOME କି-ବୋର୍ଡ ପସନ୍ଦ"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Scarecrow କି-ବୋର୍ଡ ପସନ୍ଦ"
 
 #~ msgid "Beep when _accessibility features are turned on or off"
 #~ msgstr "ଅଭିଗମ୍ୟତା ବିଶେଷ ଗୁଣଗୁଡ଼ିକୁ ଅନ କିମ୍ବା ଅଫ କରିବା ସମୟରେ ଦପ ଦପ କରନ୍ତୁ (_a)"
@@ -9841,8 +9841,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "ଦର୍ଶାଇବା ପାଇଁ ପୃଷ୍ଠାର ନାମ ଉଲ୍ଲେଖ କରନ୍ତୁ (general|ଅଭିଗମ୍ୟତା)"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "- GNOME ମାଉସ ପସନ୍ଦ"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "- Scarecrow ମାଉସ ପସନ୍ଦ"
 
 #~ msgid "Choose type of click _beforehand"
 #~ msgstr "ହାତ ପୂର୍ବରୁ କ୍ଲିକର ପ୍ରକାର ବାଛନ୍ତୁ (_b)"
@@ -10009,8 +10009,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgstr ""
 #~ "ଯଦି true, ତେବେ \"Common Task\" ସକ୍ରିୟ ହେବା ମାତ୍ରେ ନିୟନ୍ତ୍ରଣ-କେନ୍ଦ୍ର ବନ୍ଦ ହୋଇଯିବ।"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "GNOME କନଫିଗରେସନ୍ ଉପକରଣ"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Scarecrow କନଫିଗରେସନ୍ ଉପକରଣ"
 
 #~ msgid "_Postpone Break"
 #~ msgstr "ବିରାମ ସମୟକୁ ଆଗକୁ କରନ୍ତୁ (_P)"

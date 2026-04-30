@@ -485,7 +485,7 @@ msgid "_Preferred Applications"
 msgstr ""
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr ""
 
 #: ../capplets/accessibility/keyboard/accessibility-keyboard.c:250
@@ -1190,7 +1190,7 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:237
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:249
@@ -1283,9 +1283,9 @@ msgstr ""
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 
@@ -1673,16 +1673,16 @@ msgid "Firefox"
 msgstr "ෆයර්ෆොක්ස්"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:19
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:20
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:21
-msgid "GNOME Terminal"
-msgstr "GNOME අග්‍රය"
+msgid "Scarecrow Terminal"
+msgstr "Scarecrow අග්‍රය"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:22
 msgid "Galeon"
@@ -2049,7 +2049,7 @@ msgid "Start the page with the typing break settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:246
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:2
@@ -2474,7 +2474,7 @@ msgid "Silence"
 msgstr "නිහඬ"
 
 #: ../capplets/sound/sound-properties-capplet.c:1043
-msgid "- GNOME Sound Preferences"
+msgid "- Scarecrow Sound Preferences"
 msgstr ""
 
 #: ../capplets/sound/sound-properties.glade.h:1
@@ -2794,7 +2794,7 @@ msgstr ""
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:264
 #, c-format
 msgid ""
-"<b>The X system keyboard settings differ from your current GNOME keyboard "
+"<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.</b>\n"
 "\n"
 "Expected was %s, but the the following settings were found: %s.\n"
@@ -2807,7 +2807,7 @@ msgid "Use X settings"
 msgstr ""
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:289
-msgid "Keep GNOME settings"
+msgid "Keep Scarecrow settings"
 msgstr ""
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:188
@@ -3458,7 +3458,7 @@ msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr ""
 
 #: ../typing-break/drw-break-window.c:188
@@ -3650,7 +3650,7 @@ msgid "usage: %s fontfile\n"
 msgstr ""
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
+msgid "Scarecrow Font Viewer"
 msgstr ""
 
 #: ../vfs-methods/fontilus/thumbnailer.c:242

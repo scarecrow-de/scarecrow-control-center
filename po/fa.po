@@ -1,7 +1,7 @@
-# Persian translation of gnome-control-center.
+# Persian translation of scarecrow-control-center.
 # Copyright (C) 2003, 2005 Sharif FarsiWeb, Inc.
 # Copyright (C) 2010 Iranian Free Software Users Group (IFSUG.org) translation team
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Roozbeh Pournader <roozbeh@farsiweb.info>, 2003.
 # Masoud Ahmadzadeh <masoud@bamdad.org>, 2005.
 # Meelad Zakaria <meelad@farsiweb.info>, 2005.
@@ -13,8 +13,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/issues\n"
 "POT-Creation-Date: 2020-08-31 15:11+0000\n"
 "PO-Revision-Date: 2020-09-08 19:34+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
@@ -79,7 +79,7 @@ msgstr "سامانه پرونده"
 
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279 shell/cc-window.c:933
-#: shell/cc-window.ui:121 shell/gnome-control-center.desktop.in.in:3
+#: shell/cc-window.ui:121 shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "تنظیمات"
 
@@ -1826,7 +1826,7 @@ msgid "OS Type"
 msgstr "گونهٔ سیستم‌عامل"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
+msgid "Scarecrow Version"
 msgstr "نگارش گنوم"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
@@ -2088,7 +2088,7 @@ msgstr "کلید فهرست"
 msgid "Right Ctrl"
 msgstr "مهار راست"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-manager.c:486
 #: panels/keyboard/cc-keyboard-manager.c:494
 #: panels/keyboard/cc-keyboard-manager.c:779
@@ -2145,7 +2145,7 @@ msgctxt "keyboard key"
 msgid "Right Alt"
 msgstr "دگرساز راست"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-panel.c:201
 msgid "Reset All Shortcuts?"
 msgstr "بازنشانی تمام میان‌برها؟"
@@ -2198,12 +2198,12 @@ msgstr ""
 msgid "Enter the new shortcut"
 msgstr "میان‌بر جدید را وارد کنید"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:564
 msgid "Set Custom Shortcut"
 msgstr "تنظیم میان‌بر سفارشی"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:564
 msgid "Set Shortcut"
 msgstr "تنظیم میان‌بر"
@@ -2214,7 +2214,7 @@ msgstr "تنظیم میان‌بر"
 msgid "Enter new shortcut to change %s."
 msgstr "برای تغییر %s میان‌بر جدید را وارد کنید."
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:1002
 msgid "Add Custom Shortcut"
 msgstr "افزودن میان‌بر سفارشی"
@@ -2232,12 +2232,12 @@ msgstr "نام"
 msgid "Command"
 msgstr "فرمان"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-shortcut-editor.ui:159
 msgid "Shortcut"
 msgstr "میان‌بر"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/keyboard/cc-keyboard-shortcut-editor.ui:238
 msgid "Set Shortcut…"
 msgstr "تنظیم میان‌بر…"
@@ -6357,7 +6357,7 @@ msgstr "یک وقفه بین زمان فشردن کلید تا زمان پذیر
 msgid "A_cceptance delay:"
 msgstr "وقفه _پذیرش:"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/universal-access/cc-ua-panel.ui:2037
 msgctxt "slow keys delay"
 msgid "Short"
@@ -6393,7 +6393,7 @@ msgstr "کلید‌های _پرشی"
 msgid "Ignores fast duplicate keypresses"
 msgstr "نادیده گرفتن دوبار فشرده شدن یک کلید، در زمان کوتاه"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/universal-access/cc-ua-panel.ui:2250
 msgctxt "bounce keys delay"
 msgid "Short"
@@ -6428,7 +6428,7 @@ msgstr "کلیک دومین _شبیه‌سازی شده"
 msgid "Trigger a secondary click by holding down the primary button"
 msgstr "راه‌انداختن کلیک دوم با نگاه داشتن کلید اصلی"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/universal-access/cc-ua-panel.ui:2586
 msgctxt "secondary click"
 msgid "Short"
@@ -6455,7 +6455,7 @@ msgstr "راه‌انداختن یک کلیک در زمان شناور شدن ن
 msgid "D_elay:"
 msgstr "تأ_خیر:"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/universal-access/cc-ua-panel.ui:2750
 msgctxt "dwell click delay"
 msgid "Short"
@@ -6498,7 +6498,7 @@ msgstr ""
 "کلیدهای چسبان;کلیدهای آرام;کلیدهای پرشی;کلیدهای موشی;چشمک;سرعت;بینایی;شنوایی;صدا;"
 "تایپ;نوشتن;"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/universal-access/zoom-options.c:303
 msgctxt "Distance"
 msgid "Short"
@@ -7879,7 +7879,7 @@ msgstr "لطفاً برای پیکربندی، استایلوستان را به 
 msgid "Eraser Pressure Feel"
 msgstr "حساسیت فشار پاک‌کن"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #: panels/wacom/wacom-stylus-page.ui:180 panels/wacom/wacom-stylus-page.ui:341
 msgid "Soft"
 msgstr "نرم"
@@ -7904,20 +7904,20 @@ msgstr "پایین‌ترین دکمه"
 msgid "Tip Pressure Feel"
 msgstr "حساسیت فشار ضربه"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
 msgstr "تنظیمات گنوم"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
 msgstr "ابزاری برای پیکربندی میزکار گنوم"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "تنظیمات، واسط اصلی برای پیکربندی سامانه‌تان است."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
 msgstr "پروژهٔ گنوم"
 
 #: shell/cc-application.c:59
@@ -7977,7 +7977,7 @@ msgid "Help"
 msgstr "راهنما"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;ترجیحات;تنظیمات;"
 
@@ -8833,11 +8833,11 @@ msgstr "صداهای سامانه"
 #~ msgid "System"
 #~ msgstr "سیستم"
 
-#~ msgid "GNOME Control Center"
+#~ msgid "Scarecrow Control Center"
 #~ msgstr "مرکز کنترل گنوم"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr "مرکز کنترل، واسط اصلی گنوم برای پیکربندی جنبه‌های مختلف میزکارتان است."
 
@@ -9211,11 +9211,11 @@ msgstr "صداهای سامانه"
 #~ msgid "C_ommand:"
 #~ msgstr "_فرمان:"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgid "Add Shortcut"
 #~ msgstr "اضافه‌کردن میان‌بر"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgid "Remove Shortcut"
 #~ msgstr "حذف میان‌بر"
 
@@ -9373,7 +9373,7 @@ msgstr "صداهای سامانه"
 #~ msgid "_Speed:"
 #~ msgstr "_سرعت:"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgctxt "keyboard, delay"
 #~ msgid "Short"
 #~ msgstr "کوتاه"
@@ -9393,7 +9393,7 @@ msgstr "صداهای سامانه"
 #~ msgid "S_peed:"
 #~ msgstr "سر‌_عت:"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgid "Shortcuts"
 #~ msgstr "میان‌برها"
 
@@ -9917,7 +9917,7 @@ msgstr "صداهای سامانه"
 #~ msgid "On Screen Keyboard"
 #~ msgstr "صفحه‌کلید مجازی"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/gnome-keybinding-properties.c:873scarecrow-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgctxt "universal access, delay"
 #~ msgid "Short"
 #~ msgstr "کوتاه"
@@ -10395,7 +10395,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Enable debugging code"
 #~ msgstr "فعال‌کردن اشکال‌زدایی کد"
 
-#~ msgid " — GNOME Volume Control Applet"
+#~ msgid " — Scarecrow Volume Control Applet"
 #~ msgstr " — برنامک تنظیم بلندی صدای گنوم"
 
 #~ msgid "Show desktop volume control"
@@ -11180,10 +11180,10 @@ msgstr "صداهای سامانه"
 #~ msgid "ETerm"
 #~ msgstr "ETerm"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
 #~ msgstr "ذره‌بین گنوم بدون"
 
-#~ msgid "GNOME OnScreen Keyboard"
+#~ msgid "Scarecrow OnScreen Keyboard"
 #~ msgstr "صفحه‌کلید مجازی گنوم"
 
 #~ msgid "Gnopernicus"
@@ -12232,7 +12232,7 @@ msgstr "صداهای سامانه"
 #~ msgstr "اِعمال تم جدید"
 
 #~| msgid "Gnome Theme %s correctly installed"
-#~ msgid "GNOME Theme %s correctly installed"
+#~ msgid "Scarecrow Theme %s correctly installed"
 #~ msgstr "تم گنوم %s به درستی نصب شد"
 
 #~ msgid "New themes have been successfully installed."
@@ -12275,15 +12275,15 @@ msgstr "صداهای سامانه"
 
 #~| msgid ""
 #~| "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~| "Without the GNOME settings manager running, some preferences may not take "
-#~| "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-#~| "settings manager may already be active and conflicting with the GNOME settings "
+#~| "Without the Scarecrow settings manager running, some preferences may not take "
+#~| "effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+#~| "settings manager may already be active and conflicting with the Scarecrow settings "
 #~| "manager."
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-#~ "settings manager may already be active and conflicting with the GNOME settings "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. KDE) "
+#~ "settings manager may already be active and conflicting with the Scarecrow settings "
 #~ "manager."
 #~ msgstr ""
 #~ "آغاز مدیر تنظیمات «gnome-setting-daemon» مقدور نیست.\n"
@@ -12379,7 +12379,7 @@ msgstr "صداهای سامانه"
 #~ msgstr "صفحه با نشان دادن تنظیمات استراحت تایپ آغاز شود"
 
 #~| msgid "Keyboard Preferences"
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr "ترجیحات صفحه‌کلید"
 
 #~ msgid "_Show..."
@@ -12389,7 +12389,7 @@ msgstr "صداهای سامانه"
 #~ msgstr "نام صفحه را برای نمایش مشخص کنید (general|accessibility)"
 
 #~| msgid "Mouse Preferences"
-#~ msgid "- GNOME Mouse Preferences"
+#~ msgid "- Scarecrow Mouse Preferences"
 #~ msgstr "ترجیحات موشی"
 
 #~| msgid ""
@@ -12460,7 +12460,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Groups"
 #~ msgstr "گروه‌ها"
 
-#~ msgid "The GNOME configuration tool"
+#~ msgid "The Scarecrow configuration tool"
 #~ msgstr "ابزار پیکربندی گنوم"
 
 #~ msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -12634,7 +12634,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Assistive Technology Support"
 #~ msgstr "پشتیبانی فن‌آوری کمکی"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
 #~ msgstr "به کار انداختن پشتیبانی فن‌آوری‌های کمکی گنوم هنگام ورود به سیستم"
 
 #~ msgid ""
@@ -13141,7 +13141,7 @@ msgstr "صداهای سامانه"
 #~ msgstr "این اخطار را دوباره نشان داده _نشود"
 
 #~ msgid ""
-#~ "The X system keyboard settings differ from your current GNOME keyboard "
+#~ "The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.  Which set would you like to use?"
 #~ msgstr ""
 #~ "تنظیمات صفحه‌کلید سیستم X با تنظیمات فعلی صفحه‌کلید گنوم شما فرق دارد.  می‌خواهید "

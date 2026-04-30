@@ -1,8 +1,8 @@
 # translation of ml.po to
-# translation of gnome-control-center.master.ml.po to
-# translation of gnome-control-center.HEAD.ml.po to
-# This file is distributed under the same license as the gnome-control-center package.
-# Copyright (C) 2007-2008 gnome-control-center'S COPYRIGHT HOLDER.
+# translation of scarecrow-control-center.master.ml.po to
+# translation of scarecrow-control-center.HEAD.ml.po to
+# This file is distributed under the same license as the scarecrow-control-center package.
+# Copyright (C) 2007-2008 scarecrow-control-center'S COPYRIGHT HOLDER.
 # FSF-India <locale@gnu.org.in>, 2003.
 # Santhosh|സന്തോഷ് Thottingal|തോട്ടിങ്ങല്‍ <santhosh00@gmail.com>, 2007.
 # Ani Peter <apeter@redhat.com>, 2007, 2009, 2012.
@@ -17,7 +17,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ml\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N"
 "+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-19 14:32+0000\n"
 "PO-Revision-Date: 2017-08-20 23:21+0530\n"
@@ -1592,7 +1592,7 @@ msgid "Launch help browser"
 msgstr "സഹായകബ്രൌസര്‍ തുറക്കുക"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/alt/cc-window.c:1590 ../shell/cc-window.c:251
-#: ../shell/cc-window.c:794 ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/window.ui.h:1
+#: ../shell/cc-window.c:794 ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/window.ui.h:1
 msgid "Settings"
 msgstr "സജ്ജീകരണങ്ങള്‍"
 
@@ -6971,18 +6971,18 @@ msgctxt "category"
 msgid "System"
 msgstr "സിസ്റ്റം"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:1
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:1
 #, fuzzy
 #| msgid "Control Center"
-msgid "GNOME Control Center"
+msgid "Scarecrow Control Center"
 msgstr "നിയന്ത്രണകേന്ദ്രം"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:2
-msgid "Utilities to configure the GNOME desktop"
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:2
+msgid "Utilities to configure the Scarecrow desktop"
 msgstr ""
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:3
-msgid "The control center is GNOME’s main interface for configuration of various aspects of your desktop."
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:3
+msgid "The control center is Scarecrow’s main interface for configuration of various aspects of your desktop."
 msgstr ""
 
 #: ../shell/cc-application.c:45
@@ -7027,7 +7027,7 @@ msgstr "സഹായം"
 msgid "Quit"
 msgstr "പുറത്തു് കടക്കുക"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;"
 
@@ -8671,7 +8671,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Version of this application"
 #~ msgstr "ഈ പ്രയോഗത്തിന്റെ പതിപ്പു്"
 
-#~ msgid " — GNOME Volume Control Applet"
+#~ msgid " — Scarecrow Volume Control Applet"
 #~ msgstr " — ഗ്നോം വോള്യം നിയന്ത്രണ ആപ്ലറ്റ്"
 
 #~ msgid "Show desktop volume control"
@@ -9559,7 +9559,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Apply New Theme"
 #~ msgstr "പുതിയ രംഗവിതാനം പ്രായോഗത്തില്‍ വരുത്തുക"
 
-#~ msgid "GNOME Theme %s correctly installed"
+#~ msgid "Scarecrow Theme %s correctly installed"
 #~ msgstr "ഗ്നോമിലെ രംഗവിതാനമായ %s ശരിയായി ഇന്‍സ്റ്റോള്‍ ചെയ്തിരിക്കുന്നു"
 
 #~ msgid "New themes have been successfully installed."
@@ -9595,9 +9595,9 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a "
-#~ "problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with "
-#~ "the GNOME settings manager."
+#~ "Without the Scarecrow settings manager running, some preferences may not take effect. This could indicate a "
+#~ "problem with DBus, or a non-Scarecrow (e.g. KDE) settings manager may already be active and conflicting with "
+#~ "the Scarecrow settings manager."
 #~ msgstr ""
 #~ "'gnome-settings-daemon' ക്രമീകരണ മാനേജര്‍ തുടങ്ങാന്‍ കഴിഞ്ഞില്ല.\n"
 #~ "ഗ്നോം ക്രമീകരണ മാനേജര്‍ പ്രവര്‍ത്തിക്കാതെ ചില മുന്‍ഗണനകള്‍ പ്രാവര്‍ത്തികമാക്കാനാവില്ല. ഇത്  DBus അല്ലെങ്കില്‍ ഗ്നോമല്ലാത്ത (ഉദാഃ "
@@ -9827,10 +9827,10 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Firefox"
 #~ msgstr "ഫയര്‍ഫോക്സ്"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
 #~ msgstr "സ്ക്രീന്‍ വായനക്കാരനില്ലാത്ത ഗ്നോം ഭൂതക്കണ്ണാടി"
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Scarecrow Terminal"
 #~ msgstr "ഗ്നോം ടെര്‍മിനല്‍"
 
 #~ msgid "Gnopernicus"
@@ -9977,7 +9977,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "സാമീപ്യതാ ക്രമീകരണം കാണിച്ച് കൊണ്ട് പേജ് തുടങ്ങുക."
 
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr "ഗ്നോം കീബോര്‍ഡ് മുന്‍‌ഗണനകള്‍"
 
 #~ msgid "Beep when key is _rejected"
@@ -10058,7 +10058,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "കാണിക്കേണ്ട പേജിന്റെ പേര് നിശ്ചയിക്കുക(general|accessibility)"
 
-#~ msgid "- GNOME Mouse Preferences"
+#~ msgid "- Scarecrow Mouse Preferences"
 #~ msgstr "ഗ്നോമിലെ മൗസിന്റെ മുന്‍‌ഗണനകള്‍"
 
 #~ msgid "Choose type of click _beforehand"
@@ -10210,7 +10210,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "if true, the control-center will close when a \"Common Task\" is activated."
 #~ msgstr "ശരി എന്നാണെങ്കില്‍ ഒരു \"സാധാരണ പ്രവര്‍ത്തി\" സജീവമായാല്‍ നിയന്ത്രണകേന്ദ്രം അടയ്ക്കും."
 
-#~ msgid "The GNOME configuration tool"
+#~ msgid "The Scarecrow configuration tool"
 #~ msgstr "ഗ്നോമിലെ ക്രമീകരണത്തിനുള്ള പണിയായുധം"
 
 #~ msgid "_Postpone Break"

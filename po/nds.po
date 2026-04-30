@@ -1,11 +1,11 @@
-# Low German translation for gnome-control-center.
-# Copyright (C) 2009 gnome-control-center's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Low German translation for scarecrow-control-center.
+# Copyright (C) 2009 scarecrow-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center gnome-2-28\n"
+"Project-Id-Version: scarecrow-control-center gnome-2-28\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&component=general\n"
 "POT-Creation-Date: 2009-11-22 16:05+0000\n"
@@ -18,31 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../gnome-control-center.schemas.in.h:1
+#: ../scarecrow-control-center.schemas.in.h:1
 msgid "Current network location"
 msgstr "Aktueller Netwarkort"
 
-#: ../gnome-control-center.schemas.in.h:2
+#: ../scarecrow-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
 msgstr "Mehr Achtergründe URL"
 
-#: ../gnome-control-center.schemas.in.h:3
+#: ../scarecrow-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr "Mehr Themen URL"
 
-#: ../gnome-control-center.schemas.in.h:4
+#: ../scarecrow-control-center.schemas.in.h:4
 msgid ""
 "Set this to your current location name. This is used to determine the "
 "appropriate network proxy configuration."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:5
+#: ../scarecrow-control-center.schemas.in.h:5
 msgid ""
 "URL for where to get more desktop backgrounds. If set to an empty string the "
 "link will not appear."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:6
+#: ../scarecrow-control-center.schemas.in.h:6
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
@@ -1244,7 +1244,7 @@ msgstr "Themen installerer"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
-msgstr "GNOME-Themen Pack"
+msgstr "Scarecrow-Themen Pack"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Desktop Background"
@@ -1335,8 +1335,8 @@ msgstr "Nejem Thema tostimmen"
 
 #: ../capplets/appearance/theme-installer.c:471
 #, c-format
-msgid "GNOME Theme %s correctly installed"
-msgstr "GNOME-Thema %s akerat installert"
+msgid "Scarecrow Theme %s correctly installed"
+msgstr "Scarecrow-Thema %s akerat installert"
 
 #: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
@@ -1394,9 +1394,9 @@ msgstr ""
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 
@@ -1666,8 +1666,8 @@ msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-da-capplet.c:963
-msgid "- GNOME Default Applications"
-msgstr "- GNOME-Standardprogramme"
+msgid "- Scarecrow Default Applications"
+msgstr "- Scarecrow-Standardprogramme"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:1
@@ -1821,16 +1821,16 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
-msgstr "GNOME Terminal"
+msgid "Scarecrow Terminal"
+msgstr "Scarecrow Terminal"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -2236,7 +2236,7 @@ msgid "Start the page with the accessibility settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:226
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
@@ -2599,7 +2599,7 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.c:595
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:2
@@ -3064,8 +3064,8 @@ msgid ""
 msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "GNOME-Konfiguratschoonswarktügg"
+msgid "The Scarecrow configuration tool"
+msgstr "Scarecrow-Konfiguratschoonswarktügg"
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"

@@ -1,11 +1,11 @@
-# translation of gnome-control-center-2.0 to Uzbek
+# translation of scarecrow-control-center-2.0 to Uzbek
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Nurali Abdurahmonov <mavnur@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center-2.0 trunk\n"
+"Project-Id-Version: scarecrow-control-center-2.0 trunk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-07 20:26+0500\n"
 "PO-Revision-Date: 2007-11-12 09:36+0500\n"
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:290
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "%s Gnome mavzusi muvaffaqiyatli oʻrnatildi"
 
 #: ../capplets/appearance/theme-installer.c:357
@@ -1353,7 +1353,7 @@ msgstr ""
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+"Without the Scarecrow settings manager running, some preferences may not take effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) settings manager may already be active and conflicting with the Scarecrow settings manager."
 msgstr ""
 
 #: ../capplets/common/capplet-stock-icons.c:66
@@ -1619,7 +1619,7 @@ msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-da-capplet.c:883
-msgid "- GNOME Default Applications"
+msgid "- Scarecrow Default Applications"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
@@ -1770,16 +1770,16 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
-msgstr "GNOME terminali"
+msgid "Scarecrow Terminal"
+msgstr "Scarecrow terminali"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -2196,8 +2196,8 @@ msgid "Start the page with the accessibility settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:230
-msgid "- GNOME Keyboard Preferences"
-msgstr "- GNOME klaviatura parametrlari"
+msgid "- Scarecrow Keyboard Preferences"
+msgstr "- Scarecrow klaviatura parametrlari"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
 msgid "<b>Bounce Keys</b>"
@@ -2537,7 +2537,7 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.c:446
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
@@ -3138,8 +3138,8 @@ msgid "if true, the control-center will close when a \"Common Task\" is activate
 msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "GNOME moslash vositasi"
+msgid "The Scarecrow configuration tool"
+msgstr "Scarecrow moslash vositasi"
 
 #: ../typing-break/drw-break-window.c:189
 msgid "_Postpone Break"
@@ -3603,8 +3603,8 @@ msgstr ""
 #~ msgid "Silence"
 #~ msgstr "Jimlik"
 
-#~ msgid "- GNOME Sound Preferences"
-#~ msgstr "- GNOME tovush parametrlari"
+#~ msgid "- Scarecrow Sound Preferences"
+#~ msgstr "- Scarecrow tovush parametrlari"
 
 #~ msgid "<b>Music and Movies</b>"
 #~ msgstr "<b>Musiqa va filmlar</b>"
@@ -3836,8 +3836,8 @@ msgstr ""
 #~ msgid "Sets the default application font"
 #~ msgstr "Andoza dastur shriftini tanlang"
 
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "GNOME shrift koʻruvchisi"
+#~ msgid "Scarecrow Font Viewer"
+#~ msgstr "Scarecrow shrift koʻruvchisi"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Yangi shrift qoʻllansinmi?</span>"

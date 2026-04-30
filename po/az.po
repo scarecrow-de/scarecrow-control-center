@@ -1,13 +1,13 @@
-# translation of gnome-control-center.HEAD.az.po to Azerbaijani
-# translation of gnome-control-center.HEAD.po to Azerbaijani
-# translation of gnome-control-center.HEAD.az.po to Azerbaijani Turkish
+# translation of scarecrow-control-center.HEAD.az.po to Azerbaijani
+# translation of scarecrow-control-center.HEAD.po to Azerbaijani
+# translation of scarecrow-control-center.HEAD.az.po to Azerbaijani Turkish
 # Copyright (C) 1998,1999,2003, 2004 Free Software Foundation, Inc.
 # Mətin Əmirov <metin@karegen.com>, 2003, 2004.
 # Metin Amiroff <metin@karegen.com>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
+"Project-Id-Version: scarecrow-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-09-17 22:10+0200\n"
 "PO-Revision-Date: 2004-09-04 19:45+0300\n"
@@ -444,8 +444,8 @@ msgid "Assistive Technology Support"
 msgstr "Yardımçı Texnologiya Dəstəyi"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
-msgstr "Girişdə GNOME yardımçı texnologiya dəstəyini fəallaşdır"
+msgid "Enable support for Scarecrow assistive technologies at login"
+msgstr "Girişdə Scarecrow yardımçı texnologiya dəstəyini fəallaşdır"
 
 #: ../capplets/accessibility/at-properties/main.c:60
 msgid ""
@@ -798,9 +798,9 @@ msgstr[1] ""
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Qurğu idarəçisi 'gnome-settings-daemon' başladıla bilmədi.\n"
@@ -1099,7 +1099,7 @@ msgstr "Ön Qurğulu Terminal"
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:59
 #, fuzzy
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "Terminal"
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:60
@@ -2550,13 +2550,13 @@ msgid "Desktop Preferences"
 msgstr "Masa Üstü Arxa Planı Seçimləri"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "GNOME İdarə Mərkəzi"
+msgid "Scarecrow Control Center"
+msgstr "Scarecrow İdarə Mərkəzi"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "GNOME quraşdırma avadanlığı"
+msgid "The Scarecrow configuration tool"
+msgstr "Scarecrow quraşdırma avadanlığı"
 
 #: ../gnome-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
@@ -2712,10 +2712,10 @@ msgstr "_Bu ismarışı bir də göstərmə"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:238
 msgid ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 msgstr ""
-"X sisteminin klaviatura quruluşu hazırkı GNOME klaviatura quruluşundan "
+"X sisteminin klaviatura quruluşu hazırkı Scarecrow klaviatura quruluşundan "
 "fərqlidir. Hansı dəstəni işlətmək istəyirsiniz?"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:251
@@ -2723,8 +2723,8 @@ msgid "Use X settings"
 msgstr "X qurğularını işlət"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
-msgid "Use GNOME settings"
-msgstr "GNOME Qurğularını İşlət"
+msgid "Use Scarecrow settings"
+msgstr "Scarecrow Qurğularını İşlət"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
@@ -3177,7 +3177,7 @@ msgstr ""
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
@@ -3235,8 +3235,8 @@ msgid ""
 msgstr "Yazma fasiləsi xassələri dialoqu göstərilə bilmədi. Xəta: %s"
 
 #: ../typing-break/drwright.c:635
-msgid "About GNOME Typing Monitor"
-msgstr "GNOME Yazma İzləyicisi Haqqında"
+msgid "About Scarecrow Typing Monitor"
+msgstr "Scarecrow Yazma İzləyicisi Haqqında"
 
 #: ../typing-break/drwright.c:659
 msgid "A computer break reminder."
@@ -3395,8 +3395,8 @@ msgstr "Type1 yazı növlərinin ön nümayişlərinin göstərilməsi"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
 #, fuzzy
-msgid "GNOME Font Viewer"
-msgstr "GNOME İdarə Mərkəzi"
+msgid "Scarecrow Font Viewer"
+msgstr "Scarecrow İdarə Mərkəzi"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

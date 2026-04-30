@@ -1,10 +1,10 @@
-# Dzongkha translation of gnome-control-center
+# Dzongkha translation of scarecrow-control-center
 # Copyright @ 2006 Free Software Foundation, Inc.
 # Mindu Dorji
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD.dz\n"
+"Project-Id-Version: scarecrow-control-center.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-29 00:51+0000\n"
 "PO-Revision-Date: 2008-09-11 11:47+0530\n"
@@ -485,7 +485,7 @@ msgid "Assistive Technologies"
 msgstr "ཕན་ཐབས་ཅན་གྱི་འཕྲུལ་རིག་ཚུ་ "
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr "ནང་བསྐྱོད་སྐབས་ལུ་ ཇི་ནོམ་གྱི་ཕན་ཐབས་ཅན་གྱི་ འཕྲུལ་རིག་ཚུ་གི་དོན་ལུ་ རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།"
 
 #: ../capplets/appearance/appearance-desktop.c:1098
@@ -1044,7 +1044,7 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:282
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "ཇི་ནོམ་བརྗོད་དོན་%s ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ནུག།"
 
 #: ../capplets/appearance/theme-installer.c:342
@@ -1131,9 +1131,9 @@ msgstr "བརྗོད་དོན་བཏོན་གཏང་མི་ཚུ
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "གཞི་སྒྲིག་འཛིན་སྐྱོང་པ་ ‘ཇི་ནོམ་-གཞི་སྒྲིག་-ཌེ་མཱོན་’ འགོ་བཙུགས་མི་ཚུགས་པས། \n"
@@ -1545,15 +1545,15 @@ msgid "Firefox"
 msgstr "ཕའེར་ཕོགསི།"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr "ཇི་ནོམ་ཆེ་ཤེལ་གསལ་གཞི་ལྷག་མི་མེད་པ"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr "གསལ་གཞི་ལྡེ་སྒྲོམ་གུ་ཇི་ནོམ།"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "ཇི་ནོམ་ ཊར་མི་ནཱལ།"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
@@ -1932,7 +1932,7 @@ msgid "Start the page with the accessibility settings showing"
 msgstr "ཤོག་ལེབ་དེ་ འཛུལ་སྤྱོད་གཞི་སྒྲིག་ཚུ་ སྟོནམ་ཐོག་ལས་ འགོ་བཙུགས།"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:279
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr "- ཇི་ནོམ་ལྡེ་སྒྲོམ་གྱི་དགའ་གདམ་ཚུ་"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
@@ -2545,7 +2545,7 @@ msgid "Silence"
 msgstr "ཁུ་སིམ་སིམ་"
 
 #: ../capplets/sound/sound-properties-capplet.c:1043
-msgid "- GNOME Sound Preferences"
+msgid "- Scarecrow Sound Preferences"
 msgstr "- ཇི་ནོམ་སྒྲ་སྐད་ཀྱི་དགའ་གདམ་ཚུ་"
 
 #: ../capplets/sound/sound-properties.glade.h:1
@@ -3147,7 +3147,7 @@ msgstr ""
 "འོང་། "
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr "ཇི་ནོམ་རིམ་སྒྲིག་ལག་ཆས།"
 
 #: ../typing-break/drw-break-window.c:188
@@ -3653,7 +3653,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 #~ msgid "Mobility AT"
 #~ msgstr "འགུལ་སྐྱོད ཨེ་ཊི"
 
-#~ msgid "Run the the preferred GNOME Mobility Assitive Technology"
+#~ msgid "Run the the preferred Scarecrow Mobility Assitive Technology"
 #~ msgstr "དགའ་གདམ་བརྐྱབས་ཡོད་པའི་ཇི་ནོམ་འགུལ་སྐྱོད་ཕན་འཐབས་འཕྲུལ་རིག་གཡོག་བཀོལ"
 
 #~ msgid "Autostart the preferred AT"
@@ -3917,7 +3917,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 #~ msgstr "ཉེན་བརྡ་འདི་ལོག་སྟེ་མ་སྟོན།(_n)"
 
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard "
 #~ "settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
@@ -3934,7 +3934,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 #~ msgid "Use X settings"
 #~ msgstr "ཨེགསི་གཞི་སྒྲིག་ཚུ་ ལག་ལེན་འཐབ།"
 
-#~ msgid "Keep GNOME settings"
+#~ msgid "Keep Scarecrow settings"
 #~ msgstr "ཇི་ནོམ་སྒྲིག་སྟངས་ཚུ་བཞག"
 
 #~ msgid ""
@@ -4345,7 +4345,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 #~ msgid "A_vailable layouts:"
 #~ msgstr "འཐོབ་ཚུགས་པའི་སྒྲིག་བཀོད་ཚུ་:(_v)"
 
-#~ msgid "- GNOME Mouse Preferences"
+#~ msgid "- Scarecrow Mouse Preferences"
 #~ msgstr "- ཇི་ནོམ་མཱའུསི་གི་དགའ་གདམ་ཚུ་"
 
 #~ msgid "Save Color Scheme"
@@ -4370,7 +4370,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 #~ msgid "Help Unavailable"
 #~ msgstr "གྲོགས་རམ་འཐོབ་ཚུགསཔ་མེད་"
 
-#~ msgid "GNOME Control Center"
+#~ msgid "Scarecrow Control Center"
 #~ msgstr "ཇི་ནོམ་ཚད་འཛིན་ལྟེ་བ།"
 
 #~ msgid "From:"
@@ -4475,7 +4475,7 @@ msgstr "གྲོགས་རམ་གདམ་ཁ་ཚུ་སྟོན།"
 
 #~ msgid ""
 #~ "Very soon, keyboard settings in gconf will be overridden (from the system "
-#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "configuration) This key has been deprecated since Scarecrow 2.12, please "
 #~ "unset the model, layouts and options keys to get the default system "
 #~ "configuration."
 #~ msgstr ""

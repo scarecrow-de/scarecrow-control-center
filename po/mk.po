@@ -1,5 +1,5 @@
 # translation of mk.po to Macedonian
-# translation of gnome-control-center.HEAD.mk.po to
+# translation of scarecrow-control-center.HEAD.mk.po to
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-11-29 09:05+0000\n"
 "PO-Revision-Date: 2011-12-10 20:46+0100\n"
 "Last-Translator: Jovan N\n"
@@ -953,15 +953,15 @@ msgstr "Следното најавување ќе се обидам да го �
 msgid "The next login will use the fallback mode intended for unsupported graphics hardware."
 msgstr "Следното најавување ќе се користи режимот за спас, наменет за неподдржан графички хардвер."
 
-#. translators: The hardware is not able to run GNOME 3's
-#. * shell, so we use the GNOME "Fallback" session
+#. translators: The hardware is not able to run Scarecrow 3's
+#. * shell, so we use the Scarecrow "Fallback" session
 #: ../panels/info/cc-info-panel.c:871
 #| msgid "Callback"
 msgctxt "Experience"
 msgid "Fallback"
 msgstr "Спасувачка"
 
-#. translators: The hardware is able to run GNOME 3's
+#. translators: The hardware is able to run Scarecrow 3's
 #. * shell, also called "Standard" experience
 #: ../panels/info/cc-info-panel.c:877
 #| msgid "Standard XTerminal"
@@ -1146,7 +1146,7 @@ msgstr "Драјвер"
 msgid "Experience"
 msgstr "Искуство"
 
-#. Hardware is not able to run GNOME 3's shell, so we might want to force running the 'Fallback' experience.
+#. Hardware is not able to run Scarecrow 3's shell, so we might want to force running the 'Fallback' experience.
 #: ../panels/info/info.ui.h:10
 msgid "Forced _Fallback Mode"
 msgstr "Присилен режим за _спас"
@@ -2160,7 +2160,7 @@ msgid "_Log In"
 msgstr "_Најави се"
 
 #. translators: This is the title of the "Add Account" dialogue.
-#. * The title is not visible when using GNOME Shell
+#. * The title is not visible when using Scarecrow Shell
 #: ../panels/online-accounts/cc-online-accounts-panel.c:461
 #: ../panels/online-accounts/online-accounts.ui.h:1
 msgid "Add Account"
@@ -3093,8 +3093,8 @@ msgid "Version of this application"
 msgstr "Верзија на оваа апликација"
 
 #: ../panels/sound/applet-main.c:62
-msgid " — GNOME Volume Control Applet"
-msgstr " — Аплетот за контрола на глас на GNOME "
+msgid " — Scarecrow Volume Control Applet"
+msgstr " — Аплетот за контрола на глас на Scarecrow "
 
 #: ../panels/sound/data/gnome-sound-applet.desktop.in.h:1
 msgid "Show desktop volume control"
@@ -3561,7 +3561,7 @@ msgid "Nomon"
 msgstr "Ништо"
 
 #: ../panels/universal-access/uap.ui.h:44
-#| msgid "GNOME OnScreen Keyboard"
+#| msgid "Scarecrow OnScreen Keyboard"
 msgid "On screen keyboard"
 msgstr "Екранска тастатура"
 
@@ -3588,7 +3588,7 @@ msgid "Screen Reader"
 msgstr "Читач на екранот"
 
 #: ../panels/universal-access/uap.ui.h:50
-#| msgid "GNOME OnScreen Keyboard"
+#| msgid "Scarecrow OnScreen Keyboard"
 msgid "Screen keyboard"
 msgstr "Екранска тастатура"
 
@@ -4720,7 +4720,7 @@ msgstr ""
 msgid "Control Center"
 msgstr "Контролен центар"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 #: ../shell/shell.ui.h:2
 msgid "System Settings"
 msgstr "Системски поставувања"
@@ -5135,7 +5135,7 @@ msgstr "Сите поставувања"
 #~ msgid "Theme Installer"
 #~ msgstr "Инсталер на теми"
 #~ msgid "Gnome Theme Package"
-#~ msgstr "Пакет со теми за GNOME"
+#~ msgstr "Пакет со теми за Scarecrow"
 #~ msgid "Slide Show"
 #~ msgstr "Слајд шоу"
 #~ msgid ""
@@ -5162,8 +5162,8 @@ msgstr "Сите поставувања"
 #~ msgstr ""
 #~ "\"%s\" изгледа дека не е валидна тема. Можеби се работи за енџин за "
 #~ "темата што треба да го компајлирате."
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "Темата за GNOME %s е успешно инсталирана"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Темата за Scarecrow %s е успешно инсталирана"
 #~ msgid "Installation for theme \"%s\" failed."
 #~ msgstr "Инсталацијата на темата \"%s\" не успеа."
 #~ msgid "The theme \"%s\" has been installed."
@@ -5201,16 +5201,16 @@ msgstr "Сите поставувања"
 #~ msgstr "Не можам да го инсталирам новиот енџин за темата"
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "Не е можно да ги стартувам поставувањата на менаџерот 'gnome-settings-"
 #~ "daemon'.\n"
-#~ "Без да работи GNOME менаџерот за поставувања, некои преференци немаат "
-#~ "ефект. Ова може да покаже проблем со Bonobo, или не-GNOME (пр. KDE) "
-#~ "менаџери за поставувања веќе се активни и се во конфликт со GNOME "
+#~ "Без да работи Scarecrow менаџерот за поставувања, некои преференци немаат "
+#~ "ефект. Ова може да покаже проблем со Bonobo, или не-Scarecrow (пр. KDE) "
+#~ "менаџери за поставувања веќе се активни и се во конфликт со Scarecrow "
 #~ "менаџерот за поставувања."
 #~ msgid "Unable to load stock icon '%s'\n"
 #~ msgstr "Не може да се вчита stock иконата '%s'\n"
@@ -5415,10 +5415,10 @@ msgstr "Сите поставувања"
 #~ msgstr "Evolution читач за е-пошта"
 #~ msgid "Firefox"
 #~ msgstr "Firefox"
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "Зголемувачот на GNOME без читач на екранот"
-#~ msgid "GNOME Terminal"
-#~ msgstr "Терминал за GNOME"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "Зголемувачот на Scarecrow без читач на екранот"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Терминал за Scarecrow"
 #~ msgid "Gnopernicus"
 #~ msgstr "Gnopernicus"
 #~ msgid "Gnopernicus with Magnifier"
@@ -5525,7 +5525,7 @@ msgstr "Сите поставувања"
 #~ msgstr "Почни ја страницата со прикажани поставувања за куцачката пауза"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "Почни ја страницата со прикажани поставувања за пристапност"
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr " Преференци за тастатура"
 #~ msgid "<b>Bounce Keys</b>"
 #~ msgstr "<b>Скокачки копчиња</b>"
@@ -5600,7 +5600,7 @@ msgstr "Сите поставувања"
 #~ msgstr "Исклучено"
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "Одредете го името на страницата за прикажување (општо|пристапност)"
-#~ msgid "- GNOME Mouse Preferences"
+#~ msgid "- Scarecrow Mouse Preferences"
 #~ msgstr "- Преференци за глушецот"
 #~ msgid "<b>Dwell Click</b>"
 #~ msgstr "<b>Клик со пауза</b>"
@@ -5670,7 +5670,7 @@ msgstr "Сите поставувања"
 #~ msgstr "PulseAudio сервер за звук"
 #~ msgid "Silence"
 #~ msgstr "Тишина"
-#~ msgid "- GNOME Sound Preferences"
+#~ msgid "- Scarecrow Sound Preferences"
 #~ msgstr "- Преференци за звук"
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "Известувања и звучни ефекти"
@@ -5911,8 +5911,8 @@ msgstr "Сите поставувања"
 #~ msgstr ""
 #~ "ако е штиклирано контролниот центар ќе се затвори кога е актвирана Честа "
 #~ "задача."
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Алатка за конфигурирање на GNOME"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Алатка за конфигурирање на Scarecrow"
 #~ msgid "_Postpone Break"
 #~ msgstr "_Одложи пауза"
 #~ msgid "/_Preferences"

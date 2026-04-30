@@ -1,4 +1,4 @@
-# translation of gnome-control-center.master.te.po to Telugu
+# translation of scarecrow-control-center.master.te.po to Telugu
 # Telugu translation of control-center
 # Copyright (C) 2011 Gnome Telugu Contributors.
 # Copyright (C) 2005, 2011,2012 Swecha Telugu Localisation Team <localization@swecha.net>.
@@ -17,7 +17,7 @@
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.te\n"
+"Project-Id-Version: scarecrow-control-center.master.te\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-22 06:31+0000\n"
@@ -1529,7 +1529,7 @@ msgid "Launch help browser"
 msgstr "సహాయ విహరిణి దించు"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "అమరికలు"
 
@@ -7299,7 +7299,7 @@ msgctxt "category"
 msgid "System"
 msgstr "వ్యవస్థ"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "ప్రాధాన్యతలు;అమరికలు;"
 
@@ -8193,7 +8193,7 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "Version of this application"
 #~ msgstr "ఈ అనువర్తనం యొక్క రూపాంతరం"
 
-#~ msgid " — GNOME Volume Control Applet"
+#~ msgid " — Scarecrow Volume Control Applet"
 #~ msgstr " — గ్నోమ్ వాల్యూమ్ కంట్రోల్ ఆప్లెట్"
 
 #~ msgid "Show desktop volume control"
@@ -8939,8 +8939,8 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "P.O. _box:"
 #~ msgstr "P.O. _box:"
 
-#~ msgid "GNOME Terminal"
-#~ msgstr "GNOME టెర్మినల్"
+#~ msgid "Scarecrow Terminal"
+#~ msgstr "Scarecrow టెర్మినల్"
 
 #~ msgid "Gnome Theme Package"
 #~ msgstr "గ్నోమ్ థీమ్ నిర్వాహకి"
@@ -9055,8 +9055,8 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "A_IM/iChat:"
 #~ msgstr "A_IM/iChat:"
 
-#~ msgid "GNOME OnScreen Keyboard"
-#~ msgstr "GNOME తెరపైని కీబోర్డు"
+#~ msgid "Scarecrow OnScreen Keyboard"
+#~ msgstr "Scarecrow తెరపైని కీబోర్డు"
 
 #~ msgid "_Initiate click when stopping pointer movement"
 #~ msgstr "సూచిక కదలిక ఆగంగానే నొక్కును సిద్దంచేయుము(_I)"
@@ -9159,8 +9159,8 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "HTTP Proxy Details"
 #~ msgstr "HTTP ప్రాక్సీ వివరములు"
 
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "GNOME ఆకృతీకరణ సాధనం"
+#~ msgid "The Scarecrow configuration tool"
+#~ msgstr "Scarecrow ఆకృతీకరణ సాధనం"
 
 #~ msgid ""
 #~ "Unable to bring up the typing break properties dialog with the following "
@@ -9432,8 +9432,8 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "_Trigger secondary click by holding down the primary button"
 #~ msgstr "ప్రాధమిక బటన్ నొక్కిఉంచుట ద్వారా ద్వితీయ నొక్కును ప్రయోగించుము(_T):"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "తెర చదువునది లేకుండా GNOME వృద్దీకరణి"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
+#~ msgstr "తెర చదువునది లేకుండా Scarecrow వృద్దీకరణి"
 
 #~ msgid ""
 #~ "if true, the control-center will close when a \"Common Task\" is "
@@ -9586,8 +9586,8 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "New Spreadsheet"
 #~ msgstr "కొత్త స్ప్రెడ్‌షీట్"
 
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- GNOME కీబోర్డు అభీష్టాలు"
+#~ msgid "- Scarecrow Keyboard Preferences"
+#~ msgstr "- Scarecrow కీబోర్డు అభీష్టాలు"
 
 #~ msgid "Total URIs"
 #~ msgstr "మొత్తం యుఆర్ఎల్ లు"

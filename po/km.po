@@ -1,13 +1,13 @@
-# translation of po_gnome-control-center-2.0-km.po to Khmer
-# Khmer translation for gnome-control-center
+# translation of po_scarecrow-control-center-2.0-km.po to Khmer
+# Khmer translation for scarecrow-control-center
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: po_gnome-control-center-2.0-km\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: po_scarecrow-control-center-2.0-km\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-09-10 13:48+0000\n"
 "PO-Revision-Date: 2012-04-19 02:15+0000\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
@@ -900,14 +900,14 @@ msgid ""
 "hardware."
 msgstr "ការ​ចូល​បន្ទាប់​នឹង​ប្រើ​របៀប fallback ដែល​បម្រុងទុក​សម្រាប់​ផ្នែក​រឹង​ក្រាហ្វិក​ដែល​មិន​គាំទ្រ ។"
 
-#. translators: The hardware is not able to run GNOME 3's
-#. * shell, so we use the GNOME "Fallback" session
+#. translators: The hardware is not able to run Scarecrow 3's
+#. * shell, so we use the Scarecrow "Fallback" session
 #: ../panels/info/cc-info-panel.c:879
 msgctxt "Experience"
 msgid "Fallback"
 msgstr "Fallback"
 
-#. translators: The hardware is able to run GNOME 3's
+#. translators: The hardware is able to run Scarecrow 3's
 #. * shell, also called "Standard" experience
 #: ../panels/info/cc-info-panel.c:885
 msgctxt "Experience"
@@ -1161,7 +1161,7 @@ msgstr "កម្មវិធី​បញ្ជា"
 msgid "Experience"
 msgstr "ជាន់ខ្ពស់"
 
-#. Hardware is not able to run GNOME 3's shell, so we might want to force running the 'Fallback' experience.
+#. Hardware is not able to run Scarecrow 3's shell, so we might want to force running the 'Fallback' experience.
 #: ../panels/info/info.ui.h:30
 msgid "Forced _Fallback Mode"
 msgstr "របៀប Forced _Fallback"
@@ -2353,7 +2353,7 @@ msgid "Connection dependency failed"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​តភ្ជាប់​ភាព​អាស្រ័យ"
 
 #. translators: This is the title of the "Add Account" dialogue.
-#. * The title is not visible when using GNOME Shell
+#. * The title is not visible when using Scarecrow Shell
 #: ../panels/online-accounts/cc-online-accounts-add-account-dialog.c:252
 #: ../panels/online-accounts/cc-online-accounts-add-account-dialog.c:263
 #: ../panels/online-accounts/online-accounts.ui.h:2
@@ -3559,8 +3559,8 @@ msgid "Version of this application"
 msgstr "កំណែ​កម្មវិធី​នេះ"
 
 #: ../panels/sound/applet-main.c:62
-msgid " — GNOME Volume Control Applet"
-msgstr " អាប់ភ្លេត​គ្រប់គ្រង​កម្រិត​សំឡេង​របស់  — GNOME"
+msgid " — Scarecrow Volume Control Applet"
+msgstr " អាប់ភ្លេត​គ្រប់គ្រង​កម្រិត​សំឡេង​របស់  — Scarecrow"
 
 #: ../panels/sound/data/gnome-sound-applet.desktop.in.h:1
 msgid "Volume Control"
@@ -5373,11 +5373,11 @@ msgstr "ចេញ"
 msgid "Control Center"
 msgstr "មជ្ឈមណ្ឌល​បញ្ជា"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "ការ​កំណត់​ប្រព័ន្ធ"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "ចំណូលចិត្ត;ការ​កំណត់;"
 

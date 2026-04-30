@@ -1,14 +1,14 @@
-# translation of gnome-control-center.gnome-2-20.ne.po to Nepali
+# translation of scarecrow-control-center.gnome-2-20.ne.po to Nepali
 # Nepali Translation projectE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Pawan Chitrakar   <pawan@nplinux.org>, 2004.
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/issues\n"
 "POT-Creation-Date: 2019-08-06 17:03+0000\n"
 "PO-Revision-Date: 2019-08-29 13:01+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
@@ -73,7 +73,7 @@ msgstr "फाइल प्रणाली"
 
 #: panels/applications/cc-applications-panel.c:591 panels/keyboard/01-launchers.xml.in:6
 #: shell/cc-window.c:277 shell/cc-window.c:959 shell/cc-window.ui:131
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "सेटिङ"
 
@@ -7594,24 +7594,24 @@ msgstr "सबै भन्दा न्यून"
 msgid "Tip Pressure Feel"
 msgstr "टुप्पोमा  दबाव महसूस"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 #, fuzzy
-#| msgid "Keep GNOME settings"
-msgid "GNOME Settings"
+#| msgid "Keep Scarecrow settings"
+msgid "Scarecrow Settings"
 msgstr "ग्नोम सेटिङ व्यबस्थापक  रङ्ग प्लगइन"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 #, fuzzy
-#| msgid "Utilities to configure the GNOME desktop"
-msgid "Utility to configure the GNOME desktop"
+#| msgid "Utilities to configure the Scarecrow desktop"
+msgid "Utility to configure the Scarecrow desktop"
 msgstr "जिनोम सेल  विस्तारहरू कन्फिगर"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr ""
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
 msgstr "जिनोम परियोजना"
 
 #: shell/cc-application.c:58
@@ -7666,7 +7666,7 @@ msgid "Help"
 msgstr "मद्दत"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "प्राथमिकता;सेटिङ;"
 
@@ -8025,8 +8025,8 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "System"
 #~ msgstr "प्रणाली"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "GNOME Control Center"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Scarecrow Control Center"
 
 #~ msgid "Show the overview"
 #~ msgstr "अधिलेखन हेर्नुहोस्"
@@ -8872,7 +8872,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "_Preferred Applications"
 #~ msgstr "रूचाइएका अनुप्रयोगहरू"
 
-#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgid "Enable support for Scarecrow assistive technologies at login"
 #~ msgstr "लग इनमा जीनोम प्रलम्बित प्रविधिहरूका लागि समर्थन सक्षम पार्नुहोस्"
 
 #~ msgid "There was an error launching the mouse preferences dialog: %s"
@@ -9288,7 +9288,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ "विषयवस्तु स्थापना गर्न सकिँदैन ।\n"
 #~ "विषयवस्तु ल्याउँदा त्यहाँ एउटा समस्या थियो ।"
 
-#~ msgid "GNOME Theme %s correctly installed"
+#~ msgid "Scarecrow Theme %s correctly installed"
 #~ msgstr "जीनोम विषयवस्तु %s सही रूपले स्थापना गरियो"
 
 #~ msgid "The theme is an engine. You need to compile it."
@@ -9347,9 +9347,9 @@ msgstr "प्रणाली ध्वनिहरू"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take effect. This could "
-#~ "indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be "
-#~ "active and conflicting with the GNOME settings manager."
+#~ "Without the Scarecrow settings manager running, some preferences may not take effect. This could "
+#~ "indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) settings manager may already be "
+#~ "active and conflicting with the Scarecrow settings manager."
 #~ msgstr ""
 #~ "सेटिङ प्रबन्धक 'जीनोम-सेटिङ-डेइमोन' सरुआत गर्न अस्क्षम ।\n"
 #~ "जीनोम सेटिङ प्रबन्धक चालु बिना, केही प्राथमिकताहरूले प्रभाव गर्नेछैन । यसले Bonobo सँग समस्या भएको इङ्गित गर्न "
@@ -9610,10 +9610,10 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "Firefox"
 #~ msgstr "फायरफक्स"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
 #~ msgstr "पर्दा पाठक बिनाको जीनोम म्याग्नीफायर"
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Scarecrow Terminal"
 #~ msgstr "जिनोम टर्मिनल"
 
 #~ msgid "Galeon"
@@ -9794,7 +9794,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "Start the page with the typing break settings showing"
 #~ msgstr "टाइप विच्छेद सेटिङ देखाएर पृष्ठ सुरुआत गर्नुहोस्"
 
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr "जीनोम कुञ्जीपाटी प्राथमिकताहरू"
 
 #~ msgid "<b>_Lock screen to enforce typing break</b>"
@@ -9966,7 +9966,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "Silence"
 #~ msgstr "मौन"
 
-#~ msgid "- GNOME Sound Preferences"
+#~ msgid "- Scarecrow Sound Preferences"
 #~ msgstr "जीनोम ध्वनि प्राथमिकताहरू"
 
 #~ msgid "<b>Audio Conferencing</b>"
@@ -10186,7 +10186,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgstr "यो चेतावनी फेरि नदेखाउनुहोस्"
 
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard settings.</b>\n"
+#~ "<b>The X system keyboard settings differ from your current Scarecrow keyboard settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
 #~ "\n"
@@ -10544,7 +10544,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "if true, the control-center will close when a \"Common Task\" is activated"
 #~ msgstr "यदि ठीज छ भने, \"साझा कार्य\" सक्रिय हुँदा नियन्त्रण-केन्द्र बन्द हुनेछ"
 
-#~ msgid "The GNOME configuration tool"
+#~ msgid "The Scarecrow configuration tool"
 #~ msgstr "जिनोम कन्फिगरेसन उपकरण"
 
 #~ msgid "_Postpone Break"
@@ -10654,7 +10654,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "usage: %s fontfile\n"
 #~ msgstr "प्रयोग: %s फन्टफाइल\n"
 
-#~ msgid "GNOME Font Viewer"
+#~ msgid "Scarecrow Font Viewer"
 #~ msgstr "जिनोम फन्ट दर्शक"
 
 #~ msgid "Text to thumbnail (default: Aa)"

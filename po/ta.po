@@ -1,7 +1,7 @@
-# translation of gnome-control-center.master.ta.po to Tamil
-# Tamil translation of gnome-control-center
+# translation of scarecrow-control-center.master.ta.po to Tamil
+# Tamil translation of scarecrow-control-center
 # Copyright (C) 2002
-# This file is distributed under the same license as the gnome-control-center.
+# This file is distributed under the same license as the scarecrow-control-center.
 #
 # Dinesh Nadarajah <dinesh_list@sbcglobal.net>, 2002, 2004.
 # Ma SivaKumar <tamil@leatherlink.net>, 2004.
@@ -13,7 +13,7 @@
 # Shantha kumar <shkumar@redhat.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.ta\n"
+"Project-Id-Version: scarecrow-control-center.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-15 06:30+0000\n"
@@ -1547,7 +1547,7 @@ msgid "Launch help browser"
 msgstr "உதவி மேலோடியை துவக்கு"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "அமைவுகள்"
 
@@ -7276,7 +7276,7 @@ msgctxt "category"
 msgid "System"
 msgstr "கணினி"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "விருப்பங்கள்;அமைப்புகள்;"
 
@@ -8248,8 +8248,8 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgid "Version of this application"
 #~ msgstr "இந்த பயன்பாட்டின் பதிப்பு "
 
-#~ msgid " — GNOME Volume Control Applet"
-#~ msgstr "—GNOME ஒலிவளவு கட்டுப்பாடு குறுநிரல்"
+#~ msgid " — Scarecrow Volume Control Applet"
+#~ msgstr "—Scarecrow ஒலிவளவு கட்டுப்பாடு குறுநிரல்"
 
 #~ msgid "Show desktop volume control"
 #~ msgstr "பணிமேடை ஒலிவளவு கட்டுப்பாட்டை காட்டு"
@@ -9072,13 +9072,13 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgid "ETerm"
 #~ msgstr "Eமுனையம்"
 
-#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgid "Scarecrow Magnifier without Screen Reader"
 #~ msgstr "க்னோம் திரை படிப்பி இல்லாத பெரிதாக்கி"
 
-#~ msgid "GNOME OnScreen Keyboard"
+#~ msgid "Scarecrow OnScreen Keyboard"
 #~ msgstr "க்னோமின் திரை விசைப்பலகை"
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Scarecrow Terminal"
 #~ msgstr "க்னோம் முனையம்"
 
 #~ msgid "Gnopernicus"
@@ -9677,7 +9677,7 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ "activated."
 #~ msgstr "உண்மை எனில் கட்டுப்பாட்டு மையம்  \"Common Task\" செயலானதும் மூடப்படும்."
 
-#~ msgid "The GNOME configuration tool"
+#~ msgid "The Scarecrow configuration tool"
 #~ msgstr "கனோம் அமைவடிவு கருவி"
 
 #~ msgid "_Postpone Break"
@@ -10364,8 +10364,8 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgid "Apply New Theme"
 #~ msgstr "புதிய சூழலை செயல்படுத்து"
 
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "GNOME சூழல் %s தற்போது நிறுவப்பட்டுள்ளது"
+#~ msgid "Scarecrow Theme %s correctly installed"
+#~ msgstr "Scarecrow சூழல் %s தற்போது நிறுவப்பட்டுள்ளது"
 
 #~ msgid "New themes have been successfully installed."
 #~ msgstr "புதிய கருப்பொருள் வெற்றிகரமாக நிறுவப்பட்டது."
@@ -10400,10 +10400,10 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "Without the Scarecrow settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-Scarecrow (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
+#~ "Scarecrow settings manager."
 #~ msgstr ""
 #~ "'gnome-settings-daemon' அமைப்பு மேலாளரை துவங்க முடியவில்லை.\n"
 #~ "க்னோம் அமைப்பு மேலாளர் இல்லாமல் சில விருப்பங்களை நிறைவு செய்ய முடியாது. இதனால் "
@@ -10573,14 +10573,14 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgid "Start the page with the accessibility settings showing"
 #~ msgstr "அணுகல் அமைப்புகளை காட்டி, பக்கத்தை திறக்கவும்"
 
-#~ msgid "- GNOME Keyboard Preferences"
+#~ msgid "- Scarecrow Keyboard Preferences"
 #~ msgstr "- க்னோம் விசைப்பலகை விருப்பங்கள்"
 
 #~ msgid "Specify the name of the page to show (general|accessibility)"
 #~ msgstr "காட்ட வேண்டிய  பக்கத்தின் பெயர் குறிப்பிடு"
 
-#~ msgid "- GNOME Mouse Preferences"
-#~ msgstr "GNOME சொடுக்கி விருப்பங்கள்"
+#~ msgid "- Scarecrow Mouse Preferences"
+#~ msgstr "Scarecrow சொடுக்கி விருப்பங்கள்"
 
 #~ msgid "Cannot start the preferences application for your window manager"
 #~ msgstr "உங்கள் சாளர மேலாளருக்கு விருப்ப பயன்பாடுகள் துவங்க முடியாது"

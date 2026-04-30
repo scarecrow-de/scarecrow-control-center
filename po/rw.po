@@ -1,6 +1,6 @@
-# translation of gnome-control-center to Kinyarwanda.
+# translation of scarecrow-control-center to Kinyarwanda.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -13,7 +13,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-09-17 22:10+0200\n"
 "PO-Revision-Date: 2005-03-31 20:55-0700\n"
@@ -450,7 +450,7 @@ msgstr ""
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 #, fuzzy
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
 msgstr "Gushigikira kugirango ku Ifashayinjira"
 
 #: ../capplets/accessibility/at-properties/main.c:60
@@ -852,9 +852,9 @@ msgstr[1] ""
 #, fuzzy
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr "g."
 
@@ -1167,7 +1167,7 @@ msgid "Debian Terminal Emulator"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:59
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications-properties-structs.c:60
@@ -2854,13 +2854,13 @@ msgid "Desktop Preferences"
 msgstr ""
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
+msgid "Scarecrow Control Center"
 msgstr ""
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
 #, fuzzy
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr "Iboneza"
 
 #: ../gnome-settings-daemon/actions/acme.glade.h:1
@@ -3008,7 +3008,7 @@ msgstr "Nta kongera kwerekana iri burira"
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:238
 #, fuzzy
 msgid ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 msgstr ""
 "Sisitemu Mwandikisho Amagenamiterere Bivuye KIGEZWEHO Mwandikisho "
@@ -3021,7 +3021,7 @@ msgstr "Amagenamiterere"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
 #, fuzzy
-msgid "Use GNOME settings"
+msgid "Use Scarecrow settings"
 msgstr "Amagenamiterere"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
@@ -3549,7 +3549,7 @@ msgstr "i Byahinduwe Iburira Ubutumwa"
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
@@ -3613,7 +3613,7 @@ msgstr ""
 "Kuri Hejuru i Kwandika: itandukanya Indangakintu... Ikiganiro Na: i Ikosa"
 
 #: ../typing-break/drwright.c:635
-msgid "About GNOME Typing Monitor"
+msgid "About Scarecrow Typing Monitor"
 msgstr ""
 
 #: ../typing-break/drwright.c:659
@@ -3790,7 +3790,7 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "Kuri Imyandikire"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
+msgid "Scarecrow Font Viewer"
 msgstr ""
 
 #: ../vfs-methods/themus/apply-font.glade.h:2

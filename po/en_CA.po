@@ -1,12 +1,12 @@
-# English/Canada translation of gnome-control-center.
-# Copyright (C) 2004-2006 Adam Weinberger and the GNOME Foundation
-# This file is distributed under the same licence as the gnome-control-center package.
+# English/Canada translation of scarecrow-control-center.
+# Copyright (C) 2004-2006 Adam Weinberger and the Scarecrow Foundation
+# This file is distributed under the same licence as the scarecrow-control-center package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-01-31 20:41-0500\n"
 "PO-Revision-Date: 2005-08-06 19:59-0400\n"
@@ -406,8 +406,8 @@ msgid "Assistive Technology Support"
 msgstr "Assistive Technology Support"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
-msgstr "Enable support for GNOME assistive technologies at login"
+msgid "Enable support for Scarecrow assistive technologies at login"
+msgstr "Enable support for Scarecrow assistive technologies at login"
 
 #: ../capplets/accessibility/at-properties/main.c:60
 msgid ""
@@ -764,15 +764,15 @@ msgstr[1] "pixels"
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 
 #: ../capplets/common/capplet-stock-icons.c:92
@@ -1061,8 +1061,8 @@ msgid "Firefox"
 msgstr "Firefox"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
-msgid "GNOME Terminal"
-msgstr "GNOME Terminal"
+msgid "Scarecrow Terminal"
+msgstr "Scarecrow Terminal"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
 msgid "Galeon"
@@ -2534,13 +2534,13 @@ msgid "Desktop Preferences"
 msgstr "Desktop Preferences"
 
 #: ../control-center/gnomecc.desktop.in.in.h:1
-msgid "GNOME Control Center"
-msgstr "GNOME Control Centre"
+msgid "Scarecrow Control Center"
+msgstr "Scarecrow Control Centre"
 
 #: ../control-center/gnomecc.desktop.in.in.h:2
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
+msgstr "The Scarecrow configuration tool"
 
 #: ../gnome-settings-daemon/actions/acme-fb-level.c:149
 msgid "No '/dev/pmu' device found"
@@ -2737,10 +2737,10 @@ msgstr "Do _not show this warning again"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:234
 msgid ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 msgstr ""
-"The X system keyboard settings differ from your current GNOME keyboard "
+"The X system keyboard settings differ from your current Scarecrow keyboard "
 "settings.  Which set would you like to use?"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:247
@@ -2748,8 +2748,8 @@ msgid "Use X settings"
 msgstr "Use X settings"
 
 #: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:249
-msgid "Use GNOME settings"
-msgstr "Use GNOME settings"
+msgid "Use Scarecrow settings"
+msgstr "Use Scarecrow settings"
 
 #: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
@@ -3170,11 +3170,11 @@ msgstr "Suppress the \"X sysconfig changed\" warning message"
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
-"configuration) This key has been deprecated since GNOME 2.12, please unset "
+"configuration) This key has been deprecated since Scarecrow 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 "Very soon, keyboard settings in GConf will be overridden (from the system "
-"configuration). This key has been deprecated since GNOME 2.12. Please unset "
+"configuration). This key has been deprecated since Scarecrow 2.12. Please unset "
 "the model, layouts and options keys to get the default system configuration."
 
 #: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
@@ -3231,8 +3231,8 @@ msgstr ""
 "error: %s"
 
 #: ../typing-break/drwright.c:629
-msgid "About GNOME Typing Monitor"
-msgstr "About GNOME Typing Monitor"
+msgid "About Scarecrow Typing Monitor"
+msgstr "About Scarecrow Typing Monitor"
 
 #: ../typing-break/drwright.c:653
 msgid "A computer break reminder."
@@ -3386,8 +3386,8 @@ msgid "Whether to thumbnail Type1 fonts"
 msgstr "Whether to thumbnail Type1 fonts"
 
 #: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
-msgstr "GNOME Font Viewer"
+msgid "Scarecrow Font Viewer"
+msgstr "Scarecrow Font Viewer"
 
 #: ../vfs-methods/themus/apply-font.glade.h:2
 msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"

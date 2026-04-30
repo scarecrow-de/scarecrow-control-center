@@ -1,6 +1,6 @@
-# Brazilian Portuguese translation of GNOME Control Center.
-# Copyright (C) 2021 The GNOME Control Center authors.
-# This file is distributed under the same license as the gnome-control-center package.
+# Brazilian Portuguese translation of Scarecrow Control Center.
+# Copyright (C) 2021 The Scarecrow Control Center authors.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Ivan Passos <ivan@cyclades.com>, 1999.
 # Sandro Nunes Henrique <sandro@conectiva.com.br>, 1999.
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2000-2001.
@@ -30,8 +30,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/Scarecrow/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-17 16:55+0000\n"
 "PO-Revision-Date: 2021-02-17 21:48-0300\n"
@@ -99,7 +99,7 @@ msgstr "Sistema de arquivos"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Configurações"
 
@@ -1897,8 +1897,8 @@ msgid "OS Type"
 msgstr "Tipo do SO"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
-msgid "GNOME Version"
-msgstr "Versão do GNOME"
+msgid "Scarecrow Version"
+msgstr "Versão do Scarecrow"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8108,21 +8108,21 @@ msgstr "Botão inferior"
 msgid "Tip Pressure Feel"
 msgstr "Sensação de pressão da ponta"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
-msgid "GNOME Settings"
-msgstr "Configurações do GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
+msgid "Scarecrow Settings"
+msgstr "Configurações do Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
-msgid "Utility to configure the GNOME desktop"
-msgstr "Utilitário para configurar o ambiente GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
+msgid "Utility to configure the Scarecrow desktop"
+msgstr "Utilitário para configurar o ambiente Scarecrow"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Configurações é a interface primária para configurar seu sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
-msgid "The GNOME Project"
-msgstr "O Projeto GNOME"
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
+msgid "The Scarecrow Project"
+msgstr "O Projeto Scarecrow"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -8183,7 +8183,7 @@ msgid "Help"
 msgstr "Ajuda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferências;Configurações;Ajustes;"
 
@@ -9082,21 +9082,21 @@ msgstr "Sons do sistema"
 #~ msgid "page 3"
 #~ msgstr "página 3"
 
-#~ msgid "GNOME Control Center"
-#~ msgstr "Centro de controle GNOME"
+#~ msgid "Scarecrow Control Center"
+#~ msgstr "Centro de controle Scarecrow"
 
 #~ msgid ""
-#~ "The control center is GNOME’s main interface for configuration of various "
+#~ "The control center is Scarecrow’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "O centro de controle é a interface principal do GNOME para configuração "
+#~ "O centro de controle é a interface principal do Scarecrow para configuração "
 #~ "de vários aspectos de seu ambiente."
 
 #~ msgid "Quit"
 #~ msgstr "Sair"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verificar nova senha"
@@ -9639,9 +9639,9 @@ msgstr "Sons do sistema"
 #~ msgstr "Permitir _acesso remoto"
 
 #, fuzzy
-#~| msgid "GNOME Control Center"
+#~| msgid "Scarecrow Control Center"
 #~ msgid "Welcome to the Control Center"
-#~ msgstr "Centro de controle GNOME"
+#~ msgstr "Centro de controle Scarecrow"
 
 #~ msgid "Bond"
 #~ msgstr "Vínculo"

@@ -1,11 +1,11 @@
-# translation of gnome-control-center.HEAD.po to Maithili
+# translation of scarecrow-control-center.HEAD.po to Maithili
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
+"Project-Id-Version: scarecrow-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&component=general\n"
 "POT-Creation-Date: 2009-03-14 17:01+0000\n"
@@ -1336,7 +1336,7 @@ msgstr "नवीन प्रसंग लागू करू"
 
 #: ../capplets/appearance/theme-installer.c:446
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr "Gnome प्रसंग %s ठीक सँ संस्थापित अछि"
 
 #: ../capplets/appearance/theme-installer.c:505
@@ -1397,9 +1397,9 @@ msgstr ""
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
+"Without the Scarecrow settings manager running, some preferences may not take "
+"effect. This could indicate a problem with Bonobo, or a non-Scarecrow (e.g. KDE) "
+"settings manager may already be active and conflicting with the Scarecrow "
 "settings manager."
 msgstr ""
 "विन्यास प्रबंधक 'गनोम-विन्यास-डेमन' प्रारंभ करबमे अक्षम.\n"
@@ -1680,7 +1680,7 @@ msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-da-capplet.c:901
-msgid "- GNOME Default Applications"
+msgid "- Scarecrow Default Applications"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
@@ -1835,15 +1835,15 @@ msgid "Firefox"
 msgstr "फ़ायरफ़ॉक्स"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "GNOME Magnifier without Screen Reader"
+msgid "Scarecrow Magnifier without Screen Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "GNOME OnScreen Keyboard"
+msgid "Scarecrow OnScreen Keyboard"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "GNOME Terminal"
+msgid "Scarecrow Terminal"
 msgstr "गनोम टर्मिनल"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
@@ -2263,7 +2263,7 @@ msgid "Start the page with the accessibility settings showing"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:227
-msgid "- GNOME Keyboard Preferences"
+msgid "- Scarecrow Keyboard Preferences"
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
@@ -2624,7 +2624,7 @@ msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.c:446
-msgid "- GNOME Mouse Preferences"
+msgid "- Scarecrow Mouse Preferences"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
@@ -3242,7 +3242,7 @@ msgid ""
 msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
+msgid "The Scarecrow configuration tool"
 msgstr "गनोम विन्यास अओजार"
 
 #: ../typing-break/drw-break-window.c:193

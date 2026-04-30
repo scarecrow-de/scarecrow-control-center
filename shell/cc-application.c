@@ -103,7 +103,7 @@ launch_panel_activated (GSimpleAction *action,
 
   g_variant_get (parameter, "(&s@av)", &panel_id, &parameters);
 
-  g_debug ("gnome-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
+  g_debug ("scarecrow-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
            panel_id,
            g_variant_n_children (parameters));
 
@@ -296,7 +296,7 @@ GtkApplication *
 cc_application_new (void)
 {
   return g_object_new (CC_TYPE_APPLICATION,
-                       "application-id", "org.gnome.ControlCenter",
+                       "application-id", "io.github.scarecrow.ControlCenter",
                        "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
                        NULL);
 }
