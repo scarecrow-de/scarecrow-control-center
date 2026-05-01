@@ -210,7 +210,7 @@ get_renderer_from_session (void)
                                                  G_DBUS_PROXY_FLAGS_NONE,
                                                  NULL,
                                                  "io.github.scarecrow-de.SessionManager",
-                                                 "/io.github.scarecrow-de.SessionManager",
+                                                 "/io/github/scarecrow-de/SessionManager",
                                                  "io.github.scarecrow-de.SessionManager",
                                                  NULL, &error);
   if (error != NULL)

@@ -1213,7 +1213,7 @@ cc_sharing_panel_init (CcSharingPanel *self)
   gsd_sharing_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                  G_DBUS_PROXY_FLAGS_NONE,
                                  "io.github.scarecrow-de.SettingsDaemon.Sharing",
-                                 "/io.github.scarecrow-de.SettingsDaemon/Sharing",
+                                 "/io/github/scarecrow-de/SettingsDaemon/Sharing",
                                  cc_panel_get_cancellable (CC_PANEL (self)),
                                  sharing_proxy_ready,
                                  self);

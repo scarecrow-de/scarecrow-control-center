@@ -1597,7 +1597,7 @@ cc_region_panel_init (CcRegionPanel *self)
                                   G_DBUS_PROXY_FLAGS_NONE,
                                   NULL,
                                   "io.github.scarecrow-de.SessionManager",
-                                  "/io.github.scarecrow-de.SessionManager",
+                                  "/io/github/scarecrow-de/SessionManager",
                                   "io.github.scarecrow-de.SessionManager",
                                   cc_panel_get_cancellable (CC_PANEL (self)),
                                   session_proxy_ready,

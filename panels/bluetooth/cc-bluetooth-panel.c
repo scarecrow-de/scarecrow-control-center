@@ -245,13 +245,13 @@ cc_bluetooth_panel_init (CcBluetoothPanel *self)
 	self->rfkill = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
 								 G_DBUS_PROXY_FLAGS_NONE,
 								 "io.github.scarecrow-de.SettingsDaemon.Rfkill",
-								 "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+								 "/io/github/scarecrow-de/SettingsDaemon/Rfkill",
 								 "io.github.scarecrow-de.SettingsDaemon.Rfkill",
 								 NULL, NULL);
 	self->properties = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
 								     G_DBUS_PROXY_FLAGS_NONE,
 								     "io.github.scarecrow-de.SettingsDaemon.Rfkill",
-								     "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+								     "/io/github/scarecrow-de/SettingsDaemon/Rfkill",
 								     "org.freedesktop.DBus.Properties",
 								     NULL, NULL);
 

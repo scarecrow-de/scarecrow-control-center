@@ -1070,7 +1070,7 @@ cc_wifi_panel_init (CcWifiPanel *self)
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
                                        "io.github.scarecrow-de.SettingsDaemon.Rfkill",
-                                       "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+                                       "/io/github/scarecrow-de/SettingsDaemon/Rfkill",
                                        "io.github.scarecrow-de.SettingsDaemon.Rfkill",
                                        cc_panel_get_cancellable (CC_PANEL (self)),
                                        rfkill_proxy_acquired_cb,

@@ -328,7 +328,7 @@ cc_lock_panel_init (CcLockPanel *self)
                             G_DBUS_PROXY_FLAGS_NONE,
                             NULL,
                             "io.github.scarecrow-de.SettingsDaemon.UsbProtection",
-                            "/io.github.scarecrow-de.SettingsDaemon/UsbProtection",
+                            "/io/github/scarecrow-de/SettingsDaemon/UsbProtection",
                             "io.github.scarecrow-de.SettingsDaemon.UsbProtection",
                             self->cancellable,
                             on_usb_protection_param_ready,

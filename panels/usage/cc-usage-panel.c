@@ -161,7 +161,7 @@ empty_trash (CcUsagePanel *self)
   bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
   g_dbus_connection_call (bus,
                           "io.github.scarecrow-de.SettingsDaemon.Housekeeping",
-                          "/io.github.scarecrow-de.SettingsDaemon/Housekeeping",
+                          "/io/github/scarecrow-de/SettingsDaemon/Housekeeping",
                           "io.github.scarecrow-de.SettingsDaemon.Housekeeping",
                           "EmptyTrash",
                           NULL, NULL, 0, -1, NULL, NULL, NULL);
@@ -184,7 +184,7 @@ purge_temp (CcUsagePanel *self)
   bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
   g_dbus_connection_call (bus,
                           "io.github.scarecrow-de.SettingsDaemon.Housekeeping",
-                          "/io.github.scarecrow-de.SettingsDaemon/Housekeeping",
+                          "/io/github/scarecrow-de/SettingsDaemon/Housekeeping",
                           "io.github.scarecrow-de.SettingsDaemon.Housekeeping",
                           "RemoveTempFiles",
                           NULL, NULL, 0, -1, NULL, NULL, NULL);

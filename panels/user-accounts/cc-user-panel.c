@@ -1066,7 +1066,7 @@ restart_now (CcUserPanel *self)
         bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
         g_dbus_connection_call (bus,
                                 "io.github.scarecrow-de.SessionManager",
-                                "/io.github.scarecrow-de.SessionManager",
+                                "/io/github/scarecrow-de/SessionManager",
                                 "io.github.scarecrow-de.SessionManager",
                                 "Logout",
                                 g_variant_new ("(u)", 0),

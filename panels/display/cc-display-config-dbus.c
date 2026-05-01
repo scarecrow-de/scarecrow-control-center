@@ -1520,7 +1520,7 @@ cc_display_config_dbus_constructed (GObject *object)
                                        G_DBUS_PROXY_FLAGS_NONE,
                                        NULL,
                                        "io.github.scarecrow-de.Mutter.DisplayConfig",
-                                       "/io.github.scarecrow-de.Mutter/DisplayConfig",
+                                       "/io/github/scarecrow-de/Mutter/DisplayConfig",
                                        "io.github.scarecrow-de.Mutter.DisplayConfig",
                                        NULL,
                                        &error);

@@ -1165,7 +1165,7 @@ cc_display_panel_init (CcDisplayPanel *self)
                                        G_DBUS_PROXY_FLAGS_DO_NOT_CONNECT_SIGNALS |
                                        G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
                                        "io.github.scarecrow-de.Shell",
-                                       "/io.github.scarecrow-de.Shell",
+                                       "/io/github/scarecrow-de/Shell",
                                        "io.github.scarecrow-de.Shell",
                                        cc_panel_get_cancellable (CC_PANEL (self)),
                                        (GAsyncReadyCallback) shell_proxy_ready,

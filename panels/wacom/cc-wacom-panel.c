@@ -681,7 +681,7 @@ cc_wacom_panel_init (CcWacomPanel *self)
 				  G_DBUS_PROXY_FLAGS_NONE,
 				  NULL,
 				  "io.github.scarecrow-de.Shell",
-				  "/io.github.scarecrow-de.Shell/Wacom",
+				  "/io/github/scarecrow-de/Shell/Wacom",
 				  "io.github.scarecrow-de.Shell.Wacom.PadOsd",
 				  cc_panel_get_cancellable (CC_PANEL (self)),
 				  got_osd_proxy_cb,

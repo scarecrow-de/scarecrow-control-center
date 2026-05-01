@@ -1,4 +1,4 @@
-<node name="/io.github.scarecrow-de.SettingsDaemon/Sharing">
+<node name="/io/github/scarecrow-de/SettingsDaemon/Sharing">
   <interface name='io.github.scarecrow-de.SettingsDaemon.Sharing'>
     <property name='CurrentNetworkName' type='s' access='read'/>
     <property name='CurrentNetwork' type='s' access='read'/>

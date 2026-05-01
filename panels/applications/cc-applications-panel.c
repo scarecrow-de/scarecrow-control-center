@@ -49,7 +49,7 @@
 
 #define MASTER_SCHEMA "io.github.scarecrow-de.desktop.notifications"
 #define APP_SCHEMA MASTER_SCHEMA ".application"
-#define APP_PREFIX "/io.github.scarecrow-de.desktop/notifications/application/"
+#define APP_PREFIX "/io/github/scarecrow-de/desktop/notifications/application/"
 
 #define PORTAL_SNAP_PREFIX "snap."
 

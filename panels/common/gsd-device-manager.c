@@ -594,11 +594,11 @@ gsd_device_get_settings (GsdDevice *device)
 
 		if (type & GSD_DEVICE_TYPE_TOUCHSCREEN) {
 			schema = "io.github.scarecrow-de.desktop.peripherals.touchscreen";
-			path = g_strdup_printf ("/io.github.scarecrow-de.desktop/peripherals/touchscreens/%s:%s/",
+			path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/touchscreens/%s:%s/",
 						vendor, product);
 		} else if (type & GSD_DEVICE_TYPE_TABLET) {
 			schema = "io.github.scarecrow-de.desktop.peripherals.tablet";
-			path = g_strdup_printf ("/io.github.scarecrow-de.desktop/peripherals/tablets/%s:%s/",
+			path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/tablets/%s:%s/",
 						vendor, product);
 		}
 	} else if (type & (GSD_DEVICE_TYPE_MOUSE | GSD_DEVICE_TYPE_TOUCHPAD)) {
