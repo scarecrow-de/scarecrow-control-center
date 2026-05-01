@@ -3,7 +3,7 @@ polkit.addRule(function(action, subject) {
 	     action.id == "org.freedesktop.locale1.set-keyboard" ||
 	     action.id == "org.freedesktop.hostname1.set-static-hostname" ||
 	     action.id == "org.freedesktop.hostname1.set-hostname" ||
-	     action.id == "io.github.scarecrow-de.controlcenter.datetime.configure") &&
+	     action.id == "org.gnome.controlcenter.datetime.configure") &&
 	    subject.local &&
 	    subject.active &&
 	    subject.isInGroup ("@PRIVILEGED_GROUP@")) {

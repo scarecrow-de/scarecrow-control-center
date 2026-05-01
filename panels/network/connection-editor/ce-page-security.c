@@ -487,7 +487,7 @@ ce_page_security_class_init (CEPageSecurityClass *klass)
 
         object_class->dispose = ce_page_security_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/network/security-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/security-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageSecurity, box);
         gtk_widget_class_bind_template_child (widget_class, CEPageSecurity, security_label);

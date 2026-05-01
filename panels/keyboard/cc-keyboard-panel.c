@@ -751,7 +751,7 @@ cc_keyboard_panel_class_init (CcKeyboardPanelClass *klass)
 
   g_object_class_override_property (object_class, PROP_PARAMETERS, "parameters");
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/keyboard/cc-keyboard-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/keyboard/cc-keyboard-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcKeyboardPanel, add_shortcut_row);
   gtk_widget_class_bind_template_child (widget_class, CcKeyboardPanel, empty_search_placeholder);
@@ -787,7 +787,7 @@ cc_keyboard_panel_init (CcKeyboardPanel *self)
   g_object_unref (provider);
 
   /* Alternate characters key */
-  self->input_source_settings = g_settings_new ("io.github.scarecrow-de.desktop.input-sources");
+  self->input_source_settings = g_settings_new ("org.gnome.desktop.input-sources");
   g_settings_bind_with_mapping (self->input_source_settings,
                                 "xkb-options",
                                 self->value_alternate_chars,

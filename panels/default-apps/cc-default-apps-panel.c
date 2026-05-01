@@ -178,7 +178,7 @@ cc_default_apps_panel_class_init (CcDefaultAppsPanelClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/default-apps/cc-default-apps-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/default-apps/cc-default-apps-panel.ui");
   gtk_widget_class_bind_template_child (widget_class, CcDefaultAppsPanel, default_apps_grid);
   gtk_widget_class_bind_template_child (widget_class, CcDefaultAppsPanel, web_label);
   gtk_widget_class_bind_template_child (widget_class, CcDefaultAppsPanel, mail_label);

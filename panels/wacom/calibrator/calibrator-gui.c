@@ -324,12 +324,12 @@ calib_area_new (GdkScreen      *screen,
   calib_area->calibrator.threshold_doubleclick = threshold_doubleclick;
   calib_area->calibrator.threshold_misclick = threshold_misclick;
 
-  calib_area->builder = gtk_builder_new_from_resource ("/io/github/scarecrow-de/control-center/wacom/calibrator/calibrator.ui");
+  calib_area->builder = gtk_builder_new_from_resource ("/org/gnome/control-center/wacom/calibrator/calibrator.ui");
   calib_area->window = GTK_WIDGET (gtk_builder_get_object (calib_area->builder, "window"));
   calib_area->error_revealer = GTK_WIDGET (gtk_builder_get_object (calib_area->builder, "error_revealer"));
   calib_area->clock = GTK_WIDGET (gtk_builder_get_object (calib_area->builder, "clock"));
   calib_area->style_provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (calib_area->style_provider, "/io/github/scarecrow-de/control-center/wacom/calibrator/calibrator.css");
+  gtk_css_provider_load_from_resource (calib_area->style_provider, "/org/gnome/control-center/wacom/calibrator/calibrator.css");
   gtk_style_context_add_provider_for_screen (gtk_widget_get_screen (calib_area->window),
                                              GTK_STYLE_PROVIDER (calib_area->style_provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_USER);

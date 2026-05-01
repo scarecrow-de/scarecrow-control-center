@@ -568,7 +568,7 @@ cc_format_chooser_class_init (CcFormatChooserClass *klass)
 
         object_class->dispose = cc_format_chooser_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/region/cc-format-chooser.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/region/cc-format-chooser.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcFormatChooser, title_bar);
         gtk_widget_class_bind_template_child (widget_class, CcFormatChooser, title_buttons);

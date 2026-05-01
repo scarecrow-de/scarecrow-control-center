@@ -23,7 +23,7 @@
 
 #include <colord.h>
 
-#define GCM_SETTINGS_SCHEMA             "io.github.scarecrow-de.settings-daemon.plugins.color"
+#define GCM_SETTINGS_SCHEMA             "org.gnome.settings-daemon.plugins.color"
 
 gchar   *cc_color_device_get_sortable_base (CdDevice *device);
 gchar   *cc_color_device_get_title         (CdDevice *device);

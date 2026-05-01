@@ -399,7 +399,7 @@ cc_wacom_device_get_button_settings (CcWacomDevice *device,
 	g_object_get (tablet_settings, "path", &path, NULL);
 
 	button_path = g_strdup_printf ("%sbutton%c/", path, 'A' + button);
-	settings = g_settings_new_with_path ("io.github.scarecrow-de.desktop.peripherals.tablet.pad-button",
+	settings = g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet.pad-button",
 					     button_path);
 
 	return settings;

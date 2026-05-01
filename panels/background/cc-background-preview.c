@@ -111,7 +111,7 @@ load_custom_css (CcBackgroundPreview *self)
 
   /* use custom CSS */
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io.github.scarecrow-de.control-center/background/preview.css");
+  gtk_css_provider_load_from_resource (provider, "/org/gnome/control-center/background/preview.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -323,7 +323,7 @@ cc_background_preview_class_init (CcBackgroundPreviewClass *klass)
 
   g_object_class_install_properties (object_class, N_PROPS, properties);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/background/cc-background-preview.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/background/cc-background-preview.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundPreview, animated_background_icon);
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundPreview, desktop_clock_label);
@@ -342,7 +342,7 @@ cc_background_preview_init (CcBackgroundPreview *self)
   gtk_widget_init_template (GTK_WIDGET (self));
 
   self->thumbnail_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_LARGE);
-  self->desktop_settings = g_settings_new ("io.github.scarecrow-de.desktop.interface");
+  self->desktop_settings = g_settings_new ("org.gnome.desktop.interface");
 
   g_signal_connect_object (self->desktop_settings,
                            "changed::clock-format",

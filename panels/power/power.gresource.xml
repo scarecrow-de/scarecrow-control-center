@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow-de/control-center/power">
+  <gresource prefix="/org/gnome/control-center/power">
     <file preprocess="xml-stripblanks">cc-power-panel.ui</file>
     <file>battery-levels.css</file>
   </gresource>

@@ -79,11 +79,11 @@ brightness_slider_value_changed_cb (CcBrightnessScale *self, GtkRange *range)
   self->setting_brightness = TRUE;
 
   if (self->device == BRIGHTNESS_DEVICE_KBD)
-    variant = g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Power.Keyboard',"
+    variant = g_variant_new_parsed ("('org.gnome.SettingsDaemon.Power.Keyboard',"
                                     "'Brightness', %v)",
                                     g_variant_new_int32 (percentage));
   else
-    variant = g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Power.Screen',"
+    variant = g_variant_new_parsed ("('org.gnome.SettingsDaemon.Power.Screen',"
                                     "'Brightness', %v)",
                                     g_variant_new_int32 (percentage));
 
@@ -210,14 +210,14 @@ cc_brightness_scale_constructed (GObject *object)
                            G_CALLBACK (brightness_slider_value_changed_cb), self, G_CONNECT_SWAPPED);
 
   if (self->device == BRIGHTNESS_DEVICE_KBD)
-    interface = "io.github.scarecrow-de.SettingsDaemon.Power.Keyboard";
+    interface = "org.gnome.SettingsDaemon.Power.Keyboard";
   else
-    interface = "io.github.scarecrow-de.SettingsDaemon.Power.Screen";
+    interface = "org.gnome.SettingsDaemon.Power.Screen";
 
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
-                                       "io.github.scarecrow-de.SettingsDaemon.Power",
-                                       "/io.github.scarecrow-de.SettingsDaemon/Power",
+                                       "org.gnome.SettingsDaemon.Power",
+                                       "/org/gnome/SettingsDaemon/Power",
                                        interface,
                                        self->cancellable,
                                        got_proxy_cb,

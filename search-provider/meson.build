@@ -1,7 +1,7 @@
 service_conf = configuration_data()
 service_conf.set('libexecdir', control_center_libexecdir)
 
-service = 'io.github.scarecrow-de.ControlCenter.SearchProvider.service'
+service = 'org.gnome.ControlCenter.SearchProvider.service'
 
 configure_file(
           input : service + '.in',
@@ -22,11 +22,11 @@ sources = files(
 )
 
 # The upstream for the DBus interface definition is
-# at http://git.gnome.org/browse/gnome-shell/plain/data/io.github.scarecrow-de.ShellSearchProvider2.xml
+# at http://git.gnome.org/browse/gnome-shell/plain/data/org.gnome.ShellSearchProvider2.xml
 sources += gnome.gdbus_codegen(
   'cc-shell-search-provider-generated',
-  'io.github.scarecrow-de.ShellSearchProvider2.xml',
-  interface_prefix : 'io.github.scarecrow-de.',
+  'org.gnome.ShellSearchProvider2.xml',
+  interface_prefix : 'org.gnome.',
          namespace : 'Cc'
 )
 

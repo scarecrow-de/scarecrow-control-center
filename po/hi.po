@@ -1105,11 +1105,11 @@ msgstr "दिनांक और समय समय क्षेत्र स�
 msgid "Clock;Timezone;Location;"
 msgstr "घड़ी;समय क्षेत्र;स्थान;"
 
-#: ../panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "सिस्टम का समय और दिनांक सेटिंग्स बदलें"
 
-#: ../panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "समय या दिनांक सेटिंग्स को बदलने के लिए, आपको प्रमाणित करने की जरूरत है."
@@ -5292,11 +5292,11 @@ msgstr ""
 "ऑडिय; "
 "वीडियो;चित्र; फोटो; फिल्मों; सर्वर; रेंडरर;"
 
-#: ../panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "दूरस्थ लॉगिन सक्षम या अक्षम करें."
 
-#: ../panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "उपयोक्ता दूरस्थ लॉगिन सक्षम या अक्षम करने के लिए सत्यापन आवश्यक है"
 
@@ -6396,11 +6396,11 @@ msgstr "भाषा (_L)"
 msgid "Last Login"
 msgstr "अंतिम लॉगिन"
 
-#: ../panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "उपयोक्ता खातों का प्रबंधन करें"
 
-#: ../panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "उपयोक्ता आँकड़ा बदलने के लिए सत्यापन आवश्यक है"
 

@@ -180,7 +180,7 @@ ce_page_wifi_class_init (CEPageWifiClass *klass)
 {
         GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/network/wifi-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/wifi-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageWifi, bssid_combo);
         gtk_widget_class_bind_template_child (widget_class, CEPageWifi, cloned_mac_combo);

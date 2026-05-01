@@ -181,7 +181,7 @@ cc_power_panel_class_init (CcPowerPanelClass *klass)
 
   panel_class->get_help_uri = cc_power_panel_get_help_uri;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/power/cc-power-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/power/cc-power-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcPowerPanel, main_scroll);
   gtk_widget_class_bind_template_child (widget_class, CcPowerPanel, main_box);
@@ -448,7 +448,7 @@ load_custom_css (CcPowerPanel *self)
 
   /* use custom CSS */
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io.github.scarecrow-de.control-center/power/battery-levels.css");
+  gtk_css_provider_load_from_resource (provider, "/org/gnome/control-center/power/battery-levels.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -1189,7 +1189,7 @@ bt_set_powered (CcPowerPanel *self,
 {
   g_dbus_proxy_call (self->bt_properties,
 		     "Set",
-		     g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Rfkill', 'BluetoothAirplaneMode', %v)",
+		     g_variant_new_parsed ("('org.gnome.SettingsDaemon.Rfkill', 'BluetoothAirplaneMode', %v)",
 					   g_variant_new_boolean (!powered)),
 		     G_DBUS_CALL_FLAGS_NONE,
 		     -1,
@@ -2082,9 +2082,9 @@ add_power_saving_section (CcPowerPanel *self)
 
   self->bt_rfkill = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
                                                               G_DBUS_PROXY_FLAGS_NONE,
-                                                              "io.github.scarecrow-de.SettingsDaemon.Rfkill",
-                                                              "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
-                                                              "io.github.scarecrow-de.SettingsDaemon.Rfkill",
+                                                              "org.gnome.SettingsDaemon.Rfkill",
+                                                              "/org/gnome/SettingsDaemon/Rfkill",
+                                                              "org.gnome.SettingsDaemon.Rfkill",
                                                               NULL,
                                                               NULL);
 
@@ -2092,8 +2092,8 @@ add_power_saving_section (CcPowerPanel *self)
     {
       self->bt_properties = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
                                                                       G_DBUS_PROXY_FLAGS_NONE,
-                                                                      "io.github.scarecrow-de.SettingsDaemon.Rfkill",
-                                                                      "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+                                                                      "org.gnome.SettingsDaemon.Rfkill",
+                                                                      "/org/gnome/SettingsDaemon/Rfkill",
                                                                       "org.freedesktop.DBus.Properties",
                                                                       NULL,
                                                                       NULL);
@@ -2371,9 +2371,9 @@ cc_power_panel_init (CcPowerPanel *self)
 
   self->up_client = up_client_new ();
 
-  self->gsd_settings = g_settings_new ("io.github.scarecrow-de.settings-daemon.plugins.power");
-  self->session_settings = g_settings_new ("io.github.scarecrow-de.desktop.session");
-  self->interface_settings = g_settings_new ("io.github.scarecrow-de.desktop.interface");
+  self->gsd_settings = g_settings_new ("org.gnome.settings-daemon.plugins.power");
+  self->session_settings = g_settings_new ("org.gnome.desktop.session");
+  self->interface_settings = g_settings_new ("org.gnome.desktop.interface");
 
   self->battery_row_sizegroup = gtk_size_group_new (GTK_SIZE_GROUP_VERTICAL);
   self->row_sizegroup = gtk_size_group_new (GTK_SIZE_GROUP_VERTICAL);

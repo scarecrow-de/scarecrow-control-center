@@ -2121,7 +2121,7 @@ msgid "Could not get session bus while applying display configuration"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1778
-msgid "Could not get io.github.scarecrow-de.SettingsDaemon.XRANDR"
+msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1824

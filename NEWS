@@ -3763,7 +3763,7 @@ Media:
 - Use new media-removable icon (Bastien Nocera) (#657801)
 
 Network:
-- Set the io.github.scarecrow-de.system.proxy.http 'enabled' key if the user sets a HTTP proxy (Richard Hughes)
+- Set the org.gnome.system.proxy.http 'enabled' key if the user sets a HTTP proxy (Richard Hughes)
 - Explicitly unset 'use-same-proxy' as there's no UI for that (Richard Hughes) (#657235)
 
 Power:

@@ -1034,7 +1034,7 @@ cc_color_calibrate_init (CcColorCalibrate *calibrate)
   /* load UI */
   calibrate->builder = gtk_builder_new ();
   retval = gtk_builder_add_from_resource (calibrate->builder,
-                                          "/io/github/scarecrow-de/control-center/color/cc-color-calibrate.ui",
+                                          "/org/gnome/control-center/color/cc-color-calibrate.ui",
                                           &error);
   if (retval == 0)
     g_warning ("Could not load interface: %s", error->message);

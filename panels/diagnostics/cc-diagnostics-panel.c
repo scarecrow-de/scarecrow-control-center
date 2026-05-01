@@ -106,7 +106,7 @@ cc_diagnostics_panel_class_init (CcDiagnosticsPanelClass *klass)
 
   oclass->finalize = cc_diagnostics_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/diagnostics/cc-diagnostics-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/diagnostics/cc-diagnostics-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcDiagnosticsPanel, diagnostics_explanation_label);
   gtk_widget_class_bind_template_child (widget_class, CcDiagnosticsPanel, diagnostics_list_box);
@@ -129,7 +129,7 @@ cc_diagnostics_panel_init (CcDiagnosticsPanel *self)
                                 cc_list_box_update_header_func,
                                 NULL, NULL);
 
-  self->privacy_settings = g_settings_new ("io.github.scarecrow-de.desktop.privacy");
+  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
 
   g_settings_bind (self->privacy_settings, "report-technical-problems",
                    self->abrt_switch, "active",
