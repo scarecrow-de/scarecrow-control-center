@@ -79,11 +79,11 @@ brightness_slider_value_changed_cb (CcBrightnessScale *self, GtkRange *range)
   self->setting_brightness = TRUE;
 
   if (self->device == BRIGHTNESS_DEVICE_KBD)
-    variant = g_variant_new_parsed ("('org.gnome.SettingsDaemon.Power.Keyboard',"
+    variant = g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Power.Keyboard',"
                                     "'Brightness', %v)",
                                     g_variant_new_int32 (percentage));
   else
-    variant = g_variant_new_parsed ("('org.gnome.SettingsDaemon.Power.Screen',"
+    variant = g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Power.Screen',"
                                     "'Brightness', %v)",
                                     g_variant_new_int32 (percentage));
 
@@ -141,8 +141,10 @@ got_proxy_cb (GObject *source_object, GAsyncResult *res, gpointer user_data)
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_printerr ("Error creating proxy: %s\n", error->message);
+      else
+	g_printerr ("Error creating proxy");
       return;
     }
 
@@ -210,14 +212,14 @@ cc_brightness_scale_constructed (GObject *object)
                            G_CALLBACK (brightness_slider_value_changed_cb), self, G_CONNECT_SWAPPED);
 
   if (self->device == BRIGHTNESS_DEVICE_KBD)
-    interface = "org.gnome.SettingsDaemon.Power.Keyboard";
+    interface = "io.github.scarecrow-de.SettingsDaemon.Power.Keyboard";
   else
-    interface = "org.gnome.SettingsDaemon.Power.Screen";
+    interface = "io.github.scarecrow-de.SettingsDaemon.Power.Screen";
 
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
-                                       "org.gnome.SettingsDaemon.Power",
-                                       "/org/gnome/SettingsDaemon/Power",
+                                       "io.github.scarecrow-de.SettingsDaemon.Power",
+                                       "/io.github.scarecrow-de.SettingsDaemon/Power",
                                        interface,
                                        self->cancellable,
                                        got_proxy_cb,

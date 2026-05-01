@@ -29,7 +29,7 @@
 #define PIN_HOT_POINT_X 8
 #define PIN_HOT_POINT_Y 15
 
-#define DATETIME_RESOURCE_PATH "/org/gnome/control-center/datetime"
+#define DATETIME_RESOURCE_PATH "/io/github/scarecrow-de/control-center/datetime"
 
 typedef struct
 {

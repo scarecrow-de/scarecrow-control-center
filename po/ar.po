@@ -1400,11 +1400,11 @@ msgstr "preferences-system-time"
 msgid "Clock;Timezone;Location;"
 msgstr "ساعة;توقيت;منطقة زمنية;منطقة;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "غيّر إعدادات الوقت والتاريخ للنظام"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "لتغيير إعدادات الوقت والتاريخ، تحتاج للاستيثاق."
 
@@ -6012,11 +6012,11 @@ msgstr "مشاركة;شارك;اسم;مكتب;بعيد;بلوتوث;صوت;صو�
 msgid "Networks"
 msgstr "الشبكات"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "فعّل أو عطّل الولوج عن بعد"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "الاستيثاق مطلوب لتفعيل أو تعطيل الولوج عن بعد"
 
@@ -7378,11 +7378,11 @@ msgstr "ا_سم المدير"
 msgid "Administrator Password"
 msgstr "كلمة سر المدير"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "أدِر حسابات المستخدمين"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "الاستيثاق مطلوب لتغيير بيانات المستخدم"
 
@@ -7938,8 +7938,8 @@ msgstr "مساعدة"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: shell/scarecrow-control-center.desktop.in.in:5
-msgid "org.gnome.Settings"
-msgstr "org.gnome.Settings"
+msgid "io.github.scarecrow-de.Settings"
+msgstr "io.github.scarecrow-de.Settings"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: shell/scarecrow-control-center.desktop.in.in:17
@@ -7976,21 +7976,21 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "ألغِ البحث"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""

@@ -1538,11 +1538,11 @@ msgstr "Αλλάξτε την ημερομηνία και ώρα, καθώς κ�
 msgid "Clock;Timezone;Location;"
 msgstr "Ρολόι;Ζώνη ώρας;Τοποθεσία;Clock;Timezone;Location;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Αλλαγή ρυθμίσεων ώρας και ημερομηνίας του συστήματος"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Πρέπει να γίνει πιστοποίηση για να αλλάξετε τις ρυθμίσεις ώρας ή ημερομηνίας."
@@ -6040,11 +6040,11 @@ msgstr ""
 "απεικονιστής;share;sharing;ssh;host;name;remote;desktop;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Ενεργοποίηση η απενεργοποίηση της απομακρυσμένης σύνδεσης"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Απαιτείται πιστοποίηση για την ενεργοποίηση ή απενεργοποίηση της "
@@ -7765,11 +7765,11 @@ msgstr "Ό_νομα διαχειριστή"
 msgid "Administrator Password"
 msgstr "Κωδικός πρόσβασης διαχειριστή"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Διαχείριση λογαριασμών των χρηστών"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
 
@@ -8301,11 +8301,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Ακύρωση αναζήτησης"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Θα ανοίξει το αναγνωριστικό για τον τελευταίο πίνακα Ρυθμίσεων"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8313,12 +8313,12 @@ msgstr ""
 "Θα ανοίξει το αναγνωριστικό για τον τελευταίο πίνακα Ρυθμίσεων. Οι μη "
 "αναγνωρισμένες τιμές θα αγνοηθούν και θα επιλεγεί το πρώτο πλαίσιο στη λίστα."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Προβολή προειδοποίησης κατά την εκτέλεση των Ρυθμίσεων της έκδοσης ανάπτυξης"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow-de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8908,8 +8908,8 @@ msgstr "Ήχοι συστήματος"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "org.gnome.Settings"
-#~ msgstr "org.gnome.Settings"
+#~ msgid "io.github.scarecrow-de.Settings"
+#~ msgstr "io.github.scarecrow-de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "Λειτουργία νυχτός"

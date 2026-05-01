@@ -624,7 +624,7 @@ cc_display_panel_class_init (CcDisplayPanelClass *klass)
   object_class->constructed = cc_display_panel_constructed;
   object_class->dispose = cc_display_panel_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/display/cc-display-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/display/cc-display-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcDisplayPanel, arrangement_frame);
   gtk_widget_class_bind_template_child (widget_class, CcDisplayPanel, arrangement_bin);
@@ -1064,7 +1064,8 @@ shell_proxy_ready (GObject        *source,
   if (!proxy)
     {
       if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
-        g_warning ("Failed to contact gnome-shell: %s", error->message);
+	if(error == NULL) g_warning ("Failed to contact gnome-shell");
+        else g_warning ("Failed to contact gnome-shell: %s", error->message);
       return;
     }
 
@@ -1163,9 +1164,9 @@ cc_display_panel_init (CcDisplayPanel *self)
                                        G_DBUS_PROXY_FLAGS_DO_NOT_LOAD_PROPERTIES |
                                        G_DBUS_PROXY_FLAGS_DO_NOT_CONNECT_SIGNALS |
                                        G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
-                                       "org.gnome.Shell",
-                                       "/org/gnome/Shell",
-                                       "org.gnome.Shell",
+                                       "io.github.scarecrow-de.Shell",
+                                       "/io.github.scarecrow-de.Shell",
+                                       "io.github.scarecrow-de.Shell",
                                        cc_panel_get_cancellable (CC_PANEL (self)),
                                        (GAsyncReadyCallback) shell_proxy_ready,
                                        self);
@@ -1176,7 +1177,7 @@ cc_display_panel_init (CcDisplayPanel *self)
              self);
 
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/org/gnome/control-center/display/display-arrangement.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow-de/control-center/display/display-arrangement.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);

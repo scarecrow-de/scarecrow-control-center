@@ -871,7 +871,7 @@ cc_window_class_init (CcWindowClass *klass)
                                                         CC_TYPE_SHELL_MODEL,
                                                         G_PARAM_READWRITE | G_PARAM_CONSTRUCT_ONLY | G_PARAM_STATIC_STRINGS));
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/ControlCenter/gtk/cc-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.ControlCenter/gtk/cc-window.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcWindow, back_revealer);
   gtk_widget_class_bind_template_child (widget_class, CcWindow, development_warning_dialog);

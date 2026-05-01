@@ -92,7 +92,7 @@ enable_switch_changed_cb (CcBluetoothPanel *self)
 	g_debug ("Power switched to %s", state ? "on" : "off");
 	g_dbus_proxy_call (self->properties,
 			   "Set",
-			   g_variant_new_parsed ("('org.gnome.SettingsDaemon.Rfkill', 'BluetoothAirplaneMode', %v)",
+			   g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Rfkill', 'BluetoothAirplaneMode', %v)",
 						 g_variant_new_boolean (!state)),
 			   G_DBUS_CALL_FLAGS_NONE,
 			   -1,
@@ -183,7 +183,7 @@ airplane_mode_off_button_clicked_cb (CcBluetoothPanel *self)
 	g_debug ("Airplane Mode Off clicked, disabling airplane mode");
 	g_dbus_proxy_call (self->rfkill,
 			   "org.freedesktop.DBus.Properties.Set",
-			   g_variant_new_parsed ("('org.gnome.SettingsDaemon.Rfkill',"
+			   g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Rfkill',"
 						 "'AirplaneMode', %v)",
 						 g_variant_new_boolean (FALSE)),
 			   G_DBUS_CALL_FLAGS_NONE,
@@ -216,7 +216,7 @@ cc_bluetooth_panel_class_init (CcBluetoothPanelClass *klass)
 
 	panel_class->get_help_uri = cc_bluetooth_panel_get_help_uri;
 
-	gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/bluetooth/cc-bluetooth-panel.ui");
+	gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/bluetooth/cc-bluetooth-panel.ui");
 
 	gtk_widget_class_bind_template_child (widget_class, CcBluetoothPanel, airplane_box);
 	gtk_widget_class_bind_template_child (widget_class, CcBluetoothPanel, disabled_box);
@@ -244,14 +244,14 @@ cc_bluetooth_panel_init (CcBluetoothPanel *self)
 	/* RFKill */
 	self->rfkill = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
 								 G_DBUS_PROXY_FLAGS_NONE,
-								 "org.gnome.SettingsDaemon.Rfkill",
-								 "/org/gnome/SettingsDaemon/Rfkill",
-								 "org.gnome.SettingsDaemon.Rfkill",
+								 "io.github.scarecrow-de.SettingsDaemon.Rfkill",
+								 "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+								 "io.github.scarecrow-de.SettingsDaemon.Rfkill",
 								 NULL, NULL);
 	self->properties = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
 								     G_DBUS_PROXY_FLAGS_NONE,
-								     "org.gnome.SettingsDaemon.Rfkill",
-								     "/org/gnome/SettingsDaemon/Rfkill",
+								     "io.github.scarecrow-de.SettingsDaemon.Rfkill",
+								     "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
 								     "org.freedesktop.DBus.Properties",
 								     NULL, NULL);
 

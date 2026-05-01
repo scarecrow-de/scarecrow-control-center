@@ -1098,11 +1098,11 @@ msgstr ""
 "часовник;часови;пояс;местоположение;часова;зона;време;clock;timezone;"
 "location;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Промяна на системните дата и час"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow-de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Ще трябва да се идентифицирате, за да промените настройките на датата или "
@@ -5433,11 +5433,11 @@ msgstr ""
 msgid "Networks"
 msgstr "Мрежи"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "Включване или изключване на отдалечената графична връзка"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow-de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Изисква се удостоверяване за превключване на отдалечената графична връзка"
@@ -6510,11 +6510,11 @@ msgstr "_Последно влизане"
 msgid "Remove User…"
 msgstr "Премахване на потребителска регистрация…"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Управление на потребителски регистрации"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow-de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "Изисква се удостоверяване за промяна на потребителските данни"
 

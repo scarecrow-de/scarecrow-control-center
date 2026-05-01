@@ -68,8 +68,8 @@ struct _CcNightLightPage {
 
 G_DEFINE_TYPE (CcNightLightPage, cc_night_light_page, GTK_TYPE_BIN);
 
-#define CLOCK_SCHEMA     "org.gnome.desktop.interface"
-#define DISPLAY_SCHEMA   "org.gnome.settings-daemon.plugins.color"
+#define CLOCK_SCHEMA     "io.github.scarecrow-de.desktop.interface"
+#define DISPLAY_SCHEMA   "io.github.scarecrow-de.settings-daemon.plugins.color"
 #define CLOCK_FORMAT_KEY "clock-format"
 #define NIGHT_LIGHT_PREVIEW_TIMEOUT_SECONDS 5
 
@@ -283,7 +283,7 @@ dialog_undisable_clicked_cb (GtkButton        *button,
   g_dbus_proxy_call (self->proxy_color_props,
                      "Set",
                      g_variant_new ("(ssv)",
-                                    "org.gnome.SettingsDaemon.Color",
+                                    "io.github.scarecrow-de.SettingsDaemon.Color",
                                     "DisabledUntilTomorrow",
                                     g_variant_new_boolean (FALSE)),
                      G_DBUS_CALL_FLAGS_NONE,
@@ -397,7 +397,7 @@ dialog_got_proxy_cb (GObject      *source_object,
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_warning ("failed to connect to g-s-d: %s", error->message);
       return;
     }
@@ -422,7 +422,7 @@ dialog_got_proxy_props_cb (GObject      *source_object,
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_warning ("failed to connect to g-s-d: %s", error->message);
       return;
     }
@@ -576,7 +576,7 @@ cc_night_light_page_class_init (CcNightLightPageClass *klass)
 
   object_class->finalize = cc_night_light_page_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/display/cc-night-light-page.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/display/cc-night-light-page.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcNightLightPage, adjustment_from_hours);
   gtk_widget_class_bind_template_child (widget_class, CcNightLightPage, adjustment_from_minutes);
@@ -668,24 +668,24 @@ cc_night_light_page_init (CcNightLightPage *self)
 
   /* use custom CSS */
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/org/gnome/control-center/display/night-light.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow-de/control-center/display/night-light.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
 
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
-                                       "org.gnome.SettingsDaemon.Color",
-                                       "/org/gnome/SettingsDaemon/Color",
-                                       "org.gnome.SettingsDaemon.Color",
+                                       "io.github.scarecrow-de.SettingsDaemon.Color",
+                                       "/io.github.scarecrow-de.SettingsDaemon/Color",
+                                       "io.github.scarecrow-de.SettingsDaemon.Color",
                                        self->cancellable,
                                        dialog_got_proxy_cb,
                                        self);
 
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
-                                       "org.gnome.SettingsDaemon.Color",
-                                       "/org/gnome/SettingsDaemon/Color",
+                                       "io.github.scarecrow-de.SettingsDaemon.Color",
+                                       "/io.github.scarecrow-de.SettingsDaemon/Color",
                                        "org.freedesktop.DBus.Properties",
                                        self->cancellable,
                                        dialog_got_proxy_props_cb,

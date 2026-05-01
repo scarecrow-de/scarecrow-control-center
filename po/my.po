@@ -2056,12 +2056,12 @@ msgstr "%s/%s: %s ကိုဖွင့်မရပါ\n"
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s to %s: %s အမည်ပြောင်းမရပါ\n"
 
-#: ../capplets/display/org.gnome.randr.policy.in.h:1
+#: ../capplets/display/io.github.scarecrow-de.randr.policy.in.h:1
 msgid ""
 "Authentication is required to install multi-monitor settings for all users"
 msgstr ""
 
-#: ../capplets/display/org.gnome.randr.policy.in.h:2
+#: ../capplets/display/io.github.scarecrow-de.randr.policy.in.h:2
 msgid "Install multi-monitor settings for the whole system"
 msgstr ""
 

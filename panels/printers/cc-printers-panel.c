@@ -1264,7 +1264,7 @@ cc_printers_panel_init (CcPrintersPanel *self)
   g_object_set_data_full (self->reference, "self", self, NULL);
 
   builder_result = gtk_builder_add_objects_from_resource (self->builder,
-                                                          "/org/gnome/control-center/printers/printers.ui",
+                                                          "/io/github/scarecrow-de/control-center/printers/printers.ui",
                                                           objects, &error);
 
   if (builder_result == 0)
@@ -1316,7 +1316,7 @@ cc_printers_panel_init (CcPrintersPanel *self)
                               NULL,
                               NULL);
 
-  self->lockdown_settings = g_settings_new ("org.gnome.desktop.lockdown");
+  self->lockdown_settings = g_settings_new ("io.github.scarecrow-de.desktop.lockdown");
   if (self->lockdown_settings)
     g_signal_connect_object (self->lockdown_settings,
                              "changed",

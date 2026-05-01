@@ -40,7 +40,7 @@
 
 #define EMPTY_TEXT "\xe2\x80\x94"
 
-#define CLOCK_SCHEMA "org.gnome.desktop.interface"
+#define CLOCK_SCHEMA "io.github.scarecrow-de.desktop.interface"
 #define CLOCK_FORMAT_KEY "clock-format"
 
 struct _PpJobsDialog {
@@ -575,7 +575,7 @@ pp_jobs_dialog_class_init (PpJobsDialogClass *klass)
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
   GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/printers/pp-jobs-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/printers/pp-jobs-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, PpJobsDialog, authenticate_button);
   gtk_widget_class_bind_template_child (widget_class, PpJobsDialog, authenticate_jobs_button);
