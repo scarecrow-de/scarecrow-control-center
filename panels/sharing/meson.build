@@ -19,7 +19,7 @@ i18n.merge_file(
 polkit_conf = configuration_data()
 polkit_conf.set('libexecdir', control_center_libexecdir)
 
-polkit = 'org.gnome.controlcenter.remote-login-helper.policy'
+polkit = 'io.github.scarecrow-de.controlcenter.remote-login-helper.policy'
 
 polkit_in = configure_file(
   input: polkit + '.in.in',
@@ -58,7 +58,7 @@ sources += gnome.compile_resources(
   export: true
 )
 
-settings_daemon = 'org.gnome.SettingsDaemon'
+settings_daemon = 'io.github.scarecrow-de.SettingsDaemon'
 gdbus = settings_daemon + '.Sharing'
 
 sources += gnome.gdbus_codegen(

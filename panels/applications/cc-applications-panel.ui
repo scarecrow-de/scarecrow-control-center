@@ -27,7 +27,7 @@
                         <property name="visible">1</property>
                         <property name="valign">start</property>
                         <property name="pixel-size">80</property>
-                        <property name="icon-name">org.gnome.Software-symbolic</property>
+                        <property name="icon-name">io.github.scarecrow-de.Software-symbolic</property>
                         <style>
                           <class name="dim-label"/>
                         </style>

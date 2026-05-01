@@ -497,7 +497,7 @@ zoom_options_class_init (ZoomOptionsClass *klass)
   object_class->finalize = zoom_options_finalize;
   object_class->constructed = zoom_options_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/universal-access/zoom-options.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/universal-access/zoom-options.ui");
 
   gtk_widget_class_bind_template_child (widget_class, ZoomOptions, brightness_slider);
   gtk_widget_class_bind_template_child (widget_class, ZoomOptions, centered_radio);
@@ -526,8 +526,8 @@ zoom_options_init (ZoomOptions *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  self->settings = g_settings_new ("org.gnome.desktop.a11y.magnifier");
-  self->application_settings = g_settings_new ("org.gnome.desktop.a11y.applications");
+  self->settings = g_settings_new ("io.github.scarecrow-de.desktop.a11y.magnifier");
+  self->application_settings = g_settings_new ("io.github.scarecrow-de.desktop.a11y.applications");
 }
 
 ZoomOptions *

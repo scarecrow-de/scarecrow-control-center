@@ -806,7 +806,7 @@ rfkill_switch_notify_activate_cb (GtkSwitch   *rfkill_switch,
 
   g_dbus_proxy_call (self->rfkill_proxy,
                      "org.freedesktop.DBus.Properties.Set",
-                     g_variant_new_parsed ("('org.gnome.SettingsDaemon.Rfkill',"
+                     g_variant_new_parsed ("('io.github.scarecrow-de.SettingsDaemon.Rfkill',"
                                            "'AirplaneMode', %v)",
                                            g_variant_new_boolean (enable)),
                      G_DBUS_CALL_FLAGS_NONE,
@@ -1006,7 +1006,7 @@ cc_wifi_panel_class_init (CcWifiPanelClass *klass)
   object_class->get_property = cc_wifi_panel_get_property;
   object_class->set_property = cc_wifi_panel_set_property;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/cc-wifi-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/network/cc-wifi-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcWifiPanel, center_stack);
   gtk_widget_class_bind_template_child (widget_class, CcWifiPanel, header_stack);
@@ -1069,9 +1069,9 @@ cc_wifi_panel_init (CcWifiPanel *self)
   /* Acquire Airplane Mode proxy */
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
-                                       "org.gnome.SettingsDaemon.Rfkill",
-                                       "/org/gnome/SettingsDaemon/Rfkill",
-                                       "org.gnome.SettingsDaemon.Rfkill",
+                                       "io.github.scarecrow-de.SettingsDaemon.Rfkill",
+                                       "/io.github.scarecrow-de.SettingsDaemon/Rfkill",
+                                       "io.github.scarecrow-de.SettingsDaemon.Rfkill",
                                        cc_panel_get_cancellable (CC_PANEL (self)),
                                        rfkill_proxy_acquired_cb,
                                        self);

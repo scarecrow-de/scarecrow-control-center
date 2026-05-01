@@ -170,7 +170,7 @@ cc_alt_chars_key_dialog_class_init (CcAltCharsKeyDialogClass *klass)
 
   object_class->finalize = cc_alt_chars_key_dialog_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/keyboard/cc-alt-chars-key-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/keyboard/cc-alt-chars-key-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcAltCharsKeyDialog, leftalt_radio);
   gtk_widget_class_bind_template_child (widget_class, CcAltCharsKeyDialog, leftsuper_radio);
@@ -187,7 +187,7 @@ cc_alt_chars_key_dialog_init (CcAltCharsKeyDialog *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  self->input_source_settings = g_settings_new ("org.gnome.desktop.input-sources");
+  self->input_source_settings = g_settings_new ("io.github.scarecrow-de.desktop.input-sources");
   g_signal_connect_object (self->input_source_settings,
                            "changed::xkb-options",
                            G_CALLBACK (on_xkb_options_changed_cb),

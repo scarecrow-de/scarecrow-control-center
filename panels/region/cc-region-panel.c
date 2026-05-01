@@ -49,10 +49,10 @@
 
 #include <act/act.h>
 
-#define GNOME_DESKTOP_INPUT_SOURCES_DIR "org.gnome.desktop.input-sources"
+#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow-de.desktop.input-sources"
 #define KEY_INPUT_SOURCES        "sources"
 
-#define GNOME_SYSTEM_LOCALE_DIR "org.gnome.system.locale"
+#define GNOME_SYSTEM_LOCALE_DIR "io.github.scarecrow-de.system.locale"
 #define KEY_REGION "region"
 
 #define DEFAULT_LOCALE "en_US.utf-8"
@@ -1167,7 +1167,7 @@ update_shortcuts (CcRegionPanel *self)
         g_autofree gchar *previous_shortcut = NULL;
         g_autoptr(GSettings) settings = NULL;
 
-        settings = g_settings_new ("org.gnome.desktop.wm.keybindings");
+        settings = g_settings_new ("io.github.scarecrow-de.desktop.wm.keybindings");
 
         previous = g_settings_get_strv (settings, "switch-input-source-backward");
         next = g_settings_get_strv (settings, "switch-input-source");
@@ -1188,7 +1188,7 @@ update_modifiers_shortcut (CcRegionPanel *self)
         const gchar *text;
 
         xkb_info = gnome_xkb_info_new ();
-        settings = g_settings_new ("org.gnome.desktop.input-sources");
+        settings = g_settings_new ("io.github.scarecrow-de.desktop.input-sources");
         options = g_settings_get_strv (settings, "xkb-options");
 
         for (p = options; p && *p; ++p)
@@ -1553,7 +1553,7 @@ cc_region_panel_class_init (CcRegionPanelClass * klass)
         object_class->constructed = cc_region_panel_constructed;
         object_class->finalize = cc_region_panel_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/region/cc-region-panel.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/region/cc-region-panel.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcRegionPanel, add_input_row);
         gtk_widget_class_bind_template_child (widget_class, CcRegionPanel, alt_next_source);
@@ -1596,9 +1596,9 @@ cc_region_panel_init (CcRegionPanel *self)
         g_dbus_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                   G_DBUS_PROXY_FLAGS_NONE,
                                   NULL,
-                                  "org.gnome.SessionManager",
-                                  "/org/gnome/SessionManager",
-                                  "org.gnome.SessionManager",
+                                  "io.github.scarecrow-de.SessionManager",
+                                  "/io.github.scarecrow-de.SessionManager",
+                                  "io.github.scarecrow-de.SessionManager",
                                   cc_panel_get_cancellable (CC_PANEL (self)),
                                   session_proxy_ready,
                                   self);

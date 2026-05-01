@@ -1,8 +1,8 @@
 {
-    "app-id" : "org.gnome.Settings",
-    "runtime" : "org.gnome.Sdk",
+    "app-id" : "io.github.scarecrow-de.Settings",
+    "runtime" : "io.github.scarecrow-de.Sdk",
     "runtime-version" : "master",
-    "sdk" : "org.gnome.Sdk",
+    "sdk" : "io.github.scarecrow-de.Sdk",
     "command" : "gnome-control-center",
     "rename-desktop-file" : "gnome-control-center.desktop",
     "tags" : [
@@ -13,8 +13,8 @@
         "--device=dri",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--filesystem=host",
-        "--own-name=org.gnome.ControlCenter",
-        "--own-name=org.gnome.SessionManager",
+        "--own-name=io.github.scarecrow-de.ControlCenter",
+        "--own-name=io.github.scarecrow-de.SessionManager",
         "--share=ipc",
         "--share=network",
         "--socket=x11",

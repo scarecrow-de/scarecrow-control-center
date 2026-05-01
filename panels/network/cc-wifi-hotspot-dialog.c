@@ -436,7 +436,7 @@ cc_wifi_hotspot_dialog_class_init (CcWifiHotspotDialogClass *klass)
   dialog_class->response = cc_wifi_hotspot_dialog_response;
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/control-center/network/cc-wifi-hotspot-dialog.ui");
+                                               "/io/github/scarecrow-de/control-center/network/cc-wifi-hotspot-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcWifiHotspotDialog, connection_label);
   gtk_widget_class_bind_template_child (widget_class, CcWifiHotspotDialog, name_entry);

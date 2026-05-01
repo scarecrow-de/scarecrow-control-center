@@ -386,9 +386,9 @@ cc_mouse_panel_init (CcMousePanel *self)
   cc_mouse_test_get_type ();
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  self->mouse_settings = g_settings_new ("org.gnome.desktop.peripherals.mouse");
-  self->gsd_mouse_settings = g_settings_new ("org.gnome.settings-daemon.peripherals.mouse");
-  self->touchpad_settings = g_settings_new ("org.gnome.desktop.peripherals.touchpad");
+  self->mouse_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.mouse");
+  self->gsd_mouse_settings = g_settings_new ("io.github.scarecrow-de.settings-daemon.peripherals.mouse");
+  self->touchpad_settings = g_settings_new ("io.github.scarecrow-de.desktop.peripherals.touchpad");
 
   device_manager = gsd_device_manager_get ();
   g_signal_connect_object (device_manager, "device-added",
@@ -418,7 +418,7 @@ cc_mouse_panel_class_init (CcMousePanelClass *klass)
   object_class->dispose = cc_mouse_panel_dispose;
   object_class->constructed = cc_mouse_panel_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/mouse/cc-mouse-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/mouse/cc-mouse-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcMousePanel, edge_scrolling_row);
   gtk_widget_class_bind_template_child (widget_class, CcMousePanel, edge_scrolling_switch);

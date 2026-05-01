@@ -435,7 +435,7 @@ cc_location_panel_class_init (CcLocationPanelClass *klass)
   object_class->finalize = cc_location_panel_finalize;
   object_class->constructed = cc_location_panel_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/location/cc-location-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/location/cc-location-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcLocationPanel, stack);
   gtk_widget_class_bind_template_child (widget_class, CcLocationPanel, location_apps_list_box);
@@ -452,7 +452,7 @@ cc_location_panel_init (CcLocationPanel *self)
                                 cc_list_box_update_header_func,
                                 NULL, NULL);
   self->location_icon_size_group = gtk_size_group_new (GTK_SIZE_GROUP_BOTH);
-  self->location_settings = g_settings_new ("org.gnome.system.location");
+  self->location_settings = g_settings_new ("io.github.scarecrow-de.system.location");
 
   self->location_app_switches = g_hash_table_new_full (g_str_hash,
                                                        g_str_equal,

@@ -635,7 +635,7 @@ cc_display_settings_class_init (CcDisplaySettingsClass *klass)
   gobject_class->get_property = cc_display_settings_get_property;
   gobject_class->set_property = cc_display_settings_set_property;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/display/cc-display-settings.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/display/cc-display-settings.ui");
 
   props[PROP_HAS_ACCELEROMETER] =
     g_param_spec_boolean ("has-accelerometer", "Has Accelerometer",

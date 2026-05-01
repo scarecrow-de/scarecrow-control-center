@@ -64,7 +64,7 @@ cc_output_test_dialog_class_init (CcOutputTestDialogClass *klass)
 
   object_class->dispose = cc_output_test_dialog_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/sound/cc-output-test-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io.github.scarecrow-de.control-center/sound/cc-output-test-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcOutputTestDialog, front_center_speaker_button);
   gtk_widget_class_bind_template_child (widget_class, CcOutputTestDialog, front_left_speaker_button);
@@ -94,7 +94,7 @@ cc_output_test_dialog_init (CcOutputTestDialog *self)
   self->context = gsound_context_new (NULL, NULL);
   gsound_context_set_driver (self->context, "pulse", NULL);
   gsound_context_set_attributes (self->context, NULL,
-                                 GSOUND_ATTR_APPLICATION_ID, "org.gnome.VolumeControl",
+                                 GSOUND_ATTR_APPLICATION_ID, "io.github.scarecrow-de.VolumeControl",
                                  NULL);
   settings = gtk_settings_get_for_screen (gdk_screen_get_default ());
   g_object_get (G_OBJECT (settings),
