@@ -164,8 +164,9 @@ cc_object_storage_add_object (const gchar *key,
    */
   g_assert (CC_IS_OBJECT_STORAGE (_instance));
   g_assert (key != NULL);
-  g_assert (G_IS_OBJECT (object));
-  g_assert (!g_hash_table_contains (_instance->id_to_object, key));
+  //g_assert (G_IS_OBJECT (object));
+  if(!G_IS_OBJECT(object)) return;
+  if(g_hash_table_contains (_instance->id_to_object, key)) return;
 
   g_debug ("Adding object %s (%s → %p) to the storage",
            g_type_name (G_OBJECT_TYPE (object)),
@@ -196,7 +197,7 @@ cc_object_storage_get_object (const gchar *key)
    */
   g_assert (CC_IS_OBJECT_STORAGE (_instance));
   g_assert (key != NULL);
-  g_assert (g_hash_table_contains (_instance->id_to_object, key));
+  if (g_hash_table_contains (_instance->id_to_object, key)) return NULL;
 
   return g_object_ref (g_hash_table_lookup (_instance->id_to_object, key));
 }
