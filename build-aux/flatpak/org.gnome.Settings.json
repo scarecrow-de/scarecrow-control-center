@@ -442,7 +442,7 @@
             ]
         },
         {
-            "name" : "scarecrow-settings-daemon",
+            "name" : "gnome-settings-daemon",
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dsystemd=false"
@@ -450,7 +450,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-settings-daemon.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git"
                 }
             ],
             "modules": [

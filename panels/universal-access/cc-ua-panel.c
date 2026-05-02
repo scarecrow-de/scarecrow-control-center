@@ -92,7 +92,7 @@
 #define KEY_DWELL_TIME               "dwell-time"
 #define KEY_DWELL_THRESHOLD          "dwell-threshold"
 
-/* scarecrow-settings-daemon settings */
+/* gnome-settings-daemon settings */
 #define GSD_MOUSE_SETTINGS           "io.github.scarecrow_de.settings-daemon.peripherals.mouse"
 #define KEY_DOUBLE_CLICK_DELAY       "double-click"
 
