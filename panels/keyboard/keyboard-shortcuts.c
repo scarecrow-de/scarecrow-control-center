@@ -27,7 +27,7 @@
 #include "keyboard-shortcuts.h"
 #include "cc-keyboard-option.h"
 
-#define CUSTOM_KEYS_BASENAME  "/io/github/scarecrow-de/settings-daemon/plugins/media-keys/custom-keybindings"
+#define CUSTOM_KEYS_BASENAME  "/io/github/scarecrow_de/settings-daemon/plugins/media-keys/custom-keybindings"
 
 static char *
 replace_pictures_folder (const char *description)

@@ -57,7 +57,7 @@
                         <property name="can_focus">False</property>
                         <property name="margin_start">25</property>
                         <property name="margin_end">25</property>
-                        <property name="resource">/io/github/scarecrow-de/control-center/mouse/scroll-test.svg</property>
+                        <property name="resource">/io/github/scarecrow_de/control-center/mouse/scroll-test.svg</property>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>

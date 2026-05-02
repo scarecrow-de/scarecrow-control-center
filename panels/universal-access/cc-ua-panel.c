@@ -38,11 +38,11 @@
 #define HIGH_CONTRAST_THEME     "HighContrast"
 
 /* shell settings */
-#define A11Y_SETTINGS               "io.github.scarecrow-de.desktop.a11y"
+#define A11Y_SETTINGS               "io.github.scarecrow_de.desktop.a11y"
 #define KEY_ALWAYS_SHOW_STATUS       "always-show-universal-access-status"
 
 /* interface settings */
-#define INTERFACE_SETTINGS           "io.github.scarecrow-de.desktop.interface"
+#define INTERFACE_SETTINGS           "io.github.scarecrow_de.desktop.interface"
 #define KEY_TEXT_SCALING_FACTOR      "text-scaling-factor"
 #define KEY_GTK_THEME                "gtk-theme"
 #define KEY_ICON_THEME               "icon-theme"
@@ -52,19 +52,19 @@
 #define KEY_LOCATE_POINTER           "locate-pointer"
 
 /* application settings */
-#define APPLICATION_SETTINGS         "io.github.scarecrow-de.desktop.a11y.applications"
+#define APPLICATION_SETTINGS         "io.github.scarecrow_de.desktop.a11y.applications"
 #define KEY_SCREEN_KEYBOARD_ENABLED  "screen-keyboard-enabled"
 #define KEY_SCREEN_MAGNIFIER_ENABLED "screen-magnifier-enabled"
 #define KEY_SCREEN_READER_ENABLED    "screen-reader-enabled"
 
 /* wm settings */
-#define WM_SETTINGS                  "io.github.scarecrow-de.desktop.wm.preferences"
+#define WM_SETTINGS                  "io.github.scarecrow_de.desktop.wm.preferences"
 #define KEY_VISUAL_BELL_ENABLED      "visual-bell"
 #define KEY_VISUAL_BELL_TYPE         "visual-bell-type"
 #define KEY_WM_THEME                 "theme"
 
 /* keyboard settings */
-#define KEYBOARD_SETTINGS            "io.github.scarecrow-de.desktop.a11y.keyboard"
+#define KEYBOARD_SETTINGS            "io.github.scarecrow_de.desktop.a11y.keyboard"
 #define KEY_KEYBOARD_TOGGLE          "enable"
 #define KEY_STICKYKEYS_ENABLED       "stickykeys-enable"
 #define KEY_STICKYKEYS_TWO_KEY_OFF   "stickykeys-two-key-off"
@@ -81,11 +81,11 @@
 #define KEY_TOGGLEKEYS_ENABLED       "togglekeys-enable"
 
 /* keyboard desktop settings */
-#define KEYBOARD_DESKTOP_SETTINGS    "io.github.scarecrow-de.desktop.peripherals.keyboard"
+#define KEYBOARD_DESKTOP_SETTINGS    "io.github.scarecrow_de.desktop.peripherals.keyboard"
 #define KEY_REPEAT_KEYS              "repeat"
 
 /* mouse settings */
-#define MOUSE_SETTINGS               "io.github.scarecrow-de.desktop.a11y.mouse"
+#define MOUSE_SETTINGS               "io.github.scarecrow_de.desktop.a11y.mouse"
 #define KEY_SECONDARY_CLICK_ENABLED  "secondary-click-enabled"
 #define KEY_SECONDARY_CLICK_TIME     "secondary-click-time"
 #define KEY_DWELL_CLICK_ENABLED      "dwell-click-enabled"
@@ -93,7 +93,7 @@
 #define KEY_DWELL_THRESHOLD          "dwell-threshold"
 
 /* scarecrow-settings-daemon settings */
-#define GSD_MOUSE_SETTINGS           "io.github.scarecrow-de.settings-daemon.peripherals.mouse"
+#define GSD_MOUSE_SETTINGS           "io.github.scarecrow_de.settings-daemon.peripherals.mouse"
 #define KEY_DOUBLE_CLICK_DELAY       "double-click"
 
 #define SCROLL_HEIGHT 490
@@ -241,7 +241,7 @@ cc_ua_panel_class_init (CcUaPanelClass *klass)
 
   object_class->dispose = cc_ua_panel_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/universal-access/cc-ua-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/universal-access/cc-ua-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcUaPanel, cursor_blinking_dialog);
   gtk_widget_class_bind_template_child (widget_class, CcUaPanel, cursor_blinking_scale);
@@ -368,7 +368,7 @@ cursor_size_setup (CcUaPanel *self)
       GtkWidget *image, *button;
       g_autofree gchar *cursor_image_name = NULL;
 
-      cursor_image_name = g_strdup_printf ("/io/github/scarecrow-de/control-center/universal-access/left_ptr_%dpx.png", cursor_sizes[i]);
+      cursor_image_name = g_strdup_printf ("/io/github/scarecrow_de/control-center/universal-access/left_ptr_%dpx.png", cursor_sizes[i]);
       image = gtk_image_new_from_resource (cursor_image_name);
       gtk_widget_show (image);
 

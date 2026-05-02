@@ -31,9 +31,9 @@
 #include "cc-notifications-resources.h"
 #include "cc-app-notifications-dialog.h"
 
-#define MASTER_SCHEMA "io.github.scarecrow-de.desktop.notifications"
+#define MASTER_SCHEMA "io.github.scarecrow_de.desktop.notifications"
 #define APP_SCHEMA MASTER_SCHEMA ".application"
-#define APP_PREFIX "/io/github/scarecrow-de/desktop/notifications/application/"
+#define APP_PREFIX "/io/github/scarecrow_de/desktop/notifications/application/"
 
 struct _CcNotificationsPanel {
   CcPanel            parent_instance;
@@ -235,7 +235,7 @@ cc_notifications_panel_class_init (CcNotificationsPanelClass *klass)
   object_class->dispose = cc_notifications_panel_dispose;
   object_class->finalize = cc_notifications_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/notifications/cc-notifications-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/notifications/cc-notifications-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcNotificationsPanel, app_listbox);
   gtk_widget_class_bind_template_child (widget_class, CcNotificationsPanel, lock_screen_row);

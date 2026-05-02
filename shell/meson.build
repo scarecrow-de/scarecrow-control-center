@@ -4,7 +4,7 @@ subdir('completions')
 service_conf = configuration_data()
 service_conf.set('bindir', control_center_bindir)
 
-service = 'io.github.scarecrow-de.ControlCenter.service'
+service = 'io.github.scarecrow_de.ControlCenter.service'
 
 configure_file(
           input : service + '.in',
@@ -170,6 +170,6 @@ libtestshell_deps = common_deps + [ libwidgets_dep, libtestshell_dep ]
 
 
 install_data (
-  'io.github.scarecrow-de.ControlCenter.gschema.xml',
+  'io.github.scarecrow_de.ControlCenter.gschema.xml',
   install_dir : control_center_schemadir
 )

@@ -593,18 +593,18 @@ gsd_device_get_settings (GsdDevice *device)
 		gsd_device_get_device_ids (device, &vendor, &product);
 
 		if (type & GSD_DEVICE_TYPE_TOUCHSCREEN) {
-			schema = "io.github.scarecrow-de.desktop.peripherals.touchscreen";
-			path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/touchscreens/%s:%s/",
+			schema = "io.github.scarecrow_de.desktop.peripherals.touchscreen";
+			path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/touchscreens/%s:%s/",
 						vendor, product);
 		} else if (type & GSD_DEVICE_TYPE_TABLET) {
-			schema = "io.github.scarecrow-de.desktop.peripherals.tablet";
-			path = g_strdup_printf ("/io/github/scarecrow-de/desktop/peripherals/tablets/%s:%s/",
+			schema = "io.github.scarecrow_de.desktop.peripherals.tablet";
+			path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/tablets/%s:%s/",
 						vendor, product);
 		}
 	} else if (type & (GSD_DEVICE_TYPE_MOUSE | GSD_DEVICE_TYPE_TOUCHPAD)) {
-		schema = "io.github.scarecrow-de.desktop.peripherals.mouse";
+		schema = "io.github.scarecrow_de.desktop.peripherals.mouse";
 	} else if (type & GSD_DEVICE_TYPE_KEYBOARD) {
-		schema = "io.github.scarecrow-de.desktop.peripherals.keyboard";
+		schema = "io.github.scarecrow_de.desktop.peripherals.keyboard";
 	} else {
 		return NULL;
 	}

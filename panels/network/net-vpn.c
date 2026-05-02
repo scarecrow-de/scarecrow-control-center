@@ -192,7 +192,7 @@ net_vpn_class_init (NetVpnClass *klass)
 
         object_class->finalize = net_vpn_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/network/network-vpn.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/network-vpn.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetVpn, device_label);
         gtk_widget_class_bind_template_child (widget_class, NetVpn, device_off_switch);

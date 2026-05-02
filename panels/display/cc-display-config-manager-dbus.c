@@ -84,9 +84,9 @@ static void
 get_current_state (CcDisplayConfigManagerDBus *self)
 {
   g_dbus_connection_call (self->connection,
-                          "io.github.scarecrow-de.Mutter.DisplayConfig",
-                          "/io/github/scarecrow-de/Mutter/DisplayConfig",
-                          "io.github.scarecrow-de.Mutter.DisplayConfig",
+                          "io.github.scarecrow_de.Mutter.DisplayConfig",
+                          "/io/github/scarecrow_de/Mutter/DisplayConfig",
+                          "io.github.scarecrow_de.Mutter.DisplayConfig",
                           "GetCurrentState",
                           NULL,
                           NULL,
@@ -134,10 +134,10 @@ bus_gotten (GObject      *object,
   self->connection = connection;
   self->monitors_changed_id =
     g_dbus_connection_signal_subscribe (self->connection,
-                                        "io.github.scarecrow-de.Mutter.DisplayConfig",
-                                        "io.github.scarecrow-de.Mutter.DisplayConfig",
+                                        "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                        "io.github.scarecrow_de.Mutter.DisplayConfig",
                                         "MonitorsChanged",
-                                        "/io/github/scarecrow-de/Mutter/DisplayConfig",
+                                        "/io/github/scarecrow_de/Mutter/DisplayConfig",
                                         NULL,
                                         G_DBUS_SIGNAL_FLAGS_NONE,
                                         monitors_changed,

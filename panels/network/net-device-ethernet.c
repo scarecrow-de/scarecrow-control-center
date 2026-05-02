@@ -492,7 +492,7 @@ net_device_ethernet_class_init (NetDeviceEthernetClass *klass)
 
         object_class->finalize = device_ethernet_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/network/network-ethernet.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/network-ethernet.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetDeviceEthernet, connection_list);
         gtk_widget_class_bind_template_child (widget_class, NetDeviceEthernet, details_button);

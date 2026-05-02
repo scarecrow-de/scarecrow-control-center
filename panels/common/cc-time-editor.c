@@ -42,7 +42,7 @@
 #define TIMEOUT_REPEAT    50
 
 #define FILECHOOSER_SCHEMA "org.gtk.Settings.FileChooser"
-#define CLOCK_SCHEMA       "io.github.scarecrow-de.desktop.interface"
+#define CLOCK_SCHEMA       "io.github.scarecrow_de.desktop.interface"
 #define CLOCK_FORMAT_KEY   "clock-format"
 #define SECONDS_PER_MINUTE  (60)
 #define SECONDS_PER_HOUR    (60 * 60)
@@ -281,7 +281,7 @@ cc_time_editor_class_init (CcTimeEditorClass *klass)
                   G_TYPE_NONE, 0);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/io/github/scarecrow-de/control-center/"
+                                               "/io/github/scarecrow_de/control-center/"
                                                "common/cc-time-editor.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcTimeEditor, am_pm_button);

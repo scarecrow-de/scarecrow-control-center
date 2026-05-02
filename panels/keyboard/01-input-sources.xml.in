@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <KeyListEntries group="system"
-                schema="io.github.scarecrow-de.desktop.wm.keybindings"
+                schema="io.github.scarecrow_de.desktop.wm.keybindings"
                 name="Typing">
 
   <KeyListEntry name="switch-input-source"

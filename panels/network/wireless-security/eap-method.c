@@ -521,8 +521,8 @@ _get_ca_ignore_settings (NMConnection *connection)
 	uuid = nm_connection_get_uuid (connection);
 	g_return_val_if_fail (uuid && *uuid, NULL);
 
-	path = g_strdup_printf ("/io/github/scarecrow-de/nm-applet/eap/%s/", uuid);
-	settings = g_settings_new_with_path ("io.github.scarecrow-de.nm-applet.eap", path);
+	path = g_strdup_printf ("/io/github/scarecrow_de/nm-applet/eap/%s/", uuid);
+	settings = g_settings_new_with_path ("io.github.scarecrow_de.nm-applet.eap", path);
 
 	return settings;
 }

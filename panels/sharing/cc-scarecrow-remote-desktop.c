@@ -25,7 +25,7 @@ const SecretSchema *
 cc_grd_vnc_password_get_schema (void)
 {
   static const SecretSchema grd_vnc_password_schema = {
-    .name = "io.github.scarecrow-de.RemoteDesktop.VncPassword",
+    .name = "io.github.scarecrow_de.RemoteDesktop.VncPassword",
     .flags = SECRET_SCHEMA_NONE,
     .attributes = {
       { "password", SECRET_SCHEMA_ATTRIBUTE_STRING },

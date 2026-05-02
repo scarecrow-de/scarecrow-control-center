@@ -258,7 +258,7 @@ cc_list_row_class_init (CcListRowClass *klass)
   g_object_class_install_properties (object_class, N_PROPS, properties);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/io/github/scarecrow-de/control-center/"
+                                               "/io/github/scarecrow_de/control-center/"
                                                "common/cc-list-row.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcListRow, box);

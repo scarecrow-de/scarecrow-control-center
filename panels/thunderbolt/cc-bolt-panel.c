@@ -929,7 +929,7 @@ cc_bolt_panel_class_init (CcBoltPanelClass *klass)
   object_class->dispose = cc_bolt_panel_dispose;
   object_class->finalize = cc_bolt_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/thunderbolt/cc-bolt-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/thunderbolt/cc-bolt-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcBoltPanel, authmode_mode);
   gtk_widget_class_bind_template_child (widget_class, CcBoltPanel, authmode_spinner);

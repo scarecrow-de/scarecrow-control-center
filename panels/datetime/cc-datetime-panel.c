@@ -52,17 +52,17 @@ enum {
   CITY_NUM_COLS
 };
 
-#define DATETIME_PERMISSION "io.github.scarecrow-de.controlcenter.datetime.configure"
+#define DATETIME_PERMISSION "io.github.scarecrow_de.controlcenter.datetime.configure"
 #define DATETIME_TZ_PERMISSION "org.freedesktop.timedate1.set-timezone"
-#define LOCATION_SETTINGS "io.github.scarecrow-de.system.location"
+#define LOCATION_SETTINGS "io.github.scarecrow_de.system.location"
 #define LOCATION_ENABLED "enabled"
 
-#define CLOCK_SCHEMA "io.github.scarecrow-de.desktop.interface"
+#define CLOCK_SCHEMA "io.github.scarecrow_de.desktop.interface"
 #define CLOCK_FORMAT_KEY "clock-format"
 
 #define FILECHOOSER_SCHEMA "org.gtk.Settings.FileChooser"
 
-#define DATETIME_SCHEMA "io.github.scarecrow-de.desktop.datetime"
+#define DATETIME_SCHEMA "io.github.scarecrow_de.desktop.datetime"
 #define AUTO_TIMEZONE_KEY "automatic-timezone"
 
 struct _CcDateTimePanel
@@ -923,7 +923,7 @@ cc_date_time_panel_class_init (CcDateTimePanelClass *klass)
 
   panel_class->get_help_uri = cc_date_time_panel_get_help_uri;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/datetime/cc-datetime-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/datetime/cc-datetime-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcDateTimePanel, aspectmap);
   gtk_widget_class_bind_template_child (widget_class, CcDateTimePanel, auto_datetime_row);
@@ -1000,7 +1000,7 @@ cc_date_time_panel_init (CcDateTimePanel *self)
   }
 
   self->builder = gtk_builder_new ();
-  tmp = g_strdup_printf ("/io/github/scarecrow-de/control-center/datetime/%s.ui", date_grid_name);
+  tmp = g_strdup_printf ("/io/github/scarecrow_de/control-center/datetime/%s.ui", date_grid_name);
   gtk_builder_add_from_resource (self->builder, tmp, NULL);
   self->date_grid = GTK_WIDGET (gtk_builder_get_object (self->builder, "date_grid"));
   self->day_spinbutton = GTK_WIDGET (gtk_builder_get_object (self->builder, "day_spinbutton"));
