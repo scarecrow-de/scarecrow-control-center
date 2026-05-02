@@ -68,7 +68,7 @@ struct _CcNightLightPage {
 
 G_DEFINE_TYPE (CcNightLightPage, cc_night_light_page, GTK_TYPE_BIN);
 
-#define CLOCK_SCHEMA     "io.github.scarecrow_de.desktop.interface"
+#define CLOCK_SCHEMA     "org.gnome.desktop.interface"
 #define DISPLAY_SCHEMA   "io.github.scarecrow_de.settings-daemon.plugins.color"
 #define CLOCK_FORMAT_KEY "clock-format"
 #define NIGHT_LIGHT_PREVIEW_TIMEOUT_SECONDS 5

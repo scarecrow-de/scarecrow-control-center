@@ -272,7 +272,7 @@ cc_usage_panel_init (CcUsagePanel *self)
                                 cc_list_box_update_header_func,
                                 NULL, NULL);
 
-  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
+  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
 
   g_settings_bind (self->privacy_settings,
                    "remember-recent-files",

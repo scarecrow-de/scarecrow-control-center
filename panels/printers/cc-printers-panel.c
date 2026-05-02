@@ -1316,7 +1316,7 @@ cc_printers_panel_init (CcPrintersPanel *self)
                               NULL,
                               NULL);
 
-  self->lockdown_settings = g_settings_new ("io.github.scarecrow_de.desktop.lockdown");
+  self->lockdown_settings = g_settings_new ("org.gnome.desktop.lockdown");
   if (self->lockdown_settings)
     g_signal_connect_object (self->lockdown_settings,
                              "changed",

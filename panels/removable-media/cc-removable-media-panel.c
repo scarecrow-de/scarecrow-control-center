@@ -37,7 +37,7 @@
 #define CUSTOM_ITEM_DO_NOTHING "cc-item-do-nothing"
 #define CUSTOM_ITEM_OPEN_FOLDER "cc-item-open-folder"
 
-#define MEDIA_HANDLING_SCHEMA "io.github.scarecrow_de.desktop.media-handling"
+#define MEDIA_HANDLING_SCHEMA "org.gnome.desktop.media-handling"
 
 struct _CcRemovableMediaPanel
 {

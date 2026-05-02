@@ -526,8 +526,8 @@ zoom_options_init (ZoomOptions *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  self->settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.magnifier");
-  self->application_settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.applications");
+  self->settings = g_settings_new ("org.gnome.desktop.a11y.magnifier");
+  self->application_settings = g_settings_new ("org.gnome.desktop.a11y.applications");
 }
 
 ZoomOptions *

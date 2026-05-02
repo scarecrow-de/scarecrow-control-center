@@ -57,12 +57,12 @@ enum {
 #define LOCATION_SETTINGS "io.github.scarecrow_de.system.location"
 #define LOCATION_ENABLED "enabled"
 
-#define CLOCK_SCHEMA "io.github.scarecrow_de.desktop.interface"
+#define CLOCK_SCHEMA "org.gnome.desktop.interface"
 #define CLOCK_FORMAT_KEY "clock-format"
 
 #define FILECHOOSER_SCHEMA "org.gtk.Settings.FileChooser"
 
-#define DATETIME_SCHEMA "io.github.scarecrow_de.desktop.datetime"
+#define DATETIME_SCHEMA "org.gnome.desktop.datetime"
 #define AUTO_TIMEZONE_KEY "automatic-timezone"
 
 struct _CcDateTimePanel

@@ -2372,8 +2372,8 @@ cc_power_panel_init (CcPowerPanel *self)
   self->up_client = up_client_new ();
 
   self->gsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.power");
-  self->session_settings = g_settings_new ("io.github.scarecrow_de.desktop.session");
-  self->interface_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
+  self->session_settings = g_settings_new ("org.gnome.desktop.session");
+  self->interface_settings = g_settings_new ("org.gnome.desktop.interface");
 
   self->battery_row_sizegroup = gtk_size_group_new (GTK_SIZE_GROUP_VERTICAL);
   self->row_sizegroup = gtk_size_group_new (GTK_SIZE_GROUP_VERTICAL);

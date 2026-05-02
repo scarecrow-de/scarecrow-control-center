@@ -47,9 +47,9 @@
 #include "search.h"
 #include "utils.h"
 
-#define MASTER_SCHEMA "io.github.scarecrow_de.desktop.notifications"
+#define MASTER_SCHEMA "org.gnome.desktop.notifications"
 #define APP_SCHEMA MASTER_SCHEMA ".application"
-#define APP_PREFIX "/io/github/scarecrow_de/desktop/notifications/application/"
+#define APP_PREFIX "/org/gnome/desktop/notifications/application/"
 
 #define PORTAL_SNAP_PREFIX "snap."
 
@@ -2089,8 +2089,8 @@ cc_applications_panel_init (CcApplicationsPanel *self)
                                 self, NULL);
 
   self->location_settings = g_settings_new ("io.github.scarecrow_de.system.location");
-  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
-  self->search_settings = g_settings_new ("io.github.scarecrow_de.desktop.search-providers");
+  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
+  self->search_settings = g_settings_new ("org.gnome.desktop.search-providers");
 #ifdef HAVE_MALCONTENT
    /* FIXME: should become asynchronous */
   system_bus = g_bus_get_sync (G_BUS_TYPE_SYSTEM, self->cancellable, &error);

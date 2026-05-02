@@ -37,8 +37,8 @@
 
 #include "bg-pictures-source.h"
 
-#define WP_PATH_ID "io.github.scarecrow_de.desktop.background"
-#define WP_LOCK_PATH_ID "io.github.scarecrow_de.desktop.screensaver"
+#define WP_PATH_ID "org.gnome.desktop.background"
+#define WP_LOCK_PATH_ID "org.gnome.desktop.screensaver"
 #define WP_URI_KEY "picture-uri"
 #define WP_OPTIONS_KEY "picture-options"
 #define WP_SHADING_KEY "color-shading-type"

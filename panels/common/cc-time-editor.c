@@ -42,7 +42,7 @@
 #define TIMEOUT_REPEAT    50
 
 #define FILECHOOSER_SCHEMA "org.gtk.Settings.FileChooser"
-#define CLOCK_SCHEMA       "io.github.scarecrow_de.desktop.interface"
+#define CLOCK_SCHEMA       "org.gnome.desktop.interface"
 #define CLOCK_FORMAT_KEY   "clock-format"
 #define SECONDS_PER_MINUTE  (60)
 #define SECONDS_PER_HOUR    (60 * 60)

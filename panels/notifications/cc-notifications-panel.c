@@ -31,9 +31,9 @@
 #include "cc-notifications-resources.h"
 #include "cc-app-notifications-dialog.h"
 
-#define MASTER_SCHEMA "io.github.scarecrow_de.desktop.notifications"
+#define MASTER_SCHEMA "org.gnome.desktop.notifications"
 #define APP_SCHEMA MASTER_SCHEMA ".application"
-#define APP_PREFIX "/io/github/scarecrow_de/desktop/notifications/application/"
+#define APP_PREFIX "/org/gnome/desktop/notifications/application/"
 
 struct _CcNotificationsPanel {
   CcPanel            parent_instance;

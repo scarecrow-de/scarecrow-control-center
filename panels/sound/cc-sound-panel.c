@@ -81,7 +81,7 @@ enum
   PROP_PARAMETERS
 };
 
-#define KEY_SOUNDS_SCHEMA "io.github.scarecrow_de.desktop.sound"
+#define KEY_SOUNDS_SCHEMA "org.gnome.desktop.sound"
 
 static void
 allow_amplified_changed_cb (CcSoundPanel *self)

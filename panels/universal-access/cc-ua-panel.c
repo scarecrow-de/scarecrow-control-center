@@ -38,11 +38,11 @@
 #define HIGH_CONTRAST_THEME     "HighContrast"
 
 /* shell settings */
-#define A11Y_SETTINGS               "io.github.scarecrow_de.desktop.a11y"
+#define A11Y_SETTINGS               "org.gnome.desktop.a11y"
 #define KEY_ALWAYS_SHOW_STATUS       "always-show-universal-access-status"
 
 /* interface settings */
-#define INTERFACE_SETTINGS           "io.github.scarecrow_de.desktop.interface"
+#define INTERFACE_SETTINGS           "org.gnome.desktop.interface"
 #define KEY_TEXT_SCALING_FACTOR      "text-scaling-factor"
 #define KEY_GTK_THEME                "gtk-theme"
 #define KEY_ICON_THEME               "icon-theme"
@@ -52,19 +52,19 @@
 #define KEY_LOCATE_POINTER           "locate-pointer"
 
 /* application settings */
-#define APPLICATION_SETTINGS         "io.github.scarecrow_de.desktop.a11y.applications"
+#define APPLICATION_SETTINGS         "org.gnome.desktop.a11y.applications"
 #define KEY_SCREEN_KEYBOARD_ENABLED  "screen-keyboard-enabled"
 #define KEY_SCREEN_MAGNIFIER_ENABLED "screen-magnifier-enabled"
 #define KEY_SCREEN_READER_ENABLED    "screen-reader-enabled"
 
 /* wm settings */
-#define WM_SETTINGS                  "io.github.scarecrow_de.desktop.wm.preferences"
+#define WM_SETTINGS                  "org.gnome.desktop.wm.preferences"
 #define KEY_VISUAL_BELL_ENABLED      "visual-bell"
 #define KEY_VISUAL_BELL_TYPE         "visual-bell-type"
 #define KEY_WM_THEME                 "theme"
 
 /* keyboard settings */
-#define KEYBOARD_SETTINGS            "io.github.scarecrow_de.desktop.a11y.keyboard"
+#define KEYBOARD_SETTINGS            "org.gnome.desktop.a11y.keyboard"
 #define KEY_KEYBOARD_TOGGLE          "enable"
 #define KEY_STICKYKEYS_ENABLED       "stickykeys-enable"
 #define KEY_STICKYKEYS_TWO_KEY_OFF   "stickykeys-two-key-off"
@@ -81,11 +81,11 @@
 #define KEY_TOGGLEKEYS_ENABLED       "togglekeys-enable"
 
 /* keyboard desktop settings */
-#define KEYBOARD_DESKTOP_SETTINGS    "io.github.scarecrow_de.desktop.peripherals.keyboard"
+#define KEYBOARD_DESKTOP_SETTINGS    "org.gnome.desktop.peripherals.keyboard"
 #define KEY_REPEAT_KEYS              "repeat"
 
 /* mouse settings */
-#define MOUSE_SETTINGS               "io.github.scarecrow_de.desktop.a11y.mouse"
+#define MOUSE_SETTINGS               "org.gnome.desktop.a11y.mouse"
 #define KEY_SECONDARY_CLICK_ENABLED  "secondary-click-enabled"
 #define KEY_SECONDARY_CLICK_TIME     "secondary-click-time"
 #define KEY_DWELL_CLICK_ENABLED      "dwell-click-enabled"

@@ -42,9 +42,9 @@ static void cc_sharing_panel_setup_label_with_hostname (CcSharingPanel *self, Gt
 static GtkWidget *cc_sharing_panel_new_media_sharing_row (const char     *uri_or_path,
                                                           CcSharingPanel *self);
 
-#define FILE_SHARING_SCHEMA_ID "io.github.scarecrow_de.desktop.file-sharing"
-#define GNOME_REMOTE_DESKTOP_SCHEMA_ID "io.github.scarecrow_de.desktop.remote-desktop"
-#define GNOME_REMOTE_DESKTOP_VNC_SCHEMA_ID "io.github.scarecrow_de.desktop.remote-desktop.vnc"
+#define FILE_SHARING_SCHEMA_ID "org.gnome.desktop.file-sharing"
+#define GNOME_REMOTE_DESKTOP_SCHEMA_ID "org.gnome.desktop.remote-desktop"
+#define GNOME_REMOTE_DESKTOP_VNC_SCHEMA_ID "org.gnome.desktop.remote-desktop.vnc"
 
 typedef enum
 {

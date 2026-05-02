@@ -24,7 +24,7 @@
 #include "cc-sound-button.h"
 #include "cc-sound-resources.h"
 
-#define KEY_SOUNDS_SCHEMA "io.github.scarecrow_de.desktop.sound"
+#define KEY_SOUNDS_SCHEMA "org.gnome.desktop.sound"
 
 struct _CcAlertChooser
 {

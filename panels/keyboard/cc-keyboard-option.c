@@ -27,7 +27,7 @@
 
 #include "cc-keyboard-option.h"
 
-#define INPUT_SOURCES_SCHEMA "io.github.scarecrow_de.desktop.input-sources"
+#define INPUT_SOURCES_SCHEMA "org.gnome.desktop.input-sources"
 #define XKB_OPTIONS_KEY "xkb-options"
 
 #define XKB_OPTION_GROUP_LVL3 "lv3"

@@ -787,7 +787,7 @@ cc_keyboard_panel_init (CcKeyboardPanel *self)
   g_object_unref (provider);
 
   /* Alternate characters key */
-  self->input_source_settings = g_settings_new ("io.github.scarecrow_de.desktop.input-sources");
+  self->input_source_settings = g_settings_new ("org.gnome.desktop.input-sources");
   g_settings_bind_with_mapping (self->input_source_settings,
                                 "xkb-options",
                                 self->value_alternate_chars,

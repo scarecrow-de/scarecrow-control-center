@@ -439,7 +439,7 @@ cc_camera_panel_init (CcCameraPanel *self)
                                 NULL);
   self->camera_icon_size_group = gtk_size_group_new (GTK_SIZE_GROUP_BOTH);
 
-  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
+  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
 
 
   self->camera_app_switches = g_hash_table_new_full (g_str_hash,

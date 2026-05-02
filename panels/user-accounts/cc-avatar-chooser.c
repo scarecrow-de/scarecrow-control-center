@@ -410,7 +410,7 @@ cheese_camera_device_monitor_new_cb (GObject *source,
 static GStrv
 get_settings_facesdirs (void)
 {
-        g_autoptr(GSettings) settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
+        g_autoptr(GSettings) settings = g_settings_new ("org.gnome.desktop.interface");
         g_auto(GStrv) settings_dirs = g_settings_get_strv (settings, "avatar-directories");
         GPtrArray *facesdirs = g_ptr_array_new ();
 

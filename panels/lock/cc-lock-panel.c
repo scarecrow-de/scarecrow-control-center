@@ -290,10 +290,10 @@ cc_lock_panel_init (CcLockPanel *self)
 
   self->cancellable = g_cancellable_new ();
 
-  self->lock_settings = g_settings_new ("io.github.scarecrow_de.desktop.screensaver");
-  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
-  self->notification_settings = g_settings_new ("io.github.scarecrow_de.desktop.notifications");
-  self->session_settings = g_settings_new ("io.github.scarecrow_de.desktop.session");
+  self->lock_settings = g_settings_new ("org.gnome.desktop.screensaver");
+  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
+  self->notification_settings = g_settings_new ("org.gnome.desktop.notifications");
+  self->session_settings = g_settings_new ("org.gnome.desktop.session");
 
   g_settings_bind (self->lock_settings,
                    "lock-enabled",

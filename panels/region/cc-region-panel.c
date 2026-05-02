@@ -49,7 +49,7 @@
 
 #include <act/act.h>
 
-#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
+#define GNOME_DESKTOP_INPUT_SOURCES_DIR "org.gnome.desktop.input-sources"
 #define KEY_INPUT_SOURCES        "sources"
 
 #define GNOME_SYSTEM_LOCALE_DIR "io.github.scarecrow_de.system.locale"
@@ -1167,7 +1167,7 @@ update_shortcuts (CcRegionPanel *self)
         g_autofree gchar *previous_shortcut = NULL;
         g_autoptr(GSettings) settings = NULL;
 
-        settings = g_settings_new ("io.github.scarecrow_de.desktop.wm.keybindings");
+        settings = g_settings_new ("org.gnome.desktop.wm.keybindings");
 
         previous = g_settings_get_strv (settings, "switch-input-source-backward");
         next = g_settings_get_strv (settings, "switch-input-source");
@@ -1188,7 +1188,7 @@ update_modifiers_shortcut (CcRegionPanel *self)
         const gchar *text;
 
         xkb_info = gnome_xkb_info_new ();
-        settings = g_settings_new ("io.github.scarecrow_de.desktop.input-sources");
+        settings = g_settings_new ("org.gnome.desktop.input-sources");
         options = g_settings_get_strv (settings, "xkb-options");
 
         for (p = options; p && *p; ++p)
