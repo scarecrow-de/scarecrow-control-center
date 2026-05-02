@@ -47,9 +47,9 @@
 #include "search.h"
 #include "utils.h"
 
-#define MASTER_SCHEMA "org.gnome.desktop.notifications"
+#define MASTER_SCHEMA "io.github.scarecrow-de.desktop.notifications"
 #define APP_SCHEMA MASTER_SCHEMA ".application"
-#define APP_PREFIX "/org/gnome/desktop/notifications/application/"
+#define APP_PREFIX "/io/github/scarecrow-de/desktop/notifications/application/"
 
 #define PORTAL_SNAP_PREFIX "snap."
 
@@ -1959,7 +1959,7 @@ cc_applications_panel_class_init (CcApplicationsPanelClass *klass)
 
   g_object_class_override_property (object_class, PROP_PARAMETERS, "parameters");
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/applications/cc-applications-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/applications/cc-applications-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcApplicationsPanel, app);
   gtk_widget_class_bind_template_child (widget_class, CcApplicationsPanel, builtin);
@@ -2045,7 +2045,7 @@ cc_applications_panel_init (CcApplicationsPanel *self)
 
   provider = GTK_STYLE_PROVIDER (gtk_css_provider_new ());
   gtk_css_provider_load_from_resource (GTK_CSS_PROVIDER (provider),
-                                       "/org/gnome/control-center/applications/cc-applications-panel.css");
+                                       "/io/github/scarecrow-de/control-center/applications/cc-applications-panel.css");
 
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              provider,
@@ -2088,9 +2088,9 @@ cc_applications_panel_init (CcApplicationsPanel *self)
                                 filter_sidebar_rows,
                                 self, NULL);
 
-  self->location_settings = g_settings_new ("org.gnome.system.location");
-  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
-  self->search_settings = g_settings_new ("org.gnome.desktop.search-providers");
+  self->location_settings = g_settings_new ("io.github.scarecrow-de.system.location");
+  self->privacy_settings = g_settings_new ("io.github.scarecrow-de.desktop.privacy");
+  self->search_settings = g_settings_new ("io.github.scarecrow-de.desktop.search-providers");
 #ifdef HAVE_MALCONTENT
    /* FIXME: should become asynchronous */
   system_bus = g_bus_get_sync (G_BUS_TYPE_SYSTEM, self->cancellable, &error);

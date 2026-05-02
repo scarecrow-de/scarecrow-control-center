@@ -420,7 +420,7 @@ cc_camera_panel_class_init (CcCameraPanelClass *klass)
   object_class->finalize = cc_camera_panel_finalize;
   object_class->constructed = cc_camera_panel_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/camera/cc-camera-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow-de/control-center/camera/cc-camera-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcCameraPanel, stack);
   gtk_widget_class_bind_template_child (widget_class, CcCameraPanel, camera_apps_list_box);
@@ -439,7 +439,7 @@ cc_camera_panel_init (CcCameraPanel *self)
                                 NULL);
   self->camera_icon_size_group = gtk_size_group_new (GTK_SIZE_GROUP_BOTH);
 
-  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
+  self->privacy_settings = g_settings_new ("io.github.scarecrow-de.desktop.privacy");
 
 
   self->camera_app_switches = g_hash_table_new_full (g_str_hash,
