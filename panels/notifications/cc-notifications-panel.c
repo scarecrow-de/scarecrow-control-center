@@ -217,7 +217,7 @@ cc_notifications_panel_init (CcNotificationsPanel *panel)
 static const char *
 cc_notifications_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/shell-notifications";
+  return "help:scarecrow-help/shell-notifications";
 }
 
 static void

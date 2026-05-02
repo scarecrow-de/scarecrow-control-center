@@ -623,7 +623,7 @@
     <property name="modal">True</property>
     <property name="window_position">center-on-parent</property>
     <property name="destroy_with_parent">True</property>
-    <property name="icon_name">gnome-color-manager</property>
+    <property name="icon_name">scarecrow-color-manager</property>
     <property name="type_hint">dialog</property>
     <property name="skip_taskbar_hint">True</property>
     <property name="skip_pager_hint">True</property>
@@ -815,7 +815,7 @@
                         <property name="tooltip_text" translatable="yes">Learn more about color management</property>
                         <property name="relief">none</property>
                         <property name="xalign">0.50999999046325684</property>
-                        <property name="uri">help:gnome-help/color-whyimportant</property>
+                        <property name="uri">help:scarecrow-help/color-whyimportant</property>
                         <accessibility>
                           <relation type="labelled-by" target="label_intro"/>
                         </accessibility>

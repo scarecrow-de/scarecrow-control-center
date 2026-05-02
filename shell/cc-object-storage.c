@@ -263,6 +263,10 @@ cc_object_storage_create_dbus_proxy_sync (GBusType          bus_type,
     }
 
   /* Store the newly created D-Bus proxy */
+
+  if (!G_IS_OBJECT (proxy)) return NULL;
+  if (g_hash_table_contains (_instance->id_to_object, key)) return NULL;
+
   cc_object_storage_add_object (key, proxy);
 
   return g_steal_pointer (&proxy);
@@ -400,6 +404,9 @@ cc_object_storage_create_dbus_proxy_finish (GAsyncResult  *result,
    */
   if (cc_object_storage_has_object (key))
     return cc_object_storage_get_object (key);
+
+  if (!G_IS_OBJECT (proxy)) return NULL;
+  if (g_hash_table_contains (_instance->id_to_object, key)) return NULL;
 
   /* Store the newly created D-Bus proxy */
   cc_object_storage_add_object (key, proxy);

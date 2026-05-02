@@ -812,7 +812,7 @@ gcm_prefs_calib_upload_cb (CcColorPanel *prefs)
     }
 
   /* setup the session */
-  session = soup_session_new_with_options (SOUP_SESSION_USER_AGENT, "gnome-control-center",
+  session = soup_session_new_with_options (SOUP_SESSION_USER_AGENT, "scarecrow-control-center",
                                            SOUP_SESSION_TIMEOUT, 5000,
                                            NULL);
   if (session == NULL)
@@ -914,7 +914,7 @@ gcm_prefs_calib_export_link_cb (CcColorPanel *prefs,
                                 const gchar *url)
 {
   gtk_show_uri_on_window (GTK_WINDOW (prefs->main_window),
-                          "help:gnome-help/color-howtoimport",
+                          "help:scarecrow-help/color-howtoimport",
                           GDK_CURRENT_TIME,
                           NULL);
 }
@@ -1221,7 +1221,7 @@ gcm_prefs_set_calibrate_button_sensitivity (CcColorPanel *prefs)
            kind == CD_DEVICE_KIND_WEBCAM)
     {
 
-      /* TODO: find out if we can scan using gnome-scan */
+      /* TODO: find out if we can scan using scarecrow-scan */
       ret = TRUE;
 
     }
@@ -1874,7 +1874,7 @@ gcm_prefs_window_realize_cb (CcColorPanel *prefs)
 static const char *
 cc_color_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/color";
+  return "help:scarecrow-help/color";
 }
 
 static void

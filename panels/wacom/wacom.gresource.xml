@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/github/scarecrow-de/control-center/wacom">
-    <file preprocess="xml-stripblanks">gnome-wacom-properties.ui</file>
+    <file preprocess="xml-stripblanks">scarecrow-wacom-properties.ui</file>
     <file preprocess="xml-stripblanks">wacom-stylus-page.ui</file>
     <file preprocess="xml-stripblanks">button-mapping.ui</file>
     <file preprocess="xml-stripblanks">calibrator/calibrator.ui</file>

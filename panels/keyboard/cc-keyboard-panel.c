@@ -688,7 +688,7 @@ cc_keyboard_panel_set_property (GObject      *object,
 static const char *
 cc_keyboard_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/keyboard";
+  return "help:scarecrow-help/keyboard";
 }
 
 static void

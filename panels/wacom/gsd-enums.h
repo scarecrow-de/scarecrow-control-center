@@ -1,6 +1,6 @@
-/* We copy gsd-wacom-device from gnome-settings-daemon.
+/* We copy gsd-wacom-device from scarecrow-settings-daemon.
  * It include "gsd-enums.h" because the include directory
- * is known. As gnome-settings-daemon's pkg-config file
+ * is known. As scarecrow-settings-daemon's pkg-config file
  * prefixes this, we need a little help to avoid this
  * one line difference */
 

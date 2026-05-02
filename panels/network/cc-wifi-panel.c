@@ -884,7 +884,7 @@ hotspot_stop_clicked_cb (CcWifiPanel *self)
 static const gchar *
 cc_wifi_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/net-wireless";
+  return "help:scarecrow-help/net-wireless";
 }
 
 static GtkWidget *

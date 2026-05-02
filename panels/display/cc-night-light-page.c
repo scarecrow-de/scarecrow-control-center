@@ -397,7 +397,7 @@ dialog_got_proxy_cb (GObject      *source_object,
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_warning ("failed to connect to g-s-d: %s", error->message);
       return;
     }
@@ -422,7 +422,7 @@ dialog_got_proxy_props_cb (GObject      *source_object,
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_warning ("failed to connect to g-s-d: %s", error->message);
       return;
     }

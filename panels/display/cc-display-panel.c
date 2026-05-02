@@ -598,7 +598,7 @@ cc_display_panel_constructed (GObject *object)
 static const char *
 cc_display_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/prefs-display";
+  return "help:scarecrow-help/prefs-display";
 }
 
 static GtkWidget *
@@ -1063,8 +1063,10 @@ shell_proxy_ready (GObject        *source,
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (!proxy)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
-        g_warning ("Failed to contact gnome-shell: %s", error->message);
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
+        g_warning ("Failed to contact scarecrow-shell: %s", error->message);
+      else
+	g_warning ("Failed to contact scarecrow-shell");
       return;
     }
 

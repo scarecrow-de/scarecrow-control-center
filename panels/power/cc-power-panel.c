@@ -167,7 +167,7 @@ cc_power_panel_dispose (GObject *object)
 static const char *
 cc_power_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/power";
+  return "help:scarecrow-help/power";
 }
 
 static void

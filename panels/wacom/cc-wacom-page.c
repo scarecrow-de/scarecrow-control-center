@@ -349,7 +349,7 @@ calibrate_button_clicked_cb (CcWacomPage *page)
 }
 
 /* This avoids us crashing when a newer version of
- * gnome-control-center has been used, and we load up an
+ * scarecrow-control-center has been used, and we load up an
  * old one, as the action type if unknown to the old g-c-c */
 static gboolean
 action_type_is_valid (GDesktopPadButtonAction action)
@@ -760,7 +760,7 @@ cc_wacom_page_init (CcWacomPage *page)
 	page->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (page->builder,
-                                               "/io/github/scarecrow-de/control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow-de/control-center/wacom/scarecrow-wacom-properties.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {

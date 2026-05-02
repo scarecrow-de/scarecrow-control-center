@@ -39,7 +39,7 @@
 #define IS_SOFT_HYPHEN(c) ((c) == 0x00AD)
 
 /* Copied from tracker/src/libtracker-fts/tracker-parser-glib.c under the GPL
- * And then from gnome-shell/src/shell-util.c
+ * And then from scarecrow-shell/src/shell-util.c
  *
  * Originally written by Aleksander Morgado <aleksander@gnu.org>
  */

@@ -191,7 +191,7 @@ cc_region_panel_constructed (GObject *object)
 static const char *
 cc_region_panel_get_help_uri (CcPanel *panel)
 {
-        return "help:gnome-help/prefs-language";
+        return "help:scarecrow-help/prefs-language";
 }
 
 static GFile *
@@ -200,7 +200,7 @@ get_needs_restart_file (void)
         g_autofree gchar *path = NULL;
 
         path = g_build_filename (g_get_user_runtime_dir (),
-                                 "gnome-control-center-region-needs-restart",
+                                 "scarecrow-control-center-region-needs-restart",
                                  NULL);
         return g_file_new_for_path (path);
 }
@@ -1534,7 +1534,7 @@ session_proxy_ready (GObject      *source,
 
         if (!proxy) {
                 if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
-                        g_warning ("Failed to contact gnome-session: %s\n", error->message);
+                        g_warning ("Failed to contact scarecrow-session: %s\n", error->message);
                 return;
         }
 

@@ -1606,7 +1606,7 @@ cc_user_panel_dispose (GObject *object)
 static const char *
 cc_user_panel_get_help_uri (CcPanel *panel)
 {
-	return "help:gnome-help/user-accounts";
+	return "help:scarecrow-help/user-accounts";
 }
 
 static void

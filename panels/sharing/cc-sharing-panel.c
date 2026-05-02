@@ -29,7 +29,7 @@
 #include "cc-media-sharing.h"
 #include "cc-sharing-networks.h"
 #include "cc-sharing-switch.h"
-#include "cc-gnome-remote-desktop.h"
+#include "cc-scarecrow-remote-desktop.h"
 #include "io.github.scarecrow-de.SettingsDaemon.Sharing.h"
 
 #ifdef GDK_WINDOWING_WAYLAND
@@ -175,7 +175,7 @@ cc_sharing_panel_dispose (GObject *object)
 static const char *
 cc_sharing_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/prefs-sharing";
+  return "help:scarecrow-help/prefs-sharing";
 }
 
 static void
@@ -897,7 +897,7 @@ cc_sharing_panel_setup_personal_file_sharing_dialog (CcSharingPanel *self)
                     "notify::text", G_CALLBACK (file_sharing_password_changed),
                     NULL);
 
-  networks = cc_sharing_networks_new (self->sharing_proxy, "gnome-user-share-webdav");
+  networks = cc_sharing_networks_new (self->sharing_proxy, "scarecrow-user-share-webdav");
   gtk_grid_attach (GTK_GRID (self->personal_file_sharing_grid), networks, 0, 3, 2, 1);
   gtk_widget_show (networks);
 
@@ -1086,7 +1086,7 @@ cc_sharing_panel_setup_screen_sharing_dialog_gnome_remote_desktop (CcSharingPane
                            self,
                            G_CONNECT_SWAPPED);
 
-  networks = cc_sharing_networks_new (self->sharing_proxy, "gnome-remote-desktop");
+  networks = cc_sharing_networks_new (self->sharing_proxy, "scarecrow-remote-desktop");
   gtk_box_pack_end (GTK_BOX (self->remote_control_box), networks, TRUE, TRUE, 0);
   gtk_widget_show (networks);
 

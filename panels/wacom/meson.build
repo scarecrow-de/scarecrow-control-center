@@ -21,7 +21,7 @@ wacom_gresource = gnome.compile_resources(
 subdir('calibrator')
 
 panels_list += cappletname
-desktop = 'gnome-@0@-panel.desktop'.format(cappletname)
+desktop = 'scarecrow-@0@-panel.desktop'.format(cappletname)
 
 desktop_in = configure_file(
           input : desktop + '.in.in',
@@ -55,7 +55,7 @@ resource_data = files(
   'calibrator/calibrator.css',
   'calibrator/target.svg',
   'button-mapping.ui',
-  'gnome-wacom-properties.ui',
+  'scarecrow-wacom-properties.ui',
   'wacom-stylus-3btn.svg',
   'wacom-stylus-3btn-no-eraser.svg',
   'wacom-stylus-airbrush.svg',

@@ -81,7 +81,7 @@ load_default_bg (BgWallpapersSource *self)
     g_autofree gchar *filename = NULL;
 
     filename = g_build_filename (system_data_dirs[i],
-				 "gnome-background-properties",
+				 "scarecrow-background-properties",
 				 "adwaita.xml",
 				 NULL);
     if (cc_background_xml_load_xml (self->xml, filename))

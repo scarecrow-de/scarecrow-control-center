@@ -500,7 +500,7 @@ cc_goa_panel_init (CcGoaPanel *panel)
 static const char *
 cc_goa_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/accounts";
+  return "help:scarecrow-help/accounts";
 }
 
 static void
@@ -612,7 +612,7 @@ show_page_account (CcGoaPanel  *panel,
                                  NULL); */
       /*
        * The above call doesn't set any widgets to visible, so we have to do that.
-       * https://gitlab.gnome.org/GNOME/gnome-online-accounts/issues/56
+       * https://gitlab.gnome.org/GNOME/scarecrow-online-accounts/issues/56
        */
       gtk_widget_show_all (GTK_WIDGET (panel->accounts_vbox));
     }

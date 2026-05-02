@@ -170,7 +170,7 @@ privacy_link_cb (CcApplicationsPanel *self)
 static void
 open_software_cb (CcApplicationsPanel *self)
 {
-  const gchar *argv[] = { "gnome-software", "--details", "appid", NULL };
+  const gchar *argv[] = { "scarecrow-software", "--details", "appid", NULL };
 
   if (self->current_app_id == NULL)
     argv[1] = NULL;
@@ -541,7 +541,7 @@ set_shortcuts_allowed (CcApplicationsPanel *self,
 
   /* "GRANTED" and "DENIED" here match the values set by the "inhibit shortcut
    * dialog" is GNOME Shell:
-   * https://gitlab.gnome.org/GNOME/gnome-shell/-/blob/master/js/ui/inhibitShortcutsDialog.js
+   * https://gitlab.gnome.org/GNOME/scarecrow-shell/-/blob/master/js/ui/inhibitShortcutsDialog.js
    */
   perms[0] = granted ? "GRANTED" : "DENIED";
   perms[1] = NULL;

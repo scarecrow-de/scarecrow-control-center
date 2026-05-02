@@ -1,5 +1,5 @@
 project(
-  'gnome-control-center', 'c',
+  'scarecrow-control-center', 'c',
         version : '3.38.6',
         license : 'GPL2+',
   meson_version : '>= 0.51.0'
@@ -228,7 +228,7 @@ config_h.set('HAVE_NETWORK_MANAGER', host_is_linux,
              description: 'Define to 1 if NetworkManager is available')
 
 if host_is_linux_not_s390
-  # gnome-bluetooth
+  # scarecrow-bluetooth
   gnome_bluetooth_dep = dependency('scarecrow-bluetooth-1.0', version: '>= 3.18.2')
 
   libwacom_dep = dependency('libwacom', version: '>= 0.7')

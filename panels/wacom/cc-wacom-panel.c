@@ -469,7 +469,7 @@ cc_wacom_panel_constructed (GObject *object)
 static const char *
 cc_wacom_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/wacom";
+  return "help:scarecrow-help/wacom";
 }
 
 static GtkWidget *
@@ -663,7 +663,7 @@ cc_wacom_panel_init (CcWacomPanel *self)
 	self->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (self->builder,
-                                               "/io/github/scarecrow-de/control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow-de/control-center/wacom/scarecrow-wacom-properties.ui",
                                                objects,
                                                &error);
 	gtk_builder_add_objects_from_resource (self->builder,

@@ -445,7 +445,7 @@ Structure of login time program:
 
 - If it isn't found, then nothing changes.
 
-     This could just be gnome-screen-resolution-capplet --reset
+     This could just be scarecrow-screen-resolution-capplet --reset
 
 *******************  Things that need to be done to the xrandr.patch:
 

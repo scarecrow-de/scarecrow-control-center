@@ -407,10 +407,10 @@ search_panel_add_one_app_info (CcSearchPanel *self,
   CcSearchPanelRow *row;
   g_autoptr(GIcon) icon = NULL;
 
-  /* gnome-control-center is special cased in the shell,
+  /* scarecrow-control-center is special cased in the shell,
      and is not configurable */
   if (g_strcmp0 (g_app_info_get_id (app_info),
-                 "gnome-control-center.desktop") == 0)
+                 "scarecrow-control-center.desktop") == 0)
     return;
 
   /* reset valignment of the list box */
@@ -538,7 +538,7 @@ search_providers_discover_one_directory (const gchar *system_dir,
   g_autoptr(GFileEnumerator) enumerator = NULL;
   g_autoptr(GError) error = NULL;
 
-  providers_path = g_build_filename (system_dir, "gnome-shell", "search-providers", NULL);
+  providers_path = g_build_filename (system_dir, "scarecrow-shell", "search-providers", NULL);
   providers_location = g_file_new_for_path (providers_path);
 
   enumerator = g_file_enumerate_children (providers_location,

@@ -3,8 +3,8 @@
     "runtime" : "org.gnome.Sdk",
     "runtime-version" : "master",
     "sdk" : "org.gnome.Sdk",
-    "command" : "gnome-control-center",
-    "rename-desktop-file" : "gnome-control-center.desktop",
+    "command" : "scarecrow-control-center",
+    "rename-desktop-file" : "scarecrow-control-center.desktop",
     "tags" : [
         "devel"
     ],
@@ -246,7 +246,7 @@
             ]
         },
         {
-            "name" : "gnome-online-accounts",
+            "name" : "scarecrow-online-accounts",
             "buildsystem" : "meson",
             "build-options" : {
                 "cflags" : "-Wno-error"
@@ -259,7 +259,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-online-accounts.git"
                 }
             ]
         },
@@ -442,7 +442,7 @@
             ]
         },
         {
-            "name" : "gnome-settings-daemon",
+            "name" : "scarecrow-settings-daemon",
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dsystemd=false"
@@ -450,7 +450,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-settings-daemon.git"
                 }
             ],
             "modules": [
@@ -472,7 +472,7 @@
             ]
         },
         {
-            "name" : "gnome-bluetooth",
+            "name" : "scarecrow-bluetooth",
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dintrospection=false"
@@ -480,7 +480,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-bluetooth.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-bluetooth.git"
                 }
             ]
         },
@@ -792,22 +792,22 @@
             ]
         },
         {
-            "name" : "gnome-backgrounds",
+            "name" : "scarecrow-backgrounds",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-backgrounds.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-backgrounds.git"
                 }
             ]
         },
         {
-            "name" : "gnome-control-center",
+            "name" : "scarecrow-control-center",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-control-center.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-control-center.git"
                 }
             ],
             "config-opts" : [

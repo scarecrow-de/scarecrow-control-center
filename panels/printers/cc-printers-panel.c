@@ -326,7 +326,7 @@ cc_printers_panel_dispose (GObject *object)
 static const char *
 cc_printers_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/printing";
+  return "help:scarecrow-help/printing";
 }
 
 static void

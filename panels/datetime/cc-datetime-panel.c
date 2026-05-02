@@ -178,7 +178,7 @@ cc_date_time_panel_constructed (GObject *object)
 static const char *
 cc_date_time_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/clock";
+  return "help:scarecrow-help/clock";
 }
 
 static void clock_settings_changed_cb (CcDateTimePanel *panel,
@@ -873,11 +873,11 @@ setup_datetime_dialog (CcDateTimePanel *self)
   /* Big time buttons */
   provider = gtk_css_provider_new ();
   gtk_css_provider_load_from_data (GTK_CSS_PROVIDER (provider),
-                                   ".gnome-control-center-datetime-setup-time>spinbutton,\n"
-                                   ".gnome-control-center-datetime-setup-time>label {\n"
+                                   ".scarecrow-control-center-datetime-setup-time>spinbutton,\n"
+                                   ".scarecrow-control-center-datetime-setup-time>label {\n"
                                    "    font-size: 250%;\n"
                                    "}\n"
-                                   ".gnome-control-center-datetime-setup-time>spinbutton>entry {\n"
+                                   ".scarecrow-control-center-datetime-setup-time>spinbutton>entry {\n"
                                    "    padding: 8px 13px;\n"
                                    "}", -1, NULL);
   screen = gdk_screen_get_default ();

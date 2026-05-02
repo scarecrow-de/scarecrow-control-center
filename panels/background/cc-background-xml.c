@@ -419,7 +419,7 @@ cc_background_xml_load_list (CcBackgroundXml *data,
   gint i;
 
   datadir = g_build_filename (g_get_user_data_dir (),
-                              "gnome-background-properties",
+                              "scarecrow-background-properties",
                               NULL);
   cc_background_xml_load_from_dir (datadir, data, in_thread);
 
@@ -427,7 +427,7 @@ cc_background_xml_load_list (CcBackgroundXml *data,
   for (i = 0; system_data_dirs[i]; i++) {
     g_autofree gchar *sdatadir = NULL;
     sdatadir = g_build_filename (system_data_dirs[i],
-                                "gnome-background-properties",
+                                "scarecrow-background-properties",
 				NULL);
     cc_background_xml_load_from_dir (sdatadir, data, in_thread);
   }
@@ -543,7 +543,7 @@ cc_background_xml_save (CcBackgroundItem *item,
   xmlKeepBlanksDefault (0);
 
   wp = xmlNewDoc ((xmlChar *)"1.0");
-  xmlCreateIntSubset (wp, (xmlChar *)"wallpapers", NULL, (xmlChar *)"gnome-wp-list.dtd");
+  xmlCreateIntSubset (wp, (xmlChar *)"wallpapers", NULL, (xmlChar *)"scarecrow-wp-list.dtd");
   root = xmlNewNode (NULL, (xmlChar *)"wallpapers");
   xmlDocSetRootElement (wp, root);
 

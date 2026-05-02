@@ -170,7 +170,7 @@ load_gnome_version (char **version,
   gsize length;
   g_autoptr(VersionData) data = NULL;
 
-  if (!g_file_get_contents (DATADIR "/gnome/gnome-version.xml",
+  if (!g_file_get_contents (DATADIR "/gnome/scarecrow-version.xml",
                             &contents,
                             &length,
                             &error))
@@ -239,7 +239,7 @@ static char *
 get_renderer_from_helper (const char **env)
 {
   int status;
-  char *argv[] = { LIBEXECDIR "/gnome-control-center-print-renderer", NULL };
+  char *argv[] = { LIBEXECDIR "/scarecrow-control-center-print-renderer", NULL };
   g_auto(GStrv) envp = NULL;
   g_autofree char *renderer = NULL;
   g_autoptr(GError) error = NULL;
@@ -373,7 +373,7 @@ get_renderer_from_switcheroo (void)
       default_variant = g_variant_lookup_value (gpu, "Default", NULL);
 
       /* We could give up if we don't have a renderer, but that
-       * might just mean gnome-session isn't installed. We fall back
+       * might just mean scarecrow-session isn't installed. We fall back
        * to the device name in udev instead, which is better than nothing */
 
       gpu_data = g_new0 (GpuData, 1);
@@ -722,7 +722,7 @@ info_overview_panel_setup_overview (CcInfoOverviewPanel *self)
 static gboolean
 does_gnome_software_exist (void)
 {
-  return g_file_test (BINDIR "/gnome-software", G_FILE_TEST_EXISTS);
+  return g_file_test (BINDIR "/scarecrow-software", G_FILE_TEST_EXISTS);
 }
 
 static gboolean
@@ -741,7 +741,7 @@ open_software_update (CcInfoOverviewPanel *self)
   argv = g_new0 (gchar *, 3);
   if (does_gnome_software_exist ())
     {
-      argv[0] = g_build_filename (BINDIR, "gnome-software", NULL);
+      argv[0] = g_build_filename (BINDIR, "scarecrow-software", NULL);
       argv[1] = g_strdup_printf ("--mode=updates");
     }
   else

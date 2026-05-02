@@ -223,9 +223,9 @@ picture_scaled (GObject *source_object,
   /* Ignore screenshots */
   software = gdk_pixbuf_get_option (pixbuf, "tEXt::Software");
   if (software != NULL &&
-      g_str_equal (software, "gnome-screenshot"))
+      g_str_equal (software, "scarecrow-screenshot"))
     {
-      g_debug ("Ignored URL '%s' as it's a screenshot from gnome-screenshot", uri);
+      g_debug ("Ignored URL '%s' as it's a screenshot from scarecrow-screenshot", uri);
       remove_placeholder (BG_PICTURES_SOURCE (user_data), item);
       return;
     }
@@ -663,7 +663,7 @@ char *
 bg_pictures_source_get_cache_path (void)
 {
   return g_build_filename (g_get_user_cache_dir (),
-			   "gnome-control-center",
+			   "scarecrow-control-center",
 			   "backgrounds",
 			   NULL);
 }

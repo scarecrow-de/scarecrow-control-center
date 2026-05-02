@@ -92,7 +92,7 @@
 #define KEY_DWELL_TIME               "dwell-time"
 #define KEY_DWELL_THRESHOLD          "dwell-threshold"
 
-/* gnome-settings-daemon settings */
+/* scarecrow-settings-daemon settings */
 #define GSD_MOUSE_SETTINGS           "io.github.scarecrow-de.settings-daemon.peripherals.mouse"
 #define KEY_DOUBLE_CLICK_DELAY       "double-click"
 
@@ -227,7 +227,7 @@ cc_ua_panel_dispose (GObject *object)
 static const char *
 cc_ua_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/a11y";
+  return "help:scarecrow-help/a11y";
 }
 
 static void

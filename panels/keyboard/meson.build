@@ -1,5 +1,5 @@
 panels_list += cappletname
-desktop = 'gnome-@0@-panel.desktop'.format(cappletname)
+desktop = 'scarecrow-@0@-panel.desktop'.format(cappletname)
 
 desktop_in = configure_file(
   input: desktop + '.in.in',
@@ -23,7 +23,7 @@ pc_conf.set('datadir', control_center_datadir)
 pc_conf.set('PACKAGE', meson.project_name())
 pc_conf.set('VERSION', meson.project_version())
 
-pc = 'gnome-keybindings.pc'
+pc = 'scarecrow-keybindings.pc'
 
 configure_file(
   input: pc + '.in',

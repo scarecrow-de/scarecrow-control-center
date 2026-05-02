@@ -55,7 +55,7 @@ CC_PANEL_REGISTER (CcBluetoothPanel, cc_bluetooth_panel)
 static const char *
 cc_bluetooth_panel_get_help_uri (CcPanel *panel)
 {
-	return "help:gnome-help/bluetooth";
+	return "help:scarecrow-help/bluetooth";
 }
 
 static void

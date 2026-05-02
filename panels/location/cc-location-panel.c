@@ -384,7 +384,7 @@ cc_location_panel_finalize (GObject *object)
 static const char *
 cc_location_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/location";
+  return "help:scarecrow-help/location";
 }
 
 static void

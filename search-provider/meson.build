@@ -12,8 +12,8 @@ configure_file(
 )
 
 install_data(
-  'gnome-control-center-search-provider.ini',
-  install_dir: join_paths(control_center_datadir, 'gnome-shell', 'search-providers')
+  'scarecrow-control-center-search-provider.ini',
+  install_dir: join_paths(control_center_datadir, 'scarecrow-shell', 'search-providers')
 )
 
 sources = files(
@@ -22,7 +22,7 @@ sources = files(
 )
 
 # The upstream for the DBus interface definition is
-# at http://git.gnome.org/browse/gnome-shell/plain/data/io.github.scarecrow-de.ShellSearchProvider2.xml
+# at http://git.gnome.org/browse/scarecrow-shell/plain/data/io.github.scarecrow-de.ShellSearchProvider2.xml
 sources += gnome.gdbus_codegen(
   'cc-shell-search-provider-generated',
   'io.github.scarecrow-de.ShellSearchProvider2.xml',
@@ -36,7 +36,7 @@ libs = [
 ]
 
 executable(
-  'gnome-control-center-search-provider',
+  'scarecrow-control-center-search-provider',
                sources,
   include_directories : top_inc,
          dependencies : shell_deps,

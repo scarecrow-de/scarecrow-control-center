@@ -1,5 +1,5 @@
 panels_list += cappletname
-desktop = 'gnome-@0@-panel.desktop'.format(cappletname)
+desktop = 'scarecrow-@0@-panel.desktop'.format(cappletname)
 
 desktop_in = configure_file(
   input: desktop + '.in.in',
@@ -41,7 +41,7 @@ sources = files(
   'cc-remote-login.c',
   'cc-sharing-networks.c',
   'cc-sharing-switch.c',
-  'cc-gnome-remote-desktop.c',
+  'cc-scarecrow-remote-desktop.c',
   'file-share-properties.c',
 )
 

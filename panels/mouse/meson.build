@@ -1,5 +1,5 @@
 panels_list += cappletname
-desktop = 'gnome-@0@-panel.desktop'.format(cappletname)
+desktop = 'scarecrow-@0@-panel.desktop'.format(cappletname)
 
 desktop_in = configure_file(
   input: desktop + '.in.in',
@@ -52,7 +52,7 @@ panels_libs += static_library(
   c_args: cflags
 )
 
-test_name = 'test-gnome-mouse-test'
+test_name = 'test-scarecrow-mouse-test'
 
 sources = common_sources + files(
   'cc-mouse-test.c',

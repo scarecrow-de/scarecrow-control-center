@@ -1,5 +1,5 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
-/* run-passwd.c: this file is part of users-admin, a gnome-system-tools frontend
+/* run-passwd.c: this file is part of users-admin, a scarecrow-system-tools frontend
  * for user administration.
  *
  * Copyright (C) 2002 Diego Gonzalez
@@ -23,8 +23,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  *
- * Most of this code originally comes from gnome-about-me-password.c,
- * from gnome-control-center.
+ * Most of this code originally comes from scarecrow-about-me-password.c,
+ * from scarecrow-control-center.
  */
 
 #include <config.h>

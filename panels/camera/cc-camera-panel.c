@@ -374,7 +374,7 @@ cc_camera_panel_finalize (GObject *object)
 static const char *
 cc_camera_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/camera";
+  return "help:scarecrow-help/camera";
 }
 
 static void

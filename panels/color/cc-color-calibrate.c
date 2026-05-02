@@ -207,7 +207,7 @@ out:
 /**
  * cc_color_calibrate_calib_set_output_gamma:
  *
- * Handle this here rather than in gnome-settings-daemon for two reasons:
+ * Handle this here rather than in scarecrow-settings-daemon for two reasons:
  *
  *  - We don't want to create a profile each time the video card gamma
  *    table is created, as that would mean ~15 DBus requests each time

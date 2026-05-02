@@ -141,7 +141,7 @@ got_proxy_cb (GObject *source_object, GAsyncResult *res, gpointer user_data)
   proxy = cc_object_storage_create_dbus_proxy_finish (res, &error);
   if (proxy == NULL)
     {
-      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED) && error != NULL)
         g_printerr ("Error creating proxy: %s\n", error->message);
       return;
     }

@@ -78,7 +78,7 @@ parse_search_providers_one_dir (GHashTable  *search_providers,
   g_autoptr(GFile) providers_location = NULL;
   g_autofree gchar *providers_path = NULL;
 
-  providers_path = g_build_filename (system_dir, "gnome-shell", "search-providers", NULL);
+  providers_path = g_build_filename (system_dir, "scarecrow-shell", "search-providers", NULL);
   providers_location = g_file_new_for_path (providers_path);
 
   enumerator = g_file_enumerate_children (providers_location,
@@ -113,7 +113,7 @@ parse_search_providers_one_dir (GHashTable  *search_providers,
     }
 }
 
-/* parse gnome-shell/search-provider files and return a string->boolean hash table */
+/* parse scarecrow-shell/search-provider files and return a string->boolean hash table */
 GHashTable *
 parse_search_providers (void)
 {

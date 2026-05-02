@@ -368,7 +368,7 @@ cc_microphone_panel_finalize (GObject *object)
 static const char *
 cc_microphone_panel_get_help_uri (CcPanel *panel)
 {
-  return "help:gnome-help/microphone";
+  return "help:scarecrow-help/microphone";
 }
 
 static void

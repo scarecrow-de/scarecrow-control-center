@@ -86,7 +86,7 @@ help_activated (GSimpleAction *action,
 
   window = cc_shell_get_toplevel (CC_SHELL (self->window));
   gtk_show_uri_on_window (GTK_WINDOW (window),
-                          uri ? uri : "help:gnome-help/prefs",
+                          uri ? uri : "help:scarecrow-help/prefs",
                           GDK_CURRENT_TIME,
                           NULL);
 }
@@ -103,7 +103,7 @@ launch_panel_activated (GSimpleAction *action,
 
   g_variant_get (parameter, "(&s@av)", &panel_id, &parameters);
 
-  g_debug ("gnome-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
+  g_debug ("scarecrow-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
            panel_id,
            g_variant_n_children (parameters));
 

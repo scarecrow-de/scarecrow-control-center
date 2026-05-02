@@ -227,7 +227,7 @@ cc_network_panel_finalize (GObject *object)
 static const char *
 cc_network_panel_get_help_uri (CcPanel *self)
 {
-	return "help:gnome-help/net";
+	return "help:scarecrow-help/net";
 }
 
 static void
