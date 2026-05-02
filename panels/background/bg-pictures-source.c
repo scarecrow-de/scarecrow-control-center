@@ -23,7 +23,6 @@
 
 #include "bg-pictures-source.h"
 
-#include "cc-background-grilo-miner.h"
 #include "cc-background-item.h"
 
 #include <string.h>
@@ -42,8 +41,6 @@ struct _BgPicturesSource
   BgSource parent_instance;
 
   GCancellable *cancellable;
-
-  CcBackgroundGriloMiner *grl_miner;
 
   GFileMonitor *picture_dir_monitor;
   GFileMonitor *cache_dir_monitor;
@@ -82,8 +79,6 @@ bg_pictures_source_dispose (GObject *object)
       g_cancellable_cancel (source->cancellable);
       g_clear_object (&source->cancellable);
     }
-
-  g_clear_object (&source->grl_miner);
 
   G_OBJECT_CLASS (bg_pictures_source_parent_class)->dispose (object);
 }
@@ -836,10 +831,6 @@ bg_pictures_source_init (BgPicturesSource *self)
 
   cache_path = bg_pictures_source_get_cache_path ();
   self->cache_dir_monitor = monitor_path (self, cache_path);
-
-  self->grl_miner = cc_background_grilo_miner_new ();
-  g_signal_connect_object (self->grl_miner, "media-found", G_CALLBACK (media_found_cb), self, G_CONNECT_SWAPPED);
-  cc_background_grilo_miner_start (self->grl_miner);
 }
 
 BgPicturesSource *

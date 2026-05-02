@@ -17,7 +17,6 @@ panels = [
   'microphone',
   'mouse',
   'notifications',
-  'online-accounts',
   'power',
   'printers',
   'region',
