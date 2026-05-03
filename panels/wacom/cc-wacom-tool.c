@@ -179,15 +179,9 @@ cc_wacom_tool_initable_init (GInitable     *initable,
 		const gchar *vendor, *product;
 		GsdDevice *gsd_device;
 
-<<<<<<< Updated upstream
 		gsd_device = cc_wacom_device_get_device (tool->device);
 		gsd_device_get_device_ids (gsd_device, &vendor, &product);
 		path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/stylus/default-%s:%s/",
-=======
-		gsd_device = cc_wacom_device_get_device (tool->device);
-		gsd_device_get_device_ids (gsd_device, &vendor, &product);
-		path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/stylus/default-%s:%s/",
->>>>>>> Stashed changes
 					vendor, product);
         } else {
 		path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/stylus/%lx/", tool->serial);
