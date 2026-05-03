@@ -349,7 +349,7 @@ calibrate_button_clicked_cb (CcWacomPage *page)
 }
 
 /* This avoids us crashing when a newer version of
- * gnome-control-center has been used, and we load up an
+ * scarecrow-control-center has been used, and we load up an
  * old one, as the action type if unknown to the old g-c-c */
 static gboolean
 action_type_is_valid (GDesktopPadButtonAction action)
@@ -414,7 +414,7 @@ show_button_mapping_dialog (CcWacomPage *page)
 	g_assert (page->mapping_builder == NULL);
 	page->mapping_builder = gtk_builder_new ();
 	gtk_builder_add_from_resource (page->mapping_builder,
-                                       "/io/github/scarecrow_de//control-center/wacom/button-mapping.ui",
+                                       "/io/github/scarecrow_de/control-center/wacom/button-mapping.ui",
                                        &error);
 
 	if (error != NULL) {
@@ -760,7 +760,7 @@ cc_wacom_page_init (CcWacomPage *page)
 	page->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (page->builder,
-                                               "/io/github/scarecrow_de//control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/gnome-wacom-properties.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {
@@ -816,7 +816,7 @@ set_icon_name (CcWacomPage *page,
 {
 	g_autofree gchar *resource = NULL;
 
-	resource = g_strdup_printf ("/io/github/scarecrow_de//control-center/wacom/%s.svg", icon_name);
+	resource = g_strdup_printf ("/io/github/scarecrow_de/control-center/wacom/%s.svg", icon_name);
 	gtk_image_set_from_resource (GTK_IMAGE (WID (widget_name)), resource);
 }
 

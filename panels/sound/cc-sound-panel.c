@@ -214,7 +214,7 @@ cc_sound_panel_class_init (CcSoundPanelClass *klass)
 
   object_class->finalize = cc_sound_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sound/cc-sound-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-sound-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSoundPanel, balance_slider);
   gtk_widget_class_bind_template_child (widget_class, CcSoundPanel, fade_row);

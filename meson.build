@@ -1,5 +1,5 @@
 project(
-  'gnome-control-center', 'c',
+  'scarecrow-control-center', 'c',
         version : '3.38.6',
         license : 'GPL2+',
   meson_version : '>= 0.51.0'

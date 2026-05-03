@@ -663,11 +663,11 @@ cc_wacom_panel_init (CcWacomPanel *self)
 	self->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (self->builder,
-                                               "/io/github/scarecrow_de//control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/gnome-wacom-properties.ui",
                                                objects,
                                                &error);
 	gtk_builder_add_objects_from_resource (self->builder,
-                                               "/io/github/scarecrow_de//control-center/wacom/wacom-stylus-page.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/wacom-stylus-page.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {
@@ -681,7 +681,7 @@ cc_wacom_panel_init (CcWacomPanel *self)
 				  G_DBUS_PROXY_FLAGS_NONE,
 				  NULL,
 				  "io.github.scarecrow_de.Shell",
-				  "/io/github/scarecrow_de//Shell/Wacom",
+				  "/io/github/scarecrow_de/Shell/Wacom",
 				  "io.github.scarecrow_de.Shell.Wacom.PadOsd",
 				  cc_panel_get_cancellable (CC_PANEL (self)),
 				  got_osd_proxy_cb,

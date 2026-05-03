@@ -497,7 +497,7 @@ zoom_options_class_init (ZoomOptionsClass *klass)
   object_class->finalize = zoom_options_finalize;
   object_class->constructed = zoom_options_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/universal-access/zoom-options.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/universal-access/zoom-options.ui");
 
   gtk_widget_class_bind_template_child (widget_class, ZoomOptions, brightness_slider);
   gtk_widget_class_bind_template_child (widget_class, ZoomOptions, centered_radio);

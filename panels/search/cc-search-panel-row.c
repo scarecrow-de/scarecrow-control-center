@@ -156,7 +156,7 @@ cc_search_panel_row_class_init (CcSearchPanelRowClass *klass)
   GObjectClass *object_class = G_OBJECT_CLASS (klass);
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/search/cc-search-panel-row.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/search/cc-search-panel-row.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSearchPanelRow, drag_handle);
   gtk_widget_class_bind_template_child (widget_class, CcSearchPanelRow, icon);

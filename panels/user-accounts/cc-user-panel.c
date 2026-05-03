@@ -1066,7 +1066,7 @@ restart_now (CcUserPanel *self)
         bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
         g_dbus_connection_call (bus,
                                 "io.github.scarecrow_de.SessionManager",
-                                "/io/github/scarecrow_de//SessionManager",
+                                "/io/github/scarecrow_de/SessionManager",
                                 "io.github.scarecrow_de.SessionManager",
                                 "Logout",
                                 g_variant_new ("(u)", 0),
@@ -1577,7 +1577,7 @@ cc_user_panel_init (CcUserPanel *self)
         self->um = act_user_manager_get_default ();
 
         provider = gtk_css_provider_new ();
-        gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de//control-center/user-accounts/user-accounts-dialog.css");
+        gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/control-center/user-accounts/user-accounts-dialog.css");
         gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                                    GTK_STYLE_PROVIDER (provider),
                                                    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -1621,7 +1621,7 @@ cc_user_panel_class_init (CcUserPanelClass *klass)
 
         panel_class->get_help_uri = cc_user_panel_get_help_uri;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/user-accounts/cc-user-panel.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/user-accounts/cc-user-panel.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, accounts_box);
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, account_settings_box);

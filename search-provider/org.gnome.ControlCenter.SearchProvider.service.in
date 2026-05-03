@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=io.github.scarecrow_de.ControlCenter.SearchProvider
-Exec=@libexecdir@/gnome-control-center-search-provider

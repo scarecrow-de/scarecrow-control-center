@@ -190,7 +190,7 @@ cc_sharing_panel_class_init (CcSharingPanelClass *klass)
 
   panel_class->get_help_uri = cc_sharing_panel_get_help_uri;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sharing/cc-sharing-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sharing/cc-sharing-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSharingPanel, approve_connections_radiobutton);
   gtk_widget_class_bind_template_child (widget_class, CcSharingPanel, hostname_entry);
@@ -1213,7 +1213,7 @@ cc_sharing_panel_init (CcSharingPanel *self)
   gsd_sharing_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                  G_DBUS_PROXY_FLAGS_NONE,
                                  "io.github.scarecrow_de.SettingsDaemon.Sharing",
-                                 "/io/github/scarecrow_de//SettingsDaemon/Sharing",
+                                 "/io/github/scarecrow_de/SettingsDaemon/Sharing",
                                  cc_panel_get_cancellable (CC_PANEL (self)),
                                  sharing_proxy_ready,
                                  self);

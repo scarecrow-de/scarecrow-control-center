@@ -184,7 +184,7 @@ ce_page_vpn_class_init (CEPageVpnClass *class)
 
         object_class->dispose = ce_page_vpn_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/network/vpn-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/vpn-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageVpn, failure_label);
         gtk_widget_class_bind_template_child (widget_class, CEPageVpn, name_entry);

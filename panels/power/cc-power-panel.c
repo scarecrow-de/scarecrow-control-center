@@ -181,7 +181,7 @@ cc_power_panel_class_init (CcPowerPanelClass *klass)
 
   panel_class->get_help_uri = cc_power_panel_get_help_uri;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/power/cc-power-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/power/cc-power-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcPowerPanel, main_scroll);
   gtk_widget_class_bind_template_child (widget_class, CcPowerPanel, main_box);
@@ -448,7 +448,7 @@ load_custom_css (CcPowerPanel *self)
 
   /* use custom CSS */
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de//control-center/power/battery-levels.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/control-center/power/battery-levels.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -2083,7 +2083,7 @@ add_power_saving_section (CcPowerPanel *self)
   self->bt_rfkill = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
                                                               G_DBUS_PROXY_FLAGS_NONE,
                                                               "io.github.scarecrow_de.SettingsDaemon.Rfkill",
-                                                              "/io/github/scarecrow_de//SettingsDaemon/Rfkill",
+                                                              "/io/github/scarecrow_de/SettingsDaemon/Rfkill",
                                                               "io.github.scarecrow_de.SettingsDaemon.Rfkill",
                                                               NULL,
                                                               NULL);
@@ -2093,7 +2093,7 @@ add_power_saving_section (CcPowerPanel *self)
       self->bt_properties = cc_object_storage_create_dbus_proxy_sync (G_BUS_TYPE_SESSION,
                                                                       G_DBUS_PROXY_FLAGS_NONE,
                                                                       "io.github.scarecrow_de.SettingsDaemon.Rfkill",
-                                                                      "/io/github/scarecrow_de//SettingsDaemon/Rfkill",
+                                                                      "/io/github/scarecrow_de/SettingsDaemon/Rfkill",
                                                                       "org.freedesktop.DBus.Properties",
                                                                       NULL,
                                                                       NULL);

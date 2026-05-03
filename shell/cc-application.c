@@ -103,7 +103,7 @@ launch_panel_activated (GSimpleAction *action,
 
   g_variant_get (parameter, "(&s@av)", &panel_id, &parameters);
 
-  g_debug ("gnome-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
+  g_debug ("scarecrow-control-center: 'launch-panel' activated for panel '%s' with %"G_GSIZE_FORMAT" arguments",
            panel_id,
            g_variant_n_children (parameters));
 
@@ -286,7 +286,7 @@ cc_application_init (CcApplication *self)
   g_application_add_main_option_entries (G_APPLICATION (self), all_options);
 
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de//ControlCenter/gtk/style.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/ControlCenter/gtk/style.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);

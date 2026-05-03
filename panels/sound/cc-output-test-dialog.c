@@ -64,7 +64,7 @@ cc_output_test_dialog_class_init (CcOutputTestDialogClass *klass)
 
   object_class->dispose = cc_output_test_dialog_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sound/cc-output-test-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-output-test-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcOutputTestDialog, front_center_speaker_button);
   gtk_widget_class_bind_template_child (widget_class, CcOutputTestDialog, front_left_speaker_button);

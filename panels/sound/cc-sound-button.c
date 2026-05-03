@@ -78,7 +78,7 @@ cc_sound_button_class_init (CcSoundButtonClass *klass)
   object_class->set_property = cc_sound_button_set_property;
   object_class->get_property = cc_sound_button_get_property;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sound/cc-sound-button.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-sound-button.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSoundButton, image);
   gtk_widget_class_bind_template_child (widget_class, CcSoundButton, label);

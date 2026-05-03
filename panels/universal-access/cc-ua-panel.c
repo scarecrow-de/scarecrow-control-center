@@ -241,7 +241,7 @@ cc_ua_panel_class_init (CcUaPanelClass *klass)
 
   object_class->dispose = cc_ua_panel_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/universal-access/cc-ua-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/universal-access/cc-ua-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcUaPanel, cursor_blinking_dialog);
   gtk_widget_class_bind_template_child (widget_class, CcUaPanel, cursor_blinking_scale);
@@ -368,7 +368,7 @@ cursor_size_setup (CcUaPanel *self)
       GtkWidget *image, *button;
       g_autofree gchar *cursor_image_name = NULL;
 
-      cursor_image_name = g_strdup_printf ("/io/github/scarecrow_de//control-center/universal-access/left_ptr_%dpx.png", cursor_sizes[i]);
+      cursor_image_name = g_strdup_printf ("/io/github/scarecrow_de/control-center/universal-access/left_ptr_%dpx.png", cursor_sizes[i]);
       image = gtk_image_new_from_resource (cursor_image_name);
       gtk_widget_show (image);
 

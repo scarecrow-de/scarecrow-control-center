@@ -217,7 +217,7 @@ cc_brightness_scale_constructed (GObject *object)
   cc_object_storage_create_dbus_proxy (G_BUS_TYPE_SESSION,
                                        G_DBUS_PROXY_FLAGS_NONE,
                                        "io.github.scarecrow_de.SettingsDaemon.Power",
-                                       "/io/github/scarecrow_de//SettingsDaemon/Power",
+                                       "/io/github/scarecrow_de/SettingsDaemon/Power",
                                        interface,
                                        self->cancellable,
                                        got_proxy_cb,

@@ -488,7 +488,7 @@ cc_removable_media_panel_class_init (CcRemovableMediaPanelClass *klass)
   object_class->finalize = cc_removable_media_panel_finalize;
   object_class->dispose = cc_removable_media_panel_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/removable-media/cc-removable-media-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/removable-media/cc-removable-media-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcRemovableMediaPanel, audio_cdda_chooser);
   gtk_widget_class_bind_template_child (widget_class, CcRemovableMediaPanel, autorun_never_checkbutton);

@@ -327,7 +327,7 @@ pp_details_dialog_class_init (PpDetailsDialogClass *klass)
 
   object_class->dispose = pp_details_dialog_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/printers/pp-details-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/printers/pp-details-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, PpDetailsDialog, dialog_title);
   gtk_widget_class_bind_template_child (widget_class, PpDetailsDialog, driver_buttons);

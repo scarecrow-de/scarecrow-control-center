@@ -1264,7 +1264,7 @@ cc_printers_panel_init (CcPrintersPanel *self)
   g_object_set_data_full (self->reference, "self", self, NULL);
 
   builder_result = gtk_builder_add_objects_from_resource (self->builder,
-                                                          "/io/github/scarecrow_de//control-center/printers/printers.ui",
+                                                          "/io/github/scarecrow_de/control-center/printers/printers.ui",
                                                           objects, &error);
 
   if (builder_result == 0)

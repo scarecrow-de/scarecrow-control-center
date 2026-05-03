@@ -294,7 +294,7 @@ cc_login_history_dialog_class_init (CcLoginHistoryDialogClass *klass)
 
         object_class->dispose = cc_login_history_dialog_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/user-accounts/cc-login-history-dialog.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/user-accounts/cc-login-history-dialog.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcLoginHistoryDialog, header_bar);
         gtk_widget_class_bind_template_child (widget_class, CcLoginHistoryDialog, history_box);

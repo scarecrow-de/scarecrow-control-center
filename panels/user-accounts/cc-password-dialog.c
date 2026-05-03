@@ -459,7 +459,7 @@ cc_password_dialog_class_init (CcPasswordDialogClass *klass)
 
         object_class->dispose = cc_password_dialog_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/user-accounts/cc-password-dialog.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/user-accounts/cc-password-dialog.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcPasswordDialog, action_radio_box);
         gtk_widget_class_bind_template_child (widget_class, CcPasswordDialog, action_now_radio);

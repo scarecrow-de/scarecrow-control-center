@@ -497,7 +497,7 @@ ce_page_details_class_init (CEPageDetailsClass *klass)
 
         object_class->dispose = ce_page_details_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/network/details-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/details-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageDetails, all_user_check);
         gtk_widget_class_bind_template_child (widget_class, CEPageDetails, auto_connect_check);

@@ -225,7 +225,7 @@ net_connection_editor_class_init (NetConnectionEditorClass *class)
                                       NULL,
                                       G_TYPE_NONE, 1, G_TYPE_BOOLEAN);
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/network/connection-editor.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/connection-editor.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetConnectionEditor, add_connection_box);
         gtk_widget_class_bind_template_child (widget_class, NetConnectionEditor, add_connection_frame);

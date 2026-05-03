@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow_de//control-center/usage">
+  <gresource prefix="/io/github/scarecrow_de/control-center/usage">
     <file preprocess="xml-stripblanks">cc-usage-panel.ui</file>
   </gresource>
 </gresources>

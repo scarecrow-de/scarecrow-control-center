@@ -3,8 +3,8 @@
     "runtime" : "io.github.scarecrow_de.Sdk",
     "runtime-version" : "master",
     "sdk" : "io.github.scarecrow_de.Sdk",
-    "command" : "gnome-control-center",
-    "rename-desktop-file" : "gnome-control-center.desktop",
+    "command" : "scarecrow-control-center",
+    "rename-desktop-file" : "scarecrow-control-center.desktop",
     "tags" : [
         "devel"
     ],
@@ -802,12 +802,12 @@
             ]
         },
         {
-            "name" : "gnome-control-center",
+            "name" : "scarecrow-control-center",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-control-center.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-control-center.git"
                 }
             ],
             "config-opts" : [

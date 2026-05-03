@@ -236,7 +236,7 @@ cc_alert_chooser_class_init (CcAlertChooserClass *klass)
 
   object_class->dispose = cc_alert_chooser_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sound/cc-alert-chooser.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-alert-chooser.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcAlertChooser, bark_button);
   gtk_widget_class_bind_template_child (widget_class, CcAlertChooser, drip_button);

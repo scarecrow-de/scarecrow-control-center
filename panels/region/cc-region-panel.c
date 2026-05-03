@@ -200,7 +200,7 @@ get_needs_restart_file (void)
         g_autofree gchar *path = NULL;
 
         path = g_build_filename (g_get_user_runtime_dir (),
-                                 "gnome-control-center-region-needs-restart",
+                                 "scarecrow-control-center-region-needs-restart",
                                  NULL);
         return g_file_new_for_path (path);
 }
@@ -1553,7 +1553,7 @@ cc_region_panel_class_init (CcRegionPanelClass * klass)
         object_class->constructed = cc_region_panel_constructed;
         object_class->finalize = cc_region_panel_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/region/cc-region-panel.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/region/cc-region-panel.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcRegionPanel, add_input_row);
         gtk_widget_class_bind_template_child (widget_class, CcRegionPanel, alt_next_source);
@@ -1597,7 +1597,7 @@ cc_region_panel_init (CcRegionPanel *self)
                                   G_DBUS_PROXY_FLAGS_NONE,
                                   NULL,
                                   "io.github.scarecrow_de.SessionManager",
-                                  "/io/github/scarecrow_de//SessionManager",
+                                  "/io/github/scarecrow_de/SessionManager",
                                   "io.github.scarecrow_de.SessionManager",
                                   cc_panel_get_cancellable (CC_PANEL (self)),
                                   session_proxy_ready,
