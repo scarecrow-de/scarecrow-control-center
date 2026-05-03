@@ -1975,18 +1975,18 @@ msgstr ""
 msgid "_Stop Hotspot"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #, fuzzy
 msgid "Network"
 msgstr "Cîgirê Toreyê"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 #, fuzzy
 msgid "Network settings"
 msgstr "Mîhengên X bikar bîne"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;"
 msgstr ""
 

@@ -2581,17 +2581,17 @@ msgstr "ನನ್ನ ನೆಲೆ ಜಾಲಬಂಧ"
 msgid "Make available to _other users"
 msgstr "ಇತರೆ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಮಾಡು (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "ಜಾಲಬಂಧ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "ಅಂತರಜಾಲದೊಂದಿಗೆ ನೀವು ಹೇಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತೀರಿ ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"

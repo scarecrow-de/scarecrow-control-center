@@ -2564,7 +2564,7 @@ msgstr "अज्ञात"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
-#: ../capplets/network/gnome-network-properties.c:561
+#: ../capplets/network/scarecrow-network-properties.c:561
 msgid "Default"
 msgstr "मूलभूत"
 
@@ -2770,120 +2770,120 @@ msgstr "माउस"
 msgid "Set your mouse preferences"
 msgstr "अपन माउस क' वरीयतासभ नियत करू"
 
-#: ../capplets/network/gnome-network-properties.c:677
-#: ../capplets/network/gnome-network-properties.c:816
+#: ../capplets/network/scarecrow-network-properties.c:677
+#: ../capplets/network/scarecrow-network-properties.c:816
 msgid "New Location..."
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.c:782
+#: ../capplets/network/scarecrow-network-properties.c:782
 msgid "Location already exists"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "संजाल प्रॉक्सी"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "संजाल प्रॉक्सी वरीयतासभ सेट करू"
 
-#: ../capplets/network/gnome-network-properties.glade.h:1
+#: ../capplets/network/scarecrow-network-properties.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>सीधा इंटरनेट कनेक्शन (_r)</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:2
+#: ../capplets/network/scarecrow-network-properties.glade.h:2
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>होस्ट सूची अनदेखा करू</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:3
+#: ../capplets/network/scarecrow-network-properties.glade.h:3
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>स्वचालित प्रॉक्सी विन्यास (_A)</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:4
+#: ../capplets/network/scarecrow-network-properties.glade.h:4
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b> हस्तचालित प्रॉक्सी विन्यास (_M)</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:5
+#: ../capplets/network/scarecrow-network-properties.glade.h:5
 msgid "<b>_Use authentication</b>"
 msgstr "<b>प्रमाणीकरण प्रयोग करू (_U)</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:6
+#: ../capplets/network/scarecrow-network-properties.glade.h:6
 msgid "Autoconfiguration _URL:"
 msgstr "स्वविन्यास यूआरएल (_U) : "
 
-#: ../capplets/network/gnome-network-properties.glade.h:7
+#: ../capplets/network/scarecrow-network-properties.glade.h:7
 msgid "C_reate"
 msgstr "बनाबू (_r)"
 
-#: ../capplets/network/gnome-network-properties.glade.h:8
+#: ../capplets/network/scarecrow-network-properties.glade.h:8
 msgid "Create New Location"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.glade.h:9
+#: ../capplets/network/scarecrow-network-properties.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "HTTP प्रॉक्सी विवरण"
 
-#: ../capplets/network/gnome-network-properties.glade.h:10
+#: ../capplets/network/scarecrow-network-properties.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "HTTP प्रॉक्सी (_H):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:11
+#: ../capplets/network/scarecrow-network-properties.glade.h:11
 msgid "Ignored Hosts"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.glade.h:12
+#: ../capplets/network/scarecrow-network-properties.glade.h:12
 msgid "Location:"
 msgstr "स्थानः"
 
-#: ../capplets/network/gnome-network-properties.glade.h:13
+#: ../capplets/network/scarecrow-network-properties.glade.h:13
 msgid "Network Proxy Preferences"
 msgstr "संजाल प्रॉक्सी वरीयतासभ "
 
-#: ../capplets/network/gnome-network-properties.glade.h:14
+#: ../capplets/network/scarecrow-network-properties.glade.h:14
 msgid "Port:"
 msgstr "पोर्टः"
 
-#: ../capplets/network/gnome-network-properties.glade.h:15
+#: ../capplets/network/scarecrow-network-properties.glade.h:15
 msgid "Proxy Configuration"
 msgstr "प्रॉक्सी विन्यास"
 
-#: ../capplets/network/gnome-network-properties.glade.h:16
+#: ../capplets/network/scarecrow-network-properties.glade.h:16
 msgid "S_ocks host:"
 msgstr "सॉक्स होस्ट (_o):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:17
+#: ../capplets/network/scarecrow-network-properties.glade.h:17
 msgid "The location already exists."
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.glade.h:18
+#: ../capplets/network/scarecrow-network-properties.glade.h:18
 msgid "U_sername:"
 msgstr "प्रयोक्ता नाम (_s):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:19
+#: ../capplets/network/scarecrow-network-properties.glade.h:19
 msgid "_Delete Location"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.glade.h:20
+#: ../capplets/network/scarecrow-network-properties.glade.h:20
 msgid "_Details"
 msgstr "विवरण (_D)"
 
-#: ../capplets/network/gnome-network-properties.glade.h:21
+#: ../capplets/network/scarecrow-network-properties.glade.h:21
 msgid "_FTP proxy:"
 msgstr "FTP प्रॉक्सी (_F):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:22
+#: ../capplets/network/scarecrow-network-properties.glade.h:22
 msgid "_Location name:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.glade.h:23
+#: ../capplets/network/scarecrow-network-properties.glade.h:23
 msgid "_Password:"
 msgstr "कूटशब्द (_P):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:24
+#: ../capplets/network/scarecrow-network-properties.glade.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "सुरक्षित HTTP प्रॉक्सी (_S):"
 
-#: ../capplets/network/gnome-network-properties.glade.h:25
+#: ../capplets/network/scarecrow-network-properties.glade.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr ""
 

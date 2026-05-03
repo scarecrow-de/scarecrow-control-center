@@ -67,7 +67,7 @@ msgid "Full access to /dev"
 msgstr "/dev へのフルアクセス"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "ネットワーク"
@@ -3349,12 +3349,12 @@ msgstr "SSID(_S)"
 msgid "_BSSID"
 msgstr "BSSID(_B)"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "ネットワークへの接続方法を設定します"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;ネットワーク;イン"

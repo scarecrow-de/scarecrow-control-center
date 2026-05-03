@@ -2163,103 +2163,103 @@ msgstr "Imbeba"
 msgid "Set your mouse preferences"
 msgstr "Imbeba Ibyahiswemo"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 #, fuzzy
 msgid "Set your network proxy preferences"
 msgstr "urusobe Porogisi Ibyahiswemo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 #, fuzzy
 msgid "<b>D_irect internet connection</b>"
 msgstr "<B Interineti Ukwihuza B"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 #, fuzzy
 msgid "<b>Ignore Host List</b>"
 msgstr "<B Ubuturo Urutonde B"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 #, fuzzy
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<B Porogisi Iboneza B"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 #, fuzzy
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<B Porogisi Iboneza B"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 #, fuzzy
 msgid "<b>_Use authentication</b>"
 msgstr "<B B"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 #, fuzzy
 msgid "H_TTP proxy:"
 msgstr "Porogosi ya HTTP"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Impagikiro:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 #, fuzzy
 msgid "Proxy Configuration"
 msgstr "Iboneza rya porogosi..."
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 #, fuzzy
 msgid "S_ocks host:"
 msgstr "Inturo SOCKS:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 #, fuzzy
 msgid "U_sername:"
 msgstr "Izina ry'ukoresha"
 
 # #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
 # #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 #, fuzzy
 msgid "_Details"
 msgstr "Birambuye"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 #, fuzzy
 msgid "_FTP proxy:"
 msgstr "Porogosi ya FTP:"
 
 # basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_PASSWORD.text
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 #, fuzzy
 msgid "_Password:"
 msgstr "Ijambobanga..."
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 #, fuzzy
 msgid "_Secure HTTP proxy:"
 msgstr "Porogisi"

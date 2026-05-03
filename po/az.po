@@ -1973,92 +1973,92 @@ msgstr "Siçan"
 msgid "Set your mouse preferences"
 msgstr "Siçanınızın qurğularını seçin"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Şəbəkə Vəkil Vericisi"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 #, fuzzy
 msgid "Set your network proxy preferences"
 msgstr "Şəbəkə vəkil qurğuları"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 #, fuzzy
 msgid "<b>D_irect internet connection</b>"
 msgstr "<b>_Birbaşa internet bağlantısı</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Avtomatik vəkil quraşdırılması</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Ə_l ilə vəkil quraşdırılması</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Təsdiqləmə işlət</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 #, fuzzy
 msgid "Advanced Configuration"
 msgstr "Avtomatik quraşdırma _URL-si:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "Avtomatik quraşdırma _URL-si:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "HTTP Vəkil Təfərruatları"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "H_TTP vəkil vericisi:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 #, fuzzy
 msgid "Network Proxy Preferences"
 msgstr "Şəbəkə vəkil qurğuları"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Qapı:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 #, fuzzy
 msgid "Proxy Configuration"
 msgstr "Şəbəkə Proksisi Quraşdırması"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "S_ocks qovşağı:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "_İstifadəçi Adı:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Ətraflı"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "_FTP vəkil vericisi:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "_Şifrə:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "_E'tibarlı HTTP vəkil vericisi:"
 

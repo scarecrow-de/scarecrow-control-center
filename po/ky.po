@@ -1621,17 +1621,17 @@ msgstr ""
 msgid "Air_plane Mode"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "Тармак"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr "Тармак параметрлери"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #, fuzzy
 msgid "Network;Wireless;IP;LAN;Proxy;"
 msgstr "Тармак;Wireless;IP;LAN;Прокси;"

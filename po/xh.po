@@ -1965,92 +1965,92 @@ msgstr "Imawusi"
 msgid "Set your mouse preferences"
 msgstr "Misela uluhlu lwakho lokukhetha lwemawusi"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Unxibelelwano lweKhompyutha esebenza njengomqobo"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr ""
 "Misela uluhlu lokukhetha lonxibelelwano lwekhompyutha esbenza njengomqobo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 #, fuzzy
 msgid "<b>D_irect internet connection</b>"
 msgstr "<b>_Unxulumano lwe-intanethi oluthe gqo</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 #, fuzzy
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Sukuluhoya uluhlu lwabaququzeleli</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr ""
 "<b>Ukumiselwa kwenkqubo kwikhompyutha esebenza njengomqobo _ezenzekelayo</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr ""
 "<b>_Ukumiselwa kwenkqubo yoxwebhu kwikhompyutha esebenza njengomqobo</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Sebenzisa uqinisekiso</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr "Ukumiselwa kwenkqubo yekhompyutha okunkqenkqeza phambili"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "I-Autoconfiguration _URL:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "Iinkcukacha zeKhompyutha esebenza njengomqobo ye-HTTP"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "Ikhompyutha esebenza njengomqobo eyi-H_TTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr "Uluhlu lokukhetha loThungelwano lweKhompyutha esebenza njengomqobo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Isiqhakamsheli:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr "UkuMiselwa kwenkqubo kwiKhompyutha esbenza njengomqobo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "Umququzeleli we-S_ocks:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "I_gama lomsebenzisi:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Iinkcukacha"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "Ikhompyutha esebenza njengomqobo i-_FTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "I-_Password:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "_Qinisekisa ikhompyutha esebenza njengomqobo i-HTTP:"
 

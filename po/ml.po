@@ -2464,16 +2464,16 @@ msgid "My Home Network"
 msgstr "എന്റെ ഹോം ശൃംഖല"
 
 #. Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Net­work"
 msgstr "ശൃംഖല"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:3
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:3
 msgid "Control how you connect to the Internet"
 msgstr "ഇന്റെര്‍നെറ്റില്‍ ബന്ധിപ്പിക്കുന്നതെങ്ങനെയെന്ന് തീരുമാനിക്കുന്നു"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:5
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:5
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 

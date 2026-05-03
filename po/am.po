@@ -1954,91 +1954,91 @@ msgstr ""
 msgid "Set your mouse preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 #, fuzzy
 msgid "Set your network proxy preferences"
 msgstr "ሜኑና ቱልባር ምርጫዎች"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>D_irect internet connection</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 #, fuzzy
 msgid "Advanced Configuration"
 msgstr "ጠለቅ ምርጫዎች"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 #, fuzzy
 msgid "Network Proxy Preferences"
 msgstr "የመደቡ ምርጫዎች"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "ፖርት፦"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 #, fuzzy
 msgid "U_sername:"
 msgstr "የተጠቃሚ _ስም፦"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_ዝርዝሮች"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "ሚስጢራዊ _ቃል፦"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr ""
 

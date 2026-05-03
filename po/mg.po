@@ -1985,87 +1985,87 @@ msgstr "Totozy"
 msgid "Set your mouse preferences"
 msgstr "Mamaritra ny safidy manokan'ny totozinao"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Proxy'ny rezo"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Mamaritra ny safidy manokan'ny proxy'ny rezonao"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>Fifandraisana Internet _mivantana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Lisitry ny mpampiantrano tsy raharahaina</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>Fikirakirana proxy mandeha _hoazy</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Fikirakirana proxy ataon-tànana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>Mampi_asà fanamarinana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr "Fikirakirana avo lenta"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "_URL'ny fikirakirana mandeha hoazy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "Antsipirian'ny proxy HTTP"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "Proxy H_TTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr "Safidy manokan'ny proxy'ny rezo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Irika:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr "Kirakiran'ny proxy"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "Mpampiantrano S_ocks:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "Anaran'ny _mpampiasa:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Antsipiriany"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "Proxy _FTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "_Teny fanalahidy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "Proxy HTTP azo _antoka:"
 

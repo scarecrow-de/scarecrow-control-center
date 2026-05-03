@@ -55,7 +55,7 @@ msgstr "Plný prístup k adresáru /dev"
 
 # desktop entry name
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Sieť"
@@ -3793,12 +3793,12 @@ msgid "_BSSID"
 msgstr "Identifikátor základnej obsluhy (_BSSID)"
 
 # desktop entry comment
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Ovláda spôsob pripojenia k internetu"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "sieť;IP;LAN;proxy;sprostredkovateľ;WAN;širokopásmové;modem;Bluetooth;vpn;DNS;"

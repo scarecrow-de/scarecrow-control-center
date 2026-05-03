@@ -53,7 +53,7 @@ msgid "Full access to /dev"
 msgstr "Дастрасии пурра ба /dev"
 
 #: panels/applications/cc-applications-panel.c:573
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Шабака"
@@ -3185,12 +3185,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Идора кунед, ки шумо чӣ тавр ба Интернет пайваст мешавед"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 #, fuzzy
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"

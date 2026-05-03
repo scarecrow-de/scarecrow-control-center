@@ -1975,87 +1975,87 @@ msgstr "Llygoden"
 msgid "Set your mouse preferences"
 msgstr "Gosodwch eich hoffterau llygoden"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Dirprwy Rhwydwaith"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Gosod eich hoffterau dirprwy rhwydwaith"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>_Cysylltiad Rhyngrwyd uniongyrchol</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Anwybyddu Rhestr Gwesteiwyr</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>Cyfluniad dirprwy _awtomatig</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Cyflunio dirprwy â _llaw</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Defnyddio dilysiant</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr "Cyfluniad Uwch"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "_URL cyfluniad awtomatig:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "Manylion dirprwy HTTP"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "Dirprwy _HTTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr "Hoffterau Dirprwy Rhwydwaith"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Porth:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr "Cyfluniad Dirprwy"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "Gweinydd S_ocks:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "_Enw Defnyddiwr:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Manylion"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "Dirprwy _FTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "_Cyfrinair:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "Dirprwy HTTP _Diogel:"
 

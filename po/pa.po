@@ -49,7 +49,7 @@ msgid "Full access to /dev"
 msgstr "/dev ਲਈ ਪੂਰੀ ਪਹੁੰਚ"
 
 #: panels/applications/cc-applications-panel.c:747
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "ਨੈੱਟਵਰਕ"
@@ -3538,12 +3538,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "ਕੰਟਰੋਲ ਕਰੋ ਕਿ ਇੰਟਰਨੈੱਟ ਨਾਲ ਤੁਸੀਂ ਕਿਵੇਂ ਕਨੈਕਟ ਹੋ"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "ਨੈੱਟਵਰਕ;ਆਈਪੀ;ਬਰਾਡਬੈਂਡ;ਮਾਡਮ;ਬਲੂਟੁੱਥ;ਬਲੂਟੁੱਥ;ਵੀਪੀਐਨ;ਪਰਾਕਸੀ;ਵੈਨ;ਮੌਡਮ;ਡੀਐਨਐਸ;"

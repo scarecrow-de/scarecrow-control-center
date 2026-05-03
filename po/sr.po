@@ -51,7 +51,7 @@ msgid "Full access to /dev"
 msgstr "Пун приступ фасцикли /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:288
 msgid "Network"
 msgstr "Мрежа"
@@ -3380,12 +3380,12 @@ msgstr "_ССИД"
 msgid "_BSSID"
 msgstr "_БССИД"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Управљајте вашим повезивањем на Интернет"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "мрежа;ИП;ЛАН;прокси;посредник;ВАН;броадбенд;широкопојасни;модем;блутут;впн;"

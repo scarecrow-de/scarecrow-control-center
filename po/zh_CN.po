@@ -70,7 +70,7 @@ msgid "Full access to /dev"
 msgstr "对 /dev 的完全访问"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "网络"
@@ -3295,12 +3295,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "控制连接到互联网的方式"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;网络;互联网协议;局"

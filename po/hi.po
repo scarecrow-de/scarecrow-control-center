@@ -2685,17 +2685,17 @@ msgstr "मेरा घर संजाल"
 msgid "Make available to _other users"
 msgstr "अन्य उपयोगकर्ताओं के लिए उपलब्ध है (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "नेटवर्क"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "नियंत्रित करें कैसे आप इंटरनेट से कनेक्ट होते हैं"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 msgid ""

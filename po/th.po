@@ -2532,16 +2532,16 @@ msgid "Make available to _other users"
 msgstr "เปิดให้ผู้ใ_ช้อื่นใช้ด้วย"
 
 #. Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Net­work"
 msgstr "เครือ­ข่าย"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:3
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:3
 msgid "Control how you connect to the Internet"
 msgstr "ควบคุมวิธีการเชื่อมต่อกับอินเทอร์เน็ตของคุณ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:5
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:5
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"

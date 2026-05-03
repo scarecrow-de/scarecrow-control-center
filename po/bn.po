@@ -1443,7 +1443,7 @@ msgstr "স্থানীয়"
 
 #. Translators: Network means network printers
 #: ../panels/printers/pp-new-printer-dialog.c:671
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 msgid "Network"
 msgstr "নেটওয়ার্ক"
 
@@ -1848,12 +1848,12 @@ msgstr "%s VPN"
 msgid "The system network services are not compatible with this version."
 msgstr "এই সংস্করণের সাথে সিস্টেম নেটওয়ার্ক সার্ভিস সামঞ্জস্যপূর্ণ নয়।"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr "নেটওয়ার্ক সেটিং"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;"
 msgstr "নেটওয়ার্ক;ওয়ারলেস;IP;LAN;"
 

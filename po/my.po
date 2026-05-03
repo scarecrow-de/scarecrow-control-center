@@ -2612,7 +2612,7 @@ msgid "Models"
 msgstr "အမျိုးအစားများ"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
-#: ../capplets/network/gnome-network-properties.c:581
+#: ../capplets/network/scarecrow-network-properties.c:581
 msgid "Default"
 msgstr "မူလပုံစံ"
 
@@ -2816,120 +2816,120 @@ msgstr "မောက်(စ်)"
 msgid "Set your mouse preferences"
 msgstr "မောက်(စ်)လိုလားချက်များကို သတ်မှတ်ပါ"
 
-#: ../capplets/network/gnome-network-properties.c:699
-#: ../capplets/network/gnome-network-properties.c:850
+#: ../capplets/network/scarecrow-network-properties.c:699
+#: ../capplets/network/scarecrow-network-properties.c:850
 msgid "New Location..."
 msgstr "တည်နေရာအသစ်"
 
-#: ../capplets/network/gnome-network-properties.c:816
+#: ../capplets/network/scarecrow-network-properties.c:816
 msgid "Location already exists"
 msgstr "တည်နေရာသတ်မှတ်ထားပြီး"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "ကွန်ရက် ကြားခံ"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "ကွန်ရက် ကြားခံလိုလားချက်ကိုသတ်မှတ်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:1
+#: ../capplets/network/scarecrow-network-properties.ui.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>_R အင်တာနက်ကိုတိုက်ရိုက်ချိတ်ခြင်း</b>"
 
-#: ../capplets/network/gnome-network-properties.ui.h:2
+#: ../capplets/network/scarecrow-network-properties.ui.h:2
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_A ကြားခံကိုအလိုအလျောက်သတ်မှတ်ခြင်း</b>"
 
-#: ../capplets/network/gnome-network-properties.ui.h:3
+#: ../capplets/network/scarecrow-network-properties.ui.h:3
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "_M စိတ်ကြိုက်ကြားခံသတ်မှတ်ခြင်း"
 
-#: ../capplets/network/gnome-network-properties.ui.h:4
+#: ../capplets/network/scarecrow-network-properties.ui.h:4
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_U အသိအမှတ်ပြုခြင်း</b>"
 
-#: ../capplets/network/gnome-network-properties.ui.h:5
+#: ../capplets/network/scarecrow-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "_U အလိုအလျောက် URL သတ်မှတ်ခြင်း"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/scarecrow-network-properties.ui.h:6
 msgid "C_reate"
 msgstr "_R ထည့်သွင်း"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/scarecrow-network-properties.ui.h:7
 msgid "Create New Location"
 msgstr "နေရာအသစ်ထည့်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/scarecrow-network-properties.ui.h:8
 msgid "HTTP Proxy Details"
 msgstr "HTTP ကြားခံအသေးစိတ်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/scarecrow-network-properties.ui.h:9
 msgid "H_TTP proxy:"
 msgstr "_T HTTP ကြားခံ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/scarecrow-network-properties.ui.h:10
 msgid "Ignore Host List"
 msgstr "အသုံးမပြုသည့် အခြေစိုက်စာရင်း"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/scarecrow-network-properties.ui.h:11
 msgid "Ignored Hosts"
 msgstr "အသုံးမပြုသည့် အခြေစိုက်များ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/scarecrow-network-properties.ui.h:12
 msgid "Location:"
 msgstr "တည်နေရာ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/scarecrow-network-properties.ui.h:13
 msgid "Network Proxy Preferences"
 msgstr "နက်ဝက် ကြားခံလိုလားချက် သတ်မှတ်ရန်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/scarecrow-network-properties.ui.h:14
 msgid "Port:"
 msgstr "ဆက်သွယ်ပေါက်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/scarecrow-network-properties.ui.h:15
 msgid "Proxy Configuration"
 msgstr "ကြားခံ သတ်မှတ်ခြင်း"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/scarecrow-network-properties.ui.h:16
 msgid "S_ocks host:"
 msgstr "_O Socks အခြေစိုက်ရာ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/scarecrow-network-properties.ui.h:17
 msgid "The location already exists."
 msgstr "တည်နေရာကိုထည့်သွင်းပြီသားဖြစ်သည်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/scarecrow-network-properties.ui.h:18
 msgid "U_sername:"
 msgstr "_S အသုံးပြုအမည်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/scarecrow-network-properties.ui.h:19
 msgid "_Delete Location"
 msgstr "_D တည်နေရာကိုဖျက်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/scarecrow-network-properties.ui.h:20
 msgid "_Details"
 msgstr "_D အသေးစိတ်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/scarecrow-network-properties.ui.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP ကြားခံ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/scarecrow-network-properties.ui.h:22
 msgid "_Location name:"
 msgstr "_L တည်နေရာ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/scarecrow-network-properties.ui.h:23
 msgid "_Password:"
 msgstr "_P စကားဝှက်"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/scarecrow-network-properties.ui.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "_S HTTPs ကြားခံ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:25
+#: ../capplets/network/scarecrow-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_U ပရိုတိုကောအားလုံးအတွက် ကြားခံ တစ်မျိုးသာသုံးမည်"
 

@@ -1653,17 +1653,17 @@ msgstr "សេវា​បណ្ដាញ​ប្រព័ន្ធ​មិន
 msgid "Air_plane Mode"
 msgstr "នៅ​ពេល​ជិះ​យន្ដហោះ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "បណ្ដាញ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr "ការ​កំណត់​បណ្ដាញ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;Proxy;"
 msgstr "Network;Wireless;IP;LAN;Proxy;"
 

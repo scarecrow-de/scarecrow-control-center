@@ -2657,7 +2657,7 @@ msgstr "Nieviadomy"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
-#: ../capplets/network/gnome-network-properties.c:561
+#: ../capplets/network/scarecrow-network-properties.c:561
 msgid "Default"
 msgstr "Zmoŭčanaja"
 
@@ -2864,120 +2864,120 @@ msgstr "Myš"
 msgid "Set your mouse preferences"
 msgstr "Abiary nałady myšy"
 
-#: ../capplets/network/gnome-network-properties.c:677
-#: ../capplets/network/gnome-network-properties.c:816
+#: ../capplets/network/scarecrow-network-properties.c:677
+#: ../capplets/network/scarecrow-network-properties.c:816
 msgid "New Location..."
 msgstr "_Novaje pałažeńnie..."
 
-#: ../capplets/network/gnome-network-properties.c:782
+#: ../capplets/network/scarecrow-network-properties.c:782
 msgid "Location already exists"
 msgstr "Takoje pałažeńnie ŭžo isnuje"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Sietkavy proxy"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Abiary nałady sietkavaha proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:1
+#: ../capplets/network/scarecrow-network-properties.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>_Pramoje internetnaje spałučeńnie</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:2
+#: ../capplets/network/scarecrow-network-properties.glade.h:2
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Śpis ihnaravanych hostaŭ</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:3
+#: ../capplets/network/scarecrow-network-properties.glade.h:3
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Autamatyčnaja kanfihuracyja proxy</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:4
+#: ../capplets/network/scarecrow-network-properties.glade.h:4
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>_Ručnaja kanfihuracyja proxy</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:5
+#: ../capplets/network/scarecrow-network-properties.glade.h:5
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Užyvaj aŭtaryzacyju</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:6
+#: ../capplets/network/scarecrow-network-properties.glade.h:6
 msgid "Autoconfiguration _URL:"
 msgstr "_URL aŭtamatyčnaj kanfihuracyi:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:7
+#: ../capplets/network/scarecrow-network-properties.glade.h:7
 msgid "C_reate"
 msgstr "_Stvary"
 
-#: ../capplets/network/gnome-network-properties.glade.h:8
+#: ../capplets/network/scarecrow-network-properties.glade.h:8
 msgid "Create New Location"
 msgstr "Stvary novaje pałažeńnie"
 
-#: ../capplets/network/gnome-network-properties.glade.h:9
+#: ../capplets/network/scarecrow-network-properties.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "Detali HTTP-proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:10
+#: ../capplets/network/scarecrow-network-properties.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "_HTTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:11
+#: ../capplets/network/scarecrow-network-properties.glade.h:11
 msgid "Ignored Hosts"
 msgstr "Śpis ihnaravanych hostaŭ"
 
-#: ../capplets/network/gnome-network-properties.glade.h:12
+#: ../capplets/network/scarecrow-network-properties.glade.h:12
 msgid "Location:"
 msgstr "Pałažeńnie:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:13
+#: ../capplets/network/scarecrow-network-properties.glade.h:13
 msgid "Network Proxy Preferences"
 msgstr "Nałady sietkavaha proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:14
+#: ../capplets/network/scarecrow-network-properties.glade.h:14
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:15
+#: ../capplets/network/scarecrow-network-properties.glade.h:15
 msgid "Proxy Configuration"
 msgstr "Kanfihuracyja proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:16
+#: ../capplets/network/scarecrow-network-properties.glade.h:16
 msgid "S_ocks host:"
 msgstr "S_ocks-host:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:17
+#: ../capplets/network/scarecrow-network-properties.glade.h:17
 msgid "The location already exists."
 msgstr "Takoje pałažeńnie ŭžo isnuje."
 
-#: ../capplets/network/gnome-network-properties.glade.h:18
+#: ../capplets/network/scarecrow-network-properties.glade.h:18
 msgid "U_sername:"
 msgstr "Nazva _karystalnika:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:19
+#: ../capplets/network/scarecrow-network-properties.glade.h:19
 msgid "_Delete Location"
 msgstr "_Vydali pałažeńnie"
 
-#: ../capplets/network/gnome-network-properties.glade.h:20
+#: ../capplets/network/scarecrow-network-properties.glade.h:20
 msgid "_Details"
 msgstr "_Detali"
 
-#: ../capplets/network/gnome-network-properties.glade.h:21
+#: ../capplets/network/scarecrow-network-properties.glade.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:22
+#: ../capplets/network/scarecrow-network-properties.glade.h:22
 msgid "_Location name:"
 msgstr "_Nazva pałažeńnia:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:23
+#: ../capplets/network/scarecrow-network-properties.glade.h:23
 msgid "_Password:"
 msgstr "_Parol:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:24
+#: ../capplets/network/scarecrow-network-properties.glade.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "_Biaśpiečny HTTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:25
+#: ../capplets/network/scarecrow-network-properties.glade.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Užyj adzin i toj ža proxy dla ŭsich pratakołaŭ"
 

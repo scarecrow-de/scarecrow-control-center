@@ -2627,17 +2627,17 @@ msgstr "నా హోమ్ నెట్వర్కు"
 msgid "Make available to _other users"
 msgstr "ఇతర వాడుకరులకు అందుబాటులో వుంచు (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "నెట్‌వర్క్"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "మీరు యింటర్నెట్‌కు యెలా అనుసంధానం కావాలో నియంత్రించు"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 #| "vpn;vlan;bridge;bond;"

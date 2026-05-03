@@ -2405,87 +2405,87 @@ msgstr "མཱའུསི།"
 msgid "Set your mouse preferences"
 msgstr "ཁྱོད་རའི་མཱའུསི་གི་ དགའ་གདམ་ཚུ་ གཞི་སྒྲིག་འབད།"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "ཡོངས་འབྲེལ་གྱི་ པོརོག་སི།"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "ཁྱོད་རའི་ཡོངས་འབྲེལ་གྱི་ པོརོག་སི་དགའ་གདམ་ཚུ་ གཞི་སྒྲིག་འབད།"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>ཨིན་ཊར་ནེཊི་གི་ ཐད་ཀར་མཐུད་ལམ་</b>(_i)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>ཧོསིཊི་ཐོ་ཡིག་ སྣང་མེད་བཞག་</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>རང་བཞིན་པོརོག་སི་རིམ་སྒྲིག་</b>(_A)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>ལག་དེབ་ཀྱི་ པོརོག་སི་རིམ་སྒྲིག་</b>(_M)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Use authentication</b>"
 msgstr "<b>བདེན་བཤད་ལག་ལེན་འཐབ་</b>(_U)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "Advanced Configuration"
 msgstr "མཐོ་རིམ་ཅན་གྱི་རིམ་སྒྲིག"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Autoconfiguration _URL:"
 msgstr "རང་བཞིན་རིམ་སྒྲིག་ ཡུ་ཨར་ཨེལ།(_U)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "HTTP Proxy Details"
 msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་གི་ རྒྱས་བཤད་ཚུ།"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "H_TTP proxy:"
 msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་:།(_T)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "Network Proxy Preferences"
 msgstr "ཡོངས་འབྲེལ་ པོརོག་སི་གི་དགའ་གདམ་ཚུ།"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Port:"
 msgstr "འདྲེན་ལམ་:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Proxy Configuration"
 msgstr "པོརོག་སི་རིམ་སྒྲིག"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "S_ocks host:"
 msgstr "སོཀསི་ ཧོསིཊི་:(_o)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "U_sername:"
 msgstr "ལག་ལེན་པའི་མིང་:(_s)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "_Details"
 msgstr "རྒྱས་བཤད་ཚུ།(_D)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_FTP proxy:"
 msgstr "ཨེཕ་ཊི་པི་ པོརོག་སི་:(_F)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_Password:"
 msgstr "ཆོག་ཡིག་:(_P)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Secure HTTP proxy:"
 msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་མཐའ་བཙན་བཟོ:(_S)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Use the same proxy for all protocols"
 msgstr "གནད་སྤེལ་ལམ་ལུགས་ཚུ་ཆ་མཉམ་གྱི་དོན་ལུ་ པོརོ་སི་གཅིག་པ་འདི་ལག་ལེན་འཐབ་ (_U)"
 

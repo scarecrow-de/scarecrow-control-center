@@ -2647,17 +2647,17 @@ msgstr "ନିଜସ୍ୱ ନେଟୱର୍କ"
 msgid "Make available to _other users"
 msgstr "ଅନ୍ୟ ଚାଳକ ମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧକରାନ୍ତୁ (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "ନେଟୱର୍କ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "ଇଣ୍ଟରନେଟ ସହିତ କିପରି ସଂଯୁକ୍ତ କରିବେ ତାହା ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 #| "vpn;vlan;bridge;bond;"

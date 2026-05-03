@@ -2771,18 +2771,18 @@ msgstr "મારું ઘર નેટવર્ક"
 msgid "Make available to _other users"
 msgstr "બીજા વપરાશકર્તાઓને ઉપલબ્ધ બનાવો (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "નેટવર્ક"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 #| msgid "Not connected to the internet."
 msgid "Control how you connect to the Internet"
 msgstr "તમે કેવી રીતે ઇન્ટરનેટ સાથે જોડાવે તેને નિયંત્રિત કરો"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"

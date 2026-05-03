@@ -1989,16 +1989,16 @@ msgstr "¿Detener el «hotspot» y desconeutar a los usuarios?"
 msgid "_Stop Hotspot"
 msgstr "_Detener «hotspot»"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 msgid "Network"
 msgstr "Rede"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr "Configuración de la rede"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;"
 msgstr "rede;inalámbrica;ip;lan;"
 

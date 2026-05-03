@@ -2661,22 +2661,22 @@ msgstr "_BSSID"
 msgid "My Home Network"
 msgstr "Huisnetwerk"
 
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Netwerk"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Bepaal hoe om te koppel aan die internet"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: panels/network/gnome-network-panel.desktop.in.in:7
+#: panels/network/scarecrow-network-panel.desktop.in.in:7
 msgid "network-workgroup"
 msgstr ""
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"

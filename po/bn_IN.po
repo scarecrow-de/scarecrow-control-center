@@ -60,7 +60,7 @@ msgstr "/dev এ সম্পূর্ণ অ্যাক্সেস"
 
 # auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "নেটওয়ার্ক"
@@ -3402,12 +3402,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "ইন্টারনেটের সংগে আপনার সংযোগের ধরন নিয়ন্ত্রণ করুন"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "নেটওয়ার্ক;আইপি;LAN;প্রক্সি;WAN;ব্রডব্যান্ড;মোডেম;ব্লুটুথ;VPN;ডিএনএস;"
 

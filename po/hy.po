@@ -1254,7 +1254,7 @@ msgid "Models"
 msgstr "Մոդելներ"
 
 #: ../panels/keyboard/gnome-keyboard-properties-xkbot.c:233
-#: ../panels/network/gnome-network-properties.c:582
+#: ../panels/network/scarecrow-network-properties.c:582
 msgid "Default"
 msgstr "Նախնական"
 
@@ -1474,120 +1474,120 @@ msgstr "Մկնիկ"
 msgid "Set your mouse preferences"
 msgstr "Կարգավորել մկնիկի նախընտրությունները"
 
-#: ../panels/network/gnome-network-properties.c:700
-#: ../panels/network/gnome-network-properties.c:851
+#: ../panels/network/scarecrow-network-properties.c:700
+#: ../panels/network/scarecrow-network-properties.c:851
 msgid "New Location..."
 msgstr "Նոր տեղակայություն..."
 
-#: ../panels/network/gnome-network-properties.c:817
+#: ../panels/network/scarecrow-network-properties.c:817
 msgid "Location already exists"
 msgstr "Տեղակայությունն արդեն գոյություն ունի"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Ցանցի պրոքսի"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Կարգավորել ցանցի պրոքսիի նախընտրությունները"
 
-#: ../panels/network/gnome-network-properties.ui.h:1
+#: ../panels/network/scarecrow-network-properties.ui.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>Ու_ղիղ համացանցային կապ</b>"
 
-#: ../panels/network/gnome-network-properties.ui.h:2
+#: ../panels/network/scarecrow-network-properties.ui.h:2
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Ավտոմատ պրոքսի կոնֆիգուրացիա</b>"
 
-#: ../panels/network/gnome-network-properties.ui.h:3
+#: ../panels/network/scarecrow-network-properties.ui.h:3
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>_Ձեռքով պրոքսի կոնֆիգուրացիա</b>"
 
-#: ../panels/network/gnome-network-properties.ui.h:4
+#: ../panels/network/scarecrow-network-properties.ui.h:4
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Օգտագործել վավերացումը</b>"
 
-#: ../panels/network/gnome-network-properties.ui.h:5
+#: ../panels/network/scarecrow-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "Վավերացում _URL՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:6
+#: ../panels/network/scarecrow-network-properties.ui.h:6
 msgid "C_reate"
 msgstr "Ս_տեղծել"
 
-#: ../panels/network/gnome-network-properties.ui.h:7
+#: ../panels/network/scarecrow-network-properties.ui.h:7
 msgid "Create New Location"
 msgstr "Ստեղծել նոր տեղակայություն"
 
-#: ../panels/network/gnome-network-properties.ui.h:8
+#: ../panels/network/scarecrow-network-properties.ui.h:8
 msgid "HTTP Proxy Details"
 msgstr "HTTP պրոքսի մանրամասներ"
 
-#: ../panels/network/gnome-network-properties.ui.h:9
+#: ../panels/network/scarecrow-network-properties.ui.h:9
 msgid "H_TTP proxy:"
 msgstr "H_TTP պրոքսի՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:10
+#: ../panels/network/scarecrow-network-properties.ui.h:10
 msgid "Ignore Host List"
 msgstr "Անտեսել հոսթի ցուցակը"
 
-#: ../panels/network/gnome-network-properties.ui.h:11
+#: ../panels/network/scarecrow-network-properties.ui.h:11
 msgid "Ignored Hosts"
 msgstr "Անտեսված հոսթեր"
 
-#: ../panels/network/gnome-network-properties.ui.h:12
+#: ../panels/network/scarecrow-network-properties.ui.h:12
 msgid "Location:"
 msgstr "Տեղակայություն՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:13
+#: ../panels/network/scarecrow-network-properties.ui.h:13
 msgid "Network Proxy Preferences"
 msgstr "Ցանցի պրոքսիի նախընտրություններ"
 
-#: ../panels/network/gnome-network-properties.ui.h:14
+#: ../panels/network/scarecrow-network-properties.ui.h:14
 msgid "Port:"
 msgstr "Պորտ՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:15
+#: ../panels/network/scarecrow-network-properties.ui.h:15
 msgid "Proxy Configuration"
 msgstr "Պրոքսի կոնֆիգուրացիա"
 
-#: ../panels/network/gnome-network-properties.ui.h:16
+#: ../panels/network/scarecrow-network-properties.ui.h:16
 msgid "S_ocks host:"
 msgstr "S_ocks հոսթ՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:17
+#: ../panels/network/scarecrow-network-properties.ui.h:17
 msgid "The location already exists."
 msgstr "Տեղանքն արդեն գոյություն ունի։"
 
-#: ../panels/network/gnome-network-properties.ui.h:18
+#: ../panels/network/scarecrow-network-properties.ui.h:18
 msgid "U_sername:"
 msgstr "Օ_գտագործողի անունը՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:19
+#: ../panels/network/scarecrow-network-properties.ui.h:19
 msgid "_Delete Location"
 msgstr "_Ջնջել տեղակայությունը"
 
-#: ../panels/network/gnome-network-properties.ui.h:20
+#: ../panels/network/scarecrow-network-properties.ui.h:20
 msgid "_Details"
 msgstr "_Մանրամասներ"
 
-#: ../panels/network/gnome-network-properties.ui.h:21
+#: ../panels/network/scarecrow-network-properties.ui.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP պրոքսի՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:22
+#: ../panels/network/scarecrow-network-properties.ui.h:22
 msgid "_Location name:"
 msgstr "_Տեղակայության անվանումը՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:23
+#: ../panels/network/scarecrow-network-properties.ui.h:23
 msgid "_Password:"
 msgstr "_Գաղտնաբառ՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:24
+#: ../panels/network/scarecrow-network-properties.ui.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "_Ապահովել HTTP պրոքսի՝"
 
-#: ../panels/network/gnome-network-properties.ui.h:25
+#: ../panels/network/scarecrow-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Միևնույն պրոքսին օգտագործել բոլոր պրոտոկոլների համար"
 
