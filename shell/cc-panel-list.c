@@ -394,7 +394,6 @@ static const gchar * const panel_order[] = {
   "search",
   "applications",
   "privacy",
-  "online-accounts",
   "sharing",
 
   /* Privacy page */
