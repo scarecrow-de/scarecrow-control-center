@@ -1107,7 +1107,7 @@ join_init (CcAddUserDialog *self)
         builder = gtk_builder_new ();
 
         if (!gtk_builder_add_from_resource (builder,
-                                            "/org/gnome/control-center/user-accounts/join-dialog.ui",
+                                            "/io/github/scarecrow_de//control-center/user-accounts/join-dialog.ui",
                                             &error)) {
                 g_error ("%s", error->message);
                 g_error_free (error);
@@ -1703,7 +1703,7 @@ cc_add_user_dialog_class_init (CcAddUserDialogClass *klass)
         object_class->dispose = cc_add_user_dialog_dispose;
         object_class->finalize = cc_add_user_dialog_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/user-accounts/cc-add-user-dialog.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/user-accounts/cc-add-user-dialog.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcAddUserDialog, add_button);
         gtk_widget_class_bind_template_child (widget_class, CcAddUserDialog, enterprise_button);

@@ -73,7 +73,7 @@ gtp_dynamic_panel_class_init (GtpDynamicPanelClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/tests/panels/gtp-dynamic-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/tests/panels/gtp-dynamic-panel.ui");
 
   gtk_widget_class_bind_template_callback (widget_class, on_button_clicked_cb);
 }

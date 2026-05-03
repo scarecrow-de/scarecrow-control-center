@@ -56,7 +56,7 @@ cc_permission_infobar_class_init (CcPermissionInfobarClass *klass)
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/control-center/"
+                                               "/io/github/scarecrow_de/control-center/"
                                                "common/cc-permission-infobar.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcPermissionInfobar, lock_button);

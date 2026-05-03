@@ -1035,11 +1035,11 @@ msgstr "സമയം, തിയ്യതി, സമയമേഖലയടക്�
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "സിസ്റ്റത്തിന്റെ സമയം, തീയതി മാറ്റുക"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "സമയം അല്ലെങ്കില്‍ തീയതി സജ്ജീകരണങ്ങള്‍ മാറ്റുന്നതിനായി, ആധികാരികത ഉറപ്പാക്കുക."
 
@@ -5072,11 +5072,11 @@ msgstr "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;ph
 msgid "Networks"
 msgstr "ശൃംഖല"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "വിദൂര പ്രവേശിക്കല്‍ പ്രവര്‍ത്തനസജ്ജം/രഹിതം ആക്കുക"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "വിദൂര പ്രവേശനം പ്രവര്‍ത്തനസജ്ജമാക്കാന്‍/രഹിതമാക്കാന്‍ ആധികാരികത ഉറപ്പ് വരുത്തേണ്ടതുണ്ട്"
 
@@ -6147,11 +6147,11 @@ msgstr "അവസാന പ്രവേശനം"
 msgid "Remove User…"
 msgstr "ഉപയോക്താവിനെ കളയുക…"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "ഉപയോക്തൃ അക്കൗണ്ടുകള്‍ കൈകാര്യം ചെയ്യുക"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ഉപയോക്താവിനുള്ള ഡേറ്റാ മാറ്റുന്നതിനായി ആധികാരികത ഉറപ്പ് വരുത്തല്‍ ആവശ്യമുണ്ട്"
 
@@ -9594,12 +9594,12 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgstr "രംഗവിതാനത്തിന്റെ യന്ത്രത്തെ ഇന്‍സ്റ്റോള്‍ ചെയ്യാന്‍ കഴിഞ്ഞില്ല"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a "
 #~ "problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with "
 #~ "the GNOME settings manager."
 #~ msgstr ""
-#~ "'gnome-settings-daemon' ക്രമീകരണ മാനേജര്‍ തുടങ്ങാന്‍ കഴിഞ്ഞില്ല.\n"
+#~ "'scarecrow-settings-daemon' ക്രമീകരണ മാനേജര്‍ തുടങ്ങാന്‍ കഴിഞ്ഞില്ല.\n"
 #~ "ഗ്നോം ക്രമീകരണ മാനേജര്‍ പ്രവര്‍ത്തിക്കാതെ ചില മുന്‍ഗണനകള്‍ പ്രാവര്‍ത്തികമാക്കാനാവില്ല. ഇത്  DBus അല്ലെങ്കില്‍ ഗ്നോമല്ലാത്ത (ഉദാഃ "
 #~ "കെഡിഇ)  ക്രമീകരണ മാനേജറോ ഇപ്പോള്‍ സജീവമാണെന്നോ ഗ്നോം ക്രമീകരണ മാനേജറുമായി ഇടഞ്ഞുനില്‍ക്കുകയാണെന്നോ കാണിക്കുന്നു."
 

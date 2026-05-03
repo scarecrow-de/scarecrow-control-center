@@ -1396,7 +1396,7 @@ msgstr ""
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
@@ -2121,7 +2121,7 @@ msgid "Could not get session bus while applying display configuration"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1778
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1824

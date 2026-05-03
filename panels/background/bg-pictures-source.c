@@ -30,7 +30,7 @@
 #include <cairo-gobject.h>
 #include <gio/gio.h>
 #include <grilo.h>
-#include <libgnome-desktop/gnome-desktop-thumbnail.h>
+#include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 #include <gdesktop-enums.h>
 
 #define ATTRIBUTES G_FILE_ATTRIBUTE_STANDARD_NAME "," \

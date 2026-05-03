@@ -145,7 +145,7 @@ cc_info_row_class_init (CcInfoRowClass *klass)
   object_class->get_property = cc_info_row_get_property;
   object_class->set_property = cc_info_row_set_property;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/applications/cc-info-row.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/applications/cc-info-row.ui");
 
   g_object_class_install_property (object_class,
                                    PROP_TITLE,

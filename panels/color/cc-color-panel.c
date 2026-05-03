@@ -126,7 +126,7 @@ enum {
 };
 
 #define COLORD_SETTINGS_SCHEMA                          "org.freedesktop.ColorHelper"
-#define GCM_SETTINGS_SCHEMA                             "org.gnome.settings-daemon.plugins.color"
+#define GCM_SETTINGS_SCHEMA                             "io.github.scarecrow_de.settings-daemon.plugins.color"
 #define GCM_SETTINGS_RECALIBRATE_PRINTER_THRESHOLD      "recalibrate-printer-threshold"
 #define GCM_SETTINGS_RECALIBRATE_DISPLAY_THRESHOLD      "recalibrate-display-threshold"
 
@@ -1942,7 +1942,7 @@ cc_color_panel_class_init (CcColorPanelClass *klass)
   object_class->dispose = cc_color_panel_dispose;
   object_class->finalize = cc_color_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/color/cc-color-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/color/cc-color-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcColorPanel, assistant_calib);
   gtk_widget_class_bind_template_child (widget_class, CcColorPanel, box_calib_brightness);

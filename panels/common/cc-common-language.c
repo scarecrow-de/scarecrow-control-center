@@ -30,7 +30,7 @@
 #include <fontconfig/fontconfig.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/gnome-languages.h>
 
 #include "cc-common-language.h"
 #include "shell/cc-object-storage.h"

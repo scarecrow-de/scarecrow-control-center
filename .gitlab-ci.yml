@@ -28,7 +28,7 @@ variables:
     glib2-devel
     gobject-introspection-devel
     gnome-bluetooth-libs-devel
-    gnome-desktop3-devel
+    scarecrow-desktop3-devel
     gnome-online-accounts-devel
     gnome-settings-daemon-devel
     grilo-devel
@@ -218,13 +218,13 @@ flatpak:
     expire_in: 7 days
 
   variables:
-    OLD_APPID: "org.gnome.Settings"
-    APPID: "org.gnome.SettingsDevel"
-    BUNDLE: "org.gnome.SettingsDevel.flatpak"
-    MANIFEST_PATH: "org.gnome.Settings.json"
+    OLD_APPID: "io.github.scarecrow_de.Settings"
+    APPID: "io.github.scarecrow_de.SettingsDevel"
+    BUNDLE: "io.github.scarecrow_de.SettingsDevel.flatpak"
+    MANIFEST_PATH: "io.github.scarecrow_de.Settings.json"
     PATCHES: "build-aux/flatpak/*.patch"
-    PROJECT_FILE: "build-aux/flatpak/org.gnome.Settings.json"
-    PROJECT_ID: "org.gnome.Settings"
+    PROJECT_FILE: "build-aux/flatpak/io.github.scarecrow_de.Settings.json"
+    PROJECT_ID: "io.github.scarecrow_de.Settings"
     PROJECT_NAME: "gnome-control-center.git"
     RUNTIME_REPO: "https://sdk.gnome.org/gnome-nightly.flatpakrepo"
 

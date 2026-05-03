@@ -787,7 +787,7 @@ msgstr "Imisusire"
 
 #: ../capplets/background/gnome-wp-capplet.c:74
 #: ../capplets/common/capplet-util.c:340
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:333
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:333
 #, fuzzy, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Ikosa Ifashayobora"
@@ -851,7 +851,7 @@ msgstr[1] ""
 #: ../capplets/common/activate-settings-daemon.c:18
 #, fuzzy
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
@@ -2863,20 +2863,20 @@ msgstr ""
 msgid "The GNOME configuration tool"
 msgstr "Iboneza"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
+#: ../scarecrow-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
 msgstr "Igice"
 
-#: ../gnome-settings-daemon/factory.c:36
+#: ../scarecrow-settings-daemon/factory.c:36
 #, fuzzy
 msgid "Could not initialize Bonobo"
 msgstr "OYA gutangiza"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:397
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:397
 msgid "Slow Keys Alert"
 msgstr ""
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:398
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:398
 #, fuzzy
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
@@ -2885,21 +2885,21 @@ msgstr ""
 "Hasi i Urufunguzo kugirango 8 amasogonda ni i Iy'ibusamo kugirango i i "
 "Mwandikisho"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:400
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:400
 #, fuzzy
 msgid "Do you want to activate Slow Keys?"
 msgstr "Kuri Kureka bigakora"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:401
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:401
 #, fuzzy
 msgid "Do you want to deactivate Slow Keys?"
 msgstr "Kuri Kubuza gukora"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:410
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:410
 msgid "Sticky Keys Alert"
 msgstr ""
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
 #, fuzzy
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
@@ -2907,7 +2907,7 @@ msgid ""
 msgstr ""
 "i Urufunguzo 5 Times in a Urubariro ni i Iy'ibusamo kugirango i i Mwandikisho"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:413
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:413
 #, fuzzy
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
@@ -2917,61 +2917,61 @@ msgstr ""
 "Utubuto ku Rimwe Cyangwa i Urufunguzo 5 Times in a Urubariro Bidakora i i "
 "Mwandikisho"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:415
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:415
 #, fuzzy
 msgid "Do you want to activate Sticky Keys?"
 msgstr "Kuri Kureka bigakora"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:416
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:416
 #, fuzzy
 msgid "Do you want to deactivate Sticky Keys?"
 msgstr "Kuri Kubuza gukora"
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:107
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:107
 #, fuzzy, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
 "This is needed to allow changing cursors."
 msgstr "Kurema i bushyinguro ni Kuri Kwemerera"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:209
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:209
 #, fuzzy, c-format
 msgid "Key Binding (%s) has its action defined multiple times\n"
 msgstr "Igikorwa Igikubo"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:222
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:222
 #, fuzzy, c-format
 msgid "Key Binding (%s) has its binding defined multiple times\n"
 msgstr "Bifatanya Igikubo"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:228
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:228
 #, fuzzy, c-format
 msgid "Key Binding (%s) is incomplete\n"
 msgstr "ni"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:256
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:256
 #, fuzzy, c-format
 msgid "Key Binding (%s) is invalid\n"
 msgstr "ni"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:292
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:292
 #, fuzzy, c-format
 msgid "It seems that another application already has access to key '%d'."
 msgstr "Porogaramu Kuri Urufunguzo"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:361
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:361
 #, fuzzy, c-format
 msgid "Key Binding (%s) is already in use\n"
 msgstr "ni in"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:436
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:436
 #, fuzzy, c-format
 msgid ""
 "Error while trying to run (%s)\n"
 "which is linked to the key (%s)"
 msgstr "Kuri Gukoresha ni Kuri i Urufunguzo"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:103
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:103
 #, fuzzy, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -2991,7 +2991,7 @@ msgstr ""
 "Iboneza a in a in Seriveri Seriveri Na: Seriveri Verisiyo Ibyatanzwe "
 "Icyegeranyo iyi Nka a Gushyiramo Igisubizo Bya Igisubizo Bya"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:117
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:117
 #, fuzzy
 msgid ""
 "You are using XFree 4.3.0.\n"
@@ -3000,12 +3000,12 @@ msgid ""
 "software."
 msgstr "3.. 0."
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:227
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:227
 #, fuzzy
 msgid "Do _not show this warning again"
 msgstr "Nta kongera kwerekana iri burira"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:238
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:238
 #, fuzzy
 msgid ""
 "The X system keyboard settings differ from your current GNOME keyboard "
@@ -3014,43 +3014,43 @@ msgstr ""
 "Sisitemu Mwandikisho Amagenamiterere Bivuye KIGEZWEHO Mwandikisho "
 "Amagenamiterere Gushyiraho nka Kuri Gukoresha"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:251
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:251
 #, fuzzy
 msgid "Use X settings"
 msgstr "Amagenamiterere"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:253
 #, fuzzy
 msgid "Use GNOME settings"
 msgstr "Amagenamiterere"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, fuzzy, c-format
 msgid ""
 "Couldn't execute command: %s\n"
 "Verify that this command exists."
 msgstr "Gukora Komandi: iyi Komandi:"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:145
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:145
 #, fuzzy
 msgid ""
 "Couldn't put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
 msgstr "Gushyira i Kuri i ni"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:155
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:155
 #, fuzzy, c-format
 msgid "Permissions on the file %s are broken\n"
 msgstr "ku i IDOSIYE"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:200
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:200
 #, fuzzy
 msgid ""
 "Couldn't load the Glade file.\n"
 "Make sure that this daemon is properly installed."
 msgstr "Ibirimo i IDOSIYE iyi ni"
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:113
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:113
 #, fuzzy, c-format
 msgid ""
 "There was an error starting up the screensaver:\n"
@@ -3060,59 +3060,59 @@ msgid ""
 "Screensaver functionality will not work in this session."
 msgstr "Ikosa Hejuru i OYA Akazi in iyi Umukoro"
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:123
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:123
 #, fuzzy
 msgid "_Do not show this message again"
 msgstr "OYA Garagaza iyi Ubutumwa"
 
-#: ../gnome-settings-daemon/gnome-settings-sound.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-sound.c:129
 #, fuzzy, c-format
 msgid "Couldn't load sound file %s as sample %s"
 msgstr "Ibirimo Ijwi IDOSIYE Nka Urugero"
 
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:214
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:262
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:214
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:262
 #, fuzzy
 msgid "Cannot determine user's home directory"
 msgstr "Ku Ntangiriro bushyinguro"
 
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:215
+#: ../scarecrow-settings-daemon/gnome-settings-xsettings.c:215
 #, fuzzy, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "Urufunguzo Gushyiraho Kuri Ubwoko Ikitezwe: Ubwoko"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:1
 #, fuzzy
 msgid "A_vailable files:"
 msgstr "Idosiye"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:2
 #, fuzzy
 msgid "Do _not show this warning again."
 msgstr "Nta kongera kwerekana iri burira"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:3
 #, fuzzy
 msgid "Load modmap files"
 msgstr "Idosiye"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:4
 #, fuzzy
 msgid "Would you like to load the modmap file(s)?"
 msgstr "nka Kuri Ibirimo i IDOSIYE S"
 
 # basctl/source\basicide\basidesh.src:RID_STR_OPEN.text
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:5
 #, fuzzy
 msgid "_Load"
 msgstr "Ibirimo"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:6
 #, fuzzy
 msgid "_Loaded files:"
 msgstr "Idosiye"
 
-#: ../gnome-settings-daemon/reaper.c:103
+#: ../scarecrow-settings-daemon/reaper.c:103
 msgid "Error creating signal pipe."
 msgstr ""
 

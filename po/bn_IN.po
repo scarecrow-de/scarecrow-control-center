@@ -252,7 +252,7 @@ msgstr ""
 "<a href=\"privacy\">গোপনীয়তা</a>সেটিংসে অ্যাপ্লিকেশনগুলির জন্য পৃথক অনুমতিগুলি "
 "পর্যালোচনা করা যেতে পারে।"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/applications/cc-applications-panel.ui:199
 msgid "Integration"
 msgstr "মিশ্রণ"
@@ -1511,11 +1511,11 @@ msgstr "সময় অঞ্চল সমেত তারিখ এবং স�
 msgid "Clock;Timezone;Location;"
 msgstr "ঘড়ি;সময় অঞ্চল;অবস্থান;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "সিস্টেম সময় এবং তারিখ সেটিং পরিবর্তন করুন"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "সময় বা তারিখ সেটিং পরিবর্তন করতে, আপনার প্রমাণীকরণের প্রয়োজন।"
 
@@ -1665,7 +1665,7 @@ msgstr "ডিসপ্লে কনফিগারেশন"
 msgid "Displays"
 msgstr "প্রদর্শন"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. This is the redshift functionality where we suppress blue light when the sun has gone down
 #: panels/display/cc-display-panel.ui:451
 #: panels/display/cc-night-light-page.ui:111
@@ -1701,7 +1701,7 @@ msgstr "ল্যান্ডস্কেপ (উল্টানো)"
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/display/cc-display-settings.ui:15
 msgctxt "display setting"
 msgid "Orientation"
@@ -4455,7 +4455,7 @@ msgstr "অ্যাকাউন্ট যোগ করুন"
 msgid "Remove Account"
 msgstr "অ্যাকাউন্ট সরান"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/power/cc-power-panel.c:331
 msgid "Unknown time"
 msgstr "অজানা সময়"
@@ -4522,7 +4522,7 @@ msgstr "%s বাকি আছে"
 msgid "Fully charged"
 msgstr "সম্পূর্ণ চার্জ রয়েছে"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. TRANSLATORS: primary battery
 #: panels/power/cc-power-panel.c:398 panels/power/cc-power-panel.c:428
 msgid "Not charging"
@@ -4534,13 +4534,13 @@ msgstr "চার্জ করা হচ্ছে না"
 msgid "Empty"
 msgstr "খালি"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. TRANSLATORS: primary battery
 #: panels/power/cc-power-panel.c:415
 msgid "Charging"
 msgstr "ব্যাটারি চার্জ করা হচ্ছে"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. TRANSLATORS: primary battery
 #: panels/power/cc-power-panel.c:420
 msgid "Discharging"
@@ -4610,7 +4610,7 @@ msgstr "গেমিং ইনপুট ডিভাইস"
 msgid "Battery"
 msgstr "ব্যাটারি"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. TRANSLATORS: secondary battery
 #: panels/power/cc-power-panel.c:731
 msgctxt "Battery power"
@@ -5251,7 +5251,7 @@ msgstr "প্রতি পার্শ্বে পৃষ্ঠা"
 msgid "Two-sided"
 msgstr "উভয় পৃষ্ঠা"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. Translators: This option sets orientation of print (portrait, landscape...)
 #: panels/printers/pp-options-dialog.c:554
 msgid "Orientation"
@@ -5418,7 +5418,7 @@ msgstr "ডেভেলপার শেষ"
 msgid "Low on a marker supply"
 msgstr "মার্কার সরবরাহ কম"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #. Translators: "marker" is one color bin of the printer
 #: panels/printers/pp-printer-entry.c:774
 msgid "Out of a marker supply"
@@ -6143,11 +6143,11 @@ msgstr ""
 "ভাগ;অংশীদারি;ssh;হোস্ট;নাম;রিমোট;ডেস্কটপ;ব্লুটুথ;obex;মিডিয়া;অডিও;ভিডিও;ছবি;ফোটো;"
 "মুভি;সার্ভার;রেন্ডরার;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "রিমোট লগিন সক্রিয় বা নিষ্ক্রিয় করুন"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "রিমোট লগিন সক্রিয় বা নিষ্ক্রিয় করতে অনুমোদনের প্রয়োজন"
 
@@ -7460,7 +7460,7 @@ msgstr "ডান হাতের অনামিকা"
 msgid "Right little finger"
 msgstr "ডান হাতের কনিষ্ঠা"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/user-accounts/cc-fingerprint-dialog.c:585
 msgid "Unknown Finger"
 msgstr "অজানা আঙ্গুল"
@@ -7901,11 +7901,11 @@ msgstr "প্রশাসকের নাম (_N)"
 msgid "Administrator Password"
 msgstr "প্রশাসকের পাসওয়ার্ড"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "ব্যবহারকারী অ্যাকাউন্টগুলি পরিচালনা করুন"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "ব্যবহারকারী ডেটা পরিবর্তন করতে প্রমাণীকরণের প্রয়োজন"
 
@@ -8135,13 +8135,13 @@ msgctxt "Wacom action-type"
 msgid "Send Keystroke"
 msgstr "কীস্ট্রোক পাঠান"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/wacom/cc-wacom-button-row.h:36
 msgctxt "Wacom action-type"
 msgid "Switch Monitor"
 msgstr "মনিটর পাল্টান"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #: panels/wacom/cc-wacom-button-row.h:37
 msgctxt "Wacom action-type"
 msgid "Show On-Screen Help"
@@ -8430,11 +8430,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "অনুসন্ধান বাতিল করুন"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "শেষ সেটিংস প্যানেলটি খোলার জন্য শনাক্তকারী"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8442,11 +8442,11 @@ msgstr ""
 "শেষ সেটিংস প্যানেলটি খোলার জন্য শনাক্তকারী। অজ্ঞাত মানগুলিকে উপেক্ষা করা হবে এবং "
 "তালিকার প্রথম প্যানেল নির্বাচিত হবে।"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "সেটিংসের বিকাশ তৈরির সময় সতর্কতা দেখান"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr "উন্নয়ন বিল্ড চলাকালীন সেটিংস কোনও সতর্কতা প্রদর্শন করবে কিনা।"
@@ -8573,7 +8573,7 @@ msgstr "সিস্টেমের শব্দ"
 #~ msgid "Join this display with another to create an extra workspace"
 #~ msgstr "একটি অতিরিক্ত ওয়ার্কস্পেস তৈরি করতে এই প্রদর্শন অপর একটির সংগে যুক্ত করুন"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~| msgid "Orientation"
 #~ msgid "Presentation"
 #~ msgstr "সজ্জা"
@@ -9563,67 +9563,67 @@ msgstr "সিস্টেমের শব্দ"
 #~ msgid "None"
 #~ msgstr "শূণ্য"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Ring"
 #~ msgstr "বাঁদিকের রিং"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Ring Mode #%d"
 #~ msgstr "বাঁদিকের রিং মোড #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Ring Mode #%d"
 #~ msgstr "ডানদিকের রিং মোড #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Touchstrip"
 #~ msgstr "বাঁদিকের টাচ-স্ট্রিপ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Touchstrip Mode #%d"
 #~ msgstr "বাঁদিকের টাচ-স্ট্রিপ মোড #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Touchstrip"
 #~ msgstr "ডানদিকের টাচ-স্ট্রিপ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Touchstrip Mode #%d"
 #~ msgstr "ডানদিকের টাচ-স্ট্রিপ মোড #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Touchring Mode Switch"
 #~ msgstr "বাঁদিকের টাচ-রিং মোডের সুইচ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Touchring Mode Switch"
 #~ msgstr "ডানদিকের টাচ-রিং মোডের সুইচ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Touchstrip Mode Switch"
 #~ msgstr "বাঁদিকের টাচ-স্ট্রিপ মোডের সুইচ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Touchstrip Mode Switch"
 #~ msgstr "ডানদিকের টাচ-স্ট্রিপ মোডের সুইচ"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Mode Switch #%d"
 #~ msgstr "মোডের সুইচ #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Left Button #%d"
 #~ msgstr "বাঁদিকের বাটন #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Right Button #%d"
 #~ msgstr "ডানদিকের বাটন #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Top Button #%d"
 #~ msgstr "উপরের বাটন #%d"
 
-# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+# auto translated by TM merge from project: scarecrow-settings-daemon, version: 3.8.4, DocId: scarecrow-settings-daemon
 #~ msgid "Bottom Button #%d"
 #~ msgstr "নীচের বাটন #%d"
 
@@ -9808,7 +9808,7 @@ msgstr "সিস্টেমের শব্দ"
 #~ "কোনো মনিটরের বিশিষ্টতা পরিবর্তন করতে তা নির্বাচন করুন; তার অবস্থান পনঃসজ্জিত "
 #~ "করতে তাকে টানুন।"
 
-# auto translated by TM merge from project: gnome-desktop3, version: 3.8.3, DocId: gnome-desktop-3.0
+# auto translated by TM merge from project: scarecrow-desktop3, version: 3.8.3, DocId: scarecrow-desktop-3.0
 #~ msgid "%a %R"
 #~ msgstr "%a %R"
 

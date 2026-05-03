@@ -720,7 +720,7 @@ msgstr "_Arddull:"
 
 #: ../capplets/background/gnome-wp-capplet.c:74
 #: ../capplets/common/capplet-util.c:340
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:333
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:333
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Gwall wrth ddangos cymorth:%s"
@@ -783,13 +783,13 @@ msgstr[1] "bicsel"
 
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"Methu cychwyn y rheolwr gosodiadau 'gnome-settings-daemon'.\n"
+"Methu cychwyn y rheolwr gosodiadau 'scarecrow-settings-daemon'.\n"
 "Heb i'r rheolydd gosodiadau GNOME fod yn weithgar, mae'n bosib na fydd rhai "
 "hoffterau'n dod i rym. Gall hyn olygu fod problem gyda Bonobo, neu fe all "
 "rheolydd gosodiadau arall (e.e. KDE) fod yn weithgar ac yn creu "
@@ -2566,31 +2566,31 @@ msgstr "Canolfan Reoli GNOME"
 msgid "The GNOME configuration tool"
 msgstr "Yr erfyn cyfluniad GNOME"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:149
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:149
 msgid "No '/dev/pmu' device found"
 msgstr "Dim dyfais '/dev/pmu' wedi ei ganfod"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:156
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:156
 msgid "Not a powerbook"
 msgstr "Ddim yn 'powerbook'"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:173
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:173
 msgid "Wrong permission for '/dev/pmu' device"
 msgstr "Caniatâd anghywir ar gyfer y ddyfais '/dev/pmu'"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
+#: ../scarecrow-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
 msgstr "Lefel Sain"
 
-#: ../gnome-settings-daemon/factory.c:66
+#: ../scarecrow-settings-daemon/factory.c:66
 msgid "Could not initialize Bonobo"
 msgstr "Methu ymgychwyn Bonobo"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:406
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:406
 msgid "Slow Keys Alert"
 msgstr "Rhybudd Bysellau Araf"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:407
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:407
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -2598,39 +2598,39 @@ msgstr ""
 "Rydych newydd ddal lawr y fysell Shift am 8 eiliad. Dyma'r byrlwybr ar gyfer "
 "y nodwedd Bysellau Araf, sy'n effeithio sut mae'ch bysellfwrdd yn gweithio"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:409
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:409
 msgid "Do you want to activate Slow Keys?"
 msgstr "Ydych chi eisiau troi Bysellau Araf ymlaen?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:410
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:410
 msgid "Do you want to deactivate Slow Keys?"
 msgstr "Ydych chi eisiau troi Bysellau Araf i ffwrdd?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Activate"
 msgstr "_Actifadu"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Deactivate"
 msgstr "_Dad-actifadu"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't activate"
 msgstr "_Peidio ag actifadu"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't deactivate"
 msgstr "_Peidio â dad-actifadu"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:421
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:421
 msgid "Sticky Keys Alert"
 msgstr "Rhybudd Bysellau Gludiog"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:422
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:422
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -2639,7 +2639,7 @@ msgstr ""
 "gyfer y nodwedd Bysellau Gludiog, sy'n effeithio sut mae'ch bysellfwrdd yn "
 "gweithio"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:424
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:424
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -2649,15 +2649,15 @@ msgstr ""
 "mewn rhes. Mae hyn yn troi'r nodwedd Bysedd Gludiog ymlaen, sy'n effeithio "
 "sut mae'ch bysellfwrdd yn gweithio."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:426
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:426
 msgid "Do you want to activate Sticky Keys?"
 msgstr "Ydych chi eisiau troi Bysellau Gludiog ymlaen?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:427
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:427
 msgid "Do you want to deactivate Sticky Keys?"
 msgstr "Ydych chi eisiau troi Bysellau Gludio i ffwrdd?"
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:74
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:74
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2666,7 +2666,7 @@ msgstr ""
 "Methu creu'r cyfeiriadur \"%s\".\n"
 "Mae angen hwn i ganiatáu newid thema pwyntydd y llygoden."
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:96
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:96
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2675,37 +2675,37 @@ msgstr ""
 "Methu creu'r cyfeiriadur \"%s\".\n"
 "Mae angen hwn i ganiatáu newid cyrchwyr."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:208
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:208
 #, c-format
 msgid "Key Binding (%s) has its action defined multiple times\n"
 msgstr "Diffinnir gweithred y Rhwymiad Bysell (%s) sawl gwaith\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:221
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:221
 #, c-format
 msgid "Key Binding (%s) has its binding defined multiple times\n"
 msgstr "Diffinnir rhwymiad y Rhwymiad Bysell (%s) sawl gwaith\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:227
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:227
 #, c-format
 msgid "Key Binding (%s) is incomplete\n"
 msgstr "Mae'r Rhwymiad Bysell (%s) yn anghyflawn\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:255
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:255
 #, c-format
 msgid "Key Binding (%s) is invalid\n"
 msgstr "Mae'r Rhwymiad Bysell (%s) yn annilys\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:291
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:291
 #, c-format
 msgid "It seems that another application already has access to key '%u'."
 msgstr "Mae'n debyg fod gan raglen arall fynediad i'r fysell '%u' eisoes."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:360
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:360
 #, c-format
 msgid "Key Binding (%s) is already in use\n"
 msgstr "Defnyddir y Rhwymiad Bysell (%s) eisoes\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:435
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:435
 #, c-format
 msgid ""
 "Error while trying to run (%s)\n"
@@ -2714,7 +2714,7 @@ msgstr ""
 "Gwall wrth geisio gweithredu (%s)\n"
 "sy'n rhwym i'r fysell (%s)"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:103
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:103
 #, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -2745,7 +2745,7 @@ msgstr ""
 "- Canlyniad <b>%s</b>\n"
 "- Canlyniad <b>%s</b>"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:117
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:117
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -2757,11 +2757,11 @@ msgstr ""
 "Ceisiwch ddefnyddio cyfluniad symlach neu ddefnyddio fersiwn mwy diweddar o "
 "feddalwedd XFree"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:223
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:223
 msgid "Do _not show this warning again"
 msgstr "_Peidio â dangos y rhybudd yma eto"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:234
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:234
 msgid ""
 "The X system keyboard settings differ from your current GNOME keyboard "
 "settings.  Which set would you like to use?"
@@ -2769,15 +2769,15 @@ msgstr ""
 "Mae gosodiadau bysellfwrdd y system X yn wahanol i'ch gosodiadau bysellfwrdd "
 "GNOME cyfredol. Pa set hoffech ddefnyddio?"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:247
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:247
 msgid "Use X settings"
 msgstr "Defnyddio Gosodiadau X"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:249
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:249
 msgid "Use GNOME settings"
 msgstr "Defnyddio Gosodiadau GNOME"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
 msgid ""
 "Couldn't execute command: %s\n"
@@ -2786,7 +2786,7 @@ msgstr ""
 "Methwyd gweithredu'r gorchymyn: %s\n"
 "Gwirio fod y gorchymyn yma'n bodoli."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:145
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:145
 msgid ""
 "Couldn't put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
@@ -2794,7 +2794,7 @@ msgstr ""
 "Methwyd rhoi'r peiriant i gysgu.\n"
 "Gwirio fod y peiriant wedi ei gyflunio yn gywir."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:180
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:180
 msgid ""
 "Couldn't load the Glade file.\n"
 "Make sure that this daemon is properly installed."
@@ -2802,7 +2802,7 @@ msgstr ""
 "Methwyd llwytho ffeil Glade.\n"
 "Gwnewch yn siwr fod y daemon wedi ei osod yn gywir."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:110
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:110
 #, c-format
 msgid ""
 "There was an error starting up the screensaver:\n"
@@ -2817,50 +2817,50 @@ msgstr ""
 "\n"
 "Fydd arbed sgrin ddim yn gweithio yn ystod y sesiwn yma."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:120
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:120
 msgid "_Do not show this message again"
 msgstr "_Peidiwch â dangos y neges yma eto"
 
-#: ../gnome-settings-daemon/gnome-settings-sound.c:131
+#: ../scarecrow-settings-daemon/gnome-settings-sound.c:131
 #, c-format
 msgid "Couldn't load sound file %s as sample %s"
 msgstr "Methwyd llwytho ffeil sain %s fel sampl %s"
 
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:212
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:260
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:260
 msgid "Cannot determine user's home directory"
 msgstr "Methwyd canfod cyfeiriadur cartref y defnyddiwr"
 
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xsettings.c:212
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "Gosodwyd yr allwedd GConf %s i fath %s ond disgwylid math %s\n"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:1
 msgid "A_vailable files:"
 msgstr "_Ffeiliau ar gael:"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:2
 msgid "Do _not show this warning again."
 msgstr "_Peidio â dangos y rhybudd yma eto."
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:3
 msgid "Load modmap files"
 msgstr "Llwytho ffeiliau modmap"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:4
 msgid "Would you like to load the modmap file(s)?"
 msgstr "Hoffech chi lwytho'r ffeil(iau) modmap?"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:5
 msgid "_Load"
 msgstr "_Llwytho"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:6
 msgid "_Loaded files:"
 msgstr "_Ffeiliau wedi'u llwytho:"
 
-#: ../gnome-settings-daemon/reaper.c:103
+#: ../scarecrow-settings-daemon/reaper.c:103
 msgid "Error creating signal pipe."
 msgstr "Gwall wrth greu piben signal."
 

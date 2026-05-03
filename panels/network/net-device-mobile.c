@@ -759,7 +759,7 @@ net_device_mobile_class_init (NetDeviceMobileClass *klass)
 
         object_class->dispose = net_device_mobile_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/network-mobile.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/network/network-mobile.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetDeviceMobile, device_label);
         gtk_widget_class_bind_template_child (widget_class, NetDeviceMobile, device_off_switch);

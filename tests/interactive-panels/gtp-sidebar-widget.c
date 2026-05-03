@@ -44,7 +44,7 @@ gtp_sidebar_widget_class_init (GtpSidebarWidgetClass *klass)
 
   panel_class->get_sidebar_widget = gtp_sidebar_widget_get_sidebar_widget;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/tests/panels/gtp-sidebar-widget.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/tests/panels/gtp-sidebar-widget.ui");
 
   gtk_widget_class_bind_template_child (widget_class, GtpSidebarWidget, sidebar_widget);
 }

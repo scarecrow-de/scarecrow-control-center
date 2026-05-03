@@ -1,4 +1,4 @@
-/* Stub to replace gnome-settings-daemon's
+/* Stub to replace scarecrow-settings-daemon's
  * gnome-settings-bus.h helpers */
 
 #include <gdk/gdkx.h>

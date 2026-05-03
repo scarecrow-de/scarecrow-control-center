@@ -1322,11 +1322,11 @@ msgstr "समय क्षेत्र सहित मिति र समय 
 msgid "Clock;Timezone;Location;"
 msgstr "घडी;समय क्षेत्र;स्थान;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "समय र मिति सेटिङहरू बदल्नुहोस्"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "समय वा मिति सेटिङहरू बदल्न, प्रमाणिकरण गर्नु आवश्यक छ ।"
 
@@ -5787,12 +5787,12 @@ msgstr ""
 msgid "Networks"
 msgstr "सञ्जाल"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 #, fuzzy
 msgid "Enable or disable remote login"
 msgstr "टाढा लगइन"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 
@@ -7118,11 +7118,11 @@ msgstr "प्रशासक नाम"
 msgid "Administrator Password"
 msgstr "प्रशासक पासवर्ड"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "प्रयोगकर्ता खाताहरू प्रवन्ध गर्नुहोस्"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "प्रयोगकर्ता डाटा परिवर्तन गर्न प्रमाणीकरण चाहिन्छ"
 
@@ -7703,21 +7703,21 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "खोजी रद्द गर्नुहोस्"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values will be ignored and "
 "the first panel in the list selected."
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid "Whether Settings should show a warning when running a development build."
 msgstr ""
 
@@ -9346,7 +9346,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgstr "तपाईँ यो नाम मेट्न चाहनुहुन्छ?"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take effect. This could "
 #~ "indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be "
 #~ "active and conflicting with the GNOME settings manager."

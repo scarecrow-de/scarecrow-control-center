@@ -1050,11 +1050,11 @@ msgstr "दिनांक आणि वेळ बदलवा, वेळक्�
 msgid "Clock;Timezone;Location;"
 msgstr "क्लॉक;टाइमझोन;ठिकाण;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "प्रणालीची वेळ व दिनांक सेटिंग्स् बदला"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "वेळ किंवा दिनांक सेटिंग्स् बदलण्यासाठी, ओळख पटवणे आवश्यक आहे."
 
@@ -5117,11 +5117,11 @@ msgstr ""
 "िडीओ;"
 "प्रतिमा;छायाचित्र;चित्रपट;सर्व्हर;रेंडरर;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "दूरस्त प्रवेश सुरू किंवा बंद करा"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "दूरस्त प्रवेश सुरू किंवा बंद करण्यासाठी ओळख पटवणे आवश्यक"
 
@@ -6138,11 +6138,11 @@ msgstr "भाषा (_L)"
 msgid "Last Login"
 msgstr "मागील प्रवेश"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "वापरकर्ता खाते व्यवस्थापीत करा"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "वापरकर्ता डाटा बदलण्यासाठी ओळख पटवणे आवश्यक"
 
@@ -8740,13 +8740,13 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgstr "सुत्रयोजना इंजीन प्रतिष्ठापीत करू शकत नाही"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "सत्र व्यवस्थापक 'gnome-settings-daemon' सुरू करण्यास अशक्य.\n"
+#~ "सत्र व्यवस्थापक 'scarecrow-settings-daemon' सुरू करण्यास अशक्य.\n"
 #~ "GNOME संयोजना व्यवस्थापक कार्यरत नसल्यास, काहिक पसंतीचा प्रभाव लागू होऊ शकत नाही. "
 #~ "हे DBus सह अडचण असू शकते, किंवा विना-GNOME (उ.दा. KDE) संयोजना व्यवस्थापक "
 #~ "आधिपासूनच स्क्रीय असू शकतो व GNOME संयोजना व्यवस्थापकाशी मतभेद आढळू शकते."

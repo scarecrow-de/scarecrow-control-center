@@ -739,7 +739,7 @@ msgstr "_Tərz:"
 
 #: ../capplets/background/gnome-wp-capplet.c:74
 #: ../capplets/common/capplet-util.c:340
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:333
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:333
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Yardımın göstərilməsi sırasında xəta oldu: %s"
@@ -797,13 +797,13 @@ msgstr[1] ""
 
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"Qurğu idarəçisi 'gnome-settings-daemon' başladıla bilmədi.\n"
+"Qurğu idarəçisi 'scarecrow-settings-daemon' başladıla bilmədi.\n"
 "Gnome qurğu idarəçisi işləməzsə, bə'zi seçimlər fəal olmaya bilər. Buna, "
 "Bonobodakı bir problem, ya da Gnome qurğu idarəçisi ilə toqquşan diqər "
 "tə'minatlar səbəb ola bilər."
@@ -2558,19 +2558,19 @@ msgstr "GNOME İdarə Mərkəzi"
 msgid "The GNOME configuration tool"
 msgstr "GNOME quraşdırma avadanlığı"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
+#: ../scarecrow-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
 msgstr "Səs"
 
-#: ../gnome-settings-daemon/factory.c:36
+#: ../scarecrow-settings-daemon/factory.c:36
 msgid "Could not initialize Bonobo"
 msgstr "Bonobo başladıla bilmir"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:397
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:397
 msgid "Slow Keys Alert"
 msgstr "Yavaş Düymələr Xəbərdarlığı"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:398
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:398
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -2578,19 +2578,19 @@ msgstr ""
 "Az öncə Shift düyməsinə basıb 8 saniyə saxladınız.  Bu Yavaş Düymələr "
 "xassəsini fəallaşdırar, bu da klaviaturanızın işləmə tərzini dəyişdirər."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:400
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:400
 msgid "Do you want to activate Slow Keys?"
 msgstr "Yavaş Düymələri fəallaşdırmaq istəyirsiniz?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:401
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:401
 msgid "Do you want to deactivate Slow Keys?"
 msgstr "Yavaş Düymələri qeyri-fəallaşdırmaq istəyirsiniz?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:410
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:410
 msgid "Sticky Keys Alert"
 msgstr "Yapışqan Düymələr Xəbərdarlığı"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -2598,7 +2598,7 @@ msgstr ""
 "Az öncə Shift düyməsinə arxa arxaya 5 dəfə basdınız.  Bu Yapışqan Düymələr "
 "xassəsini fəallaşdırar, bu da klaviaturanızın işləmə tərzini dəyişdirər."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:413
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:413
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -2608,15 +2608,15 @@ msgstr ""
 "basdınız.  Bu Yapışqan Düymələr xassəsini fəallaşdırar, bu da "
 "klaviaturanızın işləmə tərzini dəyişdirər."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:415
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:415
 msgid "Do you want to activate Sticky Keys?"
 msgstr "Yapışqan Düymələri fəallaşdırmaq istəyirsiniz?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:416
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:416
 msgid "Do you want to deactivate Sticky Keys?"
 msgstr "Yapışqan Düymələri qeyri-fəallaşdırmaq istəyirsiniz?"
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:107
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:107
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2625,37 +2625,37 @@ msgstr ""
 "\"%s\" qovluğu yaradıla bilmir.\n"
 "Bu kursorların dəyişdirilə bilməsi üçün məcburidir."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:209
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:209
 #, c-format
 msgid "Key Binding (%s) has its action defined multiple times\n"
 msgstr "(%s) düymə bağının gedişatı birdən çox dəfə tə'yin edilib\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:222
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:222
 #, c-format
 msgid "Key Binding (%s) has its binding defined multiple times\n"
 msgstr "(%s) düymə bağının bağı birdən çox dəfə tə'yin edilib\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:228
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:228
 #, c-format
 msgid "Key Binding (%s) is incomplete\n"
 msgstr "(%s) düymə bağı tamamlanmayıb\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:256
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:256
 #, c-format
 msgid "Key Binding (%s) is invalid\n"
 msgstr "(%s) düymə bağı hökmsüzdür\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:292
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:292
 #, c-format
 msgid "It seems that another application already has access to key '%d'."
 msgstr "Görünən odur ki, '%d' düyməsinə başqa bir tə'minat bağ qurub."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:361
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:361
 #, c-format
 msgid "Key Binding (%s) is already in use\n"
 msgstr "(%s) düymə bağı hazırda istifadədədir\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:436
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:436
 #, c-format
 msgid ""
 "Error while trying to run (%s)\n"
@@ -2664,7 +2664,7 @@ msgstr ""
 "(%2$s) düyməsinə bağlı olan\n"
 "(%1$s) icra edilməyə çalışırkən xəta yarandı"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:103
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:103
 #, fuzzy, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -2693,7 +2693,7 @@ msgstr ""
 "- <b>gconftool-2 -R /desktop/gnome/peripherals/keyboard/xkb</b>\n"
 "   əmrinin nəticəsini də yollayın."
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:117
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:117
 #, fuzzy
 msgid ""
 "You are using XFree 4.3.0.\n"
@@ -2705,12 +2705,12 @@ msgstr ""
 "Qarışıq XKB qurğuları ilə əlaqəli bə'zi problemlər vardır.\n"
 "XFree tə'minatının daha yeni buraxılışını endirməyə çalışın."
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:227
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:227
 #, fuzzy
 msgid "Do _not show this warning again"
 msgstr "_Bu ismarışı bir də göstərmə"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:238
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:238
 msgid ""
 "The X system keyboard settings differ from your current GNOME keyboard "
 "settings.  Which set would you like to use?"
@@ -2718,15 +2718,15 @@ msgstr ""
 "X sisteminin klaviatura quruluşu hazırkı GNOME klaviatura quruluşundan "
 "fərqlidir. Hansı dəstəni işlətmək istəyirsiniz?"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:251
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:251
 msgid "Use X settings"
 msgstr "X qurğularını işlət"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:253
 msgid "Use GNOME settings"
 msgstr "GNOME Qurğularını İşlət"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
 msgid ""
 "Couldn't execute command: %s\n"
@@ -2735,7 +2735,7 @@ msgstr ""
 "Əmr icra edilə bilmədi: %s\n"
 "Bu əmrin mövcud olduğunu yoxlayın."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:145
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:145
 msgid ""
 "Couldn't put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
@@ -2743,12 +2743,12 @@ msgstr ""
 "Sistem yuxu vəziyyətinə keçirilə bilmədi.\n"
 "Sistemin düzgün quraşdırıldığını yoxlayın."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:155
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:155
 #, c-format
 msgid "Permissions on the file %s are broken\n"
 msgstr "%s faylının səlahiyyətləri hökmsüzdür\n"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:200
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:200
 msgid ""
 "Couldn't load the Glade file.\n"
 "Make sure that this daemon is properly installed."
@@ -2756,7 +2756,7 @@ msgstr ""
 "Glade faylı yüklənə biləmdi.\n"
 "Bu demonun düzgün qurulduğunu yoxlayın."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:113
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:113
 #, c-format
 msgid ""
 "There was an error starting up the screensaver:\n"
@@ -2771,53 +2771,53 @@ msgstr ""
 "\n"
 "Bu iclas üçün ekran qoruyucu xassəsi fəal olmayacaq."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:123
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:123
 msgid "_Do not show this message again"
 msgstr "_Bu ismarışı bir də göstərmə"
 
-#: ../gnome-settings-daemon/gnome-settings-sound.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-sound.c:129
 #, c-format
 msgid "Couldn't load sound file %s as sample %s"
 msgstr "%2$s şablonu olaraq %1$s səs faylı yüklənə bilmədi"
 
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:214
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:262
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:214
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:262
 msgid "Cannot determine user's home directory"
 msgstr "İstifadəçinin ev cərgəsi müəyyən edilə bilmir"
 
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:215
+#: ../scarecrow-settings-daemon/gnome-settings-xsettings.c:215
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "%s GConf açarı %s seçilib ancaq %s cüründə olması gözlənilirdi\n"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:1
 #, fuzzy
 msgid "A_vailable files:"
 msgstr "_Mövcud düzülüşlər:"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:2
 #, fuzzy
 msgid "Do _not show this warning again."
 msgstr "_Bu ismarışı bir də göstərmə"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:3
 msgid "Load modmap files"
 msgstr ""
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:4
 msgid "Would you like to load the modmap file(s)?"
 msgstr ""
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:5
 msgid "_Load"
 msgstr ""
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:6
 #, fuzzy
 msgid "_Loaded files:"
 msgstr "_Modellər"
 
-#: ../gnome-settings-daemon/reaper.c:103
+#: ../scarecrow-settings-daemon/reaper.c:103
 msgid "Error creating signal pipe."
 msgstr "Signal borusu yaradıla bilmədi."
 

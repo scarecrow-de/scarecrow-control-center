@@ -366,7 +366,7 @@ cc_carousel_class_init (CcCarouselClass *klass)
         GtkContainerClass *container_class = GTK_CONTAINER_CLASS (klass);
 
         gtk_widget_class_set_template_from_resource (wclass,
-                                                     "/org/gnome/control-center/user-accounts/cc-carousel.ui");
+                                                     "/io/github/scarecrow_de//control-center/user-accounts/cc-carousel.ui");
 
         gtk_widget_class_bind_template_child (wclass, CcCarousel, stack);
         gtk_widget_class_bind_template_child (wclass, CcCarousel, go_back_button);
@@ -419,7 +419,7 @@ cc_carousel_init (CcCarousel *self)
 
         provider = GTK_STYLE_PROVIDER (gtk_css_provider_new ());
         gtk_css_provider_load_from_resource (GTK_CSS_PROVIDER (provider),
-                                             "/org/gnome/control-center/user-accounts/carousel.css");
+                                             "/io/github/scarecrow_de//control-center/user-accounts/carousel.css");
 
         gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                                    provider,

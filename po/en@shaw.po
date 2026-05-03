@@ -1480,7 +1480,7 @@ msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑦𐑯𐑕𐑑𐑷𐑤 𐑔𐑰𐑥 𐑧𐑯
 #: ../capplets/common/activate-settings-daemon.c:16
 #, fuzzy
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
@@ -2212,7 +2212,7 @@ msgid ""
 "\n"
 "This program installs a RANDR profile for multi-monitor setups into\n"
 "a systemwide location.  The resulting profile will get used when\n"
-"the RANDR plug-in gets run in gnome-settings-daemon.\n"
+"the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 "\n"
 "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 "xml\n"
@@ -2297,12 +2297,12 @@ msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑴𐑐𐑩𐑯 %s/%s: %s\n"
 msgid "Could not rename %s to %s: %s\n"
 msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑮𐑰𐑯𐑱𐑥 %s 𐑑 %s: %s\n"
 
-#: ../capplets/display/org.gnome.randr.policy.in.h:1
+#: ../capplets/display/io.github.scarecrow_de.randr.policy.in.h:1
 msgid ""
 "Authentication is required to install multi-monitor settings for all users"
 msgstr "𐑷𐑔𐑧𐑯𐑑𐑦𐑒𐑱𐑖𐑩𐑯 𐑦𐑟 𐑮𐑦𐑒𐑢𐑲𐑼𐑛 𐑑 𐑦𐑯𐑕𐑑𐑷𐑤 𐑥𐑩𐑤𐑑𐑰-𐑥𐑪𐑯𐑦𐑑𐑼 𐑕𐑧𐑑𐑦𐑙𐑟 𐑓𐑹 𐑷𐑤 𐑿𐑟𐑼𐑟"
 
-#: ../capplets/display/org.gnome.randr.policy.in.h:2
+#: ../capplets/display/io.github.scarecrow_de.randr.policy.in.h:2
 msgid "Install multi-monitor settings for the whole system"
 msgstr "𐑦𐑯𐑕𐑑𐑷𐑤 𐑥𐑩𐑤𐑑𐑰-𐑥𐑪𐑯𐑦𐑑𐑼 𐑕𐑧𐑑𐑦𐑙𐑟 𐑓𐑹 𐑞 𐑣𐑴𐑤 𐑕𐑦𐑕𐑑𐑩𐑥"
 

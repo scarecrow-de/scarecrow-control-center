@@ -1078,11 +1078,11 @@ msgstr "ସମୟ ମଣ୍ଡଳକୁ ଅନ୍ତର୍ଭୁକ୍ତ କର
 msgid "Clock;Timezone;Location;"
 msgstr "ଘଡ଼ି;ସମୟ ମଣ୍ଡଳ;ଅବସ୍ଥାନ;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "ତନ୍ତ୍ର ସମୟ ଏବଂ ତାରିଖ ସେଟିଙ୍ଗକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "ସମୟ କିମ୍ବା ତାରିଖ ବିନ୍ୟାସକୁ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ, ଆପଣଙ୍କୁ ବୈଧିକରଣ କରିବା "
@@ -5252,11 +5252,11 @@ msgstr ""
 "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "ସୁଦୂର ଲଗଇନ୍‌କୁ ସକ୍ରିୟ ଅଥବା ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "ସୁଦୂର ଲଗଇନକୁ ସକ୍ରିୟ କିମ୍ବା ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ବୈଧିକରଣ ଆବଶ୍ଯକ"
 
@@ -6342,11 +6342,11 @@ msgstr "ଭାଷା (_L)"
 msgid "Last Login"
 msgstr "ଅନ୍ତିମ ଲଗଇନ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "ବ୍ୟବହାରକାରୀ ଖାତାଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ବ୍ୟବହାରକାରୀ ତଥ୍ୟ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ବୈଧିକରଣ ଆବଶ୍ଯକ"
 
@@ -9303,13 +9303,13 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgstr "ପ୍ରସଙ୍ଗ ଯନ୍ତ୍ରକୁ ସ୍ଥାପନ କରାଯାଇପାରିଲା ନାହିଁ"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "'gnome-settings-daemon' ସଂରଚନା ପରିଚାଳକଙ୍କୁ ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।\n"
+#~ "'scarecrow-settings-daemon' ସଂରଚନା ପରିଚାଳକଙ୍କୁ ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।\n"
 #~ "GNOME ସଂରଚନା ପରିଚାଳକ ଚାଲୁ ନଥିବା ବିନା, କେତେକ ପସନ୍ଦ ପ୍ରଭାବଶାଳୀ ହୋଇ ପାରିବ ନାହିଁ। DBus "
 #~ "ଏହା ହୁଏତ ଏକ ସମସ୍ଯା ସୃଷ୍ଟି କରିପାରେ, ଅଥବା ଗୋଟିଏ ଅଣ-GNOME (ଯେପରି KDE) ସଂରଚନା ପରିଚାଳକ "
 #~ "ପୂର୍ବରୁ ସକ୍ରିୟ ଥାଇପାରେ ଏବଂ GNOME ସେଟିଙ୍ଗ ପ୍ରବନ୍ଧକ ସହିତ ଦ୍ବନ୍ଦ୍ବ କରୁଥାଇପାରେ।"

@@ -455,7 +455,7 @@ cc_wifi_connection_row_class_init (CcWifiConnectionRowClass *klass)
   object_class->set_property = cc_wifi_connection_row_set_property;
   object_class->finalize = cc_wifi_connection_row_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/cc-wifi-connection-row.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/cc-wifi-connection-row.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcWifiConnectionRow, active_icon);
   gtk_widget_class_bind_template_child (widget_class, CcWifiConnectionRow, button_stack);

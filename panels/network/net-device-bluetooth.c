@@ -166,7 +166,7 @@ net_device_bluetooth_class_init (NetDeviceBluetoothClass *klass)
 
         object_class->finalize = net_device_bluetooth_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/network-bluetooth.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/network-bluetooth.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetDeviceBluetooth, device_label);
         gtk_widget_class_bind_template_child (widget_class, NetDeviceBluetooth, device_off_switch);

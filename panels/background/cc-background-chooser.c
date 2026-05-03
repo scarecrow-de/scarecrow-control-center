@@ -22,7 +22,7 @@
 #define G_LOG_DOMAIN "cc-background-chooser"
 
 #include <glib/gi18n.h>
-#include <libgnome-desktop/gnome-desktop-thumbnail.h>
+#include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 
 #include "bg-colors-source.h"
 #include "bg-pictures-source.h"
@@ -312,7 +312,7 @@ cc_background_chooser_class_init (CcBackgroundChooserClass *klass)
                                              1,
                                              CC_TYPE_BACKGROUND_ITEM);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/background/cc-background-chooser.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/background/cc-background-chooser.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundChooser, flowbox);
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundChooser, recent_box);

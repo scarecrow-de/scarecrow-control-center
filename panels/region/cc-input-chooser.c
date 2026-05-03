@@ -20,7 +20,7 @@
 #include <glib/gi18n.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/gnome-languages.h>
 
 #include "list-box-helper.h"
 #include "cc-common-language.h"
@@ -1000,7 +1000,7 @@ cc_input_chooser_class_init (CcInputChooserClass *klass)
 
   object_class->dispose = cc_input_chooser_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/region/cc-input-chooser.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/region/cc-input-chooser.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcInputChooser, add_button);
   gtk_widget_class_bind_template_child (widget_class, CcInputChooser, filter_entry);

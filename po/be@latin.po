@@ -1453,13 +1453,13 @@ msgstr "Niemahčyma zainstalavać matyŭ"
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"Niemahčyma ŭklučyć kiraŭnika naładaŭ – \"gnome-settings-daemon\".\n"
+"Niemahčyma ŭklučyć kiraŭnika naładaŭ – \"scarecrow-settings-daemon\".\n"
 "Biaz spraŭnaha kiraŭnika naładaŭ GNOME peŭnyja nałady mohuć nia dziejničać. "
 "Heta moža śviedčyć ab prablemie z Bonobo albo ź inšym kiraŭnikom naładaŭ "
 "(napr. KDE), jaki kanfliktuje z kiraŭnikom GNOME."
@@ -2194,8 +2194,8 @@ msgid "Could not get session bus while applying display configuration"
 msgstr "Nie ŭdałosia atrymać šynu sesii pry ŭžyćci naładaŭ ekranu"
 
 #: ../capplets/display/xrandr-capplet.c:1777
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-msgstr "Nie ŭdałosia atrymać \"org.gnome.SettingsDaemon.XRANDR\""
+msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
+msgstr "Nie ŭdałosia atrymać \"io.github.scarecrow_de.SettingsDaemon.XRANDR\""
 
 #: ../capplets/display/xrandr-capplet.c:1823
 msgid "Could not detect displays"

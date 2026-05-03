@@ -21,9 +21,9 @@
 
 #include <glib-object.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
-#include <libgnome-desktop/gnome-desktop-thumbnail.h>
+#include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 #include <gdesktop-enums.h>
-#include <libgnome-desktop/gnome-bg.h>
+#include <libscarecrow-desktop/gnome-bg.h>
 
 G_BEGIN_DECLS
 

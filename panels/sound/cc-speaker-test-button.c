@@ -202,7 +202,7 @@ cc_speaker_test_button_class_init (CcSpeakerTestButtonClass *klass)
 
   object_class->dispose = cc_speaker_test_button_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/sound/cc-speaker-test-button.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/sound/cc-speaker-test-button.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSpeakerTestButton, image);
   gtk_widget_class_bind_template_child (widget_class, CcSpeakerTestButton, label);

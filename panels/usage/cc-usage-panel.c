@@ -160,9 +160,9 @@ empty_trash (CcUsagePanel *self)
 
   bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
   g_dbus_connection_call (bus,
-                          "org.gnome.SettingsDaemon.Housekeeping",
-                          "/org/gnome/SettingsDaemon/Housekeeping",
-                          "org.gnome.SettingsDaemon.Housekeeping",
+                          "io.github.scarecrow_de.SettingsDaemon.Housekeeping",
+                          "/io/github/scarecrow_de//SettingsDaemon/Housekeeping",
+                          "io.github.scarecrow_de.SettingsDaemon.Housekeeping",
                           "EmptyTrash",
                           NULL, NULL, 0, -1, NULL, NULL, NULL);
 }
@@ -183,9 +183,9 @@ purge_temp (CcUsagePanel *self)
 
   bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
   g_dbus_connection_call (bus,
-                          "org.gnome.SettingsDaemon.Housekeeping",
-                          "/org/gnome/SettingsDaemon/Housekeeping",
-                          "org.gnome.SettingsDaemon.Housekeeping",
+                          "io.github.scarecrow_de.SettingsDaemon.Housekeeping",
+                          "/io/github/scarecrow_de//SettingsDaemon/Housekeeping",
+                          "io.github.scarecrow_de.SettingsDaemon.Housekeeping",
                           "RemoveTempFiles",
                           NULL, NULL, 0, -1, NULL, NULL, NULL);
 }
@@ -272,7 +272,7 @@ cc_usage_panel_init (CcUsagePanel *self)
                                 cc_list_box_update_header_func,
                                 NULL, NULL);
 
-  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
+  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
 
   g_settings_bind (self->privacy_settings,
                    "remember-recent-files",
@@ -329,7 +329,7 @@ cc_usage_panel_class_init (CcUsagePanelClass *klass)
 
   oclass->finalize = cc_usage_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/usage/cc-usage-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/usage/cc-usage-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcUsagePanel, purge_after_combo);
   gtk_widget_class_bind_template_child (widget_class, CcUsagePanel, purge_temp_switch);

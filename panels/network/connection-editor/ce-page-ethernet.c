@@ -190,7 +190,7 @@ ce_page_ethernet_class_init (CEPageEthernetClass *klass)
 {
         GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/network/ethernet-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de//control-center/network/ethernet-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageEthernet, cloned_mac_combo);
         gtk_widget_class_bind_template_child (widget_class, CEPageEthernet, mac_combo);

@@ -37,7 +37,7 @@ panels/datetime/cc-datetime-panel.ui
 panels/datetime/gnome-datetime-panel.desktop.in.in
 panels/datetime/little.ui
 panels/datetime/middle.ui
-panels/datetime/org.gnome.controlcenter.datetime.policy.in
+panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in
 panels/datetime/ydm.ui
 panels/default-apps/cc-default-apps-panel.ui
 panels/default-apps/gnome-default-apps-panel.desktop.in.in
@@ -194,7 +194,7 @@ panels/sharing/cc-sharing-networks.ui
 panels/sharing/cc-sharing-panel.c
 panels/sharing/cc-sharing-panel.ui
 panels/sharing/gnome-sharing-panel.desktop.in.in
-panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in
+panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in
 panels/sound/cc-alert-chooser.c
 panels/sound/cc-alert-chooser.ui
 panels/sound/cc-balance-slider.ui
@@ -233,7 +233,7 @@ panels/user-accounts/cc-user-panel.c
 panels/user-accounts/cc-user-panel.ui
 panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in
 panels/user-accounts/data/join-dialog.ui
-panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in
+panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in
 panels/user-accounts/pw-utils.c
 panels/user-accounts/run-passwd.c
 panels/user-accounts/user-utils.c
@@ -258,6 +258,6 @@ shell/cc-window.c
 shell/cc-window.ui
 shell/gnome-control-center.desktop.in.in
 shell/help-overlay.ui
-shell/org.gnome.ControlCenter.gschema.xml
+shell/io.github.scarecrow_de.ControlCenter.gschema.xml
 # Please do not remove this file from POTFILES.in. Run "git submodule init && git submodule update" to get it.
 subprojects/gvc/gvc-mixer-control.c

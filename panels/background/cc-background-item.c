@@ -26,7 +26,7 @@
 #include <gio/gio.h>
 #include <glib/gi18n-lib.h>
 
-#include <libgnome-desktop/gnome-bg.h>
+#include <libscarecrow-desktop/gnome-bg.h>
 #include <gdesktop-enums.h>
 
 #include "cc-background-item.h"
