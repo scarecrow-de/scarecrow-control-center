@@ -24,7 +24,7 @@
 #include <libupower-glib/upower.h>
 #include <glib/gi18n.h>
 <<<<<<< Updated upstream
-#include <scarecrow-settings-daemon/gsd-enums.h>
+#include <scarecrow-settings-daemon/scsd-enums.h>
 =======
 #include <gnome-settings-daemon/scsd-enums.h>
 >>>>>>> Stashed changes
@@ -2376,7 +2376,7 @@ cc_power_panel_init (CcPowerPanel *self)
   self->up_client = up_client_new ();
 
 <<<<<<< Updated upstream
-  self->gsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.power");
+  self->scsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.power");
   self->session_settings = g_settings_new ("io.github.scarecrow_de.desktop.session");
   self->interface_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 =======

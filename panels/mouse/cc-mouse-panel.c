@@ -388,7 +388,7 @@ cc_mouse_panel_init (CcMousePanel *self)
 
 <<<<<<< Updated upstream
   self->mouse_settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.mouse");
-  self->gsd_mouse_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
+  self->scsd_mouse_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
   self->touchpad_settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.touchpad");
 =======
   self->mouse_settings = g_settings_new ("org.gnome.desktop.peripherals.mouse");
