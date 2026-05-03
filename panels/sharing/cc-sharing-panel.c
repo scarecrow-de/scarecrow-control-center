@@ -1140,7 +1140,7 @@ sharing_proxy_ready (GObject      *source,
   GDBusProxy *proxy;
   g_autoptr(GError) error = NULL;
 
-  proxy = G_DBUS_PROXY (scsd_sharing_proxy_new_for_bus_finish (res, &error));
+  proxy = G_DBUS_PROXY (gsd_sharing_proxy_new_for_bus_finish (res, &error));
   if (!proxy) {
     if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
       g_warning ("Failed to get sharing proxy: %s", error->message);
@@ -1210,7 +1210,7 @@ cc_sharing_panel_init (CcSharingPanel *self)
   g_signal_connect_object (self->master_switch, "notify::active",
                            G_CALLBACK (cc_sharing_panel_master_switch_notify), self, G_CONNECT_SWAPPED);
 
-  scsd_sharing_proxy_new_for_bus (G_BUS_TYPE_SESSION,
+  gsd_sharing_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                  G_DBUS_PROXY_FLAGS_NONE,
                                  "io.github.scarecrow_de.SettingsDaemon.Sharing",
                                  "/io/github/scarecrow_de/SettingsDaemon/Sharing",

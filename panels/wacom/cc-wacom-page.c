@@ -213,15 +213,15 @@ finish_calibration (CalibArea *area,
 static GdkDevice *
 cc_wacom_page_get_gdk_device (CcWacomPage *page)
 {
-	GsdDevice *scsd_device;
+	GsdDevice *gsd_device;
 	GdkDevice *gdk_device = NULL;
 	GdkDisplay *display;
 	GdkSeat *seat;
 	g_autoptr(GList) slaves = NULL;
 	GList *l;
 
-	scsd_device = cc_wacom_device_get_device (page->stylus);
-	g_return_val_if_fail (GSD_IS_DEVICE (scsd_device), NULL);
+	gsd_device = cc_wacom_device_get_device (page->stylus);
+	g_return_val_if_fail (GSD_IS_DEVICE (gsd_device), NULL);
 
 	display = gtk_widget_get_display (GTK_WIDGET (page));
 	seat = gdk_display_get_default_seat (display);
@@ -242,7 +242,7 @@ cc_wacom_page_get_gdk_device (CcWacomPage *page)
 			device_node = g_strdup (gdk_wayland_device_get_node_path (l->data));
 #endif
 
-		if (g_strcmp0 (device_node, scsd_device_get_device_file (scsd_device)) == 0)
+		if (g_strcmp0 (device_node, gsd_device_get_device_file (gsd_device)) == 0)
 			gdk_device = l->data;
 	}
 
@@ -465,15 +465,15 @@ static void
 set_osd_visibility (CcWacomPage *page)
 {
 	GDBusProxy         *proxy;
-	GsdDevice          *scsd_device;
+	GsdDevice          *gsd_device;
 	const gchar        *device_path;
 
-	proxy = cc_wacom_panel_get_scsd_wacom_bus_proxy (page->panel);
+	proxy = cc_wacom_panel_get_gsd_wacom_bus_proxy (page->panel);
 
 	/* Pick the first device, the OSD may change later between them */
-	scsd_device = cc_wacom_device_get_device (page->pads->data);
+	gsd_device = cc_wacom_device_get_device (page->pads->data);
 
-	device_path = scsd_device_get_device_file (scsd_device);
+	device_path = gsd_device_get_device_file (gsd_device);
 
 	if (proxy == NULL) {
 		show_button_mapping_dialog (page);
@@ -911,18 +911,18 @@ update_pad_availability (CcWacomPage *page)
 
 static void
 check_add_pad (CcWacomPage *page,
-	       GsdDevice   *scsd_device)
+	       GsdDevice   *gsd_device)
 {
 	g_autoptr(CcWacomDevice) wacom_device = NULL;
 
-	if ((scsd_device_get_device_type (scsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
+	if ((gsd_device_get_device_type (gsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
 		return;
 
-	if (!scsd_device_shares_group (cc_wacom_device_get_device (page->stylus),
-				      scsd_device))
+	if (!gsd_device_shares_group (cc_wacom_device_get_device (page->stylus),
+				      gsd_device))
 		return;
 
-	wacom_device = cc_wacom_device_new (scsd_device);
+	wacom_device = cc_wacom_device_new (gsd_device);
 	if (!wacom_device)
 		return;
 
@@ -932,16 +932,16 @@ check_add_pad (CcWacomPage *page,
 
 static void
 check_remove_pad (CcWacomPage *page,
-		  GsdDevice   *scsd_device)
+		  GsdDevice   *gsd_device)
 {
 	GList *l;
 
-	if ((scsd_device_get_device_type (scsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
+	if ((gsd_device_get_device_type (gsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
 		return;
 
 	for (l = page->pads; l; l = l->next) {
 		CcWacomDevice *wacom_device = l->data;
-		if (cc_wacom_device_get_device (wacom_device) == scsd_device) {
+		if (cc_wacom_device_get_device (wacom_device) == gsd_device) {
 			page->pads = g_list_delete_link (page->pads, l);
 			g_object_unref (wacom_device);
 		}
@@ -984,7 +984,7 @@ cc_wacom_page_new (CcWacomPanel  *panel,
 	set_icon_name (page, "image-tablet", cc_wacom_device_get_icon_name (stylus));
 
 	/* Listen to changes in related/paired pads */
-	page->manager = scsd_device_manager_get ();
+	page->manager = gsd_device_manager_get ();
 	g_signal_connect_object (G_OBJECT (page->manager), "device-added",
 				 G_CALLBACK (check_add_pad), page,
 				 G_CONNECT_SWAPPED);
@@ -992,7 +992,7 @@ cc_wacom_page_new (CcWacomPanel  *panel,
 				 G_CALLBACK (check_remove_pad), page,
 				 G_CONNECT_SWAPPED);
 
-	pads = scsd_device_manager_list_devices (page->manager, GSD_DEVICE_TYPE_PAD);
+	pads = gsd_device_manager_list_devices (page->manager, GSD_DEVICE_TYPE_PAD);
 	for (l = pads; l ; l = l->next)
 		check_add_pad (page, l->data);
 

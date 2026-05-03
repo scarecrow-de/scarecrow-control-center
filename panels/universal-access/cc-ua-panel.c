@@ -186,7 +186,7 @@ struct _CcUaPanel
   GSettings *mouse_settings;
   GSettings *kb_desktop_settings;
   GSettings *application_settings;
-  GSettings *scsd_mouse_settings;
+  GSettings *gsd_mouse_settings;
 
   ZoomOptions *zoom_options;
 
@@ -216,7 +216,7 @@ cc_ua_panel_dispose (GObject *object)
   g_clear_object (&self->mouse_settings);
   g_clear_object (&self->kb_desktop_settings);
   g_clear_object (&self->application_settings);
-  g_clear_object (&self->scsd_mouse_settings);
+  g_clear_object (&self->gsd_mouse_settings);
 
   g_clear_pointer (&self->sections, g_list_free);
   g_clear_pointer (&self->sections_reverse, g_list_free);
@@ -1095,7 +1095,7 @@ cc_ua_panel_init_mouse (CcUaPanel *self)
 
   g_object_set_data (G_OBJECT (self->row_click_assist), "dialog", self->pointing_dialog);
 
-  g_settings_bind (self->scsd_mouse_settings, "double-click",
+  g_settings_bind (self->gsd_mouse_settings, "double-click",
                    gtk_range_get_adjustment (GTK_RANGE (self->scale_double_click_delay)), "value",
                    G_SETTINGS_BIND_DEFAULT);
 
@@ -1118,7 +1118,7 @@ cc_ua_panel_init (CcUaPanel *self)
   self->kb_settings = g_settings_new (KEYBOARD_SETTINGS);
   self->kb_desktop_settings = g_settings_new (KEYBOARD_DESKTOP_SETTINGS);
   self->mouse_settings = g_settings_new (MOUSE_SETTINGS);
-  self->scsd_mouse_settings = g_settings_new (GSD_MOUSE_SETTINGS);
+  self->gsd_mouse_settings = g_settings_new (GSD_MOUSE_SETTINGS);
   self->application_settings = g_settings_new (APPLICATION_SETTINGS);
 
   cc_ua_panel_init_status (self);

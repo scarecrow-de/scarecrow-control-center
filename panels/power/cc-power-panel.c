@@ -26,7 +26,7 @@
 <<<<<<< Updated upstream
 #include <scarecrow-settings-daemon/scsd-enums.h>
 =======
-#include <gnome-settings-daemon/scsd-enums.h>
+#include <scarecrow-settings-daemon/scsd-enums.h>
 >>>>>>> Stashed changes
 
 #ifdef HAVE_NETWORK_MANAGER
@@ -62,7 +62,7 @@ struct _CcPowerPanel
 {
   CcPanel        parent_instance;
 
-  GSettings     *scsd_settings;
+  GSettings     *gsd_settings;
   GSettings     *session_settings;
   GSettings     *interface_settings;
   GtkWidget     *main_scroll;
@@ -147,7 +147,7 @@ cc_power_panel_dispose (GObject *object)
   CcPowerPanel *self = CC_POWER_PANEL (object);
 
   g_clear_pointer (&self->chassis_type, g_free);
-  g_clear_object (&self->scsd_settings);
+  g_clear_object (&self->gsd_settings);
   g_clear_object (&self->session_settings);
   g_clear_object (&self->interface_settings);
   g_clear_pointer (&self->automatic_suspend_dialog, gtk_widget_destroy);
@@ -1039,7 +1039,7 @@ als_switch_changed (CcPowerPanel *self)
   gboolean enabled;
   enabled = gtk_switch_get_active (GTK_SWITCH (self->als_switch));
   g_debug ("Setting ALS enabled %s", enabled ? "on" : "off");
-  g_settings_set_boolean (self->scsd_settings, "ambient-enabled", enabled);
+  g_settings_set_boolean (self->gsd_settings, "ambient-enabled", enabled);
 }
 
 static void
@@ -1058,7 +1058,7 @@ als_enabled_state_changed (CcPowerPanel *self)
         visible = g_variant_get_boolean (v);
     }
 
-  enabled = g_settings_get_boolean (self->scsd_settings, "ambient-enabled");
+  enabled = g_settings_get_boolean (self->gsd_settings, "ambient-enabled");
   g_debug ("ALS enabled: %s", enabled ? "on" : "off");
   g_signal_handlers_block_by_func (self->als_switch, als_switch_changed, self);
   gtk_switch_set_active (GTK_SWITCH (self->als_switch), enabled);
@@ -1087,7 +1087,7 @@ combo_time_changed_cb (CcPowerPanel *self, GtkWidget *widget)
                       -1);
 
   /* set both keys */
-  g_settings_set_int (self->scsd_settings, key, value);
+  g_settings_set_int (self->gsd_settings, key, value);
 }
 
 static void
@@ -1528,7 +1528,7 @@ combo_power_button_changed_cb (CcPowerPanel *self)
                       -1);
 
   /* set both keys */
-  g_settings_set_enum (self->scsd_settings, "power-button-action", value);
+  g_settings_set_enum (self->gsd_settings, "power-button-action", value);
 }
 
 static GtkWidget *
@@ -1711,10 +1711,10 @@ update_automatic_suspend_label (CcPowerPanel *self)
   gint battery_timeout;
   const gchar *s;
 
-  ac_action = g_settings_get_enum (self->scsd_settings, "sleep-inactive-ac-type");
-  battery_action = g_settings_get_enum (self->scsd_settings, "sleep-inactive-battery-type");
-  ac_timeout = g_settings_get_int (self->scsd_settings, "sleep-inactive-ac-timeout");
-  battery_timeout = g_settings_get_int (self->scsd_settings, "sleep-inactive-battery-timeout");
+  ac_action = g_settings_get_enum (self->gsd_settings, "sleep-inactive-ac-type");
+  battery_action = g_settings_get_enum (self->gsd_settings, "sleep-inactive-battery-type");
+  ac_timeout = g_settings_get_int (self->gsd_settings, "sleep-inactive-ac-timeout");
+  battery_timeout = g_settings_get_int (self->gsd_settings, "sleep-inactive-battery-timeout");
 
   if (ac_timeout < 0)
     g_warning ("Invalid negative timeout for 'sleep-inactive-ac-timeout': %d", ac_timeout);
@@ -1890,7 +1890,7 @@ add_power_saving_section (CcPowerPanel *self)
                       iio_proxy_appeared_cb,
                       iio_proxy_vanished_cb,
                       self, NULL);
-  g_signal_connect_object (self->scsd_settings, "changed",
+  g_signal_connect_object (self->gsd_settings, "changed",
                            G_CALLBACK (als_enabled_setting_changed), self, G_CONNECT_SWAPPED);
   self->als_row = row = no_prelight_row_new ();
   gtk_widget_show (row);
@@ -1927,7 +1927,7 @@ add_power_saving_section (CcPowerPanel *self)
 
   sw = gtk_switch_new ();
   gtk_widget_show (sw);
-  g_settings_bind (self->scsd_settings, "idle-dim",
+  g_settings_bind (self->gsd_settings, "idle-dim",
                    sw, "active",
                    G_SETTINGS_BIND_DEFAULT);
   gtk_widget_set_valign (sw, GTK_ALIGN_CENTER);
@@ -1966,15 +1966,15 @@ add_power_saving_section (CcPowerPanel *self)
    * For our switch/combobox combination, the second choice works
    * much better, so translate the first to the second here.
    */
-  if (g_settings_get_int (self->scsd_settings, "sleep-inactive-ac-timeout") == 0)
+  if (g_settings_get_int (self->gsd_settings, "sleep-inactive-ac-timeout") == 0)
     {
-      g_settings_set_enum (self->scsd_settings, "sleep-inactive-ac-type", GSD_POWER_ACTION_NOTHING);
-      g_settings_set_int (self->scsd_settings, "sleep-inactive-ac-timeout", 3600);
+      g_settings_set_enum (self->gsd_settings, "sleep-inactive-ac-type", GSD_POWER_ACTION_NOTHING);
+      g_settings_set_int (self->gsd_settings, "sleep-inactive-ac-timeout", 3600);
     }
-  if (g_settings_get_int (self->scsd_settings, "sleep-inactive-battery-timeout") == 0)
+  if (g_settings_get_int (self->gsd_settings, "sleep-inactive-battery-timeout") == 0)
     {
-      g_settings_set_enum (self->scsd_settings, "sleep-inactive-battery-type", GSD_POWER_ACTION_NOTHING);
-      g_settings_set_int (self->scsd_settings, "sleep-inactive-battery-timeout", 1800);
+      g_settings_set_enum (self->gsd_settings, "sleep-inactive-battery-type", GSD_POWER_ACTION_NOTHING);
+      g_settings_set_int (self->gsd_settings, "sleep-inactive-battery-timeout", 1800);
     }
 
   /* Automatic suspend row */
@@ -2002,28 +2002,28 @@ add_power_saving_section (CcPowerPanel *self)
 
       dialog = self->automatic_suspend_dialog;
       g_signal_connect (dialog, "delete-event", G_CALLBACK (gtk_widget_hide_on_delete), NULL);
-      g_signal_connect_object (self->scsd_settings, "changed", G_CALLBACK (on_suspend_settings_changed), self, G_CONNECT_SWAPPED);
+      g_signal_connect_object (self->gsd_settings, "changed", G_CALLBACK (on_suspend_settings_changed), self, G_CONNECT_SWAPPED);
 
-      g_settings_bind_with_mapping (self->scsd_settings, "sleep-inactive-battery-type",
+      g_settings_bind_with_mapping (self->gsd_settings, "sleep-inactive-battery-type",
                                     self->suspend_on_battery_switch, "active",
                                     G_SETTINGS_BIND_DEFAULT,
                                     get_sleep_type, set_sleep_type, NULL, NULL);
 
       g_object_set_data (G_OBJECT (self->suspend_on_battery_delay_combo), "_gsettings_key", "sleep-inactive-battery-timeout");
-      value = g_settings_get_int (self->scsd_settings, "sleep-inactive-battery-timeout");
+      value = g_settings_get_int (self->gsd_settings, "sleep-inactive-battery-timeout");
       set_value_for_combo (GTK_COMBO_BOX (self->suspend_on_battery_delay_combo), value);
       g_signal_connect_object (self->suspend_on_battery_delay_combo, "changed",
                                G_CALLBACK (combo_time_changed_cb), self, G_CONNECT_SWAPPED);
       g_object_bind_property (self->suspend_on_battery_switch, "active", self->suspend_on_battery_delay_combo, "sensitive",
                               G_BINDING_DEFAULT | G_BINDING_SYNC_CREATE);
 
-      g_settings_bind_with_mapping (self->scsd_settings, "sleep-inactive-ac-type",
+      g_settings_bind_with_mapping (self->gsd_settings, "sleep-inactive-ac-type",
                                     self->suspend_on_ac_switch, "active",
                                     G_SETTINGS_BIND_DEFAULT,
                                     get_sleep_type, set_sleep_type, NULL, NULL);
 
       g_object_set_data (G_OBJECT (self->suspend_on_ac_delay_combo), "_gsettings_key", "sleep-inactive-ac-timeout");
-      value = g_settings_get_int (self->scsd_settings, "sleep-inactive-ac-timeout");
+      value = g_settings_get_int (self->gsd_settings, "sleep-inactive-ac-timeout");
       set_value_for_combo (GTK_COMBO_BOX (self->suspend_on_ac_delay_combo), value);
       g_signal_connect_object (self->suspend_on_ac_delay_combo, "changed",
                                G_CALLBACK (combo_time_changed_cb), self, G_CONNECT_SWAPPED);
@@ -2230,7 +2230,7 @@ add_general_section (CcPowerPanel *self)
   model = GTK_TREE_MODEL (self->liststore_power_button);
   populate_power_button_model (model, can_suspend, can_hibernate);
   gtk_combo_box_set_model (GTK_COMBO_BOX (self->power_button_combo), model);
-  button_value = g_settings_get_enum (self->scsd_settings, "power-button-action");
+  button_value = g_settings_get_enum (self->gsd_settings, "power-button-action");
   set_value_for_combo (GTK_COMBO_BOX (self->power_button_combo), button_value);
   g_signal_connect_object (self->power_button_combo, "changed",
                            G_CALLBACK (combo_power_button_changed_cb), self, G_CONNECT_SWAPPED);
@@ -2376,11 +2376,11 @@ cc_power_panel_init (CcPowerPanel *self)
   self->up_client = up_client_new ();
 
 <<<<<<< Updated upstream
-  self->scsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.power");
+  self->gsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.power");
   self->session_settings = g_settings_new ("io.github.scarecrow_de.desktop.session");
   self->interface_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 =======
-  self->scsd_settings = g_settings_new ("org.gnome.settings-daemon.plugins.power");
+  self->gsd_settings = g_settings_new ("org.gnome.settings-daemon.plugins.power");
   self->session_settings = g_settings_new ("org.gnome.desktop.session");
   self->interface_settings = g_settings_new ("org.gnome.desktop.interface");
 >>>>>>> Stashed changes

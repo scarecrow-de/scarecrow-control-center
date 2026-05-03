@@ -25,11 +25,11 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_DEVICE (scsd_device_get_type ())
-G_DECLARE_DERIVABLE_TYPE (GsdDevice, scsd_device, GSD, DEVICE, GObject)
+#define GSD_TYPE_DEVICE (gsd_device_get_type ())
+G_DECLARE_DERIVABLE_TYPE (GsdDevice, gsd_device, GSD, DEVICE, GObject)
 
-#define GSD_TYPE_DEVICE_MANAGER (scsd_device_manager_get_type ())
-G_DECLARE_DERIVABLE_TYPE (GsdDeviceManager, scsd_device_manager, GSD, DEVICE_MANAGER, GObject)
+#define GSD_TYPE_DEVICE_MANAGER (gsd_device_manager_get_type ())
+G_DECLARE_DERIVABLE_TYPE (GsdDeviceManager, gsd_device_manager, GSD, DEVICE_MANAGER, GObject)
 
 typedef enum {
 	GSD_DEVICE_TYPE_MOUSE	     = 1 << 0,
@@ -62,25 +62,25 @@ struct _GsdDeviceManagerClass
 				       GdkDevice	*gdk_device);
 };
 
-GsdDeviceManager * scsd_device_manager_get	      (void);
-GList *		   scsd_device_manager_list_devices    (GsdDeviceManager *manager,
+GsdDeviceManager * gsd_device_manager_get	      (void);
+GList *		   gsd_device_manager_list_devices    (GsdDeviceManager *manager,
 						       GsdDeviceType	 type);
 
-const gchar *	   scsd_device_get_name	      (GsdDevice  *device);
-GsdDeviceType	   scsd_device_get_device_type (GsdDevice  *device);
-void		   scsd_device_get_device_ids  (GsdDevice    *device,
+const gchar *	   gsd_device_get_name	      (GsdDevice  *device);
+GsdDeviceType	   gsd_device_get_device_type (GsdDevice  *device);
+void		   gsd_device_get_device_ids  (GsdDevice    *device,
 					       const gchar **vendor,
 					       const gchar **product);
-GSettings *	   scsd_device_get_settings    (GsdDevice  *device);
+GSettings *	   gsd_device_get_settings    (GsdDevice  *device);
 
-const gchar *	   scsd_device_get_device_file (GsdDevice  *device);
-gboolean	   scsd_device_get_dimensions  (GsdDevice  *device,
+const gchar *	   gsd_device_get_device_file (GsdDevice  *device);
+gboolean	   gsd_device_get_dimensions  (GsdDevice  *device,
 					       guint	  *width,
 					       guint	  *height);
 
-GsdDevice *	   scsd_device_manager_lookup_gdk_device (GsdDeviceManager *manager,
+GsdDevice *	   gsd_device_manager_lookup_gdk_device (GsdDeviceManager *manager,
 							 GdkDevice	  *gdk_device);
-gboolean	   scsd_device_shares_group (GsdDevice *device1,
+gboolean	   gsd_device_shares_group (GsdDevice *device1,
 					    GsdDevice *device2);
 
 G_END_DECLS

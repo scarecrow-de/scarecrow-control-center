@@ -27,7 +27,7 @@
 <<<<<<< Updated upstream
 #include <scarecrow-settings-daemon/scsd-enums.h>
 =======
-#include <gnome-settings-daemon/scsd-enums.h>
+#include <scarecrow-settings-daemon/scsd-enums.h>
 >>>>>>> Stashed changes
 #include <math.h>
 

@@ -84,17 +84,17 @@ liblanguage_dep = declare_dependency(
   link_with: liblanguage
 )
 
-scsd_headers = [
+gsd_headers = [
   'scsd-device-manager.h',
   'scsd-input-helper.h'
 ]
 
-scsd_sources = [
+gsd_sources = [
   'scsd-device-manager.c',
   'scsd-input-helper.c'
 ]
 
-sources = common_sources + files(scsd_sources)
+sources = common_sources + files(gsd_sources)
 
 deps = common_deps + [ gudev_dep ]
 

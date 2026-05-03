@@ -35,6 +35,6 @@ void  cc_wacom_panel_switch_to_panel (CcWacomPanel *self,
 void  cc_wacom_panel_set_osd_visibility (CcWacomPanel *self,
                                          guint32        device_id);
 
-GDBusProxy * cc_wacom_panel_get_scsd_wacom_bus_proxy (CcWacomPanel *self);
+GDBusProxy * cc_wacom_panel_get_gsd_wacom_bus_proxy (CcWacomPanel *self);
 
 G_END_DECLS

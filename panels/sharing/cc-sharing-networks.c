@@ -115,7 +115,7 @@ cc_sharing_update_networks (CcSharingNetworks *self)
   g_list_free_full (self->networks, cc_sharing_network_free);
   self->networks = NULL;
 
-  if (!scsd_sharing_call_list_networks_sync (self->proxy, self->service_name, &networks, NULL, &error)) {
+  if (!gsd_sharing_call_list_networks_sync (self->proxy, self->service_name, &networks, NULL, &error)) {
     g_warning ("couldn't list networks: %s", error->message);
     g_dbus_proxy_set_cached_property (G_DBUS_PROXY (self->proxy),
 				      "SharingStatus",
@@ -150,7 +150,7 @@ cc_sharing_networks_remove_network (CcSharingNetworks *self,
   row = g_object_get_data (G_OBJECT (button), "row");
   uuid = g_object_get_data (G_OBJECT (row), "uuid");
 
-  ret = scsd_sharing_call_disable_service_sync (self->proxy,
+  ret = gsd_sharing_call_disable_service_sync (self->proxy,
 					       self->service_name,
 					       uuid,
 					       NULL,
@@ -172,14 +172,14 @@ cc_sharing_networks_enable_network (CcSharingNetworks *self,
   gboolean ret;
 
   if (state) {
-    ret = scsd_sharing_call_enable_service_sync (self->proxy,
+    ret = gsd_sharing_call_enable_service_sync (self->proxy,
 						self->service_name,
 						NULL,
 						&error);
   } else {
-    ret = scsd_sharing_call_disable_service_sync (self->proxy,
+    ret = gsd_sharing_call_disable_service_sync (self->proxy,
 						 self->service_name,
-						 scsd_sharing_get_current_network (self->proxy),
+						 gsd_sharing_get_current_network (self->proxy),
 						 NULL,
 						 &error);
   }
@@ -335,7 +335,7 @@ cc_sharing_update_networks_box (CcSharingNetworks *self)
       gtk_widget_destroy (row);
   }
 
-  current_network = scsd_sharing_get_current_network (self->proxy);
+  current_network = gsd_sharing_get_current_network (self->proxy);
 
   if (current_network != NULL &&
       !g_str_equal (current_network, "")) {
@@ -348,11 +348,11 @@ cc_sharing_update_networks_box (CcSharingNetworks *self)
     /* Network name */
     g_object_set_data_full (G_OBJECT (self->current_row),
 			    "uuid", g_strdup (current_network), g_free);
-    current_network_name = scsd_sharing_get_current_network_name (self->proxy);
+    current_network_name = gsd_sharing_get_current_network_name (self->proxy);
     gtk_label_set_label (GTK_LABEL (self->current_label), current_network_name);
 
     /* Icon */
-    carrier_type = scsd_sharing_get_carrier_type (self->proxy);
+    carrier_type = gsd_sharing_get_carrier_type (self->proxy);
     if (g_strcmp0 (carrier_type, "802-11-wireless") == 0) {
       icon_name = "network-wireless-signal-excellent-symbolic";
     } else if (g_strcmp0 (carrier_type, "802-3-ethernet") == 0) {
@@ -363,7 +363,7 @@ cc_sharing_update_networks_box (CcSharingNetworks *self)
     gtk_image_set_from_icon_name (GTK_IMAGE (self->current_icon), icon_name, GTK_ICON_SIZE_SMALL_TOOLBAR);
 
     /* State */
-    available = scsd_sharing_get_sharing_status (self->proxy) == GSD_SHARING_STATUS_AVAILABLE;
+    available = gsd_sharing_get_sharing_status (self->proxy) == GSD_SHARING_STATUS_AVAILABLE;
     gtk_widget_set_sensitive (self->current_switch, available);
     //FIXME add a subtitle explaining why it's disabled
   } else {

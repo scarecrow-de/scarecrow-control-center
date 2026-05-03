@@ -34,7 +34,7 @@
 static gboolean
 device_type_is_present (GsdDeviceType type)
 {
-        g_autoptr(GList) l = scsd_device_manager_list_devices (scsd_device_manager_get (),
+        g_autoptr(GList) l = gsd_device_manager_list_devices (gsd_device_manager_get (),
                                                               type);
         return l != NULL;
 }

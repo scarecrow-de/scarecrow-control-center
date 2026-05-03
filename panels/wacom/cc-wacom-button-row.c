@@ -254,7 +254,7 @@ cc_wacom_button_row_new (guint      button,
   g_signal_connect_object (combo, "changed",
                            G_CALLBACK (on_row_action_combo_box_changed), row, G_CONNECT_SWAPPED);
 
-  shortcut_button = scsd_wacom_key_shortcut_button_new ();
+  shortcut_button = gsd_wacom_key_shortcut_button_new ();
   g_object_set (shortcut_button, "mode", GSD_WACOM_KEY_SHORTCUT_BUTTON_MODE_ALL, NULL);
   gtk_grid_attach (GTK_GRID (grid), shortcut_button, 2, 0, 1, 1);
   gtk_widget_show (shortcut_button);
