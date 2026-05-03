@@ -7965,8 +7965,8 @@ msgstr "Tercihler;Ayarlar;"
 #~ msgstr "Tema Yükleyici"
 
 # tr
-#~ msgid "Gnome Theme Package"
-#~ msgstr "Gnome Tema Paketi"
+#~ msgid "Scarecrow Theme Package"
+#~ msgstr "Scarecrow Tema Paketi"
 
 # tr
 #~ msgid "Slide Show"

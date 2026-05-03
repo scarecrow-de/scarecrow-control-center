@@ -28,7 +28,7 @@
 #include <glib/gstdio.h>
 #include <gtk/gtk.h>
 #include <act/act.h>
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 
 #ifdef HAVE_CHEESE
@@ -195,7 +195,7 @@ update_preview (GtkFileChooser               *chooser,
                 }
 
                 if (mime_type) {
-                        pixbuf = gnome_desktop_thumbnail_factory_generate_thumbnail (thumb_factory,
+                        pixbuf = scarecrow_desktop_thumbnail_factory_generate_thumbnail (thumb_factory,
                                                                                      uri,
                                                                                      mime_type);
                         g_free (mime_type);
@@ -572,7 +572,7 @@ cc_avatar_chooser_new (GtkWidget *button)
                              "relative-to", button,
                              NULL);
 
-        self->thumb_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_NORMAL);
+        self->thumb_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_NORMAL);
 
         /* Set up the popup */
         self->popup_button = button;

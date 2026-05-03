@@ -9776,7 +9776,7 @@ msgstr "Stelselklanke"
 #~ msgid "Theme Installer"
 #~ msgstr "Tema-installeerder"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "GNOME-temapakket"
 
 #~ msgid "Slide Show"

@@ -9356,7 +9356,7 @@ msgstr "Bunyi Sistem"
 #~ msgid "Theme Installer"
 #~ msgstr "Pemasang Tema"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "Pakej Tema GNOME"
 
 #~ msgid "Image"

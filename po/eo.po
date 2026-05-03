@@ -11122,7 +11122,7 @@ msgstr "Sistemsonoj"
 #~ msgid "Theme Installer"
 #~ msgstr "Etosa instalilo"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "GNOME-a etospakaĵo"
 
 #~ msgid "Slide Show"

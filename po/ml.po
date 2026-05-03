@@ -9499,7 +9499,7 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgid "Theme Installer"
 #~ msgstr "രംഗവിതാനത്തിന്റെ ഇന്‍സ്റ്റാളര്‍"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "ഗ്നോമിലെ രംഗവിതാനത്തിനുള്ള പാക്കേജ്"
 
 #~ msgid "Slide Show"

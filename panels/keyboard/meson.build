@@ -79,7 +79,7 @@ sources += gnome.compile_resources(
 )
 
 deps = common_deps + [
-  gnome_desktop_dep,
+  scarecrow_desktop_dep,
   x11_dep
 ]
 

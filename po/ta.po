@@ -10321,7 +10321,7 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgid "Theme Installer"
 #~ msgstr "கருப்பொருள் நிறுவி"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "க்னோம் கருப்பொருள் பொதி"
 
 #~ msgid "Cannot install theme"

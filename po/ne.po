@@ -7,7 +7,7 @@
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gnome Nepali Translation Project\n"
+"Project-Id-Version: Scarecrow Nepali Translation Project\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/issues\n"
 "POT-Creation-Date: 2019-08-06 17:03+0000\n"
 "PO-Revision-Date: 2019-08-29 13:01+0545\n"
@@ -9262,7 +9262,7 @@ msgstr "प्रणाली ध्वनिहरू"
 #~ msgid "Theme Installer"
 #~ msgstr "विषयवस्तु स्थापक"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "जीनोम विषयवस्तु प्याकेज"
 
 #~ msgid ""

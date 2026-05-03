@@ -29,7 +29,7 @@
 
 #include <fontconfig/fontconfig.h>
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 #include "cc-common-language.h"
@@ -53,15 +53,15 @@ iter_for_language (GtkTreeModel *model,
                         return TRUE;
         } while (gtk_tree_model_iter_next (model, iter));
 
-        name = gnome_normalize_locale (lang);
+        name = scarecrow_normalize_locale (lang);
         if (name != NULL) {
                 g_autofree gchar *language = NULL;
 
                 if (region) {
-                        language = gnome_get_country_from_locale (name, NULL);
+                        language = scarecrow_get_country_from_locale (name, NULL);
                 }
                 else {
-                        language = gnome_get_language_from_locale (name, NULL);
+                        language = scarecrow_get_language_from_locale (name, NULL);
                 }
 
                 gtk_list_store_insert_with_values (GTK_LIST_STORE (model),
@@ -99,7 +99,7 @@ cc_common_language_has_font (const gchar *locale)
         object_set = NULL;
         font_set = NULL;
 
-        if (!gnome_parse_locale (locale, &language_code, NULL, NULL, NULL))
+        if (!scarecrow_parse_locale (locale, &language_code, NULL, NULL, NULL))
                 return FALSE;
 
         charset = FcLangGetCharSet ((FcChar8 *) language_code);
@@ -154,7 +154,7 @@ cc_common_language_get_current_language (void)
 
         locale = (const gchar *) setlocale (LC_MESSAGES, NULL);
         if (locale)
-                language = gnome_normalize_locale (locale);
+                language = scarecrow_normalize_locale (locale);
         else
                 language = NULL;
 
@@ -192,7 +192,7 @@ get_lang_for_user_object_path (const char *path)
 
 /*
  * Note that @lang needs to be formatted like the locale strings
- * returned by gnome_get_all_locales().
+ * returned by scarecrow_get_all_locales().
  */
 static void
 insert_language (GHashTable *ht,
@@ -202,9 +202,9 @@ insert_language (GHashTable *ht,
         g_autofree gchar *label_current_lang = NULL;
         g_autofree gchar *label_untranslated = NULL;
 
-        label_own_lang = gnome_get_language_from_locale (lang, lang);
-        label_current_lang = gnome_get_language_from_locale (lang, NULL);
-        label_untranslated = gnome_get_language_from_locale (lang, "C");
+        label_own_lang = scarecrow_get_language_from_locale (lang, lang);
+        label_current_lang = scarecrow_get_language_from_locale (lang, NULL);
+        label_untranslated = scarecrow_get_language_from_locale (lang, "C");
 
         /* We don't have a translation for the label in
          * its own language? */
@@ -276,7 +276,7 @@ cc_common_language_add_user_languages (GtkTreeModel *model)
                 g_autofree gchar *country = NULL;
                 g_autofree gchar *codeset = NULL;
 
-                gnome_parse_locale (name, &language, &country, &codeset, NULL);
+                scarecrow_parse_locale (name, &language, &country, &codeset, NULL);
 
                 if (!codeset || !g_str_equal (codeset, "UTF-8"))
                         g_warning ("Current user locale codeset isn't UTF-8");

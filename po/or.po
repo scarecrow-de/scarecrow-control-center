@@ -9202,8 +9202,8 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgid "Theme Installer"
 #~ msgstr "ପ୍ରସଙ୍ଗ ସ୍ଥାପକ"
 
-#~ msgid "Gnome Theme Package"
-#~ msgstr "Gnome ପ୍ରସଙ୍ଗ ପ୍ୟାକେଜ"
+#~ msgid "Scarecrow Theme Package"
+#~ msgstr "Scarecrow ପ୍ରସଙ୍ଗ ପ୍ୟାକେଜ"
 
 #~ msgid "Slide Show"
 #~ msgstr "ସ୍ଲାଇଡ୍ ଦେଖାଅ"

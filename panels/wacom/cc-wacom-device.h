@@ -26,7 +26,7 @@
 
 #include "scsd-device-manager.h"
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 
 #define CC_TYPE_WACOM_DEVICE (cc_wacom_device_get_type ())
@@ -52,10 +52,10 @@ GSettings     * cc_wacom_device_get_settings    (CcWacomDevice *device);
 const gint    * cc_wacom_device_get_supported_tools (CcWacomDevice *device,
 						     gint          *n_tools);
 
-GnomeRROutput * cc_wacom_device_get_output      (CcWacomDevice *device,
-						 GnomeRRScreen *screen);
+ScarecrowRROutput * cc_wacom_device_get_output      (CcWacomDevice *device,
+						 ScarecrowRRScreen *screen);
 void            cc_wacom_device_set_output      (CcWacomDevice *wacom_device,
-						 GnomeRROutput *monitor);
+						 ScarecrowRROutput *monitor);
 
 guint           cc_wacom_device_get_num_buttons (CcWacomDevice *wacom_device);
 

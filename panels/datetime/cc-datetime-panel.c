@@ -30,7 +30,7 @@
 #include "cc-timezone-map.h"
 #include "timedated.h"
 #include "date-endian.h"
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 
 #include <gdesktop-enums.h>
 #include <string.h>
@@ -114,7 +114,7 @@ struct _CcDateTimePanel
   GtkWidget *timezone_searchentry;
   GtkWidget *year_spinbutton;
 
-  GnomeWallClock *clock_tracker;
+  ScarecrowWallClock *clock_tracker;
 
   Timedate1 *dtm;
   GCancellable *cancellable;
@@ -427,7 +427,7 @@ translated_city_name (TzLocation *loc)
 
   length = g_strv_length (split_translated);
 
-  country = gnome_get_country_from_code (loc->country, NULL);
+  country = scarecrow_get_country_from_code (loc->country, NULL);
   /* Translators: "city, country" */
   name = g_strdup_printf (C_("timezone loc", "%s, %s"),
                           split_translated[length-1],
@@ -1071,7 +1071,7 @@ cc_date_time_panel_init (CcDateTimePanel *self)
   self->clock_settings = g_settings_new (CLOCK_SCHEMA);
 
   /* setup the time itself */
-  self->clock_tracker = g_object_new (GNOME_TYPE_WALL_CLOCK, NULL);
+  self->clock_tracker = g_object_new (SCARECROW_TYPE_WALL_CLOCK, NULL);
   g_signal_connect_object (self->clock_tracker, "notify::clock", G_CALLBACK (on_clock_changed), self, G_CONNECT_SWAPPED);
 
   clock_settings_changed_cb (self, CLOCK_FORMAT_KEY);

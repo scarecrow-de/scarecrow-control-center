@@ -1,5 +1,5 @@
 # Shavian translation for scarecrow-control-center.
-# Copyright (C) 2009 The Gnome Foundation.
+# Copyright (C) 2009 The Scarecrow Foundation.
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 msgid ""
 msgstr ""
@@ -1298,7 +1298,7 @@ msgid "Theme Installer"
 msgstr "𐑔𐑰𐑥 𐑦𐑯𐑕𐑑𐑷𐑤𐑼"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr "𐑯𐑴𐑥 𐑔𐑰𐑥 𐑐𐑨𐑒𐑦𐑡"
 
 #: ../capplets/appearance/gnome-wp-info.c:50

@@ -12631,7 +12631,7 @@ msgstr "צלילי מערכת"
 #~ msgid "Theme Installer"
 #~ msgstr "מתקין ערכות נושא"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "חבילת ערכת נושא של GNOME"
 
 #~ msgid "Cannot install theme"

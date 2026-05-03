@@ -1067,8 +1067,8 @@ msgid "Theme Installer"
 msgstr "Instaluesi i temave"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
-msgstr "Paketa «Tema e Gnome»"
+msgid "Scarecrow Theme Package"
+msgstr "Paketa «Tema e Scarecrow»"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Wallpaper"

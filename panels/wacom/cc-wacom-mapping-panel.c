@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 #include <libscarecrow-desktop/scarecrow-rr-config.h>
 
@@ -42,7 +42,7 @@ struct _CcWacomMappingPanel
 	GtkWidget      *aspectlabel;
 	GtkWidget      *aspectswitch;
 
-	GnomeRRScreen  *rr_screen;
+	ScarecrowRRScreen  *rr_screen;
 };
 
 G_DEFINE_TYPE (CcWacomMappingPanel, cc_wacom_mapping_panel, GTK_TYPE_BOX)
@@ -78,9 +78,9 @@ static void
 update_monitor_chooser (CcWacomMappingPanel *self)
 {
 	g_autoptr(GtkListStore) store = NULL;
-	GnomeRROutput **outputs;
+	ScarecrowRROutput **outputs;
 	GSettings *settings;
-	GnomeRROutput *cur_output;
+	ScarecrowRROutput *cur_output;
 	guint i;
 
 	store = gtk_list_store_new (MONITOR_NUM_COLUMNS, G_TYPE_STRING, G_TYPE_POINTER);
@@ -108,20 +108,20 @@ update_monitor_chooser (CcWacomMappingPanel *self)
 		return;
 	}
 
-	outputs = gnome_rr_screen_list_outputs (self->rr_screen);
+	outputs = scarecrow_rr_screen_list_outputs (self->rr_screen);
 
 	for (i = 0; outputs[i] != NULL; i++) {
-		GnomeRROutput *output = outputs[i];
-		GnomeRRCrtc *crtc = gnome_rr_output_get_crtc (output);
+		ScarecrowRROutput *output = outputs[i];
+		ScarecrowRRCrtc *crtc = scarecrow_rr_output_get_crtc (output);
 
 		/* Output is turned on? */
-		if (crtc && gnome_rr_crtc_get_current_mode (crtc) != NULL) {
+		if (crtc && scarecrow_rr_crtc_get_current_mode (crtc) != NULL) {
 			GtkTreeIter iter;
 			const gchar *name, *disp_name;
 			g_autofree gchar *text = NULL;
 
-			name = gnome_rr_output_get_name (output);
-			disp_name = gnome_rr_output_get_display_name (output);
+			name = scarecrow_rr_output_get_name (output);
+			disp_name = scarecrow_rr_output_get_display_name (output);
 			text = g_strdup_printf ("%s (%s)", name, disp_name);
 
 			gtk_list_store_append (store, &iter);
@@ -161,7 +161,7 @@ update_ui (CcWacomMappingPanel *self)
 static void
 update_mapping (CcWacomMappingPanel *self)
 {
-	GnomeRROutput *output = NULL;
+	ScarecrowRROutput *output = NULL;
 
 	if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (self->checkbutton))) {
 		GtkTreeIter iter;
@@ -224,7 +224,7 @@ cc_wacom_mapping_panel_init (CcWacomMappingPanel *self)
 	GtkCellRenderer *renderer;
 	g_autoptr(GError) error = NULL;
 
-	self->rr_screen = gnome_rr_screen_new (gdk_screen_get_default (), &error);
+	self->rr_screen = scarecrow_rr_screen_new (gdk_screen_get_default (), &error);
 
 	if (error)
 		g_warning ("Could not get RR screen: %s", error->message);

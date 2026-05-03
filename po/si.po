@@ -1153,7 +1153,7 @@ msgid "Theme Installer"
 msgstr ""
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr ""
 
 #: ../capplets/appearance/gnome-wp-info.c:45
@@ -2987,7 +2987,7 @@ msgid "Network Servers"
 msgstr "ජාල සේවාදායක"
 
 #: ../libslab/bookmark-agent.c:1170
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
 msgid "Search"
 msgstr "සොයන්න"
 
@@ -3197,176 +3197,176 @@ msgstr ""
 msgid "Roll up"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
 msgid "E-mail"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
 msgid "E-mail's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
 msgid "Eject"
 msgstr "ඉවත් කරන්න"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
 msgid "Eject's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
 msgid "Home folder"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
 msgid "Home folder's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
 msgid "Launch help browser"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
 msgid "Launch help browser's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
 msgid "Launch web browser"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
 msgid "Launch web browser's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
 msgid "Lock screen"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
 msgid "Lock screen's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
 msgid "Log out"
 msgstr "ඉවත් වීම"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
 msgid "Log out's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
 msgid "Media player"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
 msgid "Media player key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
 msgid "Next track key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
 msgid "Pause"
 msgstr "විරාමය"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
 msgid "Pause key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
 msgid "Play (or play/pause)"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
 msgid "Play (or play/pause) key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
 msgid "Previous track key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
 msgid "Search's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
 msgid "Skip to next track"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
 msgid "Skip to previous track"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
 msgid "Sleep"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
 msgid "Sleep's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
 msgid "Stop playback key"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
 msgid "Stop playback key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
 msgid "Volume down"
 msgstr "හඬ අඩු කරන්න"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
 msgid "Volume down's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume mute"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume mute's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume step"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume step as percentage of volume."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
 msgid "Volume up"
 msgstr "හඬ වැඩි කරන්න"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
 msgid "Volume up's shortcut."
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
 msgid "Run screensaver at login"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
 msgid "Start screensaver"
 msgstr ""
 

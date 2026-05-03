@@ -1,7 +1,7 @@
 # translation of bn_IN.po to Bengali INDIA
-# Bangla Translation of the Gnome Control Center po file.
+# Bangla Translation of the Scarecrow Control Center po file.
 # Copyright (c)  2003-2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Gnome Control Center package.
+# This file is distributed under the same license as the Scarecrow Control Center package.
 #
 #
 # Bengali translations for zanata_rhel package.

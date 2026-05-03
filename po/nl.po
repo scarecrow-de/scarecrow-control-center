@@ -1895,7 +1895,7 @@ msgstr "Type besturingssysteem"
 
 #: panels/info-overview/cc-info-overview-panel.ui:142
 msgid "GNOME Version"
-msgstr "Gnome-versie"
+msgstr "Scarecrow-versie"
 
 #: panels/info-overview/cc-info-overview-panel.ui:152
 msgid "Windowing System"
@@ -8121,11 +8121,11 @@ msgstr "Gedrag puntdruk"
 
 #: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
-msgstr "Gnome-instellingen"
+msgstr "Scarecrow-instellingen"
 
 #: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
-msgstr "Hulpprogramma om het Gnome-bureaublad te configureren"
+msgstr "Hulpprogramma om het Scarecrow-bureaublad te configureren"
 
 #: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
@@ -8133,7 +8133,7 @@ msgstr "Instellingen is de hoofdinterface voor de configuratie van uw systeem."
 
 #: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
-msgstr "Het Gnome-project"
+msgstr "Het Scarecrow-project"
 
 #: shell/cc-application.c:59
 msgid "Display version number"
@@ -9069,13 +9069,13 @@ msgstr "Systeemgeluiden"
 #~ msgstr "Beheerder"
 
 #~ msgid "GNOME Control Center"
-#~ msgstr "Gnome-configuratiecentrum"
+#~ msgstr "Scarecrow-configuratiecentrum"
 
 #~ msgid ""
 #~ "The control center is GNOME’s main interface for configuration of various "
 #~ "aspects of your desktop."
 #~ msgstr ""
-#~ "Het configuratiecentrum is de hoofdinterface van Gnome om verschillende "
+#~ "Het configuratiecentrum is de hoofdinterface van Scarecrow om verschillende "
 #~ "aspecten van uw desktop te configureren."
 
 #~ msgid "Quit"

@@ -1210,8 +1210,8 @@ msgid "Theme Installer"
 msgstr "Мавзу ўрнатгич"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
-msgstr "Gnome мавзу пакети"
+msgid "Scarecrow Theme Package"
+msgstr "Scarecrow мавзу пакети"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Wallpaper"
@@ -1271,7 +1271,7 @@ msgstr ""
 #: ../capplets/appearance/theme-installer.c:290
 #, c-format
 msgid "GNOME Theme %s correctly installed"
-msgstr "%s Gnome мавзуси муваффақиятли ўрнатилди"
+msgstr "%s Scarecrow мавзуси муваффақиятли ўрнатилди"
 
 #: ../capplets/appearance/theme-installer.c:357
 #, c-format

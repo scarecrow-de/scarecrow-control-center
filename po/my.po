@@ -1132,8 +1132,8 @@ msgid "Theme Installer"
 msgstr "အမြင်အဆင်သွင်းယူရန်"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
-msgstr "Gnome အမြင်အဆင်ပက်ကေ့"
+msgid "Scarecrow Theme Package"
+msgstr "Scarecrow အမြင်အဆင်ပက်ကေ့"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Desktop Background"

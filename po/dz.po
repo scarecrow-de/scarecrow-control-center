@@ -977,7 +977,7 @@ msgid "Theme Installer"
 msgstr "བརྗོད་དོན་གཞི་བཙུགས་པ་"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr "ཇི་ནོམ་བརྗོད་དོན་ཐུམ་སྒྲིལ་"
 
 #: ../capplets/appearance/gnome-wp-info.c:45

@@ -265,7 +265,7 @@ on_file_chooser_selection_changed_cb (GtkFileChooser               *chooser,
 
       if (mime_type)
         {
-          pixbuf = gnome_desktop_thumbnail_factory_generate_thumbnail (thumbnail_factory,
+          pixbuf = scarecrow_desktop_thumbnail_factory_generate_thumbnail (thumbnail_factory,
                                                                        uri,
                                                                        mime_type);
         }
@@ -358,7 +358,7 @@ cc_background_chooser_select_file (CcBackgroundChooser *self)
   gtk_file_chooser_set_select_multiple (GTK_FILE_CHOOSER (filechooser), TRUE);
   gtk_widget_show (preview);
 
-  factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_LARGE);
+  factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
   g_signal_connect_after (filechooser,
                           "selection-changed",
                           G_CALLBACK (on_file_chooser_selection_changed_cb),

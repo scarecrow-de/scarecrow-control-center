@@ -2,7 +2,7 @@
 # Estonian translation of GNOME Control Center.
 #
 # Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2011 The Gnome Project.
+# Copyright (C) 2007–2011 The Scarecrow Project.
 # This file is distributed under the same license as the scarecrow-control-center
 # package.
 #

@@ -1,5 +1,5 @@
 /* -*- mode:c; c-basic-offset: 8; indent-tabs-mode: nil; -*- */
-/* Tool to set the property _GNOME_SESSION_ACCELERATED on the root window */
+/* Tool to set the property _SCARECROW_SESSION_ACCELERATED on the root window */
 /*
  * Copyright (C) 2019 Red Hat, Inc.
  *

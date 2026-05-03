@@ -52,7 +52,7 @@ struct _CcBackgroundItem
         guint64          modified;
 
         /* internal */
-        GnomeBG         *bg;
+        ScarecrowBG         *bg;
         char            *mime_type;
         int              width;
         int              height;
@@ -99,7 +99,7 @@ set_bg_properties (CcBackgroundItem *item)
 
 		file = g_file_new_for_commandline_arg (item->uri);
 		filename = g_file_get_path (file);
-		gnome_bg_set_filename (item->bg, filename);
+		scarecrow_bg_set_filename (item->bg, filename);
 	}
 
         if (item->primary_color != NULL) {
@@ -109,8 +109,8 @@ set_bg_properties (CcBackgroundItem *item)
                 gdk_rgba_parse (&scolor, item->secondary_color);
         }
 
-        gnome_bg_set_rgba (item->bg, item->shading, &pcolor, &scolor);
-        gnome_bg_set_placement (item->bg, item->placement);
+        scarecrow_bg_set_rgba (item->bg, item->shading, &pcolor, &scolor);
+        scarecrow_bg_set_placement (item->bg, item->placement);
 }
 
 
@@ -123,7 +123,7 @@ cc_background_item_changes_with_time (CcBackgroundItem *item)
 
         changes = FALSE;
         if (item->bg != NULL) {
-                changes = gnome_bg_changes_with_time (item->bg);
+                changes = scarecrow_bg_changes_with_time (item->bg);
         }
         return changes;
 }
@@ -136,7 +136,7 @@ update_size (CcBackgroundItem *item)
 	if (item->uri == NULL) {
 		item->size = g_strdup ("");
 	} else {
-		if (gnome_bg_has_multiple_sizes (item->bg) || gnome_bg_changes_with_time (item->bg)) {
+		if (scarecrow_bg_has_multiple_sizes (item->bg) || scarecrow_bg_changes_with_time (item->bg)) {
 			item->size = g_strdup (_("multiple sizes"));
 		} else {
 			/* translators: 100 × 100px
@@ -149,17 +149,17 @@ update_size (CcBackgroundItem *item)
 }
 
 static GdkPixbuf *
-render_at_size (GnomeBG *bg,
+render_at_size (ScarecrowBG *bg,
                 gint width,
                 gint height)
 {
         GdkPixbuf *pixbuf;
 
         pixbuf = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, width, height);
-#ifdef GNOME_DESKTOP_BG_API_BREAK
-        gnome_bg_draw (bg, pixbuf);
+#ifdef SCARECROW_DESKTOP_BG_API_BREAK
+        scarecrow_bg_draw (bg, pixbuf);
 #else
-        gnome_bg_draw (bg, pixbuf, gdk_screen_get_default (), FALSE);
+        scarecrow_bg_draw (bg, pixbuf, gdk_screen_get_default (), FALSE);
 #endif
 
         return pixbuf;
@@ -194,21 +194,21 @@ cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
                 /* FIXME: this doesn't play nice with slideshow stepping at all,
                  * because it will always render the current slideshow frame, which
                  * might not be what we want.
-                 * We're lacking an API to draw a high-res GnomeBG manually choosing
+                 * We're lacking an API to draw a high-res ScarecrowBG manually choosing
                  * the slideshow frame though, so we can't do much better than this
                  * for now.
                  */
                 pixbuf = render_at_size (item->bg, width, height);
         } else {
                 if (frame >= 0) {
-                        pixbuf = gnome_bg_create_frame_thumbnail (item->bg,
+                        pixbuf = scarecrow_bg_create_frame_thumbnail (item->bg,
                                                                   thumbs,
                                                                   gdk_screen_get_default (),
                                                                   width,
                                                                   height,
                                                                   frame);
                 } else {
-                        pixbuf = gnome_bg_create_thumbnail (item->bg,
+                        pixbuf = scarecrow_bg_create_thumbnail (item->bg,
                                                             thumbs,
                                                             gdk_screen_get_default (),
                                                             width,
@@ -218,7 +218,7 @@ cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
 
         retval = g_steal_pointer (&pixbuf);
 
-        gnome_bg_get_image_size (item->bg,
+        scarecrow_bg_get_image_size (item->bg,
                                  thumbs,
                                  width,
                                  height,
@@ -759,7 +759,7 @@ cc_background_item_class_init (CcBackgroundItemClass *klass)
 static void
 cc_background_item_init (CcBackgroundItem *item)
 {
-        item->bg = gnome_bg_new ();
+        item->bg = scarecrow_bg_new ();
 
         item->shading = G_DESKTOP_BACKGROUND_SHADING_SOLID;
         item->placement = G_DESKTOP_BACKGROUND_STYLE_SCALED;

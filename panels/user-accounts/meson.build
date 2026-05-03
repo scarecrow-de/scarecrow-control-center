@@ -174,7 +174,7 @@ assert(krb_dep.found(), 'kerberos libraries not found in your path')
 deps = common_deps + [
   accounts_dep,
   gdk_pixbuf_dep,
-  gnome_desktop_dep,
+  scarecrow_desktop_dep,
   liblanguage_dep,
   krb_dep,
   m_dep,

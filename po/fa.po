@@ -12179,7 +12179,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Theme Installer"
 #~ msgstr "نصب تم"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "بسته‌ی تم گنوم"
 
 #~| msgid "Control theme"
@@ -12215,7 +12215,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Installation for theme \"%s\" failed."
 #~ msgstr "نصب کردن شکست خورد"
 
-#~| msgid "Gnome Theme %s correctly installed"
+#~| msgid "Scarecrow Theme %s correctly installed"
 #~ msgid "The theme \"%s\" has been installed."
 #~ msgstr "تم گنوم %s به درستی نصب شد"
 
@@ -12231,7 +12231,7 @@ msgstr "صداهای سامانه"
 #~ msgid "Apply New Theme"
 #~ msgstr "اِعمال تم جدید"
 
-#~| msgid "Gnome Theme %s correctly installed"
+#~| msgid "Scarecrow Theme %s correctly installed"
 #~ msgid "GNOME Theme %s correctly installed"
 #~ msgstr "تم گنوم %s به درستی نصب شد"
 

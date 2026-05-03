@@ -12477,7 +12477,7 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ msgid "Theme Installer"
 #~ msgstr "ਥੀਮ ਇੰਸਟਾਲਰ"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "ਗਨੋਮ ਥੀਮ ਪੈਕੇਜ"
 
 #~ msgid "Cannot install theme"

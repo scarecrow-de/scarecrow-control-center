@@ -168,7 +168,7 @@ sources += gnome.gdbus_codegen(
 
 deps = common_deps + [
   gdk_pixbuf_dep,
-  gnome_desktop_dep,
+  scarecrow_desktop_dep,
   polkit_gobject_dep
 ]
 

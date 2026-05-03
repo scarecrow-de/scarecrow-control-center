@@ -14,7 +14,7 @@
 # t_p_r: 266 messages, 05Aug2002, reviewed translation.
 # simos: 329 messages, 06Aug2002, updated translation.
 # kostas: 461 messages, 18Oct2002, updated and completed translation.
-# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Gnome 2.1x.
+# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Scarecrow 2.1x.
 # kostas: 533 messages, 06Jan2003, one more update.
 # kostas: 537 messages, 26Jan2003, one more update.
 # kostas:  650 messages, 22Jul2003, one more update.

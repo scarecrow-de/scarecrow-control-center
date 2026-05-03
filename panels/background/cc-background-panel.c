@@ -297,7 +297,7 @@ cc_background_panel_init (CcBackgroundPanel *panel)
 
   panel->connection = g_application_get_dbus_connection (g_application_get_default ());
 
-  panel->thumb_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_LARGE);
+  panel->thumb_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
 
   panel->settings = g_settings_new (WP_PATH_ID);
   g_settings_delay (panel->settings);

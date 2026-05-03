@@ -1303,7 +1303,7 @@ msgid "Theme Installer"
 msgstr "Instalatar matyvaŭ"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr "Pakunak matyvu GNOME"
 
 #: ../capplets/appearance/gnome-wp-info.c:50

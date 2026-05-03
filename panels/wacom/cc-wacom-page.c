@@ -293,20 +293,20 @@ calibrate (CcWacomPage *page)
 	gsize ncal;
 	GdkMonitor *monitor;
 	GdkScreen *screen;
-	g_autoptr(GnomeRRScreen) rr_screen = NULL;
-	GnomeRROutput *output;
+	g_autoptr(ScarecrowRRScreen) rr_screen = NULL;
+	ScarecrowRROutput *output;
 	g_autoptr(GError) error = NULL;
 	gint x, y;
 
 	screen = gdk_screen_get_default ();
-	rr_screen = gnome_rr_screen_new (screen, &error);
+	rr_screen = scarecrow_rr_screen_new (screen, &error);
 	if (error) {
 		g_warning ("Could not connect to display manager: %s", error->message);
 		return;
 	}
 
 	output = cc_wacom_device_get_output (page->stylus, rr_screen);
-	gnome_rr_output_get_position (output, &x, &y);
+	scarecrow_rr_output_get_position (output, &x, &y);
 	monitor = gdk_display_get_monitor_at_point (gdk_screen_get_display (screen), x, y);
 
 	if (!monitor) {
@@ -640,19 +640,19 @@ decouple_display_toggled_cb (CcWacomPage *page)
 		cc_wacom_device_set_output (page->stylus, NULL);
 	} else {
 		GdkScreen *screen;
-		GnomeRRScreen *rr_screen;
-		GnomeRROutput **outputs, *picked = NULL;
+		ScarecrowRRScreen *rr_screen;
+		ScarecrowRROutput **outputs, *picked = NULL;
 		g_autoptr(GError) error = NULL;
 		int i;
 
 		screen = gtk_widget_get_screen (GTK_WIDGET (WID ("switch-decouple-display")));
-		rr_screen = gnome_rr_screen_new (screen, &error);
+		rr_screen = scarecrow_rr_screen_new (screen, &error);
 		if (rr_screen == NULL) {
 			g_warning ("Could not connect to display manager: %s", error->message);
 			return;
 		}
 
-		outputs = gnome_rr_screen_list_outputs (rr_screen);
+		outputs = scarecrow_rr_screen_list_outputs (rr_screen);
 
 		/* Pick *some* output here. decoupled mode can only jump across
 		 * monitors, not map to the full span of those. We prefer the
@@ -660,7 +660,7 @@ decouple_display_toggled_cb (CcWacomPage *page)
 		 * there's none.
 		 */
 		for (i = 0; outputs[i] != NULL; i++) {
-			if (gnome_rr_output_is_builtin_display (outputs[i]))
+			if (scarecrow_rr_output_is_builtin_display (outputs[i]))
 				picked = outputs[i];
 		}
 

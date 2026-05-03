@@ -253,17 +253,17 @@ cc_wacom_device_get_supported_tools (CcWacomDevice *device,
 	return libwacom_get_supported_styli (device->wdevice, n_tools);
 }
 
-static GnomeRROutput *
-find_output_by_edid (GnomeRRScreen *rr_screen,
+static ScarecrowRROutput *
+find_output_by_edid (ScarecrowRRScreen *rr_screen,
 		     const gchar   *vendor,
 		     const gchar   *product,
 		     const gchar   *serial)
 {
-	GnomeRROutput **rr_outputs;
-	GnomeRROutput *retval = NULL;
+	ScarecrowRROutput **rr_outputs;
+	ScarecrowRROutput *retval = NULL;
 	guint i;
 
-	rr_outputs = gnome_rr_screen_list_outputs (rr_screen);
+	rr_outputs = scarecrow_rr_screen_list_outputs (rr_screen);
 
 	for (i = 0; rr_outputs[i] != NULL; i++) {
 		g_autofree gchar *o_vendor = NULL;
@@ -271,7 +271,7 @@ find_output_by_edid (GnomeRRScreen *rr_screen,
 		g_autofree gchar *o_serial = NULL;
 		gboolean match;
 
-		gnome_rr_output_get_ids_from_edid (rr_outputs[i],
+		scarecrow_rr_output_get_ids_from_edid (rr_outputs[i],
 						   &o_vendor,
 						   &o_product,
 						   &o_serial);
@@ -296,8 +296,8 @@ find_output_by_edid (GnomeRRScreen *rr_screen,
 	return retval;
 }
 
-static GnomeRROutput *
-find_output (GnomeRRScreen *rr_screen,
+static ScarecrowRROutput *
+find_output (ScarecrowRRScreen *rr_screen,
 	     CcWacomDevice *device)
 {
 	g_autoptr(GSettings) settings = NULL;
@@ -320,24 +320,24 @@ find_output (GnomeRRScreen *rr_screen,
 	return find_output_by_edid (rr_screen, edid[0], edid[1], edid[2]);
 }
 
-GnomeRROutput *
+ScarecrowRROutput *
 cc_wacom_device_get_output (CcWacomDevice *device,
-			    GnomeRRScreen *rr_screen)
+			    ScarecrowRRScreen *rr_screen)
 {
-	GnomeRROutput *rr_output;
-	GnomeRRCrtc *crtc;
+	ScarecrowRROutput *rr_output;
+	ScarecrowRRCrtc *crtc;
 
         g_return_val_if_fail (CC_IS_WACOM_DEVICE (device), NULL);
-        g_return_val_if_fail (GNOME_IS_RR_SCREEN (rr_screen), NULL);
+        g_return_val_if_fail (SCARECROW_IS_RR_SCREEN (rr_screen), NULL);
 
 	rr_output = find_output (rr_screen, device);
 	if (rr_output == NULL) {
 		return NULL;
 	}
 
-	crtc = gnome_rr_output_get_crtc (rr_output);
+	crtc = scarecrow_rr_output_get_crtc (rr_output);
 
-	if (!crtc || gnome_rr_crtc_get_current_mode (crtc) == NULL) {
+	if (!crtc || scarecrow_rr_crtc_get_current_mode (crtc) == NULL) {
 		g_debug ("Output is not active.");
 		return NULL;
 	}
@@ -347,7 +347,7 @@ cc_wacom_device_get_output (CcWacomDevice *device,
 
 void
 cc_wacom_device_set_output (CcWacomDevice *device,
-			    GnomeRROutput *output)
+			    ScarecrowRROutput *output)
 {
 	g_autoptr(GSettings) settings = NULL;
 	g_autofree gchar *vendor = NULL;
@@ -361,7 +361,7 @@ cc_wacom_device_set_output (CcWacomDevice *device,
 	settings = cc_wacom_device_get_settings (device);
 
 	if (output != NULL) {
-		gnome_rr_output_get_ids_from_edid (output,
+		scarecrow_rr_output_get_ids_from_edid (output,
 						   &vendor,
 						   &product,
 						   &serial);

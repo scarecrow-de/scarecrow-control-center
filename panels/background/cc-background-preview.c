@@ -341,7 +341,7 @@ cc_background_preview_init (CcBackgroundPreview *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  self->thumbnail_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_LARGE);
+  self->thumbnail_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
   self->desktop_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 
   g_signal_connect_object (self->desktop_settings,

@@ -1,5 +1,5 @@
 # translation of scarecrow-control-center.po to Georgian
-# Georgian translation for Gnome Control Centre.
+# Georgian translation for Scarecrow Control Centre.
 #
 # Alexander Didebulidze <didebuli@in.tum.de>, 2005, 2006.
 # Vladimer Sichinava <alinux@siena.linux.it>, 2006.
@@ -1025,7 +1025,7 @@ msgid "Theme Installer"
 msgstr "გაფორმების დამყენებელი"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr "გნომის გაფორმებების პაკეტი"
 
 #: ../capplets/appearance/gnome-wp-info.c:50

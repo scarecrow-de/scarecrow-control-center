@@ -36,7 +36,7 @@ sources += gnome.compile_resources(
 )
 
 deps = common_deps + [
-  gnome_settings_dep,
+  scarecrow_settings_dep,
   upower_glib_dep
 ]
 
@@ -45,7 +45,7 @@ if host_is_linux
 endif
 
 if host_is_linux_not_s390
-  deps += gnome_bluetooth_dep
+  deps += scarecrow_bluetooth_dep
 endif
 
 panels_libs += static_library(

@@ -8639,8 +8639,8 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgid "Theme Installer"
 #~ msgstr "सुत्रयोजना प्रतिष्ठापक"
 
-#~ msgid "Gnome Theme Package"
-#~ msgstr "Gnome सुत्रोयजना संकुल"
+#~ msgid "Scarecrow Theme Package"
+#~ msgstr "Scarecrow सुत्रोयजना संकुल"
 
 #~ msgid "Slide Show"
 #~ msgstr "स्लाईड दाखवा "

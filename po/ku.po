@@ -5627,7 +5627,7 @@ msgstr "_Hemû mîheng"
 
 #, fuzzy
 #~ msgid "The theme \"%s\" has been installed."
-#~ msgstr "Dirbê Gnome yê %s bi awayekî serketî hate sazkirin"
+#~ msgstr "Dirbê Scarecrow yê %s bi awayekî serketî hate sazkirin"
 
 #, fuzzy
 #~ msgid "Would you like to apply it now, or keep your current theme?"

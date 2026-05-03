@@ -12526,8 +12526,8 @@ msgstr "System Sounds"
 #~ msgid "Theme Installer"
 #~ msgstr "Theme Installer"
 
-#~ msgid "Gnome Theme Package"
-#~ msgstr "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
+#~ msgstr "Scarecrow Theme Package"
 
 #~ msgid "Slide Show"
 #~ msgstr "Slide Show"

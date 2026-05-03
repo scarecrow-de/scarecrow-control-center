@@ -1,6 +1,6 @@
 deps = wacom_deps + [
-  gnome_desktop_dep,
-  gnome_settings_dep,
+  scarecrow_desktop_dep,
+  scarecrow_settings_dep,
   x11_dep,
   xi_dep
 ]

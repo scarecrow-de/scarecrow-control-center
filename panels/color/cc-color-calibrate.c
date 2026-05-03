@@ -28,7 +28,7 @@
 #include <math.h>
 #include <colord-session/cd-session.h>
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 
 #include "cc-color-calibrate.h"
@@ -47,8 +47,8 @@ struct _CcColorCalibrate
   GDBusProxy      *proxy_helper;
   GDBusProxy      *proxy_inhibit;
   GMainLoop       *loop;
-  GnomeRROutput   *output;
-  GnomeRRScreen   *x11_screen;
+  ScarecrowRROutput   *output;
+  ScarecrowRRScreen   *x11_screen;
   GtkBuilder      *builder;
   GtkWindow       *window;
   GtkWidget       *sample_widget;
@@ -148,15 +148,15 @@ cc_color_calibrate_get_profile (CcColorCalibrate *calibrate)
 }
 
 static guint
-_gnome_rr_output_get_gamma_size (GnomeRROutput *output)
+_scarecrow_rr_output_get_gamma_size (ScarecrowRROutput *output)
 {
-  GnomeRRCrtc *crtc;
+  ScarecrowRRCrtc *crtc;
   gint len = 0;
 
-  crtc = gnome_rr_output_get_crtc (output);
+  crtc = scarecrow_rr_output_get_crtc (output);
   if (crtc == NULL)
     return 0;
-  gnome_rr_crtc_get_gamma (crtc,
+  scarecrow_rr_crtc_get_gamma (crtc,
                            &len,
                            NULL, NULL, NULL);
   return (guint) len;
@@ -170,7 +170,7 @@ cc_color_calibrate_calib_setup_screen (CcColorCalibrate *calibrate,
   gboolean ret = TRUE;
 
   /* get screen */
-  calibrate->x11_screen = gnome_rr_screen_new (gdk_screen_get_default (), error);
+  calibrate->x11_screen = scarecrow_rr_screen_new (gdk_screen_get_default (), error);
   if (calibrate->x11_screen == NULL)
     {
       ret = FALSE;
@@ -178,7 +178,7 @@ cc_color_calibrate_calib_setup_screen (CcColorCalibrate *calibrate,
     }
 
   /* get the output */
-  calibrate->output = gnome_rr_screen_get_output_by_name (calibrate->x11_screen,
+  calibrate->output = scarecrow_rr_screen_get_output_by_name (calibrate->x11_screen,
                                                      name);
   if (calibrate->output == NULL)
     {
@@ -191,7 +191,7 @@ cc_color_calibrate_calib_setup_screen (CcColorCalibrate *calibrate,
     }
 
   /* create a lookup table */
-  calibrate->gamma_size = _gnome_rr_output_get_gamma_size (calibrate->output);
+  calibrate->gamma_size = _scarecrow_rr_output_get_gamma_size (calibrate->output);
   if (calibrate->gamma_size == 0)
     {
       ret = FALSE;
@@ -225,7 +225,7 @@ cc_color_calibrate_calib_set_output_gamma (CcColorCalibrate *calibrate,
   CdColorRGB *p2;
   CdColorRGB result;
   gdouble mix;
-  GnomeRRCrtc *crtc;
+  ScarecrowRRCrtc *crtc;
   g_autofree guint16 *blue = NULL;
   g_autofree guint16 *green = NULL;
   g_autofree guint16 *red = NULL;
@@ -263,17 +263,17 @@ cc_color_calibrate_calib_set_output_gamma (CcColorCalibrate *calibrate,
     }
 
   /* send to LUT */
-  crtc = gnome_rr_output_get_crtc (calibrate->output);
+  crtc = scarecrow_rr_output_get_crtc (calibrate->output);
   if (crtc == NULL)
     {
       g_set_error (error,
                    CD_SESSION_ERROR,
                    CD_SESSION_ERROR_INTERNAL,
                    "failed to get ctrc for %s",
-                   gnome_rr_output_get_name (calibrate->output));
+                   scarecrow_rr_output_get_name (calibrate->output));
       return FALSE;
     }
-  gnome_rr_crtc_set_gamma (crtc, calibrate->gamma_size,
+  scarecrow_rr_crtc_set_gamma (crtc, calibrate->gamma_size,
                            red, green, blue);
   return TRUE;
 }

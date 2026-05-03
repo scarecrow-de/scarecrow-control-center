@@ -22,7 +22,7 @@
 #include <config.h>
 #include <glib/gi18n.h>
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
 #include "cc-keyboard-option.h"
@@ -61,7 +61,7 @@ G_DEFINE_TYPE (CcKeyboardOption, cc_keyboard_option, G_TYPE_OBJECT);
 
 static guint keyboard_option_signals[LAST_SIGNAL] = { 0 };
 
-static GnomeXkbInfo *xkb_info = NULL;
+static ScarecrowXkbInfo *xkb_info = NULL;
 static GSettings *input_sources_settings = NULL;
 static gchar **current_xkb_options = NULL;
 
@@ -259,7 +259,7 @@ cc_keyboard_option_constructed (GObject *object)
                       XKB_OPTION_DESCRIPTION_COLUMN, _("Disabled"),
                       XKB_OPTION_ID_COLUMN, NULL,
                       -1);
-  options = gnome_xkb_info_get_options_for_group (xkb_info, self->group);
+  options = scarecrow_xkb_info_get_options_for_group (xkb_info, self->group);
   for (l = options; l; l = l->next)
     {
       option_id = l->data;
@@ -268,7 +268,7 @@ cc_keyboard_option_constructed (GObject *object)
           gtk_list_store_append (self->store, &iter);
           gtk_list_store_set (self->store, &iter,
                               XKB_OPTION_DESCRIPTION_COLUMN,
-                              gnome_xkb_info_description_for_option (xkb_info, self->group, option_id),
+                              scarecrow_xkb_info_description_for_option (xkb_info, self->group, option_id),
                               XKB_OPTION_ID_COLUMN,
                               option_id,
                               -1);
@@ -318,7 +318,7 @@ cc_keyboard_option_get_all (void)
   if (objects_list)
     return objects_list;
 
-  xkb_info = gnome_xkb_info_new ();
+  xkb_info = scarecrow_xkb_info_new ();
 
   input_sources_settings = g_settings_new (INPUT_SOURCES_SCHEMA);
 
@@ -377,7 +377,7 @@ cc_keyboard_option_get_current_value_description (CcKeyboardOption *self)
   if (!self->current_value)
     return _("Disabled");
 
-  return gnome_xkb_info_description_for_option (xkb_info, self->group, self->current_value);
+  return scarecrow_xkb_info_description_for_option (xkb_info, self->group, self->current_value);
 }
 
 static void

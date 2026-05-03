@@ -39,7 +39,7 @@
 
 #include "cc-common-language.h"
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 #include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
@@ -49,10 +49,10 @@
 
 #include <act/act.h>
 
-#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
+#define SCARECROW_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
 #define KEY_INPUT_SOURCES        "sources"
 
-#define GNOME_SYSTEM_LOCALE_DIR "io.github.scarecrow_de.system.locale"
+#define SCARECROW_SYSTEM_LOCALE_DIR "io.github.scarecrow_de.system.locale"
 #define KEY_REGION "region"
 
 #define DEFAULT_LOCALE "en_US.utf-8"
@@ -100,7 +100,7 @@ struct _CcRegionPanel {
         gchar *system_region;
 
         GSettings *input_settings;
-        GnomeXkbInfo *xkb_info;
+        ScarecrowXkbInfo *xkb_info;
 #ifdef HAVE_IBUS
         IBusBus *ibus;
         GHashTable *ibus_engines;
@@ -299,14 +299,14 @@ maybe_notify_finish (GObject      *source,
 
         g_variant_get (retval, "(&s)", &current_locale);
 
-        if (!gnome_parse_locale (current_locale,
+        if (!scarecrow_parse_locale (current_locale,
                                  &current_lang_code,
                                  &current_country_code,
                                  NULL,
                                  NULL))
                 return;
 
-        if (!gnome_parse_locale (mnd->target_locale,
+        if (!scarecrow_parse_locale (mnd->target_locale,
                                  &target_lang_code,
                                  &target_country_code,
                                  NULL,
@@ -554,10 +554,10 @@ update_region_label (CcRegionPanel *self)
         g_autofree gchar *name = NULL;
 
         if (region)
-                name = gnome_get_country_from_locale (region, region);
+                name = scarecrow_get_country_from_locale (region, region);
 
         if (!name)
-                name = gnome_get_country_from_locale (DEFAULT_LOCALE, DEFAULT_LOCALE);
+                name = scarecrow_get_country_from_locale (DEFAULT_LOCALE, DEFAULT_LOCALE);
 
         gtk_label_set_label (self->formats_label, name);
 }
@@ -577,10 +577,10 @@ update_language_label (CcRegionPanel *self)
         g_autofree gchar *name = NULL;
 
         if (language)
-                name = gnome_get_language_from_locale (language, language);
+                name = scarecrow_get_language_from_locale (language, language);
 
         if (!name)
-                name = gnome_get_language_from_locale (DEFAULT_LOCALE, DEFAULT_LOCALE);
+                name = scarecrow_get_language_from_locale (DEFAULT_LOCALE, DEFAULT_LOCALE);
 
         gtk_label_set_label (self->language_label, name);
 
@@ -613,7 +613,7 @@ setup_language_section (CcRegionPanel *self)
         g_signal_connect_object (self->user, "notify::is-loaded",
                                  G_CALLBACK (update_language_from_user), self, G_CONNECT_SWAPPED);
 
-        self->locale_settings = g_settings_new (GNOME_SYSTEM_LOCALE_DIR);
+        self->locale_settings = g_settings_new (SCARECROW_SYSTEM_LOCALE_DIR);
         g_signal_connect_object (self->locale_settings, "changed::" KEY_REGION,
                                  G_CALLBACK (update_region_from_setting), self, G_CONNECT_SWAPPED);
 
@@ -1184,10 +1184,10 @@ update_modifiers_shortcut (CcRegionPanel *self)
         g_auto(GStrv) options = NULL;
         gchar **p;
         g_autoptr(GSettings) settings = NULL;
-        g_autoptr(GnomeXkbInfo) xkb_info = NULL;
+        g_autoptr(ScarecrowXkbInfo) xkb_info = NULL;
         const gchar *text;
 
-        xkb_info = gnome_xkb_info_new ();
+        xkb_info = scarecrow_xkb_info_new ();
         settings = g_settings_new ("io.github.scarecrow_de.desktop.input-sources");
         options = g_settings_get_strv (settings, "xkb-options");
 
@@ -1196,7 +1196,7 @@ update_modifiers_shortcut (CcRegionPanel *self)
                         break;
 
         if (p && *p) {
-                text = gnome_xkb_info_description_for_option (xkb_info, "grp", *p);
+                text = scarecrow_xkb_info_description_for_option (xkb_info, "grp", *p);
                 gtk_label_set_text (self->alt_next_source, text);
         } else {
                 gtk_widget_hide (GTK_WIDGET (self->alt_next_source));
@@ -1206,9 +1206,9 @@ update_modifiers_shortcut (CcRegionPanel *self)
 static void
 setup_input_section (CcRegionPanel *self)
 {
-        self->input_settings = g_settings_new (GNOME_DESKTOP_INPUT_SOURCES_DIR);
+        self->input_settings = g_settings_new (SCARECROW_DESKTOP_INPUT_SOURCES_DIR);
 
-        self->xkb_info = gnome_xkb_info_new ();
+        self->xkb_info = scarecrow_xkb_info_new ();
 
 #ifdef HAVE_IBUS
         ibus_init ();
@@ -1394,7 +1394,7 @@ set_localed_input (CcRegionPanel *self)
                 source = CC_INPUT_SOURCE_XKB (cc_input_row_get_source (row));
 
                 id = cc_input_source_xkb_get_id (source);
-                if (gnome_xkb_info_get_layout_info (self->xkb_info, id, NULL, NULL, &l, &v)) {
+                if (scarecrow_xkb_info_get_layout_info (self->xkb_info, id, NULL, NULL, &l, &v)) {
                         if (layouts->str[0]) {
                                 g_string_append_c (layouts, ',');
                                 g_string_append_c (variants, ',');

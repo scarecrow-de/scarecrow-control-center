@@ -89,7 +89,7 @@ sources = common_sources + files(
 
 deps = common_deps + [
   gdk_pixbuf_dep,
-  gnome_desktop_dep,
+  scarecrow_desktop_dep,
   goa_dep,
   libxml_dep,
   dependency('cairo-gobject'),
@@ -98,11 +98,11 @@ deps = common_deps + [
 
 cflags += [
   '-DDATADIR="@0@"'.format(control_center_datadir),
-  '-DGNOME_DESKTOP_USE_UNSTABLE_API'
+  '-DSCARECROW_DESKTOP_USE_UNSTABLE_API'
 ]
 
-if gnome_desktop_dep.version().version_compare('>=3.35.4')
-  cflags += '-DGNOME_DESKTOP_BG_API_BREAK'
+if scarecrow_desktop_dep.version().version_compare('>=3.35.4')
+  cflags += '-DSCARECROW_DESKTOP_BG_API_BREAK'
 endif
 
 panels_libs += static_library(

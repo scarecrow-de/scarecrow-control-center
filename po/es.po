@@ -13203,7 +13203,7 @@ msgstr "Sonidos del sistema"
 #~ msgid "Theme Installer"
 #~ msgstr "Instalador de temas"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "Paquete de tema GNOME"
 
 #~ msgid "Cannot install theme"

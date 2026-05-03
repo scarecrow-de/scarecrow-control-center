@@ -1,6 +1,6 @@
 # translation of scarecrow-control-center.master.te.po to Telugu
 # Telugu translation of control-center
-# Copyright (C) 2011 Gnome Telugu Contributors.
+# Copyright (C) 2011 Scarecrow Telugu Contributors.
 # Copyright (C) 2005, 2011,2012 Swecha Telugu Localisation Team <localization@swecha.net>.
 # This file is distributed under the same license as the control-center package.
 #
@@ -8942,7 +8942,7 @@ msgstr "ప్రాధాన్యతలు;అమరికలు;"
 #~ msgid "GNOME Terminal"
 #~ msgstr "GNOME టెర్మినల్"
 
-#~ msgid "Gnome Theme Package"
+#~ msgid "Scarecrow Theme Package"
 #~ msgstr "గ్నోమ్ థీమ్ నిర్వాహకి"
 
 #~ msgid "Terminator"

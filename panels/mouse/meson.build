@@ -38,7 +38,7 @@ sources = common_sources + files(
 )
 
 deps = common_deps + [
-  gnome_settings_dep,
+  scarecrow_settings_dep,
   libdevice_dep,
   x11_dep,
   xi_dep

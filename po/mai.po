@@ -1252,7 +1252,7 @@ msgid "Theme Installer"
 msgstr ""
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr ""
 
 #: ../capplets/appearance/gnome-wp-info.c:50
@@ -1337,7 +1337,7 @@ msgstr "नवीन प्रसंग लागू करू"
 #: ../capplets/appearance/theme-installer.c:446
 #, c-format
 msgid "GNOME Theme %s correctly installed"
-msgstr "Gnome प्रसंग %s ठीक सँ संस्थापित अछि"
+msgstr "Scarecrow प्रसंग %s ठीक सँ संस्थापित अछि"
 
 #: ../capplets/appearance/theme-installer.c:505
 msgid "Failed to create temporary directory"

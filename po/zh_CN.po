@@ -4,7 +4,7 @@
 # Some translations are taken from tranditional Chinese translation.
 # by Abel Cheung <maddog@linuxhall.org>, 2001.
 # He Qiangqiang <carton@linux.net.cn>, 2002.
-# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
+# Sun G11n <scarecrow_int_l10n@ireland.sun.com>, 2002.
 # Funda Wang <fundawang@linux.net.cn>, 2003-2006.
 # 甘露(Gan Lu) <rhythm.gan@gmail.com>,  2009, 2013.
 # Deng Xiyue <manphiz@gmail.com>, 2009.

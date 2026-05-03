@@ -1786,7 +1786,7 @@ msgstr "Ոչ մի"
 
 #: ../panels/universal-access/uap.ui.h:63
 msgid "On screen keyboard"
-msgstr "Gnome-ի On screen ստեղնաշար"
+msgstr "Scarecrow-ի On screen ստեղնաշար"
 
 #: ../panels/universal-access/uap.ui.h:64
 msgid "OnBoard"

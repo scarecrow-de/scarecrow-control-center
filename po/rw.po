@@ -2372,7 +2372,7 @@ msgstr "Guhitamo in i Birambuye"
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:343
 #, c-format
-msgid "Gnome Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr ""
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:346
@@ -3239,33 +3239,33 @@ msgstr "Kugira kinini"
 msgid "Roll up"
 msgstr "Kuzamura"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
 #, fuzzy
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr "NIBYO i kugirango Umwandiko Byuzuye Na Umwandiko in"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
 #, fuzzy
 msgid "Sync text/plain and text/* handlers"
 msgstr "Umwandiko Byuzuye Na Umwandiko"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
 #, fuzzy
 msgid "Brightness down"
 msgstr "Hasi"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
 #, fuzzy
 msgid "Brightness down's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
 #, fuzzy
 msgid "Brightness up"
 msgstr "Hejuru"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
 #, fuzzy
 msgid "Brightness up's shortcut."
 msgstr "Iy'ibusamo"
@@ -3274,100 +3274,100 @@ msgstr "Iy'ibusamo"
 # officecfg/registry\data\org\openoffice\Office\DataAccess.xcu:..DataAccess.DriverSettings.com.sun.star.comp.sdbc.MozabDriver.ColumnAliases.PrimaryEmail.text
 # #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
 # officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....BusinessCard.PrivateAddress.Email.text
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
 msgid "E-mail"
 msgstr "Imeli"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
 #, fuzzy
 msgid "E-mail's shortcut."
 msgstr "E Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
 msgid "Eject"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
 #, fuzzy
 msgid "Eject's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
 #, fuzzy
 msgid "Home folder"
 msgstr "Ububiko"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
 #, fuzzy
 msgid "Home folder's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
 #, fuzzy
 msgid "Launch help browser"
 msgstr "Ifashayobora Mucukumbuzi"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
 #, fuzzy
 msgid "Launch help browser's shortcut."
 msgstr "Ifashayobora Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
 #, fuzzy
 msgid "Launch web browser"
 msgstr "Urubuga Mucukumbuzi"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
 #, fuzzy
 msgid "Launch web browser's shortcut."
 msgstr "Urubuga Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
 #, fuzzy
 msgid "Lock screen"
 msgstr "Mugaragaza"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
 #, fuzzy
 msgid "Lock screen's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
 #, fuzzy
 msgid "Log out"
 msgstr "Kuvamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
 #, fuzzy
 msgid "Log out's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
 #, fuzzy
 msgid "Next track key's shortcut."
 msgstr "Iy'ibusamo"
 
 # 4630
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
 msgid "Pause"
 msgstr "akaruhuko"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
 #, fuzzy
 msgid "Pause key's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
 #, fuzzy
 msgid "Play (or play/pause)"
 msgstr "Cyangwa Gukina Akaruhuko..."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
 #, fuzzy
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Cyangwa Gukina Akaruhuko... Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
 #, fuzzy
 msgid "Previous track key's shortcut."
 msgstr "Iy'ibusamo"
@@ -3376,104 +3376,104 @@ msgstr "Iy'ibusamo"
 # offmgr/source\offapp\dialog\inetdlg.src:RID_OFADLG_INTERNET.1.RID_SVXPAGE_INET_SEARCH.text
 # #-#-#-#-#  offmgr.pot (PACKAGE VERSION)  #-#-#-#-#
 # offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_INET_DLG.3.text
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
 msgid "Search"
 msgstr "Gushaka"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
 #, fuzzy
 msgid "Search's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
 #, fuzzy
 msgid "Skip to next track"
 msgstr "Kuri Komeza>>"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
 #, fuzzy
 msgid "Skip to previous track"
 msgstr "Kuri Ibanjirije"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
 msgid "Sleep"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
 #, fuzzy
 msgid "Sleep's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
 #, fuzzy
 msgid "Stop playback key"
 msgstr "Urufunguzo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
 #, fuzzy
 msgid "Stop playback key's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
 #, fuzzy
 msgid "Volume down"
 msgstr "Hasi"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
 #, fuzzy
 msgid "Volume down's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
 #, fuzzy
 msgid "Volume mute"
 msgstr "Mute"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
 #, fuzzy
 msgid "Volume mute's shortcut"
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
 #, fuzzy
 msgid "Volume step"
 msgstr "Intera"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
 #, fuzzy
 msgid "Volume step as percentage of volume."
 msgstr "Intera Nka Ijanisha Bya Igice"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:39
 #, fuzzy
 msgid "Volume up"
 msgstr "Hejuru"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:40
 #, fuzzy
 msgid "Volume up's shortcut."
 msgstr "Iy'ibusamo"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
 #, fuzzy
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr "a Ikiganiro Ryari: Amakosa"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
 #, fuzzy
 msgid "Run screensaver at login"
 msgstr "ku Ifashayinjira"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
 #, fuzzy
 msgid "Start screensaver"
 msgstr "Gutangira"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
 #, fuzzy
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
@@ -3481,58 +3481,58 @@ msgid ""
 msgstr ""
 "A Bya Inyandikoporogaramu Kuri Gukoresha i Mwandikisho Leta ni kugirango"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
 #, fuzzy
 msgid "A list of modmap files available in the $HOME directory."
 msgstr "A Urutonde Bya Idosiye Bihari in i bushyinguro"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
 #, fuzzy
 msgid "Default group, assigned on window creation"
 msgstr "Itsinda ku Idirishya"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
 #, fuzzy
 msgid "Keep and manage separate group per window"
 msgstr "Na kuyobora Itsinda Idirishya"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
 msgid "Keyboard Update Handlers"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
 #, fuzzy
 msgid "Keyboard layout"
 msgstr "Imigaragarire"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
 #, fuzzy
 msgid "Keyboard model"
 msgstr "Urugero"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
 #, fuzzy
 msgid "Keyboard options"
 msgstr "Amahitamo"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
 #, fuzzy
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
 "(deprecated)"
 msgstr "Amagenamiterere in Bivuye i Sisitemu"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
 #, fuzzy
 msgid "Save/restore indicators together with layout groups"
 msgstr "Kubika Kugarura Na: Imigaragarire Amatsinda"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
 #, fuzzy
 msgid "Show layout names instead of group names"
 msgstr "Imigaragarire Amazina Bya Itsinda Amazina"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
 #, fuzzy
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
@@ -3541,29 +3541,29 @@ msgstr ""
 "Imigaragarire Amazina Bya Itsinda Amazina kugirango Uburyo Bya Igikubo "
 "Imigaragarire"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
 #, fuzzy
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr "i Byahinduwe Iburira Ubutumwa"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
 #, fuzzy
 msgid "keyboard layout"
 msgstr "Mwandikisho Imigaragarire"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
 #, fuzzy
 msgid "keyboard model"
 msgstr "Mwandikisho Urugero"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
 #, fuzzy
 msgid "modmap file list"
 msgstr "IDOSIYE Urutonde"

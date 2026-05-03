@@ -3052,224 +3052,224 @@ msgstr "Томсгох"
 msgid "Roll up"
 msgstr "Эвхэх"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr "»text/plain« ба »text/*« -н хувьд MIME-тодорхойлогчийг хадгалах"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr "»text/plain« ба »text/*«-тодорхойлогчуудын зэрэгцүүлэх (Sync)"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
 msgid "E-mail"
 msgstr "Э-Шуудан"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
 msgid "E-mail's shortcut."
 msgstr "Э-шуудангийн шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
 msgid "Eject"
 msgstr "Түлхэх"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
 msgid "Eject's shortcut."
 msgstr "Түлхэлтийн шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
 msgid "Home folder"
 msgstr "Гэр хавтас"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
 msgid "Home folder's shortcut."
 msgstr "Хувийн гэрийн хавтасны шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
 msgid "Launch help browser"
 msgstr "Тусламж хөтчийг эхлүүлэх"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
 msgid "Launch help browser's shortcut."
 msgstr "Тусламж хөтөчийн шорткот эхлүүлэх."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
 msgid "Launch web browser"
 msgstr "Вэб хөтөч эхлүүлэх"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
 msgid "Launch web browser's shortcut."
 msgstr "Вэб хөтөч шорткат эхлүүлэх"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
 msgid "Lock screen"
 msgstr "Дэлгэц түгжих"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
 msgid "Lock screen's shortcut."
 msgstr "Дэлгэц түгжих шорткат"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
 msgid "Log out"
 msgstr "Гарах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
 msgid "Log out's shortcut."
 msgstr "Гарах шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
 msgid "Next track key's shortcut."
 msgstr "Дараагийн гарчиг шорткат"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
 msgid "Pause"
 msgstr "Зогсоолт"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
 msgid "Pause key's shortcut."
 msgstr "Зогсоолтын шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
 msgid "Play (or play/pause)"
 msgstr "Тоглуулах (Тоглуулах/Зогсоох)"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Тоглуулах (Тоглуулах/Зогсоох) шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
 msgid "Previous track key's shortcut."
 msgstr "Өмнөх гарчиг шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
 msgid "Search"
 msgstr "Хайх"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
 msgid "Search's shortcut."
 msgstr "Хайлтын шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
 msgid "Skip to next track"
 msgstr "Дараагийн дуу алгасах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
 msgid "Skip to previous track"
 msgstr "Өмнөх дуу алгасах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
 msgid "Sleep"
 msgstr "Унтуулах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
 msgid "Sleep's shortcut."
 msgstr "Унтуулах шорткат"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
 msgid "Stop playback key"
 msgstr "Тоглуулалт таслах товчлуур"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
 msgid "Stop playback key's shortcut."
 msgstr "Тоглуулалт таслах шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
 msgid "Volume down"
 msgstr "Дуу сулруулах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
 msgid "Volume down's shortcut."
 msgstr "Дуу сулруулах шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
 msgid "Volume mute"
 msgstr "Дуу хаах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
 msgid "Volume mute's shortcut"
 msgstr "Дуу хаах шорткат"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume step"
 msgstr "Дуу чангаруулалтын алхам"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume step as percentage of volume."
 msgstr "Дуу чангаруулалтын алхамын чимээний хувь"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume up"
 msgstr "Дуу чангаруулах"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume up's shortcut."
 msgstr "Дуу чангаруулах шорткат."
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr "XScreenSaver ажиллаж байх үед алдаа гарвал диалог харуулах"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
 msgid "Run screensaver at login"
 msgstr "Бүртгүүлэхэд дэлгэц гамнагч ажиллуулах"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr "Эхлэлийн алдааг харуулах"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
 msgid "Start screensaver"
 msgstr "Дэлгэц гамнагч эхлүүлэх"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
 msgstr "Үсгийн цуглуулгыг ажиллуулах бүрд гар дахин ачаалагдана."
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr "modmap-ийн файлын жагсаалт $HOME лавлахад байна."
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr "Цонхны үүсэлтэд стандарт бүлэг шаардлагатай"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr "Цонх тус бүрийн бүлгийг хадгалан удирдана"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
 msgid "Keyboard Update Handlers"
 msgstr "Гарын шинэчлэлийг удирдах програм"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
 msgid "Keyboard layout"
 msgstr "Гарын байрлал"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
 msgid "Keyboard model"
 msgstr "Гарын загвар"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
 msgid "Keyboard options"
 msgstr "Гарын сонголтууд"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
 "(deprecated)"
 msgstr "Системээс gconf дахь XKB тохиргоог аль болох түргэн хасах уу (илүүдэл)"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr "Тодорхойлогчыг байрлалын бүлгүүдтэй хадгалах/сэргээх"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr "Бүлэг нэрийн оронд байрлалын нэрийг харуулах"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
@@ -3277,27 +3277,27 @@ msgstr ""
 "Групп нэрийн оронд layout нэрийг харуулах (олон байрлалуудыг зөвхөн XFree "
 "хувилбарт дэмждэг)"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr "\"X sysconfig changed\" анхааруулах мэдээг үгүйсгэх"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
 msgid "The Keyboard Preview, X offset"
 msgstr "Гарын тольдолт, X офсет"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
 msgid "The Keyboard Preview, Y offset"
 msgstr "Гарын тольдолт, Y офсет"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
 msgid "The Keyboard Preview, height"
 msgstr "Гар тольдолт, өндөр"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "The Keyboard Preview, width"
 msgstr "Гар тольдолт, өргөн"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:18
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:18
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
@@ -3307,15 +3307,15 @@ msgstr ""
 "түлхүүр нь GNOME 2.12-оос хойш буруушаагдах болсон, стандарт системийн "
 "тохиргоог хадгалах загвар, байрлал ба сонголтуудыг үлдээнэ үү."
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:19
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:19
 msgid "keyboard layout"
 msgstr "Гарын засвар"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:20
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:20
 msgid "keyboard model"
 msgstr "Гарын загвар"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:21
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:21
 msgid "modmap file list"
 msgstr "modmap файлын жагсаалт"
 

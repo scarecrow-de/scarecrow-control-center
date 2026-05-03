@@ -2171,7 +2171,7 @@ msgstr ""
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:343
 #, c-format
-msgid "Gnome Theme %s correctly installed"
+msgid "Scarecrow Theme %s correctly installed"
 msgstr ""
 
 #: ../capplets/theme-switcher/gnome-theme-installer.c:346
@@ -2956,239 +2956,239 @@ msgstr "Godiša"
 msgid "Roll up"
 msgstr "Phutha"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr ""
 "Ge eba e le therešo, baswari ba mime bakeng sa text/plain (sengwalwa/se se "
 "nago selo) le text/* (sengwalwa) di tla bolokwa di rulagantšwe"
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr ""
 "text/plain (sengwalwa/se se nago selo) e rulagantšwego le baswari ba text/* "
 "(sengwalwa)"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
 msgid "Brightness down"
 msgstr "Go taga go tlase"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
 msgid "Brightness down's shortcut."
 msgstr "Kgaoletšo ya go taga go tlase."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
 msgid "Brightness up"
 msgstr "Go taga go godimo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
 msgid "Brightness up's shortcut."
 msgstr "Kgaoletšo ya go taga go godimo."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
 msgid "E-mail"
 msgstr "Poso ya elektronike"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
 msgid "E-mail's shortcut."
 msgstr "Kgaoletšo ya poso ya elektronike."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
 msgid "Eject"
 msgstr "Ntšha"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
 msgid "Eject's shortcut."
 msgstr "Kgaoletšo ya go tšwa."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
 msgid "Home folder"
 msgstr "Sephuthedi sa gae"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
 msgid "Home folder's shortcut."
 msgstr "Kgaoletšo ya sephuthedi sa gae."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
 msgid "Launch help browser"
 msgstr "Tsebagatša sefetleki sa thušo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
 msgid "Launch help browser's shortcut."
 msgstr "Tsebagatša kgaoletšo ya sefetleki sa thušo."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
 msgid "Launch web browser"
 msgstr "Tsebagatša sefetleki sa wepe"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
 msgid "Launch web browser's shortcut."
 msgstr "Tsebagatša kgaoletšo ya sefetleki sa wepe."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
 msgid "Lock screen"
 msgstr "Notlela sekirini"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
 msgid "Lock screen's shortcut."
 msgstr "Notlela kgaoletšo ya sekirini."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
 msgid "Log out"
 msgstr "E-tšwa"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
 msgid "Log out's shortcut."
 msgstr "Kgaoletšo ya go tšwa."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
 msgid "Next track key's shortcut."
 msgstr "Kgaoletšo ya senotlelo ya koša e latelago."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
 msgid "Pause"
 msgstr "Emiša nakwana"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
 msgid "Pause key's shortcut."
 msgstr "Emiša kgaoletšo ya senotlelo nakwana."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
 msgid "Play (or play/pause)"
 msgstr "Bapala (goba bapala/emiša nakwana)"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Bapala (goba bapala/emiša nakwana) kgaoletšo ya senotlelo."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
 msgid "Previous track key's shortcut."
 msgstr "Kgaoletšo ya senotlelo ya kotša e fetilego."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
 msgid "Search"
 msgstr "Nyakišiša"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
 msgid "Search's shortcut."
 msgstr "Nyakišiša kgaoletšo."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
 msgid "Skip to next track"
 msgstr "Tabogela go koša e latelago"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
 msgid "Skip to previous track"
 msgstr "Tabogela go koša e fetilego"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
 msgid "Sleep"
 msgstr "Robala"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
 msgid "Sleep's shortcut."
 msgstr "Kgaoletšo ya go robala."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
 msgid "Stop playback key"
 msgstr "Emiša senotlelo sa bapala o boele morago"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
 msgid "Stop playback key's shortcut."
 msgstr "Emiša kgaoletšo ya senotlelo sa balapa o boele morago."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume down"
 msgstr "Bolumo e tlase"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume down's shortcut."
 msgstr "Kgaoletšo ya bolumo e tlase."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume mute"
 msgstr "Go nolofatšwa ga bolumo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume mute's shortcut"
 msgstr "Kgaoletšo ya go nolofatšwa ga bolumo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
 msgid "Volume step"
 msgstr "Peakanyo ya bolumo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
 msgid "Volume step as percentage of volume."
 msgstr "Peakanyo ya bolumo go ya ka phesente ya bolumo."
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:39
 msgid "Volume up"
 msgstr "Bolumo e godimo"
 
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
+#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:40
 msgid "Volume up's shortcut."
 msgstr "Kgaoletšo ya bolumo e godimo."
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
 #, fuzzy
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr ""
 "Bontšha poledišano ge go na le diphošo tša go diriša Seboloki sa Sekirini sa "
 "X"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
 #, fuzzy
 msgid "Run screensaver at login"
 msgstr "Diriša Seboloki sa Sekirini sa X ge o tsena"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr "Bontšha Diphošo tša go Thoma"
 
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
 #, fuzzy
 msgid "Start screensaver"
 msgstr "Thoma Seboloki sa Sekirini sa X"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
 #, fuzzy
 msgid "Keyboard Update Handlers"
 msgstr "Mohlala wa _boroto ya dinotlelo:"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
 #, fuzzy
 msgid "Keyboard layout"
 msgstr "Go bea ga boroto ya dinotlelo ya XKB"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
 #, fuzzy
 msgid "Keyboard model"
 msgstr "Mohlala wa _boroto ya dinotlelo:"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
 #, fuzzy
 msgid "Keyboard options"
 msgstr "Dikgaoletšo tša Boroto ya Dinotlelo"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
 #, fuzzy
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
@@ -3196,42 +3196,42 @@ msgid ""
 msgstr ""
 "Dipeakanyo tša XKB go gconf di tla beelwa ka thoko tshepedišong ya ASAP"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
 #, fuzzy
 msgid "keyboard layout"
 msgstr "Go bea ga boroto ya dinotlelo ya XKB"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
 #, fuzzy
 msgid "keyboard model"
 msgstr "Mohlala wa boroto ya dinotlelo ya XKB"
 
-#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "modmap file list"
 msgstr ""
 

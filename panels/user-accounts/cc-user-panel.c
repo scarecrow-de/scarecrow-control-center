@@ -36,7 +36,7 @@
 #include <act/act.h>
 #include <cairo-gobject.h>
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 #ifdef HAVE_MALCONTENT
@@ -908,7 +908,7 @@ show_user (ActUser *user, CcUserPanel *self)
         lang = g_strdup (act_user_get_language (user));
 
         if (lang && *lang != '\0') {
-                name = gnome_get_language_from_locale (lang, NULL);
+                name = scarecrow_get_language_from_locale (lang, NULL);
         } else {
                 name = g_strdup ("—");
         }
@@ -1120,7 +1120,7 @@ language_response (CcUserPanel *self,
                         act_user_set_language (user, lang);
                 }
 
-                name = gnome_get_language_from_locale (lang, NULL);
+                name = scarecrow_get_language_from_locale (lang, NULL);
                 gtk_label_set_label (self->language_button_label, name);
         }
 

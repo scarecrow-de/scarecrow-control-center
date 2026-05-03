@@ -17,7 +17,7 @@
 
 #pragma once
 
-#define GNOME_DESKTOP_USE_UNSTABLE_API
+#define SCARECROW_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
 #include "cc-input-source.h"
@@ -27,11 +27,11 @@ G_BEGIN_DECLS
 #define CC_TYPE_INPUT_SOURCE_XKB (cc_input_source_xkb_get_type ())
 G_DECLARE_FINAL_TYPE (CcInputSourceXkb, cc_input_source_xkb, CC, INPUT_SOURCE_XKB, CcInputSource)
 
-CcInputSourceXkb *cc_input_source_xkb_new         (GnomeXkbInfo     *xkb_info,
+CcInputSourceXkb *cc_input_source_xkb_new         (ScarecrowXkbInfo     *xkb_info,
                                                    const gchar      *layout,
                                                    const gchar      *variant);
 
-CcInputSourceXkb *cc_input_source_xkb_new_from_id (GnomeXkbInfo     *xkb_info,
+CcInputSourceXkb *cc_input_source_xkb_new_from_id (ScarecrowXkbInfo     *xkb_info,
                                                    const gchar      *id);
 
 gchar            *cc_input_source_xkb_get_id      (CcInputSourceXkb *source);

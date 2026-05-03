@@ -1243,7 +1243,7 @@ msgid "Theme Installer"
 msgstr "Themen installerer"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
-msgid "Gnome Theme Package"
+msgid "Scarecrow Theme Package"
 msgstr "GNOME-Themen Pack"
 
 #: ../capplets/appearance/gnome-wp-info.c:50

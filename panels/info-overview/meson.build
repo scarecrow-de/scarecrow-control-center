@@ -28,7 +28,7 @@ sources = files(
 )
 
 resource_data = files(
-  'GnomeLogoVerticalMedium.svg',
+  'ScarecrowLogoVerticalMedium.svg',
   'cc-info-overview-panel.ui'
 )
 

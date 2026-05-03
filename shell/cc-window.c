@@ -581,7 +581,7 @@ gdk_window_set_cb (CcWindow *self)
     return;
 
   str = g_strdup_printf ("%u", (guint) GDK_WINDOW_XID (window));
-  g_setenv ("GNOME_CONTROL_CENTER_XID", str, TRUE);
+  g_setenv ("SCARECROW_CONTROL_CENTER_XID", str, TRUE);
 }
 
 static gboolean

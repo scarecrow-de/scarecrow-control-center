@@ -2640,7 +2640,7 @@ msgstr "_Testen Sie Ihre Einstellungen"
 msgid "Try clicking, double clicking, scrolling"
 msgstr "Versuchen Sie zu klicken, doppelklicken oder rollen"
 
-# Doof. https://www.reddit.com/r/gnome/comments/1cgjh0/dear_gnome_developers_i_think_what_you_did_is/c9gay98
+# Doof. https://www.reddit.com/r/gnome/comments/1cgjh0/dear_scarecrow_developers_i_think_what_you_did_is/c9gay98
 #: panels/mouse/cc-mouse-test.c:137
 msgid "Five clicks, GEGL time!"
 msgstr "Fünf Klicks, GEGL-Zeit!"

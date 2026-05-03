@@ -122,8 +122,8 @@ colord_dep = dependency('colord', version: '>= 0.1.34')
 gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0', version: '>= 2.23.0')
 gio_dep = dependency('gio-2.0')
 glib_dep = dependency('glib-2.0', version: '>= 2.56.0')
-gnome_desktop_dep = dependency('scarecrow-desktop-3.0', version: '>= 3.27.90')
-gnome_settings_dep = dependency('scarecrow-settings-daemon', version: '>= 3.27.90')
+scarecrow_desktop_dep = dependency('scarecrow-desktop-3.0', version: '>= 3.27.90')
+scarecrow_settings_dep = dependency('scarecrow-settings-daemon', version: '>= 3.27.90')
 goa_dep = dependency('goa-1.0', version: goa_req_version)
 gsettings_desktop_dep = dependency('gsettings-desktop-schemas', version: '>= 3.37.1')
 libxml_dep = dependency('libxml-2.0')
@@ -229,7 +229,7 @@ config_h.set('HAVE_NETWORK_MANAGER', host_is_linux,
 
 if host_is_linux_not_s390
   # gnome-bluetooth
-  gnome_bluetooth_dep = dependency('scarecrow-bluetooth-1.0', version: '>= 3.18.2')
+  scarecrow_bluetooth_dep = dependency('scarecrow-bluetooth-1.0', version: '>= 3.18.2')
 
   libwacom_dep = dependency('libwacom', version: '>= 0.7')
 
