@@ -24,11 +24,7 @@
 #include <string.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkx.h>
-<<<<<<< Updated upstream
 #include <scarecrow-settings-daemon/scsd-enums.h>
-=======
-#include <scarecrow-settings-daemon/scsd-enums.h>
->>>>>>> Stashed changes
 #include <math.h>
 
 #include "cc-mouse-test.h"
