@@ -1,6 +1,6 @@
-# Slovenian translations for gnome-control-center.
-# Copyright (C) 2009 gnome-control-center COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Slovenian translations for scarecrow-control-center.
+# Copyright (C) 2009 scarecrow-control-center COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2004.
 # Matjaž Horvat <m@owca.info>, 2005–2006.
@@ -9,8 +9,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-15 16:58+0000\n"
 "PO-Revision-Date: 2021-02-17 17:53+0100\n"
@@ -51,7 +51,7 @@ msgid "Full access to /dev"
 msgstr "Poln dostop do mape /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:288
 msgid "Network"
 msgstr "Omrežje"
@@ -79,7 +79,7 @@ msgstr "Datotečni sistem"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Nastavitve"
 
@@ -1488,11 +1488,11 @@ msgstr "Spreminjanje sistemskega časa, datuma in časovnega območja"
 msgid "Clock;Timezone;Location;"
 msgstr "Ura;Časovni pas;Mesto;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Spremenite sistemski čas in datum"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Za spreminjanje nastavitev časa in datuma so zahtevana skrbniška dovoljenja."
@@ -3366,12 +3366,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Nadzor nad načini povezovanja v internet"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "omrežje;brezžično;Wi-Fi;Wifi;IP;LAN;Proxy;Posredniški;širokopasovno;modem;"
@@ -5973,11 +5973,11 @@ msgstr ""
 "souporaba;izmenjava;ssh;gostitelj;ime;oddaljeno;namizje;bluetooth;obex;"
 "predstavnost;zvok;audio;slika;video;fotografije;filmi;strežnik;izrisovanje;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Omogoči ali onemogoči oddaljene prijave"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Za spremembo možnosti oddaljenega prijavljanja je zahtevana overitev"
 
@@ -7654,11 +7654,11 @@ msgstr "Ime _skrbnika"
 msgid "Administrator Password"
 msgstr "Skrbniško geslo"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Upravljanje uporabniških računov"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Za spremembo podatkov uporabnika je zahtevana overitev"
 
@@ -8003,7 +8003,7 @@ msgstr "Prilagodi ločljivost zaslona"
 msgid "Decouple Display"
 msgstr "Loči zaslon"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nova bližnjica …"
 
@@ -8059,19 +8059,19 @@ msgstr "Spodnji gumb"
 msgid "Tip Pressure Feel"
 msgstr "Občutek pritiska konice"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "Nastavitve GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Orodje za nastavljanje namizja GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Program je osnovni vmesnik za prilagajanje nastavitev sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -8134,7 +8134,7 @@ msgid "Help"
 msgstr "Pomoč"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Možnosti;Nastavitve;"
 
@@ -8168,11 +8168,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Prekliče iskanje"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Določilnik za odpiranje zadnjega pulta Nastavitev."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8180,11 +8180,11 @@ msgstr ""
 "Določilnik za odpiranje zadnjega pulta Nastavitev. Neprepoznane vrednosti so "
 "prezrte, za prikaz pa je izbran prvi pult seznama."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Pokaži opozorilo med zagonom razvojne različice programa"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8888,8 +8888,8 @@ msgstr "Sistemski zvoki"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "org.gnome.Settings"
-#~ msgstr "org.gnome.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "_Nočna osvetlitev"
@@ -9019,8 +9019,8 @@ msgstr "Sistemski zvoki"
 #~ msgid "Quit"
 #~ msgstr "Končaj"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "My Home Network"
 #~ msgstr "Domače omrežje"

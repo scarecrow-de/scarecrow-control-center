@@ -1,4 +1,4 @@
-# Basque translation of gnome-control-center.
+# Basque translation of scarecrow-control-center.
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -8,8 +8,8 @@
 # Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2013, 2019, 2020.
 #
 msgid ""
-msgstr "Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
+msgstr "Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/issues\n"
 "POT-Creation-Date: 2020-08-26 19:21+0000\n"
 "PO-Revision-Date: 2020-08-30 06:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
@@ -46,7 +46,7 @@ msgid "Full access to /dev"
 msgstr "Sarbide osoa /dev direktoriora"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Sarea"
@@ -74,7 +74,7 @@ msgstr "Fitxategi-sistema"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Ezarpenak"
 
@@ -1437,11 +1437,11 @@ msgstr "Aldatu data eta ordua, ordu-zona barne"
 msgid "Clock;Timezone;Location;"
 msgstr "Erlojua;Ordu-zona;Kokalekua;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Aldatu sistemaren ordua eta dataren ezarpenak"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Sistemaren ordua eta dataren ezarpenak aldatzeko, autentifikatu egin behar zara."
 
@@ -3236,12 +3236,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Kontrolatu nola konektatzen zaren Internetera"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Sarea;IPa;LANa;Proxy-a;WANa;Bandazabala;Modema;Bluetooth-aa;VPNa;DNSa;"
 
@@ -5771,11 +5771,11 @@ msgid ""
 "movies;server;renderer;"
 msgstr "partekatu;partekatzea;ssh;ostalaria;izena;urrunekoa;mahaigaina;multimedia;bideoa;irudiak;argazkiak;filmak;zerbitzaria;errendatzea;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Gaitu edo desgaitu urruneko saio-hasiera"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Autentifikazioa behar da urruneko saioa gaitu edo desgaitzeko"
 
@@ -7412,11 +7412,11 @@ msgstr "Administratzailearen _izena"
 msgid "Administrator Password"
 msgstr "Administratzailearen pasahitza"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Kudeatu erabiltzaileen kontuak"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Autentifikazioa behar da erabiltzailearen datuak aldatzeko"
 
@@ -7747,7 +7747,7 @@ msgstr "Doitu pantailaren bereizmena"
 msgid "Decouple Display"
 msgstr "Banandu pantaila"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Laster-tekla berria…"
 
@@ -7803,19 +7803,19 @@ msgstr "Botoirik baxuena"
 msgid "Tip Pressure Feel"
 msgstr "Puntaren presioaren sentikortasuna"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "GNOME ezarpenak"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "GNOME mahaigaina konfiguratzeko utilitatea"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Ezarpenak zure sistema konfiguratzeko interfaze nagusia da."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "GNOME proiektua"
 
@@ -7875,7 +7875,7 @@ msgid "Help"
 msgstr "Laguntza"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Hobespenak;Ezarpenak;"
 
@@ -7909,21 +7909,21 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Utzi bilaketa"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Irekiko den ezarpenen azken panelaren identifikatzailea"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
 msgstr "Irekiko den ezarpenen azken panelaren identifikatzailea. Ezagutzen ez diren balioak ezikusi egingo dira eta zerrendako lehen panela hautatuko da."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Erakutsi abisu bat ezarpenen garapen-bertsio bat exekutatzean"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr "Ezarpenek abisu bat erakutsi behar duen ala ez garapen-bertsio bat exekutatzen denean."

@@ -1,11 +1,11 @@
-# translation of gnome-control-center-2.0 to Uzbek
+# translation of scarecrow-control-center-2.0 to Uzbek
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Nurali Abdurahmonov <mavnur@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center-2.0 trunk\n"
+"Project-Id-Version: scarecrow-control-center-2.0 trunk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-07 20:26+0500\n"
 "PO-Revision-Date: 2007-11-12 09:36+0500\n"
@@ -1352,7 +1352,7 @@ msgstr ""
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 
@@ -2048,7 +2048,7 @@ msgid "Could not get session bus while applying display configuration"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1641
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
 msgstr ""
 
 #: ../capplets/display/xrandr-capplet.c:1647
@@ -2477,7 +2477,7 @@ msgstr "Номаълум"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
-#: ../capplets/network/gnome-network-preferences.c:561
+#: ../capplets/network/scarecrow-network-preferences.c:561
 msgid "Default"
 msgstr "Андоза"
 
@@ -2679,120 +2679,120 @@ msgstr "Сичқонча"
 msgid "Set your mouse preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.c:677
-#: ../capplets/network/gnome-network-preferences.c:816
+#: ../capplets/network/scarecrow-network-preferences.c:677
+#: ../capplets/network/scarecrow-network-preferences.c:816
 msgid "New Location..."
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.c:782
+#: ../capplets/network/scarecrow-network-preferences.c:782
 msgid "Location already exists"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Тармоқ проксиси"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>Интернетга _тўғридан-тўғри уланиш</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Ignore Host List</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>Прокси мосламасини _авто-аниқлаш</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Прокси мосламаларини _қўлбола кўрсатиш</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Use authentication</b>"
 msgstr "<b>Тасдиқлашдан _фойдаланиш</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "Autoconfiguration _URL:"
 msgstr "Авто-мослаш _URL'и:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "C_reate"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Create New Location"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "H_TTP прокси:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Ignored Hosts"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Location:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Network Proxy Preferences"
 msgstr "Тармоқ прокси мосламалари"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "Port:"
 msgstr "Порт:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "Proxy Configuration"
 msgstr "Прокси параметрлари"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "S_ocks host:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "The location already exists."
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "U_sername:"
 msgstr "Ф_ойдалунувчи:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Delete Location"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:20
+#: ../capplets/network/scarecrow-network-preferences.glade.h:20
 msgid "_Details"
 msgstr "_Тафсилотлар"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:21
+#: ../capplets/network/scarecrow-network-preferences.glade.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP прокси:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:22
+#: ../capplets/network/scarecrow-network-preferences.glade.h:22
 msgid "_Location name:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:23
+#: ../capplets/network/scarecrow-network-preferences.glade.h:23
 msgid "_Password:"
 msgstr "_Махфий сўз:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:24
+#: ../capplets/network/scarecrow-network-preferences.glade.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "HTTP_S прокси:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:25
+#: ../capplets/network/scarecrow-network-preferences.glade.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "Барча протоколлар учун битта проксидан _фойдаланиш"
 

@@ -33,7 +33,7 @@
 #include "cc-wacom-resources.h"
 #include "cc-drawing-area.h"
 #include "cc-tablet-tool-map.h"
-#include "gsd-device-manager.h"
+#include "scsd-device-manager.h"
 
 #ifdef GDK_WINDOWING_WAYLAND
 #include <gdk/gdkwayland.h>
@@ -91,7 +91,7 @@ update_visibility (GsdDeviceManager *manager,
 	g_autoptr(GList) devices = NULL;
 	guint i;
 
-	devices = gsd_device_manager_list_devices (manager, GSD_DEVICE_TYPE_TABLET);
+	devices = scsd_device_manager_list_devices (manager, GSD_DEVICE_TYPE_TABLET);
 	i = g_list_length (devices);
 
 	/* Set the new visibility */
@@ -108,7 +108,7 @@ cc_wacom_panel_static_init_func (void)
 {
 	GsdDeviceManager *manager;
 
-	manager = gsd_device_manager_get ();
+	manager = scsd_device_manager_get ();
 	g_signal_connect (G_OBJECT (manager), "device-added",
 			  G_CALLBACK (update_visibility), NULL);
 	g_signal_connect (G_OBJECT (manager), "device-removed",
@@ -338,7 +338,7 @@ update_current_tool (CcWacomPanel  *panel,
 	GsdDeviceManager *device_manager;
 	CcWacomDevice *wacom_device;
 	CcWacomTool *stylus;
-	GsdDevice *gsd_device;
+	GsdDevice *scsd_device;
 	guint64 serial, id;
 	gboolean added;
 
@@ -346,13 +346,13 @@ update_current_tool (CcWacomPanel  *panel,
 		return;
 
 	/* Work our way to the CcWacomDevice */
-	device_manager = gsd_device_manager_get ();
-	gsd_device = gsd_device_manager_lookup_gdk_device (device_manager,
+	device_manager = scsd_device_manager_get ();
+	scsd_device = scsd_device_manager_lookup_gdk_device (device_manager,
 							   device);
-	if (!gsd_device)
+	if (!scsd_device)
 		return;
 
-	wacom_device = g_hash_table_lookup (panel->devices, gsd_device);
+	wacom_device = g_hash_table_lookup (panel->devices, scsd_device);
 	if (!wacom_device)
 		return;
 
@@ -511,7 +511,7 @@ update_current_page (CcWacomPanel  *self)
 
 static void
 add_known_device (CcWacomPanel *self,
-		  GsdDevice    *gsd_device)
+		  GsdDevice    *scsd_device)
 {
 	CcWacomDevice *device;
 	GsdDeviceType device_type;
@@ -519,7 +519,7 @@ add_known_device (CcWacomPanel *self,
 	GtkWidget *page;
 	GList *l;
 
-	device_type = gsd_device_get_device_type (gsd_device);
+	device_type = scsd_device_get_device_type (scsd_device);
 
 	if ((device_type & GSD_DEVICE_TYPE_TABLET) == 0)
 		return;
@@ -531,11 +531,11 @@ add_known_device (CcWacomPanel *self,
 		return;
 	}
 
-	device = cc_wacom_device_new (gsd_device);
+	device = cc_wacom_device_new (scsd_device);
 	if (!device)
 		return;
 
-	g_hash_table_insert (self->devices, gsd_device, device);
+	g_hash_table_insert (self->devices, scsd_device, device);
 
 	tools = cc_tablet_tool_map_list_tools (self->tablet_tool_map, device);
 
@@ -552,12 +552,12 @@ add_known_device (CcWacomPanel *self,
 
 static void
 device_removed_cb (CcWacomPanel     *self,
-		   GsdDevice        *gsd_device)
+		   GsdDevice        *scsd_device)
 {
 	CcWacomDevice *device;
 	GtkWidget *page;
 
-	device = g_hash_table_lookup (self->devices, gsd_device);
+	device = g_hash_table_lookup (self->devices, scsd_device);
 	if (!device)
 		return;
 
@@ -567,7 +567,7 @@ device_removed_cb (CcWacomPanel     *self,
 		gtk_widget_destroy (page);
 	}
 
-	g_hash_table_remove (self->devices, gsd_device);
+	g_hash_table_remove (self->devices, scsd_device);
 	check_remove_stylus_pages (self);
 	update_current_page (self);
 }
@@ -663,11 +663,11 @@ cc_wacom_panel_init (CcWacomPanel *self)
 	self->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (self->builder,
-                                               "/org/gnome/control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/gnome-wacom-properties.ui",
                                                objects,
                                                &error);
 	gtk_builder_add_objects_from_resource (self->builder,
-                                               "/org/gnome/control-center/wacom/wacom-stylus-page.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/wacom-stylus-page.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {
@@ -680,9 +680,9 @@ cc_wacom_panel_init (CcWacomPanel *self)
 	g_dbus_proxy_new_for_bus (G_BUS_TYPE_SESSION,
 				  G_DBUS_PROXY_FLAGS_NONE,
 				  NULL,
-				  "org.gnome.Shell",
-				  "/org/gnome/Shell/Wacom",
-				  "org.gnome.Shell.Wacom.PadOsd",
+				  "io.github.scarecrow_de.Shell",
+				  "/io/github/scarecrow_de/Shell/Wacom",
+				  "io.github.scarecrow_de.Shell.Wacom.PadOsd",
 				  cc_panel_get_cancellable (CC_PANEL (self)),
 				  got_osd_proxy_cb,
 				  self);
@@ -744,13 +744,13 @@ cc_wacom_panel_init (CcWacomPanel *self)
 	self->pages = g_hash_table_new (NULL, NULL);
 	self->stylus_pages = g_hash_table_new (NULL, NULL);
 
-	device_manager = gsd_device_manager_get ();
+	device_manager = scsd_device_manager_get ();
 	g_signal_connect_object (device_manager, "device-added",
 				 G_CALLBACK (device_added_cb), self, G_CONNECT_SWAPPED);
 	g_signal_connect_object (device_manager, "device-removed",
 				 G_CALLBACK (device_removed_cb), self, G_CONNECT_SWAPPED);
 
-	devices = gsd_device_manager_list_devices (device_manager,
+	devices = scsd_device_manager_list_devices (device_manager,
 						   GSD_DEVICE_TYPE_TABLET);
 	for (l = devices; l ; l = l->next)
 		add_known_device (self, l->data);
@@ -759,7 +759,7 @@ cc_wacom_panel_init (CcWacomPanel *self)
 }
 
 GDBusProxy *
-cc_wacom_panel_get_gsd_wacom_bus_proxy (CcWacomPanel *self)
+cc_wacom_panel_get_scsd_wacom_bus_proxy (CcWacomPanel *self)
 {
 	g_return_val_if_fail (CC_IS_WACOM_PANEL (self), NULL);
 

@@ -34,7 +34,7 @@
 #include "cc-util.h"
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/scarecrow-languages.h>
 
 struct _CcLanguageChooser {
         GtkDialog parent_instance;
@@ -439,7 +439,7 @@ cc_language_chooser_class_init (CcLanguageChooserClass *klass)
 
         object_class->dispose = cc_language_chooser_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/common/cc-language-chooser.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/common/cc-language-chooser.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcLanguageChooser, select_button);
         gtk_widget_class_bind_template_child (widget_class, CcLanguageChooser, search_bar);

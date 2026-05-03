@@ -1,6 +1,6 @@
 # Brazilian Portuguese translation of GNOME Control Center.
 # Copyright (C) 2021 The GNOME Control Center authors.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Ivan Passos <ivan@cyclades.com>, 1999.
 # Sandro Nunes Henrique <sandro@conectiva.com.br>, 1999.
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2000-2001.
@@ -30,8 +30,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-17 16:55+0000\n"
 "PO-Revision-Date: 2021-02-17 21:48-0300\n"
@@ -71,7 +71,7 @@ msgid "Full access to /dev"
 msgstr "Acesso completo a /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:288
 msgid "Network"
 msgstr "Rede"
@@ -99,7 +99,7 @@ msgstr "Sistema de arquivos"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Configurações"
 
@@ -1516,11 +1516,11 @@ msgstr "Altere a data e hora, incluindo fuso horário"
 msgid "Clock;Timezone;Location;"
 msgstr "Relógio;Fuso horário;Localização;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Alterar o horário do sistema e configurações de data"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Para modificar configurações de data ou hora você precisa se autenticar."
@@ -3405,12 +3405,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Controle como você conecta à Internet"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "Rede;Network;IP,LAN;Proxy;WAN;Banda larga;Broadband;Modem;Bluetooth;vpn;DNS;"
@@ -6009,11 +6009,11 @@ msgstr ""
 "compartilhar;compartilhamento;ssh;máquina;host;nome;remoto;desktop;área de "
 "trabalho;mídia;áudio;som;vídeo;imagens;fotos;filmes;servidor;renderizador;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Habilitar ou desabilitar sessão remota"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "É necessário autenticação para habilitar ou desabilitar sessão remota"
 
@@ -7702,11 +7702,11 @@ msgstr "_Nome do administrador"
 msgid "Administrator Password"
 msgstr "Senha do administrador"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Gerenciar contas de usuários"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Autenticação é obrigatória para alterar dados de usuário"
 
@@ -8051,7 +8051,7 @@ msgstr "Ajustar resolução de tela"
 msgid "Decouple Display"
 msgstr "Desacoplar janela"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novo atalho…"
 
@@ -8108,19 +8108,19 @@ msgstr "Botão inferior"
 msgid "Tip Pressure Feel"
 msgstr "Sensação de pressão da ponta"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "Configurações do GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Utilitário para configurar o ambiente GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Configurações é a interface primária para configurar seu sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "O Projeto GNOME"
 
@@ -8183,7 +8183,7 @@ msgid "Help"
 msgstr "Ajuda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferências;Configurações;Ajustes;"
 
@@ -8217,11 +8217,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Cancelar pesquisa"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "O identificador para abrir o último painel de configurações"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8230,13 +8230,13 @@ msgstr ""
 "irreconhecíveis serão ignorados e o primeiro painel da lista será "
 "selecionado."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Mostrar aviso quando estiver em uma compilação de desenvolvimento de "
 "Configurações"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8952,8 +8952,8 @@ msgstr "Sons do sistema"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "org.gnome.Settings"
-#~ msgstr "org.gnome.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "Luz _noturna"
@@ -9095,8 +9095,8 @@ msgstr "Sons do sistema"
 #~ msgid "Quit"
 #~ msgstr "Sair"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verificar nova senha"

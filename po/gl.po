@@ -16,8 +16,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center-master-po-gl-72290.merged\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center-master-po-gl-72290.merged\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-08-11 22:29+0000\n"
 "PO-Revision-Date: 2020-08-13 20:21+0200\n"
@@ -58,7 +58,7 @@ msgid "Full access to /dev"
 msgstr "Acceso completo a /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Rede"
@@ -86,7 +86,7 @@ msgstr "Sistema de ficheiros"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:280
 #: shell/cc-window.c:934 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Preferencias"
 
@@ -1497,11 +1497,11 @@ msgstr "Cambie a data e hora, incluíndo o fuso horario"
 msgid "Clock;Timezone;Location;"
 msgstr "Reloxo;Fuso horario;Localización;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Cambiar as preferencias da data e hora do sistema"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Para cambiar as preferencias de data e hora debe autenticarse."
 
@@ -3356,12 +3356,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Controle como se conecta a Internet"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Rede;IP;LAN;Proxy;WAN;Banda larga;Modem;Bluetooth;vpn;DNS;"
 
@@ -5958,11 +5958,11 @@ msgstr ""
 "compartir;compartición;ssh:equipo;nome;remoto;escritorio;son;vídeo;imaxes;"
 "fotos;filmes;servidor;renderizador;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Activar ou desactivar o inicio de sesión remoto"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Requírese autenticación para activar ou desactivar o inicio de sesión remoto"
@@ -7668,11 +7668,11 @@ msgstr "_Nome do administrador"
 msgid "Administrator Password"
 msgstr "Contrasinal do administrador"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Xestionar contas de usuario"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
 
@@ -8018,7 +8018,7 @@ msgstr "Axustar a resolución do monitor"
 msgid "Decouple Display"
 msgstr "Desacoplar pantallas"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novo atallo…"
 
@@ -8074,19 +8074,19 @@ msgstr "Botón inferior"
 msgid "Tip Pressure Feel"
 msgstr "Sensibilidade de presión do lapis"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "Preferencias de GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Utilidades para configurar o escritorio GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Preferencias é a interface principal para configurar o seu sistema."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "O proxecto GNOME"
 
@@ -8149,7 +8149,7 @@ msgid "Help"
 msgstr "Axuda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferencias;Configuración;"
 
@@ -8183,11 +8183,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Cancelar a busca"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "O identificador do último panel de Preferencias para abrir"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8195,13 +8195,13 @@ msgstr ""
 "O identificador do último panel de Preferencias para abrir. Os valores non "
 "recoñecibeis serán ignorados e seleccionarase o primeiro panel da lista."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Mostrar un aviso cando se execute unha construción para desenvolvemento da "
 "configuración"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""

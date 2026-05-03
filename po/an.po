@@ -1,12 +1,12 @@
-# Aragonese translation for gnome-control-center.
-# Copyright (C) 2013 gnome-control-center's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Aragonese translation for scarecrow-control-center.
+# Copyright (C) 2013 scarecrow-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Jorge Pérez Pérez <jorgtum@gmail.com>, 2013.
 # Daniel Martinez <entaltoaragon@gmail.com>, 2014, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
+"Project-Id-Version: scarecrow-control-center master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-06-14 06:46+0000\n"
@@ -1035,11 +1035,11 @@ msgstr "Cambiar a calendata y a hora, incluindo a zona horaria"
 msgid "Clock;Timezone;Location;"
 msgstr "Reloch;Zona horaria;Ubicación;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Cambiar a configuración d'a hora y a calendata d'o sistema"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Ta cambiar a configuración d'a calendata u d'a hora, debes autenticar-te."
@@ -1495,7 +1495,7 @@ msgid "Launch help browser"
 msgstr "Lanzar o visor d'aduya"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1605
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "Configuración"
 
@@ -2577,17 +2577,17 @@ msgstr "O mío ret privau"
 msgid "Make available to _other users"
 msgstr "Fer-ne disponible ta _atros usuarios"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "Ret"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "Controlar cómo se connecta ta Internet"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"
@@ -5160,11 +5160,11 @@ msgstr ""
 "compartir;compartición;ssh;equipo;remoto;escritorio:bluetooth;obex;multimeya;"
 "son:video;imachens;fotos;cintas;servidor;renderizau;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "Activar u desactivar l'inicio de sesión remota"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Se requier autenticación ta activar u desactivar l'inicio de sesión remota"
@@ -6180,11 +6180,11 @@ msgstr "_Idioma"
 msgid "Last Login"
 msgstr "Zaguer inicio de sesión"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Chestionar as cuentas d'usuario"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "Se requier autenticación ta cambiar os datos de l'usuario"
 
@@ -6944,91 +6944,91 @@ msgid "Left-Handed Orientation"
 msgstr "Orientación ta zurdos"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1028
+#: ../panels/wacom/scsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "Aniello cucho"
 
-#: ../panels/wacom/gsd-wacom-device.c:1039
+#: ../panels/wacom/scsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Modo de l'aniello cucho nº %d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1059
+#: ../panels/wacom/scsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "Aniello dreito"
 
-#: ../panels/wacom/gsd-wacom-device.c:1070
+#: ../panels/wacom/scsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Modo de l'aniello dreito nº %d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1112
+#: ../panels/wacom/scsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "Banda tactil cucha"
 
-#: ../panels/wacom/gsd-wacom-device.c:1123
+#: ../panels/wacom/scsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Modo d'a banda tactil cucha nº %d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1143
+#: ../panels/wacom/scsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "Banda tactil dreita"
 
-#: ../panels/wacom/gsd-wacom-device.c:1154
+#: ../panels/wacom/scsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Modo d'a banda tactil dreita nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1180
+#: ../panels/wacom/scsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Modo de cambeo de l'aniello tactil cucho"
 
-#: ../panels/wacom/gsd-wacom-device.c:1182
+#: ../panels/wacom/scsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Modo de cambeo de l'aniello tactil dreito"
 
-#: ../panels/wacom/gsd-wacom-device.c:1185
+#: ../panels/wacom/scsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Modo de cambeo d'a banda tactil cucha"
 
-#: ../panels/wacom/gsd-wacom-device.c:1187
+#: ../panels/wacom/scsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Modo de cambeo d'a banda tactil dreita"
 
-#: ../panels/wacom/gsd-wacom-device.c:1192
+#: ../panels/wacom/scsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Modo de cambeo nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1300
+#: ../panels/wacom/scsd-wacom-device.c:1300
 #, c-format
 msgid "Left Button #%d"
 msgstr "Botón cucho nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1303
+#: ../panels/wacom/scsd-wacom-device.c:1303
 #, c-format
 msgid "Right Button #%d"
 msgstr "Botón dreito nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1306
+#: ../panels/wacom/scsd-wacom-device.c:1306
 #, c-format
 msgid "Top Button #%d"
 msgstr "Botón superior nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1309
+#: ../panels/wacom/scsd-wacom-device.c:1309
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Botón inferior nº %d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nuevo alcorce de teclau…"
 
@@ -7100,15 +7100,15 @@ msgstr "Botón inferior"
 msgid "Tip Pressure Feel"
 msgstr "Sensibilidat de presión d'o lapiz"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:1
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:1
 msgid "GNOME Control Center"
 msgstr "Centro de control de GNOME"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:2
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:2
 msgid "Utilities to configure the GNOME desktop"
 msgstr "Utilidatz ta configurar o escritorio GNOME"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:3
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:3
 msgid ""
 "The control center is GNOME's main interface for configuration of various "
 "aspects of your desktop."
@@ -7191,7 +7191,7 @@ msgctxt "category"
 msgid "System"
 msgstr "Sistema"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Preferencias;Configuración;"
 

@@ -30,7 +30,7 @@
 #include <gdk/gdkx.h>
 #endif
 
-#define BINDINGS_SCHEMA       "org.gnome.settings-daemon.plugins.media-keys"
+#define BINDINGS_SCHEMA       "io.github.scarecrow_de.settings-daemon.plugins.media-keys"
 #define CUSTOM_SHORTCUTS_ID   "custom"
 
 struct _CcKeyboardManager
@@ -544,7 +544,7 @@ reload_sections (CcKeyboardManager *self)
       g_autofree gchar *dir_path = NULL;
       const gchar *name;
 
-      dir_path = g_build_filename (data_dirs[i], "gnome-control-center", "keybindings", NULL);
+      dir_path = g_build_filename (data_dirs[i], "scarecrow-control-center", "keybindings", NULL);
 
       dir = g_dir_open (dir_path, 0, NULL);
       if (!dir)

@@ -1,4 +1,4 @@
-# translation of gnome-control-center.master.or.po to Oriya
+# translation of scarecrow-control-center.master.or.po to Oriya
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -6,7 +6,7 @@
 # Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.or\n"
+"Project-Id-Version: scarecrow-control-center.master.or\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-20 06:31+0000\n"
@@ -1078,11 +1078,11 @@ msgstr "ସମୟ ମଣ୍ଡଳକୁ ଅନ୍ତର୍ଭୁକ୍ତ କର
 msgid "Clock;Timezone;Location;"
 msgstr "ଘଡ଼ି;ସମୟ ମଣ୍ଡଳ;ଅବସ୍ଥାନ;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "ତନ୍ତ୍ର ସମୟ ଏବଂ ତାରିଖ ସେଟିଙ୍ଗକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "ସମୟ କିମ୍ବା ତାରିଖ ବିନ୍ୟାସକୁ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ, ଆପଣଙ୍କୁ ବୈଧିକରଣ କରିବା "
@@ -1541,7 +1541,7 @@ msgid "Launch help browser"
 msgstr "ସାହାୟ୍ଯ ବ୍ରାଉଜର ପ୍ରାରମ୍ଭ କରନ୍ତୁ"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "ସେଟିଙ୍ଗଗୁଡିକ"
 
@@ -2647,17 +2647,17 @@ msgstr "ନିଜସ୍ୱ ନେଟୱର୍କ"
 msgid "Make available to _other users"
 msgstr "ଅନ୍ୟ ଚାଳକ ମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧକରାନ୍ତୁ (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "ନେଟୱର୍କ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "ଇଣ୍ଟରନେଟ ସହିତ କିପରି ସଂଯୁକ୍ତ କରିବେ ତାହା ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 #| "vpn;vlan;bridge;bond;"
@@ -5252,11 +5252,11 @@ msgstr ""
 "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "ସୁଦୂର ଲଗଇନ୍‌କୁ ସକ୍ରିୟ ଅଥବା ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "ସୁଦୂର ଲଗଇନକୁ ସକ୍ରିୟ କିମ୍ବା ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ବୈଧିକରଣ ଆବଶ୍ଯକ"
 
@@ -6342,11 +6342,11 @@ msgstr "ଭାଷା (_L)"
 msgid "Last Login"
 msgstr "ଅନ୍ତିମ ଲଗଇନ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "ବ୍ୟବହାରକାରୀ ଖାତାଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ବ୍ୟବହାରକାରୀ ତଥ୍ୟ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ବୈଧିକରଣ ଆବଶ୍ଯକ"
 
@@ -7118,91 +7118,91 @@ msgid "Left-Handed Orientation"
 msgstr "ବାମ-ହାତ ଆବର୍ତ୍ତନ"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1062
+#: ../panels/wacom/scsd-wacom-device.c:1062
 msgid "Left Ring"
 msgstr "ବାମ ରିଙ୍ଗ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1073
+#: ../panels/wacom/scsd-wacom-device.c:1073
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "ବାମ ରିଙ୍ଗ ଧାରା #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1093
+#: ../panels/wacom/scsd-wacom-device.c:1093
 msgid "Right Ring"
 msgstr "ଡ଼ାହାଣ ରିଙ୍ଗ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1104
+#: ../panels/wacom/scsd-wacom-device.c:1104
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "ଡ଼ାହାଣ ରିଙ୍ଗ ଧାରା #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1146
+#: ../panels/wacom/scsd-wacom-device.c:1146
 msgid "Left Touchstrip"
 msgstr "ବାମ ଟଚଷ୍ଟ୍ରିପ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1157
+#: ../panels/wacom/scsd-wacom-device.c:1157
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "ବାମ ଟଚଷ୍ଟ୍ରିପ ଧାରା #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1177
+#: ../panels/wacom/scsd-wacom-device.c:1177
 msgid "Right Touchstrip"
 msgstr "ଡ଼ାହାଣ ଟଚଷ୍ଟ୍ରିପ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "ଡ଼ାହାଣ ଟଚଷ୍ଟ୍ରିପ ଧାରା #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1214
+#: ../panels/wacom/scsd-wacom-device.c:1214
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ବାମାବର୍ତ୍ତୀ ଟର୍ଚ ଧାରାକୁ ବଦଳାନ୍ତୁ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1216
+#: ../panels/wacom/scsd-wacom-device.c:1216
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ଡ଼ାହାଣବର୍ତ୍ତୀ ଟର୍ଚ ଧାରାକୁ ବଦଳାନ୍ତୁ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1219
+#: ../panels/wacom/scsd-wacom-device.c:1219
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ବାମାବର୍ତ୍ତୀ ଟର୍ଚଷ୍ଟ୍ରିପ ଧାରାକୁ ବଦଳାନ୍ତୁ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1221
+#: ../panels/wacom/scsd-wacom-device.c:1221
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ଡ଼ାହାଣବର୍ତ୍ତୀ ଟର୍ଚଷ୍ଟ୍ରିପ ଧାରାକୁ ବଦଳାନ୍ତୁ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1226
+#: ../panels/wacom/scsd-wacom-device.c:1226
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ଧାରା ପରିବର୍ତ୍ତନ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1334
+#: ../panels/wacom/scsd-wacom-device.c:1334
 #, c-format
 msgid "Left Button #%d"
 msgstr "ବାମ ବଟନ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1337
+#: ../panels/wacom/scsd-wacom-device.c:1337
 #, c-format
 msgid "Right Button #%d"
 msgstr "ଡ଼ାହାଣ ବଟନ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1340
+#: ../panels/wacom/scsd-wacom-device.c:1340
 #, c-format
 msgid "Top Button #%d"
 msgstr "ଉପର ବଟନ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1343
+#: ../panels/wacom/scsd-wacom-device.c:1343
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ତଳ ବଟମ #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 #| msgid "No shortcut set"
 msgid "New shortcut…"
 msgstr "ନୂତନ ସଂକ୍ଷିପ୍ତ ପଥ…"
@@ -7350,7 +7350,7 @@ msgctxt "category"
 msgid "System"
 msgstr "ତନ୍ତ୍ର"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 
@@ -9303,13 +9303,13 @@ msgstr "ପସନ୍ଦ;ସେଟିଙ୍ଗଗୁଡ଼ିକ;"
 #~ msgstr "ପ୍ରସଙ୍ଗ ଯନ୍ତ୍ରକୁ ସ୍ଥାପନ କରାଯାଇପାରିଲା ନାହିଁ"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "'gnome-settings-daemon' ସଂରଚନା ପରିଚାଳକଙ୍କୁ ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।\n"
+#~ "'scarecrow-settings-daemon' ସଂରଚନା ପରିଚାଳକଙ୍କୁ ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।\n"
 #~ "GNOME ସଂରଚନା ପରିଚାଳକ ଚାଲୁ ନଥିବା ବିନା, କେତେକ ପସନ୍ଦ ପ୍ରଭାବଶାଳୀ ହୋଇ ପାରିବ ନାହିଁ। DBus "
 #~ "ଏହା ହୁଏତ ଏକ ସମସ୍ଯା ସୃଷ୍ଟି କରିପାରେ, ଅଥବା ଗୋଟିଏ ଅଣ-GNOME (ଯେପରି KDE) ସଂରଚନା ପରିଚାଳକ "
 #~ "ପୂର୍ବରୁ ସକ୍ରିୟ ଥାଇପାରେ ଏବଂ GNOME ସେଟିଙ୍ଗ ପ୍ରବନ୍ଧକ ସହିତ ଦ୍ବନ୍ଦ୍ବ କରୁଥାଇପାରେ।"

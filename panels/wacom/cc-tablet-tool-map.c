@@ -48,7 +48,7 @@ load_keyfiles (CcTabletToolMap *map)
 	g_autoptr(GError) tools_error = NULL;
 	g_autofree gchar *dir = NULL;
 
-	dir = g_build_filename (g_get_user_cache_dir (), "gnome-control-center", "wacom", NULL);
+	dir = g_build_filename (g_get_user_cache_dir (), "scarecrow-control-center", "wacom", NULL);
 
 	if (g_mkdir_with_parents (dir, 0700) < 0) {
 		g_warning ("Could not create directory '%s', expect stylus mapping oddities: %m", dir);
@@ -223,10 +223,10 @@ static gchar *
 get_device_key (CcWacomDevice *device)
 {
 	const gchar *vendor, *product;
-	GsdDevice *gsd_device;
+	GsdDevice *scsd_device;
 
-	gsd_device = cc_wacom_device_get_device (device);
-	gsd_device_get_device_ids (gsd_device, &vendor, &product);
+	scsd_device = cc_wacom_device_get_device (device);
+	scsd_device_get_device_ids (scsd_device, &vendor, &product);
 
 	return g_strdup_printf ("%s:%s", vendor, product);
 }

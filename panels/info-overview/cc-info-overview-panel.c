@@ -209,13 +209,13 @@ get_renderer_from_session (void)
   session_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                                  G_DBUS_PROXY_FLAGS_NONE,
                                                  NULL,
-                                                 "org.gnome.SessionManager",
-                                                 "/org/gnome/SessionManager",
-                                                 "org.gnome.SessionManager",
+                                                 "io.github.scarecrow_de.SessionManager",
+                                                 "/io/github/scarecrow_de/SessionManager",
+                                                 "io.github.scarecrow_de.SessionManager",
                                                  NULL, &error);
   if (error != NULL)
     {
-      g_warning ("Unable to connect to create a proxy for org.gnome.SessionManager: %s",
+      g_warning ("Unable to connect to create a proxy for io.github.scarecrow_de.SessionManager: %s",
                  error->message);
       return NULL;
     }
@@ -224,7 +224,7 @@ get_renderer_from_session (void)
 
   if (!renderer_variant)
     {
-      g_warning ("Unable to retrieve org.gnome.SessionManager.Renderer property");
+      g_warning ("Unable to retrieve io.github.scarecrow_de.SessionManager.Renderer property");
       return NULL;
     }
 
@@ -239,7 +239,7 @@ static char *
 get_renderer_from_helper (const char **env)
 {
   int status;
-  char *argv[] = { LIBEXECDIR "/gnome-control-center-print-renderer", NULL };
+  char *argv[] = { LIBEXECDIR "/scarecrow-control-center-print-renderer", NULL };
   g_auto(GStrv) envp = NULL;
   g_autofree char *renderer = NULL;
   g_autoptr(GError) error = NULL;
@@ -813,7 +813,7 @@ cc_info_overview_panel_class_init (CcInfoOverviewPanelClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/info-overview/cc-info-overview-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/info-overview/cc-info-overview-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, device_name_entry);
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, disk_row);

@@ -1,4 +1,4 @@
-# German gnome-control-center translation
+# German scarecrow-control-center translation
 # Copyright (C) 1998-2015 Free Software Foundation, Inc.
 #
 #
@@ -26,8 +26,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-19 20:49+0000\n"
 "PO-Revision-Date: 2021-02-20 19:19+0100\n"
@@ -66,7 +66,7 @@ msgid "Full access to /dev"
 msgstr "Vollständiger Zugriff auf /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:288
 msgid "Network"
 msgstr "Netzwerk"
@@ -94,7 +94,7 @@ msgstr "Dateisystem"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -235,7 +235,7 @@ msgstr "Mikrofon"
 #: panels/applications/cc-applications-panel.ui:151
 #: panels/location/gnome-location-panel.desktop.in.in:3
 msgid "Location Services"
-msgstr "Ortungsdienste"
+msgstr "Ortunscsdienste"
 
 #: panels/applications/cc-applications-panel.ui:157
 #: panels/applications/cc-applications-panel.ui:499
@@ -1162,7 +1162,7 @@ msgstr "Standard-Grau"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Vom Hersteller gelieferte Kalibrierungsdaten"
+msgstr "Vom Hersteller gelieferte Kalibrierunscsdaten"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -1477,7 +1477,7 @@ msgstr "Zeitzone a_utomatisch ermitteln"
 
 #: panels/datetime/cc-datetime-panel.ui:255
 msgid "Requires location services enabled and internet access"
-msgstr "Erfordert aktivierte Ortungsdienste und eine Internetverbindung"
+msgstr "Erfordert aktivierte Ortunscsdienste und eine Internetverbindung"
 
 #: panels/datetime/cc-datetime-panel.ui:270
 msgid "Time Z_one"
@@ -1504,11 +1504,11 @@ msgstr "Das Datum, die Zeit und die Zeitzone ändern"
 msgid "Clock;Timezone;Location;"
 msgstr "Uhr;Zeitzone;Ort;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Einstellungen für Zeit und Datum ändern"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Um die Einstellungen für Zeit und Datum zu ändern, müssen Sie sich "
@@ -2351,7 +2351,7 @@ msgid ""
 "Location services allow applications to know your location. Using Wi-Fi and "
 "mobile broadband increases accuracy."
 msgstr ""
-"Ortungsdienste ermöglichen Anwendungen, Ihre geografische Position zu "
+"Ortunscsdienste ermöglichen Anwendungen, Ihre geografische Position zu "
 "kennen. Die Verwendung von WLAN oder mobilem Breitband erhöht die "
 "Genauigkeit."
 
@@ -2360,7 +2360,7 @@ msgid ""
 "Uses Mozilla Location Service: <a href='https://location.services.mozilla."
 "com/privacy'>Privacy Policy</a>"
 msgstr ""
-"Verwendet den Mozilla-Ortungsdienst: <a href='https://location.services."
+"Verwendet den Mozilla-Ortunscsdienst: <a href='https://location.services."
 "mozilla.com/privacy'>Regeln zum Schutz der Privatsphäre</a>"
 
 #: panels/location/cc-location-panel.ui:93
@@ -3395,12 +3395,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Legt fest, wie mit dem Internet verbunden wird"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "Netzwerk;LAN;IP;Proxy;WAN;Breitband;DSL;Modem;Bluetooth;VPN;Brücke;DNS;"
@@ -4870,7 +4870,7 @@ msgid ""
 "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
 "PPD.GZ)"
 msgstr ""
-"PostScript-Druckerbeschreibungsdateien (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PostScript-Druckerbeschreibunscsdateien (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
 "PPD.GZ)"
 
 #: panels/printers/pp-details-dialog.ui:68 panels/printers/printer-entry.ui:223
@@ -5998,11 +5998,11 @@ msgstr ""
 "Freigabe;ssh;Rechner;Name;Entfernt;Arbeitsumgebung;Umgebung;Medien;Audio;"
 "Video;Bilder;Fotos;Filme;Server;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Entfernte Anmeldung ein- oder ausschalten"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Legitimierung ist erforderlich, um die entfernte Anmeldung zu aktivieren "
@@ -7700,11 +7700,11 @@ msgstr "_Name des Systemverwalters"
 msgid "Administrator Password"
 msgstr "Systemverwalter-Passwort"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Benutzerkonten verwalten"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Legitimierung erforderlich"
 
@@ -8059,7 +8059,7 @@ msgstr "Die Bildschirmauflösung anpassen"
 msgid "Decouple Display"
 msgstr "Bildschirm entkoppeln"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Neue Tastenkombination …"
 
@@ -8118,20 +8118,20 @@ msgstr "Unterster Knopf"
 msgid "Tip Pressure Feel"
 msgstr "Druckschwelle der Spitze"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "GNOME-Einstellungen"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Dienstprogramme zur Einrichtung der GNOME Arbeitsumgebung"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr ""
 "Einstellungen ist die wichtigste Komponente zur Einrichtung Ihres Systems."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "Das GNOME-Pojekt"
 
@@ -8194,7 +8194,7 @@ msgid "Help"
 msgstr "Hilfe"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Einstellungen;"
 
@@ -8228,11 +8228,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Suche abbrechen"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Bezeichner des zuletzt geöffneten Einstellungs-Panels"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8240,13 +8240,13 @@ msgstr ""
 "Bezeichner des zuletzt geöffneten Einstellungs-Panels. Unzulässige Werte "
 "werden ignoriert und das erste Panel in der Liste ausgewählt."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Warnung anzeigen, wenn eine Entwicklerversion der Einstellungen ausgeführt "
 "wird"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8445,7 +8445,7 @@ msgstr "Systemklänge"
 #~ msgstr "Geteilte Kontakte in Ubuntu Unity 8 lesen/ändern"
 
 #~ msgid "Access energy usage data"
-#~ msgstr "Energienutzungsdaten abrufen"
+#~ msgstr "Energienutzunscsdaten abrufen"
 
 #~ msgid "Read/write access to U2F devices exposed"
 #~ msgstr "Lese-/Schreibzugriff auf offengelegte U2F-Geräte"
@@ -8794,7 +8794,7 @@ msgstr "Systemklänge"
 #~ msgstr "_Mikrofon"
 
 #~ msgid "_Location Services"
-#~ msgstr "_Ortungsdienste"
+#~ msgstr "_Ortunscsdienste"
 
 #~ msgid "Protect your personal information and control what others might see"
 #~ msgstr ""

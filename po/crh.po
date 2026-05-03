@@ -1,10 +1,10 @@
-# Qırımtatarca gnome-control-center.
-# This file is distributed under the same license as the gnome-control-center package.
+# Qırımtatarca scarecrow-control-center.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Reşat SABIQ <tilde.birlik@gmail.com>, 2009, 2010, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-21 19:21-0500\n"
 "PO-Revision-Date: 2013-05-23 18:26-0500\n"
@@ -1165,11 +1165,11 @@ msgstr ""
 msgid "Clock;Timezone;Location;"
 msgstr "Saat;Saat Tilimi;Qonum;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Sistem vaqtı ve tarih ayarlarını deñiştir"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Vaqıt yaki tarih ayarlarını deñiştirmek içün sahihlenmeñiz kerek."
 
@@ -1193,13 +1193,13 @@ msgctxt "display panel, rotation"
 msgid "180 Degrees"
 msgstr "180 Derece"
 
-#. Keep this string in sync with gnome-desktop/libgnome-desktop/gnome-rr-labeler.c
+#. Keep this string in sync with scarecrow-desktop/libscarecrow-desktop/scarecrow-rr-labeler.c
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external projector.  Here, "Mirrored" is being
 #. * used as an adjective.  For example, the Spanish translation could be
 #. * "Pantallas en Espejo".
 #.
-#. Keep this string in sync with gnome-control-center/capplets/display/xrandr-capplet.c:get_display_name()
+#. Keep this string in sync with scarecrow-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
@@ -2701,17 +2701,17 @@ msgstr "Ev Şebekem"
 msgid "Make available to _other users"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "Şebeke"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "İnternet'ke nasıl bağlanğanıñıznı muraqabe etiñiz"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;"
@@ -5259,11 +5259,11 @@ msgid ""
 "pictures;photos;movies;server;renderer;"
 msgstr ""
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "Uzaqtan içeri imzalanmanı qabilleştir yaki ğayrıqabilleştir"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Uzaqtan içeri imzalanmanı qabilleştirmek içün sahihlenim şarttır"
 
@@ -6496,11 +6496,11 @@ msgid "Last Login"
 msgstr "Soñki İçeri İmzalanma"
 
 # tr
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Qullanıcı hesaplarını idare et"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "Qullanıcı verilerini deñiştirmek içün sahihlenim şarttır"
 
@@ -7146,91 +7146,91 @@ msgstr "Sol Elle Kullanım Yerleşimi"
 
 # tüklü
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1078
+#: ../panels/wacom/scsd-wacom-device.c:1078
 msgid "Left Ring"
 msgstr "Sol Alqa"
 
 # tüklü
-#: ../panels/wacom/gsd-wacom-device.c:1089
+#: ../panels/wacom/scsd-wacom-device.c:1089
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Sol Alqa Tarzı #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1109
+#: ../panels/wacom/scsd-wacom-device.c:1109
 msgid "Right Ring"
 msgstr "Oñ Alqa"
 
-#: ../panels/wacom/gsd-wacom-device.c:1120
+#: ../panels/wacom/scsd-wacom-device.c:1120
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Oñ Alqa Tarzı #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1162
+#: ../panels/wacom/scsd-wacom-device.c:1162
 msgid "Left Touchstrip"
 msgstr "Sol Tiyüv Şeriti"
 
-#: ../panels/wacom/gsd-wacom-device.c:1173
+#: ../panels/wacom/scsd-wacom-device.c:1173
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Sol Tiyüv Şeriti Tarzı #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1193
+#: ../panels/wacom/scsd-wacom-device.c:1193
 msgid "Right Touchstrip"
 msgstr "Oñ Tiyüv Şeriti"
 
-#: ../panels/wacom/gsd-wacom-device.c:1204
+#: ../panels/wacom/scsd-wacom-device.c:1204
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Oñ Tiyüv Şeriti Tarzı #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1230
+#: ../panels/wacom/scsd-wacom-device.c:1230
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Sol Tiyüv Alqası Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1232
+#: ../panels/wacom/scsd-wacom-device.c:1232
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Oñ Tiyüv Alqası Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1235
+#: ../panels/wacom/scsd-wacom-device.c:1235
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Sol Tiyüv Şeriti Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1237
+#: ../panels/wacom/scsd-wacom-device.c:1237
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Oñ Tiyüv Şeriti Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1242
+#: ../panels/wacom/scsd-wacom-device.c:1242
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Tarz Almaştırğıçı #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1351
+#: ../panels/wacom/scsd-wacom-device.c:1351
 #, c-format
 msgid "Left Button #%d"
 msgstr "Sol Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1354
+#: ../panels/wacom/scsd-wacom-device.c:1354
 #, c-format
 msgid "Right Button #%d"
 msgstr "Sağ Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1357
+#: ../panels/wacom/scsd-wacom-device.c:1357
 #, c-format
 msgid "Top Button #%d"
 msgstr "Üst Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1360
+#: ../panels/wacom/scsd-wacom-device.c:1360
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Alt Düğme #%d"
@@ -7374,7 +7374,7 @@ msgstr "Yardım"
 msgid "Quit"
 msgstr "Terk et"
 
-#: ../shell/cc-window.c:61 ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/cc-window.c:61 ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "Ayarlar"
 
@@ -7399,7 +7399,7 @@ msgstr "Sistem"
 msgid "All Settings"
 msgstr "Hepsi Ayarlar"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Tercihler;Ayarlar;"
 
@@ -8085,13 +8085,13 @@ msgstr "Tercihler;Ayarlar;"
 #~ msgstr "Tema silinemiyor"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "Ayarlar idarecisi 'gnome-settings-daemon' başlatılalmay.\n"
+#~ "Ayarlar idarecisi 'scarecrow-settings-daemon' başlatılalmay.\n"
 #~ "GNOME ayarlar idarecisi çapmadan, bazı tercihler amelge kirmez. Bu, DBus "
 #~ "ile bir meseleniñ işareti olabilir, ya da bir GNOME-tışı (meselâ, KDE) "
 #~ "ayarlar idarecisi endi faal olıp GNOME ayarlar idarecisi ile çatışa "
@@ -8342,7 +8342,7 @@ msgstr "Tercihler;Ayarlar;"
 #~ "\n"
 #~ "This program installs a RANDR profile for multi-monitor setups into\n"
 #~ "a systemwide location.  The resulting profile will get used when\n"
-#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 #~ "xml\n"
@@ -8354,7 +8354,7 @@ msgstr "Tercihler;Ayarlar;"
 #~ "Qullanım: %s SOURCE_FILE DEST_NAME\n"
 #~ "\n"
 #~ "Bu program çoq-monitorlı ayarlamalar içün sistem-boyu bir qonumğa\n"
-#~ "bir RANDR profili qurar. Neticelengen profil, gnome-settings-daemon\n"
+#~ "bir RANDR profili qurar. Neticelengen profil, scarecrow-settings-daemon\n"
 #~ "içinde RANDR plagini çaptırılğanda qullanılacaq.\n"
 #~ "\n"
 #~ "SOURCE_FILE - tam bir yolaq adı, tipik olaraq /home/username/.config/"

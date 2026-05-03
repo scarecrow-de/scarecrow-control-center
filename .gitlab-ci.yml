@@ -4,7 +4,7 @@ include:
 variables:
   FDO_DISTRIBUTION_TAG: latest
   FDO_DISTRIBUTION_VERSION: rawhide
-  FDO_UPSTREAM_REPO: gnome/gnome-control-center
+  FDO_UPSTREAM_REPO: gnome/scarecrow-control-center
   # Expiry sets fdo.expires on the image
   FDO_EXPIRES_AFTER: 8w
   FEDORA_IMAGE: "$CI_REGISTRY/$FDO_UPSTREAM_REPO/fedora/$FDO_DISTRIBUTION_VERSION:$FDO_DISTRIBUTION_TAG"
@@ -28,7 +28,7 @@ variables:
     glib2-devel
     gobject-introspection-devel
     gnome-bluetooth-libs-devel
-    gnome-desktop3-devel
+    scarecrow-desktop3-devel
     gnome-online-accounts-devel
     gnome-settings-daemon-devel
     grilo-devel
@@ -159,7 +159,7 @@ coverage:
     BUILD_OPTS: "-Db_coverage=true"
     coverage: '/^Lines:.\d+.\d+.(\d+\.\d+\%)/'
   only:
-    - master@GNOME/gnome-control-center
+    - master@GNOME/scarecrow-control-center
 
   script:
     - *environment_information
@@ -196,7 +196,7 @@ pages:
     paths:
       - public
   only:
-    - master@GNOME/gnome-control-center
+    - master@GNOME/scarecrow-control-center
 
   except:
     variables:
@@ -218,14 +218,14 @@ flatpak:
     expire_in: 7 days
 
   variables:
-    OLD_APPID: "org.gnome.Settings"
-    APPID: "org.gnome.SettingsDevel"
-    BUNDLE: "org.gnome.SettingsDevel.flatpak"
-    MANIFEST_PATH: "org.gnome.Settings.json"
+    OLD_APPID: "io.github.scarecrow_de.Settings"
+    APPID: "io.github.scarecrow_de.SettingsDevel"
+    BUNDLE: "io.github.scarecrow_de.SettingsDevel.flatpak"
+    MANIFEST_PATH: "io.github.scarecrow_de.Settings.json"
     PATCHES: "build-aux/flatpak/*.patch"
-    PROJECT_FILE: "build-aux/flatpak/org.gnome.Settings.json"
-    PROJECT_ID: "org.gnome.Settings"
-    PROJECT_NAME: "gnome-control-center.git"
+    PROJECT_FILE: "build-aux/flatpak/io.github.scarecrow_de.Settings.json"
+    PROJECT_ID: "io.github.scarecrow_de.Settings"
+    PROJECT_NAME: "scarecrow-control-center.git"
     RUNTIME_REPO: "https://sdk.gnome.org/gnome-nightly.flatpakrepo"
 
   script:
@@ -262,7 +262,7 @@ flatpak:
   except:
     - tags
     - gnome-3-.*
-    - master@GNOME/gnome-control-center
+    - master@GNOME/scarecrow-control-center
 
 
 # Runs the sanitizers [address, thread, undefined, and memory].

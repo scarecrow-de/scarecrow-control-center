@@ -41,9 +41,9 @@
 #include "cc-wacom-nav-button.h"
 #include "cc-wacom-mapping-panel.h"
 #include "cc-wacom-stylus-page.h"
-#include "gsd-enums.h"
+#include "scsd-enums.h"
 #include "calibrator-gui.h"
-#include "gsd-input-helper.h"
+#include "scsd-input-helper.h"
 
 #include <string.h>
 
@@ -213,15 +213,15 @@ finish_calibration (CalibArea *area,
 static GdkDevice *
 cc_wacom_page_get_gdk_device (CcWacomPage *page)
 {
-	GsdDevice *gsd_device;
+	GsdDevice *scsd_device;
 	GdkDevice *gdk_device = NULL;
 	GdkDisplay *display;
 	GdkSeat *seat;
 	g_autoptr(GList) slaves = NULL;
 	GList *l;
 
-	gsd_device = cc_wacom_device_get_device (page->stylus);
-	g_return_val_if_fail (GSD_IS_DEVICE (gsd_device), NULL);
+	scsd_device = cc_wacom_device_get_device (page->stylus);
+	g_return_val_if_fail (GSD_IS_DEVICE (scsd_device), NULL);
 
 	display = gtk_widget_get_display (GTK_WIDGET (page));
 	seat = gdk_display_get_default_seat (display);
@@ -242,7 +242,7 @@ cc_wacom_page_get_gdk_device (CcWacomPage *page)
 			device_node = g_strdup (gdk_wayland_device_get_node_path (l->data));
 #endif
 
-		if (g_strcmp0 (device_node, gsd_device_get_device_file (gsd_device)) == 0)
+		if (g_strcmp0 (device_node, scsd_device_get_device_file (scsd_device)) == 0)
 			gdk_device = l->data;
 	}
 
@@ -349,7 +349,7 @@ calibrate_button_clicked_cb (CcWacomPage *page)
 }
 
 /* This avoids us crashing when a newer version of
- * gnome-control-center has been used, and we load up an
+ * scarecrow-control-center has been used, and we load up an
  * old one, as the action type if unknown to the old g-c-c */
 static gboolean
 action_type_is_valid (GDesktopPadButtonAction action)
@@ -414,7 +414,7 @@ show_button_mapping_dialog (CcWacomPage *page)
 	g_assert (page->mapping_builder == NULL);
 	page->mapping_builder = gtk_builder_new ();
 	gtk_builder_add_from_resource (page->mapping_builder,
-                                       "/org/gnome/control-center/wacom/button-mapping.ui",
+                                       "/io/github/scarecrow_de/control-center/wacom/button-mapping.ui",
                                        &error);
 
 	if (error != NULL) {
@@ -465,15 +465,15 @@ static void
 set_osd_visibility (CcWacomPage *page)
 {
 	GDBusProxy         *proxy;
-	GsdDevice          *gsd_device;
+	GsdDevice          *scsd_device;
 	const gchar        *device_path;
 
-	proxy = cc_wacom_panel_get_gsd_wacom_bus_proxy (page->panel);
+	proxy = cc_wacom_panel_get_scsd_wacom_bus_proxy (page->panel);
 
 	/* Pick the first device, the OSD may change later between them */
-	gsd_device = cc_wacom_device_get_device (page->pads->data);
+	scsd_device = cc_wacom_device_get_device (page->pads->data);
 
-	device_path = gsd_device_get_device_file (gsd_device);
+	device_path = scsd_device_get_device_file (scsd_device);
 
 	if (proxy == NULL) {
 		show_button_mapping_dialog (page);
@@ -760,7 +760,7 @@ cc_wacom_page_init (CcWacomPage *page)
 	page->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (page->builder,
-                                               "/org/gnome/control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/scarecrow_de/control-center/wacom/gnome-wacom-properties.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {
@@ -816,7 +816,7 @@ set_icon_name (CcWacomPage *page,
 {
 	g_autofree gchar *resource = NULL;
 
-	resource = g_strdup_printf ("/org/gnome/control-center/wacom/%s.svg", icon_name);
+	resource = g_strdup_printf ("/io/github/scarecrow_de/control-center/wacom/%s.svg", icon_name);
 	gtk_image_set_from_resource (GTK_IMAGE (WID (widget_name)), resource);
 }
 
@@ -911,18 +911,18 @@ update_pad_availability (CcWacomPage *page)
 
 static void
 check_add_pad (CcWacomPage *page,
-	       GsdDevice   *gsd_device)
+	       GsdDevice   *scsd_device)
 {
 	g_autoptr(CcWacomDevice) wacom_device = NULL;
 
-	if ((gsd_device_get_device_type (gsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
+	if ((scsd_device_get_device_type (scsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
 		return;
 
-	if (!gsd_device_shares_group (cc_wacom_device_get_device (page->stylus),
-				      gsd_device))
+	if (!scsd_device_shares_group (cc_wacom_device_get_device (page->stylus),
+				      scsd_device))
 		return;
 
-	wacom_device = cc_wacom_device_new (gsd_device);
+	wacom_device = cc_wacom_device_new (scsd_device);
 	if (!wacom_device)
 		return;
 
@@ -932,16 +932,16 @@ check_add_pad (CcWacomPage *page,
 
 static void
 check_remove_pad (CcWacomPage *page,
-		  GsdDevice   *gsd_device)
+		  GsdDevice   *scsd_device)
 {
 	GList *l;
 
-	if ((gsd_device_get_device_type (gsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
+	if ((scsd_device_get_device_type (scsd_device) & GSD_DEVICE_TYPE_PAD) == 0)
 		return;
 
 	for (l = page->pads; l; l = l->next) {
 		CcWacomDevice *wacom_device = l->data;
-		if (cc_wacom_device_get_device (wacom_device) == gsd_device) {
+		if (cc_wacom_device_get_device (wacom_device) == scsd_device) {
 			page->pads = g_list_delete_link (page->pads, l);
 			g_object_unref (wacom_device);
 		}
@@ -984,7 +984,7 @@ cc_wacom_page_new (CcWacomPanel  *panel,
 	set_icon_name (page, "image-tablet", cc_wacom_device_get_icon_name (stylus));
 
 	/* Listen to changes in related/paired pads */
-	page->manager = gsd_device_manager_get ();
+	page->manager = scsd_device_manager_get ();
 	g_signal_connect_object (G_OBJECT (page->manager), "device-added",
 				 G_CALLBACK (check_add_pad), page,
 				 G_CONNECT_SWAPPED);
@@ -992,7 +992,7 @@ cc_wacom_page_new (CcWacomPanel  *panel,
 				 G_CALLBACK (check_remove_pad), page,
 				 G_CONNECT_SWAPPED);
 
-	pads = gsd_device_manager_list_devices (page->manager, GSD_DEVICE_TYPE_PAD);
+	pads = scsd_device_manager_list_devices (page->manager, GSD_DEVICE_TYPE_PAD);
 	for (l = pads; l ; l = l->next)
 		check_add_pad (page, l->data);
 

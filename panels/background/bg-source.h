@@ -21,7 +21,7 @@
 #pragma once
 
 #include <gtk/gtk.h>
-#include <libgnome-desktop/gnome-desktop-thumbnail.h>
+#include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 
 G_BEGIN_DECLS
 

@@ -1,7 +1,7 @@
-# translation of gnome-control-center.HEAD.po to Punjabi
-# Punjabi translation of gnome-control-center.HEAD.
-# Copyright (C) 2004 THE gnome-control-center.HEAD'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center.HEAD package.
+# translation of scarecrow-control-center.HEAD.po to Punjabi
+# Punjabi translation of scarecrow-control-center.HEAD.
+# Copyright (C) 2004 THE scarecrow-control-center.HEAD'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center.HEAD package.
 #
 #
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
@@ -9,8 +9,8 @@
 # A S Alam <aalam@users.sf.net>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issu"
+"Project-Id-Version: scarecrow-control-center.HEAD\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/issu"
 "es\n"
 "POT-Creation-Date: 2020-02-19 10:58+0000\n"
 "PO-Revision-Date: 2020-03-01 17:10-0800\n"
@@ -49,7 +49,7 @@ msgid "Full access to /dev"
 msgstr "/dev ਲਈ ਪੂਰੀ ਪਹੁੰਚ"
 
 #: panels/applications/cc-applications-panel.c:747
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "ਨੈੱਟਵਰਕ"
@@ -78,7 +78,7 @@ msgstr "ਫਾਇਲ ਸਿਸਟਮ"
 #: panels/applications/cc-applications-panel.c:763
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:281
 #: shell/cc-window.c:964 shell/cc-window.ui:125
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗ"
 
@@ -1693,11 +1693,11 @@ msgstr "ਤਾਰੀਖ ਅਤੇ ਵੇਲਾ, ਵੇਲੇ ਦੇ ਇਲਾਕ
 msgid "Clock;Timezone;Location;"
 msgstr "ਘੜੀ;ਵੇਲਾ,ਵੇਲਾ ਇਲਾਕਾ;ਸਥਾਨ;ਥਾਂ;ਸਮਾਂ-ਖੇਤਰ;ਟਿਕਾਣਾ;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "ਸਿਸਟਮ ਦਾ ਵੇਲਾ ਅਤੇ ਤਾਰੀਖ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲੋ"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "ਵੇਲਾ ਜਾਂ ਤਾਰੀਖ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਣ ਲਈ, ਤੁਹਾਨੂੰ ਪਰਮਾਣਿਤ ਹੋਣ ਦੀ ਲੋੜ ਹੈ।"
 
@@ -3538,12 +3538,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "ਕੰਟਰੋਲ ਕਰੋ ਕਿ ਇੰਟਰਨੈੱਟ ਨਾਲ ਤੁਸੀਂ ਕਿਵੇਂ ਕਨੈਕਟ ਹੋ"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr ""
 "ਨੈੱਟਵਰਕ;ਆਈਪੀ;ਬਰਾਡਬੈਂਡ;ਮਾਡਮ;ਬਲੂਟੁੱਥ;ਬਲੂਟੁੱਥ;ਵੀਪੀਐਨ;ਪਰਾਕਸੀ;ਵੈਨ;ਮੌਡਮ;ਡੀਐਨਐਸ;"
@@ -6145,11 +6145,11 @@ msgstr ""
 "ੀ;ਸਰਵਰ;"
 "ਰੈਂਡਰ;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "ਰਿਮੋਟ ਲਾਗਇਨ ਸਮਰੱਥ ਜਾਂ ਅਸਮਰੱਥ"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "ਰਿਮੋਟ ਲਾਗਇਨ ਨੂੰ ਬੰਦ ਜਾਂ ਚਾਲੂ ਕਰਨ ਲਈ ਪਰਮਾਣਕਿਤਾ ਚਾਹੀਦੀ ਹੈ"
 
@@ -7710,11 +7710,11 @@ msgstr "ਪਰਸ਼ਾਸ਼ਕੀ ਨਾਂ(_N)"
 msgid "Administrator Password"
 msgstr "ਪਰਸ਼ਾਸ਼ਕੀ ਪਾਸਵਰਡ"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "ਵਰਤੋਂਕਾਰ ਖਾਤਿਆਂ ਦਾ ਇੰਤਜ਼ਾਮ"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "ਵਰਤੋਂਕਾਰ ਡਾਟੇ ਨੂੰ ਬਦਲਣ ਲਈ ਪਰਮਾਣਕਿਤਾ ਚਾਹੀਦੀ ਹੈ"
 
@@ -8144,7 +8144,7 @@ msgstr "ਡਿਸਪਲੇਅ ਰੈਜ਼ੋਲੂਸ਼ਨ ਅਡਜੱਸਟ 
 msgid "Decouple Display"
 msgstr "ਡਿਸਪਲੇਅ ਅੱਡੋ-ਅੱਡ ਕਰੋ"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "...ਨਵਾਂ ਸ਼ਾਰਟਕੱਟ"
 
@@ -8200,21 +8200,21 @@ msgstr "ਸਭ ਤੋਂ ਹੇਠਲਾ ਬਟਨ"
 msgid "Tip Pressure Feel"
 msgstr "ਟਿੱਪ ਦਬਾਉ ਮਹਿਸੂਸ"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 #| msgid "Keep GNOME settings"
 msgid "GNOME Settings"
 msgstr "ਗਨੋਮ ਸੈਟਿੰਗਾਂ"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 #| msgid "Utilities to configure the GNOME desktop"
 msgid "Utility to configure the GNOME desktop"
 msgstr "ਗਨੋਮ ਡੈਸਕਟਾਪ ਦੀ ਸੰਰਚਨਾ ਵਾਸਤੇ ਸਹੂਲਤ"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "ਸੈਟਿੰਗਾਂ ਤੁਹਾਡੇ ਸਿਸਟਮ ਦੀ ਸੰਰਚਨਾ ਕਰਨ ਲਈ ਮੁੱਢਲਾ ਦਰ ਹੈ।"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "ਗਨੋਮ ਪਰੋਜੈਕਟ"
 
@@ -8278,7 +8278,7 @@ msgid "Help"
 msgstr "ਮਦਦ"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "ਮੇਰੀ ਪਸੰਦ;ਸੈਟਿੰਗ;"
 
@@ -8314,11 +8314,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "ਖੋਜ ਰੱਦ ਕਰੋ"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "ਆਖਰੀ ਸੈਟਿੰਗਾਂ ਪੈਨਲ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਪਛਾਣਕਰਤਾ"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8327,11 +8327,11 @@ msgstr ""
 " ਜਾਵੇਗਾ ਅਤੇ ਸੂਚੀ "
 "ਵਿੱਚੋਂ ਪਹਿਲਾਂ ਪੈਨਲ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ।"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "ਜਦੋਂ ਸੈਟਿੰਗਾਂ ਦੀ ਡਿਵੈਲਪਮੈਂਟ ਬਿਲਡ ਚੱਲਦਾ ਹੋਵੇ ਤਾਂ ਚੇਤਾਵਨੀ ਵੇਖਾਓ"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8930,8 +8930,8 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ msgid "Quit"
 #~ msgstr "ਬਾਹਰ"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "Back­ground"
 #~ msgstr "ਬੈਕਗਰਾਊਂਡ"
@@ -12555,13 +12555,13 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ msgstr "ਥੀਮ ਇੰਜਣ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "ਸੈਟਿੰਗ ਮੈਨੇਜਰ 'gnome-settings-daemon' ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਹੈ।\n"
+#~ "ਸੈਟਿੰਗ ਮੈਨੇਜਰ 'scarecrow-settings-daemon' ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਹੈ।\n"
 #~ "ਗਨੋਮ ਸੈਟਿੰਗ ਮੈਨੇਜਰ ਬਿਨਾਂ ਚਲਾਏ, ਕੁਝ ਪਸੰਦ ਕੰਮ ਨਹੀਂ ਕਰਨਗੀਆਂ। ਇਹ ਡੀਬੱਸ ਨਾਲ ਸੰਬੰਧ ਮੁਸ਼ਕਿਲ "
 #~ "ਦਿਖਾਰਿਹਾ ਹੈ ਜਾਂ ਨਾ-ਗਨੋਮ (ਜਿਵੇਂ ਕਿ ਕੇਡੀਈ (KDE)) ਸੈਟਿੰਗ ਮੈਨੇਜਰ ਦਾ ਮੈਨੇਜਰ ਪਹਿਲਾਂ ਹੀ ਸਰਗਰਮ "
 #~ "ਹੈ ਅਤੇ ਗਨੋਮ ਸੈਟਿੰਗ ਮੈਨੇਜਰ ਨਾਲ ਅਪਵਾਦ ਕਰ ਰਿਹਾ ਹੈ।"
@@ -12688,7 +12688,7 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ "\n"
 #~ "This program installs a RANDR profile for multi-monitor setups into\n"
 #~ "a systemwide location.  The resulting profile will get used when\n"
-#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 #~ "xml\n"
@@ -12701,7 +12701,7 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ "\n"
 #~ "This program installs a RANDR profile for multi-monitor setups into\n"
 #~ "a systemwide location.  The resulting profile will get used when\n"
-#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 #~ "xml\n"
@@ -13303,8 +13303,8 @@ msgstr "ਸਿਸਟਮ ਆਵਾਜ਼ਾਂ"
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "ਚੁਣੀ ਸੰਰਚਨਾ ਲਾਗੂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ"
 
-#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-#~ msgstr "org.gnome.SettingsDaemon.XRANDR ਲਈ ਨਹੀਂ ਜਾ ਸਕੀ"
+#~ msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
+#~ msgstr "io.github.scarecrow_de.SettingsDaemon.XRANDR ਲਈ ਨਹੀਂ ਜਾ ਸਕੀ"
 
 #~ msgid "<b>Bounce Keys</b>"
 #~ msgstr "<b>ਬਾਊਸ ਸਵਿੱਚਾਂ ਯੋਗ</b>"

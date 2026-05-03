@@ -1,11 +1,11 @@
-# translation of gnome-control-center.HEAD.bs.po to Bosnian
+# translation of scarecrow-control-center.HEAD.bs.po to Bosnian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2004.
 # Kenan Hadžiavdić <kenan@bgnett.no>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD.bs\n"
+"Project-Id-Version: scarecrow-control-center.HEAD.bs\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-02-27 07:32+0000\n"
@@ -1036,11 +1036,11 @@ msgstr "Promijeni datum i vrijeme, uključujući vremensku zonu"
 msgid "Clock;Timezone;Location;"
 msgstr "Sat;Vrijemenskazona;Lokacija;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Promjena postavki vremena i datuma"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Za promjenu vremena i datuma trebate potvrditi identitet."
 
@@ -1494,7 +1494,7 @@ msgid "Launch help browser"
 msgstr "Pokreni preglednik pomoći"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1604
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "Postavke"
 
@@ -2580,17 +2580,17 @@ msgstr "_MojaStandardna Mreža"
 msgid "Make available to _other users"
 msgstr "Napravi dostupno _drugim korisnicima"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "Mreža"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "Kontroliši povezivanje na Internet"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"
@@ -5140,11 +5140,11 @@ msgstr ""
 "podijeli;djeljenje;ssh;domaćin;ime;udaljeno;radna površina;bluetooth;medij;"
 "audio;video;slike;fotografije;filmovi;server;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "Omogući ili onemogući prijavu iz daljine"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Autentifikacija je potrebna za omogućenje ili onemogućenje prijave  iz "
@@ -6163,11 +6163,11 @@ msgstr "_Jezik"
 msgid "Last Login"
 msgstr "Zadnja prijava"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Upravljanje korisničkim nalozima"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "Prijava je potrebna za promjenu korisničkih podataka."
 
@@ -6927,91 +6927,91 @@ msgid "Left-Handed Orientation"
 msgstr "Orijentacija prema lijevo"
 
 #. If no mode is available, we usi "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1024
+#: ../panels/wacom/scsd-wacom-device.c:1024
 msgid "Left Ring"
 msgstr "Lijevi prsten"
 
-#: ../panels/wacom/gsd-wacom-device.c:1035
+#: ../panels/wacom/scsd-wacom-device.c:1035
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Režim lijevog prstena #%d"
 
 #. If no mode is available, we usi "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1055
+#: ../panels/wacom/scsd-wacom-device.c:1055
 msgid "Right Ring"
 msgstr "Desni prsten"
 
-#: ../panels/wacom/gsd-wacom-device.c:1066
+#: ../panels/wacom/scsd-wacom-device.c:1066
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Režim desnog prstena #%d"
 
 #. If no mode is available, we usi "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1108
+#: ../panels/wacom/scsd-wacom-device.c:1108
 msgid "Left Touchstrip"
 msgstr "Lijeva dodirna traka"
 
-#: ../panels/wacom/gsd-wacom-device.c:1119
+#: ../panels/wacom/scsd-wacom-device.c:1119
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Režim lijeve dodirne trake #%d"
 
 #. If no mode is available, we usi "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1139
+#: ../panels/wacom/scsd-wacom-device.c:1139
 msgid "Right Touchstrip"
 msgstr "Desna dodirna traka"
 
-#: ../panels/wacom/gsd-wacom-device.c:1150
+#: ../panels/wacom/scsd-wacom-device.c:1150
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Režim desne dodirne trake #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1176
+#: ../panels/wacom/scsd-wacom-device.c:1176
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Režim prekidača lijevog dodirnog prstena"
 
-#: ../panels/wacom/gsd-wacom-device.c:1178
+#: ../panels/wacom/scsd-wacom-device.c:1178
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Režim prekidača desnog dodirnog prstena"
 
-#: ../panels/wacom/gsd-wacom-device.c:1181
+#: ../panels/wacom/scsd-wacom-device.c:1181
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Režim prekidača lijeve dodirne trake"
 
-#: ../panels/wacom/gsd-wacom-device.c:1183
+#: ../panels/wacom/scsd-wacom-device.c:1183
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Režim prekidača desne dodirne trake"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Režim prekidača #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1296
+#: ../panels/wacom/scsd-wacom-device.c:1296
 #, c-format
 msgid "Left Button #%d"
 msgstr "Lijevo dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1299
+#: ../panels/wacom/scsd-wacom-device.c:1299
 #, c-format
 msgid "Right Button #%d"
 msgstr "Desno dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1302
+#: ../panels/wacom/scsd-wacom-device.c:1302
 #, c-format
 msgid "Top Button #%d"
 msgstr "Gornje dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1305
+#: ../panels/wacom/scsd-wacom-device.c:1305
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Donje dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nova prečica…"
 
@@ -7158,6 +7158,6 @@ msgctxt "category"
 msgid "System"
 msgstr "Sistem"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Postavke;Podešavanja;"

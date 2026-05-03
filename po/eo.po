@@ -1,6 +1,6 @@
-# Esperanto translation for gnome-control-center.
+# Esperanto translation for scarecrow-control-center.
 # Copyright (C) 2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Joop EGGEN <joop_eggen@yahoo.de>, 2006.
 # Ed GLEZ < >, 2006.
 # Brian CROOM < >, 2008.
@@ -15,8 +15,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-02-14 13:41+0000\n"
 "PO-Revision-Date: 2020-02-14 21:50+0100\n"
@@ -56,7 +56,7 @@ msgid "Full access to /dev"
 msgstr "Plena aliro al /dev"
 
 #: panels/applications/cc-applications-panel.c:747
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Reto"
@@ -85,7 +85,7 @@ msgstr "Dosiersistemo"
 #: panels/applications/cc-applications-panel.c:763
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:281
 #: shell/cc-window.c:964 shell/cc-window.ui:125
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Agordoj"
 
@@ -1693,11 +1693,11 @@ msgstr "Ŝanĝi la aktualan tempon, inkluzivante horzonon"
 msgid "Clock;Timezone;Location;"
 msgstr "Horloĝo;Horo;Horzono;Loko;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Ŝanĝi sistemajn agordoj pri horo kaj dato"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Por ŝanĝi tempajn aŭ datajn agordojn, vi devas aŭtentigi."
 
@@ -3484,12 +3484,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Regi kiel vi konektas al la interreto"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Reto;Vifio;IP;LAN;Prokurilo;WAN;Larĝkapacita;Modemo;Bludento;VPR;DNS;"
 
@@ -6069,11 +6069,11 @@ msgstr ""
 "medio;aŭdo;vido;video;filmoj;aŭdovida;bildoj;fotoj;kinofilmoj;servilo;"
 "bildigilo;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Ŝalti aŭ malŝalti deforan salutadon"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Aŭtentigo necesas por ŝalti aŭ malŝalti deforan salutadon"
 
@@ -7612,11 +7612,11 @@ msgstr "Administranto-_nomo"
 msgid "Administrator Password"
 msgstr "Administranto-pasvorto"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Mastrumi uzanto-kontojn"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Aŭtentigo necesas por ŝanĝi uzanto-datumojn"
 
@@ -8047,7 +8047,7 @@ msgstr "Ĝustigi ekranan distingivon"
 msgid "Decouple Display"
 msgstr "Apartigi ekranon"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nova klavkombino…"
 
@@ -8103,19 +8103,19 @@ msgstr "Plej suba butono"
 msgid "Tip Pressure Feel"
 msgstr "Konduto de pinta premo"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "GNOME Agordoj"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Ilo por agordi la labortablon de GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Agordoj estas la ĉefa fasado por agordi vian sistemon."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "La GNOME Projekto"
 
@@ -8178,7 +8178,7 @@ msgid "Help"
 msgstr "Helpo"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Preferoj;Agordoj;"
 
@@ -8212,11 +8212,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Nuligi serĉon"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "La identifilo por la stircentra panelo, kiu malfermendiĝas laste"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8225,11 +8225,11 @@ msgstr ""
 "Nerekonataj valoroj estos malatentita kaj la unua panelo en la listo estos "
 "elektita."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Montri averton kiam rulante programistan version de la stircentro"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8673,8 +8673,8 @@ msgstr "Sistemsonoj"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "org.gnome.Settings"
-#~ msgstr "org.gnome.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "_Noktlumo"
@@ -8804,8 +8804,8 @@ msgstr "Sistemsonoj"
 #~ msgid "Quit"
 #~ msgstr "Ĉesi"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~| msgid "Background"
 #~ msgid "Back­ground"
@@ -11221,13 +11221,13 @@ msgstr "Sistemsonoj"
 #~ msgstr "Ne eblis instali la etos-modulon"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "Neeblas starti la agordmastrumilon 'gnome-settings-daemon'.\n"
+#~ "Neeblas starti la agordmastrumilon 'scarecrow-settings-daemon'.\n"
 #~ "Sen la rulanta GNOME-agordmastrumilo, kelkaj agordoj eble ne efektiviĝos. "
 #~ "Ĉi tio eble signifas problemon de DBus aŭ ne-GNOME-agordmastrumilo (ekz. "
 #~ "KDE) eble estas rulanta kaj konfliktanta kun GNOME-agordmastrumilo."
@@ -11446,7 +11446,7 @@ msgstr "Sistemsonoj"
 #~ "\n"
 #~ "This program installs a RANDR profile for multi-monitor setups into\n"
 #~ "a systemwide location.  The resulting profile will get used when\n"
-#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 #~ "xml\n"
@@ -11459,7 +11459,7 @@ msgstr "Sistemsonoj"
 #~ "\n"
 #~ "Ĉi tiu programaro instalas RANDR-profilon por plurekranaj agordoj en\n"
 #~ "tutsistema loko. La rezulta profilo kutimiĝos kiam\n"
-#~ "la RANDR-kromprogramo rulas en gnome-settings-daemon.\n"
+#~ "la RANDR-kromprogramo rulas en scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "FONTA_DOSIERO - plenpada nomo, kutime /home/uzantonomo/.config/monitors."
 #~ "xml\n"

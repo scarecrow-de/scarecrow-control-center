@@ -1,12 +1,12 @@
-# Irish translations for gnome-control-center package.
+# Irish translations for scarecrow-control-center package.
 # Copyright (C) 2002-2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Alastair McKinstry <mckinstry@debian.org>, 2003.
 # Seán de Búrca <leftmostcat@gmail.com>, 2007-2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master\n"
+"Project-Id-Version: scarecrow-control-center.master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-23 15:26-0600\n"
 "PO-Revision-Date: 2015-09-23 15:39-0600\n"
@@ -1056,11 +1056,11 @@ msgstr "Athraigh an dáta agus an t-am, crios ama ina measc"
 msgid "Clock;Timezone;Location;"
 msgstr "Clog;Crios Ama;Suíomh;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Athraigh socruithe ama agus dáta an chórais"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Is gá fíordeimhniú chun socruithe ama nó dáta a athrú."
 
@@ -1519,7 +1519,7 @@ msgid "Launch help browser"
 msgstr "Luchtaigh brabhsálaí cabhrach"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1605
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "Socruithe"
 
@@ -2593,17 +2593,17 @@ msgstr "Mo Líonra Baile"
 msgid "Make available to _other users"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "Líonra"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr ""
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #, fuzzy
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
@@ -5185,11 +5185,11 @@ msgid ""
 "movies;server;renderer;"
 msgstr ""
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr ""
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 #, fuzzy
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Fíordheimhnithe!"
@@ -6211,11 +6211,11 @@ msgstr "_Teanga"
 msgid "Last Login"
 msgstr "Logáil Isteach Is Déanaí"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Bainistigh cuntais úsáideora"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to change user data"
 msgstr "Fíordheimhnithe!"
@@ -6973,93 +6973,93 @@ msgid "Left-Handed Orientation"
 msgstr ""
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1028
+#: ../panels/wacom/scsd-wacom-device.c:1028
 #, fuzzy
 msgid "Left Ring"
 msgstr "Méar an fháinne chlé"
 
-#: ../panels/wacom/gsd-wacom-device.c:1039
+#: ../panels/wacom/scsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1059
+#: ../panels/wacom/scsd-wacom-device.c:1059
 #, fuzzy
 msgid "Right Ring"
 msgstr "Méar an fháinne dheas"
 
-#: ../panels/wacom/gsd-wacom-device.c:1070
+#: ../panels/wacom/scsd-wacom-device.c:1070
 #, fuzzy, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Méar an fháinne dheas"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1112
+#: ../panels/wacom/scsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1123
+#: ../panels/wacom/scsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1143
+#: ../panels/wacom/scsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1154
+#: ../panels/wacom/scsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1180
+#: ../panels/wacom/scsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1182
+#: ../panels/wacom/scsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1185
+#: ../panels/wacom/scsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1187
+#: ../panels/wacom/scsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1192
+#: ../panels/wacom/scsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1300
+#: ../panels/wacom/scsd-wacom-device.c:1300
 #, c-format
 msgid "Left Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1303
+#: ../panels/wacom/scsd-wacom-device.c:1303
 #, c-format
 msgid "Right Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1306
+#: ../panels/wacom/scsd-wacom-device.c:1306
 #, c-format
 msgid "Top Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1309
+#: ../panels/wacom/scsd-wacom-device.c:1309
 #, c-format
 msgid "Bottom Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 #, fuzzy
 msgid "New shortcut…"
 msgstr "Aicearra nua..."
@@ -7137,15 +7137,15 @@ msgstr ""
 msgid "Tip Pressure Feel"
 msgstr ""
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:1
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:1
 msgid "GNOME Control Center"
 msgstr ""
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:2
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:2
 msgid "Utilities to configure the GNOME desktop"
 msgstr ""
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:3
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:3
 msgid ""
 "The control center is GNOME's main interface for configuration of various "
 "aspects of your desktop."
@@ -7212,6 +7212,6 @@ msgctxt "category"
 msgid "System"
 msgstr "Córas"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Sainroghanna;Socruithe;"

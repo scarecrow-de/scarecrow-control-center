@@ -56,7 +56,7 @@ cc_stream_row_class_init (CcStreamRowClass *klass)
 
   object_class->dispose = cc_stream_row_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/sound/cc-stream-row.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-stream-row.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcStreamRow, label_box);
   gtk_widget_class_bind_template_child (widget_class, CcStreamRow, icon_image);

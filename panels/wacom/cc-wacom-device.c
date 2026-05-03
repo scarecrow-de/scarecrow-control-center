@@ -139,7 +139,7 @@ cc_wacom_device_initable_init (GInitable     *initable,
 	const gchar *node_path;
 
 	wacom_db = cc_wacom_device_database_get ();
-	node_path = gsd_device_get_device_file (device->device);
+	node_path = scsd_device_get_device_file (device->device);
 	device->wdevice = libwacom_new_from_path (wacom_db, node_path, FALSE, NULL);
 
 	if (!device->wdevice) {
@@ -239,7 +239,7 @@ cc_wacom_device_get_settings (CcWacomDevice *device)
 {
 	g_return_val_if_fail (CC_IS_WACOM_DEVICE (device), NULL);
 
-	return gsd_device_get_settings (device->device);
+	return scsd_device_get_settings (device->device);
 }
 
 const gint *
@@ -399,7 +399,7 @@ cc_wacom_device_get_button_settings (CcWacomDevice *device,
 	g_object_get (tablet_settings, "path", &path, NULL);
 
 	button_path = g_strdup_printf ("%sbutton%c/", path, 'A' + button);
-	settings = g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet.pad-button",
+	settings = g_settings_new_with_path ("io.github.scarecrow_de.desktop.peripherals.tablet.pad-button",
 					     button_path);
 
 	return settings;

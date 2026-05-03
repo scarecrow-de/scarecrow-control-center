@@ -1,8 +1,8 @@
 # translation of ml.po to
-# translation of gnome-control-center.master.ml.po to
-# translation of gnome-control-center.HEAD.ml.po to
-# This file is distributed under the same license as the gnome-control-center package.
-# Copyright (C) 2007-2008 gnome-control-center'S COPYRIGHT HOLDER.
+# translation of scarecrow-control-center.master.ml.po to
+# translation of scarecrow-control-center.HEAD.ml.po to
+# This file is distributed under the same license as the scarecrow-control-center package.
+# Copyright (C) 2007-2008 scarecrow-control-center'S COPYRIGHT HOLDER.
 # FSF-India <locale@gnu.org.in>, 2003.
 # Santhosh|സന്തോഷ് Thottingal|തോട്ടിങ്ങല്‍ <santhosh00@gmail.com>, 2007.
 # Ani Peter <apeter@redhat.com>, 2007, 2009, 2012.
@@ -17,7 +17,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ml\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N"
 "+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-19 14:32+0000\n"
 "PO-Revision-Date: 2017-08-20 23:21+0530\n"
@@ -1035,11 +1035,11 @@ msgstr "സമയം, തിയ്യതി, സമയമേഖലയടക്�
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "സിസ്റ്റത്തിന്റെ സമയം, തീയതി മാറ്റുക"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "സമയം അല്ലെങ്കില്‍ തീയതി സജ്ജീകരണങ്ങള്‍ മാറ്റുന്നതിനായി, ആധികാരികത ഉറപ്പാക്കുക."
 
@@ -1592,7 +1592,7 @@ msgid "Launch help browser"
 msgstr "സഹായകബ്രൌസര്‍ തുറക്കുക"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/alt/cc-window.c:1590 ../shell/cc-window.c:251
-#: ../shell/cc-window.c:794 ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/window.ui.h:1
+#: ../shell/cc-window.c:794 ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/window.ui.h:1
 msgid "Settings"
 msgstr "സജ്ജീകരണങ്ങള്‍"
 
@@ -2464,16 +2464,16 @@ msgid "My Home Network"
 msgstr "എന്റെ ഹോം ശൃംഖല"
 
 #. Translators: Add soft hyphens to your translations so that the icon view won't clip your translations. See https://bugzilla.gnome.org/show_bug.cgi?id=647087#c13 for details
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Net­work"
 msgstr "ശൃംഖല"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:3
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:3
 msgid "Control how you connect to the Internet"
 msgstr "ഇന്റെര്‍നെറ്റില്‍ ബന്ധിപ്പിക്കുന്നതെങ്ങനെയെന്ന് തീരുമാനിക്കുന്നു"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:5
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:5
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 
@@ -5072,11 +5072,11 @@ msgstr "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;ph
 msgid "Networks"
 msgstr "ശൃംഖല"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "വിദൂര പ്രവേശിക്കല്‍ പ്രവര്‍ത്തനസജ്ജം/രഹിതം ആക്കുക"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "വിദൂര പ്രവേശനം പ്രവര്‍ത്തനസജ്ജമാക്കാന്‍/രഹിതമാക്കാന്‍ ആധികാരികത ഉറപ്പ് വരുത്തേണ്ടതുണ്ട്"
 
@@ -6147,11 +6147,11 @@ msgstr "അവസാന പ്രവേശനം"
 msgid "Remove User…"
 msgstr "ഉപയോക്താവിനെ കളയുക…"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "ഉപയോക്തൃ അക്കൗണ്ടുകള്‍ കൈകാര്യം ചെയ്യുക"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ഉപയോക്താവിനുള്ള ഡേറ്റാ മാറ്റുന്നതിനായി ആധികാരികത ഉറപ്പ് വരുത്തല്‍ ആവശ്യമുണ്ട്"
 
@@ -6895,7 +6895,7 @@ msgstr "ട്രാക്കിങ് മോഡ്"
 msgid "Left-Handed Orientation"
 msgstr "ഇടതു് വശത്തുള്ള സംവേദനം"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "പുതിയ കുറുക്കുവഴി..."
 
@@ -6971,17 +6971,17 @@ msgctxt "category"
 msgid "System"
 msgstr "സിസ്റ്റം"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:1
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:1
 #, fuzzy
 #| msgid "Control Center"
 msgid "GNOME Control Center"
 msgstr "നിയന്ത്രണകേന്ദ്രം"
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:2
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:2
 msgid "Utilities to configure the GNOME desktop"
 msgstr ""
 
-#: ../shell/appdata/gnome-control-center.appdata.xml.in.h:3
+#: ../shell/appdata/scarecrow-control-center.appdata.xml.in.h:3
 msgid "The control center is GNOME’s main interface for configuration of various aspects of your desktop."
 msgstr ""
 
@@ -7027,7 +7027,7 @@ msgstr "സഹായം"
 msgid "Quit"
 msgstr "പുറത്തു് കടക്കുക"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;"
 
@@ -9594,12 +9594,12 @@ msgstr "ഫലങ്ങള്‍ ഒന്നും ലഭിച്ചില്�
 #~ msgstr "രംഗവിതാനത്തിന്റെ യന്ത്രത്തെ ഇന്‍സ്റ്റോള്‍ ചെയ്യാന്‍ കഴിഞ്ഞില്ല"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a "
 #~ "problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with "
 #~ "the GNOME settings manager."
 #~ msgstr ""
-#~ "'gnome-settings-daemon' ക്രമീകരണ മാനേജര്‍ തുടങ്ങാന്‍ കഴിഞ്ഞില്ല.\n"
+#~ "'scarecrow-settings-daemon' ക്രമീകരണ മാനേജര്‍ തുടങ്ങാന്‍ കഴിഞ്ഞില്ല.\n"
 #~ "ഗ്നോം ക്രമീകരണ മാനേജര്‍ പ്രവര്‍ത്തിക്കാതെ ചില മുന്‍ഗണനകള്‍ പ്രാവര്‍ത്തികമാക്കാനാവില്ല. ഇത്  DBus അല്ലെങ്കില്‍ ഗ്നോമല്ലാത്ത (ഉദാഃ "
 #~ "കെഡിഇ)  ക്രമീകരണ മാനേജറോ ഇപ്പോള്‍ സജീവമാണെന്നോ ഗ്നോം ക്രമീകരണ മാനേജറുമായി ഇടഞ്ഞുനില്‍ക്കുകയാണെന്നോ കാണിക്കുന്നു."
 

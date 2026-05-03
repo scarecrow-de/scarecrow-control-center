@@ -29,7 +29,7 @@
 #include <colord-session/cd-session.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-rr.h>
+#include <libscarecrow-desktop/scarecrow-rr.h>
 
 #include "cc-color-calibrate.h"
 
@@ -207,7 +207,7 @@ out:
 /**
  * cc_color_calibrate_calib_set_output_gamma:
  *
- * Handle this here rather than in gnome-settings-daemon for two reasons:
+ * Handle this here rather than in scarecrow-settings-daemon for two reasons:
  *
  *  - We don't want to create a profile each time the video card gamma
  *    table is created, as that would mean ~15 DBus requests each time
@@ -1034,7 +1034,7 @@ cc_color_calibrate_init (CcColorCalibrate *calibrate)
   /* load UI */
   calibrate->builder = gtk_builder_new ();
   retval = gtk_builder_add_from_resource (calibrate->builder,
-                                          "/org/gnome/control-center/color/cc-color-calibrate.ui",
+                                          "/io/github/scarecrow_de/control-center/color/cc-color-calibrate.ui",
                                           &error);
   if (retval == 0)
     g_warning ("Could not load interface: %s", error->message);

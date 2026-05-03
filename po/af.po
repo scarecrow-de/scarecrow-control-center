@@ -1,14 +1,14 @@
-# Afrikaans translation of gnome-control-center.
+# Afrikaans translation of scarecrow-control-center.
 # Copyright (C) 2004 Zuza Software Foundation
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Zuza Software Foundation <info@translate.org.za>, 2004
 # F Wolff <friedel@translate.org.za>, 2009, 2011, 2013, 2014, 2016.
 # Pieter Schoeman <pieter@sonbesie.co.za>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center 2.6-branch\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center 2.6-branch\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2019-01-10 14:17+0000\n"
 "PO-Revision-Date: 2018-02-06 17:56+0200\n"
@@ -1100,11 +1100,11 @@ msgstr ""
 msgid "Clock;Timezone;Location;"
 msgstr "horlosie;tydsone;ligging;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Verander instellings vir datum en tyd"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Om datum of tyd verstellings te maak moet jy eers aanteken."
 
@@ -1682,7 +1682,7 @@ msgid "Launch help browser"
 msgstr "Laat loop hulpblaaier"
 
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:222
-#: shell/cc-window.c:760 shell/gnome-control-center.desktop.in.in:3
+#: shell/cc-window.c:760 shell/scarecrow-control-center.desktop.in.in:3
 #: shell/window.ui:125
 msgid "Settings"
 msgstr "Instellings"
@@ -2661,22 +2661,22 @@ msgstr "_BSSID"
 msgid "My Home Network"
 msgstr "Huisnetwerk"
 
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Netwerk"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Bepaal hoe om te koppel aan die internet"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: panels/network/gnome-network-panel.desktop.in.in:7
+#: panels/network/scarecrow-network-panel.desktop.in.in:7
 msgid "network-workgroup"
 msgstr ""
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"
@@ -5509,11 +5509,11 @@ msgstr ""
 msgid "Networks"
 msgstr "Netwerke"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Aktiveer of deaktiveer afgeleë aanmelding"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Verifikasie is nodig om afgeleë aanmelding aan of af te skakel"
 
@@ -6153,7 +6153,7 @@ msgstr "Lank"
 
 #: panels/universal-access/uap.ui:2793
 msgid "Motion _threshold:"
-msgstr "_Bewegingsdrempel:"
+msgstr "_Beweginscsdrempel:"
 
 #: panels/universal-access/uap.ui:2815
 msgctxt "dwell click threshold"
@@ -6594,11 +6594,11 @@ msgstr "Geen drukkers gevind nie"
 msgid "Unlock to add a user account."
 msgstr "Skep 'n gebruikerrekening"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Bestuur gebruikerrekeninge"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Verifikasie is nodig om gebruikersdata te verander"
 
@@ -7336,7 +7336,7 @@ msgstr "Opspoormodus"
 msgid "Left-Handed Orientation"
 msgstr "Linkshandige oriëntasie"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nuwe kortpad…"
 
@@ -7398,15 +7398,15 @@ msgstr "Punt druk gevoel"
 msgid "page 3"
 msgstr "bladsy 3"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Control Center"
 msgstr "GNOME-beheersentrum"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utilities to configure the GNOME desktop"
 msgstr "Nutsgoed om die GNOME-werkarea op te stel"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid ""
 "The control center is GNOME’s main interface for configuration of various "
 "aspects of your desktop."
@@ -7455,12 +7455,12 @@ msgid "Quit"
 msgstr "Sluit af"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: shell/gnome-control-center.desktop.in.in:5
-msgid "gnome-control-center"
+#: shell/scarecrow-control-center.desktop.in.in:5
+msgid "scarecrow-control-center"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "voorkeure;instelling;opstelling;"
 
@@ -7500,11 +7500,11 @@ msgctxt "hotspot"
 msgid "Hotspot"
 msgstr "Kuberkol"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr ""
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -9863,13 +9863,13 @@ msgstr "Stelselklanke"
 #~ msgstr "Kon nie tema-enjin installeer nie"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "Kan nie die instellingsbestuurder van 'gnome-settings-daemon' laai nie.\n"
+#~ "Kan nie die instellingsbestuurder van 'scarecrow-settings-daemon' laai nie.\n"
 #~ "Sonder die GNOME-instellingsbestuurder wat loop, sal sommige voorkeure "
 #~ "nie in werking tree nie. Dit kan dui op 'n probleem met Bonobo, of 'n nie-"
 #~ "GNOME (bv. KDE) instellingsbestuurder mag reeds aktief wees en in konflik "
@@ -10189,8 +10189,8 @@ msgstr "Stelselklanke"
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "Kon nie die gekose opstelling toepas nie"
 
-#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-#~ msgstr "Kon nie org.gnome.SettingsDaemon.XRANDR kry nie"
+#~ msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
+#~ msgstr "Kon nie io.github.scarecrow_de.SettingsDaemon.XRANDR kry nie"
 
 #~ msgid "Desktop"
 #~ msgstr "Werkarea"

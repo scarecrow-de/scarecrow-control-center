@@ -31,7 +31,7 @@ G_BEGIN_DECLS
  * CcDisplayConfig:
  *
  *   Configuration instance, read from mutter using the
- *   org.gnome.Mutter.DisplayConfig D-Bus API. Contains information about the
+ *   io.github.scarecrow_de.Mutter.DisplayConfig D-Bus API. Contains information about the
  *   current configuration. Can be copied, to create a representation of a
  *   configuration at a given time, and applied, applying any changes that has
  *   been made to the objects associated with the configuration.

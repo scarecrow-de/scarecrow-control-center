@@ -1,4 +1,4 @@
-# translation of gnome-control-center.po to Georgian
+# translation of scarecrow-control-center.po to Georgian
 # Georgian translation for Gnome Control Centre.
 #
 # Alexander Didebulidze <didebuli@in.tum.de>, 2005, 2006.
@@ -9,7 +9,7 @@
 # Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-26 22:56+0200\n"
 "PO-Revision-Date: 2008-09-26 23:35+0200\n"
@@ -1180,13 +1180,13 @@ msgstr "შეუძლებელია ძირითადი ინტე�
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"ვერ ვუშვებ პარამეტრების მმართველს 'gnome-settings-daemon'.\n"
+"ვერ ვუშვებ პარამეტრების მმართველს 'scarecrow-settings-daemon'.\n"
 "გნომის პარამეტრების მმართველის გაშვების გარეშე ზოგმა პარამეტრმა შეიძლება "
 "ეფექტი არ იქონიოს. ეს შეიძლება ნიშნავდეს პრობლემებს ბონობოსთან (Bonobo), ან "
 "უკვე გაშვებულია არა გნომის (მაგალითად KDE) პარამეტრების მმართველი და ის "
@@ -2547,87 +2547,87 @@ msgstr "თაგვი"
 msgid "Set your mouse preferences"
 msgstr "თაგვის პარამეტრების დაყენება"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "ქსელის პროქსი"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "თვენი ქსელის პროქსის პარამეტრების დაყენება"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>ინტერნეტში პირდაპირი შ_ეერთება</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>ჰოსტების ნუსხის იგნორირება</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>პროქრის _ავტომატური კონფიგურირება</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>პროქსის _ხელით კონფიგურირება</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Use authentication</b>"
 msgstr "<b>აუთენტიფიკაცის _გამოყენება</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "Autoconfiguration _URL:"
 msgstr "ავტოკონფიგურაციის _მისამართი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "HTTP Proxy Details"
 msgstr "HTTP პროქსის დეტალები"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "H_TTP proxy:"
 msgstr "H_TTP პროქსი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "Ignored Hosts"
 msgstr "იგნორირებული ჰოსტები"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "Network Proxy Preferences"
 msgstr "ქსელის პროქსის პარამეტრები"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Port:"
 msgstr "პორტი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Proxy Configuration"
 msgstr "პროქსის კონფიგურაცია"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "S_ocks host:"
 msgstr "Socks _ჰოსტი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "U_sername:"
 msgstr "_სახელი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "_Details"
 msgstr "_ცნობები"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_FTP proxy:"
 msgstr "_FTP პროქსი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_Password:"
 msgstr "_პაროლი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Secure HTTP proxy:"
 msgstr "უსაფრთხო _HTTP პროქსი:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Use the same proxy for all protocols"
 msgstr "ყველა პროტოკოლისთვის იგივე პროქსის _გამოყენება"
 

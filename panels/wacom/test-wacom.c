@@ -14,7 +14,7 @@ cc_wacom_panel_switch_to_panel (CcWacomPanel *self, const char *panel)
 }
 
 GDBusProxy *
-cc_wacom_panel_get_gsd_wacom_bus_proxy (CcWacomPanel *self)
+cc_wacom_panel_get_scsd_wacom_bus_proxy (CcWacomPanel *self)
 {
 	g_message ("Should get the g-s-d wacom dbus proxy here");
 

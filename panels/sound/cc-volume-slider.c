@@ -163,7 +163,7 @@ cc_volume_slider_class_init (CcVolumeSliderClass *klass)
 
   object_class->dispose = cc_volume_slider_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/sound/cc-volume-slider.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-volume-slider.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcVolumeSlider, mute_button);
   gtk_widget_class_bind_template_child (widget_class, CcVolumeSlider, stream_type_icon);

@@ -1050,11 +1050,11 @@ msgstr "दिनांक आणि वेळ बदलवा, वेळक्�
 msgid "Clock;Timezone;Location;"
 msgstr "क्लॉक;टाइमझोन;ठिकाण;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "प्रणालीची वेळ व दिनांक सेटिंग्स् बदला"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "वेळ किंवा दिनांक सेटिंग्स् बदलण्यासाठी, ओळख पटवणे आवश्यक आहे."
 
@@ -1495,7 +1495,7 @@ msgid "Launch help browser"
 msgstr "मदत ब्राऊजर सुरू करा"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "सेटिंग्ज"
 
@@ -2573,17 +2573,17 @@ msgstr "माझे होम नेटवर्क"
 msgid "Make available to _other users"
 msgstr "इतर वापरकर्त्यांकरिता उपलब्ध करा (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "नेटवर्क"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "इंटरनेटशी कशी जोडणी करायची ते नियंत्रीत करा"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"
@@ -5117,11 +5117,11 @@ msgstr ""
 "िडीओ;"
 "प्रतिमा;छायाचित्र;चित्रपट;सर्व्हर;रेंडरर;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "दूरस्त प्रवेश सुरू किंवा बंद करा"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "दूरस्त प्रवेश सुरू किंवा बंद करण्यासाठी ओळख पटवणे आवश्यक"
 
@@ -6138,11 +6138,11 @@ msgstr "भाषा (_L)"
 msgid "Last Login"
 msgstr "मागील प्रवेश"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "वापरकर्ता खाते व्यवस्थापीत करा"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "वापरकर्ता डाटा बदलण्यासाठी ओळख पटवणे आवश्यक"
 
@@ -6879,91 +6879,91 @@ msgid "Left-Handed Orientation"
 msgstr "डाव्या-हाताचे निर्देशन"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1062
+#: ../panels/wacom/scsd-wacom-device.c:1062
 msgid "Left Ring"
 msgstr "डावे रिंग"
 
-#: ../panels/wacom/gsd-wacom-device.c:1073
+#: ../panels/wacom/scsd-wacom-device.c:1073
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "डावे रिंग मोड #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1093
+#: ../panels/wacom/scsd-wacom-device.c:1093
 msgid "Right Ring"
 msgstr "उजवे रिंग"
 
-#: ../panels/wacom/gsd-wacom-device.c:1104
+#: ../panels/wacom/scsd-wacom-device.c:1104
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "उजवे रिंग मोड #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1146
+#: ../panels/wacom/scsd-wacom-device.c:1146
 msgid "Left Touchstrip"
 msgstr "डावे टचस्ट्रिप"
 
-#: ../panels/wacom/gsd-wacom-device.c:1157
+#: ../panels/wacom/scsd-wacom-device.c:1157
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "डावे टचस्ट्रिप मोड #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1177
+#: ../panels/wacom/scsd-wacom-device.c:1177
 msgid "Right Touchstrip"
 msgstr "ऊजवे टचस्ट्रिप"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "ऊजवे टचस्ट्रिप मोड #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1214
+#: ../panels/wacom/scsd-wacom-device.c:1214
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "डावे टचरिंग मोड स्विच्"
 
-#: ../panels/wacom/gsd-wacom-device.c:1216
+#: ../panels/wacom/scsd-wacom-device.c:1216
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ऊजवे टचरिंग मोड स्विच्"
 
-#: ../panels/wacom/gsd-wacom-device.c:1219
+#: ../panels/wacom/scsd-wacom-device.c:1219
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "डावे टचस्ट्रिप मोड स्विच्"
 
-#: ../panels/wacom/gsd-wacom-device.c:1221
+#: ../panels/wacom/scsd-wacom-device.c:1221
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ऊजवे टचस्ट्रिप मोड स्विच्"
 
-#: ../panels/wacom/gsd-wacom-device.c:1226
+#: ../panels/wacom/scsd-wacom-device.c:1226
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "मोड स्विच् #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1334
+#: ../panels/wacom/scsd-wacom-device.c:1334
 #, c-format
 msgid "Left Button #%d"
 msgstr "डावे बटन #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1337
+#: ../panels/wacom/scsd-wacom-device.c:1337
 #, c-format
 msgid "Right Button #%d"
 msgstr "ऊजवे बटन #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1340
+#: ../panels/wacom/scsd-wacom-device.c:1340
 #, c-format
 msgid "Top Button #%d"
 msgstr "शीर्ष बटन #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1343
+#: ../panels/wacom/scsd-wacom-device.c:1343
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "तळ बटन #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "नवीन शार्टकट…"
 
@@ -7109,7 +7109,7 @@ msgctxt "category"
 msgid "System"
 msgstr "प्रणाली"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "पसंती;सेटिंग्स्;"
 
@@ -8740,13 +8740,13 @@ msgstr "पसंती;सेटिंग्स्;"
 #~ msgstr "सुत्रयोजना इंजीन प्रतिष्ठापीत करू शकत नाही"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "सत्र व्यवस्थापक 'gnome-settings-daemon' सुरू करण्यास अशक्य.\n"
+#~ "सत्र व्यवस्थापक 'scarecrow-settings-daemon' सुरू करण्यास अशक्य.\n"
 #~ "GNOME संयोजना व्यवस्थापक कार्यरत नसल्यास, काहिक पसंतीचा प्रभाव लागू होऊ शकत नाही. "
 #~ "हे DBus सह अडचण असू शकते, किंवा विना-GNOME (उ.दा. KDE) संयोजना व्यवस्थापक "
 #~ "आधिपासूनच स्क्रीय असू शकतो व GNOME संयोजना व्यवस्थापकाशी मतभेद आढळू शकते."

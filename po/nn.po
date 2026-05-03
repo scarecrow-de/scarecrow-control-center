@@ -1,5 +1,5 @@
 # translation of nn.po to Norwegian Nynorsk
-# Norwegian (nynorsk) translation of gnome-control-center.
+# Norwegian (nynorsk) translation of scarecrow-control-center.
 # Copyright (C) 1999-2008 Free Software Foundation, Inc.
 # Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
 # Eskild Hustvedt <eskildh@gnome.org> 2008
@@ -1861,16 +1861,16 @@ msgstr ""
 msgid "Airplane Mode"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 msgid "Network"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr ""
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;Proxy;"
 msgstr ""
 
@@ -4789,67 +4789,67 @@ msgstr ""
 msgid "Map buttons to functions"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:909
+#: ../panels/wacom/scsd-wacom-device.c:909
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:916
+#: ../panels/wacom/scsd-wacom-device.c:916
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:944
+#: ../panels/wacom/scsd-wacom-device.c:944
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:951
+#: ../panels/wacom/scsd-wacom-device.c:951
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:966
+#: ../panels/wacom/scsd-wacom-device.c:966
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:968
+#: ../panels/wacom/scsd-wacom-device.c:968
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:971
+#: ../panels/wacom/scsd-wacom-device.c:971
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:973
+#: ../panels/wacom/scsd-wacom-device.c:973
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:978
+#: ../panels/wacom/scsd-wacom-device.c:978
 #, c-format
 msgid "Mode Switch #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1050
+#: ../panels/wacom/scsd-wacom-device.c:1050
 #, c-format
 msgid "Left Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1053
+#: ../panels/wacom/scsd-wacom-device.c:1053
 #, c-format
 msgid "Right Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1056
+#: ../panels/wacom/scsd-wacom-device.c:1056
 #, c-format
 msgid "Top Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1059
+#: ../panels/wacom/scsd-wacom-device.c:1059
 #, c-format
 msgid "Bottom Button #%d"
 msgstr ""
@@ -4937,11 +4937,11 @@ msgstr ""
 msgid "Control Center"
 msgstr "Kontrollsenter"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "Systeminnstillingar"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr ""
 

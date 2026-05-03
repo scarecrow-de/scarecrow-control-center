@@ -1,13 +1,13 @@
-# Gaelic; Scottish translation for gnome-control-center
+# Gaelic; Scottish translation for scarecrow-control-center
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 # Michael Bauer <fios@akerbeltz.org>, 2014.
 # GunChleoc <fios@foramnagaidhlig.net>, 2016, 2017, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2018-05-25 11:45+0000\n"
 "PO-Revision-Date: 2018-02-26 12:42+0100\n"
@@ -1075,11 +1075,11 @@ msgstr "preferences-system-time"
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;gleoc;cleoc;roinn-tìde;ionad;àite;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Atharraich roghainnean àm ’s ceann-là an t-siostaim"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Feumaidh tu dearbhadh a dhèanamh gus roghainnean an ama no a’ chinn-là atharrachadh."
 
@@ -1643,7 +1643,7 @@ msgid "Launch help browser"
 msgstr "Cuir gu dol brabhsair na cobharach"
 
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:222
-#: shell/cc-window.c:760 shell/gnome-control-center.desktop.in.in:3
+#: shell/cc-window.c:760 shell/scarecrow-control-center.desktop.in.in:3
 #: shell/window.ui:125
 msgid "Settings"
 msgstr "Roghainnean"
@@ -2605,22 +2605,22 @@ msgstr "_BSSID"
 msgid "My Home Network"
 msgstr "An lìonra-dhachaidh agam"
 
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Lìonra"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Stiùirich an dòigh a cheanglas tu ris an eadar-lìon"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: panels/network/gnome-network-panel.desktop.in.in:7
+#: panels/network/scarecrow-network-panel.desktop.in.in:7
 msgid "network-workgroup"
 msgstr "network-workgroup"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"
@@ -5379,11 +5379,11 @@ msgstr "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;ph
 msgid "Networks"
 msgstr "Lìonraidhean"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Cuir an comas no à comas clàradh a-steach cèin"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Tha feum air dearbhadh mus gabh clàradh cèin a chur an comas no à comas"
 
@@ -6445,11 +6445,11 @@ msgstr "Cha deach cleachdaiche a lorg"
 msgid "Unlock to add a user account."
 msgstr "Thoir a’ ghlas dheth gus cunntas cleachdaiche a chur ris."
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Stiùirich cunntasan nan cleachdaichean"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Feumaidh tu dearbhadh a dhèanamh mus urrainn dhut dàta a’ chleachdaiche atharrachadh"
 
@@ -7146,7 +7146,7 @@ msgstr "Am modh tracaidh"
 msgid "Left-Handed Orientation"
 msgstr "An comhair na làimhe chlì"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Ath-ghoirid ùr…"
 
@@ -7207,15 +7207,15 @@ msgstr "Faireachdainn brùthadh a’ chinn"
 msgid "page 3"
 msgstr "duilleag 3"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Control Center"
 msgstr "Ionad-stiùiridh GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utilities to configure the GNOME desktop"
 msgstr "Goireasan gus an deasg GNOME a rèiteachadh"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid ""
 "The control center is GNOME’s main interface for configuration of various "
 "aspects of your desktop."
@@ -7262,12 +7262,12 @@ msgid "Quit"
 msgstr "Fàg an-seo"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: shell/gnome-control-center.desktop.in.in:5
-msgid "gnome-control-center"
-msgstr "gnome-control-center"
+#: shell/scarecrow-control-center.desktop.in.in:5
+msgid "scarecrow-control-center"
+msgstr "scarecrow-control-center"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Roghainnean;"
 
@@ -7307,11 +7307,11 @@ msgctxt "hotspot"
 msgid "Hotspot"
 msgstr "Hotspot"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Aithnichear a’ phanail roghainnean mu dheireadh a thèid fhosgladh"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."

@@ -1,7 +1,7 @@
-# translation of gnome-control-center.master.ta.po to Tamil
-# Tamil translation of gnome-control-center
+# translation of scarecrow-control-center.master.ta.po to Tamil
+# Tamil translation of scarecrow-control-center
 # Copyright (C) 2002
-# This file is distributed under the same license as the gnome-control-center.
+# This file is distributed under the same license as the scarecrow-control-center.
 #
 # Dinesh Nadarajah <dinesh_list@sbcglobal.net>, 2002, 2004.
 # Ma SivaKumar <tamil@leatherlink.net>, 2004.
@@ -13,7 +13,7 @@
 # Shantha kumar <shkumar@redhat.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.ta\n"
+"Project-Id-Version: scarecrow-control-center.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-15 06:30+0000\n"
@@ -1096,11 +1096,11 @@ msgstr "நேர மண்டலம் உட்பட தேதி மற்�
 msgid "Clock;Timezone;Location;"
 msgstr "கடிகாரம்;நேரமண்டலம்;இடம்;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "கணினி நேரம் மற்றும் தேதி அமைவை மாற்றி அமைக்க"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "கணினி நேரம் மற்றும் தேதி அமைப்புகளை மாற்ற நீங்கள் உறுதிப்படுத்த வேண்டும்."
@@ -1547,7 +1547,7 @@ msgid "Launch help browser"
 msgstr "உதவி மேலோடியை துவக்கு"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 msgid "Settings"
 msgstr "அமைவுகள்"
 
@@ -2639,17 +2639,17 @@ msgstr "என் இல்ல பிணையம்"
 msgid "Make available to _other users"
 msgstr "மற்ற பயனர்களுக்கு கிடைக்கும்படி அமை (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "பிணையம்"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Control how you connect to the Internet"
 msgstr "நீங்கள் எப்படி இணையத்துடன் இணைகிறீர்கள் என்பதைக் கட்டுப்படுத்துங்கள்"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 #| "vpn;vlan;bridge;bond;"
@@ -5233,11 +5233,11 @@ msgstr ""
 "ோ;வீடியோ;"
 "படங்கள்;புகைப்படங்கள்;மூவிகள்;சேவையகம்;ரென்டெரர்;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "தொலைநிலை புகுபதிவை செயல்படுத்து அல்லது முடக்கு"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "தொலைநிலை புகுபதிவை செயல்படுத்த அல்லது முடக்க அங்கீகாரம் தேவைப்படுகிறது"
 
@@ -6277,11 +6277,11 @@ msgstr "(_L) மொழி"
 msgid "Last Login"
 msgstr "கடந்த புகுபதிவு"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "பயனர் கணக்குகளை மேலாள்"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "பயனர் தரவை மாற்ற அனுமதி தேவை"
 
@@ -7046,91 +7046,91 @@ msgid "Left-Handed Orientation"
 msgstr "இடது கைவாகு திசைவி"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1062
+#: ../panels/wacom/scsd-wacom-device.c:1062
 msgid "Left Ring"
 msgstr "இடது வளையம்"
 
-#: ../panels/wacom/gsd-wacom-device.c:1073
+#: ../panels/wacom/scsd-wacom-device.c:1073
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "இடது வட்ட பாங்கு #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1093
+#: ../panels/wacom/scsd-wacom-device.c:1093
 msgid "Right Ring"
 msgstr "வலது வளையம்"
 
-#: ../panels/wacom/gsd-wacom-device.c:1104
+#: ../panels/wacom/scsd-wacom-device.c:1104
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "வலது வட்ட பாங்கு #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1146
+#: ../panels/wacom/scsd-wacom-device.c:1146
 msgid "Left Touchstrip"
 msgstr "இடது தொடுபட்டை"
 
-#: ../panels/wacom/gsd-wacom-device.c:1157
+#: ../panels/wacom/scsd-wacom-device.c:1157
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "இடது தொடுபட்டை பாங்கு #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1177
+#: ../panels/wacom/scsd-wacom-device.c:1177
 msgid "Right Touchstrip"
 msgstr "வலது தொடுபட்டை"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "வலது தொடு பட்டை பாங்கு #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1214
+#: ../panels/wacom/scsd-wacom-device.c:1214
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "இடது தொடு வட்ட பாங்கு மாற்றி "
 
-#: ../panels/wacom/gsd-wacom-device.c:1216
+#: ../panels/wacom/scsd-wacom-device.c:1216
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "வலது தொடு வட்ட பாங்கு மாற்றி "
 
-#: ../panels/wacom/gsd-wacom-device.c:1219
+#: ../panels/wacom/scsd-wacom-device.c:1219
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "இடது தொடு பட்டை பாங்கு மாற்றி "
 
-#: ../panels/wacom/gsd-wacom-device.c:1221
+#: ../panels/wacom/scsd-wacom-device.c:1221
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "வலது தொடு பட்டை பாங்கு மாற்றி "
 
-#: ../panels/wacom/gsd-wacom-device.c:1226
+#: ../panels/wacom/scsd-wacom-device.c:1226
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "பாங்கு மாற்றி #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1334
+#: ../panels/wacom/scsd-wacom-device.c:1334
 #, c-format
 msgid "Left Button #%d"
 msgstr "இடது பொத்தான் #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1337
+#: ../panels/wacom/scsd-wacom-device.c:1337
 #, c-format
 msgid "Right Button #%d"
 msgstr "வலது பொத்தான் #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1340
+#: ../panels/wacom/scsd-wacom-device.c:1340
 #, c-format
 msgid "Top Button #%d"
 msgstr "மேல் பொத்தான் #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1343
+#: ../panels/wacom/scsd-wacom-device.c:1343
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "கீழ் பொத்தான் #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "புதிய குறுவழி…"
 
@@ -7276,7 +7276,7 @@ msgctxt "category"
 msgid "System"
 msgstr "கணினி"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "விருப்பங்கள்;அமைப்புகள்;"
 
@@ -9444,7 +9444,7 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ "\n"
 #~ "This program installs a RANDR profile for multi-monitor setups into\n"
 #~ "a systemwide location.  The resulting profile will get used when\n"
-#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "the RANDR plug-in gets run in scarecrow-settings-daemon.\n"
 #~ "\n"
 #~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
 #~ "xml\n"
@@ -10399,13 +10399,13 @@ msgstr "விருப்பங்கள்;அமைப்புகள்;"
 #~ msgstr "கருப்பொருள்  இயந்திரத்தை நிறுவ முடியவில்லை"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "'gnome-settings-daemon' அமைப்பு மேலாளரை துவங்க முடியவில்லை.\n"
+#~ "'scarecrow-settings-daemon' அமைப்பு மேலாளரை துவங்க முடியவில்லை.\n"
 #~ "க்னோம் அமைப்பு மேலாளர் இல்லாமல் சில விருப்பங்களை நிறைவு செய்ய முடியாது. இதனால் "
 #~ "போனபோவில் பிழை நேரலாம் அல்லது க்னோம் அல்லாத பயன்பாடு (உதாரணம் கேடியி) அமைப்பு "
 #~ "மேலாளர் ஏற்கெனவெ செயல்பாட்டில் இருக்கலாம் அல்லது க்னோமோடு சிக்கல் நிகழ்ந்திருக்கலாம்"

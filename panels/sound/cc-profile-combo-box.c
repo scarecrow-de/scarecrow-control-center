@@ -70,7 +70,7 @@ cc_profile_combo_box_class_init (CcProfileComboBoxClass *klass)
 
   object_class->dispose = cc_profile_combo_box_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/sound/cc-profile-combo-box.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-profile-combo-box.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcProfileComboBox, profile_model);
 

@@ -414,7 +414,7 @@ cc_microphone_panel_class_init (CcMicrophonePanelClass *klass)
   object_class->finalize = cc_microphone_panel_finalize;
   object_class->constructed = cc_microphone_panel_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/microphone/cc-microphone-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/microphone/cc-microphone-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcMicrophonePanel, stack);
   gtk_widget_class_bind_template_child (widget_class, CcMicrophonePanel, microphone_apps_list_box);
@@ -432,7 +432,7 @@ cc_microphone_panel_init (CcMicrophonePanel *self)
                                 NULL, NULL);
   self->microphone_icon_size_group = gtk_size_group_new (GTK_SIZE_GROUP_BOTH);
 
-  self->privacy_settings = g_settings_new ("org.gnome.desktop.privacy");
+  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
 
 
   self->microphone_app_switches = g_hash_table_new_full (g_str_hash,

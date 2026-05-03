@@ -21,7 +21,7 @@ wacom_gresource = gnome.compile_resources(
 subdir('calibrator')
 
 panels_list += cappletname
-desktop = 'gnome-@0@-panel.desktop'.format(cappletname)
+desktop = 'scarecrow-@0@-panel.desktop'.format(cappletname)
 
 desktop_in = configure_file(
           input : desktop + '.in.in',
@@ -47,7 +47,7 @@ common_sources = files(
   'cc-wacom-page.c',
   'cc-wacom-stylus-page.c',
   'cc-wacom-tool.c',
-  'gsd-wacom-key-shortcut-button.c'
+  'scsd-wacom-key-shortcut-button.c'
 )
 
 resource_data = files(

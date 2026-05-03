@@ -1,10 +1,10 @@
 {
-    "app-id" : "org.gnome.Settings",
-    "runtime" : "org.gnome.Sdk",
+    "app-id" : "io.github.scarecrow_de.Settings",
+    "runtime" : "io.github.scarecrow_de.Sdk",
     "runtime-version" : "master",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "gnome-control-center",
-    "rename-desktop-file" : "gnome-control-center.desktop",
+    "sdk" : "io.github.scarecrow_de.Sdk",
+    "command" : "scarecrow-control-center",
+    "rename-desktop-file" : "scarecrow-control-center.desktop",
     "tags" : [
         "devel"
     ],
@@ -13,8 +13,8 @@
         "--device=dri",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--filesystem=host",
-        "--own-name=org.gnome.ControlCenter",
-        "--own-name=org.gnome.SessionManager",
+        "--own-name=io.github.scarecrow_de.ControlCenter",
+        "--own-name=io.github.scarecrow_de.SessionManager",
         "--share=ipc",
         "--share=network",
         "--socket=x11",
@@ -264,12 +264,12 @@
             ]
         },
         {
-            "name" : "gnome-desktop",
+            "name" : "scarecrow-desktop",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-desktop.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-desktop.git"
                 }
             ]
         },
@@ -442,7 +442,7 @@
             ]
         },
         {
-            "name" : "gnome-settings-daemon",
+            "name" : "scarecrow-settings-daemon",
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dsystemd=false"
@@ -450,7 +450,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-settings-daemon.git"
                 }
             ],
             "modules": [
@@ -802,12 +802,12 @@
             ]
         },
         {
-            "name" : "gnome-control-center",
+            "name" : "scarecrow-control-center",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/gnome-control-center.git"
+                    "url" : "https://gitlab.gnome.org/GNOME/scarecrow-control-center.git"
                 }
             ],
             "config-opts" : [

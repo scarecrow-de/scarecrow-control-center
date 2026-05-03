@@ -1,5 +1,5 @@
-# translation of gnome-control-center.HEAD.lv.po to Latvian
-# gnome-control-center for Latvian.
+# translation of scarecrow-control-center.HEAD.lv.po to Latvian
+# scarecrow-control-center for Latvian.
 # Copyright (C) 2001, 2006, 2007, 2009 Free Software Foundation, Inc.
 #
 # Artis Trops <hornet@navigators.lv>, 2001.
@@ -10,8 +10,8 @@
 # Vika Leimane <vika.leimane@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD.lv\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issu"
+"Project-Id-Version: scarecrow-control-center.HEAD.lv\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/issu"
 "es\n"
 "POT-Creation-Date: 2020-09-05 08:20+0000\n"
 "PO-Revision-Date: 2020-09-06 22:19+0300\n"
@@ -51,7 +51,7 @@ msgid "Full access to /dev"
 msgstr "Pilna pieeja /dev resursiem"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Tīkls"
@@ -79,7 +79,7 @@ msgstr "Datņu sistēma"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Iestatījumi"
 
@@ -1503,11 +1503,11 @@ msgstr "Mainīt datumu un laiku, tai skaitā laika joslas"
 msgid "Clock;Timezone;Location;"
 msgstr "Pulkstenis;Laika josla;Lokācija;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Mainīt sistēmas laika un datuma iestatījumus"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Lai mainītu laika un datuma iestatījumus, jāveic autentifikācija."
 
@@ -3421,12 +3421,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Noteikt, kā savienoties ar internetu"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 #| msgid ""
 #| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
 #| "vpn;DNS;"
@@ -6048,11 +6048,11 @@ msgstr ""
 "koplietot;dalīties;ssh;dators;hosts;nosaukums;attālināti;darbvirsma;datu "
 "nesējs;audio;video;attēli;bildes fotogrāfijas;filmas;serveris;renderētājs;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Aktivēt vai deaktivēt attālināto ierakstīšanos"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Lai aktivētu vai deaktivētu attālināto ierakstīšanos, nepieciešama "
@@ -7771,11 +7771,11 @@ msgstr "Administratora _vārds"
 msgid "Administrator Password"
 msgstr "Administratora parole"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Pārvaldīt lietotāju kontus"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Lai mainītu lietotāju datus, nepieciešama autentifikācija"
 
@@ -8122,7 +8122,7 @@ msgstr "Pielāgot ekrāna izšķirtspēju"
 msgid "Decouple Display"
 msgstr "Atsaistīt displeju"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Jauna saīsne…"
 
@@ -8178,19 +8178,19 @@ msgstr "Pati apakšējā poga"
 msgid "Tip Pressure Feel"
 msgstr "Gala spiediena jušana"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "GNOME iestatījumi"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Utilītprogramma GNOME darbvirsmas konfigurēšanai"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "“Iestatījumi” ir galvenā sistēmas konfigurēšanas saskarne."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "GNOME projekts"
 
@@ -8253,7 +8253,7 @@ msgid "Help"
 msgstr "Palīdzība"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Iestatījumi;Uzstādījumi;Konfigurācija;Preferences;Settings;"
 
@@ -8287,11 +8287,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Atcelt meklēšanu"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Identifikators pēdējam iestatījumu panelim, ko atvērt"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8299,11 +8299,11 @@ msgstr ""
 "Identifikators pēdējam iestatījumu panelim, ko atvērt. Neatpazītās vērtības "
 "tiks ignorētas un tiks izvēlēts pirmais panelis izvēlētajā sarakstā."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Rādīt brīdinājumus, kad palaiž “Iestatījumu” izstrādes būvējumu"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""

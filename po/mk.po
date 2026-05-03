@@ -1,5 +1,5 @@
 # translation of mk.po to Macedonian
-# translation of gnome-control-center.HEAD.mk.po to
+# translation of scarecrow-control-center.HEAD.mk.po to
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-11-29 09:05+0000\n"
 "PO-Revision-Date: 2011-12-10 20:46+0100\n"
 "Last-Translator: Jovan N\n"
@@ -1830,18 +1830,18 @@ msgstr "Да го прекинам hotspot-от и да ги исклучам н
 msgid "_Stop Hotspot"
 msgstr "_Прекини го hotspot-от"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #| msgid "Network Proxy"
 msgid "Network"
 msgstr "Мрежа"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 #| msgid "Network Servers"
 msgid "Network settings"
 msgstr "Мрежни поставувања"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;Proxy;"
 msgstr "Мрежа;Безжичен;IP;LAN;Прокси;"
 
@@ -4648,8 +4648,8 @@ msgid "Soft"
 msgstr "Меко"
 
 #: ../panels/wacom/gnome-wacom-properties.ui.h:20
-#: ../panels/wacom/gsd-wacom-device.c:315
-#: ../panels/wacom/gsd-wacom-device.c:544
+#: ../panels/wacom/scsd-wacom-device.c:315
+#: ../panels/wacom/scsd-wacom-device.c:544
 #| msgid "_Style:"
 msgid "Stylus"
 msgstr "Стило"
@@ -4720,7 +4720,7 @@ msgstr ""
 msgid "Control Center"
 msgstr "Контролен центар"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 #: ../shell/shell.ui.h:2
 msgid "System Settings"
 msgstr "Системски поставувања"
@@ -5200,7 +5200,7 @@ msgstr "Сите поставувања"
 #~ msgid "Could not install theme engine"
 #~ msgstr "Не можам да го инсталирам новиот енџин за темата"
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "

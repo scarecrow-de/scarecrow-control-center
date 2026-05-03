@@ -28,7 +28,7 @@
 
 #include "cc-keyboard-item.h"
 
-#define CUSTOM_KEYS_SCHEMA "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding"
+#define CUSTOM_KEYS_SCHEMA "io.github.scarecrow_de.settings-daemon.plugins.media-keys.custom-keybinding"
 
 struct _CcKeyboardItem
 {

@@ -1,12 +1,12 @@
-# English/Canada translation of gnome-control-center.
+# English/Canada translation of scarecrow-control-center.
 # Copyright (C) 2004-2006 Adam Weinberger and the GNOME Foundation
-# This file is distributed under the same licence as the gnome-control-center package.
+# This file is distributed under the same licence as the scarecrow-control-center package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: scarecrow-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-01-31 20:41-0500\n"
 "PO-Revision-Date: 2005-08-06 19:59-0400\n"
@@ -700,7 +700,7 @@ msgstr "_Style:"
 
 #: ../capplets/background/gnome-wp-capplet.c:74
 #: ../capplets/common/capplet-util.c:340
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:333
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:333
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "There was an error displaying help: %s"
@@ -763,13 +763,13 @@ msgstr[1] "pixels"
 
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
@@ -1952,87 +1952,87 @@ msgstr "Mouse"
 msgid "Set your mouse preferences"
 msgstr "Set your mouse preferences"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Network Proxy"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Set your network proxy preferences"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>Di_rect internet connection</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Ignore Host List</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Automatic proxy configuration</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>_Manual proxy configuration</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Use authentication</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr "Advanced Configuration"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "Autoconfiguration _URL:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "HTTP Proxy Details"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "H_TTP proxy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr "Network Proxy Preferences"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr "Proxy Configuration"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "S_ocks host:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "U_sername:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Details"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "_FTP proxy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "_Password:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "_Secure HTTP proxy:"
 
@@ -2542,31 +2542,31 @@ msgstr "GNOME Control Centre"
 msgid "The GNOME configuration tool"
 msgstr "The GNOME configuration tool"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:149
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:149
 msgid "No '/dev/pmu' device found"
 msgstr "No '/dev/pmu' device found"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:156
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:156
 msgid "Not a powerbook"
 msgstr "Not a PowerBook"
 
-#: ../gnome-settings-daemon/actions/acme-fb-level.c:173
+#: ../scarecrow-settings-daemon/actions/acme-fb-level.c:173
 msgid "Wrong permission for '/dev/pmu' device"
 msgstr "Wrong permission for '/dev/pmu' device"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
+#: ../scarecrow-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
 msgstr "Volume"
 
-#: ../gnome-settings-daemon/factory.c:37
+#: ../scarecrow-settings-daemon/factory.c:37
 msgid "Could not initialize Bonobo"
 msgstr "Could not initialize Bonobo"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:406
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:406
 msgid "Slow Keys Alert"
 msgstr "Slow Keys Alert"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:407
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:407
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -2574,39 +2574,39 @@ msgstr ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:409
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:409
 msgid "Do you want to activate Slow Keys?"
 msgstr "Do you want to activate Slow Keys?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:410
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:410
 msgid "Do you want to deactivate Slow Keys?"
 msgstr "Do you want to deactivate Slow Keys?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Activate"
 msgstr "_Activate"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Deactivate"
 msgstr "_Deactivate"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't activate"
 msgstr "Do_n't activate"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't deactivate"
 msgstr "Do_n't deactivate"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:421
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:421
 msgid "Sticky Keys Alert"
 msgstr "Sticky Keys Alert"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:422
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:422
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -2614,7 +2614,7 @@ msgstr ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:424
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:424
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -2624,15 +2624,15 @@ msgstr ""
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:426
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:426
 msgid "Do you want to activate Sticky Keys?"
 msgstr "Do you want to activate Sticky Keys?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:427
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:427
 msgid "Do you want to deactivate Sticky Keys?"
 msgstr "Do you want to deactivate Sticky Keys?"
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:74
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:74
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2641,7 +2641,7 @@ msgstr ""
 "Cannot create the directory \"%s\".\n"
 "This is needed to allow changing the mouse pointer theme."
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:96
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:96
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2650,37 +2650,37 @@ msgstr ""
 "Cannot create the directory \"%s\".\n"
 "This is needed to allow changing cursors."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:208
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:208
 #, c-format
 msgid "Key Binding (%s) has its action defined multiple times\n"
 msgstr "Key Binding (%s) has its action defined multiple times\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:221
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:221
 #, c-format
 msgid "Key Binding (%s) has its binding defined multiple times\n"
 msgstr "Key Binding (%s) has its binding defined multiple times\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:227
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:227
 #, c-format
 msgid "Key Binding (%s) is incomplete\n"
 msgstr "Key Binding (%s) is incomplete\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:255
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:255
 #, c-format
 msgid "Key Binding (%s) is invalid\n"
 msgstr "Key Binding (%s) is invalid\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:291
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:291
 #, c-format
 msgid "It seems that another application already has access to key '%u'."
 msgstr "It seems that another application already has access to key '%u'."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:360
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:360
 #, c-format
 msgid "Key Binding (%s) is already in use\n"
 msgstr "Key Binding (%s) is already in use\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:435
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:435
 #, c-format
 msgid ""
 "Error while trying to run (%s)\n"
@@ -2689,7 +2689,7 @@ msgstr ""
 "Error while trying to run (%s)\n"
 "which is linked to the key (%s)"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:103
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:103
 #, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -2720,7 +2720,7 @@ msgstr ""
 "- The result of <b>%s</b>\n"
 "- The result of <b>%s</b>"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:117
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:117
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -2731,11 +2731,11 @@ msgstr ""
 "There are known problems with complex XKB configurations.\n"
 "Try using a simpler configuration or using a newer version of XFree software."
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:223
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:223
 msgid "Do _not show this warning again"
 msgstr "Do _not show this warning again"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:234
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:234
 msgid ""
 "The X system keyboard settings differ from your current GNOME keyboard "
 "settings.  Which set would you like to use?"
@@ -2743,15 +2743,15 @@ msgstr ""
 "The X system keyboard settings differ from your current GNOME keyboard "
 "settings.  Which set would you like to use?"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:247
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:247
 msgid "Use X settings"
 msgstr "Use X settings"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:249
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:249
 msgid "Use GNOME settings"
 msgstr "Use GNOME settings"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:129
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:129
 #, c-format
 msgid ""
 "Couldn't execute command: %s\n"
@@ -2760,7 +2760,7 @@ msgstr ""
 "Could not execute command: %s\n"
 "Verify that this command exists."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:145
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:145
 msgid ""
 "Couldn't put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
@@ -2768,7 +2768,7 @@ msgstr ""
 "Could not put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:180
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:180
 msgid ""
 "Couldn't load the Glade file.\n"
 "Make sure that this daemon is properly installed."
@@ -2776,7 +2776,7 @@ msgstr ""
 "Could not load the Glade file.\n"
 "Make sure that this daemon is properly installed."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:110
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:110
 #, c-format
 msgid ""
 "There was an error starting up the screensaver:\n"
@@ -2791,50 +2791,50 @@ msgstr ""
 "\n"
 "Screensaver functionality will not work in this session."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:120
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:120
 msgid "_Do not show this message again"
 msgstr "_Do not show this message again"
 
-#: ../gnome-settings-daemon/gnome-settings-sound.c:150
+#: ../scarecrow-settings-daemon/gnome-settings-sound.c:150
 #, c-format
 msgid "Couldn't load sound file %s as sample %s"
 msgstr "Could not load sound file %s as sample %s"
 
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:212
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:260
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:260
 msgid "Cannot determine user's home directory"
 msgstr "Cannot determine user's home directory"
 
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xsettings.c:212
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "GConf key %s set to type %s but its expected type was %s\n"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:1
 msgid "A_vailable files:"
 msgstr "A_vailable files:"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:2
 msgid "Do _not show this warning again."
 msgstr "Do _not show this warning again."
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:3
 msgid "Load modmap files"
 msgstr "Load modmap files"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:4
 msgid "Would you like to load the modmap file(s)?"
 msgstr "Would you like to load the modmap file(s)?"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:5
 msgid "_Load"
 msgstr "_Load"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:6
 msgid "_Loaded files:"
 msgstr "_Loaded files:"
 
-#: ../gnome-settings-daemon/reaper.c:103
+#: ../scarecrow-settings-daemon/reaper.c:103
 msgid "Error creating signal pipe."
 msgstr "Error creating signal pipe."
 

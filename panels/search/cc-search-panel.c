@@ -407,10 +407,10 @@ search_panel_add_one_app_info (CcSearchPanel *self,
   CcSearchPanelRow *row;
   g_autoptr(GIcon) icon = NULL;
 
-  /* gnome-control-center is special cased in the shell,
+  /* scarecrow-control-center is special cased in the shell,
      and is not configurable */
   if (g_strcmp0 (g_app_info_get_id (app_info),
-                 "gnome-control-center.desktop") == 0)
+                 "scarecrow-control-center.desktop") == 0)
     return;
 
   /* reset valignment of the list box */
@@ -668,7 +668,7 @@ cc_search_panel_init (CcSearchPanel *self)
 
   gtk_widget_set_sensitive (self->settings_button, cc_search_locations_dialog_is_available ());
 
-  self->search_settings = g_settings_new ("org.gnome.desktop.search-providers");
+  self->search_settings = g_settings_new ("io.github.scarecrow_de.desktop.search-providers");
   self->sort_order = g_hash_table_new_full (g_str_hash, g_str_equal,
                                                   g_free, NULL);
   g_signal_connect_swapped (self->search_settings, "changed::sort-order",
@@ -688,7 +688,7 @@ cc_search_panel_class_init (CcSearchPanelClass *klass)
   oclass->finalize = cc_search_panel_finalize;
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/control-center/search/cc-search-panel.ui");
+                                               "/io/github/scarecrow_de/control-center/search/cc-search-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSearchPanel, list_box);
   gtk_widget_class_bind_template_child (widget_class, CcSearchPanel, search_vbox);

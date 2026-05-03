@@ -77,7 +77,7 @@ enum
  *       the display settings. All of these should have contexts, but it
  *       was late in the release cycle and this partial solution was
  *       preferable. See:
- *       https://gitlab.gnome.org/GNOME/gnome-control-center/merge_requests/414#note_446778
+ *       https://gitlab.gnome.org/GNOME/scarecrow-control-center/merge_requests/414#note_446778
  */
 static const struct {
   const char *keyword;
@@ -939,7 +939,7 @@ pp_options_dialog_class_init (PpOptionsDialogClass *klass)
 
   object_class->dispose = pp_options_dialog_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/printers/pp-options-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/printers/pp-options-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, PpOptionsDialog, categories_selection);
   gtk_widget_class_bind_template_child (widget_class, PpOptionsDialog, categories_treeview);

@@ -30,7 +30,7 @@
 #include <cairo-gobject.h>
 #include <gio/gio.h>
 #include <grilo.h>
-#include <libgnome-desktop/gnome-desktop-thumbnail.h>
+#include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 #include <gdesktop-enums.h>
 
 #define ATTRIBUTES G_FILE_ATTRIBUTE_STANDARD_NAME "," \
@@ -663,7 +663,7 @@ char *
 bg_pictures_source_get_cache_path (void)
 {
   return g_build_filename (g_get_user_cache_dir (),
-			   "gnome-control-center",
+			   "scarecrow-control-center",
 			   "backgrounds",
 			   NULL);
 }

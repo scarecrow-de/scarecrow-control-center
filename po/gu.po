@@ -1,12 +1,12 @@
-# translation of gnome-control-center.master.gu.po to Gujarati
+# translation of scarecrow-control-center.master.gu.po to Gujarati
 # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
 # Ankit Patel <ankit@redhat.com>, 2006, 2007, 2009.
 # Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010, 2011, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.gu\n"
+"Project-Id-Version: scarecrow-control-center.master.gu\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-control-center&keywords=I18N+L10N&component=general\n"
+"cgi?product=scarecrow-control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-27 06:31+0000\n"
 "PO-Revision-Date: 2014-09-22 11:54+0530\n"
 "Last-Translator: \n"
@@ -1146,11 +1146,11 @@ msgstr "તારીખ અને સમયને બદલો, ટાઇમ ઝ
 msgid "Clock;Timezone;Location;"
 msgstr "ઘડિયાળ;ટાઇમઝોન;સ્થાન;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "સિસ્ટમ સમય અને તારીખ સુયોજનોને બદલો"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "સમય અથવા તારીખ સુયોજનોને બદલવા માટે, તમારે સત્તાધિકરણ કરવુ જરૂરી છે."
 
@@ -1613,7 +1613,7 @@ msgid "Launch help browser"
 msgstr "મદદ બ્રાઉઝર શરૂ કરો"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1601
-#: ../shell/gnome-control-center.desktop.in.in.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1
 #| msgid "_Settings..."
 msgid "Settings"
 msgstr "સુયોજનો"
@@ -2771,18 +2771,18 @@ msgstr "મારું ઘર નેટવર્ક"
 msgid "Make available to _other users"
 msgstr "બીજા વપરાશકર્તાઓને ઉપલબ્ધ બનાવો (_o)"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "નેટવર્ક"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 #| msgid "Not connected to the internet."
 msgid "Control how you connect to the Internet"
 msgstr "તમે કેવી રીતે ઇન્ટરનેટ સાથે જોડાવે તેને નિયંત્રિત કરો"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "vlan;bridge;bond;DNS;"
@@ -5427,12 +5427,12 @@ msgstr ""
 "વહેંચો;ભાગીદારી;ssh;યજમાન;નામ;દૂરસ્થ;ડેસ્કટોપ;બ્લુટુથ;ઑબેક્સ;મીડિયા;ઓડિયો;વિડિયો;"
 "ચિત્રો;ફોટા;ચિત્રપટ;સર્વર;રેન્ડરર;"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 #| msgid "Enable h_orizontal scrolling"
 msgid "Enable or disable remote login"
 msgstr "દૂરસ્થ પ્રવેશને સક્રિય અથવા નિષ્ક્રિય કરો"
 
-#: ../panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 #| msgid "Authentication is required to change user data"
 msgid "Authentication is required to enable or disable remote login"
 msgstr "દૂરસ્થ પ્રવેશને સક્રિય અથવા નિષ્ક્રિય કરવા માટે સત્તાધિકરણ જરૂરી છે"
@@ -6524,11 +6524,11 @@ msgstr "ભાષા (_L)"
 msgid "Last Login"
 msgstr "છેલ્લો પ્રવેશ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "વપરાશકર્તા ખાતાઓ સંચાલિત કરો"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "વપરાશકર્તા માહિતીને બદલવા માટે સત્તાધિકરણ જરૂરી છે"
 
@@ -7285,95 +7285,95 @@ msgid "Left-Handed Orientation"
 msgstr "ડાબી બાજુની દિશા"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1062
+#: ../panels/wacom/scsd-wacom-device.c:1062
 #| msgid "Left Ring Mode #%d"
 msgid "Left Ring"
 msgstr "ડાબી રીંગ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1073
+#: ../panels/wacom/scsd-wacom-device.c:1073
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "ડાબી રીંગ સ્થિતિ #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1093
+#: ../panels/wacom/scsd-wacom-device.c:1093
 #| msgid "Right Ring Mode #%d"
 msgid "Right Ring"
 msgstr "જમણી રીંગ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1104
+#: ../panels/wacom/scsd-wacom-device.c:1104
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "જમણી રીંગ સ્થિતિ #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1146
+#: ../panels/wacom/scsd-wacom-device.c:1146
 #| msgid "Left Touchstrip Mode #%d"
 msgid "Left Touchstrip"
 msgstr "ડાબુ ટચસ્ટ્રીપ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1157
+#: ../panels/wacom/scsd-wacom-device.c:1157
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "ડાબી ટચસ્ટ્રીપ સ્થિતિ #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1177
+#: ../panels/wacom/scsd-wacom-device.c:1177
 #| msgid "Right Touchstrip Mode #%d"
 msgid "Right Touchstrip"
 msgstr "જમણી ટચસ્ટ્રીપ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "જમણી ટચસ્ટ્રીપ સ્થિતિ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1214
+#: ../panels/wacom/scsd-wacom-device.c:1214
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ડાબુ ટચરીંગ મોડ સ્વીચ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1216
+#: ../panels/wacom/scsd-wacom-device.c:1216
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "જમણી ટચરીંગ મોડ સ્વીચ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1219
+#: ../panels/wacom/scsd-wacom-device.c:1219
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ડાબી ટચસ્ટ્રીપ મોડ સ્વીચ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1221
+#: ../panels/wacom/scsd-wacom-device.c:1221
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "જમણી ટચસ્ટ્રીપ મોડ સ્વીચ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1226
+#: ../panels/wacom/scsd-wacom-device.c:1226
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "મોડ સ્વીચ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1334
+#: ../panels/wacom/scsd-wacom-device.c:1334
 #, c-format
 msgid "Left Button #%d"
 msgstr "ડાબુ બટન #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1337
+#: ../panels/wacom/scsd-wacom-device.c:1337
 #, c-format
 msgid "Right Button #%d"
 msgstr "જમણુ બટન #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1340
+#: ../panels/wacom/scsd-wacom-device.c:1340
 #, c-format
 msgid "Top Button #%d"
 msgstr "ટોચનુ બટન #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1343
+#: ../panels/wacom/scsd-wacom-device.c:1343
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "નીચેનું બટન #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 #| msgid "New shortcut..."
 msgid "New shortcut…"
 msgstr "નવાં ટૂંકાણ..."
@@ -7525,7 +7525,7 @@ msgctxt "category"
 msgid "System"
 msgstr "સિસ્ટમ"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "પસંદગીઓ;સુયોજનો;"
 

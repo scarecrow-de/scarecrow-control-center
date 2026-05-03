@@ -1,10 +1,10 @@
-# Gnome-control-center v2.0 Bahasa Melayu (ms)
+# scarecrow-control-center v2.0 Bahasa Melayu (ms)
 # 1. Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
 # 2. Khairulanuar Abd Majid (khai) <khairul@ikhlas.com>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-01-16 12:38+0000\n"
 "PO-Revision-Date: 2020-01-26 09:16+0800\n"
@@ -44,7 +44,7 @@ msgid "Full access to /dev"
 msgstr "Capaian penuh ke /dev"
 
 #: panels/applications/cc-applications-panel.c:718
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:252
 msgid "Network"
 msgstr "Rangkaian"
@@ -73,7 +73,7 @@ msgstr "Sistem Fail"
 #: panels/applications/cc-applications-panel.c:734
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:281
 #: shell/cc-window.c:964 shell/cc-window.ui:125
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Tetapan"
 
@@ -1678,11 +1678,11 @@ msgstr "Ubah tarikh dan waktu, termasuklah zon waktu"
 msgid "Clock;Timezone;Location;"
 msgstr "Jam;Zon Waktu;Lokasi;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Ubah tetapan waktu dan tarikh sistem"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Untuk mengubah tetapan waktu dan tarikh, anda perlukan sahihkan."
 
@@ -3478,12 +3478,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Kawal bagaimana anda sambung ke Internet"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Rangkaian;IP;LAN;Proksi;WAN;Jalur Lebar;Modem;Bluetooth;vpn;DNS;"
 
@@ -6090,11 +6090,11 @@ msgstr ""
 "kongsi;perkongsian;ssh;hos;nama;jauh;desktop;media;audio;video;gambar;foto;"
 "cereka;pelayan;penerap;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Benar atau lumpuhkan daftar masuk jauh"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Pengesahihan diperlukan untuk benar atau lumpuhkan daftar masuk jauh"
 
@@ -7623,11 +7623,11 @@ msgstr "_Nama Pentadbir"
 msgid "Administrator Password"
 msgstr "Kata Laluan Pentadbir"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Urus akaun pengguna"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Pengesahihan diperlukan untuk mengubah data pengguna"
 
@@ -8057,7 +8057,7 @@ msgstr "Laras resolusi paparan"
 msgid "Decouple Display"
 msgstr "Nyahpasang Paparan"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Pintasan baharu…"
 
@@ -8114,19 +8114,19 @@ msgstr "Butang Paling Rendah"
 msgid "Tip Pressure Feel"
 msgstr "Rasa Tekanan di Hujung"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "Tetapan GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Utiliti untuk mengkonfigur atas meja GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr "Tetapan ialah antara muka utama untuk Mengkonfigur sistem anda."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "Projek GNOME"
 
@@ -8189,7 +8189,7 @@ msgid "Help"
 msgstr "Bantuan"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Keutamaan;Tetapan;"
 
@@ -8223,11 +8223,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Batal gelintar"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Pengecam untuk panel Tetapan terakhir yang akan dibuka"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8235,11 +8235,11 @@ msgstr ""
 "Pengecam untuk panel Tetapan terakhir yang akan dibuka. Nilai tidak dikenal "
 "pasti akan diabaikan dan panel pertama dalam senarai dipilih."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Tunjuk amaran ketika menjalankan Tetapan versi binaan pembangunan"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -9421,7 +9421,7 @@ msgstr "Bunyi Sistem"
 
 # lom
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "

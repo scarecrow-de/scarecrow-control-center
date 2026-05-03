@@ -6,8 +6,8 @@
 # Yuras Shumovich <shumovichy@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center.master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2018-08-27 23:05+0000\n"
 "PO-Revision-Date: 2018-09-05 19:07+0300\n"
@@ -1106,11 +1106,11 @@ msgstr "preferences-system-time"
 msgid "Clock;Timezone;Location;"
 msgstr "Гадзіннік;Часавы пояс;Месцазнаходжанне;Месца;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Змяненне сістэмных настроек часу і даты"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Каб змяняць настройкі часу і даты, трэба ідэнтыфікаваць сябе."
 
@@ -1699,7 +1699,7 @@ msgstr "Запусціць аглядальнік даведкі"
 
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:251
 #: shell/cc-window.c:888 shell/cc-window.ui:124
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Настройкі"
 
@@ -2704,22 +2704,22 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Сетка"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Настройка злучэння з сецівам"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: panels/network/gnome-network-panel.desktop.in.in:7
+#: panels/network/scarecrow-network-panel.desktop.in.in:7
 msgid "network-workgroup"
 msgstr "network-workgroup"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"
@@ -5531,11 +5531,11 @@ msgstr ""
 msgid "Networks"
 msgstr "Сетка"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Уключыць ці выключыць аддалены ўваход у сістэму"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Для ўключэння і выключэння аддаленага ўваходу ў сістэму патрабуецца "
@@ -6784,11 +6784,11 @@ msgstr "Не знойдзена карыстальнікаў"
 msgid "Unlock to add a user account."
 msgstr "Разблакіруйце каб дадаць конт карыстальніка."
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Настройка карыстальніцкіх контаў"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Для змянення карыстальніцкіх даных патрабуецца ідэнтыфікацыя"
 
@@ -7517,7 +7517,7 @@ msgstr "Рэжым адсочвання перамяшчэнняў"
 msgid "Left-Handed Orientation"
 msgstr "Арыентацыя на ляўшу"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Новы клавіятурны скарот..."
 
@@ -7573,15 +7573,15 @@ msgstr "Самая ніжняя кнопка"
 msgid "Tip Pressure Feel"
 msgstr "Адчувальнасць ціску кончыка стыла"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Control Center"
 msgstr "Цэнтр кіравання GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utilities to configure the GNOME desktop"
 msgstr "Прылады настройкі асяроддзя GNOME"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid ""
 "The control center is GNOME’s main interface for configuration of various "
 "aspects of your desktop."
@@ -7647,12 +7647,12 @@ msgstr ""
 "з няправільнымі паводзінамі, стратай даных і іншымі нечаканымі праблемамі. "
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: shell/gnome-control-center.desktop.in.in:5
-msgid "gnome-control-center"
-msgstr "gnome-control-center"
+#: shell/scarecrow-control-center.desktop.in.in:5
+msgid "scarecrow-control-center"
+msgstr "scarecrow-control-center"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Настройкі;"
 
@@ -7686,11 +7686,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Скасаваць пошук"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Ідэнтыфікатар апошняй адкрытай панэлі Настроек"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -7698,11 +7698,11 @@ msgstr ""
 "Ідэнтыфікатар апошняй адкрытай панэлі Настроек. Непазнаныя значэнні будуць "
 "ігнараваны, будзе выбрана самая першая панэль у спісе."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Паказваць папярэджанне пры запуску версіі Настроек для распрацоўкі."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr "Ці паказваць папярэджанне пры запуску версіі для распрацоўкі."

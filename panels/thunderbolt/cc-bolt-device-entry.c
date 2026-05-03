@@ -27,7 +27,7 @@
 
 #include <glib/gi18n.h>
 
-#define RESOURCE_UI "/org/gnome/control-center/thunderbolt/cc-bolt-device-entry.ui"
+#define RESOURCE_UI "/io/github/scarecrow_de/control-center/thunderbolt/cc-bolt-device-entry.ui"
 
 struct _CcBoltDeviceEntry
 {

@@ -1,6 +1,6 @@
-# Swedish messages for gnome-control-center.
+# Swedish messages for scarecrow-control-center.
 # Copyright © 1998-2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 #
 # Martin Wahlen <mva@sbbs.se>, 1998, 1999.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
@@ -14,8 +14,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
+"Project-Id-Version: scarecrow-control-center\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/"
 "issues\n"
 "POT-Creation-Date: 2021-02-15 11:24+0000\n"
 "PO-Revision-Date: 2021-02-15 14:58+0100\n"
@@ -54,7 +54,7 @@ msgid "Full access to /dev"
 msgstr "Fullständig åtkomst till /dev"
 
 #: panels/applications/cc-applications-panel.c:825
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:288
 msgid "Network"
 msgstr "Nätverk"
@@ -82,7 +82,7 @@ msgstr "Filsystem"
 #: panels/applications/cc-applications-panel.c:841
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:279
 #: shell/cc-window.c:933 shell/cc-window.ui:121
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Inställningar"
 
@@ -1134,7 +1134,7 @@ msgstr "Standardgrå"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Kalibreringsdata tillhandahållen av tillverkare"
+msgstr "Kalibrerinscsdata tillhandahållen av tillverkare"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -1476,11 +1476,11 @@ msgstr "Ändra datum och tid, även tidszon"
 msgid "Clock;Timezone;Location;"
 msgstr "Klocka;Tidszon;Plats;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Ändra systeminställningar för tid och datum"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Du måste autentisera dig för att ändra inställningar för tid eller datum."
@@ -3341,12 +3341,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Kontrollera hur du ansluter till internet"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Nätverk;IP;LAN;Proxy;WAN;Bredband;Modem;Bluetooth;Blåtand;vpn;DNS;"
 
@@ -5920,11 +5920,11 @@ msgstr ""
 "dela;delning;share;ssh;värd;namn;fjärr;skrivbord;media;audio;ljud;video;"
 "bilder;foton;filmer;server;renderare;"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Aktivera eller inaktivera fjärrinloggning"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Autentisering krävs för att aktivera eller inaktivera fjärrinloggning"
 
@@ -7601,11 +7601,11 @@ msgstr "Administratörs_namn"
 msgid "Administrator Password"
 msgstr "Administratörslösenord"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Hantera användarkonton"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "För att ändra användardata krävs autentisering"
 
@@ -7950,7 +7950,7 @@ msgstr "Justera skärmupplösning"
 msgid "Decouple Display"
 msgstr "Frikoppla skärm"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nytt kortkommando…"
 
@@ -8006,20 +8006,20 @@ msgstr "Nedersta knappen"
 msgid "Tip Pressure Feel"
 msgstr "Tryckkänsla för spets"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 msgid "GNOME Settings"
 msgstr "GNOME Inställningar"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 msgid "Utility to configure the GNOME desktop"
 msgstr "Verktyg för att konfigurera GNOME-skrivbordet"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr ""
 "Inställningar är det primära gränssnittet för att konfigurera ditt system."
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "GNOME-projektet"
 
@@ -8082,7 +8082,7 @@ msgid "Help"
 msgstr "Hjälp"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Inställningar;"
 
@@ -8116,11 +8116,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Avbryt sökning"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Identifieraren för den sista inställningspanelen som öppnades"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8128,11 +8128,11 @@ msgstr ""
 "Identifieraren för den sista inställningspanelen som öppnades. Okända värden "
 "kommer att ignoreras och den första panelen i listan väljs."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Visa en varning då en utvecklingsversion av Inställningar körs"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8329,7 +8329,7 @@ msgstr "Systemljud"
 #~ msgstr "Läs/ändra delade kontakter i Ubuntu Unity 8"
 
 #~ msgid "Access energy usage data"
-#~ msgstr "Kom åt energianvändningsdata"
+#~ msgstr "Kom åt energianvändninscsdata"
 
 #~ msgid "Read/write access to U2F devices exposed"
 #~ msgstr "Läs/skrivåtkomst till exponerade U2F-enheter"
@@ -8836,8 +8836,8 @@ msgstr "Systemljud"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "org.gnome.Settings"
-#~ msgstr "org.gnome.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "_Nattbelysning"
@@ -8979,8 +8979,8 @@ msgstr "Systemljud"
 #~ msgid "Quit"
 #~ msgstr "Avsluta"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verifiera nytt lösenord"

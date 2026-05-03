@@ -1,13 +1,13 @@
-# translation of po_gnome-control-center-2.0-km.po to Khmer
-# Khmer translation for gnome-control-center
+# translation of po_scarecrow-control-center-2.0-km.po to Khmer
+# Khmer translation for scarecrow-control-center
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the gnome-control-center package.
+# This file is distributed under the same license as the scarecrow-control-center package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: po_gnome-control-center-2.0-km\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: po_scarecrow-control-center-2.0-km\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-09-10 13:48+0000\n"
 "PO-Revision-Date: 2012-04-19 02:15+0000\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
@@ -739,12 +739,12 @@ msgstr "ផ្ទាំង​ចំណូលចិត្ត​កាលបរិ
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 #| msgid "Change your region and language settings"
 msgid "Change system time and date settings"
 msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ពេលវេលា និង​កាលបរិច្ឆេទ​​ប្រព័ន្ធ"
 
-#: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "ដើម្បី​ផ្លាស់ប្ដូរ​កា​រកំណត់​ពេលវាលា ឬ​កាលបរិច្ឆេទ "
@@ -770,7 +770,7 @@ msgctxt "display panel, rotation"
 msgid "180 Degrees"
 msgstr "១៨០ ដឺក្រេ"
 
-#. Keep this string in sync with gnome-desktop/libgnome-desktop/gnome-rr-labeler.c
+#. Keep this string in sync with scarecrow-desktop/libscarecrow-desktop/scarecrow-rr-labeler.c
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external projector.  Here, "Mirrored" is being
 #. * used as an adjective.  For example, the Spanish translation could be
@@ -1653,17 +1653,17 @@ msgstr "សេវា​បណ្ដាញ​ប្រព័ន្ធ​មិន
 msgid "Air_plane Mode"
 msgstr "នៅ​ពេល​ជិះ​យន្ដហោះ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #: ../panels/network/network-mobile.ui.h:7
 msgid "Network"
 msgstr "បណ្ដាញ"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 msgid "Network settings"
 msgstr "ការ​កំណត់​បណ្ដាញ"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;Proxy;"
 msgstr "Network;Wireless;IP;LAN;Proxy;"
 
@@ -4619,12 +4619,12 @@ msgstr "រូបតំណាង​អ្នកប្រើ"
 msgid "_Language"
 msgstr "ភាសា"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 #| msgid "Manage online accounts"
 msgid "Manage user accounts"
 msgstr "គ្រប់គ្រង​គណនី​អ្នក​ប្រើ"
 
-#: ../panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 #| msgid "Authentication required"
 msgid "Authentication is required to change user data"
 msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដើម្បី​ផ្លាស់ប្ដូរ​ទិន្នន័យ​អ្នក​ប្រើ"
@@ -5198,67 +5198,67 @@ msgstr "របៀប​តាមដាន"
 msgid "Left-Handed Orientation"
 msgstr "ទិស​ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1010
+#: ../panels/wacom/scsd-wacom-device.c:1010
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "របៀប​រង្វង់​ខាងឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1019
+#: ../panels/wacom/scsd-wacom-device.c:1019
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "របៀប​រង្វង់​ខាង​ស្ដាំ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1049
+#: ../panels/wacom/scsd-wacom-device.c:1049
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាង​ឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1058
+#: ../panels/wacom/scsd-wacom-device.c:1058
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាង​ស្ដាំ#%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1075
+#: ../panels/wacom/scsd-wacom-device.c:1075
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ប្ដូរ​​របៀប Touchring ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1077
+#: ../panels/wacom/scsd-wacom-device.c:1077
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchring ខាង​ស្ដាំ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1080
+#: ../panels/wacom/scsd-wacom-device.c:1080
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1082
+#: ../panels/wacom/scsd-wacom-device.c:1082
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ស្ដាំ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1087
+#: ../panels/wacom/scsd-wacom-device.c:1087
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ប្ដូរ​របៀប #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1159
+#: ../panels/wacom/scsd-wacom-device.c:1159
 #, c-format
 msgid "Left Button #%d"
 msgstr "ប៊ូតុង​ឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1162
+#: ../panels/wacom/scsd-wacom-device.c:1162
 #, c-format
 msgid "Right Button #%d"
 msgstr "ប៊ូតុង​ស្ដាំ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1165
+#: ../panels/wacom/scsd-wacom-device.c:1165
 #, c-format
 msgid "Top Button #%d"
 msgstr "ប៊ូតុង​ខាង​លើ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1168
+#: ../panels/wacom/scsd-wacom-device.c:1168
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ប៊ូតុង​ខាងក្រោម #%d"
@@ -5373,11 +5373,11 @@ msgstr "ចេញ"
 msgid "Control Center"
 msgstr "មជ្ឈមណ្ឌល​បញ្ជា"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "ការ​កំណត់​ប្រព័ន្ធ"
 
-#: ../shell/gnome-control-center.desktop.in.in.h:2
+#: ../shell/scarecrow-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
 msgstr "ចំណូលចិត្ត;ការ​កំណត់;"
 

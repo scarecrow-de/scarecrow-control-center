@@ -37,7 +37,7 @@
 #include <cairo-gobject.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/scarecrow-languages.h>
 
 #ifdef HAVE_MALCONTENT
 #include <libmalcontent/malcontent.h>
@@ -61,7 +61,7 @@
 #include "cc-util.h"
 #include "list-box-helper.h"
 
-#define USER_ACCOUNTS_PERMISSION "org.gnome.controlcenter.user-accounts.administration"
+#define USER_ACCOUNTS_PERMISSION "io.github.scarecrow_de.controlcenter.user-accounts.administration"
 
 struct _CcUserPanel {
         CcPanel parent_instance;
@@ -1065,9 +1065,9 @@ restart_now (CcUserPanel *self)
 
         bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
         g_dbus_connection_call (bus,
-                                "org.gnome.SessionManager",
-                                "/org/gnome/SessionManager",
-                                "org.gnome.SessionManager",
+                                "io.github.scarecrow_de.SessionManager",
+                                "/io/github/scarecrow_de/SessionManager",
+                                "io.github.scarecrow_de.SessionManager",
                                 "Logout",
                                 g_variant_new ("(u)", 0),
                                 NULL, 0, G_MAXINT,
@@ -1577,13 +1577,13 @@ cc_user_panel_init (CcUserPanel *self)
         self->um = act_user_manager_get_default ();
 
         provider = gtk_css_provider_new ();
-        gtk_css_provider_load_from_resource (provider, "/org/gnome/control-center/user-accounts/user-accounts-dialog.css");
+        gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/control-center/user-accounts/user-accounts-dialog.css");
         gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                                    GTK_STYLE_PROVIDER (provider),
                                                    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
         g_object_unref (provider);
 
-        self->login_screen_settings = settings_or_null ("org.gnome.login-screen");
+        self->login_screen_settings = settings_or_null ("io.github.scarecrow_de.login-screen");
 
         self->avatar_chooser = cc_avatar_chooser_new (GTK_WIDGET (self->user_icon_button));
         setup_main_window (self);
@@ -1621,7 +1621,7 @@ cc_user_panel_class_init (CcUserPanelClass *klass)
 
         panel_class->get_help_uri = cc_user_panel_get_help_uri;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/control-center/user-accounts/cc-user-panel.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/user-accounts/cc-user-panel.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, accounts_box);
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, account_settings_box);

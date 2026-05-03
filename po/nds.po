@@ -1,11 +1,11 @@
-# Low German translation for gnome-control-center.
-# Copyright (C) 2009 gnome-control-center's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Low German translation for scarecrow-control-center.
+# Copyright (C) 2009 scarecrow-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center gnome-2-28\n"
+"Project-Id-Version: scarecrow-control-center gnome-2-28\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&component=general\n"
 "POT-Creation-Date: 2009-11-22 16:05+0000\n"
@@ -18,31 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../gnome-control-center.schemas.in.h:1
+#: ../scarecrow-control-center.schemas.in.h:1
 msgid "Current network location"
 msgstr "Aktueller Netwarkort"
 
-#: ../gnome-control-center.schemas.in.h:2
+#: ../scarecrow-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
 msgstr "Mehr Achtergründe URL"
 
-#: ../gnome-control-center.schemas.in.h:3
+#: ../scarecrow-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr "Mehr Themen URL"
 
-#: ../gnome-control-center.schemas.in.h:4
+#: ../scarecrow-control-center.schemas.in.h:4
 msgid ""
 "Set this to your current location name. This is used to determine the "
 "appropriate network proxy configuration."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:5
+#: ../scarecrow-control-center.schemas.in.h:5
 msgid ""
 "URL for where to get more desktop backgrounds. If set to an empty string the "
 "link will not appear."
 msgstr ""
 
-#: ../gnome-control-center.schemas.in.h:6
+#: ../scarecrow-control-center.schemas.in.h:6
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
@@ -1393,7 +1393,7 @@ msgstr ""
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
@@ -2551,7 +2551,7 @@ msgid "Models"
 msgstr "Modelle"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
-#: ../capplets/network/gnome-network-properties.c:583
+#: ../capplets/network/scarecrow-network-properties.c:583
 msgid "Default"
 msgstr "Standard"
 
@@ -2755,120 +2755,120 @@ msgstr "Muus"
 msgid "Set your mouse preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.c:701
-#: ../capplets/network/gnome-network-properties.c:852
+#: ../capplets/network/scarecrow-network-properties.c:701
+#: ../capplets/network/scarecrow-network-properties.c:852
 msgid "New Location..."
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.c:818
+#: ../capplets/network/scarecrow-network-properties.c:818
 msgid "Location already exists"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Netwark-Proxy"
 
-#: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Netwark-Proxy-Instellens setten"
 
-#: ../capplets/network/gnome-network-properties.ui.h:1
+#: ../capplets/network/scarecrow-network-properties.ui.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:2
+#: ../capplets/network/scarecrow-network-properties.ui.h:2
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:3
+#: ../capplets/network/scarecrow-network-properties.ui.h:3
 msgid "<b>_Manual proxy configuration</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:4
+#: ../capplets/network/scarecrow-network-properties.ui.h:4
 msgid "<b>_Use authentication</b>"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:5
+#: ../capplets/network/scarecrow-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/scarecrow-network-properties.ui.h:6
 msgid "C_reate"
 msgstr "E_rstellen"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/scarecrow-network-properties.ui.h:7
 msgid "Create New Location"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/scarecrow-network-properties.ui.h:8
 msgid "HTTP Proxy Details"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/scarecrow-network-properties.ui.h:9
 msgid "H_TTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/scarecrow-network-properties.ui.h:10
 msgid "Ignore Host List"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/scarecrow-network-properties.ui.h:11
 msgid "Ignored Hosts"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/scarecrow-network-properties.ui.h:12
 msgid "Location:"
 msgstr "Ort:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/scarecrow-network-properties.ui.h:13
 msgid "Network Proxy Preferences"
 msgstr "Netwark-Proxy-Instellens"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/scarecrow-network-properties.ui.h:14
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/scarecrow-network-properties.ui.h:15
 msgid "Proxy Configuration"
 msgstr "Proxy-Konfiguratschoon"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/scarecrow-network-properties.ui.h:16
 msgid "S_ocks host:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/scarecrow-network-properties.ui.h:17
 msgid "The location already exists."
 msgstr ""
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/scarecrow-network-properties.ui.h:18
 msgid "U_sername:"
 msgstr "B_rukernaam:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/scarecrow-network-properties.ui.h:19
 msgid "_Delete Location"
 msgstr "_Ort löschen"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/scarecrow-network-properties.ui.h:20
 msgid "_Details"
 msgstr "_Details"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/scarecrow-network-properties.ui.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP Proxy:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/scarecrow-network-properties.ui.h:22
 msgid "_Location name:"
 msgstr "_Ortnaam:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/scarecrow-network-properties.ui.h:23
 msgid "_Password:"
 msgstr "_Passwoord:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/scarecrow-network-properties.ui.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "_Seker HTTP Proxy:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:25
+#: ../capplets/network/scarecrow-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_De sülvigen Proxy för all Protokolls bruken"
 

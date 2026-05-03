@@ -350,11 +350,11 @@ capplet
 
      - Write configuration to file
 
-     - Signal gsd somehow
+     - Signal scsd somehow
 
 Schemes:
 	- configuration file changes
-	  - randr code will have to be shared between gcc and gsd
+	  - randr code will have to be shared between gcc and scsd
 
 	- binary installed by gcc
 	  - something will still have to listen for changes to pop
@@ -828,9 +828,9 @@ Add rotation
 
 Disable panel checkbox for now
 
-Patch into gnome-desktop
+Patch into scarecrow-desktop
 
-Find out how to share code between gcc and gsd
+Find out how to share code between gcc and scsd
 
 Make it assign coordinates correctly
      - including computing correct screen size

@@ -1,4 +1,4 @@
-# translation of gnome-control-center.HEAD.po to Kurdish
+# translation of scarecrow-control-center.HEAD.po to Kurdish
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
@@ -6,7 +6,7 @@
 # Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
+"Project-Id-Version: scarecrow-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-10-18 15:38+0200\n"
 "PO-Revision-Date: 2011-10-18 16:05+0200\n"
@@ -1975,18 +1975,18 @@ msgstr ""
 msgid "_Stop Hotspot"
 msgstr ""
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:1
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:1
 #, fuzzy
 msgid "Network"
 msgstr "Cîgirê Toreyê"
 
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:2
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:2
 #, fuzzy
 msgid "Network settings"
 msgstr "Mîhengên X bikar bîne"
 
 #. Translators: those are keywords for the network control-center panel
-#: ../panels/network/gnome-network-panel.desktop.in.in.h:4
+#: ../panels/network/scarecrow-network-panel.desktop.in.in.h:4
 msgid "Network;Wireless;IP;LAN;"
 msgstr ""
 
@@ -4460,7 +4460,7 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 
-#: ../shell/gnome-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
+#: ../shell/scarecrow-control-center.desktop.in.in.h:1 ../shell/shell.ui.h:1
 msgid "System Settings"
 msgstr "Mîhengên pergalê"
 
@@ -4886,13 +4886,13 @@ msgstr "_Hemû mîheng"
 #~ msgstr[1] "pîksel"
 
 #~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
 #~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
 #~ "KDE) settings manager may already be active and conflicting with the "
 #~ "GNOME settings manager."
 #~ msgstr ""
-#~ "Gerînendeyê mîhengan yê 'gnome-settings-daemon' nehate destpêkirin.\n"
+#~ "Gerînendeyê mîhengan yê 'scarecrow-settings-daemon' nehate destpêkirin.\n"
 #~ "Heke ev bername neyê destpêkirin hin mîheng jî nayên tomarkirin. Ev rewş "
 #~ "dide xuyanî; Bonobo yan jî pergala mîhengên yên derveyî GNOME (mînak KDE) "
 #~ "çalak e û ew û gerînendeyê mîhengan li hev nake."

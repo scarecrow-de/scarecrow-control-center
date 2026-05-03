@@ -177,17 +177,23 @@ cc_wacom_tool_initable_init (GInitable     *initable,
 
 	if (tool->serial == 0) {
 		const gchar *vendor, *product;
-		GsdDevice *gsd_device;
+		GsdDevice *scsd_device;
 
+<<<<<<< Updated upstream
 		gsd_device = cc_wacom_device_get_device (tool->device);
 		gsd_device_get_device_ids (gsd_device, &vendor, &product);
+		path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/stylus/default-%s:%s/",
+=======
+		scsd_device = cc_wacom_device_get_device (tool->device);
+		scsd_device_get_device_ids (scsd_device, &vendor, &product);
 		path = g_strdup_printf ("/org/gnome/desktop/peripherals/stylus/default-%s:%s/",
+>>>>>>> Stashed changes
 					vendor, product);
         } else {
-		path = g_strdup_printf ("/org/gnome/desktop/peripherals/stylus/%lx/", tool->serial);
+		path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/stylus/%lx/", tool->serial);
         }
 
-	tool->settings = g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet.stylus",
+	tool->settings = g_settings_new_with_path ("io.github.scarecrow_de.desktop.peripherals.tablet.stylus",
 						   path);
 	g_free (path);
 

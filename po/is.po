@@ -1,4 +1,4 @@
-# translation of gnome-control-center.master.is.po to Íslenska
+# translation of scarecrow-control-center.master.is.po to Íslenska
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -6,8 +6,8 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2015, 2016, 2017, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.master.is\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issu"
+"Project-Id-Version: scarecrow-control-center.master.is\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-control-center/issu"
 "es\n"
 "POT-Creation-Date: 2019-07-25 08:20+0000\n"
 "PO-Revision-Date: 2019-08-16 05:59+0000\n"
@@ -50,7 +50,7 @@ msgid "Full access to /dev"
 msgstr "Fullur aðgangur að /dev"
 
 #: panels/applications/cc-applications-panel.c:570
-#: panels/network/gnome-network-panel.desktop.in.in:3
+#: panels/network/scarecrow-network-panel.desktop.in.in:3
 #: panels/network/network-mobile.ui:241
 msgid "Network"
 msgstr "Netkerfi"
@@ -86,7 +86,7 @@ msgstr "Skráakerfi"
 #: panels/applications/cc-applications-panel.c:588
 #: panels/keyboard/01-launchers.xml.in:6 shell/cc-window.c:255
 #: shell/cc-window.c:867 shell/cc-window.ui:116
-#: shell/gnome-control-center.desktop.in.in:3
+#: shell/scarecrow-control-center.desktop.in.in:3
 msgid "Settings"
 msgstr "Stillingar"
 
@@ -1406,11 +1406,11 @@ msgstr "Breyttu dagsetningu og tíma, þar með töldu tímabelti"
 msgid "Clock;Timezone;Location;"
 msgstr "Klukka;Tímabelti;Staðsetning;"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Breyta tíma og dagsetningarstillingum"
 
-#: panels/datetime/org.gnome.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Til að breyta stillingum varðandi dagsetningu og tíma, þarft þú að auðkenna "
@@ -2994,12 +2994,12 @@ msgstr "_SSID"
 msgid "_BSSID"
 msgstr "_BSSID"
 
-#: panels/network/gnome-network-panel.desktop.in.in:4
+#: panels/network/scarecrow-network-panel.desktop.in.in:4
 msgid "Control how you connect to the Internet"
 msgstr "Stjórnaðu hvernig þú tengist internetinu"
 
 #. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-network-panel.desktop.in.in:19
+#: panels/network/scarecrow-network-panel.desktop.in.in:19
 msgid ""
 "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;"
 "DNS;"
@@ -6034,11 +6034,11 @@ msgstr ""
 msgid "Networks"
 msgstr "Netkerfi"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Virkja eða afvirkja fjartengda innskráningu"
 
-#: panels/sharing/org.gnome.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Þú þarft að auðkenna þig til að virkja eða afvirkja fjartengda innskráningu"
@@ -7413,11 +7413,11 @@ msgstr "_Nafn kerfisstjóra"
 msgid "Administrator Password"
 msgstr "Lykilorð kerfisstjóra"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Sýsla með notendaaðganga"
 
-#: panels/user-accounts/org.gnome.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Auðkenningar er krafist til að breyta gögnum notanda"
 
@@ -7852,7 +7852,7 @@ msgstr "Breyta stillingum músar"
 msgid "Adjust display resolution"
 msgstr "Stilla skjáupplausn"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nýr flýtilykill..."
 
@@ -7912,21 +7912,21 @@ msgstr "Neðsti hnappur"
 msgid "Tip Pressure Feel"
 msgstr "Þrýstiskynjun odds"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:7
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:7
 #| msgid "- Settings"
 msgid "GNOME Settings"
 msgstr "GNOME-stillingar"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:8
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:8
 #| msgid "Utilities to configure the GNOME desktop"
 msgid "Utility to configure the GNOME desktop"
 msgstr "Tól til að stilla GNOME skjáborðsumhverfið"
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:10
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:10
 msgid "Settings is the primary interface for configuring your system."
 msgstr ""
 
-#: shell/appdata/gnome-control-center.appdata.xml.in:20
+#: shell/appdata/scarecrow-control-center.appdata.xml.in:20
 msgid "The GNOME Project"
 msgstr "GNOME verkefnið"
 
@@ -7990,7 +7990,7 @@ msgid "Help"
 msgstr "Hjálp"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: shell/gnome-control-center.desktop.in.in:17
+#: shell/scarecrow-control-center.desktop.in.in:17
 msgid "Preferences;Settings;"
 msgstr "Kjörstillingar;Uppsetning;"
 
@@ -8024,11 +8024,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Hætta við leit"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Auðkenni síðast opnaða stillingaspjaldsins"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8036,12 +8036,12 @@ msgstr ""
 "Auðkenni síðast opnaða stillingaspjaldsins. Óþekkt gildi verða hunsuð og "
 "fyrsta spjaldið í listanum verður valið."
 
-#: shell/org.gnome.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Birta aðvörun þegar verið er að keyra þróunarútgáfu af Settings-stillingunum"
 
-#: shell/org.gnome.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8282,8 +8282,8 @@ msgstr "Kerfishljóð"
 #~ msgid "Quit"
 #~ msgstr "Hætta"
 
-#~ msgid "gnome-control-center"
-#~ msgstr "gnome-control-center"
+#~ msgid "scarecrow-control-center"
+#~ msgstr "scarecrow-control-center"
 
 #~ msgid "Back­ground"
 #~ msgstr "Bak­grunnur"

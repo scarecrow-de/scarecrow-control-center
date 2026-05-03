@@ -1,12 +1,12 @@
-# Malagasy translation of gnome-control-center.
-# Copyright (C) 2006-2009 THE GNOME-CONTROL-CENTER'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
+# Malagasy translation of scarecrow-control-center.
+# Copyright (C) 2006-2009 THE scarecrow-control-center'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-control-center package.
 # Fanomezana Rajaonarisoa <rajfanhar@yahoo.fr>, 2006.
 # Thierry Randrianiriana <randrianiriana@gmail.com>, 2006-2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: scarecrow-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-05-10 06:42+0200\n"
 "PO-Revision-Date: 2009-01-16 16:42+0300\n"
@@ -718,7 +718,7 @@ msgstr "_Endrika:"
 
 #: ../capplets/background/gnome-wp-capplet.c:74
 #: ../capplets/common/capplet-util.c:340
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:333
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:333
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Nisy olana teo am-manehoana ireo toro-làlana: %s"
@@ -781,13 +781,13 @@ msgstr[1] "pixel"
 
 #: ../capplets/common/activate-settings-daemon.c:18
 msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Unable to start the settings manager 'scarecrow-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
 "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
-"Tsy nahalefa ny mpandrindra kirakira 'gnome-settings-daemon'.\n"
+"Tsy nahalefa ny mpandrindra kirakira 'scarecrow-settings-daemon'.\n"
 "Mety tsy hihatra ny safidy manokana sasany raha tsy mandeha io mpandrindra "
 "ny kirakiran'ny GNOME io. Mety midika izany fa misy olana amin'ny Bonobo, na "
 "mety efa misy mpandrindra kirakira tsy an'ny GNOME (ohatra: KDE) mandeha ka "
@@ -1985,87 +1985,87 @@ msgstr "Totozy"
 msgid "Set your mouse preferences"
 msgstr "Mamaritra ny safidy manokan'ny totozinao"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Proxy'ny rezo"
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/scarecrow-network-preferences.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr "Mamaritra ny safidy manokan'ny proxy'ny rezonao"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
+#: ../capplets/network/scarecrow-network-preferences.glade.h:1
 msgid "      "
 msgstr "      "
 
-#: ../capplets/network/gnome-network-preferences.glade.h:2
+#: ../capplets/network/scarecrow-network-preferences.glade.h:2
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>Fifandraisana Internet _mivantana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:3
+#: ../capplets/network/scarecrow-network-preferences.glade.h:3
 msgid "<b>Ignore Host List</b>"
 msgstr "<b>Lisitry ny mpampiantrano tsy raharahaina</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:4
+#: ../capplets/network/scarecrow-network-preferences.glade.h:4
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>Fikirakirana proxy mandeha _hoazy</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:5
+#: ../capplets/network/scarecrow-network-preferences.glade.h:5
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Fikirakirana proxy ataon-tànana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:6
+#: ../capplets/network/scarecrow-network-preferences.glade.h:6
 msgid "<b>_Use authentication</b>"
 msgstr "<b>Mampi_asà fanamarinana</b>"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:7
+#: ../capplets/network/scarecrow-network-preferences.glade.h:7
 msgid "Advanced Configuration"
 msgstr "Fikirakirana avo lenta"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/scarecrow-network-preferences.glade.h:8
 msgid "Autoconfiguration _URL:"
 msgstr "_URL'ny fikirakirana mandeha hoazy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/scarecrow-network-preferences.glade.h:9
 msgid "HTTP Proxy Details"
 msgstr "Antsipirian'ny proxy HTTP"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/scarecrow-network-preferences.glade.h:10
 msgid "H_TTP proxy:"
 msgstr "Proxy H_TTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/scarecrow-network-preferences.glade.h:11
 msgid "Network Proxy Preferences"
 msgstr "Safidy manokan'ny proxy'ny rezo"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/scarecrow-network-preferences.glade.h:12
 msgid "Port:"
 msgstr "Irika:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/scarecrow-network-preferences.glade.h:13
 msgid "Proxy Configuration"
 msgstr "Kirakiran'ny proxy"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/scarecrow-network-preferences.glade.h:14
 msgid "S_ocks host:"
 msgstr "Mpampiantrano S_ocks:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/scarecrow-network-preferences.glade.h:15
 msgid "U_sername:"
 msgstr "Anaran'ny _mpampiasa:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/scarecrow-network-preferences.glade.h:16
 msgid "_Details"
 msgstr "_Antsipiriany"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/scarecrow-network-preferences.glade.h:17
 msgid "_FTP proxy:"
 msgstr "Proxy _FTP:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/scarecrow-network-preferences.glade.h:18
 msgid "_Password:"
 msgstr "_Teny fanalahidy:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/scarecrow-network-preferences.glade.h:19
 msgid "_Secure HTTP proxy:"
 msgstr "Proxy HTTP azo _antoka:"
 
@@ -2613,19 +2613,19 @@ msgstr "Ivotoerana fifehezan'ny GNOME"
 msgid "The GNOME configuration tool"
 msgstr "Ny fitaovana fikirakiran'ny GNOME"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
+#: ../scarecrow-settings-daemon/actions/acme.glade.h:1
 msgid "Volume"
 msgstr "Fanamafisam-peo"
 
-#: ../gnome-settings-daemon/factory.c:60
+#: ../scarecrow-settings-daemon/factory.c:60
 msgid "Could not initialize Bonobo"
 msgstr "Tsy nahalefa ny Bonobo"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:406
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:406
 msgid "Slow Keys Alert"
 msgstr "Fampilazan'ny kitendry meda"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:407
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:407
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -2634,39 +2634,39 @@ msgstr ""
 "dàlana mampadeha ny fahasahazan'ny kitendry meda izay mampiova ny fiasan'ny "
 "fafan-teninao. "
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:409
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:409
 msgid "Do you want to activate Slow Keys?"
 msgstr "Tianao alefa ve ny kitendry meda?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:410
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:410
 msgid "Do you want to deactivate Slow Keys?"
 msgstr "Tianao atsahatra ve ny kitendry meda?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Activate"
 msgstr "_Alefaso"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:411
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:428
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:411
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:428
 msgid "_Deactivate"
 msgstr "_Atsaharo"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't activate"
 msgstr "_Aza alefa"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:412
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:429
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:412
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:429
 msgid "Do_n't deactivate"
 msgstr "_Aza atsahatra"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:421
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:421
 msgid "Sticky Keys Alert"
 msgstr "Fampilazan'ny kitendry miraikidraikitra"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:422
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:422
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -2675,7 +2675,7 @@ msgstr ""
 "mampandeha ny fahasahazan'ny kitendry miraikidraikitra izay mampiova ny "
 "fiasan'ny fafan-teninao."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:424
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:424
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -2685,15 +2685,15 @@ msgstr ""
 "misesisesy. Izany dia manatsahatra ny fahasahazan'ny kitendry "
 "miraikidraikitra izay mampiova ny fiasan'ny fafan-teninao."
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:426
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:426
 msgid "Do you want to activate Sticky Keys?"
 msgstr "Tianao alefa ve ny kitendry miraikidraikitra?"
 
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:427
+#: ../scarecrow-settings-daemon/gnome-settings-accessibility-keyboard.c:427
 msgid "Do you want to deactivate Sticky Keys?"
 msgstr "Tianao atsahatra ve ny kitendry miraikidraikitra?"
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:74
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:74
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2702,7 +2702,7 @@ msgstr ""
 "Tsy afaka mamorona ny laha-tahiry\"%s\".\n"
 "Ilaina izy io mba ahafahana manova ny endriky ny kitondron'ny totozy."
 
-#: ../gnome-settings-daemon/gnome-settings-font.c:96
+#: ../scarecrow-settings-daemon/gnome-settings-font.c:96
 #, c-format
 msgid ""
 "Cannot create the directory \"%s\".\n"
@@ -2711,37 +2711,37 @@ msgstr ""
 "Tsa afaka mamorona ny laha-tahiry \"%s\".\n"
 "Ilaina izy io mba ahafahana manova ny kitondro."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:208
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:208
 #, c-format
 msgid "Key Binding (%s) has its action defined multiple times\n"
 msgstr "Voasoritra imbetsaka ny asan'ny Key Binding (%s)\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:221
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:221
 #, c-format
 msgid "Key Binding (%s) has its binding defined multiple times\n"
 msgstr "Voasoritra imbetsaka ny binding'ny Key Binding (%s)\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:227
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:227
 #, c-format
 msgid "Key Binding (%s) is incomplete\n"
 msgstr "Tsy feno ny Key Binding (%s)\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:255
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:255
 #, c-format
 msgid "Key Binding (%s) is invalid\n"
 msgstr "Tsy ekena ny Key Binding (%s)\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:291
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:291
 #, c-format
 msgid "It seems that another application already has access to key '%u'."
 msgstr "Toa efa misy rindran'asa hafa mampiasa ny kitendry '%u'."
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:360
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:360
 #, c-format
 msgid "Key Binding (%s) is already in use\n"
 msgstr "Key miasa ny Key Binding (%s)\n"
 
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:435
+#: ../scarecrow-settings-daemon/gnome-settings-keybindings.c:435
 #, c-format
 msgid ""
 "Error while trying to run (%s)\n"
@@ -2750,7 +2750,7 @@ msgstr ""
 "Nisy olana teo am-panandramana mandefa ny (%s)\n"
 "izay mifanaraka amin'ny kitendry (%s)"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:105
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:105
 #, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -2781,7 +2781,7 @@ msgstr ""
 "- Ny valin'ny <b>%s</b>\n"
 "- Ny valin'ny <b>%s</b>"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:119
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:119
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -2793,12 +2793,12 @@ msgstr ""
 "Manandrama mampiasa kirakira tsotra kokoa na mametraka kinovan'ny "
 "rindran'asa XFree vaovao."
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:244
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:244
 msgid "Do _not show this warning again"
 msgstr "_Aza aseho intsony ity fampilazana ity"
 
 #. !! temporary one
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:253
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:253
 #, c-format
 msgid ""
 "<b>The X system keyboard settings differ from your current GNOME keyboard "
@@ -2815,15 +2815,15 @@ msgstr ""
 "\n"
 "Iza amin'ireo no tianao ampiasaina?"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:275
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:275
 msgid "Use X settings"
 msgstr "Ampiasao ny fandrindran'ny X"
 
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:277
+#: ../scarecrow-settings-daemon/gnome-settings-keyboard-xkb.c:277
 msgid "Keep GNOME settings"
 msgstr "Ny fandrindran'ny GNOME no ampiasao"
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:118
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:118
 #, c-format
 msgid ""
 "Couldn't execute command: %s\n"
@@ -2832,7 +2832,7 @@ msgstr ""
 "Tsy afaka nanatanteraka ny baiko: %s\n"
 "Amarino hoe misy io baiko io."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:134
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:134
 msgid ""
 "Couldn't put the machine to sleep.\n"
 "Verify that the machine is correctly configured."
@@ -2840,7 +2840,7 @@ msgstr ""
 "Tsy afaka nampiato ny solosaina.\n"
 "Amarino hoe voakirakira araka ny tokony ho izy ilay solosaina."
 
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:168
+#: ../scarecrow-settings-daemon/gnome-settings-multimedia-keys.c:168
 msgid ""
 "Couldn't load the Glade file.\n"
 "Make sure that this daemon is properly installed."
@@ -2848,7 +2848,7 @@ msgstr ""
 "Tsy afaka naka ny rakitra Glade.\n"
 "Amarino hoe voapetraka araka ny tokony ho izy io daemon io."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:110
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:110
 #, c-format
 msgid ""
 "There was an error starting up the screensaver:\n"
@@ -2862,52 +2862,52 @@ msgstr ""
 "%s\n"
 "Tsy handeha amin'ity session ity fahasahazan'ny sary mitsitsy."
 
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:120
+#: ../scarecrow-settings-daemon/gnome-settings-screensaver.c:120
 msgid "_Do not show this message again"
 msgstr "_Aza aseho intsony ity filazana ity"
 
-#: ../gnome-settings-daemon/gnome-settings-sound.c:131
+#: ../scarecrow-settings-daemon/gnome-settings-sound.c:131
 #, c-format
 msgid "Couldn't load sound file %s as sample %s"
 msgstr "Tsy afaka naka ny raki-peo %s hatao sombiny %s"
 
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:212
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:260
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xrdb.c:260
 msgid "Cannot determine user's home directory"
 msgstr "Tsy afaka namaritra ny laha-tahiry fandraisan'ny mpampiasa"
 
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:212
+#: ../scarecrow-settings-daemon/gnome-settings-xsettings.c:212
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr ""
 "Voafarirtra manaraka ny karazana %s ny famaha GConf %s, nefa ny karazany "
 "nampoizina dia %s\n"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:1
 msgid "A_vailable files:"
 msgstr "Ireo rakitra _misy:"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:2
 msgid "Do _not show this warning again."
 msgstr "Aza aseho _intsony ity fampilazana ity."
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:3
 msgid "Load modmap files"
 msgstr "Alaivo ireo rakitra modmap"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:4
 msgid "Would you like to load the modmap file(s)?"
 msgstr "Tianao alaina ilay (ireo) rakitra modmap?"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:5
 msgid "_Load"
 msgstr "_Alaivo"
 
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
+#: ../scarecrow-settings-daemon/modmap-dialog.glade.h:6
 msgid "_Loaded files:"
 msgstr "_Ireo rakitra azo:"
 
-#: ../gnome-settings-daemon/reaper.c:103
+#: ../scarecrow-settings-daemon/reaper.c:103
 msgid "Error creating signal pipe."
 msgstr "Nisy olana teo am-pamoronana fantson'ny fambara."
 
