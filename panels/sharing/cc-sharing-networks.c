@@ -24,13 +24,8 @@
 #include <glib/gi18n.h>
 
 #include "cc-sharing-networks.h"
-<<<<<<< Updated upstream
 #include "io.github.scarecrow_de.SettingsDaemon.Sharing.h"
 #include "scsd-sharing-enums.h"
-=======
-#include "org.gnome.SettingsDaemon.Sharing.h"
-#include "scsd-sharing-enums.h"
->>>>>>> Stashed changes
 #include "list-box-helper.h"
 
 struct _CcSharingNetworks {
