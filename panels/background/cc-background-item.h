@@ -51,12 +51,12 @@ gboolean           cc_background_item_load                (CcBackgroundItem     
 gboolean           cc_background_item_changes_with_time   (CcBackgroundItem             *item);
 
 GdkPixbuf *        cc_background_item_get_thumbnail       (CcBackgroundItem             *item,
-                                                           GnomeDesktopThumbnailFactory *thumbs,
+                                                           ScarecrowDesktopThumbnailFactory *thumbs,
                                                            int                           width,
                                                            int                           height,
                                                            int                           scale_factor);
 GdkPixbuf *        cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
-                                                           GnomeDesktopThumbnailFactory *thumbs,
+                                                           ScarecrowDesktopThumbnailFactory *thumbs,
                                                            int                           width,
                                                            int                           height,
                                                            int                           scale_factor,

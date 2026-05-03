@@ -54,7 +54,7 @@ struct _CcBackgroundPanel
   GSettings *settings;
   GSettings *lock_settings;
 
-  GnomeDesktopThumbnailFactory *thumb_factory;
+  ScarecrowDesktopThumbnailFactory *thumb_factory;
 
   CcBackgroundItem *current_background;
 

@@ -34,7 +34,7 @@ struct _CcBackgroundPreview
   GtkLabel         *lock_screen_label;
   GtkStack         *stack;
 
-  GnomeDesktopThumbnailFactory *thumbnail_factory;
+  ScarecrowDesktopThumbnailFactory *thumbnail_factory;
 
   CcBackgroundItem *item;
   GSettings        *desktop_settings;

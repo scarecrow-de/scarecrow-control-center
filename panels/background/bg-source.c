@@ -28,7 +28,7 @@
 
 typedef struct
 {
-  GnomeDesktopThumbnailFactory *thumbnail_factory;
+  ScarecrowDesktopThumbnailFactory *thumbnail_factory;
   GListStore *store;
   GtkWidget *widget;
   gint thumbnail_height;
@@ -201,7 +201,7 @@ bg_source_get_thumbnail_width (BgSource *source)
   return priv->thumbnail_width;
 }
 
-GnomeDesktopThumbnailFactory*
+ScarecrowDesktopThumbnailFactory*
 bg_source_get_thumbnail_factory (BgSource *source)
 {
   BgSourcePrivate *priv;
