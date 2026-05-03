@@ -267,7 +267,7 @@ on_file_chooser_selection_changed_cb (GtkFileChooser               *chooser,
         {
           pixbuf = gnome_desktop_thumbnail_factory_generate_thumbnail (thumbnail_factory,
                                                                        uri,
-                                                                       mime_type, NULL, NULL);
+                                                                       mime_type);
         }
 
       gtk_dialog_set_response_sensitive (GTK_DIALOG (chooser),
