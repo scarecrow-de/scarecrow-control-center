@@ -38,8 +38,8 @@
 #include <libintl.h>
 
 #include <glib/gi18n.h>
-#include <libscarecrow-desktop/gnome-languages.h>
-#include <libscarecrow-desktop/gnome-wall-clock.h>
+#include <libscarecrow-desktop/scarecrow-languages.h>
+#include <libscarecrow-desktop/scarecrow-wall-clock.h>
 #include <polkit/polkit.h>
 
 /* FIXME: This should be "Etc/GMT" instead */

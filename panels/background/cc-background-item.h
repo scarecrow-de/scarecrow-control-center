@@ -23,7 +23,7 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 #include <gdesktop-enums.h>
-#include <libscarecrow-desktop/gnome-bg.h>
+#include <libscarecrow-desktop/scarecrow-bg.h>
 
 G_BEGIN_DECLS
 

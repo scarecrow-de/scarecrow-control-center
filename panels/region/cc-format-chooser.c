@@ -34,7 +34,7 @@
 #include "cc-util.h"
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/scarecrow-languages.h>
 
 struct _CcFormatChooser {
         GtkDialog parent_instance;

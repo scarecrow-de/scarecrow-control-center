@@ -23,7 +23,7 @@
 #include <glib/gi18n.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-xkb-info.h>
+#include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
 #include "cc-keyboard-option.h"
 

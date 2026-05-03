@@ -770,7 +770,7 @@ msgctxt "display panel, rotation"
 msgid "180 Degrees"
 msgstr "១៨០ ដឺក្រេ"
 
-#. Keep this string in sync with scarecrow-desktop/libscarecrow-desktop/gnome-rr-labeler.c
+#. Keep this string in sync with scarecrow-desktop/libscarecrow-desktop/scarecrow-rr-labeler.c
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external projector.  Here, "Mirrored" is being
 #. * used as an adjective.  For example, the Spanish translation could be

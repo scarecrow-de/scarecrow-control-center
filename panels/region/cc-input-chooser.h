@@ -22,7 +22,7 @@
 #include "cc-input-source.h"
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-xkb-info.h>
+#include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
 G_BEGIN_DECLS
 
