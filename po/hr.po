@@ -7961,7 +7961,7 @@ msgstr "Prilagodi razlučivost zaslona"
 msgid "Decouple Display"
 msgstr "Odvojivi zaslon"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novi prečac…"
 

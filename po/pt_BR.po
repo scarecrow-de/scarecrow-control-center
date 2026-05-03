@@ -8051,7 +8051,7 @@ msgstr "Ajustar resolução de tela"
 msgid "Decouple Display"
 msgstr "Desacoplar janela"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novo atalho…"
 

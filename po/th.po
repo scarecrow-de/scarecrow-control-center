@@ -6978,91 +6978,91 @@ msgid "Left-Handed Orientation"
 msgstr "สำหรับมือถนัดซ้าย"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1028
+#: ../panels/wacom/scsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "วงแหวนสัมผัสซ้าย"
 
-#: ../panels/wacom/gsd-wacom-device.c:1039
+#: ../panels/wacom/scsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "โหมดวงแหวนสัมผัสซ้าย #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1059
+#: ../panels/wacom/scsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "วงแหวนสัมผัสขวา"
 
-#: ../panels/wacom/gsd-wacom-device.c:1070
+#: ../panels/wacom/scsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "โหมดวงแหวนสัมผัสขวา #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1112
+#: ../panels/wacom/scsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "แถบสัมผัสซ้าย"
 
-#: ../panels/wacom/gsd-wacom-device.c:1123
+#: ../panels/wacom/scsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "โหมดแถบสัมผัสซ้าย #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1143
+#: ../panels/wacom/scsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "แถบสัมผัสขวา"
 
-#: ../panels/wacom/gsd-wacom-device.c:1154
+#: ../panels/wacom/scsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "โหมดแถบสัมผัสขวา #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1180
+#: ../panels/wacom/scsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสซ้าย"
 
-#: ../panels/wacom/gsd-wacom-device.c:1182
+#: ../panels/wacom/scsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสขวา"
 
-#: ../panels/wacom/gsd-wacom-device.c:1185
+#: ../panels/wacom/scsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสซ้าย"
 
-#: ../panels/wacom/gsd-wacom-device.c:1187
+#: ../panels/wacom/scsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสขวา"
 
-#: ../panels/wacom/gsd-wacom-device.c:1192
+#: ../panels/wacom/scsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ปุ่มเปลี่ยนโหมด #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1238
+#: ../panels/wacom/scsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "ปุ่มซ้าย #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1241
+#: ../panels/wacom/scsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "ปุ่มขวา #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1244
+#: ../panels/wacom/scsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "ปุ่มบน #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1247
+#: ../panels/wacom/scsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ปุ่มล่าง #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "ปุ่มลัดใหม่…"
 

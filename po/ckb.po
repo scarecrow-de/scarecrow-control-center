@@ -8068,7 +8068,7 @@ msgstr "ڕێکخستنی مشک چاک بکە"
 msgid "Adjust display resolution"
 msgstr "ڕێککردنی وردی پیشاندەر"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "قەدبڕی نوێ..."
 

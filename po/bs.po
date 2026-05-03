@@ -6927,91 +6927,91 @@ msgid "Left-Handed Orientation"
 msgstr "Orijentacija prema lijevo"
 
 #. If no mode is available, we usi "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1024
+#: ../panels/wacom/scsd-wacom-device.c:1024
 msgid "Left Ring"
 msgstr "Lijevi prsten"
 
-#: ../panels/wacom/gsd-wacom-device.c:1035
+#: ../panels/wacom/scsd-wacom-device.c:1035
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Režim lijevog prstena #%d"
 
 #. If no mode is available, we usi "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1055
+#: ../panels/wacom/scsd-wacom-device.c:1055
 msgid "Right Ring"
 msgstr "Desni prsten"
 
-#: ../panels/wacom/gsd-wacom-device.c:1066
+#: ../panels/wacom/scsd-wacom-device.c:1066
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Režim desnog prstena #%d"
 
 #. If no mode is available, we usi "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1108
+#: ../panels/wacom/scsd-wacom-device.c:1108
 msgid "Left Touchstrip"
 msgstr "Lijeva dodirna traka"
 
-#: ../panels/wacom/gsd-wacom-device.c:1119
+#: ../panels/wacom/scsd-wacom-device.c:1119
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Režim lijeve dodirne trake #%d"
 
 #. If no mode is available, we usi "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1139
+#: ../panels/wacom/scsd-wacom-device.c:1139
 msgid "Right Touchstrip"
 msgstr "Desna dodirna traka"
 
-#: ../panels/wacom/gsd-wacom-device.c:1150
+#: ../panels/wacom/scsd-wacom-device.c:1150
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Režim desne dodirne trake #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1176
+#: ../panels/wacom/scsd-wacom-device.c:1176
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Režim prekidača lijevog dodirnog prstena"
 
-#: ../panels/wacom/gsd-wacom-device.c:1178
+#: ../panels/wacom/scsd-wacom-device.c:1178
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Režim prekidača desnog dodirnog prstena"
 
-#: ../panels/wacom/gsd-wacom-device.c:1181
+#: ../panels/wacom/scsd-wacom-device.c:1181
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Režim prekidača lijeve dodirne trake"
 
-#: ../panels/wacom/gsd-wacom-device.c:1183
+#: ../panels/wacom/scsd-wacom-device.c:1183
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Režim prekidača desne dodirne trake"
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Režim prekidača #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1296
+#: ../panels/wacom/scsd-wacom-device.c:1296
 #, c-format
 msgid "Left Button #%d"
 msgstr "Lijevo dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1299
+#: ../panels/wacom/scsd-wacom-device.c:1299
 #, c-format
 msgid "Right Button #%d"
 msgstr "Desno dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1302
+#: ../panels/wacom/scsd-wacom-device.c:1302
 #, c-format
 msgid "Top Button #%d"
 msgstr "Gornje dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1305
+#: ../panels/wacom/scsd-wacom-device.c:1305
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Donje dugme #%d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nova prečica…"
 

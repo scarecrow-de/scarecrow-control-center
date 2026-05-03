@@ -5036,67 +5036,67 @@ msgstr ""
 msgid "Left-Handed Orientation"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1010
+#: ../panels/wacom/scsd-wacom-device.c:1010
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1019
+#: ../panels/wacom/scsd-wacom-device.c:1019
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1049
+#: ../panels/wacom/scsd-wacom-device.c:1049
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1058
+#: ../panels/wacom/scsd-wacom-device.c:1058
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1075
+#: ../panels/wacom/scsd-wacom-device.c:1075
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1077
+#: ../panels/wacom/scsd-wacom-device.c:1077
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1080
+#: ../panels/wacom/scsd-wacom-device.c:1080
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1082
+#: ../panels/wacom/scsd-wacom-device.c:1082
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1087
+#: ../panels/wacom/scsd-wacom-device.c:1087
 #, c-format
 msgid "Mode Switch #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1159
+#: ../panels/wacom/scsd-wacom-device.c:1159
 #, c-format
 msgid "Left Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1162
+#: ../panels/wacom/scsd-wacom-device.c:1162
 #, c-format
 msgid "Right Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1165
+#: ../panels/wacom/scsd-wacom-device.c:1165
 #, c-format
 msgid "Top Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1168
+#: ../panels/wacom/scsd-wacom-device.c:1168
 #, c-format
 msgid "Bottom Button #%d"
 msgstr ""

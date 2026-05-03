@@ -1,5 +1,5 @@
 /*
- * gsd-wacom-key-shortcut-button.h
+ * scsd-wacom-key-shortcut-button.h
  *
  * Copyright © 2013 Red Hat, Inc.
  *
@@ -25,11 +25,11 @@
 
 G_BEGIN_DECLS
 
-#define GSD_WACOM_TYPE_KEY_SHORTCUT_BUTTON (gsd_wacom_key_shortcut_button_get_type ())
-G_DECLARE_FINAL_TYPE (GsdWacomKeyShortcutButton, gsd_wacom_key_shortcut_button, GSD, WACOM_KEY_SHORTCUT_BUTTON, GtkButton)
+#define GSD_WACOM_TYPE_KEY_SHORTCUT_BUTTON (scsd_wacom_key_shortcut_button_get_type ())
+G_DECLARE_FINAL_TYPE (GsdWacomKeyShortcutButton, scsd_wacom_key_shortcut_button, GSD, WACOM_KEY_SHORTCUT_BUTTON, GtkButton)
 
-GType gsd_wacom_key_shortcut_button_mode_type (void) G_GNUC_CONST;
-#define GSD_WACOM_TYPE_KEY_SHORTCUT_BUTTON_MODE (gsd_wacom_key_shortcut_button_mode_type ())
+GType scsd_wacom_key_shortcut_button_mode_type (void) G_GNUC_CONST;
+#define GSD_WACOM_TYPE_KEY_SHORTCUT_BUTTON_MODE (scsd_wacom_key_shortcut_button_mode_type ())
 
 typedef enum
 {
@@ -37,4 +37,4 @@ typedef enum
   GSD_WACOM_KEY_SHORTCUT_BUTTON_MODE_ALL
 } GsdWacomKeyShortcutButtonMode;
 
-GtkWidget    * gsd_wacom_key_shortcut_button_new             (void);
+GtkWidget    * scsd_wacom_key_shortcut_button_new             (void);

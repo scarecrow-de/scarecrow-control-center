@@ -7922,7 +7922,7 @@ msgstr "Ajustar los paramètres de la mirga"
 msgid "Adjust display resolution"
 msgstr "Ajustar la definicion de l'ecran"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Acorchi novèl…"
 

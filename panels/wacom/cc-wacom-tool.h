@@ -21,7 +21,7 @@
 #pragma once
 
 #include "config.h"
-#include "gsd-device-manager.h"
+#include "scsd-device-manager.h"
 #include "cc-wacom-device.h"
 #include <glib.h>
 

@@ -7992,7 +7992,7 @@ msgstr "ディスプレイの解像度を調整"
 msgid "Decouple Display"
 msgstr ""
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "新しいショートカット…"
 

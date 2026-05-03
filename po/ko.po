@@ -7934,7 +7934,7 @@ msgstr "디스플레이 해상도 조절하기"
 msgid "Decouple Display"
 msgstr "디스플레이 분리"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "새 바로 가기…"
 

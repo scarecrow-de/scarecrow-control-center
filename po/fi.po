@@ -7988,7 +7988,7 @@ msgstr "Säädä näytön tarkkuutta"
 msgid "Decouple Display"
 msgstr "Kytke näyttö irti"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Uusi pikanäppäin…"
 

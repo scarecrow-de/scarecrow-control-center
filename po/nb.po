@@ -1127,7 +1127,7 @@ msgstr "Forvalgt grå"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Kalibreringsdata fra fabrikken levert av forhandler"
+msgstr "Kalibrerinscsdata fra fabrikken levert av forhandler"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -4183,7 +4183,7 @@ msgstr ""
 #: panels/notifications/cc-app-notifications-dialog.ui:249
 msgctxt "notifications"
 msgid "Show Message _Content in Popups"
-msgstr "Vis meldings_innhold i varslingsdialoger"
+msgstr "Vis meldings_innhold i varslinscsdialoger"
 
 #: panels/notifications/cc-app-notifications-dialog.ui:300
 msgctxt "notifications"
@@ -7900,7 +7900,7 @@ msgstr "Juster skjermoppløsing"
 msgid "Decouple Display"
 msgstr "Koble fra skjerm"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Ny snarvei …"
 

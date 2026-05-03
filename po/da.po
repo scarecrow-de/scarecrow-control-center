@@ -1152,7 +1152,7 @@ msgstr "Standard-grå"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Fabrikskalibreringsdata fra forhandler"
+msgstr "Fabrikskalibrerinscsdata fra forhandler"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -7956,7 +7956,7 @@ msgstr "Justér skærmopløsning"
 msgid "Decouple Display"
 msgstr "Afkobl skærm"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Ny genvej …"
 

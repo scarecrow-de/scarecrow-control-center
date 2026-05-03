@@ -6895,7 +6895,7 @@ msgstr "ട്രാക്കിങ് മോഡ്"
 msgid "Left-Handed Orientation"
 msgstr "ഇടതു് വശത്തുള്ള സംവേദനം"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "പുതിയ കുറുക്കുവഴി..."
 

@@ -8053,7 +8053,7 @@ msgstr "Ajuster la définition de l’écran"
 msgid "Decouple Display"
 msgstr "Découpler l’affichage"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nouveau raccourci…"
 

@@ -7260,7 +7260,7 @@ msgstr "Режим на следене"
 msgid "Left-Handed Orientation"
 msgstr "Ориентация за лява ръка"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Нова клавишна комбинация…"
 

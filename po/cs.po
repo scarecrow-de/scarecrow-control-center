@@ -8011,7 +8011,7 @@ msgstr "Přizpůsobit rozlišení displeje"
 msgid "Decouple Display"
 msgstr "Rozdělit displej"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nová klávesová zkratka…"
 

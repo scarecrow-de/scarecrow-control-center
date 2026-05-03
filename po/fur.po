@@ -7963,7 +7963,7 @@ msgstr "Juste la risoluzion dal visôr"
 msgid "Decouple Display"
 msgstr "Discubie i visôrs"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Gnove scurte…"
 

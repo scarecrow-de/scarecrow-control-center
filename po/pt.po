@@ -8000,7 +8000,7 @@ msgstr "Ajustar a resolução do ecrã"
 msgid "Decouple Display"
 msgstr "Descolar ecrãs"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novo atalho…"
 

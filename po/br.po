@@ -6771,93 +6771,93 @@ msgid "Left-Handed Orientation"
 msgstr ""
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1062
+#: ../panels/wacom/scsd-wacom-device.c:1062
 #, fuzzy
 msgid "Left Ring"
 msgstr "Biz bizoù kleiz"
 
-#: ../panels/wacom/gsd-wacom-device.c:1073
+#: ../panels/wacom/scsd-wacom-device.c:1073
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1093
+#: ../panels/wacom/scsd-wacom-device.c:1093
 #, fuzzy
 msgid "Right Ring"
 msgstr "Biz bizoù dehou"
 
-#: ../panels/wacom/gsd-wacom-device.c:1104
+#: ../panels/wacom/scsd-wacom-device.c:1104
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1146
+#: ../panels/wacom/scsd-wacom-device.c:1146
 msgid "Left Touchstrip"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1157
+#: ../panels/wacom/scsd-wacom-device.c:1157
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1177
+#: ../panels/wacom/scsd-wacom-device.c:1177
 msgid "Right Touchstrip"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1188
+#: ../panels/wacom/scsd-wacom-device.c:1188
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1214
+#: ../panels/wacom/scsd-wacom-device.c:1214
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1216
+#: ../panels/wacom/scsd-wacom-device.c:1216
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1219
+#: ../panels/wacom/scsd-wacom-device.c:1219
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1221
+#: ../panels/wacom/scsd-wacom-device.c:1221
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1226
+#: ../panels/wacom/scsd-wacom-device.c:1226
 #, c-format
 msgid "Mode Switch #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1334
+#: ../panels/wacom/scsd-wacom-device.c:1334
 #, c-format
 msgid "Left Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1337
+#: ../panels/wacom/scsd-wacom-device.c:1337
 #, c-format
 msgid "Right Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1340
+#: ../panels/wacom/scsd-wacom-device.c:1340
 #, c-format
 msgid "Top Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-device.c:1343
+#: ../panels/wacom/scsd-wacom-device.c:1343
 #, c-format
 msgid "Bottom Button #%d"
 msgstr ""
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Berradenn nevez..."
 

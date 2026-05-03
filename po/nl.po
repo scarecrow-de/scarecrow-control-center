@@ -6651,7 +6651,7 @@ msgstr "Lang"
 
 #: panels/universal-access/cc-ua-panel.ui:2817
 msgid "Motion _threshold:"
-msgstr "Be_wegingsdrempel:"
+msgstr "Be_weginscsdrempel:"
 
 #: panels/universal-access/cc-ua-panel.ui:2839
 msgctxt "dwell click threshold"
@@ -8062,7 +8062,7 @@ msgstr "Beeldschermresolutie aanpassen"
 msgid "Decouple Display"
 msgstr "Scherm ontkoppelen"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nieuwe sneltoets…"
 
@@ -8185,7 +8185,7 @@ msgid ""
 "may experience incorrect system behavior, data loss, and other unexpected "
 "issues. "
 msgstr ""
-"Deze versie van Instellingen moet alleen voor ontwikkelingsdoeleinden "
+"Deze versie van Instellingen moet alleen voor ontwikkelinscsdoeleinden "
 "gebruikt worden. U kunt onjuist systeemgedrag, gegevensverlies en andere "
 "onverwachte problemen tegenkomen. "
 

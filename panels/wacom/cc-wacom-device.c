@@ -139,7 +139,7 @@ cc_wacom_device_initable_init (GInitable     *initable,
 	const gchar *node_path;
 
 	wacom_db = cc_wacom_device_database_get ();
-	node_path = gsd_device_get_device_file (device->device);
+	node_path = scsd_device_get_device_file (device->device);
 	device->wdevice = libwacom_new_from_path (wacom_db, node_path, FALSE, NULL);
 
 	if (!device->wdevice) {
@@ -239,7 +239,7 @@ cc_wacom_device_get_settings (CcWacomDevice *device)
 {
 	g_return_val_if_fail (CC_IS_WACOM_DEVICE (device), NULL);
 
-	return gsd_device_get_settings (device->device);
+	return scsd_device_get_settings (device->device);
 }
 
 const gint *

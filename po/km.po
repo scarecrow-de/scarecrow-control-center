@@ -5198,67 +5198,67 @@ msgstr "របៀប​តាមដាន"
 msgid "Left-Handed Orientation"
 msgstr "ទិស​ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1010
+#: ../panels/wacom/scsd-wacom-device.c:1010
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "របៀប​រង្វង់​ខាងឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1019
+#: ../panels/wacom/scsd-wacom-device.c:1019
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "របៀប​រង្វង់​ខាង​ស្ដាំ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1049
+#: ../panels/wacom/scsd-wacom-device.c:1049
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាង​ឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1058
+#: ../panels/wacom/scsd-wacom-device.c:1058
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាង​ស្ដាំ#%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1075
+#: ../panels/wacom/scsd-wacom-device.c:1075
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ប្ដូរ​​របៀប Touchring ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1077
+#: ../panels/wacom/scsd-wacom-device.c:1077
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchring ខាង​ស្ដាំ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1080
+#: ../panels/wacom/scsd-wacom-device.c:1080
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ឆ្វេង"
 
-#: ../panels/wacom/gsd-wacom-device.c:1082
+#: ../panels/wacom/scsd-wacom-device.c:1082
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ស្ដាំ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1087
+#: ../panels/wacom/scsd-wacom-device.c:1087
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ប្ដូរ​របៀប #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1159
+#: ../panels/wacom/scsd-wacom-device.c:1159
 #, c-format
 msgid "Left Button #%d"
 msgstr "ប៊ូតុង​ឆ្វេង #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1162
+#: ../panels/wacom/scsd-wacom-device.c:1162
 #, c-format
 msgid "Right Button #%d"
 msgstr "ប៊ូតុង​ស្ដាំ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1165
+#: ../panels/wacom/scsd-wacom-device.c:1165
 #, c-format
 msgid "Top Button #%d"
 msgstr "ប៊ូតុង​ខាង​លើ #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1168
+#: ../panels/wacom/scsd-wacom-device.c:1168
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ប៊ូតុង​ខាងក្រោម #%d"

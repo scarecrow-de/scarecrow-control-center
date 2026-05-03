@@ -7217,7 +7217,7 @@ msgstr "Mode de seguiment"
 msgid "Left-Handed Orientation"
 msgstr "Orientació d'esquerrans"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Drecera nova…"
 

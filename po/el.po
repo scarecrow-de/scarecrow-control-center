@@ -8133,7 +8133,7 @@ msgstr "Καθορισμός ανάλυσης οθόνης"
 msgid "Decouple Display"
 msgstr "Α_νίχνευση οθονών"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Νέα συντόμευση…"
 

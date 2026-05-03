@@ -47,7 +47,7 @@ common_sources = files(
   'cc-wacom-page.c',
   'cc-wacom-stylus-page.c',
   'cc-wacom-tool.c',
-  'gsd-wacom-key-shortcut-button.c'
+  'scsd-wacom-key-shortcut-button.c'
 )
 
 resource_data = files(

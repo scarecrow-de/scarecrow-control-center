@@ -7146,91 +7146,91 @@ msgstr "Sol Elle Kullanım Yerleşimi"
 
 # tüklü
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1078
+#: ../panels/wacom/scsd-wacom-device.c:1078
 msgid "Left Ring"
 msgstr "Sol Alqa"
 
 # tüklü
-#: ../panels/wacom/gsd-wacom-device.c:1089
+#: ../panels/wacom/scsd-wacom-device.c:1089
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Sol Alqa Tarzı #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1109
+#: ../panels/wacom/scsd-wacom-device.c:1109
 msgid "Right Ring"
 msgstr "Oñ Alqa"
 
-#: ../panels/wacom/gsd-wacom-device.c:1120
+#: ../panels/wacom/scsd-wacom-device.c:1120
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Oñ Alqa Tarzı #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1162
+#: ../panels/wacom/scsd-wacom-device.c:1162
 msgid "Left Touchstrip"
 msgstr "Sol Tiyüv Şeriti"
 
-#: ../panels/wacom/gsd-wacom-device.c:1173
+#: ../panels/wacom/scsd-wacom-device.c:1173
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Sol Tiyüv Şeriti Tarzı #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1193
+#: ../panels/wacom/scsd-wacom-device.c:1193
 msgid "Right Touchstrip"
 msgstr "Oñ Tiyüv Şeriti"
 
-#: ../panels/wacom/gsd-wacom-device.c:1204
+#: ../panels/wacom/scsd-wacom-device.c:1204
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Oñ Tiyüv Şeriti Tarzı #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1230
+#: ../panels/wacom/scsd-wacom-device.c:1230
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Sol Tiyüv Alqası Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1232
+#: ../panels/wacom/scsd-wacom-device.c:1232
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Oñ Tiyüv Alqası Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1235
+#: ../panels/wacom/scsd-wacom-device.c:1235
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Sol Tiyüv Şeriti Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1237
+#: ../panels/wacom/scsd-wacom-device.c:1237
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Oñ Tiyüv Şeriti Tarzı Almaştırğıçı"
 
-#: ../panels/wacom/gsd-wacom-device.c:1242
+#: ../panels/wacom/scsd-wacom-device.c:1242
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Tarz Almaştırğıçı #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1351
+#: ../panels/wacom/scsd-wacom-device.c:1351
 #, c-format
 msgid "Left Button #%d"
 msgstr "Sol Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1354
+#: ../panels/wacom/scsd-wacom-device.c:1354
 #, c-format
 msgid "Right Button #%d"
 msgstr "Sağ Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1357
+#: ../panels/wacom/scsd-wacom-device.c:1357
 #, c-format
 msgid "Top Button #%d"
 msgstr "Üst Düğme #%d"
 
 # tr
-#: ../panels/wacom/gsd-wacom-device.c:1360
+#: ../panels/wacom/scsd-wacom-device.c:1360
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Alt Düğme #%d"

@@ -8033,7 +8033,7 @@ msgstr "Ajustare rezoluție afișaj"
 msgid "Decouple Display"
 msgstr "Decuplează afișajul"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Scurtătură nouă…"
 

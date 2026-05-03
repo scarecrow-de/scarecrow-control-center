@@ -8018,7 +8018,7 @@ msgstr "Axustar a resolución do monitor"
 msgid "Decouple Display"
 msgstr "Desacoplar pantallas"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Novo atallo…"
 

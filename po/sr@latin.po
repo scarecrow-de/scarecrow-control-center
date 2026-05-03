@@ -7321,7 +7321,7 @@ msgstr "Režim praćenja"
 msgid "Left-Handed Orientation"
 msgstr "Levoruko usmerenje"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nova prečica…"
 

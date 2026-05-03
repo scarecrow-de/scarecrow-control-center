@@ -1134,7 +1134,7 @@ msgstr "Standardgrå"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Kalibreringsdata tillhandahållen av tillverkare"
+msgstr "Kalibrerinscsdata tillhandahållen av tillverkare"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -7950,7 +7950,7 @@ msgstr "Justera skärmupplösning"
 msgid "Decouple Display"
 msgstr "Frikoppla skärm"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nytt kortkommando…"
 
@@ -8329,7 +8329,7 @@ msgstr "Systemljud"
 #~ msgstr "Läs/ändra delade kontakter i Ubuntu Unity 8"
 
 #~ msgid "Access energy usage data"
-#~ msgstr "Kom åt energianvändningsdata"
+#~ msgstr "Kom åt energianvändninscsdata"
 
 #~ msgid "Read/write access to U2F devices exposed"
 #~ msgstr "Läs/skrivåtkomst till exponerade U2F-enheter"

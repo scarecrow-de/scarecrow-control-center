@@ -6944,91 +6944,91 @@ msgid "Left-Handed Orientation"
 msgstr "Orientación ta zurdos"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1028
+#: ../panels/wacom/scsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "Aniello cucho"
 
-#: ../panels/wacom/gsd-wacom-device.c:1039
+#: ../panels/wacom/scsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Modo de l'aniello cucho nº %d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1059
+#: ../panels/wacom/scsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "Aniello dreito"
 
-#: ../panels/wacom/gsd-wacom-device.c:1070
+#: ../panels/wacom/scsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Modo de l'aniello dreito nº %d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1112
+#: ../panels/wacom/scsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "Banda tactil cucha"
 
-#: ../panels/wacom/gsd-wacom-device.c:1123
+#: ../panels/wacom/scsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Modo d'a banda tactil cucha nº %d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1143
+#: ../panels/wacom/scsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "Banda tactil dreita"
 
-#: ../panels/wacom/gsd-wacom-device.c:1154
+#: ../panels/wacom/scsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Modo d'a banda tactil dreita nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1180
+#: ../panels/wacom/scsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Modo de cambeo de l'aniello tactil cucho"
 
-#: ../panels/wacom/gsd-wacom-device.c:1182
+#: ../panels/wacom/scsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Modo de cambeo de l'aniello tactil dreito"
 
-#: ../panels/wacom/gsd-wacom-device.c:1185
+#: ../panels/wacom/scsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Modo de cambeo d'a banda tactil cucha"
 
-#: ../panels/wacom/gsd-wacom-device.c:1187
+#: ../panels/wacom/scsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Modo de cambeo d'a banda tactil dreita"
 
-#: ../panels/wacom/gsd-wacom-device.c:1192
+#: ../panels/wacom/scsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Modo de cambeo nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1300
+#: ../panels/wacom/scsd-wacom-device.c:1300
 #, c-format
 msgid "Left Button #%d"
 msgstr "Botón cucho nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1303
+#: ../panels/wacom/scsd-wacom-device.c:1303
 #, c-format
 msgid "Right Button #%d"
 msgstr "Botón dreito nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1306
+#: ../panels/wacom/scsd-wacom-device.c:1306
 #, c-format
 msgid "Top Button #%d"
 msgstr "Botón superior nº %d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1309
+#: ../panels/wacom/scsd-wacom-device.c:1309
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Botón inferior nº %d"
 
-#: ../panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nuevo alcorce de teclau…"
 

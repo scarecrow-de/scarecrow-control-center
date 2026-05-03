@@ -235,7 +235,7 @@ msgstr "Mikrofon"
 #: panels/applications/cc-applications-panel.ui:151
 #: panels/location/gnome-location-panel.desktop.in.in:3
 msgid "Location Services"
-msgstr "Ortungsdienste"
+msgstr "Ortunscsdienste"
 
 #: panels/applications/cc-applications-panel.ui:157
 #: panels/applications/cc-applications-panel.ui:499
@@ -1162,7 +1162,7 @@ msgstr "Standard-Grau"
 
 #: panels/color/cc-color-profile.c:188
 msgid "Vendor supplied factory calibration data"
-msgstr "Vom Hersteller gelieferte Kalibrierungsdaten"
+msgstr "Vom Hersteller gelieferte Kalibrierunscsdaten"
 
 #: panels/color/cc-color-profile.c:197
 msgid "Full-screen display correction not possible with this profile"
@@ -1477,7 +1477,7 @@ msgstr "Zeitzone a_utomatisch ermitteln"
 
 #: panels/datetime/cc-datetime-panel.ui:255
 msgid "Requires location services enabled and internet access"
-msgstr "Erfordert aktivierte Ortungsdienste und eine Internetverbindung"
+msgstr "Erfordert aktivierte Ortunscsdienste und eine Internetverbindung"
 
 #: panels/datetime/cc-datetime-panel.ui:270
 msgid "Time Z_one"
@@ -2351,7 +2351,7 @@ msgid ""
 "Location services allow applications to know your location. Using Wi-Fi and "
 "mobile broadband increases accuracy."
 msgstr ""
-"Ortungsdienste ermöglichen Anwendungen, Ihre geografische Position zu "
+"Ortunscsdienste ermöglichen Anwendungen, Ihre geografische Position zu "
 "kennen. Die Verwendung von WLAN oder mobilem Breitband erhöht die "
 "Genauigkeit."
 
@@ -2360,7 +2360,7 @@ msgid ""
 "Uses Mozilla Location Service: <a href='https://location.services.mozilla."
 "com/privacy'>Privacy Policy</a>"
 msgstr ""
-"Verwendet den Mozilla-Ortungsdienst: <a href='https://location.services."
+"Verwendet den Mozilla-Ortunscsdienst: <a href='https://location.services."
 "mozilla.com/privacy'>Regeln zum Schutz der Privatsphäre</a>"
 
 #: panels/location/cc-location-panel.ui:93
@@ -4870,7 +4870,7 @@ msgid ""
 "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
 "PPD.GZ)"
 msgstr ""
-"PostScript-Druckerbeschreibungsdateien (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PostScript-Druckerbeschreibunscsdateien (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
 "PPD.GZ)"
 
 #: panels/printers/pp-details-dialog.ui:68 panels/printers/printer-entry.ui:223
@@ -8059,7 +8059,7 @@ msgstr "Die Bildschirmauflösung anpassen"
 msgid "Decouple Display"
 msgstr "Bildschirm entkoppeln"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Neue Tastenkombination …"
 
@@ -8445,7 +8445,7 @@ msgstr "Systemklänge"
 #~ msgstr "Geteilte Kontakte in Ubuntu Unity 8 lesen/ändern"
 
 #~ msgid "Access energy usage data"
-#~ msgstr "Energienutzungsdaten abrufen"
+#~ msgstr "Energienutzunscsdaten abrufen"
 
 #~ msgid "Read/write access to U2F devices exposed"
 #~ msgstr "Lese-/Schreibzugriff auf offengelegte U2F-Geräte"
@@ -8794,7 +8794,7 @@ msgstr "Systemklänge"
 #~ msgstr "_Mikrofon"
 
 #~ msgid "_Location Services"
-#~ msgstr "_Ortungsdienste"
+#~ msgstr "_Ortunscsdienste"
 
 #~ msgid "Protect your personal information and control what others might see"
 #~ msgstr ""

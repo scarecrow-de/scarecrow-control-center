@@ -8458,7 +8458,7 @@ msgstr "Танзими хусусиятҳои муш"
 msgid "Adjust display resolution"
 msgstr "Танзими возеҳии дисплей"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Миёнбури нав"
 

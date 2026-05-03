@@ -7517,7 +7517,7 @@ msgstr "Рэжым адсочвання перамяшчэнняў"
 msgid "Left-Handed Orientation"
 msgstr "Арыентацыя на ляўшу"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Новы клавіятурны скарот..."
 

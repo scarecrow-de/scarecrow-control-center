@@ -7994,7 +7994,7 @@ msgstr "Kijelző felbontásának módosítása"
 msgid "Decouple Display"
 msgstr "Kijelző párosításának megszüntetése"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Új gyorsbillentyű…"
 

@@ -8259,7 +8259,7 @@ msgstr "প্রদর্শন রিজোলিউশন সামঞ্জ�
 msgid "Decouple Display"
 msgstr "ডিসপ্লে ভাগ করুন"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "নতুন শর্টকাট…"
 

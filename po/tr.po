@@ -7963,7 +7963,7 @@ msgstr "Görüntü çözünürlüğünü ayarla"
 msgid "Decouple Display"
 msgstr "Ekranı Ayır"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Yeni kısayol…"
 

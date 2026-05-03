@@ -223,10 +223,10 @@ static gchar *
 get_device_key (CcWacomDevice *device)
 {
 	const gchar *vendor, *product;
-	GsdDevice *gsd_device;
+	GsdDevice *scsd_device;
 
-	gsd_device = cc_wacom_device_get_device (device);
-	gsd_device_get_device_ids (gsd_device, &vendor, &product);
+	scsd_device = cc_wacom_device_get_device (device);
+	scsd_device_get_device_ids (scsd_device, &vendor, &product);
 
 	return g_strdup_printf ("%s:%s", vendor, product);
 }

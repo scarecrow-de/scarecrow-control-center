@@ -7852,7 +7852,7 @@ msgstr "Breyta stillingum músar"
 msgid "Adjust display resolution"
 msgstr "Stilla skjáupplausn"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Nýr flýtilykill..."
 

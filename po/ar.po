@@ -7807,7 +7807,7 @@ msgstr "اضبط إعدادات الفأرة"
 msgid "Adjust display resolution"
 msgstr "اضبط ميز الشاشة"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "اختصار جديد…"
 

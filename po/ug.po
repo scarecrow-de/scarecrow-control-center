@@ -6609,86 +6609,86 @@ msgid "Left-Handed Orientation"
 msgstr "سول قول يۆنىلىش"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1076
+#: ../panels/wacom/scsd-wacom-device.c:1076
 msgid "Left Ring"
 msgstr "سول نامسىز بارماق"
 
-#: ../panels/wacom/gsd-wacom-device.c:1086
+#: ../panels/wacom/scsd-wacom-device.c:1086
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "سول نامسىز بارماق ھالىتى #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1105
+#: ../panels/wacom/scsd-wacom-device.c:1105
 msgid "Right Ring"
 msgstr "ئوڭ نامسىز بارماق"
 
-#: ../panels/wacom/gsd-wacom-device.c:1115
+#: ../panels/wacom/scsd-wacom-device.c:1115
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "ئوڭ نامسىز بارماق ھالىتى #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1156
+#: ../panels/wacom/scsd-wacom-device.c:1156
 msgid "Left Touchstrip"
 msgstr "سول Touchstrip"
 
-#: ../panels/wacom/gsd-wacom-device.c:1166
+#: ../panels/wacom/scsd-wacom-device.c:1166
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "سول Touchstrip ھالىتى #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../panels/wacom/gsd-wacom-device.c:1185
+#: ../panels/wacom/scsd-wacom-device.c:1185
 msgid "Right Touchstrip"
 msgstr "ئوڭ Touchstrip"
 
-#: ../panels/wacom/gsd-wacom-device.c:1195
+#: ../panels/wacom/scsd-wacom-device.c:1195
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "ئوڭ Touchstrip ھالىتى #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1220
+#: ../panels/wacom/scsd-wacom-device.c:1220
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "سول Touchstrip ھالەت ئالماشتۇرغۇچ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1222
+#: ../panels/wacom/scsd-wacom-device.c:1222
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ئوڭ Touchstrip ھالەت ئالماشتۇرغۇچ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1225
+#: ../panels/wacom/scsd-wacom-device.c:1225
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "سول Touchstrip ھالەت ئالماشتۇرغۇچ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1227
+#: ../panels/wacom/scsd-wacom-device.c:1227
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ئوڭ Touchstrip ھالەت ئالماشتۇرغۇچ"
 
-#: ../panels/wacom/gsd-wacom-device.c:1232
+#: ../panels/wacom/scsd-wacom-device.c:1232
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ھالەت ئۈزچاتى #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1336
+#: ../panels/wacom/scsd-wacom-device.c:1336
 #, c-format
 msgid "Left Button #%d"
 msgstr "سول توپچا #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1339
+#: ../panels/wacom/scsd-wacom-device.c:1339
 #, c-format
 msgid "Right Button #%d"
 msgstr "ئوڭ توپچا #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1342
+#: ../panels/wacom/scsd-wacom-device.c:1342
 #, c-format
 msgid "Top Button #%d"
 msgstr "ئۈستى توپچا #%d"
 
-#: ../panels/wacom/gsd-wacom-device.c:1345
+#: ../panels/wacom/scsd-wacom-device.c:1345
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ئاستى توپچا #%d"

@@ -7829,7 +7829,7 @@ msgstr "調整顯示解析度"
 msgid "Decouple Display"
 msgstr "去耦顯示器"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "新增快捷鍵…"
 

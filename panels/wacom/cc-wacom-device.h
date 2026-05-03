@@ -24,7 +24,7 @@
 #include <glib-object.h>
 #include <libwacom/libwacom.h>
 
-#include "gsd-device-manager.h"
+#include "scsd-device-manager.h"
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>

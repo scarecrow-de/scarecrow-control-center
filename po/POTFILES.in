@@ -248,7 +248,7 @@ panels/wacom/cc-wacom-panel.c
 panels/wacom/cc-wacom-stylus-page.c
 panels/wacom/gnome-wacom-panel.desktop.in.in
 panels/wacom/gnome-wacom-properties.ui
-panels/wacom/gsd-wacom-key-shortcut-button.c
+panels/wacom/scsd-wacom-key-shortcut-button.c
 panels/wacom/wacom-stylus-page.ui
 shell/appdata/scarecrow-control-center.appdata.xml.in
 shell/cc-application.c

@@ -6153,7 +6153,7 @@ msgstr "Lank"
 
 #: panels/universal-access/uap.ui:2793
 msgid "Motion _threshold:"
-msgstr "_Bewegingsdrempel:"
+msgstr "_Beweginscsdrempel:"
 
 #: panels/universal-access/uap.ui:2815
 msgctxt "dwell click threshold"
@@ -7336,7 +7336,7 @@ msgstr "Opspoormodus"
 msgid "Left-Handed Orientation"
 msgstr "Linkshandige oriëntasie"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:263
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "Nuwe kortpad…"
 

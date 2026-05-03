@@ -24,10 +24,10 @@
 #include <string.h>
 #include <gudev/gudev.h>
 
-#include "gsd-device-manager.h"
-#include "gsd-common-enums.h"
+#include "scsd-device-manager.h"
+#include "scsd-common-enums.h"
 #include "gnome-settings-bus.h"
-#include "gsd-input-helper.h"
+#include "scsd-input-helper.h"
 
 #ifdef GDK_WINDOWING_X11
 #include <gdk/gdkx.h>
@@ -48,7 +48,7 @@ typedef struct
 	guint height;
 } GsdDevicePrivate;
 
-G_DEFINE_TYPE_WITH_PRIVATE (GsdDevice, gsd_device, G_TYPE_OBJECT)
+G_DEFINE_TYPE_WITH_PRIVATE (GsdDevice, scsd_device, G_TYPE_OBJECT)
 
 typedef struct
 {
@@ -87,22 +87,22 @@ const gchar *udev_ids[] = {
 
 static guint signals[N_SIGNALS] = { 0 };
 
-G_DEFINE_TYPE_WITH_PRIVATE (GsdDeviceManager, gsd_device_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE_WITH_PRIVATE (GsdDeviceManager, scsd_device_manager, G_TYPE_OBJECT)
 
 static void
-gsd_device_init (GsdDevice *device)
+scsd_device_init (GsdDevice *device)
 {
 }
 
 static void
-gsd_device_set_property (GObject      *object,
+scsd_device_set_property (GObject      *object,
 			 guint	       prop_id,
 			 const GValue *value,
 			 GParamSpec   *pspec)
 {
 	GsdDevicePrivate *priv;
 
-	priv = gsd_device_get_instance_private (GSD_DEVICE (object));
+	priv = scsd_device_get_instance_private (GSD_DEVICE (object));
 
 	switch (prop_id) {
 	case PROP_NAME:
@@ -136,14 +136,14 @@ gsd_device_set_property (GObject      *object,
 }
 
 static void
-gsd_device_get_property (GObject    *object,
+scsd_device_get_property (GObject    *object,
 			 guint	     prop_id,
 			 GValue	    *value,
 			 GParamSpec *pspec)
 {
 	GsdDevicePrivate *priv;
 
-	priv = gsd_device_get_instance_private (GSD_DEVICE (object));
+	priv = scsd_device_get_instance_private (GSD_DEVICE (object));
 
 	switch (prop_id) {
 	case PROP_NAME:
@@ -177,11 +177,11 @@ gsd_device_get_property (GObject    *object,
 }
 
 static void
-gsd_device_finalize (GObject *object)
+scsd_device_finalize (GObject *object)
 {
 	GsdDevicePrivate *priv;
 
-	priv = gsd_device_get_instance_private (GSD_DEVICE (object));
+	priv = scsd_device_get_instance_private (GSD_DEVICE (object));
 
 	g_free (priv->name);
 	g_free (priv->vendor_id);
@@ -189,17 +189,17 @@ gsd_device_finalize (GObject *object)
 	g_free (priv->device_file);
 	g_free (priv->group);
 
-	G_OBJECT_CLASS (gsd_device_parent_class)->finalize (object);
+	G_OBJECT_CLASS (scsd_device_parent_class)->finalize (object);
 }
 
 static void
-gsd_device_class_init (GsdDeviceClass *klass)
+scsd_device_class_init (GsdDeviceClass *klass)
 {
 	GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-	object_class->set_property = gsd_device_set_property;
-	object_class->get_property = gsd_device_get_property;
-	object_class->finalize = gsd_device_finalize;
+	object_class->set_property = scsd_device_set_property;
+	object_class->get_property = scsd_device_get_property;
+	object_class->finalize = scsd_device_finalize;
 
 	g_object_class_install_property (object_class,
 					 PROP_NAME,
@@ -268,22 +268,22 @@ gsd_device_class_init (GsdDeviceClass *klass)
 }
 
 static void
-gsd_device_manager_finalize (GObject *object)
+scsd_device_manager_finalize (GObject *object)
 {
 	GsdDeviceManager *manager = GSD_DEVICE_MANAGER (object);
-        GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+        GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 
 	g_hash_table_destroy (priv->devices);
 	g_object_unref (priv->udev_client);
 
-	G_OBJECT_CLASS (gsd_device_manager_parent_class)->finalize (object);
+	G_OBJECT_CLASS (scsd_device_manager_parent_class)->finalize (object);
 }
 
 static GList *
-gsd_device_manager_real_list_devices (GsdDeviceManager *manager,
+scsd_device_manager_real_list_devices (GsdDeviceManager *manager,
 				      GsdDeviceType	type)
 {
-        GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+        GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 	GsdDeviceType device_type;
 	GList *devices = NULL;
 	GHashTableIter iter;
@@ -292,7 +292,7 @@ gsd_device_manager_real_list_devices (GsdDeviceManager *manager,
 	g_hash_table_iter_init (&iter, priv->devices);
 
 	while (g_hash_table_iter_next (&iter, NULL, (gpointer *) &device)) {
-		device_type = gsd_device_get_device_type (device);
+		device_type = scsd_device_get_device_type (device);
 
 		if ((device_type & type) == type)
 			devices = g_list_prepend (devices, device);
@@ -302,10 +302,10 @@ gsd_device_manager_real_list_devices (GsdDeviceManager *manager,
 }
 
 static GsdDevice *
-gsd_device_manager_real_lookup_device (GsdDeviceManager *manager,
+scsd_device_manager_real_lookup_device (GsdDeviceManager *manager,
                                        GdkDevice	*gdk_device)
 {
-	GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+	GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 	GdkDisplay *display = gdk_device_get_display (gdk_device);
 	const gchar *node_path = NULL;
 	GHashTableIter iter;
@@ -326,7 +326,7 @@ gsd_device_manager_real_lookup_device (GsdDeviceManager *manager,
 
 	while (g_hash_table_iter_next (&iter, NULL, (gpointer *) &device)) {
 		if (g_strcmp0 (node_path,
-			       gsd_device_get_device_file (device)) == 0) {
+			       scsd_device_get_device_file (device)) == 0) {
 			return device;
 		}
 	}
@@ -335,14 +335,14 @@ gsd_device_manager_real_lookup_device (GsdDeviceManager *manager,
 }
 
 static void
-gsd_device_manager_class_init (GsdDeviceManagerClass *klass)
+scsd_device_manager_class_init (GsdDeviceManagerClass *klass)
 {
 	GsdDeviceManagerClass *manager_class = GSD_DEVICE_MANAGER_CLASS (klass);
 	GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-	object_class->finalize = gsd_device_manager_finalize;
-	manager_class->list_devices = gsd_device_manager_real_list_devices;
-	manager_class->lookup_device = gsd_device_manager_real_lookup_device;
+	object_class->finalize = scsd_device_manager_finalize;
+	manager_class->list_devices = scsd_device_manager_real_list_devices;
+	manager_class->lookup_device = scsd_device_manager_real_lookup_device;
 
 	signals[DEVICE_ADDED] =
 		g_signal_new ("device-added",
@@ -439,7 +439,7 @@ static void
 add_device (GsdDeviceManager *manager,
 	    GUdevDevice	     *udev_device)
 {
-        GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+        GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 	GUdevDevice *parent;
 	GsdDevice *device;
 	const gchar *syspath;
@@ -459,7 +459,7 @@ static void
 remove_device (GsdDeviceManager *manager,
 	       GUdevDevice	*udev_device)
 {
-	GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+	GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 	GsdDevice *device;
 	const gchar *syspath;
 
@@ -492,9 +492,9 @@ udev_event_cb (GUdevClient	*client,
 }
 
 static void
-gsd_device_manager_init (GsdDeviceManager *manager)
+scsd_device_manager_init (GsdDeviceManager *manager)
 {
-        GsdDeviceManagerPrivate *priv = gsd_device_manager_get_instance_private (manager);
+        GsdDeviceManagerPrivate *priv = scsd_device_manager_get_instance_private (manager);
 	const gchar *subsystems[] = { "input", NULL };
 	g_autoptr(GList) devices = NULL;
 	GList *l;
@@ -519,7 +519,7 @@ gsd_device_manager_init (GsdDeviceManager *manager)
 }
 
 GsdDeviceManager *
-gsd_device_manager_get (void)
+scsd_device_manager_get (void)
 {
 	GsdDeviceManager *manager;
 	GdkScreen *screen;
@@ -527,13 +527,13 @@ gsd_device_manager_get (void)
 	screen = gdk_screen_get_default ();
 	g_return_val_if_fail (screen != NULL, NULL);
 
-	manager = g_object_get_data (G_OBJECT (screen), "gsd-device-manager-data");
+	manager = g_object_get_data (G_OBJECT (screen), "scsd-device-manager-data");
 
 	if (!manager) {
                 manager = g_object_new (GSD_TYPE_DEVICE_MANAGER,
                                         NULL);
 
-		g_object_set_data_full (G_OBJECT (screen), "gsd-device-manager-data",
+		g_object_set_data_full (G_OBJECT (screen), "scsd-device-manager-data",
 					manager, (GDestroyNotify) g_object_unref);
 	}
 
@@ -541,7 +541,7 @@ gsd_device_manager_get (void)
 }
 
 GList *
-gsd_device_manager_list_devices (GsdDeviceManager *manager,
+scsd_device_manager_list_devices (GsdDeviceManager *manager,
 				 GsdDeviceType	   type)
 {
 	g_return_val_if_fail (GSD_IS_DEVICE_MANAGER (manager), NULL);
@@ -550,19 +550,19 @@ gsd_device_manager_list_devices (GsdDeviceManager *manager,
 }
 
 GsdDeviceType
-gsd_device_get_device_type (GsdDevice *device)
+scsd_device_get_device_type (GsdDevice *device)
 {
 	GsdDevicePrivate *priv;
 
 	g_return_val_if_fail (GSD_IS_DEVICE (device), 0);
 
-	priv = gsd_device_get_instance_private (device);
+	priv = scsd_device_get_instance_private (device);
 
 	return priv->type;
 }
 
 void
-gsd_device_get_device_ids (GsdDevice	*device,
+scsd_device_get_device_ids (GsdDevice	*device,
 			   const gchar **vendor,
 			   const gchar **product)
 {
@@ -570,7 +570,7 @@ gsd_device_get_device_ids (GsdDevice	*device,
 
 	g_return_if_fail (GSD_IS_DEVICE (device));
 
-	priv = gsd_device_get_instance_private (device);
+	priv = scsd_device_get_instance_private (device);
 
 	if (vendor)
 		*vendor = priv->vendor_id;
@@ -579,7 +579,7 @@ gsd_device_get_device_ids (GsdDevice	*device,
 }
 
 GSettings *
-gsd_device_get_settings (GsdDevice *device)
+scsd_device_get_settings (GsdDevice *device)
 {
 	const gchar *schema = NULL, *vendor, *product;
 	GsdDeviceType type;
@@ -587,10 +587,10 @@ gsd_device_get_settings (GsdDevice *device)
 
 	g_return_val_if_fail (GSD_IS_DEVICE (device), NULL);
 
-	type = gsd_device_get_device_type (device);
+	type = scsd_device_get_device_type (device);
 
 	if (type & (GSD_DEVICE_TYPE_TOUCHSCREEN | GSD_DEVICE_TYPE_TABLET)) {
-		gsd_device_get_device_ids (device, &vendor, &product);
+		scsd_device_get_device_ids (device, &vendor, &product);
 
 		if (type & GSD_DEVICE_TYPE_TOUCHSCREEN) {
 			schema = "io.github.scarecrow_de.desktop.peripherals.touchscreen";
@@ -617,31 +617,31 @@ gsd_device_get_settings (GsdDevice *device)
 }
 
 const gchar *
-gsd_device_get_name (GsdDevice *device)
+scsd_device_get_name (GsdDevice *device)
 {
 	GsdDevicePrivate *priv;
 
 	g_return_val_if_fail (GSD_IS_DEVICE (device), NULL);
 
-	priv = gsd_device_get_instance_private (device);
+	priv = scsd_device_get_instance_private (device);
 
 	return priv->name;
 }
 
 const gchar *
-gsd_device_get_device_file (GsdDevice *device)
+scsd_device_get_device_file (GsdDevice *device)
 {
 	GsdDevicePrivate *priv;
 
 	g_return_val_if_fail (GSD_IS_DEVICE (device), NULL);
 
-	priv = gsd_device_get_instance_private (device);
+	priv = scsd_device_get_instance_private (device);
 
 	return priv->device_file;
 }
 
 gboolean
-gsd_device_get_dimensions (GsdDevice *device,
+scsd_device_get_dimensions (GsdDevice *device,
 			   guint     *width,
 			   guint     *height)
 {
@@ -649,7 +649,7 @@ gsd_device_get_dimensions (GsdDevice *device,
 
 	g_return_val_if_fail (GSD_IS_DEVICE (device), FALSE);
 
-	priv = gsd_device_get_instance_private (device);
+	priv = scsd_device_get_instance_private (device);
 
 	if (width)
 		*width = priv->width;
@@ -660,7 +660,7 @@ gsd_device_get_dimensions (GsdDevice *device,
 }
 
 GsdDevice *
-gsd_device_manager_lookup_gdk_device (GsdDeviceManager *manager,
+scsd_device_manager_lookup_gdk_device (GsdDeviceManager *manager,
 				      GdkDevice	       *gdk_device)
 {
 	GsdDeviceManagerClass *klass;
@@ -676,13 +676,13 @@ gsd_device_manager_lookup_gdk_device (GsdDeviceManager *manager,
 }
 
 gboolean
-gsd_device_shares_group (GsdDevice *device1,
+scsd_device_shares_group (GsdDevice *device1,
 			 GsdDevice *device2)
 {
 	GsdDevicePrivate *priv1, *priv2;
 
-	priv1 = gsd_device_get_instance_private (GSD_DEVICE (device1));
-	priv2 = gsd_device_get_instance_private (GSD_DEVICE (device2));
+	priv1 = scsd_device_get_instance_private (GSD_DEVICE (device1));
+	priv2 = scsd_device_get_instance_private (GSD_DEVICE (device2));
 
 	/* Don't group NULLs together */
 	if (!priv1->group && !priv2->group)

@@ -8144,7 +8144,7 @@ msgstr "ਡਿਸਪਲੇਅ ਰੈਜ਼ੋਲੂਸ਼ਨ ਅਡਜੱਸਟ 
 msgid "Decouple Display"
 msgstr "ਡਿਸਪਲੇਅ ਅੱਡੋ-ਅੱਡ ਕਰੋ"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "...ਨਵਾਂ ਸ਼ਾਰਟਕੱਟ"
 

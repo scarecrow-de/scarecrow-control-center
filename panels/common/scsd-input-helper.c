@@ -28,13 +28,13 @@
 #include <X11/Xatom.h>
 #include <X11/extensions/XInput2.h>
 
-#include "gsd-input-helper.h"
-#include "gsd-device-manager.h"
+#include "scsd-input-helper.h"
+#include "scsd-device-manager.h"
 
 static gboolean
 device_type_is_present (GsdDeviceType type)
 {
-        g_autoptr(GList) l = gsd_device_manager_list_devices (gsd_device_manager_get (),
+        g_autoptr(GList) l = scsd_device_manager_list_devices (scsd_device_manager_get (),
                                                               type);
         return l != NULL;
 }

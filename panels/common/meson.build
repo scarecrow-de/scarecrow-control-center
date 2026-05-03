@@ -2,8 +2,8 @@ common_inc = include_directories('.')
 
 common_sources = []
 
-enums = 'gsd-common-enums'
-enums_header = files('gsd-device-manager.h')
+enums = 'scsd-common-enums'
+enums_header = files('scsd-device-manager.h')
 
 common_sources += gnome.mkenums(
   enums + '.h',
@@ -17,7 +17,7 @@ common_sources += gnome.mkenums(
 common_sources += gnome.mkenums(
   enums + '.c',
   sources: enums_header,
-  fhead: '#include "gsd-device-manager.h"\n#include "gsd-common-enums.h"\n',
+  fhead: '#include "scsd-device-manager.h"\n#include "scsd-common-enums.h"\n',
   fprod: '\n/* enumerations from "@filename@" */',
   vhead: 'GType\n@enum_name@_get_type (void)\n{\n  static GType etype = 0;\n  if (etype == 0) {\n    static const G@Type@Value values[] = {',
   vprod: '      { @VALUENAME@, "@VALUENAME@", "@valuenick@" },',
@@ -84,17 +84,17 @@ liblanguage_dep = declare_dependency(
   link_with: liblanguage
 )
 
-gsd_headers = [
-  'gsd-device-manager.h',
-  'gsd-input-helper.h'
+scsd_headers = [
+  'scsd-device-manager.h',
+  'scsd-input-helper.h'
 ]
 
-gsd_sources = [
-  'gsd-device-manager.c',
-  'gsd-input-helper.c'
+scsd_sources = [
+  'scsd-device-manager.c',
+  'scsd-input-helper.c'
 ]
 
-sources = common_sources + files(gsd_sources)
+sources = common_sources + files(scsd_sources)
 
 deps = common_deps + [ gudev_dep ]
 

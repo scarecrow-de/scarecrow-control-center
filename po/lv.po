@@ -8122,7 +8122,7 @@ msgstr "Pielāgot ekrāna izšķirtspēju"
 msgid "Decouple Display"
 msgstr "Atsaistīt displeju"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Jauna saīsne…"
 

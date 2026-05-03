@@ -7980,7 +7980,7 @@ msgstr "Pritaikyti ekrano raišką"
 msgid "Decouple Display"
 msgstr "Atsieti ekraną"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Naujas trumpinys…"
 

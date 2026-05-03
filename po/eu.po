@@ -7747,7 +7747,7 @@ msgstr "Doitu pantailaren bereizmena"
 msgid "Decouple Display"
 msgstr "Banandu pantaila"
 
-#: panels/wacom/gsd-wacom-key-shortcut-button.c:217
+#: panels/wacom/scsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"
 msgstr "Laster-tekla berria…"
 
