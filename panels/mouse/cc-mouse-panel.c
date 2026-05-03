@@ -386,15 +386,9 @@ cc_mouse_panel_init (CcMousePanel *self)
   cc_mouse_test_get_type ();
   gtk_widget_init_template (GTK_WIDGET (self));
 
-<<<<<<< Updated upstream
   self->mouse_settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.mouse");
   self->gsd_mouse_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
   self->touchpad_settings = g_settings_new ("io.github.scarecrow_de.desktop.peripherals.touchpad");
-=======
-  self->mouse_settings = g_settings_new ("org.gnome.desktop.peripherals.mouse");
-  self->gsd_mouse_settings = g_settings_new ("org.gnome.settings-daemon.peripherals.mouse");
-  self->touchpad_settings = g_settings_new ("org.gnome.desktop.peripherals.touchpad");
->>>>>>> Stashed changes
 
   device_manager = gsd_device_manager_get ();
   g_signal_connect_object (device_manager, "device-added",
