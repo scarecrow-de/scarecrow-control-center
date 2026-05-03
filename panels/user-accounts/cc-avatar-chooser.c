@@ -197,7 +197,7 @@ update_preview (GtkFileChooser               *chooser,
                 if (mime_type) {
                         pixbuf = gnome_desktop_thumbnail_factory_generate_thumbnail (thumb_factory,
                                                                                      uri,
-                                                                                     mime_type, NULL, NULL);
+                                                                                     mime_type);
                         g_free (mime_type);
                 }
 
