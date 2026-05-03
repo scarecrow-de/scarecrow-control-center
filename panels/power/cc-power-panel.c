@@ -23,11 +23,7 @@
 
 #include <libupower-glib/upower.h>
 #include <glib/gi18n.h>
-<<<<<<< Updated upstream
 #include <scarecrow-settings-daemon/scsd-enums.h>
-=======
-#include <scarecrow-settings-daemon/scsd-enums.h>
->>>>>>> Stashed changes
 
 #ifdef HAVE_NETWORK_MANAGER
 #include <NetworkManager.h>
