@@ -114,7 +114,7 @@ struct _CcDateTimePanel
   GtkWidget *timezone_searchentry;
   GtkWidget *year_spinbutton;
 
-  ScarecrowWallClock *clock_tracker;
+  GnomeWallClock *clock_tracker;
 
   Timedate1 *dtm;
   GCancellable *cancellable;

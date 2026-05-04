@@ -52,10 +52,10 @@ GSettings     * cc_wacom_device_get_settings    (CcWacomDevice *device);
 const gint    * cc_wacom_device_get_supported_tools (CcWacomDevice *device,
 						     gint          *n_tools);
 
-ScarecrowRROutput * cc_wacom_device_get_output      (CcWacomDevice *device,
-						 ScarecrowRRScreen *screen);
+GnomeRROutput * cc_wacom_device_get_output      (CcWacomDevice *device,
+						 GnomeRRScreen *screen);
 void            cc_wacom_device_set_output      (CcWacomDevice *wacom_device,
-						 ScarecrowRROutput *monitor);
+						 GnomeRROutput *monitor);
 
 guint           cc_wacom_device_get_num_buttons (CcWacomDevice *wacom_device);
 

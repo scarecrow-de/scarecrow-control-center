@@ -65,7 +65,7 @@ struct _CcInputChooser
   GtkWidget         *no_results;
   GtkAdjustment     *scroll_adjustment;
 
-  ScarecrowXkbInfo      *xkb_info;
+  GnomeXkbInfo      *xkb_info;
   GHashTable        *ibus_engines;
   GHashTable        *locales;
   GHashTable        *locales_by_language;
@@ -1023,7 +1023,7 @@ cc_input_chooser_init (CcInputChooser *self)
 
 CcInputChooser *
 cc_input_chooser_new (gboolean      is_login,
-                      ScarecrowXkbInfo *xkb_info,
+                      GnomeXkbInfo *xkb_info,
                       GHashTable   *ibus_engines)
 {
   CcInputChooser *self;

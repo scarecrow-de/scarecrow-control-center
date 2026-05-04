@@ -42,7 +42,7 @@ struct _CcWacomMappingPanel
 	GtkWidget      *aspectlabel;
 	GtkWidget      *aspectswitch;
 
-	ScarecrowRRScreen  *rr_screen;
+	GnomeRRScreen  *rr_screen;
 };
 
 G_DEFINE_TYPE (CcWacomMappingPanel, cc_wacom_mapping_panel, GTK_TYPE_BOX)
@@ -78,9 +78,9 @@ static void
 update_monitor_chooser (CcWacomMappingPanel *self)
 {
 	g_autoptr(GtkListStore) store = NULL;
-	ScarecrowRROutput **outputs;
+	GnomeRROutput **outputs;
 	GSettings *settings;
-	ScarecrowRROutput *cur_output;
+	GnomeRROutput *cur_output;
 	guint i;
 
 	store = gtk_list_store_new (MONITOR_NUM_COLUMNS, G_TYPE_STRING, G_TYPE_POINTER);
@@ -111,8 +111,8 @@ update_monitor_chooser (CcWacomMappingPanel *self)
 	outputs = gnome_rr_screen_list_outputs (self->rr_screen);
 
 	for (i = 0; outputs[i] != NULL; i++) {
-		ScarecrowRROutput *output = outputs[i];
-		ScarecrowRRCrtc *crtc = gnome_rr_output_get_crtc (output);
+		GnomeRROutput *output = outputs[i];
+		GnomeRRCrtc *crtc = gnome_rr_output_get_crtc (output);
 
 		/* Output is turned on? */
 		if (crtc && gnome_rr_crtc_get_current_mode (crtc) != NULL) {
@@ -161,7 +161,7 @@ update_ui (CcWacomMappingPanel *self)
 static void
 update_mapping (CcWacomMappingPanel *self)
 {
-	ScarecrowRROutput *output = NULL;
+	GnomeRROutput *output = NULL;
 
 	if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (self->checkbutton))) {
 		GtkTreeIter iter;

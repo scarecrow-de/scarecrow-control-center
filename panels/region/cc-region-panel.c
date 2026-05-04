@@ -100,7 +100,7 @@ struct _CcRegionPanel {
         gchar *system_region;
 
         GSettings *input_settings;
-        ScarecrowXkbInfo *xkb_info;
+        GnomeXkbInfo *xkb_info;
 #ifdef HAVE_IBUS
         IBusBus *ibus;
         GHashTable *ibus_engines;
@@ -1184,7 +1184,7 @@ update_modifiers_shortcut (CcRegionPanel *self)
         g_auto(GStrv) options = NULL;
         gchar **p;
         g_autoptr(GSettings) settings = NULL;
-        g_autoptr(ScarecrowXkbInfo) xkb_info = NULL;
+        g_autoptr(GnomeXkbInfo) xkb_info = NULL;
         const gchar *text;
 
         xkb_info = gnome_xkb_info_new ();

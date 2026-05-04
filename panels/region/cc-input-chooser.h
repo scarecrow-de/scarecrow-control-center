@@ -30,7 +30,7 @@ G_BEGIN_DECLS
 G_DECLARE_FINAL_TYPE (CcInputChooser, cc_input_chooser, CC, INPUT_CHOOSER, GtkDialog)
 
 CcInputChooser *cc_input_chooser_new              (gboolean       is_login,
-                                                   ScarecrowXkbInfo  *xkb_info,
+                                                   GnomeXkbInfo  *xkb_info,
                                                    GHashTable     *ibus_engines);
 
 void            cc_input_chooser_set_ibus_engines (CcInputChooser *chooser,

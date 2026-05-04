@@ -61,7 +61,7 @@ G_DEFINE_TYPE (CcKeyboardOption, cc_keyboard_option, G_TYPE_OBJECT);
 
 static guint keyboard_option_signals[LAST_SIGNAL] = { 0 };
 
-static ScarecrowXkbInfo *xkb_info = NULL;
+static GnomeXkbInfo *xkb_info = NULL;
 static GSettings *input_sources_settings = NULL;
 static gchar **current_xkb_options = NULL;
 

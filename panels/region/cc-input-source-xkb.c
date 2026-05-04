@@ -22,7 +22,7 @@ struct _CcInputSourceXkb
 {
   CcInputSource  parent_instance;
 
-  ScarecrowXkbInfo  *xkb_info;
+  GnomeXkbInfo  *xkb_info;
   gchar         *layout;
   gchar         *variant;
 };
@@ -98,7 +98,7 @@ cc_input_source_xkb_init (CcInputSourceXkb *source)
 }
 
 CcInputSourceXkb *
-cc_input_source_xkb_new (ScarecrowXkbInfo *xkb_info,
+cc_input_source_xkb_new (GnomeXkbInfo *xkb_info,
                          const gchar  *layout,
                          const gchar  *variant)
 {
@@ -113,7 +113,7 @@ cc_input_source_xkb_new (ScarecrowXkbInfo *xkb_info,
 }
 
 CcInputSourceXkb *
-cc_input_source_xkb_new_from_id (ScarecrowXkbInfo *xkb_info,
+cc_input_source_xkb_new_from_id (GnomeXkbInfo *xkb_info,
                                  const gchar  *id)
 {
   g_auto(GStrv) tokens = NULL;

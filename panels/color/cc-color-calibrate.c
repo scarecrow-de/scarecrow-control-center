@@ -47,8 +47,8 @@ struct _CcColorCalibrate
   GDBusProxy      *proxy_helper;
   GDBusProxy      *proxy_inhibit;
   GMainLoop       *loop;
-  ScarecrowRROutput   *output;
-  ScarecrowRRScreen   *x11_screen;
+  GnomeRROutput   *output;
+  GnomeRRScreen   *x11_screen;
   GtkBuilder      *builder;
   GtkWindow       *window;
   GtkWidget       *sample_widget;
@@ -148,9 +148,9 @@ cc_color_calibrate_get_profile (CcColorCalibrate *calibrate)
 }
 
 static guint
-_gnome_rr_output_get_gamma_size (ScarecrowRROutput *output)
+_gnome_rr_output_get_gamma_size (GnomeRROutput *output)
 {
-  ScarecrowRRCrtc *crtc;
+  GnomeRRCrtc *crtc;
   gint len = 0;
 
   crtc = gnome_rr_output_get_crtc (output);
@@ -225,7 +225,7 @@ cc_color_calibrate_calib_set_output_gamma (CcColorCalibrate *calibrate,
   CdColorRGB *p2;
   CdColorRGB result;
   gdouble mix;
-  ScarecrowRRCrtc *crtc;
+  GnomeRRCrtc *crtc;
   g_autofree guint16 *blue = NULL;
   g_autofree guint16 *green = NULL;
   g_autofree guint16 *red = NULL;

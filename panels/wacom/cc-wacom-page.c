@@ -293,8 +293,8 @@ calibrate (CcWacomPage *page)
 	gsize ncal;
 	GdkMonitor *monitor;
 	GdkScreen *screen;
-	g_autoptr(ScarecrowRRScreen) rr_screen = NULL;
-	ScarecrowRROutput *output;
+	g_autoptr(GnomeRRScreen) rr_screen = NULL;
+	GnomeRROutput *output;
 	g_autoptr(GError) error = NULL;
 	gint x, y;
 
@@ -640,8 +640,8 @@ decouple_display_toggled_cb (CcWacomPage *page)
 		cc_wacom_device_set_output (page->stylus, NULL);
 	} else {
 		GdkScreen *screen;
-		ScarecrowRRScreen *rr_screen;
-		ScarecrowRROutput **outputs, *picked = NULL;
+		GnomeRRScreen *rr_screen;
+		GnomeRROutput **outputs, *picked = NULL;
 		g_autoptr(GError) error = NULL;
 		int i;
 
