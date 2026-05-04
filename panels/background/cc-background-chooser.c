@@ -237,7 +237,7 @@ on_file_chooser_response_cb (GtkDialog           *filechooser,
 
 static void
 on_file_chooser_selection_changed_cb (GtkFileChooser               *chooser,
-                                      ScarecrowDesktopThumbnailFactory *thumbnail_factory)
+                                      GnomeDesktopThumbnailFactory *thumbnail_factory)
 {
   g_autofree gchar *uri = NULL;
 
@@ -334,7 +334,7 @@ cc_background_chooser_init (CcBackgroundChooser *self)
 void
 cc_background_chooser_select_file (CcBackgroundChooser *self)
 {
-  g_autoptr(ScarecrowDesktopThumbnailFactory) factory = NULL;
+  g_autoptr(GnomeDesktopThumbnailFactory) factory = NULL;
   GtkFileFilter *filter;
   GtkWidget *filechooser;
   GtkWindow *toplevel;
