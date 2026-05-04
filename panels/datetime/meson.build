@@ -16,7 +16,7 @@ i18n.merge_file(
   install_dir: control_center_desktopdir
 )
 
-polkit = 'io.github.scarecrow_de.controlcenter.@0@.policy'.format(cappletname)
+polkit = 'io.github.gnome_de.controlcenter.@0@.policy'.format(cappletname)
 
 i18n.merge_file(
   input: polkit + '.in',
@@ -168,7 +168,7 @@ sources += gnome.gdbus_codegen(
 
 deps = common_deps + [
   gdk_pixbuf_dep,
-  scarecrow_desktop_dep,
+  gnome_desktop_dep,
   polkit_gobject_dep
 ]
 

@@ -44,7 +44,7 @@ sources += gnome.compile_resources(
 
 deps = common_deps + [
   colord_dep,
-  scarecrow_desktop_dep,
+  gnome_desktop_dep,
   m_dep,
   upower_glib_dep
 ]

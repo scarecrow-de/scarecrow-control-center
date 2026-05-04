@@ -33,7 +33,7 @@
 #include "cc-common-language.h"
 #include "cc-util.h"
 
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 struct _CcLanguageChooser {
@@ -68,11 +68,11 @@ language_widget_new (const gchar *locale_id,
         GtkWidget *check;
         GtkWidget *country_label;
 
-        scarecrow_parse_locale (locale_id, &language_code, &country_code, NULL, NULL);
-        language = scarecrow_get_language_from_code (language_code, locale_id);
-        country = scarecrow_get_country_from_code (country_code, locale_id);
-        language_local = scarecrow_get_language_from_code (language_code, NULL);
-        country_local = scarecrow_get_country_from_code (country_code, NULL);
+        gnome_parse_locale (locale_id, &language_code, &country_code, NULL, NULL);
+        language = gnome_get_language_from_code (language_code, locale_id);
+        country = gnome_get_country_from_code (country_code, locale_id);
+        language_local = gnome_get_language_from_code (language_code, NULL);
+        country_local = gnome_get_country_from_code (country_code, NULL);
 
         row = gtk_list_box_row_new ();
 
@@ -177,7 +177,7 @@ add_all_languages (CcLanguageChooser *chooser)
         gchar **locale_ids;
         GHashTable *initial;
 
-        locale_ids = scarecrow_get_all_locales ();
+        locale_ids = gnome_get_all_locales ();
         initial = cc_common_language_get_initial_languages ();
         add_languages (chooser, locale_ids, initial);
         g_hash_table_destroy (initial);
@@ -439,7 +439,7 @@ cc_language_chooser_class_init (CcLanguageChooserClass *klass)
 
         object_class->dispose = cc_language_chooser_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/common/cc-language-chooser.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/common/cc-language-chooser.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcLanguageChooser, select_button);
         gtk_widget_class_bind_template_child (widget_class, CcLanguageChooser, search_bar);

@@ -140,7 +140,7 @@ wm_common_get_current_keybindings (void)
   g_auto(GStrv) results = NULL;
   Atom keybindings_atom;
 
-  keybindings_atom = XInternAtom (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()), "_SCARECROW_WM_KEYBINDINGS", False);
+  keybindings_atom = XInternAtom (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()), "_gnome_WM_KEYBINDINGS", False);
   keybindings = wm_common_get_window_manager_property (keybindings_atom);
 
   if (keybindings)

@@ -19,7 +19,7 @@
 #include <locale.h>
 #include <glib/gi18n.h>
 
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 #include "list-box-helper.h"
@@ -233,7 +233,7 @@ input_source_row_new (CcInputChooser *self,
     {
       const gchar *display_name;
 
-      scarecrow_xkb_info_get_layout_info (self->xkb_info, id, &display_name, NULL, NULL, NULL);
+      gnome_xkb_info_get_layout_info (self->xkb_info, id, &display_name, NULL, NULL, NULL);
 
       row = gtk_list_box_row_new ();
       widget = padded_label_new (display_name,
@@ -744,7 +744,7 @@ maybe_set_as_default (CcInputChooser *self,
 {
   const gchar *type, *id;
 
-  if (!scarecrow_get_input_source_from_locale (info->id, &type, &id))
+  if (!gnome_get_input_source_from_locale (info->id, &type, &id))
     return FALSE;
 
   if (g_str_equal (type, INPUT_SOURCE_TYPE_IBUS) &&
@@ -776,7 +776,7 @@ get_ibus_locale_infos (CcInputChooser *self)
       g_autofree gchar *country_code = NULL;
       const gchar *ibus_locale = ibus_engine_desc_get_language (engine);
 
-      if (scarecrow_parse_locale (ibus_locale, &lang_code, &country_code, NULL, NULL) &&
+      if (gnome_parse_locale (ibus_locale, &lang_code, &country_code, NULL, NULL) &&
           lang_code != NULL &&
           country_code != NULL)
         {
@@ -787,7 +787,7 @@ get_ibus_locale_infos (CcInputChooser *self)
             {
               const gchar *type, *id;
 
-              if (scarecrow_get_input_source_from_locale (locale, &type, &id) &&
+              if (gnome_get_input_source_from_locale (locale, &type, &id) &&
                   g_str_equal (type, INPUT_SOURCE_TYPE_IBUS) &&
                   g_str_equal (id, engine_id))
                 {
@@ -812,7 +812,7 @@ get_ibus_locale_infos (CcInputChooser *self)
           /* Most IBus engines only specify the language so we try to
              add them to all locales for that language. */
 
-          language = scarecrow_get_language_from_code (lang_code, NULL);
+          language = gnome_get_language_from_code (lang_code, NULL);
           if (language)
             locales_for_language = g_hash_table_lookup (self->locales_by_language, language);
           else
@@ -846,7 +846,7 @@ add_locale_to_table (GHashTable  *table,
   GHashTable *set;
   g_autofree gchar *language = NULL;
 
-  language = scarecrow_get_language_from_code (lang_code, NULL);
+  language = gnome_get_language_from_code (lang_code, NULL);
 
   set = g_hash_table_lookup (table, language);
   if (!set)
@@ -885,7 +885,7 @@ get_locale_infos (CcInputChooser *self)
 
   layouts_with_locale = g_hash_table_new (g_str_hash, g_str_equal);
 
-  locale_ids = scarecrow_get_all_locales ();
+  locale_ids = gnome_get_all_locales ();
   for (locale = locale_ids; *locale; ++locale)
     {
       g_autofree gchar *lang_code = NULL;
@@ -896,7 +896,7 @@ get_locale_infos (CcInputChooser *self)
       const gchar *id = NULL;
       g_autoptr(GList) language_layouts = NULL;
 
-      if (!scarecrow_parse_locale (*locale, &lang_code, &country_code, NULL, NULL))
+      if (!gnome_parse_locale (*locale, &lang_code, &country_code, NULL, NULL))
         continue;
 
       if (country_code != NULL)
@@ -909,15 +909,15 @@ get_locale_infos (CcInputChooser *self)
 
       info = g_new0 (LocaleInfo, 1);
       info->id = g_strdup (simple_locale);
-      info->name = scarecrow_get_language_from_locale (simple_locale, NULL);
+      info->name = gnome_get_language_from_locale (simple_locale, NULL);
       info->unaccented_name = cc_util_normalize_casefold_and_unaccent (info->name);
-      tmp = scarecrow_get_language_from_locale (simple_locale, "C");
+      tmp = gnome_get_language_from_locale (simple_locale, "C");
       info->untranslated_name = cc_util_normalize_casefold_and_unaccent (tmp);
 
       g_hash_table_replace (self->locales, g_strdup (simple_locale), info);
       add_locale_to_table (self->locales_by_language, lang_code, info);
 
-      if (scarecrow_get_input_source_from_locale (simple_locale, &type, &id) &&
+      if (gnome_get_input_source_from_locale (simple_locale, &type, &id) &&
           g_str_equal (type, INPUT_SOURCE_TYPE_XKB))
         {
           add_default_row (self, info, type, id);
@@ -930,13 +930,13 @@ get_locale_infos (CcInputChooser *self)
       info->engine_rows_by_id = g_hash_table_new_full (g_str_hash, g_str_equal,
                                                        NULL, g_object_unref);
 
-      language_layouts = scarecrow_xkb_info_get_layouts_for_language (self->xkb_info, lang_code);
+      language_layouts = gnome_xkb_info_get_layouts_for_language (self->xkb_info, lang_code);
       add_rows_to_table (self, info, language_layouts, INPUT_SOURCE_TYPE_XKB, id);
       add_ids_to_set (layouts_with_locale, language_layouts);
 
       if (country_code != NULL)
         {
-          g_autoptr(GList) country_layouts = scarecrow_xkb_info_get_layouts_for_country (self->xkb_info, country_code);
+          g_autoptr(GList) country_layouts = gnome_xkb_info_get_layouts_for_country (self->xkb_info, country_code);
           add_rows_to_table (self, info, country_layouts, INPUT_SOURCE_TYPE_XKB, id);
           add_ids_to_set (layouts_with_locale, country_layouts);
         }
@@ -955,7 +955,7 @@ get_locale_infos (CcInputChooser *self)
   info->engine_rows_by_id = g_hash_table_new_full (g_str_hash, g_str_equal,
                                                    NULL, g_object_unref);
 
-  all_layouts = scarecrow_xkb_info_get_all_layouts (self->xkb_info);
+  all_layouts = gnome_xkb_info_get_all_layouts (self->xkb_info);
   for (l = all_layouts; l; l = l->next)
     if (!g_hash_table_contains (layouts_with_locale, l->data))
       add_row_other (self, INPUT_SOURCE_TYPE_XKB, l->data);
@@ -1000,7 +1000,7 @@ cc_input_chooser_class_init (CcInputChooserClass *klass)
 
   object_class->dispose = cc_input_chooser_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/region/cc-input-chooser.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/region/cc-input-chooser.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcInputChooser, add_button);
   gtk_widget_class_bind_template_child (widget_class, CcInputChooser, filter_entry);

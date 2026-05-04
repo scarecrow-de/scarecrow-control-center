@@ -30,7 +30,7 @@
 #include "cc-sharing-networks.h"
 #include "cc-sharing-switch.h"
 #include "cc-gnome-remote-desktop.h"
-#include "io.github.scarecrow_de.SettingsDaemon.Sharing.h"
+#include "io.github.gnome_de.SettingsDaemon.Sharing.h"
 
 #ifdef GDK_WINDOWING_WAYLAND
 #include <gdk/gdkwayland.h>
@@ -42,9 +42,9 @@ static void cc_sharing_panel_setup_label_with_hostname (CcSharingPanel *self, Gt
 static GtkWidget *cc_sharing_panel_new_media_sharing_row (const char     *uri_or_path,
                                                           CcSharingPanel *self);
 
-#define FILE_SHARING_SCHEMA_ID "io.github.scarecrow_de.desktop.file-sharing"
-#define SCARECROW_REMOTE_DESKTOP_SCHEMA_ID "io.github.scarecrow_de.desktop.remote-desktop"
-#define SCARECROW_REMOTE_DESKTOP_VNC_SCHEMA_ID "io.github.scarecrow_de.desktop.remote-desktop.vnc"
+#define FILE_SHARING_SCHEMA_ID "io.github.gnome_de.desktop.file-sharing"
+#define gnome_REMOTE_DESKTOP_SCHEMA_ID "io.github.gnome_de.desktop.remote-desktop"
+#define gnome_REMOTE_DESKTOP_VNC_SCHEMA_ID "io.github.gnome_de.desktop.remote-desktop.vnc"
 
 typedef enum
 {
@@ -190,7 +190,7 @@ cc_sharing_panel_class_init (CcSharingPanelClass *klass)
 
   panel_class->get_help_uri = cc_sharing_panel_get_help_uri;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sharing/cc-sharing-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/sharing/cc-sharing-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSharingPanel, approve_connections_radiobutton);
   gtk_widget_class_bind_template_child (widget_class, CcSharingPanel, hostname_entry);
@@ -1011,7 +1011,7 @@ on_vnc_password_entry_notify_text (CcSharingPanel *self)
 }
 
 static void
-cc_sharing_panel_setup_screen_sharing_dialog_scarecrow_remote_desktop (CcSharingPanel *self)
+cc_sharing_panel_setup_screen_sharing_dialog_gnome_remote_desktop (CcSharingPanel *self)
 {
   g_autofree gchar *password = NULL;
   g_autoptr(GSettings) vnc_settings = NULL;
@@ -1052,7 +1052,7 @@ cc_sharing_panel_setup_screen_sharing_dialog_scarecrow_remote_desktop (CcSharing
                            G_CONNECT_SWAPPED);
 
   /* Bind settings to widgets */
-  vnc_settings = g_settings_new (SCARECROW_REMOTE_DESKTOP_VNC_SCHEMA_ID);
+  vnc_settings = g_settings_new (gnome_REMOTE_DESKTOP_VNC_SCHEMA_ID);
 
   g_settings_bind (vnc_settings,
                    "view-only",
@@ -1109,21 +1109,21 @@ remote_desktop_name_appeared (GDBusConnection *connection,
   g_bus_unwatch_name (self->remote_desktop_name_watch);
   self->remote_desktop_name_watch = 0;
 
-  cc_sharing_panel_setup_screen_sharing_dialog_scarecrow_remote_desktop (self);
+  cc_sharing_panel_setup_screen_sharing_dialog_gnome_remote_desktop (self);
   gtk_widget_show (self->screen_sharing_row);
 }
 
 static void
 check_remote_desktop_available (CcSharingPanel *self)
 {
-  if (!cc_sharing_panel_check_schema_available (self, SCARECROW_REMOTE_DESKTOP_SCHEMA_ID))
+  if (!cc_sharing_panel_check_schema_available (self, gnome_REMOTE_DESKTOP_SCHEMA_ID))
     return;
 
-  if (!cc_sharing_panel_check_schema_available (self, SCARECROW_REMOTE_DESKTOP_VNC_SCHEMA_ID))
+  if (!cc_sharing_panel_check_schema_available (self, gnome_REMOTE_DESKTOP_VNC_SCHEMA_ID))
     return;
 
   self->remote_desktop_name_watch = g_bus_watch_name (G_BUS_TYPE_SESSION,
-                                                      "io.github.scarecrow_de.Mutter.RemoteDesktop",
+                                                      "io.github.gnome_de.Mutter.RemoteDesktop",
                                                       G_BUS_NAME_WATCHER_FLAGS_NONE,
                                                       remote_desktop_name_appeared,
                                                       NULL,
@@ -1212,8 +1212,8 @@ cc_sharing_panel_init (CcSharingPanel *self)
 
   gsd_sharing_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                  G_DBUS_PROXY_FLAGS_NONE,
-                                 "io.github.scarecrow_de.SettingsDaemon.Sharing",
-                                 "/io/github/scarecrow_de/SettingsDaemon/Sharing",
+                                 "io.github.gnome_de.SettingsDaemon.Sharing",
+                                 "/io/github/gnome_de/SettingsDaemon/Sharing",
                                  cc_panel_get_cancellable (CC_PANEL (self)),
                                  sharing_proxy_ready,
                                  self);

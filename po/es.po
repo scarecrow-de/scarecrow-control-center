@@ -1489,11 +1489,11 @@ msgstr "Cambiar la fecha y la hora, incluyendo la zona horaria"
 msgid "Clock;Timezone;Location;"
 msgstr "Reloj;Zona horaria;Ubicación;"
 
-#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Cambiar la configuración de la hora y la fecha del sistema"
 
-#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Para cambiar la configuración de la fecha o de la hora, debe autenticarse."
@@ -5962,11 +5962,11 @@ msgstr ""
 "compartir;compartición;ssh;equipo;remoto;escritorio:bluetooth;obex;"
 "multimedia;sonido:vídeo;imágenes;fotos;películas;servidor;renderizador;"
 
-#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Activar o desactivar el inicio de sesión remota"
 
-#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Se requiere autenticación para activar o desactivar el inicio de sesión "
@@ -7651,11 +7651,11 @@ msgstr "_Nombre del administrador"
 msgid "Administrator Password"
 msgstr "Contraseña de administrador"
 
-#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Gestionar cuentas de usuario"
 
-#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Se requiere autenticación para cambiar los datos del usuario"
 
@@ -8166,11 +8166,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Cancelar búsqueda"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "El identificador del último panel de Configuración que abrir"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8178,12 +8178,12 @@ msgstr ""
 "El identificador del último panel de Configuración que abrir. Los valores no "
 "reconocidos se ignorarán y se seleccionará el primer panel de la lista."
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Mostrar advertencia al ejecutar una versión de desarrollo de Configuración"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8897,8 +8897,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "io.github.scarecrow_de.Settings"
-#~ msgstr "io.github.scarecrow_de.Settings"
+#~ msgid "io.github.gnome_de.Settings"
+#~ msgstr "io.github.gnome_de.Settings"
 
 #~ msgid "Drag displays to match your setup."
 #~ msgstr "Arrastre las pantallas que coincidan con su configuración."
@@ -13761,8 +13761,8 @@ msgstr "Sonidos del sistema"
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "No se pudo aplicar la configuración seleccionada"
 
-#~ msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
-#~ msgstr "No se pudo obtener io.github.scarecrow_de.SettingsDaemin.XRANDR"
+#~ msgid "Could not get io.github.gnome_de.SettingsDaemon.XRANDR"
+#~ msgstr "No se pudo obtener io.github.gnome_de.SettingsDaemin.XRANDR"
 
 #~ msgid "Screen Resolution"
 #~ msgstr "Resolución de la pantalla"

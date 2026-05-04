@@ -321,7 +321,7 @@ cc_background_xml_load_xml_internal (CcBackgroundXml *xml,
 }
 
 static void
-scarecrow_wp_file_changed (GFileMonitor *monitor,
+gnome_wp_file_changed (GFileMonitor *monitor,
 		       GFile *file,
 		       GFile *other_file,
 		       GFileMonitorEvent event_type,
@@ -361,7 +361,7 @@ cc_background_xml_add_monitor (GFile      *directory,
   }
 
   g_signal_connect (monitor, "changed",
-                    G_CALLBACK (scarecrow_wp_file_changed),
+                    G_CALLBACK (gnome_wp_file_changed),
                     data);
 
   data->monitors = g_slist_prepend (data->monitors, monitor);

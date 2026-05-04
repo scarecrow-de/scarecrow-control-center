@@ -299,14 +299,14 @@ calibrate (CcWacomPage *page)
 	gint x, y;
 
 	screen = gdk_screen_get_default ();
-	rr_screen = scarecrow_rr_screen_new (screen, &error);
+	rr_screen = gnome_rr_screen_new (screen, &error);
 	if (error) {
 		g_warning ("Could not connect to display manager: %s", error->message);
 		return;
 	}
 
 	output = cc_wacom_device_get_output (page->stylus, rr_screen);
-	scarecrow_rr_output_get_position (output, &x, &y);
+	gnome_rr_output_get_position (output, &x, &y);
 	monitor = gdk_display_get_monitor_at_point (gdk_screen_get_display (screen), x, y);
 
 	if (!monitor) {
@@ -414,7 +414,7 @@ show_button_mapping_dialog (CcWacomPage *page)
 	g_assert (page->mapping_builder == NULL);
 	page->mapping_builder = gtk_builder_new ();
 	gtk_builder_add_from_resource (page->mapping_builder,
-                                       "/io/github/scarecrow_de/control-center/wacom/button-mapping.ui",
+                                       "/io/github/gnome_de/control-center/wacom/button-mapping.ui",
                                        &error);
 
 	if (error != NULL) {
@@ -646,13 +646,13 @@ decouple_display_toggled_cb (CcWacomPage *page)
 		int i;
 
 		screen = gtk_widget_get_screen (GTK_WIDGET (WID ("switch-decouple-display")));
-		rr_screen = scarecrow_rr_screen_new (screen, &error);
+		rr_screen = gnome_rr_screen_new (screen, &error);
 		if (rr_screen == NULL) {
 			g_warning ("Could not connect to display manager: %s", error->message);
 			return;
 		}
 
-		outputs = scarecrow_rr_screen_list_outputs (rr_screen);
+		outputs = gnome_rr_screen_list_outputs (rr_screen);
 
 		/* Pick *some* output here. decoupled mode can only jump across
 		 * monitors, not map to the full span of those. We prefer the
@@ -660,7 +660,7 @@ decouple_display_toggled_cb (CcWacomPage *page)
 		 * there's none.
 		 */
 		for (i = 0; outputs[i] != NULL; i++) {
-			if (scarecrow_rr_output_is_builtin_display (outputs[i]))
+			if (gnome_rr_output_is_builtin_display (outputs[i]))
 				picked = outputs[i];
 		}
 
@@ -760,7 +760,7 @@ cc_wacom_page_init (CcWacomPage *page)
 	page->builder = gtk_builder_new ();
 
 	gtk_builder_add_objects_from_resource (page->builder,
-                                               "/io/github/scarecrow_de/control-center/wacom/gnome-wacom-properties.ui",
+                                               "/io/github/gnome_de/control-center/wacom/gnome-wacom-properties.ui",
                                                objects,
                                                &error);
 	if (error != NULL) {
@@ -816,7 +816,7 @@ set_icon_name (CcWacomPage *page,
 {
 	g_autofree gchar *resource = NULL;
 
-	resource = g_strdup_printf ("/io/github/scarecrow_de/control-center/wacom/%s.svg", icon_name);
+	resource = g_strdup_printf ("/io/github/gnome_de/control-center/wacom/%s.svg", icon_name);
 	gtk_image_set_from_resource (GTK_IMAGE (WID (widget_name)), resource);
 }
 

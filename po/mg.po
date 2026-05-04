@@ -3051,179 +3051,179 @@ msgstr "Alehibiazo"
 msgid "Roll up"
 msgstr "Aforeto miakatra"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr ""
 "Raha marina izay voalaza, dia ho tazonina ao anatin'ny sync ireo mpandray an-"
 "tànana mime ho an'ny text/plain and text/*"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr "Ireo mpandray an-tànana ny text/plain and text/* an'ny sync"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
 msgid "E-mail"
 msgstr "Mailaka"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
 msgid "E-mail's shortcut."
 msgstr "Hitsin-dàlan'ny mailaka."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
 msgid "Eject"
 msgstr "Tsoahy"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
 msgid "Eject's shortcut."
 msgstr "Hitsin-dàlan'ny Tsoahy."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
 msgid "Home folder"
 msgstr "Laha-tahirin'ny fandraisana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
 msgid "Home folder's shortcut."
 msgstr "Hitsin-dàlan'ny laha-tahirin'ny fandraisana."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
 msgid "Launch help browser"
 msgstr "Alefaso ny mpizaha toro-làlana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
 msgid "Launch help browser's shortcut."
 msgstr "Hitsin-dàlan'ny Alefaso ny mpizaha toro-làlana."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
 msgid "Launch web browser"
 msgstr "Alefaso ny mpitety tranonkala"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
 msgid "Launch web browser's shortcut."
 msgstr "Hitsin-dàlan'ny Alefaso ny mpitety tranonkala."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
 msgid "Lock screen"
 msgstr "Gejao ny efijery"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
 msgid "Lock screen's shortcut."
 msgstr "Hitsin-dàlan'ny Gejao ny efijery."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
 msgid "Log out"
 msgstr "Hivoaka"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
 msgid "Log out's shortcut."
 msgstr "Hitsin-dàlan'ny Hivoaka."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
 msgid "Next track key's shortcut."
 msgstr "Hitsin-dàlan'ny tsindry Manaraka."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
 msgid "Pause"
 msgstr "Miato"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
 msgid "Pause key's shortcut."
 msgstr "Hitsin-dàlan'ny tsindry Miato."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
 msgid "Play (or play/pause)"
 msgstr "Mamaky (na mamaky/miato)"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Hitsin-dàlan'ny tsindry Mamaky (na mamaky/miato)."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
 msgid "Previous track key's shortcut."
 msgstr "Hitsin-dàlan'ny tsindry Aloha."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
 msgid "Search"
 msgstr "Karohy"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
 msgid "Search's shortcut."
 msgstr "Hitsin-dàlan'ny Karohy."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
 msgid "Skip to next track"
 msgstr "Mamaky ny hira manaraka"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
 msgid "Skip to previous track"
 msgstr "Mamaky ny hira teo aloha"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
 msgid "Sleep"
 msgstr "Fiatoana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
 msgid "Sleep's shortcut."
 msgstr "Hitsin-dàlan'ny Fiatoana."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
 msgid "Stop playback key"
 msgstr "Ajanony"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
 msgid "Stop playback key's shortcut."
 msgstr "Hitsin-dàlan'ny Ajanony."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
 msgid "Volume down"
 msgstr "Ambany"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
 msgid "Volume down's shortcut."
 msgstr "Hitsin-dàlan'ny fanamorana feo."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
 msgid "Volume mute"
 msgstr "Malefaka"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
 msgid "Volume mute's shortcut"
 msgstr "Hitsin-dàlan'ny Fanalefahana feo"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume step"
 msgstr "Dingan'ny fanamafisam-peo"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume step as percentage of volume."
 msgstr "Dingana mampiseho ny hamafin'ny feo."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume up"
 msgstr "Ambony"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume up's shortcut."
 msgstr "Hitsin-dàlan'ny Fanamafisana feo."
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr ""
 "Mampiseho takelaka kely rehefa misy olana ny fandefasana ny sary mitsitsy"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
 msgid "Run screensaver at login"
 msgstr "Alefaso eny am-pidirana ny sary mitsitsy"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr "Asehoy ireo tsy fetezana mitranga eny am-piandohana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
 msgid "Start screensaver"
 msgstr "Alefaso ny sary mitsitsy"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
@@ -3232,35 +3232,35 @@ msgstr ""
 "Ilaina ho an'ny fampiharana indray ireo fanitsiana mifototra amin'ny xmodmap "
 "izy ireo"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr "Lisitr'ireo rakitra modmap hita ao anatin'ny laha-tahiry $HOME."
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr "Vondrona tsotra voafaritra mandritra ny famoronana fikandrana"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr "Tano ary arindrao isaka ny fikandrana iray ny vondrona iray"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
 msgid "Keyboard Update Handlers"
 msgstr "Mpandray an-tànana ny fanavaozana ny fafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
 msgid "Keyboard layout"
 msgstr "Fandaminana ny fafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
 msgid "Keyboard model"
 msgstr "Modelim-pafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
 msgid "Keyboard options"
 msgstr "Safidin'ny fafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
 "(deprecated)"
@@ -3268,15 +3268,15 @@ msgstr ""
 "Ho fehezina avy amin'ny ASAP'ny rafitra ireo fandrindran'ny fafan-teny ao "
 "amin'ny gconf (tsy ampiasaina intsony)"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr "Raiketo/avereno miaraka amin'ny vondron'ny fandaminana ireo mpilaza"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr "Ireo anaran'ny fandaminana no asehoy fa tsy ireo anaran'ny vondrona"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
@@ -3284,27 +3284,27 @@ msgstr ""
 "Ireo anaran'ny fandaminana no asehoy fa tsy ireo anaran'ny vondrona (ho "
 "an'ny kinovan'ny XFree izay mandray an-tànana fandaminana maro ihany)"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr "Fafao ny fampilazana \"X sysconfig changed\""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid "The Keyboard Preview, X offset"
 msgstr "Topy mason'ny fafan-teny, offset X"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
 msgid "The Keyboard Preview, Y offset"
 msgstr "Topy mason'ny fafan-teny, offset Y"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
 msgid "The Keyboard Preview, height"
 msgstr "Topy mason'ny fafan-teny, haavo"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "The Keyboard Preview, width"
 msgstr "Topy mason'ny fafan-teny, saka"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:18
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:18
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
@@ -3315,15 +3315,15 @@ msgstr ""
 "tsy nampiasaina izany famaha izany, ka foano ireo famahan'ny modely, "
 "fandaminana ary safidy mba ahazoana ny kirakiran-drafitra tsotra."
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:19
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:19
 msgid "keyboard layout"
 msgstr "fandaminana ny fafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:20
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:20
 msgid "keyboard model"
 msgstr "Modelim-pafan-teny"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:21
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:21
 msgid "modmap file list"
 msgstr "lisitry ny rakitra modmap"
 

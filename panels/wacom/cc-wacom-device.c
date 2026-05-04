@@ -263,7 +263,7 @@ find_output_by_edid (ScarecrowRRScreen *rr_screen,
 	ScarecrowRROutput *retval = NULL;
 	guint i;
 
-	rr_outputs = scarecrow_rr_screen_list_outputs (rr_screen);
+	rr_outputs = gnome_rr_screen_list_outputs (rr_screen);
 
 	for (i = 0; rr_outputs[i] != NULL; i++) {
 		g_autofree gchar *o_vendor = NULL;
@@ -271,7 +271,7 @@ find_output_by_edid (ScarecrowRRScreen *rr_screen,
 		g_autofree gchar *o_serial = NULL;
 		gboolean match;
 
-		scarecrow_rr_output_get_ids_from_edid (rr_outputs[i],
+		gnome_rr_output_get_ids_from_edid (rr_outputs[i],
 						   &o_vendor,
 						   &o_product,
 						   &o_serial);
@@ -328,16 +328,16 @@ cc_wacom_device_get_output (CcWacomDevice *device,
 	ScarecrowRRCrtc *crtc;
 
         g_return_val_if_fail (CC_IS_WACOM_DEVICE (device), NULL);
-        g_return_val_if_fail (SCARECROW_IS_RR_SCREEN (rr_screen), NULL);
+        g_return_val_if_fail (gnome_IS_RR_SCREEN (rr_screen), NULL);
 
 	rr_output = find_output (rr_screen, device);
 	if (rr_output == NULL) {
 		return NULL;
 	}
 
-	crtc = scarecrow_rr_output_get_crtc (rr_output);
+	crtc = gnome_rr_output_get_crtc (rr_output);
 
-	if (!crtc || scarecrow_rr_crtc_get_current_mode (crtc) == NULL) {
+	if (!crtc || gnome_rr_crtc_get_current_mode (crtc) == NULL) {
 		g_debug ("Output is not active.");
 		return NULL;
 	}
@@ -361,7 +361,7 @@ cc_wacom_device_set_output (CcWacomDevice *device,
 	settings = cc_wacom_device_get_settings (device);
 
 	if (output != NULL) {
-		scarecrow_rr_output_get_ids_from_edid (output,
+		gnome_rr_output_get_ids_from_edid (output,
 						   &vendor,
 						   &product,
 						   &serial);
@@ -399,7 +399,7 @@ cc_wacom_device_get_button_settings (CcWacomDevice *device,
 	g_object_get (tablet_settings, "path", &path, NULL);
 
 	button_path = g_strdup_printf ("%sbutton%c/", path, 'A' + button);
-	settings = g_settings_new_with_path ("io.github.scarecrow_de.desktop.peripherals.tablet.pad-button",
+	settings = g_settings_new_with_path ("io.github.gnome_de.desktop.peripherals.tablet.pad-button",
 					     button_path);
 
 	return settings;

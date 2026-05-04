@@ -37,7 +37,7 @@ cc_input_source_xkb_get_label (CcInputSource *source)
   const gchar *name;
 
   id = cc_input_source_xkb_get_id (self);
-  scarecrow_xkb_info_get_layout_info (self->xkb_info, id, &name, NULL, NULL, NULL);
+  gnome_xkb_info_get_layout_info (self->xkb_info, id, &name, NULL, NULL, NULL);
   if (name)
     return g_strdup (name);
   else

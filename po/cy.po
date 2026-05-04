@@ -2976,192 +2976,192 @@ msgstr "Ehangu"
 msgid "Roll up"
 msgstr "Rholio i fyny"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr "Os yn wir, cedwir y trinwyr testun/plaen a thestun/* yn gydwedd"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr "Trinwyr testun/plaen a thestun/*"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
 msgid "Brightness down"
 msgstr "Disgleirdeb i lawr"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
 msgid "Brightness down's shortcut."
 msgstr "Byrlwybr disgleirdeb i lawr."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
 msgid "Brightness up"
 msgstr "Disgleirdeb i fyny"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
 msgid "Brightness up's shortcut."
 msgstr "Byrlwybr disgleirdeb i fyny."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
 msgid "E-mail"
 msgstr "E-bost"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
 msgid "E-mail's shortcut."
 msgstr "Byrlwybr E-bost."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
 msgid "Eject"
 msgstr "Allfwrw"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
 msgid "Eject's shortcut."
 msgstr "Byrlwybr allfwrw."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
 msgid "Home folder"
 msgstr "Plygell cartref"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
 msgid "Home folder's shortcut."
 msgstr "Byrlwybr i fy Mhlygell Cartref."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
 msgid "Launch help browser"
 msgstr "Lansio'r porwr cymorth"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
 msgid "Launch help browser's shortcut."
 msgstr "Byrlwybr i lansio'r porwr cymorth."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
 msgid "Launch web browser"
 msgstr "Lansio porwr gwe"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
 msgid "Launch web browser's shortcut."
 msgstr "Byrlwybr i lansio porwr gwe."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
 msgid "Lock screen"
 msgstr "Cloi'r sgrin"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
 msgid "Lock screen's shortcut."
 msgstr "Byrlwybr i gloi'r sgrin."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
 msgid "Log out"
 msgstr "Allgofnodi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
 msgid "Log out's shortcut."
 msgstr "Byrlwybr i allgofnodi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
 msgid "Next track key's shortcut."
 msgstr "Byrlwybr bysell trac nesaf."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
 msgid "Pause"
 msgstr "Seibio"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
 msgid "Pause key's shortcut."
 msgstr "Byrlwybr y fysell seibio."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
 msgid "Play (or play/pause)"
 msgstr "Chwarae (neu chwarae/seibio)"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Byrlwybr y fysell chwarae (neu chwarae/seibio)."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
 msgid "Previous track key's shortcut."
 msgstr "Byrlwybr y fysell trac blaenorol."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
 msgid "Search"
 msgstr "Chwilio"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
 msgid "Search's shortcut."
 msgstr "Byrlwybr chwilio"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
 msgid "Skip to next track"
 msgstr "Neidio i'r trac nesaf"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
 msgid "Skip to previous track"
 msgstr "Neidio i'r trac blaenorol"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
 msgid "Sleep"
 msgstr "Cysgu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
 msgid "Sleep's shortcut."
 msgstr "Byrlwybr cysgu."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
 msgid "Stop playback key"
 msgstr "Bysell stopio chwarae"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
 msgid "Stop playback key's shortcut."
 msgstr "Byrlwybr y fysell stopio chwarae."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume down"
 msgstr "Lefel sain i lawr"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume down's shortcut."
 msgstr "Byrlwybr lefel sain i lawr."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume mute"
 msgstr "Mudo'r sain"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume mute's shortcut"
 msgstr "Byrlwybr mudo'r sain"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
 msgid "Volume step"
 msgstr "Gris lefel sain"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
 msgid "Volume step as percentage of volume."
 msgstr "Gris lefel sain fel canran o'r lefel."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:39
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
 msgid "Volume up"
 msgstr "Lefel sain i fyny"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:40
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
 msgid "Volume up's shortcut."
 msgstr "Byrlwybr lefel sain i fyny."
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr "Dangos deialog pan fo gwallau wrth redeg yr arbedwr sgrin"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
 msgid "Run screensaver at login"
 msgstr "Cychwyn yr arbedwr sgrin wrth fewngofnodi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr "Dangos Gwallau Ymgychwyn"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
 msgid "Start screensaver"
 msgstr "Dechrau'r arbedwr sgrin"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
@@ -3170,35 +3170,35 @@ msgstr ""
 "ail-lwytho. Yn ddefnyddiol er mwyn rhoi newidiadau ar waith sy'n seiliedig "
 "ar xmodmap."
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr "Rhestr o ffeiliau modmap ar gael yn y cyfeiriadur $HOME."
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr "Grwp rhagosodedig, wedi ei neilltuo wrth greu ffenestr"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr "Cadw a rheoli grwp ar wahân am bob ffenestr"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
 msgid "Keyboard Update Handlers"
 msgstr "Trinwyr Diweddariad Bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
 msgid "Keyboard layout"
 msgstr "Cynllun bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
 msgid "Keyboard model"
 msgstr "Model bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
 msgid "Keyboard options"
 msgstr "Dewisiadau bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
 "(deprecated)"
@@ -3206,15 +3206,15 @@ msgstr ""
 "Caiff gosodiadau bysellfwrdd o fewn gconf eu trosysgrifo gan y system cyn "
 "gynted â phosib (anghymeradwyir)"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr "Cadw/adfer dangoswyr ynghyd â grwpiau cynllun"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr "Dangos enwau cynllun yn lle enwau grwp"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
@@ -3222,11 +3222,11 @@ msgstr ""
 "Dangos enwau gosodiad yn lle enwau grwp (dim ond ar gyfer fersiynau o XFree "
 "sy'n cynnal amryw gynlluniau)"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr "Atal y neges rybudd \"sysconfig X wedi newid\""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
@@ -3237,15 +3237,15 @@ msgstr ""
 "anghymeradwyo ers GNOME 2.12. Dadosodwch yr allweddi model, cynllun ac "
 "opsiynau er mwyn cael cyfluniad rhagosodedig y system."
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
 msgid "keyboard layout"
 msgstr "cynllun bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
 msgid "keyboard model"
 msgstr "model bysellfwrdd"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "modmap file list"
 msgstr "Rhestr ffeil modmap"
 

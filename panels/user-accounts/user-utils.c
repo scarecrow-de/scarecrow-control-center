@@ -616,7 +616,7 @@ static GdkRGBA
 get_color_for_name (const gchar *name)
 {
         // https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/GNOME%20HIG.gpl
-        static gdouble scarecrow_color_palette[][3] = {
+        static gdouble gnome_color_palette[][3] = {
                 {  98, 160, 234 },
                 {  53, 132, 228 },
                 {  28, 113, 216 },
@@ -656,12 +656,12 @@ get_color_for_name (const gchar *name)
                 return color;
 
         hash = g_str_hash (name);
-        number_of_colors = G_N_ELEMENTS (scarecrow_color_palette);
+        number_of_colors = G_N_ELEMENTS (gnome_color_palette);
         idx = hash % number_of_colors;
 
-        color.red   = scarecrow_color_palette[idx][0];
-        color.green = scarecrow_color_palette[idx][1];
-        color.blue  = scarecrow_color_palette[idx][2];
+        color.red   = gnome_color_palette[idx][0];
+        color.green = gnome_color_palette[idx][1];
+        color.blue  = gnome_color_palette[idx][2];
 
         return color;
 }

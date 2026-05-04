@@ -26,9 +26,9 @@
 
 #include <gio/gdesktopappinfo.h>
 
-#define SCARECROW_SETTINGS_PANEL_ID_KEY "X-GNOME-Settings-Panel"
-#define SCARECROW_SETTINGS_PANEL_CATEGORY SCARECROW_SETTINGS_PANEL_ID_KEY
-#define SCARECROW_SETTINGS_PANEL_ID_KEYWORDS "Keywords"
+#define gnome_SETTINGS_PANEL_ID_KEY "X-GNOME-Settings-Panel"
+#define gnome_SETTINGS_PANEL_CATEGORY gnome_SETTINGS_PANEL_ID_KEY
+#define gnome_SETTINGS_PANEL_ID_KEYWORDS "Keywords"
 
 struct _CcShellModel
 {

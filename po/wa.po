@@ -2921,292 +2921,292 @@ msgstr "Å pus grand"
 msgid "Roll up"
 msgstr "Erôler"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
 msgid "Brightness down"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
 msgid "Brightness down's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
 msgid "Brightness up"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
 msgid "Brightness up's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
 msgid "E-mail"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
 msgid "E-mail's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
 #, fuzzy
 msgid "Eject"
 msgstr "Evenmint"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
 #, fuzzy
 msgid "Eject's shortcut."
 msgstr "Rascourtis do _scribanne:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
 #, fuzzy
 msgid "Home folder"
 msgstr "_Potchî å ridant des tinmes"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
 #, fuzzy
 msgid "Home folder's shortcut."
 msgstr "Rascourti"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
 #, fuzzy
 msgid "Launch help browser"
 msgstr "Foyteuse di l' aidance"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
 #, fuzzy
 msgid "Launch help browser's shortcut."
 msgstr "Foyteuse di l' aidance"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
 #, fuzzy
 msgid "Launch web browser"
 msgstr "Betchteu waibe"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
 #, fuzzy
 msgid "Launch web browser's shortcut."
 msgstr "Betchteu waibe"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
 #, fuzzy
 msgid "Lock screen"
 msgstr "Waitroûle"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
 #, fuzzy
 msgid "Lock screen's shortcut."
 msgstr "Rascourti"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
 #, fuzzy
 msgid "Log out"
 msgstr "Adjinçmint"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
 #, fuzzy
 msgid "Log out's shortcut."
 msgstr "Rascourtis do _scribanne:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
 msgid "Next track key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
 #, fuzzy
 msgid "Pause"
 msgstr "C_laper"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
 msgid "Pause key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
 msgid "Play (or play/pause)"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
 msgid "Play (or play/pause) key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
 msgid "Previous track key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
 msgid "Search"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
 #, fuzzy
 msgid "Search's shortcut."
 msgstr "Rascourti"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
 msgid "Skip to next track"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
 msgid "Skip to previous track"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
 #, fuzzy
 msgid "Sleep"
 msgstr "Roedeu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
 #, fuzzy
 msgid "Sleep's shortcut."
 msgstr "Rascourti"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
 msgid "Stop playback key"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
 msgid "Stop playback key's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
 #, fuzzy
 msgid "Volume down"
 msgstr "_Volume:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume down's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 #, fuzzy
 msgid "Volume mute"
 msgstr "_Volume:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume mute's shortcut"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
 #, fuzzy
 msgid "Volume step"
 msgstr "_Volume:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
 msgid "Volume step as percentage of volume."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:39
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
 #, fuzzy
 msgid "Volume up"
 msgstr "_Volume:"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:40
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
 msgid "Volume up's shortcut."
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
 msgid "Run screensaver at login"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr ""
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
 #, fuzzy
 msgid "Start screensaver"
 msgstr "Waitroûle"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
 #, fuzzy
 msgid "Keyboard Update Handlers"
 msgstr "Xhuflet del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
 #, fuzzy
 msgid "Keyboard layout"
 msgstr "Rascourtis del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
 #, fuzzy
 msgid "Keyboard model"
 msgstr "Xhuflet del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
 #, fuzzy
 msgid "Keyboard options"
 msgstr "Rascourtis del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
 "(deprecated)"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
 #, fuzzy
 msgid "keyboard layout"
 msgstr "Rascourtis del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
 #, fuzzy
 msgid "keyboard model"
 msgstr "Xhuflet del taprece"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "modmap file list"
 msgstr ""
 

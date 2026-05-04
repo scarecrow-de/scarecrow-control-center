@@ -1,6 +1,6 @@
 # scarecrow-control-center tab completion for bash.
 
-_scarecrow_control_center()
+_gnome_control_center()
 {
 	local cur prev command_list i v
 
@@ -48,4 +48,4 @@ _scarecrow_control_center()
 }
 
 # load the completion
-complete -F _scarecrow_control_center scarecrow-control-center
+complete -F _gnome_control_center scarecrow-control-center

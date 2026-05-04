@@ -37,8 +37,8 @@
 
 #include "bg-pictures-source.h"
 
-#define WP_PATH_ID "io.github.scarecrow_de.desktop.background"
-#define WP_LOCK_PATH_ID "io.github.scarecrow_de.desktop.screensaver"
+#define WP_PATH_ID "io.github.gnome_de.desktop.background"
+#define WP_LOCK_PATH_ID "io.github.gnome_de.desktop.screensaver"
 #define WP_URI_KEY "picture-uri"
 #define WP_OPTIONS_KEY "picture-options"
 #define WP_SHADING_KEY "color-shading-type"
@@ -271,7 +271,7 @@ cc_background_panel_class_init (CcBackgroundPanelClass *klass)
   object_class->dispose = cc_background_panel_dispose;
   object_class->finalize = cc_background_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/background/cc-background-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/background/cc-background-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundPanel, add_picture_button);
   gtk_widget_class_bind_template_child (widget_class, CcBackgroundPanel, background_chooser);
@@ -297,7 +297,7 @@ cc_background_panel_init (CcBackgroundPanel *panel)
 
   panel->connection = g_application_get_dbus_connection (g_application_get_default ());
 
-  panel->thumb_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
+  panel->thumb_factory = gnome_desktop_thumbnail_factory_new (gnome_DESKTOP_THUMBNAIL_SIZE_LARGE);
 
   panel->settings = g_settings_new (WP_PATH_ID);
   g_settings_delay (panel->settings);

@@ -208,7 +208,7 @@ eap_method_leap_class_init (EAPMethodLEAPClass *klass)
 
 	object_class->dispose = eap_method_leap_dispose;
 
-	gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/ControlCenter/network/eap-method-leap.ui");
+	gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/ControlCenter/network/eap-method-leap.ui");
 
 	gtk_widget_class_bind_template_child (widget_class, EAPMethodLEAP, password_entry);
 	gtk_widget_class_bind_template_child (widget_class, EAPMethodLEAP, password_label);

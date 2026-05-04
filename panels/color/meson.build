@@ -40,7 +40,7 @@ sources += gnome.compile_resources(
 
 deps = common_deps + [
   colord_dep,
-  scarecrow_desktop_dep,
+  gnome_desktop_dep,
   m_dep,
   dependency('colord-gtk', version: '>= 0.1.24'),
   dependency('libsoup-3.0')

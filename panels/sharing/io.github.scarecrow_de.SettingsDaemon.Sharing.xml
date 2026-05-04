@@ -1,5 +1,5 @@
-<node name="/io/github/scarecrow_de/SettingsDaemon/Sharing">
-  <interface name='io.github.scarecrow_de.SettingsDaemon.Sharing'>
+<node name="/io/github/gnome_de/SettingsDaemon/Sharing">
+  <interface name='io.github.gnome_de.SettingsDaemon.Sharing'>
     <property name='CurrentNetworkName' type='s' access='read'/>
     <property name='CurrentNetwork' type='s' access='read'/>
     <property name='CarrierType' type='s' access='read'/>

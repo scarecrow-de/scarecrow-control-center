@@ -477,7 +477,7 @@ pp_new_printer_dialog_init (PpNewPrinterDialog *self)
   self->builder = gtk_builder_new ();
 
   builder_result = gtk_builder_add_objects_from_resource (self->builder,
-                                                          "/io/github/scarecrow_de/control-center/printers/new-printer-dialog.ui",
+                                                          "/io/github/gnome_de/control-center/printers/new-printer-dialog.ui",
                                                           objects, &error);
 
   if (builder_result == 0)

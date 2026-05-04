@@ -49,7 +49,7 @@ gtp_header_widget_class_init (GtpHeaderWidgetClass *klass)
 
   object_class->constructed = gtp_header_widget_constructed;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/tests/panels/gtp-header-widget.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/tests/panels/gtp-header-widget.ui");
 
   gtk_widget_class_bind_template_child (widget_class, GtpHeaderWidget, header_widget);
 }

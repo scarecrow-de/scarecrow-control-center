@@ -28,7 +28,7 @@
 #include <glib/gstdio.h>
 #include <gtk/gtk.h>
 #include <act/act.h>
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 
 #ifdef HAVE_CHEESE
@@ -195,7 +195,7 @@ update_preview (GtkFileChooser               *chooser,
                 }
 
                 if (mime_type) {
-                        pixbuf = scarecrow_desktop_thumbnail_factory_generate_thumbnail (thumb_factory,
+                        pixbuf = gnome_desktop_thumbnail_factory_generate_thumbnail (thumb_factory,
                                                                                      uri,
                                                                                      mime_type);
                         g_free (mime_type);
@@ -410,7 +410,7 @@ cheese_camera_device_monitor_new_cb (GObject *source,
 static GStrv
 get_settings_facesdirs (void)
 {
-        g_autoptr(GSettings) settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
+        g_autoptr(GSettings) settings = g_settings_new ("io.github.gnome_de.desktop.interface");
         g_auto(GStrv) settings_dirs = g_settings_get_strv (settings, "avatar-directories");
         GPtrArray *facesdirs = g_ptr_array_new ();
 
@@ -572,7 +572,7 @@ cc_avatar_chooser_new (GtkWidget *button)
                              "relative-to", button,
                              NULL);
 
-        self->thumb_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_NORMAL);
+        self->thumb_factory = gnome_desktop_thumbnail_factory_new (gnome_DESKTOP_THUMBNAIL_SIZE_NORMAL);
 
         /* Set up the popup */
         self->popup_button = button;
@@ -613,7 +613,7 @@ cc_avatar_chooser_class_init (CcAvatarChooserClass *klass)
         GtkWidgetClass *wclass = GTK_WIDGET_CLASS (klass);
         GObjectClass *oclass = G_OBJECT_CLASS (klass);
 
-        gtk_widget_class_set_template_from_resource (wclass, "/io/github/scarecrow_de/control-center/user-accounts/cc-avatar-chooser.ui");
+        gtk_widget_class_set_template_from_resource (wclass, "/io/github/gnome_de/control-center/user-accounts/cc-avatar-chooser.ui");
 
         gtk_widget_class_bind_template_child (wclass, CcAvatarChooser, user_flowbox);
         gtk_widget_class_bind_template_child (wclass, CcAvatarChooser, flowbox);

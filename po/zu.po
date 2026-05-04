@@ -2938,235 +2938,235 @@ msgstr "Khulisa"
 msgid "Roll up"
 msgstr "Yaluzisela phezulu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
 msgid ""
 "If true, the mime handlers for text/plain and text/* will be kept in sync"
 msgstr ""
 "Uma kuyiqiniso, abaphathi be-mime text/plain and text/* lizogcinwa phakathi "
 "kwe-sync"
 
-#: ../schemas/apps_scarecrow_settings_daemon_default_editor.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
 msgid "Sync text/plain and text/* handlers"
 msgstr "Sync text/plain and text/* abaphathi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
 msgid "Brightness down"
 msgstr "Ukukhanya phantsi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
 msgid "Brightness down's shortcut."
 msgstr "Ukunqamula kokukhanya okuphantsi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
 msgid "Brightness up"
 msgstr "Ukukhanya phezulu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
 msgid "Brightness up's shortcut."
 msgstr "Ukunqamula kokukhanya okuphezulu."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:5
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
 msgid "E-mail"
 msgstr "Umyalezo-kagesi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:6
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
 msgid "E-mail's shortcut."
 msgstr "Ukunqamula komyalezo-kagesi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:7
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
 msgid "Eject"
 msgstr "Khipa"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:8
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
 msgid "Eject's shortcut."
 msgstr "Ukunqamula kokukhipha."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:9
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
 msgid "Home folder"
 msgstr "Isibaya sasekhaya"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:10
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
 msgid "Home folder's shortcut."
 msgstr "Ukunqamula kwesibaya sasekhaya."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:11
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
 msgid "Launch help browser"
 msgstr "Ngenisa usizo lwesiyaluzi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:12
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
 msgid "Launch help browser's shortcut."
 msgstr "Ngenisa usizo lokunqamula isiyaluzi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:13
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
 msgid "Launch web browser"
 msgstr "Ngenisa isiyaluzi solwembu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:14
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
 msgid "Launch web browser's shortcut."
 msgstr "Ngenisa ukunqamula kwesiyaluzi solwembu."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:15
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
 msgid "Lock screen"
 msgstr "Vala ubuso besiga-nyezi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:16
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
 msgid "Lock screen's shortcut."
 msgstr "Vala ukunqamula kobuso besi-nyezi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:17
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
 msgid "Log out"
 msgstr "Phuma"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:18
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
 msgid "Log out's shortcut."
 msgstr "Phuma ngokunqamula."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:19
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
 msgid "Next track key's shortcut."
 msgstr "Okulandela kokunqamula kwenkinombho."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:20
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
 msgid "Pause"
 msgstr "Yima isikhashana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:21
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
 msgid "Pause key's shortcut."
 msgstr "Inkinombho lokunqamula kokuma isikhashana."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:22
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
 msgid "Play (or play/pause)"
 msgstr "Dlala (noma dlala/misa isikhashana)"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:23
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
 msgid "Play (or play/pause) key's shortcut."
 msgstr "Dlala (noma dlala/misa isikhashana) inkinombho lokunqamula."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:24
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
 msgid "Previous track key's shortcut."
 msgstr "Ingoma edlulile inkinombho lokunqamula."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:25
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
 msgid "Search"
 msgstr "Hlola"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:26
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
 msgid "Search's shortcut."
 msgstr "Ukuqamula uma uhlola."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:27
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
 msgid "Skip to next track"
 msgstr "Dlulela engomeni elandelayo"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:28
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
 msgid "Skip to previous track"
 msgstr "Buyela engomeni edlulile"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:29
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
 msgid "Sleep"
 msgstr "Cisha"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:30
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
 msgid "Sleep's shortcut."
 msgstr "Ukunqamula uma ucisha."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:31
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
 msgid "Stop playback key"
 msgstr "Inkinombho lokunmisa ukudlala"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:32
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
 msgid "Stop playback key's shortcut."
 msgstr "Inkinombho lokumisa elinqamulayo."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:33
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
 msgid "Volume down"
 msgstr "Ivolumu ephantsi"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:34
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
 msgid "Volume down's shortcut."
 msgstr "Ukunqamula kwevolumu ephantsi."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:35
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 msgid "Volume mute"
 msgstr "Ukucisha ivolumu okwesikhashana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:36
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume mute's shortcut"
 msgstr "Ukunqamula kokucisha ivolumu okwesikhashana"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:37
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
 msgid "Volume step"
 msgstr "Inyathelo lwevolumu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:38
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
 msgid "Volume step as percentage of volume."
 msgstr "Inyathelo lwevolumu njengamaphesenti."
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:39
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
 msgid "Volume up"
 msgstr "Ivolumu ephezulu"
 
-#: ../schemas/apps_scarecrow_settings_daemon_keybindings.schemas.in.h:40
+#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
 msgid "Volume up's shortcut."
 msgstr "Ukuqamula ivolumu ephezulu."
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:1
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
 #, fuzzy
 msgid "Display a dialog when there are errors running the screensaver"
 msgstr "Bonisa ibhokisi uma kukho amaphutha akhona XScreenSaver"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:2
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
 #, fuzzy
 msgid "Run screensaver at login"
 msgstr "Sebenzisa XSreenSaver uma ungena"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:3
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
 msgid "Show Startup Errors"
 msgstr "Khombisa amaphutha okungena"
 
-#: ../schemas/apps_scarecrow_settings_daemon_screensaver.schemas.in.h:4
+#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
 #, fuzzy
 msgid "Start screensaver"
 msgstr "Qala XScreenSaver"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:1
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:1
 msgid ""
 "A collection of scripts to run whenever the keyboard state is reloaded. "
 "Useful for re-applying xmodmap based adjustments"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:2
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:2
 msgid "A list of modmap files available in the $HOME directory."
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:3
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:3
 msgid "Default group, assigned on window creation"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:4
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:4
 msgid "Keep and manage separate group per window"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:5
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:5
 #, fuzzy
 msgid "Keyboard Update Handlers"
 msgstr "_Isifanekiso sendawo yokushaya uma ubhala:"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:6
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:6
 #, fuzzy
 msgid "Keyboard layout"
 msgstr "Umphandle wendawo yokushaya uma ubhala XKB"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:7
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:7
 #, fuzzy
 msgid "Keyboard model"
 msgstr "_Isifanekiso sendawo yokushaya uma ubhala:"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:8
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:8
 #, fuzzy
 msgid "Keyboard options"
 msgstr "Izinqamulo zendawo yokushaya uma ubhala"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:9
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:9
 #, fuzzy
 msgid ""
 "Keyboard settings in gconf will be overridden from the system ASAP "
@@ -3174,42 +3174,42 @@ msgid ""
 msgstr ""
 "Uhlelo lwe-XKB phakathi kwe-gconf lizonyatheliswa emshinini masinya ASAP"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:10
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:10
 msgid "Save/restore indicators together with layout groups"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:11
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:11
 msgid "Show layout names instead of group names"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:12
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:12
 msgid ""
 "Show layout names instead of group names (only for versions of XFree "
 "supporting multiple layouts)"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:13
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:13
 msgid "Suppress the \"X sysconfig changed\" warning message"
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:14
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:14
 msgid ""
 "Very soon, keyboard settings in gconf will be overridden (from the system "
 "configuration) This key has been deprecated since GNOME 2.12, please unset "
 "the model, layouts and options keys to get the default system configuration."
 msgstr ""
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:15
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:15
 #, fuzzy
 msgid "keyboard layout"
 msgstr "Umphandle wendawo yokushaya uma ubhala XKB"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:16
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:16
 #, fuzzy
 msgid "keyboard model"
 msgstr "Isifanekiso sendawo yokushaya uma ubhala XKB"
 
-#: ../schemas/desktop_scarecrow_peripherals_keyboard_xkb.schemas.in.h:17
+#: ../schemas/desktop_gnome_peripherals_keyboard_xkb.schemas.in.h:17
 msgid "modmap file list"
 msgstr ""
 

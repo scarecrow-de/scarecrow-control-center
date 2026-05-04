@@ -5,7 +5,7 @@
 #define WM_COMMON_UNKNOWN  "Unknown"
 
 /* Returns a strv of keybinding names for the window manager;
- * using _SCARECROW_WM_KEYBINDINGS if available, _NET_WM_NAME otherwise. */
+ * using _gnome_WM_KEYBINDINGS if available, _NET_WM_NAME otherwise. */
 GStrv      wm_common_get_current_keybindings           (void);
 
 gpointer   wm_common_register_window_manager_change   (GFunc    func,

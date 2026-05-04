@@ -1504,11 +1504,11 @@ msgstr "Das Datum, die Zeit und die Zeitzone ändern"
 msgid "Clock;Timezone;Location;"
 msgstr "Uhr;Zeitzone;Ort;"
 
-#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Einstellungen für Zeit und Datum ändern"
 
-#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Um die Einstellungen für Zeit und Datum zu ändern, müssen Sie sich "
@@ -2640,7 +2640,7 @@ msgstr "_Testen Sie Ihre Einstellungen"
 msgid "Try clicking, double clicking, scrolling"
 msgstr "Versuchen Sie zu klicken, doppelklicken oder rollen"
 
-# Doof. https://www.reddit.com/r/gnome/comments/1cgjh0/dear_scarecrow_developers_i_think_what_you_did_is/c9gay98
+# Doof. https://www.reddit.com/r/gnome/comments/1cgjh0/dear_gnome_developers_i_think_what_you_did_is/c9gay98
 #: panels/mouse/cc-mouse-test.c:137
 msgid "Five clicks, GEGL time!"
 msgstr "Fünf Klicks, GEGL-Zeit!"
@@ -5998,11 +5998,11 @@ msgstr ""
 "Freigabe;ssh;Rechner;Name;Entfernt;Arbeitsumgebung;Umgebung;Medien;Audio;"
 "Video;Bilder;Fotos;Filme;Server;"
 
-#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Entfernte Anmeldung ein- oder ausschalten"
 
-#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Legitimierung ist erforderlich, um die entfernte Anmeldung zu aktivieren "
@@ -7700,11 +7700,11 @@ msgstr "_Name des Systemverwalters"
 msgid "Administrator Password"
 msgstr "Systemverwalter-Passwort"
 
-#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Benutzerkonten verwalten"
 
-#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Legitimierung erforderlich"
 
@@ -8228,11 +8228,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Suche abbrechen"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Bezeichner des zuletzt geöffneten Einstellungs-Panels"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8240,13 +8240,13 @@ msgstr ""
 "Bezeichner des zuletzt geöffneten Einstellungs-Panels. Unzulässige Werte "
 "werden ignoriert und das erste Panel in der Liste ausgewählt."
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Warnung anzeigen, wenn eine Entwicklerversion der Einstellungen ausgeführt "
 "wird"
 
-#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
+#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""

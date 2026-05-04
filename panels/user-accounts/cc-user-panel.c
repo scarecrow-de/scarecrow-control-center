@@ -36,7 +36,7 @@
 #include <act/act.h>
 #include <cairo-gobject.h>
 
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 #ifdef HAVE_MALCONTENT
@@ -61,7 +61,7 @@
 #include "cc-util.h"
 #include "list-box-helper.h"
 
-#define USER_ACCOUNTS_PERMISSION "io.github.scarecrow_de.controlcenter.user-accounts.administration"
+#define USER_ACCOUNTS_PERMISSION "io.github.gnome_de.controlcenter.user-accounts.administration"
 
 struct _CcUserPanel {
         CcPanel parent_instance;
@@ -908,7 +908,7 @@ show_user (ActUser *user, CcUserPanel *self)
         lang = g_strdup (act_user_get_language (user));
 
         if (lang && *lang != '\0') {
-                name = scarecrow_get_language_from_locale (lang, NULL);
+                name = gnome_get_language_from_locale (lang, NULL);
         } else {
                 name = g_strdup ("—");
         }
@@ -1065,9 +1065,9 @@ restart_now (CcUserPanel *self)
 
         bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
         g_dbus_connection_call (bus,
-                                "io.github.scarecrow_de.SessionManager",
-                                "/io/github/scarecrow_de/SessionManager",
-                                "io.github.scarecrow_de.SessionManager",
+                                "io.github.gnome_de.SessionManager",
+                                "/io/github/gnome_de/SessionManager",
+                                "io.github.gnome_de.SessionManager",
                                 "Logout",
                                 g_variant_new ("(u)", 0),
                                 NULL, 0, G_MAXINT,
@@ -1120,7 +1120,7 @@ language_response (CcUserPanel *self,
                         act_user_set_language (user, lang);
                 }
 
-                name = scarecrow_get_language_from_locale (lang, NULL);
+                name = gnome_get_language_from_locale (lang, NULL);
                 gtk_label_set_label (self->language_button_label, name);
         }
 
@@ -1577,13 +1577,13 @@ cc_user_panel_init (CcUserPanel *self)
         self->um = act_user_manager_get_default ();
 
         provider = gtk_css_provider_new ();
-        gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/control-center/user-accounts/user-accounts-dialog.css");
+        gtk_css_provider_load_from_resource (provider, "/io/github/gnome_de/control-center/user-accounts/user-accounts-dialog.css");
         gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                                    GTK_STYLE_PROVIDER (provider),
                                                    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
         g_object_unref (provider);
 
-        self->login_screen_settings = settings_or_null ("io.github.scarecrow_de.login-screen");
+        self->login_screen_settings = settings_or_null ("io.github.gnome_de.login-screen");
 
         self->avatar_chooser = cc_avatar_chooser_new (GTK_WIDGET (self->user_icon_button));
         setup_main_window (self);
@@ -1621,7 +1621,7 @@ cc_user_panel_class_init (CcUserPanelClass *klass)
 
         panel_class->get_help_uri = cc_user_panel_get_help_uri;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/user-accounts/cc-user-panel.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/user-accounts/cc-user-panel.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, accounts_box);
         gtk_widget_class_bind_template_child (widget_class, CcUserPanel, account_settings_box);

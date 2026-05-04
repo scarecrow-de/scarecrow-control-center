@@ -28,7 +28,7 @@ sources += gnome.compile_resources(
   export: true
 )
 
-deps = common_deps + [scarecrow_bluetooth_dep]
+deps = common_deps + [gnome_bluetooth_dep]
 
 panels_libs += static_library(
   cappletname,

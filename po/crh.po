@@ -1165,11 +1165,11 @@ msgstr ""
 msgid "Clock;Timezone;Location;"
 msgstr "Saat;Saat Tilimi;Qonum;"
 
-#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "Sistem vaqtı ve tarih ayarlarını deñiştir"
 
-#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Vaqıt yaki tarih ayarlarını deñiştirmek içün sahihlenmeñiz kerek."
 
@@ -5259,11 +5259,11 @@ msgid ""
 "pictures;photos;movies;server;renderer;"
 msgstr ""
 
-#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "Uzaqtan içeri imzalanmanı qabilleştir yaki ğayrıqabilleştir"
 
-#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Uzaqtan içeri imzalanmanı qabilleştirmek içün sahihlenim şarttır"
 
@@ -6496,11 +6496,11 @@ msgid "Last Login"
 msgstr "Soñki İçeri İmzalanma"
 
 # tr
-#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "Qullanıcı hesaplarını idare et"
 
-#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "Qullanıcı verilerini deñiştirmek içün sahihlenim şarttır"
 

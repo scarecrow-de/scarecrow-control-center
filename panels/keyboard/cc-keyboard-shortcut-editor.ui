@@ -49,7 +49,7 @@
                   <object class="GtkImage">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="resource">/io/github/scarecrow_de/control-center/keyboard/enter-keyboard-shortcut.svg</property>
+                    <property name="resource">/io/github/gnome_de/control-center/keyboard/enter-keyboard-shortcut.svg</property>
                   </object>
                 </child>
                 <child>

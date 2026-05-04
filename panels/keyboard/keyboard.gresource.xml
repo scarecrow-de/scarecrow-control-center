@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow_de/control-center/keyboard">
+  <gresource prefix="/io/github/gnome_de/control-center/keyboard">
     <file preprocess="xml-stripblanks">enter-keyboard-shortcut.svg</file>
     <file preprocess="xml-stripblanks">cc-alt-chars-key-dialog.ui</file>
     <file preprocess="xml-stripblanks">cc-keyboard-panel.ui</file>

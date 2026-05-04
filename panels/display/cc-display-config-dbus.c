@@ -1519,9 +1519,9 @@ cc_display_config_dbus_constructed (GObject *object)
   self->proxy = g_dbus_proxy_new_sync (self->connection,
                                        G_DBUS_PROXY_FLAGS_NONE,
                                        NULL,
-                                       "io.github.scarecrow_de.Mutter.DisplayConfig",
-                                       "/io/github/scarecrow_de/Mutter/DisplayConfig",
-                                       "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                       "io.github.gnome_de.Mutter.DisplayConfig",
+                                       "/io/github/gnome_de/Mutter/DisplayConfig",
+                                       "io.github.gnome_de.Mutter.DisplayConfig",
                                        NULL,
                                        &error);
   if (error)

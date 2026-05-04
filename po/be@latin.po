@@ -2194,8 +2194,8 @@ msgid "Could not get session bus while applying display configuration"
 msgstr "Nie ŭdałosia atrymać šynu sesii pry ŭžyćci naładaŭ ekranu"
 
 #: ../capplets/display/xrandr-capplet.c:1777
-msgid "Could not get io.github.scarecrow_de.SettingsDaemon.XRANDR"
-msgstr "Nie ŭdałosia atrymać \"io.github.scarecrow_de.SettingsDaemon.XRANDR\""
+msgid "Could not get io.github.gnome_de.SettingsDaemon.XRANDR"
+msgstr "Nie ŭdałosia atrymać \"io.github.gnome_de.SettingsDaemon.XRANDR\""
 
 #: ../capplets/display/xrandr-capplet.c:1823
 msgid "Could not detect displays"

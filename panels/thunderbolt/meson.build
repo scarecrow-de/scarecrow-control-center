@@ -55,7 +55,7 @@ sources += gnome.compile_resources(
 )
 
 deps = common_deps + [
-  scarecrow_desktop_dep,
+  gnome_desktop_dep,
   polkit_gobject_dep,
   m_dep,
 ]

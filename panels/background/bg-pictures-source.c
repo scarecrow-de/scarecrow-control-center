@@ -455,7 +455,7 @@ add_single_file (BgPicturesSource     *bg_source,
       thumbnail_uri = grl_media_get_thumbnail (media);
       thumbnail_file = g_file_new_for_uri (thumbnail_uri);
 
-      native_path = scarecrow_desktop_thumbnail_path_for_uri (source_uri, SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
+      native_path = gnome_desktop_thumbnail_path_for_uri (source_uri, gnome_DESKTOP_THUMBNAIL_SIZE_LARGE);
       native_file = g_file_new_for_path (native_path);
 
       native_dir = g_path_get_dirname (native_path);

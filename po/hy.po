@@ -682,14 +682,14 @@ msgstr "Չի հաջողվել բացել %s/%s. %s\n"
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Չի հաջողվել անվանափոխել %s -ը %s -ով․ %s\n"
 
-#: ../panels/display/io.github.scarecrow_de.randr.policy.in.h:1
+#: ../panels/display/io.github.gnome_de.randr.policy.in.h:1
 msgid ""
 "Authentication is required to install multi-monitor settings for all users"
 msgstr ""
 "Բոլոր օգտագործողների բազմակի մոնիտորային պարամետրերը տեղադրելու համար "
 "վավերացում է անհրաժեշտ"
 
-#: ../panels/display/io.github.scarecrow_de.randr.policy.in.h:2
+#: ../panels/display/io.github.gnome_de.randr.policy.in.h:2
 msgid "Install multi-monitor settings for the whole system"
 msgstr "Տեղադրել բազմակի մոնիտորային պարամետրերը ամբողջ համակարգի համար"
 

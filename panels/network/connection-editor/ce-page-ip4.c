@@ -849,7 +849,7 @@ ce_page_ip4_class_init (CEPageIP4Class *klass)
 {
         GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/ip4-page.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/network/ip4-page.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CEPageIP4, address_box);
         gtk_widget_class_bind_template_child (widget_class, CEPageIP4, address_sizegroup);

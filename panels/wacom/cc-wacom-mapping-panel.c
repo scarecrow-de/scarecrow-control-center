@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 #include <libscarecrow-desktop/scarecrow-rr-config.h>
 
@@ -108,20 +108,20 @@ update_monitor_chooser (CcWacomMappingPanel *self)
 		return;
 	}
 
-	outputs = scarecrow_rr_screen_list_outputs (self->rr_screen);
+	outputs = gnome_rr_screen_list_outputs (self->rr_screen);
 
 	for (i = 0; outputs[i] != NULL; i++) {
 		ScarecrowRROutput *output = outputs[i];
-		ScarecrowRRCrtc *crtc = scarecrow_rr_output_get_crtc (output);
+		ScarecrowRRCrtc *crtc = gnome_rr_output_get_crtc (output);
 
 		/* Output is turned on? */
-		if (crtc && scarecrow_rr_crtc_get_current_mode (crtc) != NULL) {
+		if (crtc && gnome_rr_crtc_get_current_mode (crtc) != NULL) {
 			GtkTreeIter iter;
 			const gchar *name, *disp_name;
 			g_autofree gchar *text = NULL;
 
-			name = scarecrow_rr_output_get_name (output);
-			disp_name = scarecrow_rr_output_get_display_name (output);
+			name = gnome_rr_output_get_name (output);
+			disp_name = gnome_rr_output_get_display_name (output);
 			text = g_strdup_printf ("%s (%s)", name, disp_name);
 
 			gtk_list_store_append (store, &iter);
@@ -224,7 +224,7 @@ cc_wacom_mapping_panel_init (CcWacomMappingPanel *self)
 	GtkCellRenderer *renderer;
 	g_autoptr(GError) error = NULL;
 
-	self->rr_screen = scarecrow_rr_screen_new (gdk_screen_get_default (), &error);
+	self->rr_screen = gnome_rr_screen_new (gdk_screen_get_default (), &error);
 
 	if (error)
 		g_warning ("Could not get RR screen: %s", error->message);

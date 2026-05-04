@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow_de/control-center/background">
+  <gresource prefix="/io/github/gnome_de/control-center/background">
     <file preprocess="xml-stripblanks">cc-background-chooser.ui</file>
     <file preprocess="xml-stripblanks">cc-background-panel.ui</file>
     <file preprocess="xml-stripblanks">cc-background-preview.ui</file>

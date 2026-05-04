@@ -33,7 +33,7 @@
 #include "cc-common-language.h"
 #include "cc-util.h"
 
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 
 struct _CcFormatChooser {
@@ -336,12 +336,12 @@ region_widget_new (CcFormatChooser *self,
         GtkWidget *row, *box, *button;
         GtkWidget *check;
 
-        locale_name = scarecrow_get_country_from_locale (locale_id, locale_id);
+        locale_name = gnome_get_country_from_locale (locale_id, locale_id);
         if (!locale_name)
           return NULL;
 
-        locale_current_name = scarecrow_get_country_from_locale (locale_id, NULL);
-        locale_untranslated_name = scarecrow_get_country_from_locale (locale_id, "C");
+        locale_current_name = gnome_get_country_from_locale (locale_id, NULL);
+        locale_untranslated_name = gnome_get_country_from_locale (locale_id, "C");
 
         row = gtk_list_box_row_new ();
         gtk_widget_show (row);
@@ -424,7 +424,7 @@ add_all_regions (CcFormatChooser *chooser)
         g_auto(GStrv) locale_ids = NULL;
         g_autoptr(GHashTable) initial = NULL;
 
-        locale_ids = scarecrow_get_all_locales ();
+        locale_ids = gnome_get_all_locales ();
         initial = cc_common_language_get_initial_languages ();
         add_regions (chooser, locale_ids, initial);
 }
@@ -568,7 +568,7 @@ cc_format_chooser_class_init (CcFormatChooserClass *klass)
 
         object_class->dispose = cc_format_chooser_dispose;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/region/cc-format-chooser.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/region/cc-format-chooser.ui");
 
         gtk_widget_class_bind_template_child (widget_class, CcFormatChooser, title_bar);
         gtk_widget_class_bind_template_child (widget_class, CcFormatChooser, title_buttons);

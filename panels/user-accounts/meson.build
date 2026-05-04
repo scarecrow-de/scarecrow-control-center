@@ -81,7 +81,7 @@ meson.add_install_script('sh', '-c',
                           ln -sf legacy/$(basename $f) $DESTDIR@1@/$(basename $f);
                           done'''.format(legacy_image_dir, image_dir))
 
-polkit = 'io.github.scarecrow_de.controlcenter.@0@.policy'.format(cappletname)
+polkit = 'io.github.gnome_de.controlcenter.@0@.policy'.format(cappletname)
 
 i18n.merge_file(
   input: polkit + '.in',
@@ -174,7 +174,7 @@ assert(krb_dep.found(), 'kerberos libraries not found in your path')
 deps = common_deps + [
   accounts_dep,
   gdk_pixbuf_dep,
-  scarecrow_desktop_dep,
+  gnome_desktop_dep,
   liblanguage_dep,
   krb_dep,
   m_dep,

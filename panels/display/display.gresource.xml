@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow_de/control-center/display">
+  <gresource prefix="/io/github/gnome_de/control-center/display">
     <file preprocess="xml-stripblanks">cc-display-panel.ui</file>
     <file preprocess="xml-stripblanks">cc-display-settings.ui</file>
     <file preprocess="xml-stripblanks">cc-night-light-page.ui</file>

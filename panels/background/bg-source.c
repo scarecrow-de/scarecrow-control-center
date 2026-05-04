@@ -154,7 +154,7 @@ bg_source_init (BgSource *self)
 {
   BgSourcePrivate *priv = bg_source_get_instance_private (self);
   priv->store = g_list_store_new (CC_TYPE_BACKGROUND_ITEM);
-  priv->thumbnail_factory = scarecrow_desktop_thumbnail_factory_new (SCARECROW_DESKTOP_THUMBNAIL_SIZE_LARGE);
+  priv->thumbnail_factory = gnome_desktop_thumbnail_factory_new (gnome_DESKTOP_THUMBNAIL_SIZE_LARGE);
 }
 
 GListStore*

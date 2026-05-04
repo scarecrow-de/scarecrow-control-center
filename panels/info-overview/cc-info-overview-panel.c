@@ -60,7 +60,7 @@ struct _CcInfoOverviewPanel
   GtkEntry        *device_name_entry;
   GtkWidget       *rename_button;
   CcListRow       *disk_row;
-  CcListRow       *scarecrow_version_row;
+  CcListRow       *gnome_version_row;
   CcListRow       *graphics_row;
   GtkListBox      *hardware_box;
   GtkDialog       *hostname_editor;
@@ -153,7 +153,7 @@ version_text_handler (GMarkupParseContext *ctx,
 }
 
 static gboolean
-load_scarecrow_version (char **version,
+load_gnome_version (char **version,
                     char **distributor,
                     char **date)
 {
@@ -209,13 +209,13 @@ get_renderer_from_session (void)
   session_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                                  G_DBUS_PROXY_FLAGS_NONE,
                                                  NULL,
-                                                 "io.github.scarecrow_de.SessionManager",
-                                                 "/io/github/scarecrow_de/SessionManager",
-                                                 "io.github.scarecrow_de.SessionManager",
+                                                 "io.github.gnome_de.SessionManager",
+                                                 "/io/github/gnome_de/SessionManager",
+                                                 "io.github.gnome_de.SessionManager",
                                                  NULL, &error);
   if (error != NULL)
     {
-      g_warning ("Unable to connect to create a proxy for io.github.scarecrow_de.SessionManager: %s",
+      g_warning ("Unable to connect to create a proxy for io.github.gnome_de.SessionManager: %s",
                  error->message);
       return NULL;
     }
@@ -224,7 +224,7 @@ get_renderer_from_session (void)
 
   if (!renderer_variant)
     {
-      g_warning ("Unable to retrieve io.github.scarecrow_de.SessionManager.Renderer property");
+      g_warning ("Unable to retrieve io.github.gnome_de.SessionManager.Renderer property");
       return NULL;
     }
 
@@ -684,7 +684,7 @@ get_windowing_system (void)
 static void
 info_overview_panel_setup_overview (CcInfoOverviewPanel *self)
 {
-  g_autofree gchar *scarecrow_version = NULL;
+  g_autofree gchar *gnome_version = NULL;
   glibtop_mem mem;
   const glibtop_sysinfo *info;
   g_autofree char *memory_text = NULL;
@@ -693,8 +693,8 @@ info_overview_panel_setup_overview (CcInfoOverviewPanel *self)
   g_autofree char *os_name_text = NULL;
   g_autofree gchar *graphics_hardware_string = NULL;
 
-  if (load_scarecrow_version (&scarecrow_version, NULL, NULL))
-    cc_list_row_set_secondary_label (self->scarecrow_version_row, scarecrow_version);
+  if (load_gnome_version (&gnome_version, NULL, NULL))
+    cc_list_row_set_secondary_label (self->gnome_version_row, gnome_version);
 
   cc_list_row_set_secondary_label (self->windowing_system_row, get_windowing_system ());
 
@@ -720,7 +720,7 @@ info_overview_panel_setup_overview (CcInfoOverviewPanel *self)
 }
 
 static gboolean
-does_scarecrow_software_exist (void)
+does_gnome_software_exist (void)
 {
   return g_file_test (BINDIR "/gnome-software", G_FILE_TEST_EXISTS);
 }
@@ -739,7 +739,7 @@ open_software_update (CcInfoOverviewPanel *self)
   g_auto(GStrv) argv = NULL;
 
   argv = g_new0 (gchar *, 3);
-  if (does_scarecrow_software_exist ())
+  if (does_gnome_software_exist ())
     {
       argv[0] = g_build_filename (BINDIR, "gnome-software", NULL);
       argv[1] = g_strdup_printf ("--mode=updates");
@@ -813,11 +813,11 @@ cc_info_overview_panel_class_init (CcInfoOverviewPanelClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/info-overview/cc-info-overview-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/info-overview/cc-info-overview-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, device_name_entry);
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, disk_row);
-  gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, scarecrow_version_row);
+  gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, gnome_version_row);
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, graphics_row);
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, hardware_box);
   gtk_widget_class_bind_template_child (widget_class, CcInfoOverviewPanel, hostname_editor);
@@ -849,7 +849,7 @@ cc_info_overview_panel_init (CcInfoOverviewPanel *self)
 
   g_resources_register (cc_info_overview_get_resource ());
 
-  if (!does_scarecrow_software_exist () && !does_gpk_update_viewer_exist ())
+  if (!does_gnome_software_exist () && !does_gpk_update_viewer_exist ())
     gtk_widget_hide (GTK_WIDGET (self->software_updates_row));
 
   info_overview_panel_setup_overview (self);

@@ -22,12 +22,12 @@
 #include <config.h>
 #include <glib/gi18n.h>
 
-#define SCARECROW_DESKTOP_USE_UNSTABLE_API
+#define gnome_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
 #include "cc-keyboard-option.h"
 
-#define INPUT_SOURCES_SCHEMA "io.github.scarecrow_de.desktop.input-sources"
+#define INPUT_SOURCES_SCHEMA "io.github.gnome_de.desktop.input-sources"
 #define XKB_OPTIONS_KEY "xkb-options"
 
 #define XKB_OPTION_GROUP_LVL3 "lv3"
@@ -259,7 +259,7 @@ cc_keyboard_option_constructed (GObject *object)
                       XKB_OPTION_DESCRIPTION_COLUMN, _("Disabled"),
                       XKB_OPTION_ID_COLUMN, NULL,
                       -1);
-  options = scarecrow_xkb_info_get_options_for_group (xkb_info, self->group);
+  options = gnome_xkb_info_get_options_for_group (xkb_info, self->group);
   for (l = options; l; l = l->next)
     {
       option_id = l->data;
@@ -268,7 +268,7 @@ cc_keyboard_option_constructed (GObject *object)
           gtk_list_store_append (self->store, &iter);
           gtk_list_store_set (self->store, &iter,
                               XKB_OPTION_DESCRIPTION_COLUMN,
-                              scarecrow_xkb_info_description_for_option (xkb_info, self->group, option_id),
+                              gnome_xkb_info_description_for_option (xkb_info, self->group, option_id),
                               XKB_OPTION_ID_COLUMN,
                               option_id,
                               -1);
@@ -318,7 +318,7 @@ cc_keyboard_option_get_all (void)
   if (objects_list)
     return objects_list;
 
-  xkb_info = scarecrow_xkb_info_new ();
+  xkb_info = gnome_xkb_info_new ();
 
   input_sources_settings = g_settings_new (INPUT_SOURCES_SCHEMA);
 
@@ -377,7 +377,7 @@ cc_keyboard_option_get_current_value_description (CcKeyboardOption *self)
   if (!self->current_value)
     return _("Disabled");
 
-  return scarecrow_xkb_info_description_for_option (xkb_info, self->group, self->current_value);
+  return gnome_xkb_info_description_for_option (xkb_info, self->group, self->current_value);
 }
 
 static void
