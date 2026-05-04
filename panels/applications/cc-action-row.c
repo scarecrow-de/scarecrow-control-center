@@ -172,7 +172,7 @@ cc_action_row_class_init (CcActionRowClass *klass)
                                    NULL,
                                    G_TYPE_NONE, 0);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/applications/cc-action-row.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/applications/cc-action-row.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcActionRow, title);
   gtk_widget_class_bind_template_child (widget_class, CcActionRow, subtitle);

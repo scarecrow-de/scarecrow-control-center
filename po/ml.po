@@ -1035,11 +1035,11 @@ msgstr "സമയം, തിയ്യതി, സമയമേഖലയടക്�
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "സിസ്റ്റത്തിന്റെ സമയം, തീയതി മാറ്റുക"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "സമയം അല്ലെങ്കില്‍ തീയതി സജ്ജീകരണങ്ങള്‍ മാറ്റുന്നതിനായി, ആധികാരികത ഉറപ്പാക്കുക."
 
@@ -5072,11 +5072,11 @@ msgstr "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;ph
 msgid "Networks"
 msgstr "ശൃംഖല"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "വിദൂര പ്രവേശിക്കല്‍ പ്രവര്‍ത്തനസജ്ജം/രഹിതം ആക്കുക"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "വിദൂര പ്രവേശനം പ്രവര്‍ത്തനസജ്ജമാക്കാന്‍/രഹിതമാക്കാന്‍ ആധികാരികത ഉറപ്പ് വരുത്തേണ്ടതുണ്ട്"
 
@@ -6147,11 +6147,11 @@ msgstr "അവസാന പ്രവേശനം"
 msgid "Remove User…"
 msgstr "ഉപയോക്താവിനെ കളയുക…"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "ഉപയോക്തൃ അക്കൗണ്ടുകള്‍ കൈകാര്യം ചെയ്യുക"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ഉപയോക്താവിനുള്ള ഡേറ്റാ മാറ്റുന്നതിനായി ആധികാരികത ഉറപ്പ് വരുത്തല്‍ ആവശ്യമുണ്ട്"
 

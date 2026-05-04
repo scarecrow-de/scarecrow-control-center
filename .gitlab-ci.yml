@@ -218,13 +218,13 @@ flatpak:
     expire_in: 7 days
 
   variables:
-    OLD_APPID: "io.github.gnome_de.Settings"
-    APPID: "io.github.gnome_de.SettingsDevel"
-    BUNDLE: "io.github.gnome_de.SettingsDevel.flatpak"
-    MANIFEST_PATH: "io.github.gnome_de.Settings.json"
+    OLD_APPID: "io.github.scarecrow_de.Settings"
+    APPID: "io.github.scarecrow_de.SettingsDevel"
+    BUNDLE: "io.github.scarecrow_de.SettingsDevel.flatpak"
+    MANIFEST_PATH: "io.github.scarecrow_de.Settings.json"
     PATCHES: "build-aux/flatpak/*.patch"
-    PROJECT_FILE: "build-aux/flatpak/io.github.gnome_de.Settings.json"
-    PROJECT_ID: "io.github.gnome_de.Settings"
+    PROJECT_FILE: "build-aux/flatpak/io.github.scarecrow_de.Settings.json"
+    PROJECT_ID: "io.github.scarecrow_de.Settings"
     PROJECT_NAME: "scarecrow-control-center.git"
     RUNTIME_REPO: "https://sdk.gnome.org/gnome-nightly.flatpakrepo"
 

@@ -286,7 +286,7 @@ cc_application_init (CcApplication *self)
   g_application_add_main_option_entries (G_APPLICATION (self), all_options);
 
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io/github/gnome_de/ControlCenter/gtk/style.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/ControlCenter/gtk/style.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -296,7 +296,7 @@ GtkApplication *
 cc_application_new (void)
 {
   return g_object_new (CC_TYPE_APPLICATION,
-                       "application-id", "io.github.gnome_de.ControlCenter",
+                       "application-id", "io.github.scarecrow_de.ControlCenter",
                        "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
                        NULL);
 }

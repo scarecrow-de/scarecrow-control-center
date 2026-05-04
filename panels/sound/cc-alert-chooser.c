@@ -24,7 +24,7 @@
 #include "cc-sound-button.h"
 #include "cc-sound-resources.h"
 
-#define KEY_SOUNDS_SCHEMA "io.github.gnome_de.desktop.sound"
+#define KEY_SOUNDS_SCHEMA "io.github.scarecrow_de.desktop.sound"
 
 struct _CcAlertChooser
 {
@@ -236,7 +236,7 @@ cc_alert_chooser_class_init (CcAlertChooserClass *klass)
 
   object_class->dispose = cc_alert_chooser_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/sound/cc-alert-chooser.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-alert-chooser.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcAlertChooser, bark_button);
   gtk_widget_class_bind_template_child (widget_class, CcAlertChooser, drip_button);

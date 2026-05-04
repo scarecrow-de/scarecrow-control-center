@@ -624,7 +624,7 @@ cc_display_panel_class_init (CcDisplayPanelClass *klass)
   object_class->constructed = cc_display_panel_constructed;
   object_class->dispose = cc_display_panel_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/display/cc-display-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/display/cc-display-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcDisplayPanel, arrangement_frame);
   gtk_widget_class_bind_template_child (widget_class, CcDisplayPanel, arrangement_bin);
@@ -1163,9 +1163,9 @@ cc_display_panel_init (CcDisplayPanel *self)
                                        G_DBUS_PROXY_FLAGS_DO_NOT_LOAD_PROPERTIES |
                                        G_DBUS_PROXY_FLAGS_DO_NOT_CONNECT_SIGNALS |
                                        G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
-                                       "io.github.gnome_de.Shell",
-                                       "/io/github/gnome_de/Shell",
-                                       "io.github.gnome_de.Shell",
+                                       "io.github.scarecrow_de.Shell",
+                                       "/io/github/scarecrow_de/Shell",
+                                       "io.github.scarecrow_de.Shell",
                                        cc_panel_get_cancellable (CC_PANEL (self)),
                                        (GAsyncReadyCallback) shell_proxy_ready,
                                        self);
@@ -1176,7 +1176,7 @@ cc_display_panel_init (CcDisplayPanel *self)
              self);
 
   provider = gtk_css_provider_new ();
-  gtk_css_provider_load_from_resource (provider, "/io/github/gnome_de/control-center/display/display-arrangement.css");
+  gtk_css_provider_load_from_resource (provider, "/io/github/scarecrow_de/control-center/display/display-arrangement.css");
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                              GTK_STYLE_PROVIDER (provider),
                                              GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);

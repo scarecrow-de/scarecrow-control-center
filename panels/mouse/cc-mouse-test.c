@@ -169,9 +169,9 @@ setup_scroll_image (CcMouseTest *self)
 	}
 
 	if (self->double_click_state == DOUBLE_CLICK_TEST_GEGL)
-		resource = "/io/github/gnome_de/control-center/mouse/scroll-test-gegl.svg";
+		resource = "/io/github/scarecrow_de/control-center/mouse/scroll-test-gegl.svg";
 	else
-		resource = "/io/github/gnome_de/control-center/mouse/scroll-test.svg";
+		resource = "/io/github/scarecrow_de/control-center/mouse/scroll-test.svg";
 	gtk_image_set_from_resource (GTK_IMAGE (self->image), resource);
 
 	if (self->double_click_state != DOUBLE_CLICK_TEST_GEGL)
@@ -344,7 +344,7 @@ cc_mouse_test_class_init (CcMouseTestClass *klass)
 
 	object_class->finalize = cc_mouse_test_finalize;
 
-	gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/mouse/cc-mouse-test.ui");
+	gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/mouse/cc-mouse-test.ui");
 
 	gtk_widget_class_bind_template_child (widget_class, CcMouseTest, button_drawing_area);
 	gtk_widget_class_bind_template_child (widget_class, CcMouseTest, information_label);
@@ -367,7 +367,7 @@ cc_mouse_test_init (CcMouseTest *self)
 	self->double_click_state = DOUBLE_CLICK_TEST_OFF;
 	self->button_state = 0;
 
-	self->mouse_settings = g_settings_new ("io.github.gnome_de.settings-daemon.peripherals.mouse");
+	self->mouse_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
 
 	self->information_label_timeout_id = 0;
 	self->button_drawing_area_timeout_id = 0;

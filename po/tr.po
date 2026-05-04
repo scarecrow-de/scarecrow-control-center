@@ -1480,11 +1480,11 @@ msgstr "Tarihi, saati ve saat dilimini değiştir"
 msgid "Clock;Timezone;Location;"
 msgstr "Saat;Saat Dilimi;Zaman Dilimi;Yer;Konum;"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Sistem saatini ve tarihini değiştir"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Saat ya da tarih ayarlarını değiştirmek için kimliğinizi doğrulamanız "
@@ -5933,11 +5933,11 @@ msgstr ""
 "paylaş;paylaşım;ssh;makine;host;isim;ad;uzak;masaüstü;ortam;ses;video;"
 "görüntü;resimler;fotoğraflar;filmler;sunucu;renderer;yorumlayıcı;"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Uzaktan bağlanmayı aç"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Uzaktan bağlantıyı açmak veya kapamak için kimlik doğrulaması gerekiyor"
@@ -7612,11 +7612,11 @@ msgstr "Yö_netici Adı"
 msgid "Administrator Password"
 msgstr "Yönetici Parolası"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Kullanıcı hesaplarını yönet"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Kullanıcı verisini değiştirmek için kimlik doğrulama gerekiyor"
 
@@ -8129,11 +8129,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Aramayı iptal et"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "En son açılan Ayarlar paneli için tanımlayıcı"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8141,11 +8141,11 @@ msgstr ""
 "En son açılan Ayarlar paneli için tanımlayıcı. Tanınmayan değerler göz ardı "
 "edilecek ve listedeki ilk panel seçilecek."
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Ayarlarʼın geliştirme inşasını çalıştırırken uyarı göster"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr "Geliştirme inşası çalışırken Ayarlarʼın uyarı gösterip göstermeyeceği."
@@ -8847,8 +8847,8 @@ msgstr "Sistem Sesleri"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "io.github.gnome_de.Settings"
-#~ msgstr "io.github.gnome_de.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~| msgid "Drag displays to rearrange them"
 #~ msgid "Drag displays to match your setup."

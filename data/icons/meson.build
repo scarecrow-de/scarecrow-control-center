@@ -6,8 +6,8 @@ install_subdir(
 if get_option('profile') == 'development'
   icondir = join_paths('hicolor', 'scalable', 'apps')
   install_data(
-    join_paths(icondir, 'io.github.gnome_de.Settings.Devel.svg'),
+    join_paths(icondir, 'io.github.scarecrow_de.Settings.Devel.svg'),
     install_dir: join_paths(control_center_icondir, icondir),
-    rename: 'io.github.gnome_de.Settings.svg'
+    rename: 'io.github.scarecrow_de.Settings.svg'
   )
 endif

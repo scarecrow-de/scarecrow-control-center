@@ -249,7 +249,7 @@ cc_level_bar_set_stream (CcLevelBar     *self,
   sample_spec.rate = 25;
 
   proplist = pa_proplist_new ();
-  pa_proplist_sets (proplist, PA_PROP_APPLICATION_ID, "io.github.gnome_de.VolumeControl");
+  pa_proplist_sets (proplist, PA_PROP_APPLICATION_ID, "io.github.scarecrow_de.VolumeControl");
   self->level_stream = pa_stream_new_with_proplist (context, "Peak detect", &sample_spec, NULL, proplist);
   pa_proplist_free (proplist);
   if (self->level_stream == NULL)

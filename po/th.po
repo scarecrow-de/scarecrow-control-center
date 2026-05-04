@@ -1071,11 +1071,11 @@ msgstr "ตั้งวันที่และเวลา รวมถึง�
 msgid "Clock;Timezone;Location;"
 msgstr "นาฬิกา;เขตเวลา;ตำแหน่งที่ตั้ง;"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "ตั้งเวลาระบบและตั้งค่าเกี่ยวกับวันที่"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "ในการตั้งเวลาหรือวันที่ คุณต้องยืนยันตัวบุคคลก่อน"
 
@@ -5223,11 +5223,11 @@ msgstr ""
 msgid "Networks"
 msgstr "เครือข่าย"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "เปิดหรือปิดการเข้าระบบผ่านเครือข่าย"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "ต้องยืนยันตัวบุคคลเพื่อจะเปิดหรือปิดการเข้าระบบผ่านเครือข่าย"
 
@@ -6220,11 +6220,11 @@ msgstr "ไอคอนบัญชีผู้ใช้"
 msgid "Last Login"
 msgstr "เข้าระบบล่าสุด"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "จัดการบัญชีผู้ใช้"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "ต้องยืนยันตัวบุคคลเพื่อจะเปลี่ยนข้อมูลของผู้ใช้"
 

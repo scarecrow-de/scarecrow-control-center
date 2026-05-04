@@ -132,7 +132,7 @@ cc_device_combo_box_class_init (CcDeviceComboBoxClass *klass)
 
   object_class->dispose = cc_device_combo_box_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/sound/cc-device-combo-box.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/sound/cc-device-combo-box.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcDeviceComboBox, device_model);
 }

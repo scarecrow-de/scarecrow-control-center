@@ -261,7 +261,7 @@ cc_lock_panel_class_init (CcLockPanelClass *klass)
 
   oclass->finalize = cc_lock_panel_finalize;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/lock/cc-lock-panel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/lock/cc-lock-panel.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcLockPanel, automatic_screen_lock_switch);
   gtk_widget_class_bind_template_child (widget_class, CcLockPanel, blank_screen_combo);
@@ -290,10 +290,10 @@ cc_lock_panel_init (CcLockPanel *self)
 
   self->cancellable = g_cancellable_new ();
 
-  self->lock_settings = g_settings_new ("io.github.gnome_de.desktop.screensaver");
-  self->privacy_settings = g_settings_new ("io.github.gnome_de.desktop.privacy");
-  self->notification_settings = g_settings_new ("io.github.gnome_de.desktop.notifications");
-  self->session_settings = g_settings_new ("io.github.gnome_de.desktop.session");
+  self->lock_settings = g_settings_new ("io.github.scarecrow_de.desktop.screensaver");
+  self->privacy_settings = g_settings_new ("io.github.scarecrow_de.desktop.privacy");
+  self->notification_settings = g_settings_new ("io.github.scarecrow_de.desktop.notifications");
+  self->session_settings = g_settings_new ("io.github.scarecrow_de.desktop.session");
 
   g_settings_bind (self->lock_settings,
                    "lock-enabled",
@@ -327,9 +327,9 @@ cc_lock_panel_init (CcLockPanel *self)
   g_dbus_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                             G_DBUS_PROXY_FLAGS_NONE,
                             NULL,
-                            "io.github.gnome_de.SettingsDaemon.UsbProtection",
-                            "/io/github/gnome_de/SettingsDaemon/UsbProtection",
-                            "io.github.gnome_de.SettingsDaemon.UsbProtection",
+                            "io.github.scarecrow_de.SettingsDaemon.UsbProtection",
+                            "/io/github/scarecrow_de/SettingsDaemon/UsbProtection",
+                            "io.github.scarecrow_de.SettingsDaemon.UsbProtection",
                             self->cancellable,
                             on_usb_protection_param_ready,
                             self);

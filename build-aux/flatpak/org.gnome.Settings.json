@@ -1,8 +1,8 @@
 {
-    "app-id" : "io.github.gnome_de.Settings",
-    "runtime" : "io.github.gnome_de.Sdk",
+    "app-id" : "io.github.scarecrow_de.Settings",
+    "runtime" : "io.github.scarecrow_de.Sdk",
     "runtime-version" : "master",
-    "sdk" : "io.github.gnome_de.Sdk",
+    "sdk" : "io.github.scarecrow_de.Sdk",
     "command" : "scarecrow-control-center",
     "rename-desktop-file" : "scarecrow-control-center.desktop",
     "tags" : [
@@ -13,8 +13,8 @@
         "--device=dri",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--filesystem=host",
-        "--own-name=io.github.gnome_de.ControlCenter",
-        "--own-name=io.github.gnome_de.SessionManager",
+        "--own-name=io.github.scarecrow_de.ControlCenter",
+        "--own-name=io.github.scarecrow_de.SessionManager",
         "--share=ipc",
         "--share=network",
         "--socket=x11",

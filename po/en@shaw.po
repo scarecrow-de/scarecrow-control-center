@@ -2297,12 +2297,12 @@ msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑴𐑐𐑩𐑯 %s/%s: %s\n"
 msgid "Could not rename %s to %s: %s\n"
 msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑮𐑰𐑯𐑱𐑥 %s 𐑑 %s: %s\n"
 
-#: ../capplets/display/io.github.gnome_de.randr.policy.in.h:1
+#: ../capplets/display/io.github.scarecrow_de.randr.policy.in.h:1
 msgid ""
 "Authentication is required to install multi-monitor settings for all users"
 msgstr "𐑷𐑔𐑧𐑯𐑑𐑦𐑒𐑱𐑖𐑩𐑯 𐑦𐑟 𐑮𐑦𐑒𐑢𐑲𐑼𐑛 𐑑 𐑦𐑯𐑕𐑑𐑷𐑤 𐑥𐑩𐑤𐑑𐑰-𐑥𐑪𐑯𐑦𐑑𐑼 𐑕𐑧𐑑𐑦𐑙𐑟 𐑓𐑹 𐑷𐑤 𐑿𐑟𐑼𐑟"
 
-#: ../capplets/display/io.github.gnome_de.randr.policy.in.h:2
+#: ../capplets/display/io.github.scarecrow_de.randr.policy.in.h:2
 msgid "Install multi-monitor settings for the whole system"
 msgstr "𐑦𐑯𐑕𐑑𐑷𐑤 𐑥𐑩𐑤𐑑𐑰-𐑥𐑪𐑯𐑦𐑑𐑼 𐑕𐑧𐑑𐑦𐑙𐑟 𐑓𐑹 𐑞 𐑣𐑴𐑤 𐑕𐑦𐑕𐑑𐑩𐑥"
 

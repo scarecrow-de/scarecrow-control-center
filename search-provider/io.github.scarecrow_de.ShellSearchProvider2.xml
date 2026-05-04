@@ -4,13 +4,13 @@
 <node>
 
   <!--
-      io.github.gnome_de.Shell.SearchProvider2:
+      io.github.scarecrow_de.Shell.SearchProvider2:
       @short_description: Search provider interface
 
       The interface used for integrating into GNOME Shell's search
       interface (version 2).
   -->
-  <interface name="io.github.gnome_de.Shell.SearchProvider2">
+  <interface name="io.github.scarecrow_de.Shell.SearchProvider2">
 
     <!--
         GetInitialResultSet:

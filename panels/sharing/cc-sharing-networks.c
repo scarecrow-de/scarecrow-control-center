@@ -24,7 +24,7 @@
 #include <glib/gi18n.h>
 
 #include "cc-sharing-networks.h"
-#include "io.github.gnome_de.SettingsDaemon.Sharing.h"
+#include "io.github.scarecrow_de.SettingsDaemon.Sharing.h"
 #include "scsd-sharing-enums.h"
 #include "list-box-helper.h"
 
@@ -557,7 +557,7 @@ cc_sharing_networks_class_init (CcSharingNetworksClass *klass)
                                                       G_PARAM_READABLE));
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/io/github/gnome_de/control-center/sharing/cc-sharing-networks.ui");
+                                               "/io/github/scarecrow_de/control-center/sharing/cc-sharing-networks.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcSharingNetworks, listbox);
 }

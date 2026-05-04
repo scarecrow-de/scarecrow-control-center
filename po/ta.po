@@ -1096,11 +1096,11 @@ msgstr "நேர மண்டலம் உட்பட தேதி மற்�
 msgid "Clock;Timezone;Location;"
 msgstr "கடிகாரம்;நேரமண்டலம்;இடம்;"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:1
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
 msgstr "கணினி நேரம் மற்றும் தேதி அமைவை மாற்றி அமைக்க"
 
-#: ../panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in.h:2
+#: ../panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "கணினி நேரம் மற்றும் தேதி அமைப்புகளை மாற்ற நீங்கள் உறுதிப்படுத்த வேண்டும்."
@@ -5233,11 +5233,11 @@ msgstr ""
 "ோ;வீடியோ;"
 "படங்கள்;புகைப்படங்கள்;மூவிகள்;சேவையகம்;ரென்டெரர்;"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:1
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:1
 msgid "Enable or disable remote login"
 msgstr "தொலைநிலை புகுபதிவை செயல்படுத்து அல்லது முடக்கு"
 
-#: ../panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in.h:2
+#: ../panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in.h:2
 msgid "Authentication is required to enable or disable remote login"
 msgstr "தொலைநிலை புகுபதிவை செயல்படுத்த அல்லது முடக்க அங்கீகாரம் தேவைப்படுகிறது"
 
@@ -6277,11 +6277,11 @@ msgstr "(_L) மொழி"
 msgid "Last Login"
 msgstr "கடந்த புகுபதிவு"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:1
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:1
 msgid "Manage user accounts"
 msgstr "பயனர் கணக்குகளை மேலாள்"
 
-#: ../panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in.h:2
+#: ../panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in.h:2
 msgid "Authentication is required to change user data"
 msgstr "பயனர் தரவை மாற்ற அனுமதி தேவை"
 

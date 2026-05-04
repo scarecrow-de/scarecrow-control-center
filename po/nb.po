@@ -1469,11 +1469,11 @@ msgstr "Endra dato og klokkeslett - inklusive tidssone"
 msgid "Clock;Timezone;Location;"
 msgstr "Klokke;Tidssone;Plassering;Adresse;"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Endre innstillinger for systemets klokke og dato"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Du må autentisere deg for å endre innstillinger for tid og dato."
 
@@ -5879,11 +5879,11 @@ msgstr ""
 "del;deling;ssh;vert;navn;ekstern;skrivebord;media;lyd;video;bilder;foto;"
 "filmer;tjener;visning;"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Slå på eller av ekstern pålogging"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr "Du må autentisere deg for å slå av eller på ekstern pålogging"
 
@@ -7553,11 +7553,11 @@ msgstr "_Navn på administrator"
 msgid "Administrator Password"
 msgstr "Passord for administrator"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Håndter brukerkontoer"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Du må autentisere deg for å endre brukerdata"
 
@@ -8065,21 +8065,21 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Avbryt søk"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Identifikator for siste innstillingspanel som ble åpnet"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
 msgstr ""
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""

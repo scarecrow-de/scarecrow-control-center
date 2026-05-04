@@ -28,7 +28,7 @@
                   <object class="GtkImage">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="resource">/io/github/gnome_de/control-center/info-overview/ScarecrowLogoVerticalMedium.svg</property>
+                    <property name="resource">/io/github/scarecrow_de/control-center/info-overview/ScarecrowLogoVerticalMedium.svg</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>

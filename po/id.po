@@ -1478,11 +1478,11 @@ msgstr "Ubah tanggal dan waktu, termasuk zona waktu"
 msgid "Clock;Timezone;Location;"
 msgstr "Jam;Zona waktu;Lokasi;"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Ubah pengaturan waktu dan tanggal sistem"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Untuk mengubah tatanan waktu atau tanggal, Anda perlu diautentikasi."
 
@@ -5930,11 +5930,11 @@ msgstr ""
 "berbagi;ssh;host;nama;jarak jauh;remote;desktop;media;audio;video;gambar;"
 "foto;film;server;perender;"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Fungsikan atau matikan log masuk jarak jauh"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Autentikasi diperlukan untuk memfungsikan atau mematikan log masuk jarak jauh"
@@ -7611,11 +7611,11 @@ msgstr "_Nama Administrator"
 msgid "Administrator Password"
 msgstr "Kata Sandi Administrator"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Kelola akun pengguna"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Autentikasi diperlukan untuk mengubah data pengguna"
 
@@ -8125,11 +8125,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Batalkan pencarian"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Pengenal panel Pengaturan terakhir akan dibuka"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -8137,13 +8137,13 @@ msgstr ""
 "Pengenal panel Pengaturan terakhir akan dibuka. Nilai yang tidak dikenal "
 "akan diabaikan dan panel pertama dalam daftar dipilih."
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr ""
 "Tampilkan peringatan saat menjalankan hasil bangun pengembangan (development "
 "build) dari Pengaturan"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr ""
@@ -8851,8 +8851,8 @@ msgstr "Suara Sistem"
 #~ msgid "input-tablet"
 #~ msgstr "input-tablet"
 
-#~ msgid "io.github.gnome_de.Settings"
-#~ msgstr "io.github.gnome_de.Settings"
+#~ msgid "io.github.scarecrow_de.Settings"
+#~ msgstr "io.github.scarecrow_de.Settings"
 
 #~ msgid "_Night Light"
 #~ msgstr "Tera_ng Malam"

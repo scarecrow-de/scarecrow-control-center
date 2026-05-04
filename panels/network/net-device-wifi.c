@@ -1146,7 +1146,7 @@ net_device_wifi_class_init (NetDeviceWifiClass *klass)
                                                                FALSE,
                                                                G_PARAM_READABLE | G_PARAM_STATIC_STRINGS));
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/network/network-wifi.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/network-wifi.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetDeviceWifi, center_box);
         gtk_widget_class_bind_template_child (widget_class, NetDeviceWifi, device_off_switch);

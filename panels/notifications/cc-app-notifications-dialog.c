@@ -353,7 +353,7 @@ cc_app_notifications_dialog_class_init (CcAppNotificationsDialogClass *klass)
 
   object_class->dispose = cc_app_notifications_dialog_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/notifications/cc-app-notifications-dialog.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/notifications/cc-app-notifications-dialog.ui");
 
   gtk_widget_class_bind_template_child (widget_class, CcAppNotificationsDialog, main_listbox);
   gtk_widget_class_bind_template_child (widget_class, CcAppNotificationsDialog, notifications_switch);

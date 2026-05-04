@@ -208,7 +208,7 @@ net_proxy_class_init (NetProxyClass *klass)
 
         object_class->finalize = net_proxy_finalize;
 
-        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/gnome_de/control-center/network/network-proxy.ui");
+        gtk_widget_class_set_template_from_resource (widget_class, "/io/github/scarecrow_de/control-center/network/network-proxy.ui");
 
         gtk_widget_class_bind_template_child (widget_class, NetProxy, automatic_radio);
         gtk_widget_class_bind_template_child (widget_class, NetProxy, dialog);
@@ -289,7 +289,7 @@ net_proxy_init (NetProxy *self)
 
         gtk_widget_init_template (GTK_WIDGET (self));
 
-        self->settings = g_settings_new ("io.github.gnome_de.system.proxy");
+        self->settings = g_settings_new ("io.github.scarecrow_de.system.proxy");
         g_signal_connect_object (self->settings,
                                  "changed",
                                  G_CALLBACK (settings_changed_cb),

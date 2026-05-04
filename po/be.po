@@ -1106,11 +1106,11 @@ msgstr "preferences-system-time"
 msgid "Clock;Timezone;Location;"
 msgstr "Гадзіннік;Часавы пояс;Месцазнаходжанне;Месца;"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:11
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:11
 msgid "Change system time and date settings"
 msgstr "Змяненне сістэмных настроек часу і даты"
 
-#: panels/datetime/io.github.gnome_de.controlcenter.datetime.policy.in:12
+#: panels/datetime/io.github.scarecrow_de.controlcenter.datetime.policy.in:12
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Каб змяняць настройкі часу і даты, трэба ідэнтыфікаваць сябе."
 
@@ -5531,11 +5531,11 @@ msgstr ""
 msgid "Networks"
 msgstr "Сетка"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:11
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:11
 msgid "Enable or disable remote login"
 msgstr "Уключыць ці выключыць аддалены ўваход у сістэму"
 
-#: panels/sharing/io.github.gnome_de.controlcenter.remote-login-helper.policy.in.in:12
+#: panels/sharing/io.github.scarecrow_de.controlcenter.remote-login-helper.policy.in.in:12
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Для ўключэння і выключэння аддаленага ўваходу ў сістэму патрабуецца "
@@ -6784,11 +6784,11 @@ msgstr "Не знойдзена карыстальнікаў"
 msgid "Unlock to add a user account."
 msgstr "Разблакіруйце каб дадаць конт карыстальніка."
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:11
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:11
 msgid "Manage user accounts"
 msgstr "Настройка карыстальніцкіх контаў"
 
-#: panels/user-accounts/io.github.gnome_de.controlcenter.user-accounts.policy.in:12
+#: panels/user-accounts/io.github.scarecrow_de.controlcenter.user-accounts.policy.in:12
 msgid "Authentication is required to change user data"
 msgstr "Для змянення карыстальніцкіх даных патрабуецца ідэнтыфікацыя"
 
@@ -7686,11 +7686,11 @@ msgctxt "shortcut window"
 msgid "Cancel search"
 msgstr "Скасаваць пошук"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:5
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:5
 msgid "The identifier for the last Settings panel to be opened"
 msgstr "Ідэнтыфікатар апошняй адкрытай панэлі Настроек"
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:6
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:6
 msgid ""
 "The identifier for the last Settings panel to be opened. Unrecognised values "
 "will be ignored and the first panel in the list selected."
@@ -7698,11 +7698,11 @@ msgstr ""
 "Ідэнтыфікатар апошняй адкрытай панэлі Настроек. Непазнаныя значэнні будуць "
 "ігнараваны, будзе выбрана самая першая панэль у спісе."
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:13
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:13
 msgid "Show warning when running a development build of Settings"
 msgstr "Паказваць папярэджанне пры запуску версіі Настроек для распрацоўкі."
 
-#: shell/io.github.gnome_de.ControlCenter.gschema.xml:14
+#: shell/io.github.scarecrow_de.ControlCenter.gschema.xml:14
 msgid ""
 "Whether Settings should show a warning when running a development build."
 msgstr "Ці паказваць папярэджанне пры запуску версіі для распрацоўкі."

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/gnome_de/control-center/mouse">
+  <gresource prefix="/io/github/scarecrow_de/control-center/mouse">
     <file preprocess="xml-stripblanks">cc-mouse-panel.ui</file>
     <file preprocess="xml-stripblanks">cc-mouse-test.ui</file>
     <file>scroll-test.svg</file>
