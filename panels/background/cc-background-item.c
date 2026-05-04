@@ -52,7 +52,7 @@ struct _CcBackgroundItem
         guint64          modified;
 
         /* internal */
-        ScarecrowBG         *bg;
+        GnomeBG         *bg;
         char            *mime_type;
         int              width;
         int              height;
@@ -149,7 +149,7 @@ update_size (CcBackgroundItem *item)
 }
 
 static GdkPixbuf *
-render_at_size (ScarecrowBG *bg,
+render_at_size (GnomeBG *bg,
                 gint width,
                 gint height)
 {
@@ -194,7 +194,7 @@ cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
                 /* FIXME: this doesn't play nice with slideshow stepping at all,
                  * because it will always render the current slideshow frame, which
                  * might not be what we want.
-                 * We're lacking an API to draw a high-res ScarecrowBG manually choosing
+                 * We're lacking an API to draw a high-res GnomeBG manually choosing
                  * the slideshow frame though, so we can't do much better than this
                  * for now.
                  */
