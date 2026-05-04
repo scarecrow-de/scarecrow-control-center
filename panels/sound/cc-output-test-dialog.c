@@ -94,7 +94,7 @@ cc_output_test_dialog_init (CcOutputTestDialog *self)
   self->context = gsound_context_new (NULL, NULL);
   gsound_context_set_driver (self->context, "pulse", NULL);
   gsound_context_set_attributes (self->context, NULL,
-                                 GSOUND_ATTR_APPLICATION_ID, "io.github.scarecrow_de.VolumeControl",
+                                 GSOUND_ATTR_APPLICATION_ID, "org.gnome.VolumeControl",
                                  NULL);
   settings = gtk_settings_get_for_screen (gdk_screen_get_default ());
   g_object_get (G_OBJECT (settings),

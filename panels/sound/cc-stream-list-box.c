@@ -84,7 +84,7 @@ stream_added_cb (CcStreamListBox *self,
   app_id = gvc_mixer_stream_get_application_id (stream);
 
   /* Skip master volume controls */
-  if (g_strcmp0 (app_id, "io.github.scarecrow_de.VolumeControl") == 0 ||
+  if (g_strcmp0 (app_id, "org.gnome.VolumeControl") == 0 ||
       g_strcmp0 (app_id, "org.PulseAudio.pavucontrol") == 0)
     {
       return;
