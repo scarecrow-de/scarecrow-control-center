@@ -101,16 +101,16 @@ msgstr "ئۈستەلئۈستى تەگلىك يوق"
 msgid "Current background"
 msgstr "نۆۋەتتىكى تەگلىك"
 
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:1
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:1
 msgid "Background"
 msgstr "تەگلىك"
 
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:2
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:2
 msgid "Change the background"
 msgstr "تەگلىكنى ئۆزگەرتىدۇ"
 
 #. Translators: those are keywords for the background control-center panel
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:4
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:4
 msgid "Wallpaper;Screen;Desktop;"
 msgstr "Wallpaper;Screen;Desktop;تام قەغىزى;ئېكران;ئۈستەلئۈستى;"
 
@@ -136,7 +136,7 @@ msgstr "باغلىنىش"
 #: ../panels/network/connection-editor/8021x-security-page.ui.h:2
 #: ../panels/network/connection-editor/security-page.ui.h:2
 #: ../panels/printers/printers.ui.h:14
-#: ../panels/region/gnome-region-panel.ui.h:3
+#: ../panels/region/scarecrow-region-panel.ui.h:3
 msgid "page 1"
 msgstr "1-بەت"
 
@@ -144,7 +144,7 @@ msgstr "1-بەت"
 #: ../panels/network/connection-editor/8021x-security-page.ui.h:5
 #: ../panels/network/connection-editor/security-page.ui.h:5
 #: ../panels/printers/printers.ui.h:16
-#: ../panels/region/gnome-region-panel.ui.h:5
+#: ../panels/region/scarecrow-region-panel.ui.h:5
 msgid "page 2"
 msgstr "2-بەت"
 
@@ -222,11 +222,11 @@ msgid ""
 "If you remove the device, you will have to set it up again before next use."
 msgstr "ئەگەر سىز بۇ ئۈسكىنىنى ئۆچۈرۈۋەتسىڭىز،كىيىن ئىشلەتكەندە قايتا تەڭشەش زۆرۈر بولىدۇ."
 
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:1
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:1
 msgid "Bluetooth"
 msgstr "كۆكچىش"
 
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:2
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr "كۆكچىش تەڭشىكىنى تەڭشەش"
 
@@ -669,7 +669,7 @@ msgid ""
 msgstr "سۈرەت ھۆججەتنى بۇ كۆزنەككە سۆرەپ ئۈستىدىكى سۆز بۆلەكلىرىنى ئۆزلۈكىدىن تولدۇرغىلى بولىدۇ."
 
 #: ../panels/color/color.ui.h:31
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:1
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:1
 #: ../panels/universal-access/zoom-options.ui.h:28
 msgid "Color"
 msgstr "رەڭ"
@@ -791,12 +791,12 @@ msgstr "D65 (سۈرەتچىلىك ۋە گرافىك)"
 msgid "D75"
 msgstr "D75"
 
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:2
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:2
 msgid "Color management settings"
 msgstr "رەڭ باشقۇرۇش تەڭشىكى"
 
 #. Translators: those are keywords for the color control-center panel
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:4
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:4
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "رەڭ;ICC;سەپلىمە ھۆججەت;تۈزىتىش;پرىنتېر;ئېكران;"
 
@@ -960,16 +960,16 @@ msgstr "ئوغلاق"
 msgid "December"
 msgstr "كۆنەك"
 
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:1
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:1
 msgid "Date & Time"
 msgstr "چېسلا & ۋاقىت"
 
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:2
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:2
 msgid "Date and Time preferences panel"
 msgstr "چېسلا ۋە ۋاقىت مايىللىق تاختىسى"
 
 #. Translators: those are keywords for the date and time control-center panel
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:4
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:4
 msgid "Clock;Timezone;Location;"
 msgstr "سائەت;ۋاقىت رايونى;ئورۇن;"
 
@@ -1080,16 +1080,16 @@ msgstr "ئىزاھات: ئېنىقلىق نىسبىتى تاللانمىسىنى
 msgid "_Detect Displays"
 msgstr "كۆرسەتكۈچلەرنى بايقا(_D)"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:1
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:1
 msgid "Displays"
 msgstr "كۆرسەتكۈچلەر"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:2
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:2
 msgid "Change resolution and position of monitors and projectors"
 msgstr "كۆزەتكۈچ ۋە پرويېكتورنىڭ ئېنىقلىق ۋە ئورنىنى ئۆزگەرت"
 
 #. Translators: those are keywords for the display control-center panel
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:4
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:4
 msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
 msgstr "تاختا;پرويېكتور;xrandr;ئېكران;ئېنىقلىق;يېڭىلا;"
 
@@ -1394,18 +1394,18 @@ msgid "Eject"
 msgstr "چىقار"
 
 #: ../panels/keyboard/01-input-sources.xml.in.h:1
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:19
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:19
 #: ../panels/universal-access/uap.ui.h:66
 msgid "Typing"
 msgstr "كىرگۈزۈۋاتىدۇ"
 
 #: ../panels/keyboard/01-input-sources.xml.in.h:2
-#: ../panels/region/gnome-region-panel.ui.h:27
+#: ../panels/region/scarecrow-region-panel.ui.h:27
 msgid "Switch to next source"
 msgstr "كېيىنكى مەنبەگە ئالماشتۇر"
 
 #: ../panels/keyboard/01-input-sources.xml.in.h:3
-#: ../panels/region/gnome-region-panel.ui.h:25
+#: ../panels/region/scarecrow-region-panel.ui.h:25
 msgid "Switch to previous source"
 msgstr "ئالدىنقى مەنبەگە ئالماشتۇر"
 
@@ -1470,7 +1470,7 @@ msgid "Copy a screenshot of an area to clipboard"
 msgstr "بىر دائىرىنىڭ ئېكران كۆرۈنۈشىنى چاپلاش تاختىسىغا كۆچۈرىدۇ"
 
 #: ../panels/keyboard/01-system.xml.in.h:1
-#: ../panels/region/gnome-region-panel.ui.h:43
+#: ../panels/region/scarecrow-region-panel.ui.h:43
 msgid "System"
 msgstr "سىستېما"
 
@@ -1483,7 +1483,7 @@ msgid "Lock screen"
 msgstr "ئېكراننى قۇلۇپلا"
 
 #: ../panels/keyboard/50-accessibility.xml.in.h:1
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:1
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:1
 msgid "Universal Access"
 msgstr "ئۇنىۋېرسال زىيارەت"
 
@@ -1624,109 +1624,109 @@ msgstr "Compose كۇنۇپكىسى"
 msgid "Modifiers-only switch to next source"
 msgstr ""
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:1
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:4
 msgid "Keyboard"
 msgstr "ھەرپتاختا"
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:2
 msgid "Change keyboard settings"
 msgstr "ھەرپتاختا تەڭشىكىنى ئۆزگەرت"
 
 #. Translators: those are keywords for the keyboard control-center panel
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:4
 msgid "Shortcut;Repeat;Blink;"
 msgstr "Shortcut;Repeat;Blink;قىسقا يول;تەكرارلاش;چاقناش;"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:1
 msgid "Custom Shortcut"
 msgstr "ئىختىيارى تېزلەتمە"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:2
 msgid "_Name:"
 msgstr "ئاتى(_N):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:3
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:3
 msgid "C_ommand:"
 msgstr "بۇيرۇق(_O):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:5
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:5
 msgid "Repeat Keys"
 msgstr "تەكرار كۇنۇپكا"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:6
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:6
 msgid "Key presses _repeat when key is held down"
 msgstr "مەلۇم كۇنۇپكا بېسىپ تۇرۇلغاندا شۇ كۇنۇپكىنى تەكرارلا(_R)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:7
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:7
 msgid "_Delay:"
 msgstr "كېچىكتۈر(_D):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:8
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:8
 msgid "_Speed:"
 msgstr "سۈرئەت(_S):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:9
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:9
 msgctxt "keyboard, delay"
 msgid "Short"
 msgstr "قىسقا"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:10
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:10
 msgctxt "keyboard, speed"
 msgid "Slow"
 msgstr "ئاستا"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:11
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:11
 msgid "Repeat keys speed"
 msgstr "تەكرار كۇنۇپكا سۈرئىتى"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:12
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:12
 msgctxt "keyboard, delay"
 msgid "Long"
 msgstr "ئۇزۇن"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:13
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:13
 msgctxt "keyboard, speed"
 msgid "Fast"
 msgstr "تېز"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:14
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:14
 msgid "Cursor Blinking"
 msgstr "نۇربەلگىنىڭ لىپىلدىشى"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:15
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:15
 msgid "Cursor _blinks in text fields"
 msgstr "تېكىست رايونىدا نۇربەلگىسى لىپىلدىسۇن(_B)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:16
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:16
 msgid "S_peed:"
 msgstr "سۈرئىتى(_P):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:17
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:17
 msgid "Cursor blink speed"
 msgstr "سىنبەلگە لىپىلداش سۈرئىتى"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:18
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:18
 msgid "Layout Settings"
 msgstr "جايلاشتۇر تەڭشىكى"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:20
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:20
 msgid "Add Shortcut"
 msgstr "قىسقا يول قوش"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:21
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:21
 msgid "Remove Shortcut"
 msgstr "قىسقا يولنى چىقىرىۋەت"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:22
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:22
 #: ../panels/wacom/button-mapping.ui.h:3
 msgid ""
 "To edit a shortcut, click the row and hold down the new keys or press "
 "Backspace to clear."
 msgstr "تېزلەتمىنى تەھرىرلەشتە، مۇناسىپ قۇرنى تاق چېكىپ ئاندىن يېڭى تېزلەتمە كىرگۈزۈلىدۇ ياكى backspace ئۆچۈرۈش كۇنۇپكىسىدا تازىلىنىدۇ."
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:23
-#: ../panels/region/gnome-region-panel.ui.h:30
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:23
+#: ../panels/region/scarecrow-region-panel.ui.h:30
 msgid "Shortcuts"
 msgstr "تېزلەتمىلەر"
 
@@ -1768,16 +1768,16 @@ msgstr "قايتا تەيىنلە(_R)"
 msgid "Test Your _Settings"
 msgstr "تەڭشىكىمنى سىناپ كۆرەي(_S)"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:1
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:1
 msgid "Mouse & Touchpad"
 msgstr "چاشقىنەك ۋە سەزگۈر تاختا"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:2
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:2
 msgid "Set your mouse and touchpad preferences"
 msgstr "چاشقىنەك ۋە سېزىمچان تاختا مايىللىقىنى تەڭشەيدۇ"
 
 #. Translators: those are keywords for the mouse and touchpad control-center panel
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:4
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:4
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
 msgstr "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;سەزگۈر تاختا;ئىسترېلكا;چەك;نوقۇ;قوش;توپچا;ئىزلاش شارچىسى;"
 
@@ -3478,16 +3478,16 @@ msgstr "ئوچۇق"
 msgid "Off"
 msgstr "تاقا"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:1
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:1
 msgid "Notifications"
 msgstr "ئۇقتۇرۇشلار"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:2
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:2
 msgid "Manage notifications"
 msgstr "ئۇقتۇرۇشلارنى باشقۇرۇش"
 
 #. Translators: those are keywords for the notifications control-center panel
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:4
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:4
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "Notifications;Banner;Message;Tray;Popup;ئۇقتۇرۇش;ئۇچۇر;قونداق;سەكرىمە;"
 
@@ -3537,16 +3537,16 @@ msgstr "بۇ مۇلازىمېتىردىكى ھېساباتنى چىقىرىۋە�
 msgid "_Remove"
 msgstr "چىقىرىۋەت(_R)"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:1
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:1
 msgid "Online Accounts"
 msgstr "توردىكى ھېساباتلار"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:2
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:2
 msgid "Manage online accounts"
 msgstr "توردىكى ھېساباتلارنى باشقۇرۇش"
 
 #. Translators: those are keywords for the online-accounts control-center panel
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:4
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:4
 msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
 msgstr "Google;Facebook;Twitter;Yahoo;Web;توردا;سۆزلىشىش;يىلنامە;خەت;ئالاقەداش;"
 
@@ -3801,16 +3801,16 @@ msgstr "توكنى ئۈز"
 msgid "Devices"
 msgstr "ئۈسكۈنىلەر"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:1
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:1
 msgid "Power"
 msgstr "توك مەنبە"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:2
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:2
 msgid "Power management settings"
 msgstr "توك مەنبە باشقۇرۇش تەڭشىكى"
 
 #. Translators: those are keywords for the power control-center panel
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:4
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:4
 #, fuzzy
 msgid ""
 "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
@@ -4111,16 +4111,16 @@ msgstr "سىناق بەت"
 msgid "Could not load ui: %s"
 msgstr "كۆرۈنمەيۈزنى ئوقۇغىلى بولمىدى: %s"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:1
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:1
 msgid "Printers"
 msgstr "پرىنتېرلار"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:2
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:2
 msgid "Change printer settings"
 msgstr "پرىنتېر تەڭشىكىنى ئۆزگەرت"
 
 #. Translators: those are keywords for the printing control-center panel
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:4
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:4
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "Printer;Queue;Print;Paper;Ink;Toner;پرىنتېر;ئۆچىرەت;بېسىش;قەغەز;سىياھ;كۇكۇن;"
 
@@ -4650,191 +4650,191 @@ msgstr "ۋاقىتلىق ھۆججەتلەرنى ئاپتوماتىك تازىل�
 msgid "Purge _After"
 msgstr "كۆرسىتىلگەن ۋاقىتتىن كېيىن تازىلا(_A)"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:1
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:1
 msgid "Region & Language"
 msgstr "رايون ۋە تىل"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:2
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:2
 msgid "Change your region and language settings"
 msgstr "رايون ۋە تىل تەڭشىكىڭىزنى ئۆزگەرتىدۇ"
 
 #. Translators: those are keywords for the region control-center panel
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:4
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:4
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "Language;Layout;Keyboard;Input;تىل;ھەرپتاختا;كىرگۈزۈش;"
 
-#: ../panels/region/gnome-region-panel-formats.c:144
+#: ../panels/region/scarecrow-region-panel-formats.c:144
 msgctxt "measurement format"
 msgid "Imperial"
 msgstr "ئىمپېرىئال"
 
-#: ../panels/region/gnome-region-panel-formats.c:146
+#: ../panels/region/scarecrow-region-panel-formats.c:146
 msgctxt "measurement format"
 msgid "Metric"
 msgstr "مېترىك"
 
-#: ../panels/region/gnome-region-panel-input-chooser.ui.h:1
+#: ../panels/region/scarecrow-region-panel-input-chooser.ui.h:1
 msgid "Select an input source"
 msgstr "كىرگۈزۈش مەنبەسىنى تاللاڭ"
 
-#: ../panels/region/gnome-region-panel-lang.c:115
-#: ../panels/region/gnome-region-panel.ui.h:4
+#: ../panels/region/scarecrow-region-panel-lang.c:115
+#: ../panels/region/scarecrow-region-panel.ui.h:4
 msgid "Log out for changes to take effect"
 msgstr "ئۆزگىرىشلەرنى ئىناۋەتلىك قىلىش ئۈچۈن چىقىپ كەت"
 
-#: ../panels/region/gnome-region-panel-system.c:471
+#: ../panels/region/scarecrow-region-panel-system.c:471
 msgid ""
 "The login screen, system accounts and new user accounts use the system-wide "
 "Region and Language settings."
 msgstr "كىرىش ئېكرانى، سىستېما ھېساباتى ۋە يېڭى ئىشلەتكۈچى ھېساباتلىرى مەزكۇر سىستېما مىقياسىدىكى رايون ۋە تىل تەڭشىكىنى ئىشلىتىدۇ."
 
-#: ../panels/region/gnome-region-panel-system.c:476
-#: ../panels/region/gnome-region-panel.ui.h:35
+#: ../panels/region/scarecrow-region-panel-system.c:476
+#: ../panels/region/scarecrow-region-panel.ui.h:35
 msgid ""
 "The login screen, system accounts and new user accounts use the system-wide "
 "Region and Language settings. You may change the system settings to match "
 "yours."
 msgstr "كىرىش ئېكرانى، سىستېما ھېساباتى ۋە يېڭى ئىشلەتكۈچى ھېساباتلىرى مەزكۇر سىستېما مىقياسىدىكى رايون ۋە تىل تەڭشىكىنى ئىشلىتىدۇ. سىز ئۆزىڭىزگە مەست كېلىدىغان قىلىپ تەڭشىسىڭىز بولىدۇ."
 
-#: ../panels/region/gnome-region-panel-system.c:479
+#: ../panels/region/scarecrow-region-panel-system.c:479
 msgid "Copy Settings"
 msgstr "تەڭشەكنى كۆچۈرۈش"
 
-#: ../panels/region/gnome-region-panel-system.c:482
-#: ../panels/region/gnome-region-panel.ui.h:42
+#: ../panels/region/scarecrow-region-panel-system.c:482
+#: ../panels/region/scarecrow-region-panel.ui.h:42
 msgid "Copy Settings…"
 msgstr "تەڭشەكنى كۆچۈرۈش…"
 
-#: ../panels/region/gnome-region-panel.ui.h:1
+#: ../panels/region/scarecrow-region-panel.ui.h:1
 msgid "Region and Language"
 msgstr "رايون ۋە تىل"
 
-#: ../panels/region/gnome-region-panel.ui.h:2
+#: ../panels/region/scarecrow-region-panel.ui.h:2
 msgid "Select a display language"
 msgstr "كۆرسىتىلىدىغان تىلنى تاللايدۇ"
 
-#: ../panels/region/gnome-region-panel.ui.h:6
+#: ../panels/region/scarecrow-region-panel.ui.h:6
 msgid "Add Language"
 msgstr "تىل قوشۇش"
 
-#: ../panels/region/gnome-region-panel.ui.h:7
+#: ../panels/region/scarecrow-region-panel.ui.h:7
 msgid "Language"
 msgstr "تىل"
 
-#: ../panels/region/gnome-region-panel.ui.h:8
+#: ../panels/region/scarecrow-region-panel.ui.h:8
 msgid "Select a region (change will be applied the next time you log in)"
 msgstr "رايون تاللاڭ(ئۆزگىرىش كېيىنكى قېتىم كىرگەندە كۈچكە ئىگە)"
 
-#: ../panels/region/gnome-region-panel.ui.h:9
+#: ../panels/region/scarecrow-region-panel.ui.h:9
 msgid "Add Region"
 msgstr "رايون قوشۇش"
 
-#: ../panels/region/gnome-region-panel.ui.h:10
+#: ../panels/region/scarecrow-region-panel.ui.h:10
 msgid "Remove Region"
 msgstr "رايون چىقىرىۋېتىش"
 
-#: ../panels/region/gnome-region-panel.ui.h:11
+#: ../panels/region/scarecrow-region-panel.ui.h:11
 msgid "Dates"
 msgstr "چېسلا"
 
-#: ../panels/region/gnome-region-panel.ui.h:12
+#: ../panels/region/scarecrow-region-panel.ui.h:12
 msgid "Times"
 msgstr "ۋاقىت"
 
-#: ../panels/region/gnome-region-panel.ui.h:13
+#: ../panels/region/scarecrow-region-panel.ui.h:13
 msgid "Numbers"
 msgstr "سانلار"
 
-#: ../panels/region/gnome-region-panel.ui.h:14
+#: ../panels/region/scarecrow-region-panel.ui.h:14
 msgid "Currency"
 msgstr "پۇل"
 
-#: ../panels/region/gnome-region-panel.ui.h:15
+#: ../panels/region/scarecrow-region-panel.ui.h:15
 msgid "Measurement"
 msgstr "ئۆلچەم"
 
-#: ../panels/region/gnome-region-panel.ui.h:16
+#: ../panels/region/scarecrow-region-panel.ui.h:16
 msgid "Examples"
 msgstr "مىساللار"
 
-#: ../panels/region/gnome-region-panel.ui.h:17
+#: ../panels/region/scarecrow-region-panel.ui.h:17
 msgid "Formats"
 msgstr "پىچىملار"
 
-#: ../panels/region/gnome-region-panel.ui.h:18
+#: ../panels/region/scarecrow-region-panel.ui.h:18
 msgid "Select keyboards or other input sources"
 msgstr "ھەرپ تاختا ياكى باشقا كىرگۈزۈش مەنبەسىنى تاللاڭ"
 
-#: ../panels/region/gnome-region-panel.ui.h:19
+#: ../panels/region/scarecrow-region-panel.ui.h:19
 msgid "Add Input Source"
 msgstr "كىرگۈزۈش مەنبەسى قوشۇش"
 
-#: ../panels/region/gnome-region-panel.ui.h:20
+#: ../panels/region/scarecrow-region-panel.ui.h:20
 msgid "Remove Input Source"
 msgstr "كىرگۈزۈش مەنبەسىنى چىقىرىۋېتىش"
 
-#: ../panels/region/gnome-region-panel.ui.h:21
+#: ../panels/region/scarecrow-region-panel.ui.h:21
 msgid "Move Input Source Up"
 msgstr "كىرگۈزۈش مەنبەسىنى ئۈستىگە يۆتكەش"
 
-#: ../panels/region/gnome-region-panel.ui.h:22
+#: ../panels/region/scarecrow-region-panel.ui.h:22
 msgid "Move Input Source Down"
 msgstr "كىرگۈزۈش مەنبەسىنى ئاستىغا يۆتكەش"
 
-#: ../panels/region/gnome-region-panel.ui.h:23
+#: ../panels/region/scarecrow-region-panel.ui.h:23
 msgid "Input Source Settings"
 msgstr "كىرگۈزۈش مەنبەسى تەڭشىكى"
 
-#: ../panels/region/gnome-region-panel.ui.h:24
+#: ../panels/region/scarecrow-region-panel.ui.h:24
 msgid "Show Keyboard Layout"
 msgstr "ھەرپ تاختا ئورۇنلاشتۇرۇشىنى كۆرسىتىش"
 
-#: ../panels/region/gnome-region-panel.ui.h:26
+#: ../panels/region/scarecrow-region-panel.ui.h:26
 msgid "Ctrl+Alt+Space"
 msgstr "Ctrl+Alt+Space"
 
-#: ../panels/region/gnome-region-panel.ui.h:28
+#: ../panels/region/scarecrow-region-panel.ui.h:28
 msgid "Ctrl+Alt+Shift+Space"
 msgstr "Ctrl+Alt+Shift+Space"
 
-#: ../panels/region/gnome-region-panel.ui.h:29
+#: ../panels/region/scarecrow-region-panel.ui.h:29
 msgid "Shortcut Settings"
 msgstr "تېزلەتمە تەڭشىكى"
 
-#: ../panels/region/gnome-region-panel.ui.h:31
+#: ../panels/region/scarecrow-region-panel.ui.h:31
 msgid "Use the same source for all windows"
 msgstr "ھەممە كۆزنەكلەرگە ئوخشاش مەنبەنى ئىشلەتسۇن"
 
-#: ../panels/region/gnome-region-panel.ui.h:32
+#: ../panels/region/scarecrow-region-panel.ui.h:32
 msgid "Allow different sources for each window"
 msgstr "ھەر بىر كۆزنەكنىڭ ئايرىم-ئايرىم بولسۇن"
 
-#: ../panels/region/gnome-region-panel.ui.h:33
+#: ../panels/region/scarecrow-region-panel.ui.h:33
 msgid "Options"
 msgstr "تاللانما"
 
-#: ../panels/region/gnome-region-panel.ui.h:34
+#: ../panels/region/scarecrow-region-panel.ui.h:34
 msgid "Input Sources"
 msgstr "كىرگۈزۈش مەنبەلىرى"
 
 #. 'display' means 'output' here, as in 'translated messages that are displayed to the user'
-#: ../panels/region/gnome-region-panel.ui.h:37
+#: ../panels/region/scarecrow-region-panel.ui.h:37
 msgid "Display language:"
 msgstr "كۆرۈنۈش تىلى:"
 
-#: ../panels/region/gnome-region-panel.ui.h:38
+#: ../panels/region/scarecrow-region-panel.ui.h:38
 msgid "Input source:"
 msgstr "كىرگۈزۈش مەنبەسى"
 
-#: ../panels/region/gnome-region-panel.ui.h:39
+#: ../panels/region/scarecrow-region-panel.ui.h:39
 msgid "Format:"
 msgstr "فورمات:"
 
-#: ../panels/region/gnome-region-panel.ui.h:40
+#: ../panels/region/scarecrow-region-panel.ui.h:40
 msgid "Your settings"
 msgstr "تەڭشىكىڭىز"
 
-#: ../panels/region/gnome-region-panel.ui.h:41
+#: ../panels/region/scarecrow-region-panel.ui.h:41
 msgid "System settings"
 msgstr "سىستېما تەڭشەكلىرى"
 
@@ -4868,16 +4868,16 @@ msgstr "پروگرامما تېپىلمىدى"
 msgid "Enabled"
 msgstr "ئىناۋەتلىك قىلىنغان"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:1
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:1
 msgid "Search"
 msgstr "ئىزدە"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:2
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:2
 msgid "Search settings"
 msgstr "ئىزدەش تەڭشىكى"
 
 #. Translators: those are keywords for the search control-center panel
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:4
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:4
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "Search;Find;Index;Hide;Privacy;Results;ئىزدەش;تېپىش;ئىندېكس;يوشۇرۇش;شەخسىيەت;نەتىجىلەر;"
 
@@ -4915,12 +4915,12 @@ msgstr "قىسقۇچ تاللاڭ"
 msgid "Copy"
 msgstr "كۆچۈر"
 
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:1
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:1
 msgid "Sharing"
 msgstr "ھەمبەھىر"
 
 #. Translators: those are keywords for the sharing control-center panel
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:3
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:3
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
@@ -5054,16 +5054,16 @@ msgstr "ھەممە باغلىنىشنى قوبۇل قىلسۇن"
 msgid "Show Password"
 msgstr "ئىم كۆرسەت"
 
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:1
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:1
 msgid "Sound"
 msgstr "ئاۋاز"
 
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:2
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:2
 msgid "Change sound volume and event sounds"
 msgstr "ئاۋاز چوڭلۇقى ۋە ھادىسىنىڭ ئاۋازلىرىنى ئۆزگەرتىش"
 
 #. Translators: those are keywords for the sound control-center panel
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:4
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:4
 #, fuzzy
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
 msgstr "كارتا؛مىكروفون؛ئاۋاز چوڭلۇقى؛Fade؛Balance؛كۆكچىش؛مىكروفونلۇق تىڭشىغۇچ؛ئاۋاز؛ئۈن؛"
@@ -5289,12 +5289,12 @@ msgstr "ئىختىيارى"
 msgid "No shortcut set"
 msgstr "تېزلەتمە بەلگىلەنمىگەن"
 
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:2
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:2
 msgid "Universal Access Preferences"
 msgstr "ئۇنىۋېرسال زىيارەت مايىللىقى"
 
 #. Translators: those are keywords for the universal access control-center panel
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:4
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:4
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen Reader;text;font;size;"
 "AccessX;Sticky Keys;Slow Keys;Bounce Keys;Mouse Keys;"
@@ -5887,16 +5887,16 @@ msgid ""
 "using your fingerprint reader."
 msgstr "بارماق ئىزىڭىز مۇۋەپپەقىيەتلىك ساقلاندى. ئەمدى بارماق ئىزى ئوقۇغۇچىڭىز ئارقىلىق تىزىمغا كىرەلەيسىز."
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:1
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:1
 msgid "Users"
 msgstr "ئىشلەتكۈچىلەر"
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:2
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:2
 msgid "Add or remove users"
 msgstr "ئىشلەتكۈچى قوشىدۇ ياكى ئۆچۈرىدۇ"
 
 #. Translators: those are keywords for the user accounts control-center panel
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:4
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:4
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;تىزىمغا كىر;ئات;بارماق ئىزى;سىما;تۇغ;چىراي;ئىم;"
 
@@ -6550,17 +6550,17 @@ msgstr "مەشغۇلات"
 msgid "Display Mapping"
 msgstr "خەرىتە كۆرسەت"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:1
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:1
 #: ../panels/wacom/gnome-wacom-properties.ui.h:7
 msgid "Wacom Tablet"
 msgstr "Wacom Tablet"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:2
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:2
 msgid "Set your Wacom tablet preferences"
 msgstr "Wacom tablet نىڭ مايىللىقىنى تەڭشەيدۇ"
 
 #. Translators: those are keywords for the wacom tablet control-center panel
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:4
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:4
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "Tablet;Wacom;قەلەم;ئۆچۈرگۈچ;چاشقىنەك;"
 

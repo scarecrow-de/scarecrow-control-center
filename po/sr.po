@@ -158,7 +158,7 @@ msgstr "Друге датотеке"
 #. List of applications.
 #: panels/applications/cc-applications-panel.c:1652
 #: panels/applications/cc-applications-panel.ui:416
-#: panels/applications/gnome-applications-panel.desktop.in.in:3
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:3
 #: panels/notifications/cc-notifications-panel.ui:78
 msgid "Applications"
 msgstr "Програми"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: panels/applications/cc-applications-panel.ui:121
 #: panels/applications/cc-applications-panel.ui:127
-#: panels/camera/gnome-camera-panel.desktop.in.in:3
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:3
 msgid "Camera"
 msgstr "Камера"
 
@@ -211,13 +211,13 @@ msgstr "Искључено"
 
 #: panels/applications/cc-applications-panel.ui:133
 #: panels/applications/cc-applications-panel.ui:139
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:3
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:3
 msgid "Microphone"
 msgstr "Микрофон"
 
 #: panels/applications/cc-applications-panel.ui:145
 #: panels/applications/cc-applications-panel.ui:151
-#: panels/location/gnome-location-panel.desktop.in.in:3
+#: panels/location/scarecrow-location-panel.desktop.in.in:3
 msgid "Location Services"
 msgstr "Услуге места"
 
@@ -249,12 +249,12 @@ msgstr "Могућности система које користи овај п�
 #: panels/applications/cc-applications-panel.ui:225
 #: panels/applications/cc-applications-panel.ui:231
 #: panels/keyboard/01-launchers.xml.in:16
-#: panels/search/gnome-search-panel.desktop.in.in:3 shell/cc-window.ui:151
+#: panels/search/scarecrow-search-panel.desktop.in.in:3 shell/cc-window.ui:151
 msgid "Search"
 msgstr "Претрага"
 
 #: panels/applications/cc-applications-panel.ui:237
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:3
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:3
 msgid "Notifications"
 msgstr "Обавештења"
 
@@ -338,13 +338,13 @@ msgstr "<b>Укупно</b>"
 msgid "Clear Cache…"
 msgstr "Очисти кеш…"
 
-#: panels/applications/gnome-applications-panel.desktop.in.in:4
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:4
 msgid "Control various application permissions and settings"
 msgstr "Управља разним овлашћењима и подешавањима програма"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/applications/gnome-applications-panel.desktop.in.in:16
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:16
 msgid "application;flatpak;permission;setting;"
 msgstr ""
 "application;flatpak;permission;setting;апликација;програм;флатпак;флетпек;"
@@ -418,16 +418,16 @@ msgstr "Додај слику…"
 msgid "Activities"
 msgstr "Активности"
 
-#: panels/background/gnome-background-panel.desktop.in.in:3
+#: panels/background/scarecrow-background-panel.desktop.in.in:3
 msgid "Background"
 msgstr "Позадина"
 
-#: panels/background/gnome-background-panel.desktop.in.in:4
+#: panels/background/scarecrow-background-panel.desktop.in.in:4
 msgid "Change your background image to a wallpaper or photo"
 msgstr "Измените слику позадине на тапет или фотографију"
 
 #. Translators: Search terms to find the Background panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/background/gnome-background-panel.desktop.in.in:15
+#: panels/background/scarecrow-background-panel.desktop.in.in:15
 msgid "Wallpaper;Screen;Desktop;"
 msgstr ""
 "позадина;екран;радна површ;Wallpaper;Screen;Desktop;pozadina;ekran;radna;"
@@ -470,17 +470,17 @@ msgid "Turn off the Airplane mode switch to enable Bluetooth."
 msgstr "Искључите авионски режим рада бисте укључили блутут."
 
 #. Translators: The found device is a printer connected via Bluetooth
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:3
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:3
 #: panels/printers/pp-new-printer-dialog.c:1628
 msgid "Bluetooth"
 msgstr "Блутут"
 
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:4
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:4
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr "Укључите или искључите блутут и повежите ваше уређаје"
 
 #. Translators: Search terms to find the Bluetooth panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:19
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:19
 msgid "share;sharing;bluetooth;obex;"
 msgstr ""
 "дељење;блутут;обекс;deljenje;blutut;obeks;share;sharing;bluetooth;obex;"
@@ -510,14 +510,14 @@ msgstr "Дозвољава програмима испод да користе �
 msgid "No Applications Have Asked for Camera Access"
 msgstr "Ниједан програм није затражио приступ камери"
 
-#: panels/camera/gnome-camera-panel.desktop.in.in:4
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:4
 msgid "Protect your pictures"
 msgstr "Заштитите ваше слике"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/camera/gnome-camera-panel.desktop.in.in:20
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:20
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:20
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;"
@@ -1151,18 +1151,18 @@ msgstr "Исправка приказа преко целог екрана ни�
 msgid "This profile may no longer be accurate"
 msgstr "Овај профил више не може бити тачан"
 
-#: panels/color/gnome-color-panel.desktop.in.in:3
+#: panels/color/scarecrow-color-panel.desktop.in.in:3
 msgid "Color"
 msgstr "Боја"
 
-#: panels/color/gnome-color-panel.desktop.in.in:4
+#: panels/color/scarecrow-color-panel.desktop.in.in:4
 msgid ""
 "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr ""
 "Калибрирајте боје ваших уређаја, као што су екрани, фото-апарати или штампачи"
 
 #. Translators: Search terms to find the Color panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/color/gnome-color-panel.desktop.in.in:19
+#: panels/color/scarecrow-color-panel.desktop.in.in:19
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "боја;ицц;профил;калибрирај;штампач;екран;"
 
@@ -1432,7 +1432,7 @@ msgid "December"
 msgstr "Децембар"
 
 #: panels/datetime/cc-datetime-panel.ui:65
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:3
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:3
 msgid "Date & Time"
 msgstr "Датум и време"
 
@@ -1480,12 +1480,12 @@ msgstr "24-часовно"
 msgid "AM / PM"
 msgstr "ПрП/ПоП"
 
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:4
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:4
 msgid "Change the date and time, including time zone"
 msgstr "Измените датум и време, укључујући временску зону"
 
 #. Translators: Search terms to find the Date and Time panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:15
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:15
 msgid "Clock;Timezone;Location;"
 msgstr "сат;временска зона;место;"
 
@@ -1523,16 +1523,16 @@ msgstr "_Видео"
 msgid "_Photos"
 msgstr "_Фотографије"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:3
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:3
 msgid "Default Applications"
 msgstr "Подразумевани програми"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:4
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:4
 msgid "Configure Default Applications"
 msgstr "Подесите основне програме"
 
 #. Translators: Search terms to find the Default Applications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:19
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:19
 msgid "default;application;preferred;media;"
 msgstr "основни;програм;омиљени;медиј;"
 
@@ -1554,20 +1554,20 @@ msgstr "Извештавање о проблему"
 msgid "_Automatic Problem Reporting"
 msgstr "_Самостално извести о проблему"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:3
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:3
 msgid "Diagnostics"
 msgstr "Дијагностика"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:4
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:4
 msgid "Report your problems"
 msgstr "Пријавите ваше проблеме"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:20
-#: panels/location/gnome-location-panel.desktop.in.in:20
-#: panels/lock/gnome-lock-panel.desktop.in.in:20
-#: panels/usage/gnome-usage-panel.desktop.in.in:20
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:20
+#: panels/location/scarecrow-location-panel.desktop.in.in:20
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:20
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;privacy;"
@@ -1639,7 +1639,7 @@ msgid "Display Configuration"
 msgstr "Подешавање екрана"
 
 #: panels/display/cc-display-panel.ui:440
-#: panels/display/gnome-display-panel.desktop.in.in:3
+#: panels/display/scarecrow-display-panel.desktop.in.in:3
 msgid "Displays"
 msgstr "Екрани"
 
@@ -1780,12 +1780,12 @@ msgstr "До"
 msgid "Color Temperature"
 msgstr "Температура боје"
 
-#: panels/display/gnome-display-panel.desktop.in.in:4
+#: panels/display/scarecrow-display-panel.desktop.in.in:4
 msgid "Choose how to use connected monitors and projectors"
 msgstr "Изаберите како ћете користити повезане екране и пројекторе"
 
 #. Translators: Search terms to find the Displays panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/display/gnome-display-panel.desktop.in.in:19
+#: panels/display/scarecrow-display-panel.desktop.in.in:19
 msgid ""
 "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;"
 "redshift;color;sunset;sunrise;"
@@ -1903,11 +1903,11 @@ msgstr ""
 msgid "_Rename"
 msgstr "П_реименуј"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:3
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:3
 msgid "About"
 msgstr "Системски подаци"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:4
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:4
 msgid "View information about your system"
 msgstr "Погледајте податке о вашем систему"
 
@@ -1916,7 +1916,7 @@ msgstr "Погледајте податке о вашем систему"
 #. The list MUST also end with a semicolon!
 #. "Preferred Applications" is the old name for the preference, so make
 #. sure that you use the same "translation" for those keywords
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:23
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:23
 msgid ""
 "device;system;information;hostname;memory;processor;version;default;"
 "application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
@@ -2064,7 +2064,7 @@ msgid "Lock screen"
 msgstr "Закључај екран"
 
 #: panels/keyboard/50-accessibility.xml.in:2
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:3
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:3
 msgid "Accessibility"
 msgstr "Приступачност"
 
@@ -2308,18 +2308,18 @@ msgstr "Замени"
 msgid "Set"
 msgstr "Постави"
 
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:3
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:3
 #: panels/region/cc-region-panel.ui:392 shell/cc-window.ui:326
 msgid "Keyboard Shortcuts"
 msgstr "Пречице тастатуре"
 
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:4
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:4
 msgid "View and change keyboard shortcuts and set your typing preferences"
 msgstr ""
 "Погледајте и измените пречице тастатуре и подесите ваше поставке куцања"
 
 #. Translators: Search terms to find the Keyboard panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:19
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:19
 msgid ""
 "Shortcut;Workspace;Window;Resize;Zoom;Contrast;Input;Source;Lock;Volume;"
 msgstr ""
@@ -2358,7 +2358,7 @@ msgstr "Дозвољава програмима испод да утврде в�
 msgid "No Applications Have Asked for Location Access"
 msgstr "Ниједан програм није затражио податке о месту"
 
-#: panels/location/gnome-location-panel.desktop.in.in:4
+#: panels/location/scarecrow-location-panel.desktop.in.in:4
 msgid "Protect your location information"
 msgstr "Заштитите ваше податке о месту становања"
 
@@ -2522,11 +2522,11 @@ msgctxt "blank_screen"
 msgid "Never"
 msgstr "Никада"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:3
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:3
 msgid "Screen Lock"
 msgstr "Закључавање екрана"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:4
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:4
 msgid "Lock your screen"
 msgstr "Закључајте ваш екран"
 
@@ -2557,7 +2557,7 @@ msgstr "Дозвољава програмима испод да користе �
 msgid "No Applications Have Asked for Microphone Access"
 msgstr "Ниједан програм није затражио приступ микрофону"
 
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:4
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:4
 msgid "Protect your conversations"
 msgstr "Заштитите ваше разговоре"
 
@@ -2660,11 +2660,11 @@ msgstr "Двоструки клик, помоћно дугме"
 msgid "Single click, secondary button"
 msgstr "Један клик, помоћно дугме"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:3
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:3
 msgid "Mouse & Touchpad"
 msgstr "Миш и додирна табла"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:4
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:4
 msgid ""
 "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr ""
@@ -2672,7 +2672,7 @@ msgstr ""
 "деснорукост"
 
 #. Translators: Search terms to find the Mouse and Touchpad panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:19
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:19
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "плоча;показивач;клик;додир;дупло;дугме;куглица;клизање;"
 
@@ -2787,7 +2787,7 @@ msgid "_Turn On"
 msgstr "_Укључи"
 
 #: panels/network/cc-wifi-panel.c:543
-#: panels/network/gnome-wifi-panel.desktop.in.in:3
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:3
 #: panels/network/network-wifi.ui:53
 msgid "Wi-Fi"
 msgstr "Бежична"
@@ -3393,12 +3393,12 @@ msgstr ""
 "vpn;DNS;Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;mreza;"
 "sirokopojasni;"
 
-#: panels/network/gnome-wifi-panel.desktop.in.in:4
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:4
 msgid "Control how you connect to Wi-Fi networks"
 msgstr "Управљајте повезивањем на бежичне мреже"
 
 #. Translators: Search terms to find the Wi-Fi panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-wifi-panel.desktop.in.in:19
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:19
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Broadband;DNS;Hotspot;"
 msgstr ""
 "мрежа;бежична;вај-фај;ип;лан;широкопојасна;ДНС;хотспот;mreža;bežična;vaj-faj;"
@@ -4301,12 +4301,12 @@ msgstr "_Не узнемиравај"
 msgid "_Lock Screen Notifications"
 msgstr "_Обавештења на екрану закључавања"
 
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:4
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:4
 msgid "Control which notifications are displayed and what they show"
 msgstr "Управљајте приказаним обавештењима и њиховим садржајем"
 
 #. Translators: Search terms to find the Notifications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:20
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:20
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "обавештења;врпца;порука;фиока;искочко;"
 
@@ -4334,11 +4334,11 @@ msgstr "Грешка у уклањању налога"
 msgid "%s removed"
 msgstr "Корисник „%s“ је уклоњен"
 
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:3
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:3
 msgid "Online Accounts"
 msgstr "Налози на мрежи"
 
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:4
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:4
 msgid "Connect to your online accounts and decide what to use them for"
 msgstr ""
 "Повежите се на ваше налоге на мрежи и одлучите за шта ћете их користити"
@@ -4347,7 +4347,7 @@ msgstr ""
 #. Do NOT translate or localize the semicolons!
 #. The list MUST also end with a semicolon!
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:22
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:22
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
 "Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
@@ -4745,16 +4745,16 @@ msgstr "Када се напаја са _батерије"
 msgid "Delay"
 msgstr "Застој"
 
-#: panels/power/gnome-power-panel.desktop.in.in:3
+#: panels/power/scarecrow-power-panel.desktop.in.in:3
 msgid "Power"
 msgstr "Напајање"
 
-#: panels/power/gnome-power-panel.desktop.in.in:4
+#: panels/power/scarecrow-power-panel.desktop.in.in:4
 msgid "View your battery status and change power saving settings"
 msgstr "Погледајте стање ваше батерије и измените подешавања уштеде напајања"
 
 #. Translators: Search terms to find the Power panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/power/gnome-power-panel.desktop.in.in:19
+#: panels/power/scarecrow-power-panel.desktop.in.in:19
 msgid ""
 "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
 "Energy;"
@@ -4801,18 +4801,18 @@ msgstr "Нисам успео да додам нови штампач."
 msgid "Could not load ui: %s"
 msgstr "Не могу да учитам сучеље: %s"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:3
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:3
 msgid "Printers"
 msgstr "Штампачи"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:4
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:4
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr ""
 "Додајте штампаче, погледајте послове штампања и одлучите као желите да "
 "штампате"
 
 #. Translators: Search terms to find the Printers panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/printers/gnome-printers-panel.desktop.in.in:16
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:16
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "штампач;ред;штампа;папир;мастило;тонер;"
 
@@ -5595,18 +5595,18 @@ msgstr "Леви+десни Alt"
 msgid "These keyboard shortcuts can be changed in the keyboard settings"
 msgstr "Можете променити пречице на тастатури у подешавањима тастатуре"
 
-#: panels/region/gnome-region-panel.desktop.in.in:3
+#: panels/region/scarecrow-region-panel.desktop.in.in:3
 msgid "Region & Language"
 msgstr "Регион и језик"
 
-#: panels/region/gnome-region-panel.desktop.in.in:4
+#: panels/region/scarecrow-region-panel.desktop.in.in:4
 msgid ""
 "Select your display language, formats, keyboard layouts and input sources"
 msgstr ""
 "Изаберите ваш приказани језик, записе, распореде тастатуре и изворе улаза"
 
 #. Translators: Search terms to find the Region and Language panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/region/gnome-region-panel.desktop.in.in:19
+#: panels/region/scarecrow-region-panel.desktop.in.in:19
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "језик;распоред;тастатура;унос;"
 
@@ -5740,16 +5740,16 @@ msgstr "_Радња:"
 msgid "_Type:"
 msgstr "_Врста:"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:3
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:3
 msgid "Removable Media"
 msgstr "Преносни носачи"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:4
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:4
 msgid "Configure Removable Media settings"
 msgstr "Подесите преносне медије"
 
 #. Translators: Search terms to find the Removable Media panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:19
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:19
 msgid ""
 "device;system;default;application;preferred;cd;dvd;usb;audio;video;disc;"
 "removable;media;autorun;"
@@ -5815,7 +5815,7 @@ msgstr ""
 "Управља приказом резултата претраге у прегледу активности. Редослед "
 "резултата претраге се може променити померањем редова у списку."
 
-#: panels/search/gnome-search-panel.desktop.in.in:4
+#: panels/search/scarecrow-search-panel.desktop.in.in:4
 msgid ""
 "Control which applications show search results in the Activities Overview"
 msgstr ""
@@ -5823,7 +5823,7 @@ msgstr ""
 "активности"
 
 #. Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/search/gnome-search-panel.desktop.in.in:19
+#: panels/search/scarecrow-search-panel.desktop.in.in:19
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "нађи;тражи;пронађи;потражи;попис;индекс;сакриј;приватност;резултати;"
 
@@ -5897,7 +5897,7 @@ msgid "Copy"
 msgstr "Умножавање"
 
 #: panels/sharing/cc-sharing-panel.c:1203
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:3
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:3
 msgid "Sharing"
 msgstr "Дељење"
 
@@ -5981,12 +5981,12 @@ msgstr "Делите музику, фотографије и снимке на �
 msgid "Folders"
 msgstr "Фасцикле"
 
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:4
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:4
 msgid "Control what you want to share with others"
 msgstr "Одлучите шта желите да делите с другима"
 
 #. Translators: Search terms to find the Sharing panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:16
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:16
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;photos;"
 "movies;server;renderer;"
@@ -6102,16 +6102,16 @@ msgctxt "volume"
 msgid "100%"
 msgstr "100%"
 
-#: panels/sound/gnome-sound-panel.desktop.in.in:3
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:3
 msgid "Sound"
 msgstr "Звук"
 
-#: panels/sound/gnome-sound-panel.desktop.in.in:4
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:4
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr "Измените нивое звука, улазе, излазе и звуке упозорења"
 
 #. Translators: Search terms to find the Sound panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sound/gnome-sound-panel.desktop.in.in:20
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:20
 msgid ""
 "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Output;Input;"
 msgstr ""
@@ -6283,16 +6283,16 @@ msgstr "Уређаји на чекању"
 msgid "No devices attached"
 msgstr "Нема закачених уређаја"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:3
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:3
 msgid "Thunderbolt"
 msgstr "Тандерболт"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:4
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:4
 msgid "Manage Thunderbolt devices"
 msgstr "Управљај Тандерболт уређајима"
 
 #. Translators: those are keywords for the thunderbolt control-center panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:19
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:19
 msgid "Thunderbolt;privacy;"
 msgstr "Thunderbolt;Тандерболт;Тхундерболт;Tanderbolt;приватност;privatnost;"
 
@@ -6653,12 +6653,12 @@ msgctxt "dwell click threshold"
 msgid "Large"
 msgstr "Велики"
 
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:4
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:4
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "Олакшајте посматрање, слушање, куцање, указивање и кликање"
 
 #. Translators: Search terms to find the Accessibility panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:19
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:19
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Universal Access;Contrast;Cursor;Sound;"
 "Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;"
@@ -7017,11 +7017,11 @@ msgctxt "retain_history"
 msgid "Forever"
 msgstr "Заувек"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:3
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:3
 msgid "File History & Trash"
 msgstr "Историјат датотека и смеће"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:4
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:4
 msgid "Don't leave traces"
 msgstr "Не остављај трагове"
 
@@ -7651,16 +7651,16 @@ msgstr "Нисам нашао кориснике"
 msgid "Unlock to add a user account."
 msgstr "Откључајте да бисте додали кориснички налог."
 
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:3
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:3
 msgid "Users"
 msgstr "Корисници"
 
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:4
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:4
 msgid "Add or remove users and change your password"
 msgstr "Додајте или уклоните кориснике и измените вашу лозинку"
 
 #. Translators: Search terms to find the Users panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:20
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:20
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr ""
 "пријављивање;име;отисак прстију;аватар;лого;лице;лозинка;Login;Name;"
@@ -7966,18 +7966,18 @@ msgstr "Пенкало"
 msgid "Button"
 msgstr "Дугме"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:3
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:3
 #: panels/wacom/gnome-wacom-properties.ui:200
 msgid "Wacom Tablet"
 msgstr "Ваком таблица"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:4
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:4
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "подесите мапирање дугмета и подесите осетљивост оловке графичких таблица"
 
 #. Translators: Search terms to find the Wacom Tablet panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:19
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:19
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "таблица;ваком;пенкало;брисач;миш;"
 

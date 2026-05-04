@@ -182,7 +182,7 @@ msgstr "Autres fichiers"
 #. List of applications.
 #: panels/applications/cc-applications-panel.c:1652
 #: panels/applications/cc-applications-panel.ui:416
-#: panels/applications/gnome-applications-panel.desktop.in.in:3
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:3
 #: panels/notifications/cc-notifications-panel.ui:78
 msgid "Applications"
 msgstr "Applications"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: panels/applications/cc-applications-panel.ui:121
 #: panels/applications/cc-applications-panel.ui:127
-#: panels/camera/gnome-camera-panel.desktop.in.in:3
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:3
 msgid "Camera"
 msgstr "Caméra"
 
@@ -236,13 +236,13 @@ msgstr "Désactivé"
 
 #: panels/applications/cc-applications-panel.ui:133
 #: panels/applications/cc-applications-panel.ui:139
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:3
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:3
 msgid "Microphone"
 msgstr "Micro"
 
 #: panels/applications/cc-applications-panel.ui:145
 #: panels/applications/cc-applications-panel.ui:151
-#: panels/location/gnome-location-panel.desktop.in.in:3
+#: panels/location/scarecrow-location-panel.desktop.in.in:3
 msgid "Location Services"
 msgstr "Services de localisation"
 
@@ -274,12 +274,12 @@ msgstr "Fonctionnalités système utilisées par cette application."
 #: panels/applications/cc-applications-panel.ui:225
 #: panels/applications/cc-applications-panel.ui:231
 #: panels/keyboard/01-launchers.xml.in:16
-#: panels/search/gnome-search-panel.desktop.in.in:3 shell/cc-window.ui:151
+#: panels/search/scarecrow-search-panel.desktop.in.in:3 shell/cc-window.ui:151
 msgid "Search"
 msgstr "Recherche"
 
 #: panels/applications/cc-applications-panel.ui:237
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:3
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:3
 msgid "Notifications"
 msgstr "Notifications"
 
@@ -364,13 +364,13 @@ msgstr "<b>Total</b>"
 msgid "Clear Cache…"
 msgstr "Effacer le cache…"
 
-#: panels/applications/gnome-applications-panel.desktop.in.in:4
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:4
 msgid "Control various application permissions and settings"
 msgstr "Contrôle diverses permissions et réglages d’application"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/applications/gnome-applications-panel.desktop.in.in:16
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:16
 msgid "application;flatpak;permission;setting;"
 msgstr "application;flatpak;permission;réglage;"
 
@@ -441,16 +441,16 @@ msgstr "Ajouter une image…"
 msgid "Activities"
 msgstr "Activités"
 
-#: panels/background/gnome-background-panel.desktop.in.in:3
+#: panels/background/scarecrow-background-panel.desktop.in.in:3
 msgid "Background"
 msgstr "Arrière-plan"
 
-#: panels/background/gnome-background-panel.desktop.in.in:4
+#: panels/background/scarecrow-background-panel.desktop.in.in:4
 msgid "Change your background image to a wallpaper or photo"
 msgstr "Remplacer votre image d’arrière-plan par un papier peint ou une photo"
 
 #. Translators: Search terms to find the Background panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/background/gnome-background-panel.desktop.in.in:15
+#: panels/background/scarecrow-background-panel.desktop.in.in:15
 msgid "Wallpaper;Screen;Desktop;"
 msgstr "Papier peint;Écran;Bureau;"
 
@@ -493,17 +493,17 @@ msgid "Turn off the Airplane mode switch to enable Bluetooth."
 msgstr "Désactivez le mode avion pour activer le Bluetooth."
 
 #. Translators: The found device is a printer connected via Bluetooth
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:3
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:3
 #: panels/printers/pp-new-printer-dialog.c:1628
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:4
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:4
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr "Active/désactive le Bluetooth et connecte vos périphériques"
 
 #. Translators: Search terms to find the Bluetooth panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:19
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:19
 msgid "share;sharing;bluetooth;obex;"
 msgstr "partage;partager;bluetooth;obex;"
 
@@ -532,14 +532,14 @@ msgstr "Autoriser les applications ci-dessous à utiliser votre caméra."
 msgid "No Applications Have Asked for Camera Access"
 msgstr "Aucune application n’a demandé l’accès à votre caméra"
 
-#: panels/camera/gnome-camera-panel.desktop.in.in:4
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:4
 msgid "Protect your pictures"
 msgstr "Protéger vos images"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/camera/gnome-camera-panel.desktop.in.in:20
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:20
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:20
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;"
@@ -1179,11 +1179,11 @@ msgstr "Correction de l’écran en mode plein écran impossible avec ce profil"
 msgid "This profile may no longer be accurate"
 msgstr "Ce profil n’est peut-être plus assez précis"
 
-#: panels/color/gnome-color-panel.desktop.in.in:3
+#: panels/color/scarecrow-color-panel.desktop.in.in:3
 msgid "Color"
 msgstr "Couleur"
 
-#: panels/color/gnome-color-panel.desktop.in.in:4
+#: panels/color/scarecrow-color-panel.desktop.in.in:4
 msgid ""
 "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr ""
@@ -1191,7 +1191,7 @@ msgstr ""
 "photos ou les imprimantes"
 
 #. Translators: Search terms to find the Color panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/color/gnome-color-panel.desktop.in.in:19
+#: panels/color/scarecrow-color-panel.desktop.in.in:19
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "Couleur;ICC;Profil;Étalonner;Étalonnage;Imprimante;Écran;"
 
@@ -1457,7 +1457,7 @@ msgid "December"
 msgstr "décembre"
 
 #: panels/datetime/cc-datetime-panel.ui:65
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:3
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:3
 msgid "Date & Time"
 msgstr "Date et heure"
 
@@ -1506,12 +1506,12 @@ msgstr "24 heures"
 msgid "AM / PM"
 msgstr "AM / PM"
 
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:4
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:4
 msgid "Change the date and time, including time zone"
 msgstr "Modifier la date et l’heure, y compris le fuseau horaire"
 
 #. Translators: Search terms to find the Date and Time panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:15
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:15
 msgid "Clock;Timezone;Location;"
 msgstr "Horloge;Fuseau;Heure;Date;Emplacement;"
 
@@ -1548,16 +1548,16 @@ msgstr "_Vidéos"
 msgid "_Photos"
 msgstr "_Photos"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:3
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:3
 msgid "Default Applications"
 msgstr "Applications par défaut"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:4
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:4
 msgid "Configure Default Applications"
 msgstr "Configurer les applications par défaut"
 
 #. Translators: Search terms to find the Default Applications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:19
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:19
 msgid "default;application;preferred;media;"
 msgstr "défaut;par défaut;application;préférée;média;"
 
@@ -1580,20 +1580,20 @@ msgstr "Signalement de problèmes"
 msgid "_Automatic Problem Reporting"
 msgstr "Signalement _automatique de problèmes"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:3
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:3
 msgid "Diagnostics"
 msgstr "Diagnostics"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:4
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:4
 msgid "Report your problems"
 msgstr "Signaler des problèmes"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:20
-#: panels/location/gnome-location-panel.desktop.in.in:20
-#: panels/lock/gnome-lock-panel.desktop.in.in:20
-#: panels/usage/gnome-usage-panel.desktop.in.in:20
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:20
+#: panels/location/scarecrow-location-panel.desktop.in.in:20
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:20
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;privacy;"
@@ -1665,7 +1665,7 @@ msgid "Display Configuration"
 msgstr "Configuration des écrans"
 
 #: panels/display/cc-display-panel.ui:440
-#: panels/display/gnome-display-panel.desktop.in.in:3
+#: panels/display/scarecrow-display-panel.desktop.in.in:3
 msgid "Displays"
 msgstr "Éc­rans"
 
@@ -1805,12 +1805,12 @@ msgstr "à"
 msgid "Color Temperature"
 msgstr "Température de couleur"
 
-#: panels/display/gnome-display-panel.desktop.in.in:4
+#: panels/display/scarecrow-display-panel.desktop.in.in:4
 msgid "Choose how to use connected monitors and projectors"
 msgstr "Choisir le mode d’utilisation des écrans et projecteurs connectés"
 
 #. Translators: Search terms to find the Displays panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/display/gnome-display-panel.desktop.in.in:19
+#: panels/display/scarecrow-display-panel.desktop.in.in:19
 msgid ""
 "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;"
 "redshift;color;sunset;sunrise;"
@@ -1926,11 +1926,11 @@ msgstr ""
 msgid "_Rename"
 msgstr "_Renommer"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:3
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:3
 msgid "About"
 msgstr "À propos"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:4
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:4
 msgid "View information about your system"
 msgstr "Afficher les informations sur le système"
 
@@ -1939,7 +1939,7 @@ msgstr "Afficher les informations sur le système"
 #. The list MUST also end with a semicolon!
 #. "Preferred Applications" is the old name for the preference, so make
 #. sure that you use the same "translation" for those keywords
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:23
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:23
 msgid ""
 "device;system;information;hostname;memory;processor;version;default;"
 "application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
@@ -2083,7 +2083,7 @@ msgid "Lock screen"
 msgstr "Verrouiller l’écran"
 
 #: panels/keyboard/50-accessibility.xml.in:2
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:3
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:3
 msgid "Accessibility"
 msgstr "Accessibilité"
 
@@ -2328,19 +2328,19 @@ msgstr "Remplacer"
 msgid "Set"
 msgstr "Définir"
 
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:3
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:3
 #: panels/region/cc-region-panel.ui:392 shell/cc-window.ui:326
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:4
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:4
 msgid "View and change keyboard shortcuts and set your typing preferences"
 msgstr ""
 "Afficher, modifier les raccourcis clavier et définir vos préférences de "
 "saisie"
 
 #. Translators: Search terms to find the Keyboard panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:19
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:19
 msgid ""
 "Shortcut;Workspace;Window;Resize;Zoom;Contrast;Input;Source;Lock;Volume;"
 msgstr ""
@@ -2382,7 +2382,7 @@ msgstr "Autoriser les applications ci-dessous à déterminer votre emplacement."
 msgid "No Applications Have Asked for Location Access"
 msgstr "Aucune application n’a demandé l’accès à votre emplacement"
 
-#: panels/location/gnome-location-panel.desktop.in.in:4
+#: panels/location/scarecrow-location-panel.desktop.in.in:4
 msgid "Protect your location information"
 msgstr "Protéger les informations liées à votre emplacement"
 
@@ -2541,11 +2541,11 @@ msgctxt "blank_screen"
 msgid "Never"
 msgstr "Jamais"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:3
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:3
 msgid "Screen Lock"
 msgstr "Verrouillage de l’écran"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:4
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:4
 msgid "Lock your screen"
 msgstr "Verrouiller votre écran"
 
@@ -2576,7 +2576,7 @@ msgstr "Autoriser les applications ci-dessous à utiliser votre micro."
 msgid "No Applications Have Asked for Microphone Access"
 msgstr "Aucune application n’a demandé l’accès au micro"
 
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:4
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:4
 msgid "Protect your conversations"
 msgstr "Protégez vos conversations"
 
@@ -2680,18 +2680,18 @@ msgstr "Double-clic, bouton secondaire"
 msgid "Single click, secondary button"
 msgstr "Simple clic, bouton secondaire"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:3
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:3
 msgid "Mouse & Touchpad"
 msgstr "Sou­ris et pavé tac­tile"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:4
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:4
 msgid ""
 "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr ""
 "Modifier la sensibilité du pavé tactile et choisir entre droitier ou gaucher"
 
 #. Translators: Search terms to find the Mouse and Touchpad panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:19
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:19
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "Pavé;Tactile;Pointeur;Clic;Frappe;Double;Bouton;Boule;Défilement;"
 
@@ -2808,7 +2808,7 @@ msgid "_Turn On"
 msgstr "A_llumer"
 
 #: panels/network/cc-wifi-panel.c:543
-#: panels/network/gnome-wifi-panel.desktop.in.in:3
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:3
 #: panels/network/network-wifi.ui:53
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
@@ -3408,12 +3408,12 @@ msgstr "Contrôler votre façon de vous connecter à Internet"
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Réseau;IP;LAN;Mandataire;WAN;Large bande;Modem;Bluetooth;vpn;DNS;"
 
-#: panels/network/gnome-wifi-panel.desktop.in.in:4
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:4
 msgid "Control how you connect to Wi-Fi networks"
 msgstr "Contrôler votre façon de vous connecter aux réseaux sans fil"
 
 #. Translators: Search terms to find the Wi-Fi panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-wifi-panel.desktop.in.in:19
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:19
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Broadband;DNS;Hotspot;"
 msgstr "Réseau;Sans fil;Wi-Fi;Wifi;IP;LAN;Large bande;DNS;Hotspot;"
 
@@ -4316,12 +4316,12 @@ msgstr "Ne _pas déranger"
 msgid "_Lock Screen Notifications"
 msgstr "Notifications sur l’écran de _verrouillage"
 
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:4
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:4
 msgid "Control which notifications are displayed and what they show"
 msgstr "Contrôler quelles notifications s’affichent et leur contenu"
 
 #. Translators: Search terms to find the Notifications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:20
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:20
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "Notifications;Messages surgissants;Bannières;Message;Tiroir;Popup;"
 
@@ -4349,11 +4349,11 @@ msgstr "Erreur lors de la suppression du compte"
 msgid "%s removed"
 msgstr "%s supprimé"
 
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:3
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:3
 msgid "Online Accounts"
 msgstr "Comptes en ligne"
 
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:4
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:4
 msgid "Connect to your online accounts and decide what to use them for"
 msgstr "Connectez-vous à vos comptes en ligne et décidez de leur utilité"
 
@@ -4361,7 +4361,7 @@ msgstr "Connectez-vous à vos comptes en ligne et décidez de leur utilité"
 #. Do NOT translate or localize the semicolons!
 #. The list MUST also end with a semicolon!
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:22
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:22
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
 "Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
@@ -4749,18 +4749,18 @@ msgstr "Sur _batterie"
 msgid "Delay"
 msgstr "Délai"
 
-#: panels/power/gnome-power-panel.desktop.in.in:3
+#: panels/power/scarecrow-power-panel.desktop.in.in:3
 msgid "Power"
 msgstr "Énergie"
 
-#: panels/power/gnome-power-panel.desktop.in.in:4
+#: panels/power/scarecrow-power-panel.desktop.in.in:4
 msgid "View your battery status and change power saving settings"
 msgstr ""
 "S’informer sur l’état de la batterie et modifier les paramètres d’économie "
 "d’énergie"
 
 #. Translators: Search terms to find the Power panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/power/gnome-power-panel.desktop.in.in:19
+#: panels/power/scarecrow-power-panel.desktop.in.in:19
 msgid ""
 "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
 "Energy;"
@@ -4805,18 +4805,18 @@ msgstr "L’ajout de la nouvelle imprimante a échoué."
 msgid "Could not load ui: %s"
 msgstr "Impossible de charger l’interface utilisateur : %s"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:3
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:3
 msgid "Printers"
 msgstr "Imprimantes"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:4
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:4
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr ""
 "Ajouter des imprimantes, afficher les tâches et décider quand vous voulez "
 "imprimer"
 
 #. Translators: Search terms to find the Printers panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/printers/gnome-printers-panel.desktop.in.in:16
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:16
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "Imprimante;File;Queue;Impression;Papier;Encre;Toner;"
 
@@ -5602,11 +5602,11 @@ msgid "These keyboard shortcuts can be changed in the keyboard settings"
 msgstr ""
 "Vous pouvez modifier ces raccourcis clavier dans les préférences clavier"
 
-#: panels/region/gnome-region-panel.desktop.in.in:3
+#: panels/region/scarecrow-region-panel.desktop.in.in:3
 msgid "Region & Language"
 msgstr "Pays et langue"
 
-#: panels/region/gnome-region-panel.desktop.in.in:4
+#: panels/region/scarecrow-region-panel.desktop.in.in:4
 msgid ""
 "Select your display language, formats, keyboard layouts and input sources"
 msgstr ""
@@ -5614,7 +5614,7 @@ msgstr ""
 "saisie"
 
 #. Translators: Search terms to find the Region and Language panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/region/gnome-region-panel.desktop.in.in:19
+#: panels/region/scarecrow-region-panel.desktop.in.in:19
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "Langue;Disposition;Clavier;Saisie;"
 
@@ -5748,16 +5748,16 @@ msgstr "_Action :"
 msgid "_Type:"
 msgstr "_Type :"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:3
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:3
 msgid "Removable Media"
 msgstr "Médias amovibles"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:4
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:4
 msgid "Configure Removable Media settings"
 msgstr "Configurer les paramètres des médias amovibles"
 
 #. Translators: Search terms to find the Removable Media panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:19
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:19
 msgid ""
 "device;system;default;application;preferred;cd;dvd;usb;audio;video;disc;"
 "removable;media;autorun;"
@@ -5821,7 +5821,7 @@ msgstr ""
 "activités. L’ordre des résultats de recherche peut aussi être modifié en "
 "déplaçant les lignes dans la liste."
 
-#: panels/search/gnome-search-panel.desktop.in.in:4
+#: panels/search/scarecrow-search-panel.desktop.in.in:4
 msgid ""
 "Control which applications show search results in the Activities Overview"
 msgstr ""
@@ -5829,7 +5829,7 @@ msgstr ""
 "la vue d’ensemble des activités"
 
 #. Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/search/gnome-search-panel.desktop.in.in:19
+#: panels/search/scarecrow-search-panel.desktop.in.in:19
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "Rechercher;Recherche;Index;Masquer;Confidentialité;Privé;Résultats;"
 
@@ -5903,7 +5903,7 @@ msgid "Copy"
 msgstr "Copier"
 
 #: panels/sharing/cc-sharing-panel.c:1203
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:3
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:3
 msgid "Sharing"
 msgstr "Partage"
 
@@ -5987,12 +5987,12 @@ msgstr "Partager de la musique, des photos et des vidéos sur le réseau."
 msgid "Folders"
 msgstr "Dossiers"
 
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:4
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:4
 msgid "Control what you want to share with others"
 msgstr "Contrôler ce que vous souhaitez partager avec les autres"
 
 #. Translators: Search terms to find the Sharing panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:16
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:16
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;photos;"
 "movies;server;renderer;"
@@ -6103,17 +6103,17 @@ msgctxt "volume"
 msgid "100%"
 msgstr "100 %"
 
-#: panels/sound/gnome-sound-panel.desktop.in.in:3
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:3
 msgid "Sound"
 msgstr "Son"
 
-#: panels/sound/gnome-sound-panel.desktop.in.in:4
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:4
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr ""
 "Modifier les volumes sonores, les saisies, les sorties et les alertes sonores"
 
 #. Translators: Search terms to find the Sound panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sound/gnome-sound-panel.desktop.in.in:20
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:20
 msgid ""
 "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Output;Input;"
 msgstr ""
@@ -6282,16 +6282,16 @@ msgstr "Périphériques en attente"
 msgid "No devices attached"
 msgstr "Aucun périphérique connecté"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:3
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:3
 msgid "Thunderbolt"
 msgstr "Thunderbolt"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:4
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:4
 msgid "Manage Thunderbolt devices"
 msgstr "Gérer les périphériques Thunderbolt"
 
 #. Translators: those are keywords for the thunderbolt control-center panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:19
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:19
 msgid "Thunderbolt;privacy;"
 msgstr "Thunderbolt;vie privée;confidentialité;"
 
@@ -6654,12 +6654,12 @@ msgctxt "dwell click threshold"
 msgid "Large"
 msgstr "Grand"
 
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:4
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:4
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "Faciliter la vision, l’écoute, la saisie, la sélection et le clic"
 
 #. Translators: Search terms to find the Accessibility panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:19
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:19
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Universal Access;Contrast;Cursor;Sound;"
 "Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;"
@@ -7014,11 +7014,11 @@ msgctxt "retain_history"
 msgid "Forever"
 msgstr "Toujours"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:3
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:3
 msgid "File History & Trash"
 msgstr "Historique des fichiers et corbeille"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:4
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:4
 msgid "Don't leave traces"
 msgstr "Ne laisser aucune trace"
 
@@ -7654,16 +7654,16 @@ msgstr "Aucun utilisateur trouvé"
 msgid "Unlock to add a user account."
 msgstr "Déverrouillez pour créer un compte utilisateur."
 
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:3
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:3
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:4
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:4
 msgid "Add or remove users and change your password"
 msgstr "Ajouter ou supprimer des utilisateurs et modifier votre mot de passe"
 
 #. Translators: Search terms to find the Users panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:20
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:20
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "Connexion;Nom;Empreinte;Avatar;Logo;Visage;Tête;Mot de passe;"
 
@@ -7976,19 +7976,19 @@ msgstr "Stylet"
 msgid "Button"
 msgstr "Bouton"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:3
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:3
 #: panels/wacom/gnome-wacom-properties.ui:200
 msgid "Wacom Tablet"
 msgstr "Tablette Wacom"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:4
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:4
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "Associer les boutons et ajuster la sensibilité du stylet des tablettes "
 "graphiques"
 
 #. Translators: Search terms to find the Wacom Tablet panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:19
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:19
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "Tablette;Wacom;Stylet;Gomme;Souris;"
 

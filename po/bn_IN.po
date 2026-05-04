@@ -169,7 +169,7 @@ msgstr "অন্যান্য ফাইলগুলি"
 #. List of applications.
 #: panels/applications/cc-applications-panel.c:1652
 #: panels/applications/cc-applications-panel.ui:416
-#: panels/applications/gnome-applications-panel.desktop.in.in:3
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:3
 #: panels/notifications/cc-notifications-panel.ui:78
 msgid "Applications"
 msgstr "অ্যাপ্লিকেশনগুলি"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: panels/applications/cc-applications-panel.ui:121
 #: panels/applications/cc-applications-panel.ui:127
-#: panels/camera/gnome-camera-panel.desktop.in.in:3
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:3
 msgid "Camera"
 msgstr "ক্যামেরা"
 
@@ -224,14 +224,14 @@ msgstr "নিষ্ক্রিয়"
 
 #: panels/applications/cc-applications-panel.ui:133
 #: panels/applications/cc-applications-panel.ui:139
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:3
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:3
 msgid "Microphone"
 msgstr "মাইক"
 
 # auto translated by TM merge from project: Skynet topics, version: 1, DocId: 4507-74586
 #: panels/applications/cc-applications-panel.ui:145
 #: panels/applications/cc-applications-panel.ui:151
-#: panels/location/gnome-location-panel.desktop.in.in:3
+#: panels/location/scarecrow-location-panel.desktop.in.in:3
 msgid "Location Services"
 msgstr "অবস্থান পরিষেবা"
 
@@ -265,13 +265,13 @@ msgstr "এই অ্যাপ্লিকেশন দ্বারা ব্য
 #: panels/applications/cc-applications-panel.ui:225
 #: panels/applications/cc-applications-panel.ui:231
 #: panels/keyboard/01-launchers.xml.in:16
-#: panels/search/gnome-search-panel.desktop.in.in:3 shell/cc-window.ui:151
+#: panels/search/scarecrow-search-panel.desktop.in.in:3 shell/cc-window.ui:151
 msgid "Search"
 msgstr "অনুসন্ধান"
 
 # auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
 #: panels/applications/cc-applications-panel.ui:237
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:3
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:3
 msgid "Notifications"
 msgstr "সূচনাবার্তা"
 
@@ -359,13 +359,13 @@ msgstr "<b>মোট</b>"
 msgid "Clear Cache…"
 msgstr "ক্যাশে পরিষ্কার করুন…"
 
-#: panels/applications/gnome-applications-panel.desktop.in.in:4
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:4
 msgid "Control various application permissions and settings"
 msgstr "বিভিন্ন অ্যাপ্লিকেশন অনুমতি এবং সেটিংস নিয়ন্ত্রণ করুন"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/applications/gnome-applications-panel.desktop.in.in:16
+#: panels/applications/scarecrow-applications-panel.desktop.in.in:16
 msgid "application;flatpak;permission;setting;"
 msgstr "অ্যাপ্লিকেশান;ফ্ল্যাটপ্যাক;অনুমতি;সেটিং;"
 
@@ -439,16 +439,16 @@ msgid "Activities"
 msgstr "ক্রিয়াকলাপ"
 
 # translation auto-copied from project control-center, version 3.8.3, document scarecrow-control-center-2.0
-#: panels/background/gnome-background-panel.desktop.in.in:3
+#: panels/background/scarecrow-background-panel.desktop.in.in:3
 msgid "Background"
 msgstr "পটভূমি"
 
-#: panels/background/gnome-background-panel.desktop.in.in:4
+#: panels/background/scarecrow-background-panel.desktop.in.in:4
 msgid "Change your background image to a wallpaper or photo"
 msgstr "আপনার পটভূমি চিত্রটি ওয়ালপেপার বা ফটোতে পরিবর্তন করুন"
 
 #. Translators: Search terms to find the Background panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/background/gnome-background-panel.desktop.in.in:15
+#: panels/background/scarecrow-background-panel.desktop.in.in:15
 msgid "Wallpaper;Screen;Desktop;"
 msgstr "ওয়ালপেপার;স্ক্রীন;ডেস্কটপ;"
 
@@ -489,17 +489,17 @@ msgid "Turn off the Airplane mode switch to enable Bluetooth."
 msgstr "ব্লুটুথ সক্ষম করতে বিমান মোড সুইচটি বন্ধ করুন।"
 
 #. Translators: The found device is a printer connected via Bluetooth
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:3
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:3
 #: panels/printers/pp-new-printer-dialog.c:1628
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:4
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:4
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr "Bluetooth চালু এবং বন্ধ করুন এবং আপনার ডিভাইসগুলি সংযুক্ত করুন"
 
 #. Translators: Search terms to find the Bluetooth panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/bluetooth/gnome-bluetooth-panel.desktop.in.in:19
+#: panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in:19
 msgid "share;sharing;bluetooth;obex;"
 msgstr "ভাগ;ভাগকরা;ব্লুটুথ;ওবেক্স;"
 
@@ -528,14 +528,14 @@ msgid "No Applications Have Asked for Camera Access"
 msgstr "কোনও অ্যাপ্লিকেশন ক্যামেরা অ্যাক্সেসের জন্য জিজ্ঞাসা করেনি"
 
 # auto translated by TM merge from project: gnome-contacts, version: 3.8.2, DocId: gnome-contacts
-#: panels/camera/gnome-camera-panel.desktop.in.in:4
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:4
 msgid "Protect your pictures"
 msgstr "আপনার ছবি রক্ষা করুন"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/camera/gnome-camera-panel.desktop.in.in:20
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:20
+#: panels/camera/scarecrow-camera-panel.desktop.in.in:20
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;"
@@ -1167,17 +1167,17 @@ msgstr "এই প্রোফাইলের ক্ষেত্রে সম্
 msgid "This profile may no longer be accurate"
 msgstr "এই প্রোফাইল আর হয়তো যথাযথ নেই"
 
-#: panels/color/gnome-color-panel.desktop.in.in:3
+#: panels/color/scarecrow-color-panel.desktop.in.in:3
 msgid "Color"
 msgstr "রঙ"
 
-#: panels/color/gnome-color-panel.desktop.in.in:4
+#: panels/color/scarecrow-color-panel.desktop.in.in:4
 msgid ""
 "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr "আপনার ডিভাইসের রঙ ক্যালিব্রেট করুন, যেমন প্রদর্শন, ক্যামেরা বা প্রিন্টার"
 
 #. Translators: Search terms to find the Color panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/color/gnome-color-panel.desktop.in.in:19
+#: panels/color/scarecrow-color-panel.desktop.in.in:19
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "রঙ;ICC;প্রোফাইল;ক্যালিব্রেট;প্রিন্টার;প্রদর্শন;"
 
@@ -1452,7 +1452,7 @@ msgid "December"
 msgstr "ডিসেম্বর"
 
 #: panels/datetime/cc-datetime-panel.ui:65
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:3
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:3
 msgid "Date & Time"
 msgstr "তিথি এবং সময়"
 
@@ -1502,12 +1502,12 @@ msgstr "২৪ ঘন্টা"
 msgid "AM / PM"
 msgstr "AM / PM"
 
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:4
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:4
 msgid "Change the date and time, including time zone"
 msgstr "সময় অঞ্চল সমেত তারিখ এবং সময় পরিবর্তন করুন"
 
 #. Translators: Search terms to find the Date and Time panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/datetime/gnome-datetime-panel.desktop.in.in:15
+#: panels/datetime/scarecrow-datetime-panel.desktop.in.in:15
 msgid "Clock;Timezone;Location;"
 msgstr "ঘড়ি;সময় অঞ্চল;অবস্থান;"
 
@@ -1544,16 +1544,16 @@ msgstr "ভিডিও (_V)"
 msgid "_Photos"
 msgstr "ছবি (_P)"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:3
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:3
 msgid "Default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:4
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:4
 msgid "Configure Default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশনগুলি কনফিগার করুন"
 
 #. Translators: Search terms to find the Default Applications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/default-apps/gnome-default-apps-panel.desktop.in.in:19
+#: panels/default-apps/scarecrow-default-apps-panel.desktop.in.in:19
 msgid "default;application;preferred;media;"
 msgstr "ডিফল্ট;অ্যাপ্লিকেশান;পছন্দসই;মিডিয়া;"
 
@@ -1575,20 +1575,20 @@ msgstr "সমস্যা প্রতিবেদন"
 msgid "_Automatic Problem Reporting"
 msgstr "স্বয়ংক্রিয় সমস্যা প্রতিবেদন(_A)"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:3
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:3
 msgid "Diagnostics"
 msgstr "নিদানবিদ্যা"
 
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:4
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:4
 msgid "Report your problems"
 msgstr "আপনার সমস্যা রিপোর্ট করুন"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:20
-#: panels/location/gnome-location-panel.desktop.in.in:20
-#: panels/lock/gnome-lock-panel.desktop.in.in:20
-#: panels/usage/gnome-usage-panel.desktop.in.in:20
+#: panels/diagnostics/scarecrow-diagnostics-panel.desktop.in.in:20
+#: panels/location/scarecrow-location-panel.desktop.in.in:20
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:20
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:20
 msgid ""
 "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
 "network;identity;privacy;"
@@ -1661,7 +1661,7 @@ msgstr "ডিসপ্লে কনফিগারেশন"
 
 # auto translated by TM merge from project: virt-viewer, version: 0.5.7, DocId: virt-viewer
 #: panels/display/cc-display-panel.ui:440
-#: panels/display/gnome-display-panel.desktop.in.in:3
+#: panels/display/scarecrow-display-panel.desktop.in.in:3
 msgid "Displays"
 msgstr "প্রদর্শন"
 
@@ -1809,12 +1809,12 @@ msgstr "থেকে"
 msgid "Color Temperature"
 msgstr "রঙ তাপমাত্রা"
 
-#: panels/display/gnome-display-panel.desktop.in.in:4
+#: panels/display/scarecrow-display-panel.desktop.in.in:4
 msgid "Choose how to use connected monitors and projectors"
 msgstr "সংযুক্ত মনিটর এবং প্রোজেক্টর কীভাবে ব্যবহার করতে হবে তা বাছুন"
 
 #. Translators: Search terms to find the Displays panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/display/gnome-display-panel.desktop.in.in:19
+#: panels/display/scarecrow-display-panel.desktop.in.in:19
 msgid ""
 "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;"
 "redshift;color;sunset;sunrise;"
@@ -1933,11 +1933,11 @@ msgstr ""
 msgid "_Rename"
 msgstr "পুনরায় নামকরণ(_R)"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:3
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:3
 msgid "About"
 msgstr "সম্পর্কিত"
 
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:4
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:4
 msgid "View information about your system"
 msgstr "আপনার সিস্টেম সম্বন্ধে তথ্য দেখুন"
 
@@ -1946,7 +1946,7 @@ msgstr "আপনার সিস্টেম সম্বন্ধে তথ্
 #. The list MUST also end with a semicolon!
 #. "Preferred Applications" is the old name for the preference, so make
 #. sure that you use the same "translation" for those keywords
-#: panels/info-overview/gnome-info-overview-panel.desktop.in.in:23
+#: panels/info-overview/scarecrow-info-overview-panel.desktop.in.in:23
 msgid ""
 "device;system;information;hostname;memory;processor;version;default;"
 "application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
@@ -2090,7 +2090,7 @@ msgid "Lock screen"
 msgstr "পর্দা লক করুন"
 
 #: panels/keyboard/50-accessibility.xml.in:2
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:3
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:3
 msgid "Accessibility"
 msgstr "অভিগম্যতা"
 
@@ -2342,18 +2342,18 @@ msgid "Set"
 msgstr "সেট"
 
 # translation auto-copied from project control-center, version 3.8.3, document scarecrow-control-center-2.0
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:3
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:3
 #: panels/region/cc-region-panel.ui:392 shell/cc-window.ui:326
 msgid "Keyboard Shortcuts"
 msgstr "কি-বোর্ড শর্টকাট"
 
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:4
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:4
 msgid "View and change keyboard shortcuts and set your typing preferences"
 msgstr ""
 "কীবোর্ড শর্টকাটগুলি দেখুন এবং পরিবর্তন করুন এবং আপনার টাইপিং অগ্রাধিকার সেট করুন"
 
 #. Translators: Search terms to find the Keyboard panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/keyboard/gnome-keyboard-panel.desktop.in.in:19
+#: panels/keyboard/scarecrow-keyboard-panel.desktop.in.in:19
 msgid ""
 "Shortcut;Workspace;Window;Resize;Zoom;Contrast;Input;Source;Lock;Volume;"
 msgstr "শর্টকাট;কর্মপরিসর;উইন্ডো;পুনরায়মাপ;জুম;বৈপরীত্য;ইনপুট;উত্স;লক;ভলিউম;"
@@ -2391,7 +2391,7 @@ msgstr "নীচের অ্যাপ্লিকেশনগুলিকে �
 msgid "No Applications Have Asked for Location Access"
 msgstr "কোনও অ্যাপ্লিকেশন লোকেশন অ্যাক্সেসের জন্য জিজ্ঞাসা করেনি"
 
-#: panels/location/gnome-location-panel.desktop.in.in:4
+#: panels/location/scarecrow-location-panel.desktop.in.in:4
 msgid "Protect your location information"
 msgstr "আপনার অবস্থানের তথ্য রক্ষা করুন"
 
@@ -2551,11 +2551,11 @@ msgctxt "blank_screen"
 msgid "Never"
 msgstr "কখনও নয়"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:3
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:3
 msgid "Screen Lock"
 msgstr "স্ক্রীন লক"
 
-#: panels/lock/gnome-lock-panel.desktop.in.in:4
+#: panels/lock/scarecrow-lock-panel.desktop.in.in:4
 msgid "Lock your screen"
 msgstr "স্ক্রীন লক করুন"
 
@@ -2586,7 +2586,7 @@ msgstr "নীচের অ্যাপ্লিকেশনগুলিকে �
 msgid "No Applications Have Asked for Microphone Access"
 msgstr "কোনও অ্যাপ্লিকেশন মাইক্রোফোন অ্যাক্সেসের জন্য জিজ্ঞাসা করেনি"
 
-#: panels/microphone/gnome-microphone-panel.desktop.in.in:4
+#: panels/microphone/scarecrow-microphone-panel.desktop.in.in:4
 msgid "Protect your conversations"
 msgstr "আপনার কথোপকথন রক্ষা করুন"
 
@@ -2695,11 +2695,11 @@ msgstr "দুইবার ক্লিক, অপ্রধান বোতা�
 msgid "Single click, secondary button"
 msgstr "একবার ক্লিক, অপ্রধান বোতাম"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:3
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:3
 msgid "Mouse & Touchpad"
 msgstr "মাউস & টাচপ্যাড"
 
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:4
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:4
 msgid ""
 "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr ""
@@ -2707,7 +2707,7 @@ msgstr ""
 "করুন"
 
 #. Translators: Search terms to find the Mouse and Touchpad panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/mouse/gnome-mouse-panel.desktop.in.in:19
+#: panels/mouse/scarecrow-mouse-panel.desktop.in.in:19
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "ট্র্যাকপ্যাড;পয়েন্টার;ক্লিক;আলতো চাপুন;দ্বৈত;বোতাম;ট্র্যাকবল;স্ক্রোল;"
 
@@ -2825,7 +2825,7 @@ msgid "_Turn On"
 msgstr "চালু করুন (_T)"
 
 #: panels/network/cc-wifi-panel.c:543
-#: panels/network/gnome-wifi-panel.desktop.in.in:3
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:3
 #: panels/network/network-wifi.ui:53
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
@@ -3411,12 +3411,12 @@ msgstr "ইন্টারনেটের সংগে আপনার সংয
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "নেটওয়ার্ক;আইপি;LAN;প্রক্সি;WAN;ব্রডব্যান্ড;মোডেম;ব্লুটুথ;VPN;ডিএনএস;"
 
-#: panels/network/gnome-wifi-panel.desktop.in.in:4
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:4
 msgid "Control how you connect to Wi-Fi networks"
 msgstr "কীভাবে আপনি Wi-Fi নেটওয়ার্কগুলিতে সংযুক্ত হন তা নিয়ন্ত্রণ করুন"
 
 #. Translators: Search terms to find the Wi-Fi panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/network/gnome-wifi-panel.desktop.in.in:19
+#: panels/network/scarecrow-wifi-panel.desktop.in.in:19
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Broadband;DNS;Hotspot;"
 msgstr ""
 "নেটওয়ার্ক;বেতার;Wi-Fi;Wifi;IP;LAN;প্রক্সি;WAN;ব্রডব্যান্ড;মোডেম;ব্লুটুথ;vpn;vlan;ব্রিজ;"
@@ -4376,12 +4376,12 @@ msgstr "বিরক্ত করবেন না(_D)"
 msgid "_Lock Screen Notifications"
 msgstr "লক স্ক্রিন বিজ্ঞপ্তি (_L)"
 
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:4
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:4
 msgid "Control which notifications are displayed and what they show"
 msgstr "কোন বিজ্ঞপ্তিগুলি দেখানো হবে এবং তারা কী দেখায় তা নিয়ন্ত্রণ করুন"
 
 #. Translators: Search terms to find the Notifications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/notifications/gnome-notifications-panel.desktop.in.in:20
+#: panels/notifications/scarecrow-notifications-panel.desktop.in.in:20
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "বিজ্ঞপ্তি;ব্যানার;বার্তা;ট্রে;পপ-আপ;"
 
@@ -4412,11 +4412,11 @@ msgid "%s removed"
 msgstr "%s সরানো হয়েছে"
 
 # auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:3
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:3
 msgid "Online Accounts"
 msgstr "অনলাইন অ্যাকাউন্ট"
 
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:4
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:4
 msgid "Connect to your online accounts and decide what to use them for"
 msgstr ""
 "আপনার অনলাইন অ্যাকাউন্টগুলিতে সংযোগ করুন এবং তাদের কী কাজে ব্যবহার করবেন তার স্থির "
@@ -4426,7 +4426,7 @@ msgstr ""
 #. Do NOT translate or localize the semicolons!
 #. The list MUST also end with a semicolon!
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
-#: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:22
+#: panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in:22
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
 "Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
@@ -4835,16 +4835,16 @@ msgid "Delay"
 msgstr "বিলম্ব"
 
 # auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
-#: panels/power/gnome-power-panel.desktop.in.in:3
+#: panels/power/scarecrow-power-panel.desktop.in.in:3
 msgid "Power"
 msgstr "পাওয়ার"
 
-#: panels/power/gnome-power-panel.desktop.in.in:4
+#: panels/power/scarecrow-power-panel.desktop.in.in:4
 msgid "View your battery status and change power saving settings"
 msgstr "আপনার ব্যাটারির স্থিতি দেখুন এবং পাওয়ার সঞ্চয় সেটিং পরিবর্তন করুন"
 
 #. Translators: Search terms to find the Power panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/power/gnome-power-panel.desktop.in.in:19
+#: panels/power/scarecrow-power-panel.desktop.in.in:19
 msgid ""
 "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
 "Energy;"
@@ -4891,18 +4891,18 @@ msgstr "নতুন প্রিন্টার যোগ করতে ব্�
 msgid "Could not load ui: %s"
 msgstr "ui লোড করতে ব্যর্থ: %s"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:3
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:3
 msgid "Printers"
 msgstr "প্রিন্টার"
 
-#: panels/printers/gnome-printers-panel.desktop.in.in:4
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:4
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr ""
 "প্রিন্টারগুলি যোগ করুন, প্রিন্টার সংক্রান্ত কাজ দেখুন এবং আপনি কীভাবে প্রিন্ট করতে চান "
 "তা স্থির করুন"
 
 #. Translators: Search terms to find the Printers panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/printers/gnome-printers-panel.desktop.in.in:16
+#: panels/printers/scarecrow-printers-panel..desktop.in.in:16
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "প্রিন্টার;সারি;মুদ্রণ;কাগজ;কালি;টোনার;"
 
@@ -5730,17 +5730,17 @@ msgstr "Left+Right Alt"
 msgid "These keyboard shortcuts can be changed in the keyboard settings"
 msgstr "আপনি কীবোর্ড সেটিং থেকে এই শর্টকাটগুলি পরিবর্তন করতে পারবেন"
 
-#: panels/region/gnome-region-panel.desktop.in.in:3
+#: panels/region/scarecrow-region-panel.desktop.in.in:3
 msgid "Region & Language"
 msgstr "অঞ্চল & ভাষা"
 
-#: panels/region/gnome-region-panel.desktop.in.in:4
+#: panels/region/scarecrow-region-panel.desktop.in.in:4
 msgid ""
 "Select your display language, formats, keyboard layouts and input sources"
 msgstr "আপনার প্রদর্শন ভাষা, ফর্ম্যাট, কীবোর্ড সজ্জা এবং ইনপুট সোর্স নির্বাচন করুন"
 
 #. Translators: Search terms to find the Region and Language panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/region/gnome-region-panel.desktop.in.in:19
+#: panels/region/scarecrow-region-panel.desktop.in.in:19
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "ভাষা;সজ্জা;কীবোর্ড;ইনপুট;"
 
@@ -5877,16 +5877,16 @@ msgstr "কর্ম (_A):"
 msgid "_Type:"
 msgstr "ধরন (_T):"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:3
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:3
 msgid "Removable Media"
 msgstr "অপসারণযোগ্য মিডিয়া"
 
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:4
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:4
 msgid "Configure Removable Media settings"
 msgstr "অপসারণযোগ্য মিডিয়া সেটিংস কনফিগার করুন"
 
 #. Translators: Search terms to find the Removable Media panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/removable-media/gnome-removable-media-panel.desktop.in.in:19
+#: panels/removable-media/scarecrow-removable-media-panel.desktop.in.in:19
 msgid ""
 "device;system;default;application;preferred;cd;dvd;usb;audio;video;disc;"
 "removable;media;autorun;"
@@ -5953,13 +5953,13 @@ msgstr ""
 "ক্রিয়াকলাপ ওভারভিউতে কোন অনুসন্ধান ফলাফল দেখানো হয়েছে তা নিয়ন্ত্রণ করুন। তালিকায় "
 "সারি সরিয়েও অনুসন্ধানের ফলাফলের ক্রম পরিবর্তন করা যেতে পারে।"
 
-#: panels/search/gnome-search-panel.desktop.in.in:4
+#: panels/search/scarecrow-search-panel.desktop.in.in:4
 msgid ""
 "Control which applications show search results in the Activities Overview"
 msgstr "ক্রিয়াকলাপ পূর্বরূপে কোন অ্যাপ্লিকেশনগুলি সন্ধান ফলাফল দেখাবে তা নিয়ন্ত্রণ করুন"
 
 #. Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/search/gnome-search-panel.desktop.in.in:19
+#: panels/search/scarecrow-search-panel.desktop.in.in:19
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "সন্ধান;খোঁজ;সূচি;লুকানো;গোপনীয়তা;ফলাফল;"
 
@@ -6039,7 +6039,7 @@ msgstr "কপি করুন"
 
 # auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
 #: panels/sharing/cc-sharing-panel.c:1203
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:3
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:3
 msgid "Sharing"
 msgstr "যৌথরূপে ব্যবহার"
 
@@ -6130,12 +6130,12 @@ msgstr "নেটওয়ার্কের মাধ্যমে মিউজ�
 msgid "Folders"
 msgstr "ফোল্ডারগুলি"
 
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:4
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:4
 msgid "Control what you want to share with others"
 msgstr "অন্যদের সংগে আপনি কী ভাগ করতে চান তা নিয়ন্ত্রণ করুন"
 
 #. Translators: Search terms to find the Sharing panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sharing/gnome-sharing-panel.desktop.in.in:16
+#: panels/sharing/scarecrow-sharing-panel.desktop.in.in:16
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;photos;"
 "movies;server;renderer;"
@@ -6250,16 +6250,16 @@ msgid "100%"
 msgstr "১০০%"
 
 # translation auto-copied from project control-center, version 3.8.3, document scarecrow-control-center-2.0
-#: panels/sound/gnome-sound-panel.desktop.in.in:3
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:3
 msgid "Sound"
 msgstr "শব্দ"
 
-#: panels/sound/gnome-sound-panel.desktop.in.in:4
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:4
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr "শব্দের মাত্রা, ইনপুট, আউটপুট, এবং সর্তকতা শব্দ পরিবর্তন করুন"
 
 #. Translators: Search terms to find the Sound panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/sound/gnome-sound-panel.desktop.in.in:20
+#: panels/sound/scarecrow-sound-panel.desktop.in.in:20
 msgid ""
 "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Output;Input;"
 msgstr "কার্ড;মাইক্রোফোন;ভলিউম;বিবর্ণ;ব্যালেন্স;ব্লুটুথ;হেডসেট;অডিও;আউটপুট;ইনপুট;"
@@ -6432,16 +6432,16 @@ msgstr "মুলতুবি ডিভাইসগুলি"
 msgid "No devices attached"
 msgstr "কোনও ডিভাইস সংযুক্ত নেই"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:3
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:3
 msgid "Thunderbolt"
 msgstr "থান্ডারবোল্ট"
 
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:4
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:4
 msgid "Manage Thunderbolt devices"
 msgstr "থান্ডারবোল্ট ডিভাইসগুলি পরিচালনা করুন"
 
 #. Translators: those are keywords for the thunderbolt control-center panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/thunderbolt/gnome-thunderbolt-panel.desktop.in.in:19
+#: panels/thunderbolt/scarecrow-thunderbolt-panel.desktop.in.in:19
 msgid "Thunderbolt;privacy;"
 msgstr "থান্ডারবোল্ট;গোপনীয়তা;"
 
@@ -6826,12 +6826,12 @@ msgctxt "dwell click threshold"
 msgid "Large"
 msgstr "বৃহৎ"
 
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:4
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:4
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "এটিকে দেখা, শোনা, ধরন, পয়েন্ট এবং ক্লিক করা সহজতর করুন"
 
 #. Translators: Search terms to find the Accessibility panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/universal-access/gnome-universal-access-panel.desktop.in.in:19
+#: panels/universal-access/scarecrow-universal-access-panel.desktop.in.in:19
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Universal Access;Contrast;Cursor;Sound;"
 "Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;"
@@ -7194,11 +7194,11 @@ msgctxt "retain_history"
 msgid "Forever"
 msgstr "অনন্তকাল"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:3
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:3
 msgid "File History & Trash"
 msgstr "ফাইলের ইতিহাস এবং ট্র্যাশ"
 
-#: panels/usage/gnome-usage-panel.desktop.in.in:4
+#: panels/usage/scarecrow-usage-panel.desktop.in.in:4
 msgid "Don't leave traces"
 msgstr "ট্রেস ছেড়ে যাবেন না"
 
@@ -7858,16 +7858,16 @@ msgid "Unlock to add a user account."
 msgstr "কোনও ব্যবহারকারী অ্যাকাউন্ট যুক্ত করতে আনলক করুন।"
 
 # auto translated by TM merge from project: Cloudforms Cloud Engine User Guide, version: 1.0, DocId: Users_And_Roles
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:3
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:3
 msgid "Users"
 msgstr "ব্যবহারকারী"
 
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:4
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:4
 msgid "Add or remove users and change your password"
 msgstr "ব্যবহারকারীদের যোগ করুন বা সরান এবং আপনার পাসওয়ার্ড পরিবর্তন করুন"
 
 #. Translators: Search terms to find the Users panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in:20
+#: panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in:20
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "লগিন;নাম;ফিংগারপ্রিন্ট;অবতার;লোগো;ফেস;পাসওয়ার্ড;"
 
@@ -8179,19 +8179,19 @@ msgstr "স্টাইলাস"
 msgid "Button"
 msgstr "বোতাম"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:3
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:3
 #: panels/wacom/gnome-wacom-properties.ui:200
 msgid "Wacom Tablet"
 msgstr "Wacom ট্যাবলেট"
 
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:4
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:4
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "বোতাম ম্যাপিং সেট করুন এবং গ্র্যাফিক্স ট্যাবলেটের জন্য স্টাইলাস সংবেদনশীলতা "
 "সামঞ্জস্যপূর্ণ করুন"
 
 #. Translators: Search terms to find the Wacom Tablet panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: panels/wacom/gnome-wacom-panel.desktop.in.in:19
+#: panels/wacom/scarecrow-wacom-panel.desktop.in.in:19
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "ট্যাবলেট;Wacom;স্টাইলাস;ইরেজার;মাউস;"
 

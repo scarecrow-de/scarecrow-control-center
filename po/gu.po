@@ -54,7 +54,7 @@ msgstr ""
 "\n"
 
 #: ../panels/background/background.ui.h:1
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:1
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:1
 msgid "Background"
 msgstr "પાશ્વ ભાગ"
 
@@ -142,7 +142,7 @@ msgstr "તમે તમારાં %s ફોલ્ડરમાં ઇમેજ
 #: ../panels/common/language-chooser.ui.h:3
 #: ../panels/display/cc-display-panel.c:1537
 #: ../panels/display/cc-display-panel.c:1976
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:2
 #: ../panels/network/connection-editor/vpn-helpers.c:245
 #: ../panels/network/connection-editor/vpn-helpers.c:374
 #: ../panels/network/net-device-wifi.c:1240
@@ -188,12 +188,12 @@ msgstr "ડેસ્કટોપ પાશ્વ ભાગ નથી"
 msgid "Current background"
 msgstr "હાલનાં પાશ્ર્વભાગો"
 
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:2
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:2
 msgid "Change your background image to a wallpaper or photo"
 msgstr "વોલપેપર અથવા ફોટોમાં તમારાં ઇમેજનાં પાશ્ર્વભાગને બદલો"
 
 #. Translators: those are keywords for the background control-center panel
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:4
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:4
 msgid "Wallpaper;Screen;Desktop;"
 msgstr "વોલપેપર;સ્ક્રીન;ડેસ્કટોપ;"
 
@@ -210,12 +210,12 @@ msgid "Bluetooth is disabled by hardware switch"
 msgstr "હાર્ડવેર સ્વીચ દ્દારા બ્લુટુથ નિષ્ક્રિય થયેલ છે"
 
 #. Translators: The found device is a printer connected via Bluetooth
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:1
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:1
 #: ../panels/printers/pp-new-printer-dialog.c:1688
 msgid "Bluetooth"
 msgstr "બ્લુટુથ"
 
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:2
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:2
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr "બ્લુટુથને ચાલુ અને બંધ કરો અને તમારાં ઉપકરણો સાથે જોડાવો"
 
@@ -899,16 +899,16 @@ msgstr "D65 (ફોટોગ્રાફી અને ગ્રાફિક્�
 msgid "D75"
 msgstr "D75"
 
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:1
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:1
 msgid "Color"
 msgstr "રંગ"
 
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:2
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:2
 msgid "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr "તમારાં ઉપકરણોનાં રંગને કેલિબ્રેટ કરો, જેમ કે દર્શાવ, કૅમેરા અથવા પ્રિન્ટરો"
 
 #. Translators: those are keywords for the color control-center panel
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:4
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:4
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "રંગ;ICC;રૂપરેખા;માપદંડ;પ્રિન્ટર;દર્શાવ;"
 
@@ -1061,7 +1061,7 @@ msgid "December"
 msgstr "ડિસેમ્બર"
 
 #: ../panels/datetime/datetime.ui.h:13
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:1
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:1
 msgid "Date & Time"
 msgstr "તારીખ અને સમય"
 
@@ -1137,12 +1137,12 @@ msgstr "24-કલાક"
 msgid "AM / PM"
 msgstr "AM / PM"
 
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:2
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:2
 msgid "Change the date and time, including time zone"
 msgstr "તારીખ અને સમયને બદલો, ટાઇમ ઝોનને સમાવી રહ્યા છે"
 
 #. Translators: those are keywords for the date and time control-center panel
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:4
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:4
 msgid "Clock;Timezone;Location;"
 msgstr "ઘડિયાળ;ટાઇમઝોન;સ્થાન;"
 
@@ -1268,17 +1268,17 @@ msgstr "સ્ક્રીન જાણકારી ને મેળવી શ�
 msgid "_Arrange Combined Displays"
 msgstr "સંયુક્ત દર્શાવને ગોઠવો (_A)"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:1
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:1
 msgid "Displays"
 msgstr "દેખાવો"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:2
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:2
 #| msgid "Change resolution and position of monitors and projectors"
 msgid "Choose how to use connected monitors and projectors"
 msgstr "કેવી રીતે મોનિટર અને પ્રોજેક્ટરને વાપરવુ તેને પસંદ કરો"
 
 #. Translators: those are keywords for the display control-center panel
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:4
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:4
 #| msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
 msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
 msgstr "પેનલ;પ્રોજેક્ટર;xrandr;સ્ક્રીન;રિઝોલ્યુશન;તાજુ કરો;મોનિટર;"
@@ -1589,7 +1589,7 @@ msgid "Eject"
 msgstr "બહાર નીકાળો"
 
 #: ../panels/keyboard/01-input-sources.xml.in.h:1
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:20
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:20
 #: ../panels/universal-access/uap.ui.h:11
 msgid "Typing"
 msgstr "ટાઇપ કરી રહ્યા છે"
@@ -1691,7 +1691,7 @@ msgid "Lock screen"
 msgstr "સ્ક્રીનને તાળુ મારો"
 
 #: ../panels/keyboard/50-accessibility.xml.in.h:1
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:1
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:1
 msgid "Universal Access"
 msgstr "સાર્વત્રિક વપરાશ"
 
@@ -1762,24 +1762,24 @@ msgstr "કંપોઝ કી"
 msgid "Modifiers-only switch to next source"
 msgstr "સંશોધક ફક્ત આગળનાં સ્ત્રોત પર જવા માટે"
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:1
 msgid "Keyboard"
 msgstr "કીબોર્ડ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:2
 msgid "View and change keyboard shortcuts and set your typing preferences"
 msgstr "કિબોર્ડ ટૂંકાણોને બદલો અને જુઓ અને તમારી ટાઇપીંગ પસંદગીઓને સુયોજિત કરો"
 
 #. Translators: those are keywords for the keyboard control-center panel
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:4
 msgid "Shortcut;Repeat;Blink;"
 msgstr "ટૂંકાણ;ચાલુ રાખો;ઝબૂકવુ;"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:1
 msgid "Custom Shortcut"
 msgstr "વૈવિધ્યપૂર્ણ ટુંકાણો"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:3
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:3
 #: ../panels/network/connection-editor/net-connection-editor.c:512
 #: ../panels/printers/new-printer-dialog.ui.h:3
 #: ../panels/region/input-chooser.ui.h:3
@@ -1787,89 +1787,89 @@ msgstr "વૈવિધ્યપૂર્ણ ટુંકાણો"
 msgid "_Add"
 msgstr "ઉમેરો (_A)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:4
 msgid "_Name:"
 msgstr "નામ (_N):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:5
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:5
 msgid "C_ommand:"
 msgstr "આદેશ (_o):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:6
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:6
 msgid "Repeat Keys"
 msgstr "પુનરાવર્તિત કીઓ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:7
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:7
 msgid "Key presses _repeat when key is held down"
 msgstr "જ્યારે કી દબાવી રાખી હોય ત્યારે પુનરાવર્તિત કી દબાણ. (_r)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:8
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:8
 msgid "_Delay:"
 msgstr "વિલંબ (_D):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:9
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:9
 msgid "_Speed:"
 msgstr "ઝડપ (_S):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:10
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:10
 #| msgid "Short"
 msgctxt "keyboard, delay"
 msgid "Short"
 msgstr "ટૂંકુ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:11
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:11
 #| msgid "Slow"
 msgctxt "keyboard, speed"
 msgid "Slow"
 msgstr "ધીમુ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:12
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:12
 msgid "Repeat keys speed"
 msgstr "પુનરાવર્તન કીઓની ઝડપ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:13
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:13
 #| msgid "Long"
 msgctxt "keyboard, delay"
 msgid "Long"
 msgstr "લાંબુ"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:14
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:14
 #| msgid "Fast"
 msgctxt "keyboard, speed"
 msgid "Fast"
 msgstr "ઝડપી"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:15
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:15
 msgid "Cursor Blinking"
 msgstr "કર્સર ઝબૂકે છે"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:16
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:16
 msgid "Cursor _blinks in text fields"
 msgstr "કર્સર લખાણ ક્ષેત્રોમાં ઝબૂકે છે (_b)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:17
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:17
 msgid "S_peed:"
 msgstr "ઝડપ (_p):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:18
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:18
 msgid "Cursor blink speed"
 msgstr "કર્સર ઝબૂકવાની ઝડપ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:19
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:19
 #: ../panels/region/region.ui.h:5
 msgid "Input Sources"
 msgstr "ઇનપુટ સ્ત્રોત"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:21
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:21
 msgid "Add Shortcut"
 msgstr "ટુંકાણ ઉમેરો"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:22
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:22
 msgid "Remove Shortcut"
 msgstr "ટુંકાણ દૂર કરો"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:23
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:23
 msgid ""
 "To edit a shortcut, click the row and hold down the new keys or press "
 "Backspace to clear."
@@ -1877,7 +1877,7 @@ msgstr ""
 "ટુકાણ કીમાં ફેરફાર કરવા માટે, તેને લાગતી હરોળ પર ક્લિક કરો અને નવી કી જોડાણોને ટાઇપ "
 "કરો, અથવા સાફ કરવા માટે Backspace કી દબાવો."
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:24
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:24
 msgid "Shortcuts"
 msgstr "ટૂંકાણો"
 
@@ -1952,16 +1952,16 @@ msgstr "તમારાં સુયોજનો ચકાસો (_S)"
 msgid "Test Your Settings"
 msgstr "તમારાં સુયોજનો ચકાસો"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:1
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:1
 msgid "Mouse & Touchpad"
 msgstr "માઇસ અને ટચપેડ"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:2
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:2
 msgid "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr "તમારી માઉસ અને ટચપેડ સંવેદનશીલતાને બદલો અને જમણી અથવા ડાબી બાજુ પસંદ કરો"
 
 #. Translators: those are keywords for the mouse and touchpad control-center panel
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:4
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:4
 #| msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "ટ્રેકપેડ;નિર્દેશક;ક્લિક;ટેપ;બમણું;બટન;ટ્રેકબોલ;સ્ક્રોલ;"
@@ -3813,17 +3813,17 @@ msgstr "સ્ક્રીન તાળુમાં વિગતો બતાવ
 msgid "On"
 msgstr "ચાલુ"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:1
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:1
 #| msgid "Magnification:"
 msgid "Notifications"
 msgstr "સૂચનાઓ"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:2
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:2
 msgid "Control which notifications are displayed and what they show"
 msgstr "કઇ સૂચનાઓ દર્શાવેલ છે અને શું તેઓ બતાવે છે તેની પર નિયંત્રણ કરો"
 
 #. Translators: those are keywords for the notifications control-center panel
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:4
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:4
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "સૂચના;બેનર;સંદેશો;ટ્રે;પોપઅપ;"
 
@@ -3903,16 +3903,16 @@ msgstr "આ સર્વર પર ખાતાને દૂર કરશે ન
 msgid "_Remove"
 msgstr "દૂર કરો (_R)"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:1
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:1
 msgid "Online Accounts"
 msgstr "ઓનલાઇન ખાતાઓ"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:2
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:2
 msgid "Connect to your online accounts and decide what to use them for"
 msgstr "તમારાં ઓનલાઇન ખાતામાં જોડાવો અને નક્કી કરો તે તેઓ માટે શું વાપરવુ છે"
 
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:4
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:4
 #| msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
@@ -4202,16 +4202,16 @@ msgstr "પાવર બંધ"
 msgid "Devices"
 msgstr "ઉપકરણો"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:1
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:1
 msgid "Power"
 msgstr "પાવર"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:2
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:2
 msgid "View your battery status and change power saving settings"
 msgstr "તમારી બેટરી સ્થિતિને જુઓ અને પાવર સંગ્રહ સુયોજનોને બદલો"
 
 #. Translators: those are keywords for the power control-center panel
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:4
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:4
 #| msgid "Power;Sleep;Suspend;Hibernate;Battery;"
 msgid "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
 msgstr "પાવર;સ્લીપ;સ્થગિત;હાઇબરનેટ;બેટરી;પ્રકાશતા;ઝાંખુ;ખાલી;મોનિટર;DPMS;નિષ્ક્રિય;"
@@ -4516,16 +4516,16 @@ msgstr "ચકાસણી પાનું"
 msgid "Could not load ui: %s"
 msgstr "ui ને લોડ કરી શક્યા નહિં: %s"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:1
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:1
 msgid "Printers"
 msgstr "પ્રિન્ટરો"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:2
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:2
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr "પ્રિન્ટર ઉમેરો, પ્રિન્ટર ક્રિયાને જુઓ અને નક્કી કરો કે કેવી રીતે તમે છાપવા માંગો છો"
 
 #. Translators: those are keywords for the printing control-center panel
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:4
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:4
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "પ્રિન્ટર;કતાર;છાપો;પેપર;સહી;ટૉનર;"
 
@@ -5228,16 +5228,16 @@ msgstr "માપ"
 msgid "Paper"
 msgstr "કાગળ"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:1
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:1
 msgid "Region & Language"
 msgstr "પ્રદેશ અને ભાષા"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:2
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:2
 msgid "Select your display language, formats, keyboard layouts and input sources"
 msgstr "તમારી દર્શાવ ભાષા, બંધારણો, કિબોર્ડ લેઆઉટ અને ઇનપુટ સ્ત્રોતોને પસંદ કરો"
 
 #. Translators: those are keywords for the region control-center panel
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:4
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:4
 #| msgid "Language;Layout;Keyboard;"
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "ભાષા;લેઆઉટ;કિબોર્ડ;ઇનપુટ;"
@@ -5345,16 +5345,16 @@ msgstr "બરાબર (_O)"
 msgid "No applications found"
 msgstr "કાર્યક્રમો મળ્યા નથી"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:1
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:1
 msgid "Search"
 msgstr "શોધો"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:2
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:2
 msgid "Control which applications show search results in the Activities Overview"
 msgstr "પ્રવૃત્તિ ઝાંખીમાં ક્યાં કાર્યક્રમો શોધ પરિણામોને બતાવે છે તેની પર નિયંત્રણ કરો"
 
 #. Translators: those are keywords for the search control-center panel
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:4
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:4
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "શોધો;શોધો;અનુક્રમણિકા;છુપાડો;ખાનગી;પરિણામો;"
 
@@ -5409,17 +5409,17 @@ msgstr "ફોલ્ડર પસંદ કરો"
 msgid "Copy"
 msgstr "નકલ કરો"
 
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:1
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:1
 #| msgid "Hearing"
 msgid "Sharing"
 msgstr "ભાગીદારી"
 
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:2
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:2
 msgid "Control what you want to share with others"
 msgstr "તમે શું બીજાઓ સાથે ભાગીદારી કરવા માંગો છો તેની પર નિયંત્રિત કરો"
 
 #. Translators: those are keywords for the sharing control-center panel
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:4
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:4
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
@@ -5572,17 +5572,17 @@ msgstr "ફોલ્ડર"
 # #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:1
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:1
 msgid "Sound"
 msgstr "ધ્વનિ"
 
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:2
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:2
 #| msgid "Change sound volume and sound events"
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr "સાઉન્ડ સ્તર, ઇનપુટ, આઉટપુટ, અને સાઉન્ડ ચેતવણીને બદલો"
 
 #. Translators: those are keywords for the sound control-center panel
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:4
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:4
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
 msgstr "કાર્ડ;માઇક્રોફોન;વોલ્યુમ;ઝાંખુ;સંતુલન;બ્લુટુથ;હૅન્ડસેટ;ઓડિયો;"
 
@@ -5814,12 +5814,12 @@ msgstr "સબવુફર"
 msgid "Custom"
 msgstr "વૈવિધ્યપૂર્ણ"
 
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:2
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:2
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "તેને જોવા, સાંભળવા, ટાઇપ, નિર્દેશિત અને ક્લિક કરવાનું સરળ બનાવો"
 
 #. Translators: those are keywords for the universal access control-center panel
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:4
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:4
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;size;"
 "AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
@@ -6447,18 +6447,18 @@ msgstr ""
 "તમારી આંગળી છાપ એ સફળતાપૂર્વક સંગ્રહ થયેલ છે. તમારે હવે તમારા આંગળી છાપ વાંચનાર ની "
 "મદદથી પ્રવેશવા માટે સક્ષમ થવુ જ જોઇએ."
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:1
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:1
 #| msgid "Username"
 msgid "Users"
 msgstr "વપરાશકર્તાઓ"
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:2
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:2
 #| msgid "Add or remove users"
 msgid "Add or remove users and change your password"
 msgstr "વપરાશકર્તાઓને ઉમેરો અથવા દૂર કરો અને તમારા પાસવર્ડને બદલો"
 
 #. Translators: those are keywords for the user accounts control-center panel
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:4
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:4
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "પ્રવેશ;નામ;આંગળીછાપન;અવતાર;લૉગો;ચહેરો;પાસવર્ડ;"
 
@@ -7219,17 +7219,17 @@ msgstr "માપન દર્શાવો"
 msgid "Button"
 msgstr "બટન"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:1
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:1
 #: ../panels/wacom/gnome-wacom-properties.ui.h:7
 msgid "Wacom Tablet"
 msgstr "Wacom ટૅબલેટ"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:2
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:2
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr "બટન મેપીંગને સુયોજિત કરો અને ગ્રાફિક્સ ટૅબલેટ માટે સ્ટાયલસ સંવેદનશીલતાને ગોઠવો"
 
 #. Translators: those are keywords for the wacom tablet control-center panel
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:4
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:4
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "ટૅબલેટ;Wacom;સ્ટાયલસ;ઇરૅજર;માઉસ;"
 

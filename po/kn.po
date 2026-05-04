@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 
 #: ../panels/background/background.ui.h:1
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:1
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:1
 msgid "Background"
 msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರ"
 
@@ -109,7 +109,7 @@ msgstr ""
 #: ../panels/color/color.ui.h:29 ../panels/common/language-chooser.ui.h:3
 #: ../panels/display/cc-display-panel.c:1514
 #: ../panels/display/cc-display-panel.c:1951
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:2
 #: ../panels/network/connection-editor/connection-editor.ui.h:1
 #: ../panels/network/connection-editor/vpn-helpers.c:245
 #: ../panels/network/connection-editor/vpn-helpers.c:374
@@ -158,12 +158,12 @@ msgstr "ಯಾವುದೆ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ
 msgid "Current background"
 msgstr "ಈಗಿನ ಹಿನ್ನಲೆ ಚಿತ್ರ"
 
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:2
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:2
 msgid "Change your background image to a wallpaper or photo"
 msgstr "ನಿಮ್ಮ ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಒಂದು ವಾಲ್‌ಪೇಪರ್ ಅಥವ ಫೋಟೊದಿಂದ ಬದಲಾಯಿಸಿ"
 
 #. Translators: those are keywords for the background control-center panel
-#: ../panels/background/gnome-background-panel.desktop.in.in.h:4
+#: ../panels/background/scarecrow-background-panel.desktop.in.in.h:4
 msgid "Wallpaper;Screen;Desktop;"
 msgstr "ವಾಲ್‌ಪೇಪರ್;ತೆರೆ;ಗಣಕತೆರೆ;"
 
@@ -180,12 +180,12 @@ msgid "Bluetooth is disabled by hardware switch"
 msgstr "ಯಂತ್ರಾಂಶ ಸ್ವಿಚ್‌ನಿಂದ ಬ್ಲೂಟೂತ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
 
 #. Translators: The found device is a printer connected via Bluetooth
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:1
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:1
 #: ../panels/printers/pp-new-printer-dialog.c:1637
 msgid "Bluetooth"
 msgstr "ಬ್ಲೂಟೂತ್"
 
-#: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:2
+#: ../panels/bluetooth/scarecrow-bluetooth-panel.desktop.in.in.h:2
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr ""
 "ಬ್ಲೂಟೂತ್ ಅನ್ನು ಆನ್ ಮತ್ತು ಆಫ್ ಮಾಡಿ ಹಾಗೂ ನಿಮ್ಮ ಸಾಧನಗಳೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಿ"
@@ -677,7 +677,7 @@ msgid "Import File…"
 msgstr "ಕಡತವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ…"
 
 #: ../panels/color/color.ui.h:30
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:3
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:3
 #: ../panels/network/connection-editor/net-connection-editor.c:512
 #: ../panels/printers/new-printer-dialog.ui.h:3
 #: ../panels/region/input-chooser.ui.h:3
@@ -834,11 +834,11 @@ msgstr "D65 (ಫೊಟೊಗ್ರಾಫಿ ಮತ್ತು ಗ್ರಾಫಿ�
 msgid "D75"
 msgstr "D75"
 
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:1
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:1
 msgid "Color"
 msgstr "ಬಣ್ಣ"
 
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:2
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:2
 msgid ""
 "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr ""
@@ -846,7 +846,7 @@ msgstr ""
 "ಮಾಡು"
 
 #. Translators: those are keywords for the color control-center panel
-#: ../panels/color/gnome-color-panel.desktop.in.in.h:4
+#: ../panels/color/scarecrow-color-panel.desktop.in.in.h:4
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "ಬಣ್ಣ;ICC;ಪ್ರೊಫೈಲ್;ಕ್ಯಾಲಿಬ್ರೇಟ್;ಮುದ್ರಕ;ಪ್ರದರ್ಶಕ;"
 
@@ -971,7 +971,7 @@ msgid "December"
 msgstr "ಡಿಸೆಂಬರ್"
 
 #: ../panels/datetime/datetime.ui.h:13
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:1
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:1
 msgid "Date & Time"
 msgstr "ದಿನಾಂಕ ಮತ್ತು ಸಮಯ"
 
@@ -1040,12 +1040,12 @@ msgstr "24-ಗಂಟೆ"
 msgid "AM / PM"
 msgstr "AM / PM"
 
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:2
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:2
 msgid "Change the date and time, including time zone"
 msgstr "ಕಾಲವಲಯವೂ ಸೇರಿದಂತೆ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಬದಲಾಯಿಸು"
 
 #. Translators: those are keywords for the date and time control-center panel
-#: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:4
+#: ../panels/datetime/scarecrow-datetime-panel.desktop.in.in.h:4
 msgid "Clock;Timezone;Location;"
 msgstr "ಗಡಿಯಾರ;ಕಾಲವಲಯ;ಸ್ಥಳ;"
 
@@ -1162,18 +1162,18 @@ msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗ�
 msgid "_Arrange Combined Displays"
 msgstr "ಸಂಯೋಜಿತತ ಪ್ರದರ್ಶಕಗಳನ್ನು ಜೋಡಿಸು (_A)"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:1
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:1
 msgid "Displays"
 msgstr "ಪ್ರದರ್ಶಕಗಳು"
 
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:2
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:2
 msgid "Choose how to use connected monitors and projectors"
 msgstr ""
 "ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾದ ಮಾನಿಟರುಗಳ ಹಾಗು ಪ್ರೊಜೆಕ್ಟರುಗಳನ್ನು ಹೇಗೆ ಬಳಸಬೇಕು ಎನ್ನುವುದನ್ನು "
 "ಆರಿಸಿ"
 
 #. Translators: those are keywords for the display control-center panel
-#: ../panels/display/gnome-display-panel.desktop.in.in.h:4
+#: ../panels/display/scarecrow-display-panel.desktop.in.in.h:4
 msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
 msgstr "ಪ್ಯಾನಲ್;ಪ್ರೊಜೆಕ್ಟರ್;xrandr;ತೆರೆ;ರೆಸಲ್ಯೂಶನ್;ಪುನಶ್ಚೇತನ;ಪರದೆ;"
 
@@ -1473,7 +1473,7 @@ msgid "Eject"
 msgstr "ಹೊರತಳ್ಳು"
 
 #: ../panels/keyboard/01-input-sources.xml.in.h:1
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:20
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:20
 #: ../panels/universal-access/uap.ui.h:11
 msgid "Typing"
 msgstr "ಟೈಪಿಂಗ್"
@@ -1568,7 +1568,7 @@ msgid "Lock screen"
 msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡಿ"
 
 #: ../panels/keyboard/50-accessibility.xml.in.h:1
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:1
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:1
 msgid "Universal Access"
 msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ"
 
@@ -1635,103 +1635,103 @@ msgstr "ಕಂಪೋಸ್ ಕೀಲಿ"
 msgid "Modifiers-only switch to next source"
 msgstr "ಮಾರ್ಪಡಕ-ಕೇವಲ ಮುಂದಿನ ಆಕರಕ್ಕೆ ಬದಲಾಯಿಸು"
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:1
 msgid "Keyboard"
 msgstr "ಕೀಲಿಮಣೆ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:2
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:2
 msgid "View and change keyboard shortcuts and set your typing preferences"
 msgstr ""
 "ಕೀಲಿಮಣೆ ಸುಲಭಆಯ್ಕೆಗಳನ್ನು ನೋಡು ಹಾಗೂ ಬದಲಾಯಿಸು ಮತ್ತು ನಿಮ್ಮ ಟೈಪಿಂಗ್ ಆದ್ಯತೆಗಳನ್ನು "
 "ಹೊಂದಿಸು"
 
 #. Translators: those are keywords for the keyboard control-center panel
-#: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.desktop.in.in.h:4
 msgid "Shortcut;Repeat;Blink;"
 msgstr "ಶಾರ್ಟ್-ಕಟ್;ಪುನರಾವರ್ತನೆ;ಮಿಟುಕಿಸು;"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:1
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:1
 msgid "Custom Shortcut"
 msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:4
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:4
 msgid "_Name:"
 msgstr "ಹೆಸರು (_N):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:5
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:5
 msgid "C_ommand:"
 msgstr "ಆಜ್ಞೆ (_o):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:6
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:6
 msgid "Repeat Keys"
 msgstr "ಪುನರಾವರ್ತನಾ ಕೀಲಿಗಳು"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:7
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:7
 msgid "Key presses _repeat when key is held down"
 msgstr "ಕೀಲಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿದಾಗ ಕೀಲಿಗಳ ಒತ್ತುವಿಕೆಯನ್ನು ಪುನರಾವರ್ತಿಸು (_r)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:8
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:8
 msgid "_Delay:"
 msgstr "ವಿಳಂಬ (_D):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:9
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:9
 msgid "_Speed:"
 msgstr "ವೇಗ (_S):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:10
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:10
 msgctxt "keyboard, delay"
 msgid "Short"
 msgstr "ಚಿಕ್ಕದಾದ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:11
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:11
 msgctxt "keyboard, speed"
 msgid "Slow"
 msgstr "ನಿಧಾನ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:12
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:12
 msgid "Repeat keys speed"
 msgstr "ಪುನರಾವರ್ತನೆಯ ಕೀಲಿಗಳ ವೇಗ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:13
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:13
 msgctxt "keyboard, delay"
 msgid "Long"
 msgstr "ಉದ್ದವಾದ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:14
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:14
 msgctxt "keyboard, speed"
 msgid "Fast"
 msgstr "ವೇಗ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:15
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:15
 msgid "Cursor Blinking"
 msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವಿಕೆ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:16
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:16
 msgid "Cursor _blinks in text fields"
 msgstr "ತೆರೆಸೂಚಕವು ಪಠ್ಯ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮಿನುಗುತ್ತದೆ (_b)"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:17
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:17
 msgid "S_peed:"
 msgstr "ವೇಗ (_p):"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:18
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:18
 msgid "Cursor blink speed"
 msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವ ವೇಗ"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:19
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:19
 #: ../panels/region/region.ui.h:5
 msgid "Input Sources"
 msgstr "ಇನ್‌ಪುಟ್‌ ಆಕರಗಳು"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:21
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:21
 msgid "Add Shortcut"
 msgstr "ಸುಲಭಆಯ್ಕೆಯನ್ನು ಸೇರಿಸು"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:22
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:22
 msgid "Remove Shortcut"
 msgstr "ಸುಲಭಆಯ್ಕೆಯನ್ನು ತೆಗೆದುಹಾಕು"
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:23
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:23
 msgid ""
 "To edit a shortcut, click the row and hold down the new keys or press "
 "Backspace to clear."
@@ -1739,7 +1739,7 @@ msgstr ""
 "ಒಂದು ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಯನ್ನು ಸಂಪಾದಿಸಲು, ಸಾಲಿನಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ ಹಾಗು ಹೊಸ ಕೀಲಿಗಳನ್ನು "
 "ಒತ್ತಿಹಿಡಿಯಿರಿ ಅಥವ ಅಳಿಸಲು ಬ್ಯಾಕ್‍ಸ್ಪೇಸನ್ನು ಒತ್ತಿ."
 
-#: ../panels/keyboard/gnome-keyboard-panel.ui.h:24
+#: ../panels/keyboard/scarecrow-keyboard-panel.ui.h:24
 msgid "Shortcuts"
 msgstr "ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
 
@@ -1817,11 +1817,11 @@ msgstr "ನಿಮ್ಮ ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್�
 msgid "Test Your Settings"
 msgstr "ನಿಮ್ಮ ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:1
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:1
 msgid "Mouse & Touchpad"
 msgstr "ಮೌಸ್‌ ಹಾಗು ಟಚ್‌ಪ್ಯಾಡ್"
 
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:2
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:2
 msgid ""
 "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr ""
@@ -1829,7 +1829,7 @@ msgstr ""
 "ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
 
 #. Translators: those are keywords for the mouse and touchpad control-center panel
-#: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:4
+#: ../panels/mouse/scarecrow-mouse-panel.desktop.in.in.h:4
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "ಟ್ರ್ಯಾಕ್‌ಪ್ಯಾಡ್;ಸೂಚಕ;ಕ್ಲಿಕ್;ಟ್ಯಾಪ್;ಜೋಡಿ;ಗುಂಡಿ;ಟ್ರ್ಯಾಕ್‌ಬಾಲ್;ಸ್ಕ್ರಾಲ್;"
 
@@ -3597,18 +3597,18 @@ msgstr "ಲಾಕ್ ಮಾಡಿದ ತೆರೆಯಲ್ಲಿ ವಿವರಗ
 msgid "On"
 msgstr "ಚಾಲಿತ"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:1
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:1
 msgid "Notifications"
 msgstr "ಸೂಚನೆಗಳು"
 
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:2
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:2
 msgid "Control which notifications are displayed and what they show"
 msgstr ""
 "ಯಾವ ಸೂಚನೆಗಳನ್ನು ತೋರಿಸಬೇಕು ಮತ್ತು ಅವು ಏನನ್ನು ತೋರಿಸಬೇಕು ಎನ್ನುವುದನ್ನು "
 "ನಿಯಂತ್ರಿಸುತ್ತದೆ"
 
 #. Translators: those are keywords for the notifications control-center panel
-#: ../panels/notifications/gnome-notifications-panel.desktop.in.in.h:4
+#: ../panels/notifications/scarecrow-notifications-panel.desktop.in.in.h:4
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "ಸೂಚನೆಗಳು;ಬ್ಯಾನರ್;ಸಂದೇಶ;ಟ್ರೇ;ಪಾಪ್ಅಪ್;"
 
@@ -3683,11 +3683,11 @@ msgstr "ಇದು ಪರಿಚಾರಕದಿಂದ ಖಾತೆಯನ್ನು 
 msgid "_Remove"
 msgstr "ತೆಗೆದು ಹಾಕು (_R)"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:1
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:1
 msgid "Online Accounts"
 msgstr "ಅಂತರಜಾಲದಲ್ಲಿನ ಖಾತೆಗಳು"
 
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:2
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:2
 msgid "Connect to your online accounts and decide what to use them for"
 msgstr ""
 "ನಿಮ್ಮ ಆನ್‌ಲೈನ್ ಖಾತೆಗಳೊಂದಿಗೆ ಸಂಪರ್ಕ ಜೋಡಿಸಿ ಮತ್ತು ಅವುಗಳನ್ನು ಯಾವ ಕೆಲಸಕ್ಕೆ "
@@ -3695,7 +3695,7 @@ msgstr ""
 "ಎನ್ನುವುದನ್ನು ನಿರ್ಧರಿಸಿ"
 
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
-#: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:4
+#: ../panels/online-accounts/scarecrow-online-accounts-panel.desktop.in.in.h:4
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
 "Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
@@ -3967,17 +3967,17 @@ msgstr "ಆಫ್ ಮಾಡು"
 msgid "Devices"
 msgstr "ಸಾಧನಗಳು"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:1
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:1
 msgid "Power"
 msgstr "ವಿದ್ಯುಚ್ಛಕ್ತಿ"
 
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:2
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:2
 msgid "View your battery status and change power saving settings"
 msgstr ""
 "ಬ್ಯಾಟರಿ ಸ್ಥಿತಿಯನ್ನು ನೋಡು ಮತ್ತು ವಿದ್ಯುಚ್ಛಕ್ತಿ ಉಳಿಸುವ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸು"
 
 #. Translators: those are keywords for the power control-center panel
-#: ../panels/power/gnome-power-panel.desktop.in.in.h:4
+#: ../panels/power/scarecrow-power-panel.desktop.in.in.h:4
 msgid ""
 "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;"
 msgstr ""
@@ -4268,11 +4268,11 @@ msgstr "ಪ್ರಾಯೋಗಿಕ ಪುಟ"
 msgid "Could not load ui: %s"
 msgstr "ui ಅನ್ನುಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ: %s"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:1
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:1
 msgid "Printers"
 msgstr "ಮುದ್ರಕಗಳು"
 
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:2
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:2
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr ""
 "ಮುದ್ರಕಗಳನ್ನು ಸೇರಿಸಿ, ಮುದ್ರಣ ಕಾರ್ಯಗಳನ್ನು ನೋಡಿ ಮತ್ತು ನೀವು ಹೇಗೆ ಮುದ್ರಿಸಲು "
@@ -4280,7 +4280,7 @@ msgstr ""
 "ಎನ್ನುವುದನ್ನು ನಿರ್ಧರಿಸಿ"
 
 #. Translators: those are keywords for the printing control-center panel
-#: ../panels/printers/gnome-printers-panel.desktop.in.in.h:4
+#: ../panels/printers/scarecrow-printers-panel..desktop.in.in.h:4
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "ಮುದ್ರಕ;ಸರತಿ;ಮುದ್ರಣ;ಕಾಗದ;ಶಾಯಿ;ಟೋನರ್;"
 
@@ -4967,11 +4967,11 @@ msgstr "ಅಳತೆ"
 msgid "Paper"
 msgstr "ಕಾಗದ"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:1
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:1
 msgid "Region & Language"
 msgstr "ಪ್ರದೇಶ ಹಾಗು ಭಾಷೆ"
 
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:2
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:2
 msgid ""
 "Select your display language, formats, keyboard layouts and input sources"
 msgstr ""
@@ -4979,7 +4979,7 @@ msgstr ""
 "ಆರಿಸಿ"
 
 #. Translators: those are keywords for the region control-center panel
-#: ../panels/region/gnome-region-panel.desktop.in.in.h:4
+#: ../panels/region/scarecrow-region-panel.desktop.in.in.h:4
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "ಭಾಷೆ;ವಿನ್ಯಾಸ;ಕೀಲಿಮಣೆ;ಇನ್‌ಪುಟ್;"
 
@@ -5074,11 +5074,11 @@ msgstr "ಸರಿ (_O)"
 msgid "No applications found"
 msgstr "ಯಾವುದೆ ಅನ್ವಯಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:1
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:1
 msgid "Search"
 msgstr "ಹುಡುಕು"
 
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:2
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:2
 msgid ""
 "Control which applications show search results in the Activities Overview"
 msgstr ""
@@ -5087,7 +5087,7 @@ msgstr ""
 "ನಿಯಂತ್ರಿಸಿ"
 
 #. Translators: those are keywords for the search control-center panel
-#: ../panels/search/gnome-search-panel.desktop.in.in.h:4
+#: ../panels/search/scarecrow-search-panel.desktop.in.in.h:4
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "ಶೋಧಿಸು;ಹುಡುಕು;ಸೂಚಿ;ಅಡಗಿಸು;ಗೌಪ್ಯತೆ;ಫಲಿತಾಂಶಗಳು;"
 
@@ -5136,16 +5136,16 @@ msgstr "ಒಂದು ಕಡತಕೋಶವನ್ನು ಆರಿಸು"
 msgid "Copy"
 msgstr "ಪ್ರತಿಮಾಡು"
 
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:1
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:1
 msgid "Sharing"
 msgstr "ಹಂಚಿಕೆ"
 
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:2
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:2
 msgid "Control what you want to share with others"
 msgstr "ನೀವು ಬೇರೆಯವರೊಂದಿಗೆ ಏನನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವಿರಿ ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
 
 #. Translators: those are keywords for the sharing control-center panel
-#: ../panels/sharing/gnome-sharing-panel.desktop.in.in.h:4
+#: ../panels/sharing/scarecrow-sharing-panel.desktop.in.in.h:4
 msgid ""
 "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;"
 "pictures;photos;movies;server;renderer;"
@@ -5283,18 +5283,18 @@ msgstr "ಜಾಲಬಂಧದ ಮುಖಾಂತರ ಸಂಗೀತ, ಚಿತ�
 msgid "Folders"
 msgstr "ಕಡತಕೋಶಗಳು"
 
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:1
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:1
 msgid "Sound"
 msgstr "ಧ್ವನಿ"
 
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:2
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:2
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr ""
 "ಧ್ವನಿಯ ಪ್ರಮಾಣಗಳು, ಇನ್‌ಪುಟ್‌ಗಳು, ಔಟ್‌ಪುಟ್‌ಗಳು ಮತ್ತು ಎಚ್ಚರಿಕೆ ಸದ್ದುಗಳನ್ನು "
 "ಬದಲಾಯಿಸಿ"
 
 #. Translators: those are keywords for the sound control-center panel
-#: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:4
+#: ../panels/sound/data/scarecrow-sound-panel.desktop.in.in.h:4
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
 msgstr "ಕಾರ್ಡ್;ಧ್ವನಿವರ್ಧಕ;ಧ್ವನಿಪ್ರಮಾಣ;ಮಬ್ಬು;ಸಮತೋಲನ;ಬ್ಲೂಟೂತ್;ಹೆಡ್‌ಸೆಟ್;ಆಡಿಯೊ;"
 
@@ -5516,12 +5516,12 @@ msgstr "ಸಬ್‌ವೂಫರ್"
 msgid "Custom"
 msgstr "ಇಚ್ಛೆಯ"
 
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:2
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:2
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "ನೋಡಲು, ಕೇಳಲು, ಬರೆಯಲು, ತೋರಿಸಲು ಮತ್ತು ಕ್ಲಿಕ್ ಮಾಡಲು ಸುಲಭಗೊಳಿಸು"
 
 #. Translators: those are keywords for the universal access control-center panel
-#: ../panels/universal-access/gnome-universal-access-panel.desktop.in.in.h:4
+#: ../panels/universal-access/scarecrow-universal-access-panel.desktop.in.in.h:4
 msgid ""
 "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;size;"
 "AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
@@ -6114,16 +6114,16 @@ msgstr ""
 "ಓದುಗನನ್ನು "
 "ಬಳಸಿಕೊಂಡು ಪ್ರವೇಶಿಸಬಹುದಾಗಿದೆ."
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:1
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:1
 msgid "Users"
 msgstr "ಬಳಕೆದಾರರು"
 
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:2
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿ ಅಥವ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
 
 #. Translators: those are keywords for the user accounts control-center panel
-#: ../panels/user-accounts/data/gnome-user-accounts-panel.desktop.in.in.h:4
+#: ../panels/user-accounts/data/scarecrow-user-accounts-panel.desktop.in.in.h:4
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "ಪ್ರವೇಶ;ಹೆಸರು;ಬೆರಳಗುರುತ;ಅವತಾರ;ಲಾಂಛನ;ಮುಖ;ಗುಪ್ತಪದ;"
 
@@ -6891,19 +6891,19 @@ msgstr "ಪ್ರದರ್ಶಕ ಮ್ಯಾಪಿಂಗ್"
 msgid "Button"
 msgstr "ಗುಂಡಿ"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:1
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:1
 #: ../panels/wacom/gnome-wacom-properties.ui.h:8
 msgid "Wacom Tablet"
 msgstr "ವೇಕಾಮ್ ಕಿಸೆಗಣಕ (ಟ್ಯಾಬ್ಲೆಟ್)"
 
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:2
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:2
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "ಗ್ರಾಫಿಕ್ಸ್ ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳಿಗಾಗಿ ಗುಂಡಿಯ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ಸ್ಟೈಲಸ್ "
 "ಸಂವೇದಿಸೂಕ್ಷ್ಮತೆಯನ್ನು ಹೊಂದಿಸಿ"
 
 #. Translators: those are keywords for the wacom tablet control-center panel
-#: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:4
+#: ../panels/wacom/scarecrow-wacom-panel.desktop.in.in.h:4
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "ಟ್ಯಾಬ್ಲೆಟ್;ವೇಕಾಮ್;ಸ್ಟೈಲಸ್;ಉಜ್ಜುಗ;ಮೌಸ್;"
 
