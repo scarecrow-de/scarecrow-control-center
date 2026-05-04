@@ -167,7 +167,7 @@ render_at_size (GnomeBG *bg,
 
 GdkPixbuf *
 cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
-                                        ScarecrowDesktopThumbnailFactory *thumbs,
+                                        GnomeDesktopThumbnailFactory *thumbs,
                                         int                           width,
                                         int                           height,
                                         int                           scale_factor,
@@ -240,7 +240,7 @@ cc_background_item_get_frame_thumbnail (CcBackgroundItem             *item,
 
 GdkPixbuf *
 cc_background_item_get_thumbnail (CcBackgroundItem             *item,
-                                  ScarecrowDesktopThumbnailFactory *thumbs,
+                                  GnomeDesktopThumbnailFactory *thumbs,
                                   int                           width,
                                   int                           height,
                                   int                           scale_factor)

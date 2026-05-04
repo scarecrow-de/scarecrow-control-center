@@ -60,7 +60,7 @@ struct _CcAvatarChooser {
         guint num_cameras;
 #endif /* HAVE_CHEESE */
 
-        ScarecrowDesktopThumbnailFactory *thumb_factory;
+        GnomeDesktopThumbnailFactory *thumb_factory;
         GListStore *faces;
 
         ActUser *user;
@@ -166,7 +166,7 @@ file_chooser_response (CcAvatarChooser *self,
 
 static void
 update_preview (GtkFileChooser               *chooser,
-                ScarecrowDesktopThumbnailFactory *thumb_factory)
+                GnomeDesktopThumbnailFactory *thumb_factory)
 {
         gchar *uri;
 
