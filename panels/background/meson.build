@@ -98,11 +98,11 @@ deps = common_deps + [
 
 cflags += [
   '-DDATADIR="@0@"'.format(control_center_datadir),
-  '-Dgnome_DESKTOP_USE_UNSTABLE_API'
+  '-DGNOME_DESKTOP_USE_UNSTABLE_API'
 ]
 
 if gnome_desktop_dep.version().version_compare('>=3.35.4')
-  cflags += '-Dgnome_DESKTOP_BG_API_BREAK'
+  cflags += '-DGNOME_DESKTOP_BG_API_BREAK'
 endif
 
 panels_libs += static_library(

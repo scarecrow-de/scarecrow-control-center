@@ -28,7 +28,7 @@
 #include <math.h>
 #include <colord-session/cd-session.h>
 
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 
 #include "cc-color-calibrate.h"

@@ -26,7 +26,7 @@
 
 #include "scsd-device-manager.h"
 
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 
 #define CC_TYPE_WACOM_DEVICE (cc_wacom_device_get_type ())

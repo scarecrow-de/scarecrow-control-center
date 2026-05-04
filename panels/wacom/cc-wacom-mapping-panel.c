@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 #include <libscarecrow-desktop/scarecrow-rr-config.h>
 

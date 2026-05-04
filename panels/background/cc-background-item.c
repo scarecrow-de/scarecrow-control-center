@@ -156,7 +156,7 @@ render_at_size (ScarecrowBG *bg,
         GdkPixbuf *pixbuf;
 
         pixbuf = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, width, height);
-#ifdef gnome_DESKTOP_BG_API_BREAK
+#ifdef GNOME_DESKTOP_BG_API_BREAK
         gnome_bg_draw (bg, pixbuf);
 #else
         gnome_bg_draw (bg, pixbuf, gdk_screen_get_default (), FALSE);

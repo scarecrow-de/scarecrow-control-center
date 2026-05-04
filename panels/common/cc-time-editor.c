@@ -29,7 +29,7 @@
 # include "config.h"
 #endif
 
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-wall-clock.h>
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>

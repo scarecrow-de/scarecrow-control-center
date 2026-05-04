@@ -30,7 +30,7 @@
 #include "cc-timezone-map.h"
 #include "timedated.h"
 #include "date-endian.h"
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 
 #include <gdesktop-enums.h>
 #include <string.h>
@@ -1071,7 +1071,7 @@ cc_date_time_panel_init (CcDateTimePanel *self)
   self->clock_settings = g_settings_new (CLOCK_SCHEMA);
 
   /* setup the time itself */
-  self->clock_tracker = g_object_new (gnome_TYPE_WALL_CLOCK, NULL);
+  self->clock_tracker = g_object_new (GNOME_TYPE_WALL_CLOCK, NULL);
   g_signal_connect_object (self->clock_tracker, "notify::clock", G_CALLBACK (on_clock_changed), self, G_CONNECT_SWAPPED);
 
   clock_settings_changed_cb (self, CLOCK_FORMAT_KEY);

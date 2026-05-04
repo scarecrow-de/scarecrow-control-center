@@ -39,7 +39,7 @@
 
 #include "cc-common-language.h"
 
-#define gnome_DESKTOP_USE_UNSTABLE_API
+#define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-languages.h>
 #include <libscarecrow-desktop/scarecrow-xkb-info.h>
 
@@ -49,7 +49,7 @@
 
 #include <act/act.h>
 
-#define gnome_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
+#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
 #define KEY_INPUT_SOURCES        "sources"
 
 #define gnome_SYSTEM_LOCALE_DIR "io.github.scarecrow_de.system.locale"
@@ -1206,7 +1206,7 @@ update_modifiers_shortcut (CcRegionPanel *self)
 static void
 setup_input_section (CcRegionPanel *self)
 {
-        self->input_settings = g_settings_new (gnome_DESKTOP_INPUT_SOURCES_DIR);
+        self->input_settings = g_settings_new (GNOME_DESKTOP_INPUT_SOURCES_DIR);
 
         self->xkb_info = gnome_xkb_info_new ();
 
