@@ -8,4 +8,4 @@ Type=Application
 NoDisplay=true
 StartupNotify=true
 Categories=GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-ConnectivitySettings;
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=Scarecrow;Unity;
