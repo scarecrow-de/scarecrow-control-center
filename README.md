@@ -5,7 +5,7 @@
 Scarecrow Settings
 ====================
 
-Scarecrow Settings is GNOME's main interface for configuration of various aspects of your desktop.
+Scarecrow Settings is Scarecrow's main interface for configuration of various aspects of your desktop.
 
 ## Contributing
 
