@@ -415,13 +415,13 @@ cc_background_xml_load_list (CcBackgroundXml *data,
 			     gboolean         in_thread)
 {
   const char * const *system_data_dirs;
-  g_autofree gchar *g-datadir = NULL;
+  g_autofree gchar *datadir = NULL;
   gint i;
 
-  g-datadir = g_build_filename (g_get_user_data_dir (),
+  datadir = g_build_filename (g_get_user_data_dir (),
                               "gnome-background-properties",
                               NULL);
-  cc_background_xml_load_from_dir (g-datadir, data, in_thread);
+  cc_background_xml_load_from_dir (datadir, data, in_thread);
 
   system_data_dirs = g_get_system_data_dirs ();
   for (i = 0; system_data_dirs[i]; i++) {
