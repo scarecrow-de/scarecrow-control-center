@@ -502,7 +502,7 @@ reload_sections (CcKeyboardManager *self)
 {
   GHashTable *loaded_files;
   GDir *dir;
-  gchar *default_wm_keybindings[] = { "Mutter", "GNOME Shell", NULL };
+  gchar *default_wm_keybindings[] = { "Vater", "GNOME Shell", NULL };
   g_auto(GStrv) wm_keybindings = NULL;
   const gchar * const * data_dirs;
   guint i;

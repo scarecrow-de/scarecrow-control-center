@@ -796,7 +796,7 @@ Bluetooth:
 - Center empty states in the panel
 
 Display:
-- Adapt to new Mutter interface with scaling per mode
+- Adapt to new Vater interface with scaling per mode
 
 Keyboard:
 - Fix several memory leaks

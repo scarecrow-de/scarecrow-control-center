@@ -1123,7 +1123,7 @@ check_remote_desktop_available (CcSharingPanel *self)
     return;
 
   self->remote_desktop_name_watch = g_bus_watch_name (G_BUS_TYPE_SESSION,
-                                                      "io.github.scarecrow_de.Mutter.RemoteDesktop",
+                                                      "io.github.scarecrow_de.Vater.RemoteDesktop",
                                                       G_BUS_NAME_WATCHER_FLAGS_NONE,
                                                       remote_desktop_name_appeared,
                                                       NULL,

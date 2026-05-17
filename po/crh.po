@@ -9084,8 +9084,8 @@ msgstr "Tercihler;Ayarlar;"
 #~ "Lütfen bilgisayarnı kene başlatqan soñ, yañı grafik sürücisi faal "
 #~ "olğanda, \"Körüniş/Masaüstü Effektleri\"ni yañıdan çaptırıñız."
 
-#~ msgid "<b>Mutter is running, can't switch to other effects.</b>"
-#~ msgstr "<b>Mutter çapa, diger effektlerge almaşılalmay.</b>"
+#~ msgid "<b>Vater is running, can't switch to other effects.</b>"
+#~ msgstr "<b>Vater çapa, diger effektlerge almaşılalmay.</b>"
 
 # tr
 #~ msgid "Place your left thumb on %s"

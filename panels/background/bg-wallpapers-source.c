@@ -78,13 +78,25 @@ load_default_bg (BgWallpapersSource *self)
 
   system_data_dirs = g_get_system_data_dirs ();
   for (i = 0; system_data_dirs[i]; i++) {
-    g_autofree gchar *filename = NULL;
+    g_autofree gchar *g-filename = NULL;
 
-    filename = g_build_filename (system_data_dirs[i],
+    g-filename = g_build_filename (system_data_dirs[i],
 				 "gnome-background-properties",
 				 "adwaita.xml",
 				 NULL);
-    if (cc_background_xml_load_xml (self->xml, filename))
+    if (cc_background_xml_load_xml (self->xml, g-filename))
+      break;
+  }
+
+  system_data_dirs = g_get_system_data_dirs ();
+  for (i = 0; system_data_dirs[i]; i++) {
+    g_autofree gchar *sc-filename = NULL;
+
+    sc-filename = g_build_filename (system_data_dirs[i],
+				 "scarecrow-background-properties",
+				 "adwaita.xml",
+				 NULL);
+    if (cc_background_xml_load_xml (self->xml, sc-filename))
       break;
   }
 }
