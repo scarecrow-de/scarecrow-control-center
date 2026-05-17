@@ -423,27 +423,13 @@ cc_background_xml_load_list (CcBackgroundXml *data,
                               NULL);
   cc_background_xml_load_from_dir (g-datadir, data, in_thread);
 
-  g_autofree gchar *sc-datadir = NULL;
-  gint i;
-
-  sc-datadir = g_build_filename (g_get_user_data_dir (),
-                              "scarecrow-background-properties",
-                              NULL);
-  cc_background_xml_load_from_dir (sc-datadir, data, in_thread);
-
   system_data_dirs = g_get_system_data_dirs ();
   for (i = 0; system_data_dirs[i]; i++) {
-    g_autofree gchar *g-sdatadir = NULL;
-    g-sdatadir = g_build_filename (system_data_dirs[i],
+    g_autofree gchar *sdatadir = NULL;
+    sdatadir = g_build_filename (system_data_dirs[i],
                                 "gnome-background-properties",
 				NULL);
-    cc_background_xml_load_from_dir (g-sdatadir, data, in_thread);
-
-	g_autofree gchar *sc-sdatadir = NULL;
-    sc-sdatadir = g_build_filename (system_data_dirs[i],
-                                "scarecrow-background-properties",
-				NULL);
-    cc_background_xml_load_from_dir (sc-sdatadir, data, in_thread);
+    cc_background_xml_load_from_dir (sdatadir, data, in_thread);
   }
 }
 
