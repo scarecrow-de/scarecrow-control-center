@@ -31,7 +31,7 @@
 #include <gio/gio.h>
 #include <grilo.h>
 #include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #define ATTRIBUTES G_FILE_ATTRIBUTE_STANDARD_NAME "," \
 	G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE "," \

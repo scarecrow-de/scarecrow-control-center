@@ -32,7 +32,7 @@
 #include "date-endian.h"
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <string.h>
 #include <stdlib.h>
 #include <libintl.h>

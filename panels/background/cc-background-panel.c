@@ -25,7 +25,7 @@
 #include <glib/gi18n-lib.h>
 #include <glib/gstdio.h>
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include "cc-background-panel.h"
 

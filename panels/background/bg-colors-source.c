@@ -26,7 +26,7 @@
 
 #include <cairo-gobject.h>
 #include <glib/gi18n-lib.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 struct _BgColorsSource
 {

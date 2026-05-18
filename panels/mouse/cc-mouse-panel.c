@@ -21,7 +21,7 @@
  *
  */
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <gtk/gtk.h>
 
 #include "cc-mouse-caps-helper.h"

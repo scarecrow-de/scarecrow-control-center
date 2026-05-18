@@ -23,7 +23,7 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <stdlib.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <math.h>
 #include <handy.h>
 

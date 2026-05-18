@@ -25,7 +25,7 @@
 #include "cc-wacom-stylus-page.h"
 #include "cc-wacom-nav-button.h"
 #include <gtk/gtk.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include <string.h>
 

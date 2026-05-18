@@ -25,7 +25,7 @@
 
 #include <math.h>
 #include <glib/gi18n-lib.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include "list-box-helper.h"
 #include "cc-ua-panel.h"

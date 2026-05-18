@@ -22,9 +22,9 @@
 #include <gio/gio.h>
 #include <string.h>
 #include <libxml/parser.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
-#include "gdesktop-enums-types.h"
+#include "scdesktop-enums-types.h"
 #include "cc-background-item.h"
 #include "cc-background-xml.h"
 

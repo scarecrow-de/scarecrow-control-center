@@ -27,7 +27,7 @@
 
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #ifdef GDK_WINDOWING_X11
 #include <gdk/gdkx.h>
 #endif

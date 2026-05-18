@@ -27,10 +27,10 @@
 #include <glib/gi18n-lib.h>
 
 #include <libscarecrow-desktop/scarecrow-bg.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include "cc-background-item.h"
-#include "gdesktop-enums-types.h"
+#include "scdesktop-enums-types.h"
 
 struct _CcBackgroundItem
 {

@@ -20,7 +20,7 @@
 #pragma once
 
 #include <gtk/gtk.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 G_BEGIN_DECLS
 

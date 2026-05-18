@@ -20,7 +20,7 @@
 
 #include "config.h"
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <math.h>

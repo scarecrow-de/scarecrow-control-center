@@ -33,9 +33,9 @@ install_data(
 
 common_sources = []
 
-enums = 'gdesktop-enums-types'
+enums = 'scdesktop-enums-types'
 enums_header = files(
-  gsettings_desktop_dep.get_pkgconfig_variable('prefix') + '/include/scarecrow-gsettings-desktop-schemas/gdesktop-enums.h',
+  gsettings_desktop_dep.get_pkgconfig_variable('prefix') + '/include/scarecrow-gsettings-desktop-schemas/scdesktop-enums.h',
   'cc-background-item.h'
 )
 
@@ -51,7 +51,7 @@ common_sources += gnome.mkenums(
 common_sources += gnome.mkenums(
   enums + '.c',
   sources: enums_header,
-  fhead: '#include <gdesktop-enums.h>\n#include "gdesktop-enums-types.h"\n#include "cc-background-item.h"',
+  fhead: '#include <scdesktop-enums.h>\n#include "scdesktop-enums-types.h"\n#include "cc-background-item.h"',
   fprod: '\n/* enumerations from "@filename@" */',
   vhead: 'GType\n@enum_name@_get_type (void)\n{\n  static GType etype = 0;\n  if (etype == 0) {\n    static const G@Type@Value values[] = {',
   vprod: '      { @VALUENAME@, "@VALUENAME@", "@valuenick@" },',
